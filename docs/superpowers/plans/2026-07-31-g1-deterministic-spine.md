@@ -14,7 +14,7 @@
 
 ---
 
-## G0 checklist (human, not code — KP; may run in parallel with any task)
+## G0 checklist (human, not code — PO; may run in parallel with any task)
 
 - [ ] OD-1: FS corpus phone call — volume, format, date range; fit/no-fit call; fallback path chosen
 - [ ] Second-lab provider account + billing stood up
@@ -1390,7 +1390,7 @@ Add to `docs/CIX_PRD_v1_2026-07-31.md` changelog: `- **<date> — G1 exit.** Det
 1. `uv run pytest -q` — full suite green.
 2. Determinism spot-check beyond the property test: `uv run cix index tests/fixtures/corpus --out /tmp/r1 && uv run cix index tests/fixtures/corpus --out /tmp/r2` → identical `canonical_hash` in both outputs.
 3. Evidence gate honesty check: edit a fixture quote by one character in a scratch claims file → `cix verify` drops it (exact match, not fuzzy).
-4. G0 human checklist items are KP's and do not block any task here.
+4. G0 human checklist items are PO's and do not block any task here.
 
 ## What the next plan (G2) will need from this one
 

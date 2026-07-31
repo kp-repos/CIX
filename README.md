@@ -33,11 +33,13 @@ Four independently versioned knowledge artifacts, all plain-language config: **i
 | [`docs/CIX_PRD_v1_2026-07-31.md`](docs/CIX_PRD_v1_2026-07-31.md) | **The build contract** (v1.2, ratified). Self-contained requirements, scope matrix, gate sequence, threshold protocol, acceptance matrix |
 | [`docs/CIX_BRAINSTORM_OUTPUT_2026-07-31.md`](docs/CIX_BRAINSTORM_OUTPUT_2026-07-31.md) | **Governing design record** (rev 2.3). Rationale and ratified rulings |
 | [`docs/superpowers/plans/2026-07-31-g1-deterministic-spine.md`](docs/superpowers/plans/2026-07-31-g1-deterministic-spine.md) | **G1 implementation plan** — 12 TDD tasks building the deterministic spine (no model calls) |
+| [`docs/reference/`](docs/reference/) | Vendored planning record: baseline spec, PRD input pack, swap catalogue schema, opportunity library, and adversarial reviews (`reviews/`) |
 
 ## Governance
 
-- This repo's `docs/` is **canonical**; the iCloud Cowork folder copy is a mirror. Earlier planning docs (POC scopes, opportunity library, swap catalogue, PRD input pack) live in that folder as background.
+- **This repository is self-contained** — every document the PRD depends on lives here (`docs/` normative, `docs/reference/` background). No external folders are dependencies.
 - The design record governs; the PRD adds requirements, owners, and gates without silently changing rulings. Any PRD-ratified change to a design ruling is back-propagated to the design record in the same pass.
+- People appear by role (Product Owner, RevOps SME, Commercial Principal, Data Provider) — see the PRD's roles table (§0.2).
 - Build posture: narrowest end-to-end spine that can demo, MVP in a controlled environment, no calendar pressure — a dependency-ordered gate sequence (G0–G6) run as cycles allow.
 
 ## Next action

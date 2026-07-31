@@ -2,8 +2,8 @@
 
 **Purpose:** the governing design record from the 7/31 brainstorm, revised against the two pre-PRD review passes. The direct input to the PRD.
 **Inputs:** `CIX_BRAINSTORM_BRIEF_2026-07-31.md` (agenda §6 worked in full) · `CIX_PRD_Input_Pack_2026-07-31.md` (precedence rules, gaps, acceptance criteria) · Codex PRD-handoff redraft (2026-07-31).
-**Owner:** KP · **Sessions:** KP + Claude (brainstorm, 7/31); KP + Claude (revision, 7/31).
-**Status:** everything here is ratified by KP unless marked *open*. This is not the PRD; the PRD adds owners, thresholds, dates, and scope triage — it does not silently change a ruling.
+**Owner:** PO · **Sessions:** PO + Claude (brainstorm, 7/31); PO + Claude (revision, 7/31).
+**Status:** everything here is ratified by PO unless marked *open*. This is not the PRD; the PRD adds owners, thresholds, dates, and scope triage — it does not silently change a ruling.
 **Baseline note:** `CIX_POC_B_Sniffer_Scope_v2.md` survives as the baseline spec *except* where this doc rules otherwise — rubric item structure, output section order (§9 here supersedes scope v2 §4), and validation design. This doc is a rulings record, not a restatement of everything the baseline already says.
 
 ---
@@ -20,7 +20,7 @@
 
 ## 1 · Headline rulings
 
-1. **The rubric is unblocked.** The swap catalogue is upstream of the *priced view only*, not detection. Detection runs immediately on a stand-in catalogue; the Tracey session is an enrichment pass that doubles as the catalogue-swap proof, not a prerequisite.
+1. **The rubric is unblocked.** The swap catalogue is upstream of the *priced view only*, not detection. Detection runs immediately on a stand-in catalogue; the SME session is an enrichment pass that doubles as the catalogue-swap proof, not a prerequisite.
 2. **Validation is a product surface, not backstage QA.** A six-tier, ground-truth-free architecture replaces the planted-synthetic straw man, which survives demoted to one tier (instrument calibration).
 3. **Best-chance first corpus named:** Canadian financial-services customer-service transcripts — existing, old test data, informally cleared for test use (see §10 authorization ruling). First real run is therefore the *service* rubric.
 4. **Author order ≠ run order.** Sales rubric authored first (satisfies the lock); corpus-shaped service rubric authored second and runs first.
@@ -54,12 +54,12 @@ A rubric declares the schema and tag-vocabulary versions it requires; **the load
 |---|---|
 | Upstream of priced view only | `detection`/`unit_of_count` need no substitute; `swap_ref`/`effort`/`outcome`/remedy evidence join later, even post-run. |
 | Stand-in catalogue v0.1 | Pencilled effort/outcome bands; every unverified entry marked inferred with its source recorded. |
-| Tracey session = two jobs | Harvest new entries; stamp nullable `lifecycle_ref` crosswalks onto existing ones. Her taxonomy is a crosswalk, never the governing structure; unit disagreements are recorded, not auto-resolved in her favour. Quarantines the A21J-07 no-outsourcing-lens gap. |
+| SME extraction session = two jobs | Harvest new entries; stamp nullable `lifecycle_ref` crosswalks onto existing ones. Their taxonomy is a crosswalk, never the governing structure; unit disagreements are recorded, not auto-resolved in their favour. Quarantines the A21J-07 no-outsourcing-lens gap. |
 | Granularity: two-sided test | A labour unit is the **largest** chunk of work that (a) leaves a distinguishable signal in the record and (b) is replaced whole by one substitute. Split when a substitute covers part; merge when the record can't distinguish. |
 | Outcome | Corpus-measured count × catalogue per-unit value **band**. **The catalogue unit must be compatible with the rubric item's `unit_of_count`; incompatible joins fail validation** rather than pricing nonsense. |
 | Effort | Catalogue implementation band: config-change / integration / behaviour-change / capital. |
 | **Leverage = grid** (lock ruling) | Effort-band × outcome-band grid; corpus count breaks ties within a tier; Class D visibly high-effort/low-outcome. Scalar product rejected as fake precision. |
-| **Remedy-less findings: the shelf** | Findings with no catalogue join have no grid coordinates. They print on a **"no known remedy yet" shelf adjacent to the grid**, ranked by count within unit — the honest visual for what the Tracey enrichment pass will later move onto the grid. |
+| **Remedy-less findings: the shelf** | Findings with no catalogue join have no grid coordinates. They print on a **"no known remedy yet" shelf adjacent to the grid**, ranked by count within unit — the honest visual for what the SME enrichment pass will later move onto the grid. |
 | Evidence tier is buyer-facing | Remedies print as *confirmed in practice* / *candidate substitute* / **none yet**. |
 | Vertical handling | `vertical` tag per entry; small cross-industry core marked. Convergence *open* until two real catalogues exist. |
 | Field split | `remedy_class`/`effort`/`outcome` live in the **catalogue**, joined via `swap_ref` — never duplicated into rubric items. |
@@ -168,7 +168,7 @@ One decision artifact, six sections, attention order: **1 Highlights** (count, s
 5. **Calibration:** plants, nulls, loudness curves, deltas, predeclared gates.
 6. **Service rubric** authored; hot-swap proven with zero code changes.
 7. **First real run:** service rubric on the FS corpus, including the full-vs-10% self-test.
-8. **Catalogue-swap proof:** Tracey-enriched catalogue replaces the stand-in; remedy/priced view regenerates **without re-running detection**.
+8. **Catalogue-swap proof:** the RevOps SME-enriched catalogue replaces the stand-in; remedy/priced view regenerates **without re-running detection**.
 
 ## 12 · Abandon triggers and release gates
 
@@ -198,21 +198,21 @@ One decision artifact, six sections, attention order: **1 Highlights** (count, s
 
 | # | Decision | Owner | Resolve by |
 |---|---|---|---|
-| 1 | FS corpus facts: volume, date range, transcript format; record informal clearance in manifest (per §10 ruling — no written gate) | KP | Before real-data ingest |
-| 2 | Calibration thresholds: recovery tolerance, null-hallucination rate, loudness floor | KP + tech lead | Before calibration exit |
-| 3 | Every-run thresholds: escape-audit miss, self-agreement floor, drop-rate alarm, split-half, paraphrase | KP + tech lead | Before calibration exit |
-| 4 | Full-vs-10% spec: metrics, tolerances, sampling, seed count | KP + tech lead | Before first comparison |
+| 1 | FS corpus facts: volume, date range, transcript format; record informal clearance in manifest (per §10 ruling — no written gate) | PO | Before real-data ingest |
+| 2 | Calibration thresholds: recovery tolerance, null-hallucination rate, loudness floor | PO + tech lead | Before calibration exit |
+| 3 | Every-run thresholds: escape-audit miss, self-agreement floor, drop-rate alarm, split-half, paraphrase | PO + tech lead | Before calibration exit |
+| 4 | Full-vs-10% spec: metrics, tolerances, sampling, seed count | PO + tech lead | Before first comparison |
 | 5 | Primary + second-lab model selection; provider/region/retention/origin verification; F4 seat-vs-generator assignment | Tech/privacy | Before calibration exit |
 | 6 | Scrub-audit protocol and sample size; run-package access/retention controls | Privacy owner | Before real-data ingest |
-| 7 | Who pencils pre-Tracey per-unit value bands; which Opportunity Library formulas are admissible | KP | Before priced output |
-| 8 | Tracey session scheduling + harvest/crosswalk-stamp protocol | KP | Before catalogue-swap proof |
-| 9 | Menu ratification + findings→menu join consumed by drift triangulation | Mario/KP | Before service-rubric proof |
-| 10 | "Sharp operator" baseline + sponsor decision log for the decision test | KP | Before first real run |
-| 11 | Cost envelope + iteration budget behind "fair iteration" | KP | Before calibration begins |
+| 7 | Who pencils pre-SME-session per-unit value bands; which Opportunity Library formulas are admissible | PO | Before priced output |
+| 8 | SME extraction session scheduling + harvest/crosswalk-stamp protocol | PO | Before catalogue-swap proof |
+| 9 | Menu ratification + findings→menu join consumed by drift triangulation | the Commercial Principal/PO | Before service-rubric proof |
+| 10 | "Sharp operator" baseline + sponsor decision log for the decision test | PO | Before first real run |
+| 11 | Cost envelope + iteration budget behind "fair iteration" | PO | Before calibration begins |
 | 12 | Run-to-run compatibility and diff behavior across artifact-version changes | Tech lead | Before first repeat run |
-| 13 | Sales-side realism donor for the calibration corpus (CFPB is service-flavoured) | KP + tech lead | Before sales-rubric calibration |
-| 14 | **R1 scope triage against the calendar** (PRD Aug 31 / demo Sept 15): which tiers/artifacts are v1-gating vs deferred — every deferral carries a named reinstatement trigger; abandon triggers are not schedule-negotiable | KP, in the PRD | PRD |
-| 15 | Vertical catalogue convergence | KP | After two real catalogues |
+| 13 | Sales-side realism donor for the calibration corpus (CFPB is service-flavoured) | PO + tech lead | Before sales-rubric calibration |
+| 14 | **R1 scope triage against the calendar** (PRD Aug 31 / demo Sept 15): which tiers/artifacts are v1-gating vs deferred — every deferral carries a named reinstatement trigger; abandon triggers are not schedule-negotiable | PO, in the PRD | PRD |
+| 15 | Vertical catalogue convergence | PO | After two real catalogues |
 | 16 | Jurisdiction roadmap beyond the Canadian baseline | Privacy owner | Post-MVP |
 
 ## 15 · Artifacts the PRD must mandate
@@ -250,8 +250,8 @@ One decision artifact, six sections, attention order: **1 Highlights** (count, s
 
 ## Changelog
 
-- **2026-07-31 — rev 2.3.** Back-propagation from PRD v1.2 ratification decisions (per the governance rule that PRD-ratified changes to design rulings revise this record in the same pass): §9 format ruling amended — HTML evidence companion deferred to first engagement (KP, OD-4); MVP falsifiability = stable snippet IDs + live store query. — Claude
-- **2026-07-31 — rev 2.2.** From the PRD adversarial reviews (Cowork red team + Codex): fixed the analytical-stability artifact keying (labels were keyed by a tuple including the rubric, contradicting label reuse across rubric swaps — now two separately-keyed artifacts); added the hostile-input design principle to §10 as a recorded new decision (controlled-MVP deferral of adversarial fixtures); regularized the version string (the baseline-note edit of rev 2.1 was committed without a changelog entry — recorded here). Canonical location: `Projects_gh/CIX/docs/`; the Cowork folder copy is a mirror. — Claude
-- **2026-07-31 — rev 2.1.** Restored the baseline/supersession note (scope v2 survives except rubric item structure, output order, validation design) lost in the Cowork-copy overwrite. — Claude
-- **2026-07-31 — rev 2.** Revised against the two pre-PRD review passes: `CIX_PRD_Input_Pack_2026-07-31.md` (Cowork) and the Codex PRD-handoff redraft. **Adopted:** product frame (§0); two-pass/hot-swap contract formalization; unit-compatibility validation on catalogue joins; "none yet" remedy tier + no-remedy-yet shelf; reproducibility split into three meanings; coverage denominator scheme; pre-registration discipline + threshold register; release gates split from abandon triggers; F4 generator/audit-seat collusion rule; O(1) claim bounded to model-call cost; scrubbed-excerpt evidence framing; merged 16-item open-decision register; merged artifact list; acceptance-criteria section; calendar (R1) triage carried to PRD. **Four KP rulings this revision:** (1) logical-content equality replaces byte-identical SQLite as the normative index test; (2) corpus authorization stays informal — Codex's written gate rejected for MVP, clearance recorded in manifest; (3) v1 residual characterization = frontier-LLM grouping, embeddings stay v1.5; (4) Codex coverage-denominator scheme ratified. No §2 (Input Pack) ratified position rolled back. — Claude
-- **2026-07-31 — rev 1.** Created as the output record of the KP+Claude design brainstorm (brief agenda §6 worked in full). All rulings ratified in-session. Development repo established at `Projects_gh/CIX`. — Claude
+- **2026-07-31 — rev 2.3.** Back-propagation from PRD v1.2 ratification decisions (per the governance rule that PRD-ratified changes to design rulings revise this record in the same pass): §9 format ruling amended — HTML evidence companion deferred to first engagement (PO, OD-4); MVP falsifiability = stable snippet IDs + live store query.
+- **2026-07-31 — rev 2.2.** From the PRD adversarial reviews (Cowork red team + Codex): fixed the analytical-stability artifact keying (labels were keyed by a tuple including the rubric, contradicting label reuse across rubric swaps — now two separately-keyed artifacts); added the hostile-input design principle to §10 as a recorded new decision (controlled-MVP deferral of adversarial fixtures); regularized the version string (the baseline-note edit of rev 2.1 was committed without a changelog entry — recorded here). Canonical location: `Projects_gh/CIX/docs/`; the Cowork folder copy is a mirror.
+- **2026-07-31 — rev 2.1.** Restored the baseline/supersession note (scope v2 survives except rubric item structure, output order, validation design) lost in the Cowork-copy overwrite.
+- **2026-07-31 — rev 2.** Revised against the two pre-PRD review passes: `CIX_PRD_Input_Pack_2026-07-31.md` (Cowork) and the Codex PRD-handoff redraft. **Adopted:** product frame (§0); two-pass/hot-swap contract formalization; unit-compatibility validation on catalogue joins; "none yet" remedy tier + no-remedy-yet shelf; reproducibility split into three meanings; coverage denominator scheme; pre-registration discipline + threshold register; release gates split from abandon triggers; F4 generator/audit-seat collusion rule; O(1) claim bounded to model-call cost; scrubbed-excerpt evidence framing; merged 16-item open-decision register; merged artifact list; acceptance-criteria section; calendar (R1) triage carried to PRD. **Four PO rulings this revision:** (1) logical-content equality replaces byte-identical SQLite as the normative index test; (2) corpus authorization stays informal — Codex's written gate rejected for MVP, clearance recorded in manifest; (3) v1 residual characterization = frontier-LLM grouping, embeddings stay v1.5; (4) Codex coverage-denominator scheme ratified. No §2 (Input Pack) ratified position rolled back.
+- **2026-07-31 — rev 1.** Created as the output record of the PO+Claude design brainstorm (brief agenda §6 worked in full). All rulings ratified in-session. Development repo established at `Projects_gh/CIX`.
