@@ -4,6 +4,7 @@
 **Inputs:** `CIX_BRAINSTORM_BRIEF_2026-07-31.md` (agenda §6 worked in full) · `CIX_PRD_Input_Pack_2026-07-31.md` (precedence rules, gaps, acceptance criteria) · Codex PRD-handoff redraft (2026-07-31).
 **Owner:** KP · **Sessions:** KP + Claude (brainstorm, 7/31); KP + Claude (revision, 7/31).
 **Status:** everything here is ratified by KP unless marked *open*. This is not the PRD; the PRD adds owners, thresholds, dates, and scope triage — it does not silently change a ruling.
+**Baseline note:** `CIX_POC_B_Sniffer_Scope_v2.md` survives as the baseline spec *except* where this doc rules otherwise — rubric item structure, output section order (§9 here supersedes scope v2 §4), and validation design. This doc is a rulings record, not a restatement of everything the baseline already says.
 
 ---
 
