@@ -1,4 +1,4 @@
-# CIX Brainstorm Output — 2026-07-31 · rev 2
+# CIX Brainstorm Output — 2026-07-31 · rev 2.2
 
 **Purpose:** the governing design record from the 7/31 brainstorm, revised against the two pre-PRD review passes. The direct input to the PRD.
 **Inputs:** `CIX_BRAINSTORM_BRIEF_2026-07-31.md` (agenda §6 worked in full) · `CIX_PRD_Input_Pack_2026-07-31.md` (precedence rules, gaps, acceptance criteria) · Codex PRD-handoff redraft (2026-07-31).
@@ -99,7 +99,7 @@ A rubric declares the schema and tag-vocabulary versions it requires; **the load
 
 1. **Index determinism:** same canonical scrubbed corpus + same index version → identical *logical content*: snippets, IDs, hashes, tags. **The normative property test is logical-content equality** — a canonical hash over that logical content, required to match across environments. Byte-identical SQLite output is *not promised* (bytes vary with timestamps, library versions, page settings, insertion order); it may run as a non-normative check in a pinned CI environment.
 2. **Sample reproducibility:** every sample is seeded; seeds live in the run manifest.
-3. **Analytical stability:** classification is written once per declared (corpus, schema, rubric, model, prompts) tuple; downstream questions read the artifact, never silently make new calls. Persistence *contains* model nondeterminism — it does not prove a fresh re-run would judge identically. That residual risk is what the stability and self-agreement audits measure.
+3. **Analytical stability:** classification is written once as two separately-keyed immutable artifacts — **schema labels keyed by (corpus, index version, schema, model, prompts), rubric hits keyed by (label artifact, rubric, model, prompts)** — so labels are reusable across rubric swaps by construction. Downstream questions read the artifacts, never silently make new calls. Persistence *contains* model nondeterminism — it does not prove a fresh re-run would judge identically. That residual risk is what the stability and self-agreement audits measure.
 
 **6.5 Manifest and drop log.** Manifest: canonical scrubbed-corpus hash, four artifact versions, model/provider version, prompt hashes, thresholds, seeds, privacy-gate status, corpus-clearance record (§10). Drop log: evidence-gate failures never publish, but every drop writes a row — what died, which check, what it claimed. Drop rate above threshold is a visible run-health signal. (This resolves the recall-vs-silent-drop lock interaction.)
 
@@ -154,6 +154,7 @@ One decision artifact, six sections, attention order: **1 Highlights** (count, s
 - **PII boundary rule: nothing unscrubbed ever persists** — not store, logs, traces, or caches. Scrub transiently at ingest: deterministic patterns (accounts, cards, national IDs, phones, emails) + NER (names, addresses) + sampled human scrub audit per corpus under a predeclared protocol. **Linkage identifiers salted-hash pseudonymized, not deleted** — `chain` survives, identity doesn't.
 - **PIPEDA is the Canadian MVP design baseline**, subject to qualified privacy/legal review; the architecture is a posture, not a compliance certification. Other jurisdictions: tracked matrix, post-MVP.
 - **The scrub stage ships even for cleared test data** — privacy-preserving ingest is itself part of the capability proof.
+- **Hostile-input principle (design-stage, rev 2.2):** corpus text, labels, and excerpts are always data, never instruction — the pipeline delimits them from system/task prompts, and evidence rendering escapes corpus-supplied markup. Adversarial fixtures (prompt-injection, payload-bearing excerpts) are required **before the first uncontrolled corpus**; in the controlled MVP environment they are a noted deferral, not a build item.
 
 ## 11 · Scale and delivery sequence
 
@@ -249,5 +250,7 @@ One decision artifact, six sections, attention order: **1 Highlights** (count, s
 
 ## Changelog
 
+- **2026-07-31 — rev 2.2.** From the PRD adversarial reviews (Cowork red team + Codex): fixed the analytical-stability artifact keying (labels were keyed by a tuple including the rubric, contradicting label reuse across rubric swaps — now two separately-keyed artifacts); added the hostile-input design principle to §10 as a recorded new decision (controlled-MVP deferral of adversarial fixtures); regularized the version string (the baseline-note edit of rev 2.1 was committed without a changelog entry — recorded here). Canonical location: `Projects_gh/CIX/docs/`; the Cowork folder copy is a mirror. — Claude
+- **2026-07-31 — rev 2.1.** Restored the baseline/supersession note (scope v2 survives except rubric item structure, output order, validation design) lost in the Cowork-copy overwrite. — Claude
 - **2026-07-31 — rev 2.** Revised against the two pre-PRD review passes: `CIX_PRD_Input_Pack_2026-07-31.md` (Cowork) and the Codex PRD-handoff redraft. **Adopted:** product frame (§0); two-pass/hot-swap contract formalization; unit-compatibility validation on catalogue joins; "none yet" remedy tier + no-remedy-yet shelf; reproducibility split into three meanings; coverage denominator scheme; pre-registration discipline + threshold register; release gates split from abandon triggers; F4 generator/audit-seat collusion rule; O(1) claim bounded to model-call cost; scrubbed-excerpt evidence framing; merged 16-item open-decision register; merged artifact list; acceptance-criteria section; calendar (R1) triage carried to PRD. **Four KP rulings this revision:** (1) logical-content equality replaces byte-identical SQLite as the normative index test; (2) corpus authorization stays informal — Codex's written gate rejected for MVP, clearance recorded in manifest; (3) v1 residual characterization = frontier-LLM grouping, embeddings stay v1.5; (4) Codex coverage-denominator scheme ratified. No §2 (Input Pack) ratified position rolled back. — Claude
 - **2026-07-31 — rev 1.** Created as the output record of the KP+Claude design brainstorm (brief agenda §6 worked in full). All rulings ratified in-session. Development repo established at `Projects_gh/CIX`. — Claude
