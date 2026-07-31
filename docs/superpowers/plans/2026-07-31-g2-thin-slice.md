@@ -399,6 +399,13 @@ def test_scripted_client_matches_on_prompt_substring():
     out = complete_json(c, "label this: <interaction id=g2-g2-000>...</interaction>")
     assert out == {"ok": 1}
 
+def test_conjunctive_keys_route_by_prompt_kind():
+    # "&&" joins substrings that must ALL be present — lets one client serve
+    # label, hit, and synthesis prompts for the same interaction without collision
+    c = ScriptedClient({"labeling&&id=x1": '{"a": 1}', "detecting&&id=x1": '{"b": 2}'})
+    assert complete_json(c, "You are labeling ... <interaction id=x1>") == {"a": 1}
+    assert complete_json(c, "You are detecting ... <interaction id=x1> [x1:0000]") == {"b": 2}
+
 def test_malformed_then_valid_retries_once():
     c = ScriptedClient(sequence=["not json at all", '{"ok": 2}'])
     assert complete_json(c, "anything") == {"ok": 2}
@@ -447,7 +454,7 @@ class ScriptedClient:
         if self.sequence:
             return self.sequence.pop(0)
         for key, resp in self.mapping.items():
-            if key in prompt:
+            if all(part in prompt for part in key.split("&&")):
                 return resp
         raise AssertionError(f"ScriptedClient has no response for prompt: {prompt[:120]}...")
 
@@ -484,7 +491,7 @@ def complete_json(client: ModelClient, prompt: str) -> dict:
 
 - [ ] **Step 5: Run tests, then commit**
 
-Run: `uv run pytest tests/test_model.py -q` → `4 passed`
+Run: `uv run pytest tests/test_model.py -q` → `5 passed`
 
 ```bash
 git add pyproject.toml uv.lock src/cix/model.py tests/test_model.py
@@ -1672,8 +1679,10 @@ def build_mapping(corpus_dir: Path) -> dict[str, str]:
             labels = {"motion": "service", "intent": "missing statement", "driver_origin": "internal_defect",
                       "automatability": "assisted", "outcome": "resolved", "handoff_events": []}
             hits = [{"item_id": "clean_first_contact_resolution", "snippet_ids": f"{uid}:0002"}]
-        mapping[f"<interaction id={uid}>\n"] = json.dumps(labels)          # label prompt
-        mapping[f"[{uid}:0000]"] = json.dumps({"hits": hits})              # hit prompt (body lines carry ids)
+        # Conjunctive keys ("&&") route by prompt kind + interaction id — a hit prompt
+        # also contains the interaction tag, so kind-markers are required to disambiguate.
+        mapping[f"You are labeling&&<interaction id={uid}>"] = json.dumps(labels)
+        mapping[f"You are detecting&&<interaction id={uid}>"] = json.dumps({"hits": hits})
     return mapping
 
 def synthesis_mapping(corpus_dir: Path) -> dict[str, str]:
