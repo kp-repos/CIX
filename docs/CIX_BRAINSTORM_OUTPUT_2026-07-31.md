@@ -1,4 +1,4 @@
-# CIX Brainstorm Output — 2026-07-31 · rev 2.2
+# CIX Brainstorm Output — 2026-07-31 · rev 2.3
 
 **Purpose:** the governing design record from the 7/31 brainstorm, revised against the two pre-PRD review passes. The direct input to the PRD.
 **Inputs:** `CIX_BRAINSTORM_BRIEF_2026-07-31.md` (agenda §6 worked in full) · `CIX_PRD_Input_Pack_2026-07-31.md` (precedence rules, gaps, acceptance criteria) · Codex PRD-handoff redraft (2026-07-31).
@@ -25,7 +25,7 @@
 3. **Best-chance first corpus named:** Canadian financial-services customer-service transcripts — existing, old test data, informally cleared for test use (see §10 authorization ruling). First real run is therefore the *service* rubric.
 4. **Author order ≠ run order.** Sales rubric authored first (satisfies the lock); corpus-shaped service rubric authored second and runs first.
 5. **The corpus claim gets a self-test.** Every run compares whole-corpus results with a seeded 10% sample under predeclared tests; part of the internal run artifact, recorded even when unfavorable.
-6. **The output is a versioned decision artifact** — PDF primary, self-contained HTML evidence companion. Not a dashboard.
+6. **The output is a versioned decision artifact** — PDF primary; HTML evidence companion deferred to first engagement (rev 2.3, OD-4). Not a dashboard.
 7. **Honesty is buyer-facing.** Coverage, residuals, evidence tiers, mechanism status, unstable fields, and material audit failures are visible in the deliverable.
 
 ## 2 · Architecture — two passes, four artifacts, one contract
@@ -144,7 +144,7 @@ The claim survives where the whole corpus adds a decision-relevant result: a rar
 
 One decision artifact, six sections, attention order: **1 Highlights** (count, share *with denominator*, grid position or shelf, remedy + evidence tier, mechanism status, evidence link) · **2 What's working** (early; proves it isn't a deficiency-only detector) · **3 Leverage grid** (+ the no-remedy-yet shelf; Class D named — "what to ignore" is deliverable) · **4 Priced plays** (grouped by unit, never cross-summed) · **5 Full distribution + coverage** (all tallies; interaction coverage; per-unit coverage where defined; residual clusters; saturation; full-vs-10% result) · **6 Open flags + method page** (manifest summary, audit statistics, unstable fields, threshold failures, drop counts).
 
-**Format:** PDF primary; self-contained HTML evidence companion where citations expand inline to **faithful scrubbed excerpts with context** (string-matched against the scrubbed store — not represented as untouched raw source). Both render from the same persisted run and name the same manifest. The HTML inherits the run package's access/retention controls. Not a dashboard: a versioned, dated, diffable **run artifact** — the "did it stick" re-measure is a mechanical diff of compatible runs; run-to-run compatibility across artifact-version changes is a PRD item.
+**Format (amended rev 2.3, per PRD OD-4):** PDF primary. The self-contained HTML evidence companion — citations expanding inline to **faithful scrubbed excerpts with context** (string-matched against the scrubbed store, not represented as untouched raw source) — is **deferred to the first engagement deliverable**; in the MVP, falsifiability-by-click is served by stable snippet IDs plus a live query against the run store. When the HTML companion ships, it renders from the same persisted run, names the same manifest, and inherits the run package's access/retention controls. Not a dashboard: a versioned, dated, diffable **run artifact** — the "did it stick" re-measure is a mechanical diff of compatible runs; run-to-run compatibility across artifact-version changes is a PRD item.
 
 ## 10 · Corpus, privacy, authorization
 
@@ -250,6 +250,7 @@ One decision artifact, six sections, attention order: **1 Highlights** (count, s
 
 ## Changelog
 
+- **2026-07-31 — rev 2.3.** Back-propagation from PRD v1.2 ratification decisions (per the governance rule that PRD-ratified changes to design rulings revise this record in the same pass): §9 format ruling amended — HTML evidence companion deferred to first engagement (KP, OD-4); MVP falsifiability = stable snippet IDs + live store query. — Claude
 - **2026-07-31 — rev 2.2.** From the PRD adversarial reviews (Cowork red team + Codex): fixed the analytical-stability artifact keying (labels were keyed by a tuple including the rubric, contradicting label reuse across rubric swaps — now two separately-keyed artifacts); added the hostile-input design principle to §10 as a recorded new decision (controlled-MVP deferral of adversarial fixtures); regularized the version string (the baseline-note edit of rev 2.1 was committed without a changelog entry — recorded here). Canonical location: `Projects_gh/CIX/docs/`; the Cowork folder copy is a mirror. — Claude
 - **2026-07-31 — rev 2.1.** Restored the baseline/supersession note (scope v2 survives except rubric item structure, output order, validation design) lost in the Cowork-copy overwrite. — Claude
 - **2026-07-31 — rev 2.** Revised against the two pre-PRD review passes: `CIX_PRD_Input_Pack_2026-07-31.md` (Cowork) and the Codex PRD-handoff redraft. **Adopted:** product frame (§0); two-pass/hot-swap contract formalization; unit-compatibility validation on catalogue joins; "none yet" remedy tier + no-remedy-yet shelf; reproducibility split into three meanings; coverage denominator scheme; pre-registration discipline + threshold register; release gates split from abandon triggers; F4 generator/audit-seat collusion rule; O(1) claim bounded to model-call cost; scrubbed-excerpt evidence framing; merged 16-item open-decision register; merged artifact list; acceptance-criteria section; calendar (R1) triage carried to PRD. **Four KP rulings this revision:** (1) logical-content equality replaces byte-identical SQLite as the normative index test; (2) corpus authorization stays informal — Codex's written gate rejected for MVP, clearance recorded in manifest; (3) v1 residual characterization = frontier-LLM grouping, embeddings stay v1.5; (4) Codex coverage-denominator scheme ratified. No §2 (Input Pack) ratified position rolled back. — Claude
