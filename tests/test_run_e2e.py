@@ -81,3 +81,11 @@ def test_dependency_failure_before_any_model_call(tmp_path, monkeypatch):
         'label_schema_version: "1.0.0"', 'label_schema_version: "9.9.9"'))
     rc = main(["run", str(FIX / "corpus_g2"), "--rubric", str(bad_rubric), "--out", str(tmp_path / "r")])
     assert rc == 2 and calls["n"] == 0  # AC-5
+
+def test_calibrate_missing_paths_return_2(tmp_path, capsys):
+    from cix.cli import main
+    # no manifest.json in run dir
+    (tmp_path / "run").mkdir()
+    rc = main(["calibrate", str(tmp_path / "run"), "--calibration", str(tmp_path / "cal"),
+               "--split", "dev"])
+    assert rc == 2

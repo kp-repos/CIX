@@ -187,10 +187,21 @@ def _cmd_generate_calibration(args) -> int:
 
 def _cmd_calibrate(args) -> int:
     run_dir, cal_dir = Path(args.run), Path(args.calibration)
-    manifest = json.loads((run_dir / "manifest.json").read_text(encoding="utf-8"))
+    manifest_path = run_dir / "manifest.json"
+    if not manifest_path.exists():
+        print(f"error: no manifest.json in {run_dir} (is this a cix run output dir?)", file=sys.stderr)
+        return 2
+    truth_path = cal_dir / "truth.json"
+    if not truth_path.exists():
+        print(f"error: truth.json not found at {truth_path} (wrong --calibration path?)", file=sys.stderr)
+        return 2
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    if "artifacts" not in manifest:
+        print("error: run manifest has no 'artifacts' key — re-run with the current cix version", file=sys.stderr)
+        return 2
     store = open_store(run_dir / "run.db")
     hits = store.hits_for(manifest["artifacts"]["hits"])
-    truth = json.loads((cal_dir / "truth.json").read_text(encoding="utf-8"))
+    truth = json.loads(truth_path.read_text(encoding="utf-8"))
     spec = load_cal_spec(Path(args.spec))
     thresholds = load_thresholds(Path("configs/thresholds_v1.yaml"))
     vocab = load_vocabulary(VOCAB_PATH)
