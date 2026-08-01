@@ -6,10 +6,11 @@ import json
 import random
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Literal
 import yaml
 from pydantic import BaseModel
 from cix.contracts import InteractionUnit
-from cix.model import ModelClient, complete_json
+from cix.model import MalformedResponse, ModelClient, complete_json
 
 GEN_PROMPT_VERSION = "1.0.0"
 
@@ -44,7 +45,7 @@ class Pathology(BaseModel):
     maps_to_item: str            # item id only — never item text (firewall holds)
     description: str
     embeds_per_interaction: list[int]
-    source_type: str = "transcript"
+    source_type: Literal["transcript", "email", "note"] = "transcript"
     participants: list[str] = ["rep", "customer"]
 
 class SplitSpec(BaseModel):
@@ -69,13 +70,14 @@ def build_slots(spec: CalSpec, split_name: str) -> list[dict]:
     sp = spec.splits[split_name]
     if split_name == "null":
         return [{"kind": "null"} for _ in range(sp.interactions)]
-    slots, k = [], 0
+    slots = []
     for p in spec.pathologies:
+        j = 0
         for lvl in spec.loudness_levels:
             for _ in range(sp.instances_per_cell):
-                n = p.embeds_per_interaction[k % len(p.embeds_per_interaction)]
+                n = p.embeds_per_interaction[j % len(p.embeds_per_interaction)]
                 slots.append({"kind": "plant", "pathology": p, "loudness": lvl, "n": n})
-                k += 1
+                j += 1
     slots += [{"kind": "clean"} for _ in range(sp.clean_interactions)]
     random.Random(sp.seed).shuffle(slots)
     return slots
@@ -88,8 +90,10 @@ def _prompt_for(spec: CalSpec, slot: dict) -> tuple[str, str, list[str]]:
     elif slot["kind"] == "null":
         descs = "\n".join(f"- {p.description.strip()}" for p in spec.pathologies)
         block, st, parts = _NULL_BLOCK.format(descriptions=descs), "transcript", ["rep", "customer"]
-    else:
+    elif slot["kind"] == "clean":
         block, st, parts = _CLEAN_BLOCK, "transcript", ["rep", "customer"]
+    else:
+        raise ValueError(f"unknown slot kind: {slot['kind']!r}")
     return _GEN_PROMPT.format(style=spec.style_guide.strip(), source_type=st,
                               participants=" and ".join(parts), block=block), st, parts
 
@@ -97,11 +101,14 @@ def generate_corpus(spec: CalSpec, split_name: str, client: ModelClient,
                     out_dir: Path, model_name: str, lab: str) -> dict:
     corpus_dir = Path(out_dir) / "corpus"
     corpus_dir.mkdir(parents=True, exist_ok=True)
+    sp = spec.splits[split_name]
     truth: dict = {}
     for i, slot in enumerate(build_slots(spec, split_name)):
-        uid = f"{spec.splits[split_name].id_prefix}-{i:03d}"
+        uid = f"{sp.id_prefix}-{i:03d}"
         prompt, st, parts = _prompt_for(spec, slot)
         out = complete_json(client, prompt)
+        if "segments" not in out:
+            raise MalformedResponse(f"generation response for {uid} lacks 'segments'")
         unit = InteractionUnit.model_validate(
             {"id": uid, "source_type": st, "participants": parts, "segments": out["segments"]})
         (corpus_dir / f"{uid}.json").write_text(unit.model_dump_json(indent=2), encoding="utf-8")
