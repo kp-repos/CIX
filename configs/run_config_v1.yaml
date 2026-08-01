@@ -1,5 +1,6 @@
-version: "1.0.0"
-model: "claude-fable-5"
+version: "1.1.0"
+model: "claude-opus-4-8"   # primary detector, pinned at Checkpoint B (2026-08-01); replaced claude-fable-5,
+                          # which over-refused on financial/discount content and ran ~3x slower (a G3 finding)
 temperature: 0
 max_tokens: 1024
 seed: 20260731

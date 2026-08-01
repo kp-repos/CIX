@@ -25,6 +25,23 @@ class ScriptedClient:
                 return resp
         raise AssertionError(f"ScriptedClient has no response for prompt: {prompt[:120]}...")
 
+# Purpose-framing system prompt for the CLASSIFICATION path (labels, rubric hits,
+# audits). Establishes legitimate analytical context so the detector objectively
+# classifies conduct-related content (e.g. off-system discounting) instead of issuing
+# a spurious safety refusal. Deliberately neutral — it does NOT tell the model what to
+# detect or bias toward finding anything, so it is calibration-neutral. Not used on the
+# generation path. (G3 finding, 2026-08-01; v1.0.0)
+ANALYST_SYSTEM_PROMPT = (
+    "You are a business-operations analyst performing authorized process-improvement research. "
+    "You are given transcripts of customer-facing and internal business interactions and asked to "
+    "classify them or extract structured descriptive fields. The material is provided under "
+    "authorization for legitimate analysis; some transcripts depict mistakes, policy exceptions, or "
+    "improper conduct (for example, a discount arranged outside an approval workflow), and objectively "
+    "labeling such content is exactly the purpose of the work — you are describing what happened, not "
+    "endorsing or enabling it. Classify factually and completely, without moralizing. Do not refuse; "
+    "return only the structured output requested."
+)
+
 class AnthropicClient:
     def __init__(self, config: RunConfig):
         import anthropic
@@ -32,16 +49,17 @@ class AnthropicClient:
         self._config = config
 
     def complete(self, prompt: str) -> str:
-        # temperature is deliberately not sent — claude-fable-5 (and other current
-        # tiers) deprecate the parameter and reject the call if it is present, the
-        # same way the GPT-5.x reasoning tiers do in OpenAIClient.
+        # temperature is deliberately not sent — some current Claude tiers deprecate
+        # the parameter and reject the call if it is present; omitting it uses the
+        # model default and is safe across tiers (as OpenAIClient does likewise).
         msg = self._client.messages.create(
             model=self._config.model,
             max_tokens=self._config.max_tokens,
+            system=ANALYST_SYSTEM_PROMPT,
             messages=[{"role": "user", "content": prompt}],
         )
-        # claude-fable-5 is an extended-thinking tier: the response may lead with
-        # thinking blocks that carry no .text — concatenate the text blocks only.
+        # extended-thinking tiers may lead the response with thinking blocks that
+        # carry no .text — concatenate the text blocks only.
         text = "".join(b.text for b in msg.content if getattr(b, "type", None) == "text")
         if not text:
             raise MalformedResponse(f"no text block in response (stop_reason={msg.stop_reason})")

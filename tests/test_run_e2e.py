@@ -47,7 +47,7 @@ def test_one_command_corpus_to_report(tmp_path, monkeypatch, capsys):
     manifest = json.loads((run_dir / "manifest.json").read_text())
     assert manifest["rubric_version"] == "0.1.0"
     assert manifest["seeds"]["run"] == 20260731
-    assert manifest["model_versions"]["primary"] == "claude-fable-5"
+    assert manifest["model_versions"]["primary"] == "claude-opus-4-8"
     assert manifest["thresholds_version"] == "1.1.0"   # reflects the real thresholds file, not a hardcode
     checks = {v["check"] for v in report["sections"]["method"]["validations"]}
     assert "T-PARA" in checks          # not_run for the mini rubric (honest state)

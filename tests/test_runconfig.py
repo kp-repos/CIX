@@ -3,7 +3,7 @@ from cix.runconfig import load_run_config, load_thresholds
 
 def test_run_config_loads():
     rc = load_run_config(Path("configs/run_config_v1.yaml"))
-    assert rc.model == "claude-fable-5"
+    assert rc.model == "claude-opus-4-8"
     assert rc.temperature == 0
     assert rc.seed == 20260731
 
