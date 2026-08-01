@@ -52,3 +52,13 @@ def test_evidence_sample_is_seeded_and_stable(tmp_path):
                 return super().complete(prompt)
         synthesize_findings(store, ROLLUP, hits, Spy(CANNED), model="m", seed=7)
     assert prompts_a == prompts_b  # same seed -> identical evidence samples in prompts
+
+def test_missing_synthesis_field_raises_cleanly(tmp_path):
+    # A live response that is valid JSON but omits a required field (e.g. the
+    # mechanism block) must fail cleanly at synthesis, not crash later at the
+    # gate/report with a KeyError after all model spend.
+    import pytest
+    store, hits = _setup(tmp_path)
+    bad = {"billing_defect_driver": json.dumps({"narrative": "x", "claimed_count": 2, "quotes": []})}
+    with pytest.raises(ValueError, match="mechanism"):
+        synthesize_findings(store, ROLLUP, hits, ScriptedClient(bad), model="m", seed=7)
