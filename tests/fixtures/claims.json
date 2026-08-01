@@ -1,0 +1,12 @@
+{
+  "quotes": [
+    {"ref": "q-good", "interaction_id": "int-001", "start": 2, "end": 2,
+     "text": "I already called about this last time and it is still not fixed."},
+    {"ref": "q-bad", "interaction_id": "int-002", "start": 0, "end": 0,
+     "text": "I demand a full refund immediately."}
+  ],
+  "stats": [
+    {"ref": "s-good", "kind": "snippet_tag_count", "tag": "repeat_marker", "expected": 1},
+    {"ref": "s-bad", "kind": "snippet_tag_count", "tag": "currency_amount", "expected": 7}
+  ]
+}
