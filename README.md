@@ -23,7 +23,7 @@ Four independently versioned knowledge artifacts, all plain-language config: **i
 |---|---|
 | Design | Brainstorm output **rev 2.3** — ratified |
 | PRD | **v1.2 RATIFIED** 2026-07-31 (satisfies KR 5.1j-2) |
-| Build | **G1 complete.** Deterministic spine on synthetic fixtures (37 tests green; AC-1/AC-3a/AC-4a); `cix index\|hash\|verify` CLI. Next gate: G2 thin slice (first model calls) |
+| Build | **G2 complete.** End-to-end thin slice: `cix run` corpus→report (report.json + PDF), first model calls behind a `ModelClient` protocol (offline-tested; opt-in live run). 84 tests green + 1 opt-in live skip; AC-3b/4b/5/8/9/10/12/13/15. Next gate: G3 (calibration + sales rubric) |
 | Stack | Python 3.12 · uv · pytest · pydantic v2 · PyYAML · SQLite |
 
 ## Documents
