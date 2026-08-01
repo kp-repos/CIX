@@ -1,0 +1,5 @@
+version: "1.0.0"
+model: "claude-fable-5"
+temperature: 0
+max_tokens: 1024
+seed: 20260731
