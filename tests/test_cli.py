@@ -38,3 +38,19 @@ def test_invalid_corpus_fails_before_any_output(tmp_path, capsys):
     rc = main(["index", str(bad), "--out", str(tmp_path / "run2")])
     assert rc == 2
     assert not (tmp_path / "run2" / "run.db").exists()  # R-RUN-1: validate before writing
+
+def test_index_works_from_any_cwd(tmp_path, monkeypatch):
+    # The tag vocabulary is resolved relative to the package, not the process
+    # cwd, so the installed `cix` command works from any directory.
+    monkeypatch.chdir(tmp_path)
+    rc = main(["index", str(FIXTURES / "corpus"), "--out", str(tmp_path / "run1")])
+    assert rc == 0
+    assert (tmp_path / "run1" / "run.db").exists()
+
+def test_index_refuses_existing_run(tmp_path, capsys):
+    out = tmp_path / "run1"
+    assert main(["index", str(FIXTURES / "corpus"), "--out", str(out)]) == 0
+    capsys.readouterr()
+    rc = main(["index", str(FIXTURES / "corpus"), "--out", str(out)])
+    assert rc == 3  # index writes a fresh run; refuse rather than clobber/crash
+    assert "already exists" in capsys.readouterr().err

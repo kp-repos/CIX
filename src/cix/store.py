@@ -20,10 +20,14 @@ CREATE INDEX ix_interaction_tags ON interaction_tags (tag, value);
 """
 
 def build_store(units: list[InteractionUnit], vocab_path: Path, db_path: Path) -> None:
-    """Deterministic build: units arrive sorted (normalize), all inserts in sorted order."""
+    """Deterministic build: units arrive sorted (normalize), all inserts in sorted order.
+    A run store is written exactly once; refuse an existing path rather than append."""
+    if Path(db_path).exists():
+        raise FileExistsError(f"run store already exists: {db_path}")
     vocab = load_vocabulary(vocab_path)
     con = sqlite3.connect(db_path)
     try:
+        con.execute("PRAGMA foreign_keys = ON")  # enforce the schema's REFERENCES (off by default)
         con.executescript(_SCHEMA)
         for u in units:
             con.execute(
@@ -49,6 +53,7 @@ def build_store(units: list[InteractionUnit], vocab_path: Path, db_path: Path) -
 class Store:
     def __init__(self, db_path: Path):
         self.con = sqlite3.connect(db_path)
+        self.con.execute("PRAGMA foreign_keys = ON")  # per-connection; enforce declared FKs
         self.con.row_factory = sqlite3.Row
 
     def snippet(self, snippet_id: str) -> dict | None:

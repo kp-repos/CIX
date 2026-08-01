@@ -9,7 +9,9 @@ from cix.normalize import CorpusValidationError, load_corpus
 from cix.store import build_store, open_store
 from cix.tags import load_vocabulary
 
-VOCAB_PATH = Path("configs/tag_vocabulary_v1.yaml")
+# Resolve config relative to the package (repo root), not the process cwd,
+# so the installed `cix` command works from any directory.
+VOCAB_PATH = Path(__file__).resolve().parents[2] / "configs" / "tag_vocabulary_v1.yaml"
 
 def _cmd_index(args) -> int:
     try:
@@ -20,7 +22,11 @@ def _cmd_index(args) -> int:
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
     db = out / "run.db"
-    build_store(units, VOCAB_PATH, db)
+    try:
+        build_store(units, VOCAB_PATH, db)          # a run store is written once; never clobbered
+    except FileExistsError as e:
+        print(f"index aborted: {e} (use a fresh --out directory)", file=sys.stderr)
+        return 3
     chash = canonical_hash(db)
     vocab = load_vocabulary(VOCAB_PATH)
     manifest = build_manifest(units, chash, vocab["version"],

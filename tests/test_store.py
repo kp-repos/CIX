@@ -1,12 +1,15 @@
+import sqlite3
 from pathlib import Path
+import pytest
 from cix.normalize import load_corpus
 from cix.store import build_store, open_store
 
 FIXTURES = Path(__file__).parent / "fixtures" / "corpus"
+VOCAB = Path("configs/tag_vocabulary_v1.yaml")
 
 def _built(tmp_path):
     db = tmp_path / "run.db"
-    build_store(load_corpus(FIXTURES), Path("configs/tag_vocabulary_v1.yaml"), db)
+    build_store(load_corpus(FIXTURES), VOCAB, db)
     return open_store(db)
 
 def test_provenance_lookup_id_to_text(tmp_path):
@@ -39,3 +42,15 @@ def test_versions_recorded(tmp_path):
     store = _built(tmp_path)
     assert store.meta("index_version") == "1.0.0"
     assert store.meta("tag_vocab_version") == "1.0.0"
+
+def test_build_store_refuses_existing_db(tmp_path):
+    db = tmp_path / "run.db"
+    units = load_corpus(FIXTURES)
+    build_store(units, VOCAB, db)
+    with pytest.raises(FileExistsError):  # a run store is written once; never appended to
+        build_store(units, VOCAB, db)
+
+def test_foreign_keys_enforced(tmp_path):
+    store = _built(tmp_path)
+    with pytest.raises(sqlite3.IntegrityError):  # orphan tag row rejected — declared FKs are live
+        store.con.execute("INSERT INTO snippet_tags VALUES ('does-not-exist:9999', 'x', '1')")
