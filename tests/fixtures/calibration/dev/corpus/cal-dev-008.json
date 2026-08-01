@@ -12,62 +12,47 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final seat count and timing so I can get the order form cleaned up. Last note I had was 42 standard seats and 6 manager seats for the operations team."
+      "text": "Yeah, thanks for making time, Dana. I wanted to do a quick handoff check before your kickoff. I have you at 60 seats to start, go-live August 26, and the standard business-hours support plan."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s right. We did end up adding two people in the Denver office, so make it 44 standard seats and 6 manager seats. Same go-live target, April 15."
+      "text": "That's right. Small thing, the calendar invite from your implementation manager says 52 seats. We added the eight ops users before signature, so I just don't want them blocked on day one."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 50 total. With the pricing sheet we reviewed, that puts annual subscription at $38,400, and implementation is the one-time $4,500. Does that match what you have internally?"
+      "text": "Yep, good catch. I'll get that cleaned up today so provisioning is set for 60. No issue on our side."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, that’s what finance approved. They did ask if the invoice can separate subscription and implementation as two line items."
+      "text": "Okay. And for data import, we're sending the customer list and open tickets by Friday. Your team said CSV is fine, right?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, no issue. The billing tool can show those separately. Payment terms are net 30, annual upfront, and the initial term would run April 15, 2026 through April 14, 2027."
+      "text": "CSV is fine. If you can keep the fields to the template, they can usually turn it in two business days. Do you still want a dry run the week of August 12?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. On the contract, procurement asked about the auto-renewal language. We’re fine with renewal, but they want 60 days’ notice instead of 30."
+      "text": "Yes, August 14 if you have it. Also, the first invoice showed quarterly billing. Our PO is for annual upfront, $48,600, net 30. Finance kicked it back this morning."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, that’s a standard change for us. I’ll send that through deal desk today and update the order form once they approve it. Usually same day, maybe tomorrow morning."
+      "text": "Ah, sorry about that. I'll have billing reissue it as annual upfront and reference PO 4179. You should see the corrected copy by tomorrow."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Also, can you include our purchase order number on the invoice? It’s PO-71842."
+      "text": "Perfect. Last thing, legal is asking whether the renewal notice is 60 days or 90 days."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Absolutely, PO-71842. I’ll add that in the CRM notes and on the billing request. For onboarding, are you still thinking the admin training on April 8 and end-user session April 12?"
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Yes. April 8 at 1 p.m. Eastern for the admins, and April 12 at 11 a.m. Eastern for the broader group. We’ll have about 35 people on that one."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Great. I’ll send the revised order form this afternoon with the 44 standard, 6 manager seats, separated line items, net 30, and the 60-day renewal notice. If you can sign by Friday, we’ll hold the April onboarding dates."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Sounds good. Send it over and I’ll route it to procurement today."
+      "text": "It's 60 days. I'll send the final order form and the updated kickoff details after this, and we'll keep August 26 as the target."
     }
   ]
 }

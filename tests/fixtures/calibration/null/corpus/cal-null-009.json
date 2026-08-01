@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making time. I wanted to walk through the calibration portal renewal and the extra technician seats you mentioned for the Columbus lab."
+      "text": "Yeah, thanks for making time, Priya. I had you down for adding 18 service seats and moving the reporting package from standard to advanced for the July 15 go-live. Is that still the right scope?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We’ve got 18 current users, and we need to add 6 more by February 12th. Mostly bench techs, one supervisor."
+      "text": "That’s right. We’re at 42 seats today, and the support managers want 60 total. The only thing I need clear is the invoice timing, because our fiscal month closes July 31."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. So 24 seats total, same service tier, and keeping the asset import support included. The annual term would run March 1, 2026 through February 28, 2027."
+      "text": "Totally. The quote I sent this morning has the 18 added seats prorated from July 15 through your current term ending March 31, 2027. It’s $14,280 for the seat add and $9,600 for advanced reporting, so $23,880 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That lines up. My only thing is billing. Last year the invoice went to our old AP address. It needs to go to invoices at our shared mailbox, and the PO will be CAL-4472."
+      "text": "Okay, that matches what finance expected. Can you split it so the one-time onboarding for reporting is a separate line? It helps them code it."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, we can put CAL-4472 on the invoice and use the shared AP mailbox. For pricing, the 24-seat annual is $31,680, and the onboarding help for the 6 new users is a one-time $1,200."
+      "text": "Yep, it’s already broken out as subscription and one-time services. The onboarding line is $2,400, and the subscription portion is $21,480. Same invoice, separate lines."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Is that onboarding a live session or just videos?"
+      "text": "Good. On terms, procurement asked if the add-on follows our current master agreement, no new auto-renew language or anything."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Live session, 90 minutes, recorded for your team. We’d schedule it the week of February 16th so the new folks are ready before the March 1 start."
+      "text": "Correct. It’s a co-termed order form under the existing agreement, same payment terms, net 30, and no change to renewal language. I included that note in the order form under special terms."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Contract terms are still net 30 and the same data retention language?"
+      "text": "Perfect. If I sign by Friday, can your team still do the admin training the week of July 8?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, net 30, same retention language, no change to support hours. I’ll send the order form today with the seat count, dates, PO field, and AP email reflected."
+      "text": "Yes. We reserved July 9 at 1 p.m. Central for the admin session and July 11 for the reporting workshop. Once the order form is signed, the kickoff invite goes out with those dates."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. If you send it before 3:00 Eastern, I can route it for signature this afternoon."
+      "text": "Great. Send me the final PDF, and I’ll route it today. Assuming legal doesn’t redline the company address or something silly, we should have it back by Thursday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. Once it’s signed, we’ll confirm the onboarding date and send the user list template for the 6 additions."
+      "text": "Sounds good. I’ll send the final PDF right after this call. Just to confirm, billing contact is still invoices at northlake-holdings dot com and the PO number is NH-4472?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Thanks, Mark."
+      "text": "Yes, that’s the one. Thanks, Mark."
     }
   ]
 }

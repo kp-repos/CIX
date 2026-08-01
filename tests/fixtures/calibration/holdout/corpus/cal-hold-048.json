@@ -3,7 +3,7 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "customer"
+    "colleague"
   ],
   "date": null,
   "account_id": null,
@@ -12,62 +12,47 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to go over the kickoff feedback and make sure we’re still on track for the August 19 go-live with 48 seats."
+      "text": "Yeah, so I talked to Northline this morning. They're good with 42 seats to start, maybe 55 by Q3, and they want the services line split out so finance can code it separately."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "We’re on track overall, but I need to be pretty direct. On the sales call we agreed that your team would import our last 18 months of calibration records before training. That was a big reason we signed the $42,600 order."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Right, I remember that. The historical import was included as part of the onboarding scope."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Okay, because your implementation lead told my operations manager yesterday that they had no record of that and that we’d need to fill out templates ourselves after go-live. That was a surprise, and frankly it caused a mess internally."
+      "text": "Okay. Same term as the last draft, March 1 go-live and 12 months?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, that’s on us. I’m sorry. I documented it in my notes and on the pricing sheet, but I did not get that requirement into the handoff for the implementation group. So they walked into kickoff without the thing we agreed to, and that should not have happened."
+      "text": "Yep, March 1. Annual up front. Software is $38,640 and onboarding is $6,500, no discount on services."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "I appreciate you saying that, but we already moved two supervisors’ schedules around. Training is Monday, and now they’re asking questions I thought were settled in June."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Understood. I’m going to correct the handoff today and put the import into the onboarding checklist as a deliverable, not an optional task. We’ll assign a data specialist by end of day, and we’ll use the export you sent on July 12."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Can you confirm there’s no added fee? I don’t want an invoice later for cleanup hours."
+      "text": "Did legal push back on the auto-renewal language or is that still clean?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No added fee. The contract stays at $42,600, net 30, with the same 48 named users. I’ll send a short written confirmation after this call and copy the implementation lead so there’s no ambiguity."
+      "text": "Still clean. The only thing is getting the revised proposal out is kind of the usual loop: update the CRM, then retype the seat count and dates into the pricing sheet, then the proposal tool, then the billing tool setup request, and deal desk wants the same fields in their form before they'll approve it. It probably lands tomorrow morning if nothing kicks back."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Good. If the import can be completed before Friday at noon, we can keep the Monday training. If not, we need to move go-live to August 26."
+      "text": "Got it. For deal desk, call out that the 10% discount is only on the platform line, not onboarding, otherwise they'll flag margin."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That’s fair. I’ll have the team validate the file by tomorrow at 3 p.m. Central and give you a yes-or-no on the Friday noon completion. Again, apologies for the miss in the handoff."
+      "text": "Yeah, I put that in the notes. Also customer asked if the first invoice can reference PO 4817 and show the Denver office address."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Okay. Send the confirmation and the revised kickoff notes today, and we’ll hold the schedule for now."
+      "text": "That's fine. Just make sure the billing contact is Priya, not Mark. Mark signed, but Priya handles AP."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Right, Priya Patel, ap@northline, net 30. I'll send you the PDF before I send it over, just for a quick sanity check."
     }
   ]
 }

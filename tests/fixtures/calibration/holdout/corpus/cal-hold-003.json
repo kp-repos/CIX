@@ -12,57 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, hi Dana, thanks for making time. I wanted to walk through the calibration renewal and the 18 additional technician seats you asked about for the Ohio and Indiana labs."
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the scope for the renewal before I send it through deal desk. I have you at 42 seats today, moving to 55 seats on the team plan starting September 1."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We are at 42 seats today, and if this goes through we'd need 60 total by February 12. The main question is whether the price holds if procurement takes until month-end."
+      "text": "That's right. We added the support managers and two analysts, so 55 is the number. We don't need the advanced reporting add-on for all of them, just the 12 managers."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It does, through January 31. The quote I have is $48,600 annually for the platform, plus $7,200 for the onsite instrument mapping, so $55,800 before tax."
+      "text": "Got it, 55 core seats and 12 advanced reporting seats. The pricing sheet puts that at $68,400 for the 12-month term, before tax. Same payment terms as last year, net 30, annual invoice?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the onsite work is still two days? We cannot have the pressure bench team offline longer than that."
+      "text": "Yes, annual invoice is fine. Can you make sure the invoice references PO 44718? Our AP team kicked it back last time because the PO wasn't on the first page."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, two days. One day for the gauge and torque inventory, one day for the environmental chambers and certificates. We would target February 19 and 20 if that lines up."
+      "text": "Yep, I'll add PO 44718 to the order form and billing notes. On timing, if we get signature by August 20, the billing tool will generate the invoice on August 22, and the new seats will be active September 1."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That should work. I did email yesterday about the invoice split, though. We need software billed to corporate and services billed to the Fort Wayne cost center."
+      "text": "That works. One thing, legal asked if the auto-renewal language is the same as the current agreement. They don't want a new review if nothing changed."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, I saw it, and sorry I was slow there. Honestly my whole day got swallowed by admin stuff: typing updates into the CRM, fixing duplicate account records in the database, and building the internal order packet for deal desk. I had like one actual buyer call before 3 p.m., which is not ideal. But I did get your split-billing note into the paperwork, so the billing tool should generate two invoices."
+      "text": "No changes there. It's the same 12-month renewal term with 60 days' notice for non-renewal. I'll point that out in the email and attach the current terms for reference."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Got it. As long as the paperwork shows separate POs, we're fine. Corporate PO is 77184, Fort Wayne is 33902."
+      "text": "Perfect. Also, can you list the implementation contact as Marcus Lee instead of me? He'll handle the user upload."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect, I have 77184 for the subscription and 33902 for the onsite services. Term is February 1, 2026 through January 31, 2027, net 30, annual payment."
+      "text": "Absolutely. I'll put Marcus Lee as the technical contact, keep you as the billing contact, and send the order form by end of day. If anything looks off, just reply and I'll fix it before it goes to signature."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Send the order form today and I'll route it. If legal doesn't redline the data clause again, I think we can sign by Friday."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Sounds good. I'll send the clean order form in the next hour with the pricing sheet attached and the February go-live dates noted."
+      "text": "Sounds good. Send it over, and I should be able to turn it around tomorrow."
     }
   ]
 }

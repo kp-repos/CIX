@@ -3,66 +3,71 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Mia",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Hey Jordan, do you have a minute on the Ridgeway renewal? They added the 18 warehouse seats, so it's now 74 total, and they want the quote back before their finance call Friday."
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout details and make sure the quote lines up before I send it back through deal desk."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, I saw the note. Is this still a 12-month extension starting March 1, or did they ask for 24?"
+      "text": "Sure. We’re still at 48 seats for phase one, right? That’s 35 standard users and 13 manager seats."
     },
     {
-      "speaker": "Mia",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Still 12 months. Same terms, but they want the services line split out because procurement needs software and onboarding on separate invoice lines."
+      "text": "Correct. I have 48 total seats, annual term starting September 1st, with implementation kicking off the week of August 12th. The subscription is $54,720 for the year, and services are $6,500 one-time."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay. List is what, $62,160 annual on the seats, then $4,800 for the remote enablement package?"
+      "text": "Okay. On the services, can that be invoiced separately? Our finance team wants the subscription on the software budget and implementation on the operations budget."
     },
     {
-      "speaker": "Mia",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yep, and I got approval to hold their 8% discount if they sign by February 21. The thing that's killing me is just generating the proposal. To extend the agreement I have to update the account in the CRM, retype the same 74 seats and March 1 dates into the quoting tool, copy the discount and term notes into the pricing sheet, open a deal desk request with the exact same ARR and invoice language, then go into the contract workspace and enter it all again for legal. None of it carries over, so I'm basically typing Ridgeway Distribution, 74 seats, $57,187.20, March 1 to February 28, and the billing split five separate times. It took me two hours yesterday and I still got bounced because the billing tool had the old 56-seat count."
+      "text": "Yep, we can split that into two invoices. I’ll note that in the billing tool: subscription billed on contract signature, services billed at kickoff. Does that work?"
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Ugh, yeah. For this one, send me the deal desk request number and I'll check the numbers before you route it again."
+      "text": "Yes. And payment terms were net 30? I saw net 15 on the first draft."
     },
     {
-      "speaker": "Mia",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Thanks. It's DD-4187. I fixed the seat count in the billing tool this morning, and I added the note that first invoice should go out March 3, net 30."
+      "text": "Good catch. Your approved terms are net 30. I’ll update the order form before sending the final version."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Looks like the only thing missing is the customer PO requirement. Did they say PO required before signature, or just before invoice?"
+      "text": "Great. For go-live, we’re targeting October 7th. Is that still realistic if kickoff is August 13th?"
     },
     {
-      "speaker": "Mia",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Before invoice. Camille in procurement said they can sign off the order form first, then send the PO by February 27."
+      "text": "Yeah, that should be fine. It gives us about eight weeks. The only dependency is getting your user list and two sample workflows by August 20th."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Cool. Put that in the special terms as operational only, not a condition to the contract. Then route to legal, and I think you're fine."
+      "text": "That’s manageable. Send the final order form to me and copy procurement, and I’ll route it for signature."
     },
     {
-      "speaker": "Mia",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I'll clean that up and send Ridgeway the PDF by end of day."
+      "text": "Will do. I’ll send it today by 3:00 p.m. Eastern, with the net 30 terms, split invoicing, and the October 7th go-live noted in the CRM."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Thanks, Mark."
     }
   ]
 }

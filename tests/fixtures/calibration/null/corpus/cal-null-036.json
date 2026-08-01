@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so thanks for making time, Dana. I wanted to walk through the 38-seat plan for the calibration tracking rollout and make sure the dates and billing look right before I send the order form."
+      "text": "Yeah, thanks for making time, Dana. I had us down for 55 analyst seats, 8 admin seats, and a May 6 go-live for the new division. Is that still the shape of it?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. We counted again yesterday. It’s 32 regular users and 6 supervisors, all in the same plant. No need for the second site until next year."
+      "text": "Mostly, yeah. We’re at 54 analysts now. One person moved teams yesterday, so I don’t want to buy a seat we won’t use."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 38 total for the Cleveland plant only. The annual subscription is $28,500, and the one-time setup is $4,200. That includes the asset import for up to 1,800 gauges and the two admin training sessions."
+      "text": "Totally. So 54 analyst seats at $72 per seat per month, 8 admins included in the platform fee, and the annual platform fee is $18,600. That puts the 12-month total at $65,256 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. On the invoice, can you split the setup fee from the subscription? Our finance team books those differently."
+      "text": "Okay. And invoicing, can you split it 50% in April and 50% in October? Finance asked me to confirm that before I say yes."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, that’s standard. You’ll see two line items on the same invoice: $4,200 setup and $28,500 subscription. Net 30, starting from the effective date."
+      "text": "Yes, that payment schedule is supported. First invoice would issue April 15 for $32,628, net 30. Second invoice October 15 for the same amount, also net 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Effective date should be September 1, not the signature date. We’re trying to align it with the maintenance budget."
+      "text": "Good. The other thing is the contract language. We need the same auto-renew clause removed like last year. Just a fixed term, April 15, 2026 through April 14, 2027."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "September 1 works. Term would run September 1, 2026 through August 31, 2027. Go-live target is September 16, assuming we receive the asset file by September 5."
+      "text": "Yep, fixed 12-month term, no auto-renew. I’ll send the order form with that language. The master terms stay the same as your current agreement."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s fine. We can send the file on the 3rd. It’ll have gauge ID, location, due date, and last calibration result. Do you need owner name too?"
+      "text": "Great. On go-live, if we sign by Friday, are we still good for May 6? We’ve got training blocks already on the calendar."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Owner name is helpful but not required. If you include it, we’ll map it during import. Also, for the training, I have September 10 at 11 Central and September 12 at 2 Central available."
+      "text": "Yes. If signature is in by April 12, kickoff is April 18, admin training April 25, and end-user training May 2 and May 3. That supports May 6 without rushing it."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Let’s do September 10 at 11. The supervisors can make that. I’ll have procurement review the order form, but the numbers and dates sound right to me."
+      "text": "Okay, send it over to me and Marcus in procurement. If the numbers match what you just said, we should be able to turn it around this week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I’ll send the order form with 38 seats, September 1 start, the split invoice line items, and the September 10 training slot. If procurement has edits to billing contact or PO language, send them back and we’ll update before signature."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Great. Put me and Mark Chen on the email. Mark handles the PO, and I’ll confirm the asset file owner internally."
+      "text": "Will do. I’ll send the order form today with the 54 seats, split billing, fixed term, and the May 6 launch dates called out."
     }
   ]
 }

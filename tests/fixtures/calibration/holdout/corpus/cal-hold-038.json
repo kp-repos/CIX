@@ -3,7 +3,7 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
@@ -12,57 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so Northstar Foods is at 42 seats, annual, $31,920 before the onboarding line. They want June 17 as the go-live, which is fine if we can get the order form out today."
+      "text": "Yeah, thanks for making time, Dana. I wanted to recap where we are: 62 seats for the analytics workspace, annual term, target go-live of March 18. Is that still the right scope on your side?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Is procurement okay with the net 30? Last note I saw had them asking for 45."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "They backed off 45. The controller just wants the invoice to show the Chicago office as bill-to and their PO, 88419, on page one."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Okay. Anything weird in the CRM or is it just quote cleanup?"
+      "text": "Yep, that's right. We may add five more seats after Q2, but I don't want to bake that into the first order. For March 18, we need admin training the week before."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "The quote's clean. The CRM still has the total in gray because the deal desk cell is blank, so I bumped that email at 11:10 with the final seat count."
+      "text": "Makes sense. I checked the pricing sheet before the call. For 62 seats, you're at $38 per seat per month on an annual commit, so the software total is $28,272 for the year. Implementation is the one-time $4,500 package."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Got it. And the contract, are we using our standard services addendum?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Yep, standard. Customer redlines are gone. The tracker just has legal's box not blue yet, and I put the PDF back in their channel with the June 17 date in the filename."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Nice. If that lands, I can help package the order form and SOW. Onboarding is still 12 hours, right?"
+      "text": "Okay. Finance asked if the invoice can split the subscription and implementation into separate line items. Same invoice is fine, just needs to be clear for coding."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Right, 12 hours at $185, so $2,220. Billing profile is still sitting in draft, though, so I added the PO and bill-to note on the ticket for them this morning."
+      "text": "Yeah, that's standard. I'll note that in the billing tool and on the order form. Payment terms are net 30 unless you need something else."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay, so once those fields turn over, send it to Ava at Northstar?"
+      "text": "Net 30 works. Legal had one small thing on the renewal language. They want auto-renewal at 12 months with 30 days' notice, not 60."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah. Ava and their controller, Marcus. They said they'll sign same day if it arrives before 3 p.m. Central."
+      "text": "Got it. Our template is 60, but 30 is usually fine for mid-market. I'll send that to deal desk today and should have a clean version by tomorrow afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Also, for go-live, we need your team to load the initial user list by March 12. We can send the CSV by March 7 if that helps."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. I'll put March 7 for your CSV, March 12 for user load, admin training March 13, and go-live March 18. I'll include those milestones in the implementation notes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send the updated order form when you have the 30-day notice language, and I'll route it for signature."
     }
   ]
 }

@@ -12,62 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so thanks for making the time, Dana. I had you down for 42 technician seats and 6 manager seats for the calibration tracking workspace, with a target go-live of March 18. Is that still the right shape?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the scope we discussed for the calibration tracking rollout: 42 technician seats, 6 supervisor seats, and the asset import for roughly 3,800 gauges and meters at the Dayton site."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Pretty much. We added two lab supervisors since last week, so make it 8 manager seats. The tech count is still 42. We need all three sites live by March 31 at the latest."
+      "text": "That matches. We may add the Toledo lab later, but not before Q3. For Dayton, the big thing is being live by April 15 because our audit window opens May 6."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 50 total seats, three sites, March 31 latest. On the services side, the standard onboarding package covers two admin trainings and one data import. You mentioned about 1,800 asset records, right?"
+      "text": "Understood. The implementation plan has a March 18 kickoff, two data review sessions, and user training the week of April 8. That gives you about two weeks of cushion before the audit."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, 1,842 in the export I pulled Friday. The only thing I’m worried about is invoice timing. We can sign in February, but accounts payable wants the first invoice dated March 1."
+      "text": "Okay. On pricing, the finance team asked if the annual total is still $58,400, including the import work."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That works. We can set the subscription start date to March 1, invoice net 30, and schedule the kickoff for March 4. The annual price for 50 seats is $31,500, and onboarding is $4,200 one-time."
+      "text": "Yes. That is $49,200 for the subscription and $9,200 for one-time services. The pricing sheet is approved for those numbers through February 29, and it includes standard support."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Is that with the annual payment discount you mentioned?"
+      "text": "Good. Our billing preference is one invoice upfront, net 30. Can you list the PO number on it? It’ll be PO-7716."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, that includes the standard 10% annual prepay adjustment from the pricing sheet. If you wanted quarterly billing, the subscription would be $35,000 for the year instead."
+      "text": "Yep, we can put PO-7716 on the invoice. The order form will show net 30, one annual invoice, service start date March 18, and initial term through March 17 next year."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "No, annual is fine. Contract term is 12 months? We’re not ready for a three-year commitment."
+      "text": "Contract terms are fine if the data security exhibit is the one you sent last week. Legal had no edits to that version."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Twelve months, March 1 through February 28 next year. Renewal notice is 60 days, and no automatic seat increase unless you request it. If you add seats midterm, they prorate to the same end date."
+      "text": "Great, same exhibit, no changes. I’ll send the final order form today for e-signature, and once it’s signed you’ll get the kickoff invite with the project lead copied."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s reasonable. Send me the order form with the 50 seats, March 1 start, net 30, and the onboarding line item. I’ll route it to legal today."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. I’ll send the order form and a one-page implementation schedule by 2 p.m. Eastern. Once it’s signed, we’ll lock the March 4 kickoff and the March 12 admin training."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. Put me and Kevin from quality on the schedule invite. He’ll own the asset file."
+      "text": "Perfect. Send it to me and copy Martin in procurement. If we can sign by Friday, I think we’re in good shape."
     }
   ]
 }

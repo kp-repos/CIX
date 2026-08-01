@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the updated quote for the calibration tracking rollout and make sure the dates still line up for your lab team."
+      "text": "Yeah, so I pulled up the notes from last week's call. You're looking at 42 full seats for the operations team, plus 15 read-only seats for managers, correct?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We’re still looking at 42 users total, right? Thirty techs, eight supervisors, and four read-only folks in quality."
+      "text": "That's right. We may add three more full seats in Q2, but for launch it's 42 and 15."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. The quote has 38 full seats at $62 per user per month and 4 read-only seats included. Annual subscription comes to $28,272, and the implementation package is $6,500 one-time."
+      "text": "Got it. On pricing, the 42 full seats are $86 per seat per month, and the read-only seats are $18. With annual billing, the total comes to $47,376 before tax. That's using the standard annual prepay rate on the pricing sheet."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And that implementation includes importing our current instrument list? It’s about 3,800 assets, mostly gauges and torque tools."
+      "text": "Okay, that's within the range we discussed. Can the invoice be split by cost center? Finance wants 70 percent billed to operations and 30 percent to customer support."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep. Import of up to 4,000 assets is included, plus two admin training sessions and one technician training session. If the file is ready by February 9, we can start configuration February 12."
+      "text": "Yes, we can do that on the first invoice. It'll still be one agreement, just two billing lines with the cost centers listed. I can include those codes if you send them over by Friday."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Our go-live target is March 18, before the audit prep starts. Is that realistic?"
+      "text": "Yep, I have them. Another thing: we need the go-live no later than March 18. Our current reporting process shuts down at the end of that week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so with the February 12 start, March 18 is fine. We’d do data validation the week of March 4 and user training March 12 and 13."
+      "text": "March 18 works. The implementation plan would be kickoff on February 24, admin training March 5, user training March 12, and then go-live on the 18th. That assumes we get your user list by February 21."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. On invoicing, can you split it? Subscription on one invoice and implementation on another? Accounting asked for separate cost centers."
+      "text": "That's fine. Legal had one comment on the renewal language. They want the auto-renewal notice period to be 60 days instead of 30."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. The order form notes two invoices: subscription billed annually to cost center 4100, services billed on kickoff to cost center 4520. Net 30 terms on both."
+      "text": "Yeah, we can make it 60 days. That's in our standard fallback language, so I'll put that in the order form and the terms summary."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Legal also asked whether the initial term can run through March 31, 2027 instead of exactly 36 months from signature."
+      "text": "Great. If you send the order form today, I can route it for signature tomorrow morning."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "We can do that. The term would start March 18, 2024 for access, and the commercial term runs through March 31, 2027. The price is prorated for those extra 13 days; it adds $1,022."
+      "text": "I will send it by 3:00 Pacific today with the seat counts, annual total, March 18 go-live date, split invoice notes, and the 60-day renewal notice. Anything else you want called out?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s fine. Send me the final order form today, and I’ll route it for signature. If procurement doesn’t have questions, we should have it back by Friday."
+      "text": "No, that's it. Send it to me and copy AP, please. The AP alias is on the email thread."
     }
   ]
 }

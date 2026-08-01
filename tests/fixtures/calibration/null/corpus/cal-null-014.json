@@ -12,62 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I looked at the usage from the last 60 days. For the analytics module, you’d be at 38 paid seats today, and you mentioned adding finance, so I modeled 45 seats starting June 1."
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the July 1 start for the additional seats and make sure the invoice lines up with how finance wants to see it."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That sounds right. We have 41 named users now, four more coming in June. I need the invoice to split the module separately from our base subscription, though."
+      "text": "Sure. We’re adding 18 users for the support team, so that brings us from 62 to 80 total. We need them active by July 8, but July 1 on the contract is fine."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, we can show it as a separate line item on the order form and invoice. Same customer number, same billing contact, just two lines so AP can code it correctly."
+      "text": "Got it. The pricing sheet has the 80-seat tier at $54 per user per month, billed annually. With the 18 added seats prorated from July 1 through December 31, that add-on is $5,832 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. What’s the annual amount on 45 seats?"
+      "text": "Okay, that matches what I had. Can the invoice reference cost center 4107 and the PO we issued last week, PO-28644?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "At the standard mid-market rate, it’s $28 per seat per month, billed annually. So 45 seats is $15,120 for the first year. The term would co-term to your main agreement ending April 30, 2027, unless you want a separate 12-month term."
+      "text": "Yes, I’ll include both on the order form and the billing note. You’ll see one prorated invoice for the new seats, and then the full 80 seats will roll into the renewal invoice on January 1."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Co-term is cleaner. But if we start June 1, are we paying for the full year or the 11 months to match April 30?"
+      "text": "Perfect. Also, our admin asked whether the new users can be loaded from a CSV. We don’t want to hand-key all 18."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Prorated to match April 30. The amount for June 1, 2026 through April 30, 2027 is $13,860. Then it renews with the base subscription on May 1, 2027."
+      "text": "Yep, CSV import is included. Once the order is signed, I’ll send the onboarding checklist and we can schedule a 30-minute setup call for either July 2 or July 3."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. We also need go-live the week of June 10. Our team is in inventory close the first week, so training before that won’t land."
+      "text": "July 3 at 11 Eastern works. Please put Maya from my team on that invite too."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Makes sense. I can include the target go-live date of June 12 and two admin training sessions during the week of June 10 in the order notes. Implementation is included for this module, no separate services fee."
+      "text": "Will do. I’ll send the order form today with 80 seats, July 1 effective date, PO-28644, and the cost center. If you sign by Friday, we’ll have the seats available Monday morning."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send the order form to me and legal at contracts@northlake-example.com. PO will be 78421, and AP needs net 30."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Got it. I’ll send the order form today with PO 78421 referenced, net 30 terms, 45 seats, prorated amount $13,860, and June 12 target go-live. If it looks good, signature by Friday keeps the June schedule open."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Yeah, Friday is doable. I’ll route it internally once it comes through."
+      "text": "Sounds good. Send it over and I’ll route it to our controller this afternoon."
     }
   ]
 }

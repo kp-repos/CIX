@@ -3,56 +3,66 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so quick pipeline check before the forecast call. Luma Plastics is still at $38,400 annual, 24 seats, March 1 start. I bumped the tax treatment question in the billing thread again this morning; their AP manager said the PO won't be cut until that line is in writing."
+      "text": "Yeah, thanks for making time, Lisa. I just wanted to confirm the seat count and timing before I send the order form over. Last we talked, you were at 48 users for the operations team, with go-live targeted for March 18."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Got it. Is that still a 12-month initial term with quarterly invoicing, or did they come back on annual upfront?"
+      "text": "That's right. We actually added two supervisors, so make it 50 seats. Same go-live date if onboarding can still fit before then."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Quarterly. They were fine with the 3% uplift in year two, no issue there. Main thing is just getting the order form to match what they saw in the quote."
+      "text": "Yep, 50 works. For onboarding, we have the admin session on March 5 and then two end-user trainings the week of March 11. That's included in the implementation fee we discussed, the $4,800 one-time."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay. What about Harbor Ridge? That one was $62,100, right, 45 users plus the onboarding package?"
+      "text": "Okay. And the annual subscription was what, $31,500 before tax?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yep, $62,100 subscription and $7,500 services. I sent deal desk the clean copy and a checking-back note after lunch; procurement has the July 31 kickoff penciled in, but they’re not routing it internally until that redline note is attached."
+      "text": "Correct. At 50 seats, it's $52.50 per user per month, billed annually, so $31,500 for the year. The pricing sheet matches that. No usage overage unless you go above 75,000 records a month, and you're tracking around 42,000 today."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Makes sense. Did security have any new asks on Harbor Ridge, or are we done with the questionnaire?"
+      "text": "Good. Our finance team will ask about payment terms. We usually do net 30 from invoice date. Is that acceptable?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Done. They accepted the standard SOC report and the data retention language. No custom controls, thankfully."
+      "text": "Yeah, net 30 is fine. I'll note that in the billing tool and on the order form. The start date would be March 1, invoice issued on signature, and service term March 1 through February 28 next year."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Good. For Luma, do you want me to keep it in Best Case for Friday, or move it to Commit if the PO lands?"
+      "text": "Can you make sure the invoice references PO 78421? They won't process it without that."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Keep Best Case for now. If the invoice wording comes back today, I can get the customer the final PDF and maybe pull it into Friday. Otherwise it’s probably next Tuesday."
+      "text": "Absolutely. I'll add PO 78421 to the order form and the invoice notes. Also, just confirming the contract term is 12 months, auto-renewal for another 12 unless either side gives 60 days notice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that's fine. Send it to me and copy Mark in procurement. If it comes today, I can get signatures moving by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I'll send the order form in the next hour, copy Mark, and update the CRM with 50 seats, March 1 start, and net 30. Once it's signed, I'll introduce you to the implementation lead."
     }
   ]
 }

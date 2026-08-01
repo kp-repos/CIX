@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making time. I saw your current term runs through September 30, so I wanted to talk through renewal and the extra seats your operations team asked about before we send the order form."
+      "text": "Yeah, thanks for making time, Dana. I had you at 64 seats today, with the request to add 18 more for the support team on May 1. Is that still the right count?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We have 42 users today, and we’ll need 8 more by August 15. Mostly supervisors in the Ohio and Indiana sites."
+      "text": "Close. We need 20, not 18. Two supervisors asked to be included, so total would be 84 seats."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, so 50 total seats starting August 15. The renewal would be 12 months, October 1 through September 30 next year. With the midterm add, your August invoice would show a prorated charge of $1,120, then the renewal is $58,500 for the full year."
+      "text": "Got it, 84 total. On the annual plan, the approved rate is $52 per seat per month, billed annually, so that comes to $52,416 for the year before tax. Same terms as your current agreement, net 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Can you keep billing annual? Finance gets cranky if we split it monthly."
+      "text": "Okay. Finance will ask if the invoice can be dated May 1 instead of when we sign. Our budget opens then."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, annual billing stays the same. The only separate line is that August prorate for the 8 added seats. After that it rolls into the annual invoice on October 1."
+      "text": "Yep, we can set the service start and invoice date to May 1. If we get signature by April 24, implementation can do the admin training on April 29 and have the seats active that Wednesday."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "And support hours are unchanged? We have that standard response time, next business day, I think."
+      "text": "That works. We also need the data export feature turned on for just the supervisors. Is that included, or is it a different package?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. Standard support, next business day response, same as your current agreement. No change to data retention or the onboarding package either. For the 8 new users, our enablement team can run a 45-minute admin session on August 13 or 14."
+      "text": "It’s included in your tier. I’ll list it as supervisor-only access for 6 named users, so it’s clear for kickoff. No added fee."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "August 14 at 10 central works. Also, can the invoice reference PO 44719? That’s the one procurement opened for this."
+      "text": "Perfect. Legal had one note last year about auto-renewal. We want 30 days’ notice, not 60."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, PO 44719 on both the prorated invoice and the renewal invoice. I’ll include that on the order form notes too so billing has it from the start."
+      "text": "I checked the current template before the call. Thirty days is available on a 12-month term, so I’ll put that in the order form. Term would run May 1, 2026 through April 30, 2027."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send it to me and Marcus in procurement. If the numbers match what you just said, we can sign this week."
+      "text": "Great. Send it to me and copy Marcus in finance. If the total matches what you said, I can route it today."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I’ll send the order form this afternoon with 50 seats, August 15 effective date for the add-on, renewal dates October 1 to September 30, annual billing, and PO 44719. Once it’s signed, you’ll get the calendar hold for the August 14 training."
+      "text": "Will do. You’ll have the order form in about 20 minutes, with 84 seats, $52,416 annually, net 30, May 1 invoice date, and the April 29 admin training noted."
     }
   ]
 }

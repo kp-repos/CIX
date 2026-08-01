@@ -3,7 +3,7 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
@@ -12,52 +12,67 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hey, quick one on Northlake Manufacturing. Are you okay if I hold the renewal at 118 seats instead of quoting 125? Laura said the seven warehouse users probably won't be active until Q4."
+      "text": "Yeah, thanks for making the time, Karen. I wanted to confirm the seat count and timing before I send the order form over. Last we had in the CRM was 42 standard seats and 6 admin seats for the operations team."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, keep it at 118. If they add later, we can do a coterm add-on. What's the term they want?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Twelve months, July 1 through June 30. I put the 6/30 end date and the $42,480 net in the CRM yesterday, matched it on the order form this morning, and now deal desk is asking for the same billing address before they'll release the PDF."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Okay. Use the Cleveland HQ address, not the plant address. Their AP team kicked back the invoice last year because of that."
+      "text": "That's right. We actually need to add two more standard seats for the Denver supervisors, so 44 standard, 6 admin. Same go-live target, April 15, if we can keep it."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Right, 4400 Brookpark Road. Payment terms stay net 30, and no uplift this year. They pushed back pretty hard on the 5 percent."
+      "text": "Yep, that should be fine. With 50 total seats, the annual subscription comes to $31,800, and the one-time implementation is $4,200. I checked the pricing sheet this morning and that includes the 8 percent multi-year discount if you do the 24-month term."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "That's fine if it closes before May 24. After that, finance may ask why we're holding price."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Yeah, so I'll send it today if I can. Laura also asked whether support hours change with the renewal. I told her no, same 8 to 6 Central coverage."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Good. Add that in the notes section so legal doesn't redline anything weird."
+      "text": "Okay. And billing is annual upfront, correct? Our finance team asked if the implementation fee can be on the first invoice with the subscription."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. If she signs by Friday, go-live for the extra reporting module is still June 10, right?"
+      "text": "Correct, annual upfront. And yes, first invoice would include the $31,800 subscription plus the $4,200 implementation, so $36,000 even, due net 30. Renewal invoice next year would just be the subscription amount."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Correct. Services has two half-day sessions reserved that week. Just don't promise migration work beyond the standard setup."
+      "text": "That works. On contract terms, procurement asked about the auto-renewal notice. Your draft said 45 days. We need 60 days if possible."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, we can do 60. That's within standard, no deal desk approval needed. I'll update that before sending. Anything else from legal?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Just the data processing addendum. They want it attached as an exhibit, not a separate link."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. I'll attach the DPA as Exhibit B, order form as Exhibit A, and the master services terms as the main agreement. For implementation, we have a kickoff slot on March 18 at 11 a.m. Central. Does that still work for your project lead?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, Miguel can do that. He'll have the location list ready by then. We have 12 sites to load initially, then probably 3 more in May."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I'll note 12 sites for launch and the 3 additional sites as post-go-live configuration, no extra fee unless scope changes materially. I'll send the updated order form today, and once it's signed, billing will generate the invoice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send it to me and copy procurement@, and I'll route it for signature. If we get it done by Friday, we're still okay for April 15?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, if we have signature by March 8, we're good for April 15. I'll send it over in the next hour."
     }
   ]
 }

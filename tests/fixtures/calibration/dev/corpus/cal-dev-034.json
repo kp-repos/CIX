@@ -3,7 +3,7 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so Acme Fixtures came back on the proposal. They’re good with 83 seats, three-year term, go-live on November 15, but they want the invoice split by department."
+      "text": "Yeah, thanks for making time, Dana. I pulled up the order form from last week. We have 42 seats at $68 per seat per month, annual term starting February 1st, and the one-time onboarding fee at $2,400. Does that match what you were expecting?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Same pricing we talked about, $42 per seat per month, or did they push on that?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "They pushed a little. I held at $42 but added the onboarding package at $3,800 instead of $5,000. Total first-year is like $45,632 before tax."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "That should be fine. Did deal desk already approve the services discount?"
+      "text": "Yep, that lines up. The only thing I wanted to confirm is billing. Our finance team asked if the annual invoice can be issued on January 20th, but due net 30 from the February 1st start date."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, but it was kind of a slog. I had to enter the 83 seats, three-year term, November 15 start, and the two invoice contacts into the CRM, then the pricing sheet, then the deal desk form, then the order doc, and again in the billing tool. It ate most of yesterday afternoon and I finished it this morning."
+      "text": "Yeah, so invoice dated January 20th with payment due March 3rd, since February is short. I can note that for billing. The system may show net 30 from invoice date, but we can have the billing tool override the due date on the actual invoice."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Got it. As long as the quote ID matches the order doc, finance won’t kick it back."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Yep, I checked that. Their procurement person is Dana Lee, and AP wants invoices sent to ap@acmefixtures.com with cost centers for Operations and Field Service."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Cool. Are they asking for any language changes, or just the split billing?"
+      "text": "Okay, that helps. And for seats, we may start with 38 active users and add the other 4 after training. Is there any issue with that?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Just one thing on auto-renewal notice. They want 60 days instead of 30. Legal already said that’s okay for this size deal."
+      "text": "No issue. You’ll have 42 contracted seats available on day one, and your admin can assign them as needed. If you go above 42, it’ll prompt for approval and we can true up on a prorated basis."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Then send the clean copy today and give them until Friday?"
+      "text": "Got it. On contract language, our legal team asked about auto-renewal. They’re okay with it, but they want 60 days’ notice instead of 30."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, I’m sending it after this. I put the signature deadline as October 18 so we can still hit implementation kickoff on the 28th."
+      "text": "That’s pretty standard. I’ll send that to deal desk today. It usually comes back same day, and then I can generate the revised order form with the 60-day non-renewal notice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Our target go-live is February 12th. Is that still workable if we sign by Friday?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. If we have signature by January 17th, we can schedule kickoff the week of January 27th, get the data import done by February 5th, and leave a few days for admin review before the 12th."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Send the updated order form when you have it, and I’ll route it for signature."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll update the CRM after this call, get the 60-day renewal change approved, and send the order form over this afternoon if there are no questions from deal desk."
     }
   ]
 }

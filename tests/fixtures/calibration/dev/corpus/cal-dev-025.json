@@ -1,63 +1,63 @@
 {
   "id": "cal-dev-025",
-  "source_type": "email",
+  "source_type": "transcript",
   "participants": [
     "rep",
-    "customer"
+    "colleague"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Hi Dana,\n\nRecap from this morning: 46 seats, annual term, standard support, target go-live June 17. I attached the implementation outline and the security packet.\n\nIf you can send billing contact and PO requirements, I’ll get the order form moving.\n\nMatt"
+      "text": "Yeah, so quick sync on Northstar. They're at 38 seats for phase one, go-live targeted May 6, and they want the services line capped at $12,500."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Chris",
       "ts": null,
-      "text": "Thanks Matt.\n\nBilling contact is Priya Shah, ap@northlakebuild.com. PO is required over $25k. Can you make sure the invoice shows the department code 4107 and the service dates? Finance kicked one back last month for missing dates.\n\nDana"
+      "text": "Okay. Is the quote still the annual plan with the 8% uplift in year two, or did they push back on term?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yep, can do. Invoice will show 6/17/2026 through 6/16/2027 and dept code 4107. I’ll put Priya as billing contact in the CRM and copy you on the order form.\n\nFor rollout, we’d do admin setup the week of 6/3, data import by 6/10, and user training on 6/14."
+      "text": "They were fine with 24 months. I pinged legal again this morning on the redline; procurement won't countersign until we get the liability language back."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Chris",
       "ts": null,
-      "text": "That timeline works.\n\nOne thing: we need the data import capped at 8 hours. Our ops team can clean up the duplicate accounts before handoff, so we should not need more than that."
+      "text": "Got it. I also nudged security for the SOC 2 answer; their IT lead said the approval's parked until that response is in."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Agreed. I updated the scope to 8 implementation hours for import and 2 live training sessions. Anything beyond that would need written approval from you before we schedule it."
+      "text": "Yeah. The actual business owner is ready, which is nice. She asked if we can include two admin training sessions before launch, nothing too weird."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Chris",
       "ts": null,
-      "text": "Ok.\n\nPer your note Friday, we’ll put $39,840 on the PO. I know the order form I have still shows $42,600, so send the refreshed one when the paperwork catches up."
+      "text": "We can do that. Just make sure it's in the services notes, not buried in the email thread. Deal desk will ask."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Sounds good. I’ll send the final order form today with the service dates, 46 seats, and the 8-hour import cap. Legal’s redlines on limitation of liability were accepted, so no blocker there."
+      "text": "For sure. And I sent finance another note on the invoice split sign-off, because deal desk has the quote on hold until they okay the 60/40 billing."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Chris",
       "ts": null,
-      "text": "Great. Please include our full legal name: Northlake Building Supply LLC. Address is 1180 Cooper Ave, Suite 300, Columbus, OH 43215."
+      "text": "Makes sense. Once that's cleared, send me the pricing sheet and I'll sanity-check the totals before it goes out."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Got it. I’ll use Northlake Building Supply LLC and that Columbus address.\n\nOnce signed, our onboarding coordinator will reach out within one business day to schedule the kickoff."
+      "text": "Will do. Current net is $74,880 subscription, plus the $12,500 services, start date April 15. I'll update the CRM after this."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Chris",
       "ts": null,
-      "text": "Thanks. If you get it over before 3 central, I can route it with today’s PO batch.\n\nDana"
+      "text": "Cool. If they ask about adding the second department in Q3, keep it as an expansion note, not in the initial order form."
     }
   ]
 }

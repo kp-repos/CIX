@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I have Northstar at 42 seats today, contract runs through May 31, and you were looking at adding the support team before the June 17 go-live. Is that still the plan?"
+      "text": "Yeah, thanks for making time, Dana. I’ve got the final scope in front of me: 38 full users, 12 read-only users, and about 1,450 gauges and torque tools in the first upload. Is that still right?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. We need 18 more seats, so 60 total. Support wants access for training by June 3, not the 17th, if we can make that work."
+      "text": "That’s right. We may add four inspectors in April, but for the first go-live, 38 and 12 is the number."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, that works. For 60 seats on the annual plan, you're at $54 per seat per month, billed annually. That puts the renewal plus expansion at $38,880 before tax. Same payment terms as last year, net 30."
+      "text": "Perfect. The annual subscription comes to $28,740, and implementation is $5,800 one-time. That includes the asset import, two admin trainings, and the calibration due-date rules we talked through for the Ohio plant."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Our finance team will ask if the invoice can show one line for the 42 renewing seats and one line for the 18 new seats, just for cost center tracking."
+      "text": "Okay. On the invoice, can you split it so subscription hits our quality budget and implementation hits the plant project code?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, easy enough. The order form will show both lines, and billing can mirror that on the invoice. No change to the subscription dates, so everything co-terms to May 31 next year."
+      "text": "Yes, we can do two line items on one invoice with those descriptions. Payment terms are net 30, and the contract term would run February 1, 2026 through January 31, 2027."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. We also need the admin training included. Last time it was two one-hour sessions, and that was enough."
+      "text": "That works. I need the order form to show the go-live target as March 9. Our audit is the week of April 20, so I don’t want this drifting."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I'll include two remote admin training sessions, to be completed by June 14. Those are included at no charge with the 60-seat annual package."
+      "text": "Understood. I’ll put March 9 as the target go-live, with admin training on February 18 and end-user training the week of March 2. If you sign by next Friday, February 6, those dates are held."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send the order form to me and copy Marcus in procurement. If it matches what we just covered, I can route it for signature tomorrow."
+      "text": "Good. One more thing: our purchasing manager asked whether unused read-only seats can be converted to full seats midterm."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. You'll have it this afternoon: 60 seats, $38,880 annual, net 30, co-termed through May 31, invoice split into two seat lines, and two admin trainings by June 14."
+      "text": "They can. If you convert them, we just bill the prorated difference for the remaining months. No change to the renewal date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Thanks. Once it's signed, can we get the kickoff invite on the calendar for May 28?"
+      "text": "Okay, send it over to me and copy Luis in purchasing. If the insurance language is the same as the draft, I think we’re fine."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. I'll hold May 28 at 10 a.m. Central with your admin group and our onboarding lead, and we'll confirm it once the order is back."
+      "text": "Will do. I’ll send the order form and the insurance exhibit this afternoon, and I’ll include the project code fields on the invoice instructions."
     }
   ]
 }

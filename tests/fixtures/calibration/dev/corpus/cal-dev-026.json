@@ -1,6 +1,6 @@
 {
   "id": "cal-dev-026",
-  "source_type": "email",
+  "source_type": "transcript",
   "participants": [
     "rep",
     "customer"
@@ -10,54 +10,54 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Megan Carter, Account Executive",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Hi Paul,\n\nFollowing up on the implementation scope from yesterday. Attached is the 12-month order form for 68 user seats, two admin seats, and the standard onboarding package.\n\nTarget go-live would be May 20 if we have signature by April 26. First invoice would issue on signature, net 30.\n\nMegan"
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the scope from last week: 42 user seats, the calibration workflow module, and the asset import service for your three labs. Is that still right?"
     },
     {
-      "speaker": "Paul Nguyen, Director of Operations",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Megan,\n\nThanks. I’m seeing $44,880 on the form. We had talked about staying closer to $40k for this fiscal year, especially since we won’t add the warehouse supervisors until Q3.\n\nCan you confirm whether the 68 includes the four contractors?\n\nPaul"
+      "text": "Yes, that's right. We may add two more supervisors later, but for the initial order it's 42. The go-live target is still May 6."
     },
     {
-      "speaker": "Megan Carter, Account Executive",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so the 68 includes the four contractors and the 6 read-only seats are not billed. If you want, I can move the warehouse supervisors into a second add-on later, but it only drops the year one by $2,640.\n\nFor support, you’d be on the standard plan with the 4-hour response target. No premium support included.\n\nMegan"
+      "text": "Okay, May 6 works. On implementation, our services team has you down for a March 18 kickoff, then about six weeks for configuration, import, and validation. The asset file you sent had 3,860 records, so that fits the standard import package."
     },
     {
-      "speaker": "Paul Nguyen, Director of Operations",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Understood. Please leave standard support.\n\nIf we can get the year one number to $39,500, I think I can route it this week. Legal already reviewed the MSA last month, so it should just be the order form and DPA.\n\nPaul"
+      "text": "Good. One question on invoices. Can you split the subscription and implementation fees? Finance wants the annual subscription on one invoice and the services on a separate PO."
     },
     {
-      "speaker": "Megan Carter, Account Executive",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Paul,\n\nThe lower $39,500 we landed on in the message thread is fine for the 68 seats; I’m not going to run that through deal desk before Friday, but I’ll clean up the approval paperwork after the order form is in. Attached is the revised PDF with the updated total and April 26 expiration.\n\nMegan"
+      "text": "Yep, we can do that. The subscription would be $31,920 for the year, and implementation is $8,400 one-time. I'll note separate POs in the CRM and have billing issue two invoices."
     },
     {
-      "speaker": "Paul Nguyen, Director of Operations",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Got it. I’ll send this to procurement today.\n\nOne thing: our AP team needs the PO number on the invoice. PO should be 24117, department Ops Systems. Can your billing tool pick that up from the order form or do you need it separately?\n\nPaul"
+      "text": "Perfect. And the term is 12 months, not 36, correct?"
     },
     {
-      "speaker": "Megan Carter, Account Executive",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Separately is safest. I added PO 24117 and Ops Systems to the billing notes in the CRM, and I also put it on the order form cover page.\n\nOnce signed, onboarding can start the week of May 6. We’d do the data import first, then admin training on May 14 and end-user sessions May 16-17.\n\nMegan"
+      "text": "Correct, 12 months. The order form starts April 1, 2026 and runs through March 31, 2027. Renewal language is annual, with 60 days notice if you don't want to renew."
     },
     {
-      "speaker": "Paul Nguyen, Director of Operations",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Thanks. Procurement asked whether the renewal cap is 5% or 7%. The draft says 7% in section 4.2, but my CFO had 5% in her notes.\n\nCan you confirm before I push this through?\n\nPaul"
+      "text": "Okay. Legal had one redline on the data retention section. They want 45 days after termination instead of 30. Is that something deal desk needs to approve?"
     },
     {
-      "speaker": "Megan Carter, Account Executive",
+      "speaker": "Rep",
       "ts": null,
-      "text": "It’s 5%. Good catch. I updated section 4.2 and reattached the order form.\n\nNo other commercial changes: 12-month term, 68 paid seats, net 30, standard support, go-live target May 20.\n\nMegan"
+      "text": "It does, but that one's usually straightforward. I'll send it to deal desk this afternoon and get you an updated order form by tomorrow morning, assuming no issues."
     },
     {
-      "speaker": "Paul Nguyen, Director of Operations",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Confirmed. I sent the updated form to our signer and expect it back tomorrow morning.\n\nIf that slips, I’ll let you know before noon Friday.\n\nPaul"
+      "text": "Sounds good. If we have the revised order form tomorrow, I can route it for signature Friday. Then we should be clear for the March kickoff."
     }
   ]
 }

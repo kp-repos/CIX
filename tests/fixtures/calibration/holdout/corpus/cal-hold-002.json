@@ -1,6 +1,6 @@
 {
   "id": "cal-hold-002",
-  "source_type": "transcript",
+  "source_type": "email",
   "participants": [
     "rep",
     "customer"
@@ -10,64 +10,49 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya Chen, Account Executive",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout details and make sure the quote matches what your team needs for the April go-live."
+      "text": "Hi Dan,\n\nFollowing up on the renewal quote for 42 seats, Feb 1, 2026 through Jan 31, 2027.\n\nCurrent paper is at $31,920 annually, billed upfront, with the standard 30-day opt-out on the services package. Go-live support stays included for the reporting workspace refresh on Feb 10.\n\nCan you confirm if 42 is still the right count?\n\nMaya"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Dan Miller, IT Operations Manager",
       "ts": null,
-      "text": "Sure. We’re still targeting April 15. Seat count is 68 to start, with maybe another 12 in June if the support team comes in."
+      "text": "Hi Maya,\n\n42 is right for now. We may add 6 more after Q2 but finance wants the renewal flat if possible.\n\nThe invoice needs to hit us by Jan 12 or it gets pushed to February processing.\n\nDan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya Chen, Account Executive",
       "ts": null,
-      "text": "Got it. So I’ll keep the order form at 68 named users, annual term, and we can add the 12 later at the same unit price through a simple add-on."
+      "text": "Dan,\n\nGot it. I can keep the add-on seats co-termed later if you need them.\n\nFor the Jan 12 invoice timing, I need signature by Jan 9 at the latest. Billing usually needs one business day to generate the invoice.\n\nOn price, I can check what room we have, but the pricing sheet has this at $31,920 for 42 seats.\n\nMaya"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Dan Miller, IT Operations Manager",
       "ts": null,
-      "text": "That works. On pricing, the last quote showed $41,820 for the year before tax. Is that still correct?"
+      "text": "Maya,\n\nUnderstood. If you can get it closer to $29k, I can probably get Molly to sign this week. Otherwise she may ask me to rebid it, which I do not want to do.\n\nNo changes needed to terms besides the invoice date.\n\nDan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya Chen, Account Executive",
       "ts": null,
-      "text": "Yes, that’s the number in the pricing sheet. It includes the platform, standard onboarding, and the admin training session. The only separate line is the optional data import at $2,400, which you said you likely wanted."
+      "text": "Dan,\n\nPer our message thread, let's use $29,400 for the renewal and keep the same 42 seats and dates. I'll get the order form updated now and sort the deal desk paperwork after so billing can stay on track for Jan 12.\n\nSending the revised PDF shortly.\n\nMaya"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Dan Miller, IT Operations Manager",
       "ts": null,
-      "text": "Right, we do want the import. Finance asked if the invoice can be split 50 percent on signature and 50 percent on July 1."
+      "text": "Thanks. $29,400 works.\n\nPlease make sure the PO field is blank on the order form. We will send PO-11873 after Molly signs, but AP asked us not to put a placeholder in the contract.\n\nDan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya Chen, Account Executive",
       "ts": null,
-      "text": "Yeah, that’s reasonable. I’ll send that through deal desk today. It should be fine, but I’ll confirm before I send the final order form."
+      "text": "Dan,\n\nAttached is the revised order form:\n\n42 seats\nTerm: Feb 1, 2026 - Jan 31, 2027\nAnnual fee: $29,400\nBilling: upfront\nPO field: blank\nServices package: included, 30-day opt-out\n\nIf Molly signs by Friday, I can get the invoice request submitted the same day.\n\nMaya"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Dan Miller, IT Operations Manager",
       "ts": null,
-      "text": "Okay. And contract term is 12 months, not auto-renewing for three years or anything?"
+      "text": "Maya,\n\nLooks good. Molly signed and I attached the PDF.\n\nPlease send the invoice to ap@northlineparts.com and copy me. PO-11873 should be issued tomorrow morning.\n\nDan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya Chen, Account Executive",
       "ts": null,
-      "text": "Correct, 12 months. It auto-renews annually unless either side gives 30 days’ notice. I’ll make sure that’s clear in the terms section."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Great. If you can get the revised order form over by tomorrow morning, I can route it for signature before our Friday cutoff."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Yep, I’ll get it to you by 10 a.m. Eastern tomorrow. I’ll include the implementation timeline too, with kickoff on March 25 and admin training the week of April 8."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. Send it to me and copy Matt from procurement. He’s the one who needs it in the billing tool."
+      "text": "Dan,\n\nReceived, thank you. I submitted the signed order to billing and noted PO-11873 is pending.\n\nYou should see the invoice by Jan 12. I'll also have our onboarding lead send a calendar hold for the Feb 10 reporting workspace refresh.\n\nMaya"
     }
   ]
 }

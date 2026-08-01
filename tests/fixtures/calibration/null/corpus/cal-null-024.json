@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so thanks for making time, Dana. Your current subscription runs through August 31, and I wanted to walk through the renewal and the extra seats before your finance close next week."
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the team package for the three plant sites and make sure the seat count and invoice timing line up before I send the order form."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Appreciate it. We’re at 42 users today. I need to add eight more for the regional managers, but I don’t want them live until September 9."
+      "text": "Sure. We’re at 28 users today, but Greenville needs 6 more for the second shift. So call it 34 seats starting April 15."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That works. The renewal would be 50 seats total, September 1 through August 31 next year. Using the annual prepay rate from the pricing sheet, it comes to $48,600 before tax."
+      "text": "Got it, 34 seats effective April 15. The annual rate on the pricing sheet is $188 per seat per month, billed annually, so the first invoice would be $76,704 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Is that still net 30 on the invoice? Our AP team is pretty strict about that language."
+      "text": "Okay. Can you split that by site on the invoice? Finance wants Greenville, Dayton, and Mesa broken out, even if it’s one contract."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, net 30, PO number on the invoice, and we’ll reference your existing master agreement. No change to the liability or data terms."
+      "text": "Yes, we can list the sites as separate line items on the invoice. Same payment terms as your current agreement, net 30, and it’ll still be one subscription."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. For go-live, we need single sign-on checked by September 5. Same domain, no new security review, just adding the managers."
+      "text": "That works. The other thing is implementation. We need Greenville live by May 20 because the audit starts June 3."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I’ll put September 5 for SSO validation and September 9 for the eight new seats to be enabled. Our onboarding coordinator can join the kickoff on September 3 at 11 a.m. Central if that still works."
+      "text": "Yeah, that’s reasonable. If we have signature by April 12, onboarding can start April 16. Training would be two admin sessions and one operator session, all remote, and go-live targeted for May 17."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, that slot works. Send me the order form today and I’ll route it with the PO request. If procurement has a question, it’ll probably be around the seat count only."
+      "text": "Good. Are the training sessions included, or is that extra?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I’ll send the order form with 50 seats, $48,600, net 30, and the September dates right after this. If you can get signature by Friday, we’ll have everything ready well before the 9th."
+      "text": "Included for the 34-seat annual package. If you want onsite later, that would be quoted separately, but the remote training and setup are included."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. I’ll watch for it and reply if finance needs anything cleaned up."
+      "text": "Okay. Send the order form to me and cc procurement. They’ll need the PO number on the invoice; it’s PO-45821."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it over this afternoon with the April 15 start date, 34 seats, annual billing, site-level invoice lines, and PO-45821 noted."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. If the numbers match what you just said, I can sign tomorrow."
     }
   ]
 }

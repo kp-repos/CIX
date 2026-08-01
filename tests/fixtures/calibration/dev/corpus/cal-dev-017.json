@@ -12,47 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, sorry I missed the 10:00 window. I was still fixing the parent-child account setup so the 18 clinic sites roll up to Northstar Medical correctly. Do you have 15 now to walk through the renewal quote?"
+      "text": "Yeah, thanks for making time, Laura. I wanted to confirm the updated quote for the support analytics package: 42 seats, annual term, starting May 1, comes to $31,920 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "I do. Main thing is the seat count. We’re at 146 active users today, but we want to renew for 160 because two departments are adding people in September."
+      "text": "That matches what I had. The only thing I want to check is the implementation fee. Last version showed $4,500 and this one shows $3,750."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. The quote I have is 160 seats, annual term starting August 1, at $38 per user per month. That puts the software at $72,960 for the year, plus the $4,800 support package you had last term."
+      "text": "Correct. We took out the custom dashboard workshop since your team said the standard reports are fine for phase one. So onboarding is still included, just not that extra session."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that matches what I expected. Billing just asked if we can keep net 45. Also the invoice needs to go to ap@northstarmed.com, not the old clinic address."
+      "text": "Okay, good. And for billing, can you split the invoice by department? We need 28 seats under customer operations and 14 under account management."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep. If you send the legal entity name and PO contact, I’ll put those on the order form before it goes to deal desk. Net 45 should be fine since it’s in your current agreement."
+      "text": "Yep, we can do that in the billing tool. It'll still be one contract, but two invoice lines with those department labels. Net 30 terms, same as your current agreement."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Can we get this signed by July 24? Our controller is out the last week of the month."
+      "text": "Perfect. Legal had one note on the renewal language. They want the auto-renew notice window to be 60 days instead of 30."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That should work. I can send the clean version by tomorrow afternoon. Tuesday morning is a little tight while I get the usage rows imported for month-end, but I can do a 2:00 review with you and your controller."
+      "text": "That should be fine. I'll send it through deal desk, but it's a standard change for us. No change to pricing or the May 1 start date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "2:00 Tuesday works. Please include the line about no price increase for added seats through December 31."
+      "text": "Great. If you can get the revised order form over today, I can route it for signature tomorrow. Our cutover target is May 6, after payroll closes."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. It’ll say additional seats through December 31 stay at $38, then true-up on the next renewal. I’ll send the calendar hold and the revised order form once I have that PO contact."
+      "text": "Understood. I'll update the order form, attach the split-invoice note, and send it by 3 PM Eastern. Once signed, our onboarding manager will schedule the admin kickoff for the week of April 22."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send it to me and copy Evan in procurement. We'll turn it around as soon as we have the final version."
     }
   ]
 }

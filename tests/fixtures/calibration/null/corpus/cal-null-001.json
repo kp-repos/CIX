@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so thanks for making time, Dana. I wanted to confirm the renewal and the additional seats for the operations team. You’re at 48 seats today, and you mentioned moving to 62 starting September 1, right?"
+      "text": "Yeah, so just to make sure I have the shape right: 45 technician seats, 6 manager seats, and the calibration module for torque and pressure assets. You’re aiming for a June 3 go-live, correct?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s right. We have 11 coordinators and 3 supervisors joining the workflow. I need the quote to show 62 total, not a separate add-on line if possible."
+      "text": "That’s right. We have 51 users total. The big thing is we need the reminders running before our June audit, which starts June 17."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, we can do that. The annual term would run September 1, 2026 through August 31, 2027. At 62 seats, the pricing sheet puts you at $84 per seat per month, billed annually. That’s $62,496 before tax."
+      "text": "Makes sense. For that seat count, the annual subscription is $38,400, and implementation is a one-time $6,200. That includes the data import for up to 8,000 instruments and two admin training sessions."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And can the invoice go to ap@northlakeparts.com with net 30? Last year it went to my inbox and I had to forward it around."
+      "text": "Okay. We’ve got about 6,700 instruments today, so that fits. On billing, can you invoice the subscription now and the implementation after kickoff?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "For sure. I’ll set the billing contact as AP and keep you as the business contact. Net 30 is already on your account, so no change there."
+      "text": "Yes, we can split it that way. Subscription invoice on signature, implementation invoice on the May 13 kickoff date. Net 30 on both, unless you need net 45 for AP."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. We also need the onboarding session for the new supervisors before go-live. August 26 or 27 would work."
+      "text": "Net 30 is fine. Procurement will ask about the term. Is it a straight 12 months?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, we can include one 90-minute enablement session on August 27 at 1 p.m. Central. I’ll put that in the order form so it’s clear, and our customer team will send the calendar invite after signature."
+      "text": "Yep, 12 months, June 3, 2026 through June 2, 2027. Renewal is annual, and we’ll reach out 90 days before the end of term to review seats and usage."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. One more thing, legal asked if the auto-renewal language is the same as the current agreement."
+      "text": "Good. We may add the dimensional team later, maybe another 12 seats in Q4. Do we have to redo the whole agreement?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It is the same: 30-day notice before the end of term. I’ll attach the current terms with the renewal order so they can compare. No new data processing terms, no change to service levels."
+      "text": "No, you can add seats mid-term. They’d be prorated to the June 2 end date, same per-seat rate as this order."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That should be fine. Send it over today and I’ll route it to procurement. If there aren’t any surprises, we can sign by next Friday, August 9."
+      "text": "That works. Send me the order form and I’ll route it today. If legal doesn’t change anything, I think we can sign by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Sounds good. I’ll send the order form for 62 seats, $62,496 annually, net 30, September 1 start, and the August 27 training session. You’ll have it in about an hour."
+      "text": "Perfect. I’ll send the order form with the pricing, billing split, June 3 start date, and the implementation scope in one packet this afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Copy Jenna in procurement and Mark from quality, please. They’ll both want to see it."
     }
   ]
 }

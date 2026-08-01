@@ -3,7 +3,7 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
@@ -12,47 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so for Northlake, can you sanity check the renewal quote before I send it to deal desk? They’re at 42 seats today, adding 8 more for the field team."
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final scope before I send the order form over. I have 48 standard seats, 6 admin seats, and the reporting add-on for the operations team. Is that still right?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Sure. Is this the facilities analytics package plus onboarding hours, or just the subscription?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Subscription only. They used 18 of the 25 onboarding hours already, and Kara said they’ll hold the rest for the October rollout."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Okay. I’m looking at the CRM now. Their current agreement ends August 31, and I don’t see any notes that we’ve talked to them about continuing yet."
+      "text": "That's right. We may add three more standard seats in Q2, but for the initial contract, keep it at 48 and 6. Finance asked me not to pad it upfront."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Right, I’ll call Kara this afternoon. Pricing sheet has them at $38,400 annual, and with the 8 seats it goes to $45,600 if we keep the same tier."
+      "text": "Totally fair. The pricing sheet has standard seats at $62 per user per month and admin seats at $95. With the reporting add-on, the annual total comes to $43,704 before tax. I can put the expansion language in so additional seats co-term at the same rate."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "That matches. Just make sure billing keeps the invoice split the same, 70% to corporate and 30% to the Denver site, because they kicked back the last one."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Yep, I’ll put that in the order notes. They also asked for net 45 again, no change to the standard terms otherwise."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Fine by me. If they want the September 16 go-live for the new users, we should get the signed order by the 9th so provisioning isn’t a scramble."
+      "text": "Okay, that matches what you sent Friday. On billing, we need annual invoicing, net 30, and the PO number has to show on the invoice. The PO should be ready by March 18."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Agreed. I’ll send the draft after deal desk approves, and I’ll flag the seat add separately so support can prep the workspace."
+      "text": "Got it. I'll note annual billing, net 30, PO required. If the PO lands March 18, we can set the contract start date as April 1. Are you still targeting May 6 for go-live?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, May 6 is the target. We need implementation to start the week of April 8, though. Our data export from the old system is scheduled for April 10."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. I'll have services reserve the April 8 kickoff slot. The implementation package included is 18 hours, and based on what we reviewed, that should cover setup, one data import, and two admin training sessions."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Legal only had one note on the renewal language. They want 60 days' notice instead of 90 for non-renewal. Is that going to be an issue?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No, that one's standard enough. I'll route it through deal desk, but I don't expect pushback. I'll send the updated order form and terms this afternoon, and once signed, billing can generate the invoice against the PO."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and copy Marcus in finance. If everything lines up, we should be able to sign by March 22."
     }
   ]
 }

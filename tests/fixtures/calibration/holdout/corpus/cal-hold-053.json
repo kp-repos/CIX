@@ -12,52 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for jumping on, Dana. I wanted to check the renewal order for 48 seats at $41 per seat, annual term starting March 1, and make sure the April 15 go-live for the support team is still the date."
+      "text": "Yeah, so I pulled up the order form we discussed. It has 42 seats at $68 per seat per month, annual term starting September 1, and the implementation package at $4,200 one-time."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "The date is fine, but we had two pretty awkward things this week. First, we agreed on the call last Tuesday that your implementation team would set up SSO with our department field mapped to cost center. When they joined yesterday, they had no idea. They were asking us to start from scratch, and they had the default employee ID mapping in their worksheet."
+      "text": "Okay, that matches what I had. The only thing I want to confirm is the 42 seats includes the five read-only users from finance, right?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "You're right, and I'm sorry. I put that in my notes and on the pricing sheet, but I did not get it over to the implementation group. That's on me. They were working off the standard kickoff form, so the department-to-cost-center mapping never reached the people actually configuring it."
+      "text": "Correct. Thirty-seven standard users and five read-only. I noted that in the CRM and it is on page two of the quote as well."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, but it cost us an hour with IT. They had Maya from our side on the call and she was like, why are we explaining this again? We had already agreed no employee ID would be passed over."
+      "text": "Good. For billing, can you make sure the invoice goes to ap@northlineparts.com and includes our PO number? It should be PO-18477."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. I already updated the kickoff form while we were talking, and I'll send the implementation lead the exact mapping: department field to cost center, no employee ID, 48 users in the first load, and admin review by April 8. I'll also ask them to send you a revised setup checklist by end of day."
+      "text": "Yep, I can add PO-18477 before it goes to the billing tool. The invoice would be for $38,472 for the subscription plus the $4,200 services fee, so $42,672 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Second thing, the invoice came in wrong. We agreed to net 45 and two invoices, one for 36 sales seats and one for 12 manager seats because finance allocates those to different cost centers. The billing tool sent one invoice for all 48 seats due on receipt."
+      "text": "That works. On timing, we want to start onboarding the week of August 19, but we don't want the subscription clock to start until September 1."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, I see it now. That's another miss on our side. The net 45 and split invoice agreement never made it to billing, so they generated the standard invoice from the closed order. I'm sorry, that's not you being picky, that was explicitly agreed and it didn't reach the billing team."
+      "text": "Yeah, that's fine. We can schedule kickoff for August 20 and keep September 1 as the contract start date. The services team has availability that Tuesday or Wednesday."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Please fix that before Friday. Our AP cutoff is March 29, and if the replacement invoices aren't in by then, it pushes payment into May."
+      "text": "Let's hold August 20 at 10 Central. Also, procurement asked whether the renewal is automatic or if we get notice first."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "We'll void invoice 78214 and issue two replacements today: 36 seats for sales, 12 for managers, both net 45, PO 45119 on each. I'll copy you and AP when billing confirms. No change to the $23,616 annual total."
+      "text": "It is annual auto-renewal, but the agreement has a 60-day notice window. You'll also get a reminder from us 90 days before renewal. If you want, I can highlight that section when I send it."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Fine. Send the corrected checklist and invoices, and we're good to proceed with the March 1 start."
+      "text": "Please do. Send it over today and I can route for signature. Assuming legal doesn't have edits, we should have it back by Friday."
     }
   ]
 }

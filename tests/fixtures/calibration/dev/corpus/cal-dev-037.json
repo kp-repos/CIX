@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the renewal and the add-on for the calibration workflow seats. I have you at 46 current users and adding 12 technicians for the Phoenix site, starting July 1."
+      "text": "Hi Dana, yeah, thanks for jumping on. I saw your note about adding the operations team before the June rollout, so I wanted to walk through seats, timing, and the order form."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Right, 58 total. And the quote I have is $38,400 for the year, net 30, with the services line at $6,200. Is that still what you're seeing?"
+      "text": "Yep, that's right. We have 42 users today, and we'd like to add 18 more. Most of them are supervisors who just need standard access, not admin."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, that's what is in the CRM and on the pricing sheet. The only thing I want to address up front is the go-live item, because there's a miss on our side."
+      "text": "Got it. So 60 total seats, with your current two admins staying as is. Your renewal is September 30, so we can co-term the 18 added seats from June 15 through September 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. What miss?"
+      "text": "Okay. Can you remind me what that comes out to? Finance asked for the prorated amount and whether it's a separate invoice."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "When we agreed last week that Phoenix would be live by July 15, including the import of the 1,860 asset records and the two approval templates, I did not get that note over to the implementation team. They built the services plan off the standard August 5 kickoff, so they were surprised when I asked about July 15 this morning. That's on me. The agreement did not reach the group that has to deliver it."
+      "text": "Sure. The prorated charge is $7,830 before tax. It would be a separate invoice issued once the add-on is signed, net 30 terms, same billing contact as the current account unless you want to change it."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That is not great. I already told our QA manager July 15, and we have an audit window starting July 22. We can't have technicians double-entering readings again."
+      "text": "Same contact is fine. The only thing is we need the users active by June 17. Is that realistic if we get the order form back this week?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I know, and I'm sorry. I should have put the date and the import scope into the handoff, not just left it in the call recap. I talked to services before this call. They can still hit July 15 if we get the asset export by June 24 and we limit the first phase to the two templates we named, not the full five-template library."
+      "text": "Yes. If we have signature by Friday, June 7, provisioning can be done by Tuesday the 11th. Then your team has a few days for setup before the 17th."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "So no price change, but we need to send the export by the 24th, and the other three templates happen after go-live?"
+      "text": "That works. Do we need a new security review for the additional seats?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. Same $6,200 services line, no change to the subscription. Phase two templates would be completed by July 31. I'll send a revised order form and the implementation checklist today, and I'll copy the services lead so it's not just living with me."
+      "text": "No, not for a seat expansion under the same subscription. I can attach the original security packet again if procurement wants it, but deal desk won't require a new review."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Alright. Send it over. If the dates are written that way, I'll sign by Friday."
+      "text": "Great. Send me the order form and the quote summary, and I'll route it internally today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the PDF and the pricing summary in the next hour. It'll show 18 standard seats, co-termed to September 30, $7,830 prorated, net 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. If I see any edits from legal, I'll send them back, but I don't expect much."
     }
   ]
 }

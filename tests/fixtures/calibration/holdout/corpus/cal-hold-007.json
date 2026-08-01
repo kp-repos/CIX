@@ -1,6 +1,6 @@
 {
   "id": "cal-hold-007",
-  "source_type": "transcript",
+  "source_type": "email",
   "participants": [
     "rep",
     "customer"
@@ -10,64 +10,49 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Megan Ellis, Rep",
       "ts": null,
-      "text": "Hey Dana, thanks for taking the call. Sorry I didn’t get you yesterday afternoon, the renewal quote was stuck until I fixed the duplicate billing account in the CRM. I’ve got the 48-seat version in front of me now."
+      "text": "Hi Jordan,\n\nAttached is the revised quote for 42 seats of GaugeTrack, calibration scheduling, and the asset import. Target go-live is January 13, assuming we get the PO by December 18.\n\nAnnual subscription is $45,600, implementation is $7,500, Net 30.\n\nMegan"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan Pike, Customer",
       "ts": null,
-      "text": "No problem. Yeah, we’re trying to lock this by August 16 so finance can put it on the September invoice run."
+      "text": "Megan,\n\nThanks. Seat count is right. We may add 6 more techs in Q2 but don't include them now.\n\nCan you confirm the implementation includes migrating our 3,200 active instruments and the overdue cert history from the spreadsheet?\n\nJordan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Megan Ellis, Rep",
       "ts": null,
-      "text": "Makes sense. For 48 seats on the team plan, annual comes to $38,400, and implementation is $4,200 one-time. If you add the five contractors later, those would just prorate at the same seat rate."
+      "text": "Yes, implementation covers the 3,200 active instruments, locations, intervals, owners, and last/next due dates. We can bring over the cert PDFs if your team puts them in the folder structure we discussed.\n\nThe only add-on would be barcode label setup if you want us to design the templates.\n\nMegan"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan Pike, Customer",
       "ts": null,
-      "text": "Okay. We may actually start with 42 employees and hold the contractors until October. Does that change the go-live date?"
+      "text": "Okay. Leave barcode labels out.\n\nOn the price, per our texts last night, we settled on $38,400 for year one instead of the $45,600 on the quote. I know that discount is supposed to go through deal desk and show concession approval, but let's not wait on that route. You said if I get the signature back this week, you can hold the cheaper number and clean up the paperwork later so the order form and billing tool catch up after. That's the number I'm taking to finance.\n\nJordan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Megan Ellis, Rep",
       "ts": null,
-      "text": "Not really. If we have the order form back by next Friday, go-live can still be September 9. Training would be two admin sessions and one end-user session that week."
+      "text": "Jordan,\n\nUnderstood. I'll send a clean order form today with 42 seats, no barcode add-on, Jan 13 go-live, annual invoice, Net 30.\n\nMegan"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan Pike, Customer",
       "ts": null,
-      "text": "Can you do a security review call Tuesday morning? Our IT lead has a window at 10."
+      "text": "Send it to me and copy Priya in procurement. She needs vendor address, tax ID, and remittance instructions on the invoice.\n\nAlso, our PO will reference calibration software subscription and services. That okay?\n\nJordan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Megan Ellis, Rep",
       "ts": null,
-      "text": "Tuesday at 10 is tough, I’ve got a batch of deal desk packets due after month-end cleanup. I can do Tuesday at 2 or Wednesday at 10, and I’ll bring our solutions lead."
+      "text": "Yes, that description is fine.\n\nI'll include our W-9, vendor form, and remittance details with the order form. Invoice will go out after countersignature unless you need it held until the PO is issued.\n\nMegan"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan Pike, Customer",
       "ts": null,
-      "text": "Wednesday at 10 works. On terms, legal asked for net 45 instead of net 30. Is that going to be a problem?"
+      "text": "Hold invoice until PO. Our AP team kicks back anything without a PO number.\n\nIf we sign by Friday, can your implementation lead still do kickoff on December 22?\n\nJordan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Megan Ellis, Rep",
       "ts": null,
-      "text": "For a one-year term, net 45 usually needs approval, but it’s not unusual. I’ll add that to the redline summary and keep the discount at 12%."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Great. Also, the invoice needs to show the Denver office address, not corporate in Chicago."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Yep, I’ll make sure that’s on the order form. If the PDF lands a little late today, it’s just because the billing tool wants the ship-to and bill-to fields to match before it’ll generate cleanly."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Understood. Send it over when you can, and I’ll route it to finance and legal."
+      "text": "Yes. December 22 at 11:00 a.m. Eastern is still open. Kickoff agenda is data import, user roles, due-date rules, and the January 13 go-live checklist.\n\nI'll send the packet in a few minutes.\n\nMegan"
     }
   ]
 }

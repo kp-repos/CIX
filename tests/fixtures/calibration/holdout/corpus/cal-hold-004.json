@@ -3,7 +3,7 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
@@ -12,47 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I'm cleaning up the west region forecast before deal desk reviews it. For Northstar Dental, do you know if the seat count is still 64 or did support add those eight hygiene users?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the final order form for the service desk rollout and make sure we're clean on seats, dates, and billing before I send it to signature."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "I checked the admin export this morning. It's 72 active, but only 64 on the order form. The extra eight were provisioned June 18 for the pilot group."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Okay, that explains the mismatch. The pricing sheet puts them at $38 per seat if we true it up, so it's like $304 a month incremental. Not a big swing."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Right. One thing, their term line in the billing tool shows service through July 31, and the CRM's last customer activity is the April QBR recap."
+      "text": "Sure. We are still at 84 agent seats, right? Forty-six for support, 22 for operations, and then 16 shared admins."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. For now I'll just flag the seat delta and leave the close date where finance had it, August 9. I don't want deal desk kicking it back for a math issue."
+      "text": "Correct, 84 paid agent seats. The read-only requester access is unlimited, so your 310 internal users won't count against that. Annual total is $58,380 after the 12% discount, billed up front."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Makes sense. Also the invoice contact changed. AP should be invoices at northstardental dot com, not Marcy directly. She bounced the June one twice."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Perfect, thanks. Do we need legal for the same terms, or is this inside the standard add-on language?"
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Standard is fine unless they push for monthly billing. Their current setup is annual upfront, net 30."
+      "text": "Okay. Finance asked if the invoice can show the cost center split, 70% support and 30% ops. They don't need two invoices, just the line note."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Okay. I'll update the CRM fields, attach the corrected seat report, and send deal desk the note before two."
+      "text": "Yep, I put that in the billing notes. Payment terms are net 30, start date June 1, and the initial term runs through May 31 next year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. What about the data import? We had May 10 on the calendar because our current tool renewal hits May 20."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so I owe you an apology there. I confirmed May 10 with you, but it didn't make it into the implementation ticket, so the services team had you down for May 17. I talked to the manager this morning and they can still start the import May 10, but the validation call moves to May 14 at 2:00 Eastern."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that's not ideal, but May 14 works. We just need the tickets and user history checked before our admin training."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. Admin training is still May 16, two hours, remote, with up to 12 admins. I'll attach the agenda to the order form email and copy your project lead."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send the order form to me and Marcus in procurement. If the numbers match what you just said, we can turn it around by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it today with the pricing sheet summary, the cost center note, and the updated implementation dates."
     }
   ]
 }

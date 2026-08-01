@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making the time. I had you down for 42 seats starting June 17, plus the reporting add-on for the finance team. Is that still the right scope?"
+      "text": "Yeah, thanks for making time, Dana. I saw the note that you’re planning the services team rollout for September 9. I wanted to confirm seats and the billing setup before we send the order form."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Mostly, yeah. We counted again this morning and it is 45 seats. Same reporting add-on. We want the first invoice to hit in July, not June, if that’s possible."
+      "text": "Yep, that’s right. We’re starting with 42 seats, not 50. Twenty-eight are full users and 14 are view-only. If adoption is good, we may add the rest in Q4."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That works. For 45 seats on the annual plan, you’re at $38,700 for the year, and the reporting add-on is $6,000. So total contract value is $44,700, invoiced July 1 with net 30 terms."
+      "text": "Got it, 42 total for the first order. On the current pricing sheet, that puts the annual subscription at $31,080, and implementation is the fixed $4,800 package we discussed. Does that line up with what you had budgeted?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And implementation, you said two weeks? We’re trying to have our managers using it before the July 15 regional meeting."
+      "text": "It does. The only thing procurement asked is whether the invoice can show implementation as a separate line item, because it comes from a different cost center."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Right. If we get signature by Friday, June 7, kickoff would be Tuesday, June 11. Configuration that week, user training on June 18 and 20, and go-live June 24. That gives you a few weeks before the meeting."
+      "text": "Yes, that’s standard. The order form will show subscription and implementation separately, and billing can invoice them on the same invoice or split them. Which do you prefer?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That timeline is fine. I need the order form to show the 45 seats, annual term, and the July 1 invoice date. Our AP team also needs our PO number on there, PO-4186."
+      "text": "One invoice is fine, just two lines. And payment terms need to be net 30. Our default contract language says net 45, but for software this size net 30 is okay."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I can include PO-4186 on the order form. Term would run July 1, 2024 through June 30, 2025. We’ll note the June kickoff dates in the implementation section so your team has it in writing."
+      "text": "Okay, net 30. Term would be September 1, 2026 through August 31, 2027, so you’ve got a few days before go-live for admin setup. We’ll schedule onboarding the week of September 2."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. One thing: if we add five more seats in September, are they prorated, or do we pay a full year?"
+      "text": "That works. Can you also include the support hours? My VP keeps asking whether email support is included or if that’s extra."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "They’re prorated through June 30, 2025 at the same per-seat rate. So if you add five seats on September 1, it would be roughly ten months of seat fees, added to the next invoice."
+      "text": "Included. Email support is unlimited for named admins, and the package includes two live training sessions. If you want a third session later, it’s $650, but I wouldn’t add it now unless you know you need it."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Makes sense. Send the order form to me and copy Martin in procurement. If the numbers match what you just walked through, I can sign this week."
+      "text": "Fair. Send the order form to me and copy Mark in procurement. If we get it today, I can probably get signature by Friday, August 16."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send it over today with the $44,700 total, July 1 invoice date, net 30, and the implementation schedule. Anything else you want captured before I send it?"
+      "text": "Will do. I’ll send it over this afternoon with the 42 seats, net 30, one invoice with two line items, and the September 1 start date. Anything else you want reflected before I finalize it?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "No, that covers it. Thanks, yeah, this is pretty straightforward."
+      "text": "No, that covers it. Thanks, Alex."
     }
   ]
 }

@@ -3,71 +3,61 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "customer"
+    "colleague"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the updated quote for 42 seats and the services line so we can get you set for a May 20 go-live."
+      "text": "Hey, can you look at the renewal queue with me for North Ridge Plastics? I pulled it from the CRM and it looks odd."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colin",
       "ts": null,
-      "text": "Sure. I reviewed it this morning. The seat count is right, 38 standard users and 4 admins. I just need to confirm the invoice timing and the renewal date."
+      "text": "Yeah, one sec. That's the calibration tracking workspace, right? Twenty-eight seats and the gauge import add-on?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Totally. The first invoice would go out on signature, net 30, for $28,560 for the annual subscription. The implementation package is $4,800, billed at kickoff, also net 30."
+      "text": "Yep. Their agreement ended July 31, so we're already two weeks past it, and I don't see any call notes, emails, or tasks from us about carrying on. Like, nobody has talked to Dana or their plant ops team about renewing, extending, anything. The billing tool still shows them active because the invoice run is monthly, but contractually we're past the end date with no customer conversation."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colin",
       "ts": null,
-      "text": "Okay, and the term runs through May 19 next year, right? Our finance team doesn't want it landing mid-month if we can avoid it."
+      "text": "Oh, that's not good. I see the same thing. Last activity was June 18, support ticket on certificate formatting, then nothing from sales. No renewal quote attached either."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Right now it's May 20 through May 19. If you prefer a month-end renewal, I can have deal desk prorate the first term through May 31 next year. It would add about $890 to the first-year total."
+      "text": "Right, and they were supposed to add six seats for the second shift in September. If we go to them now, it can't sound like we forgot, but we need to be clear on access and dates."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colin",
       "ts": null,
-      "text": "Let's keep it as written for now. May 19 is fine. On implementation, is that three weeks or four weeks?"
+      "text": "Agreed. Do we have pricing locked from the old order form? It says $31,200 annual, net 30, auto-renew unchecked."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "The plan is four weeks. Week one is kickoff and data mapping, weeks two and three are configuration and testing, and week four is admin training and go-live support. We'd need your export file by April 22 to stay on track."
+      "text": "Pricing sheet has them at $93 per seat per month, plus $4,800 for the add-on. If we hold that and add six seats, new annual is $38,? wait, $38,016 before tax."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colin",
       "ts": null,
-      "text": "That should work. I can get our operations manager to own the export. For contract terms, legal only asked about the auto-renewal notice period."
+      "text": "Deal desk will want a bridge note. Maybe propose a 12-month term from August 1 through July 31 next year, so there's no weird partial month."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "It's 60 days prior to renewal. I can point that out in the order form when I send the clean copy. No change needed unless your legal team wants different language."
+      "text": "Yeah. I'll send Dana a short note asking for 20 minutes tomorrow, and I'll own that we need to align the renewal paperwork and added seats. No blame, no drama."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colin",
       "ts": null,
-      "text": "No, 60 days is okay. Send the clean copy and the security packet again, and I'll route it for signature today."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. I'll send the order form, security packet, and the implementation checklist in one email. If it's signed by Friday, we can hold the May 20 go-live slot."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Great. Thanks, Mark."
+      "text": "Good. Attach the quote after she replies. Also check with finance on whether August usage should be invoiced under the renewal or as a separate catch-up line."
     }
   ]
 }

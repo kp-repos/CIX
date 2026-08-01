@@ -3,71 +3,61 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "customer"
+    "colleague"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya, Account Executive",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I had us down to review the 42-seat rollout and the services line before I send the order form through deal desk."
+      "text": "Yeah, so I just got off with Northstar Manufacturing. They’re good with the 42 seats, one-year renewal, same start date of February 1."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Chris, Sales Ops",
       "ts": null,
-      "text": "Yep, that’s right. We’re still at 42 seats for phase one. The only change is we want the admin training split into two sessions instead of one, if that doesn’t move the price much."
+      "text": "Okay, and did they accept the 4% uplift or are they pushing back?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya, Account Executive",
       "ts": null,
-      "text": "It doesn’t. The services package is still $6,800 total, we’d just schedule two 90-minute sessions the week of March 11. License is $38 per seat per month, annual term, so $19,152 for the subscription."
+      "text": "They accepted it. Total is $18,480 net, paid annually. Their only ask is to keep the invoice split by department like last year, 30 seats under operations and 12 under finance."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Chris, Sales Ops",
       "ts": null,
-      "text": "Okay, and the start date on that is March 1, correct? Our finance team asked because they don’t want an invoice dated in February."
+      "text": "That’s fine. We can set the invoice schedule that way. Do you need deal desk approval?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya, Account Executive",
       "ts": null,
-      "text": "Correct, March 1 start, March 1 invoice date. Net 30 terms, so payment due March 31. I’ll make sure that’s reflected in the billing tool and on the order form."
+      "text": "I think no, because it’s inside the pricing sheet guardrails. The annoying part is I had to retype the same seat count, term dates, discount, and billing contact into the CRM, the pricing sheet, the contract workspace, and then the billing tool, and I’ve been touching it since Tuesday just to get the renewal packet out."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Chris, Sales Ops",
       "ts": null,
-      "text": "Great. For go-live, we’re targeting April 8. Is that still reasonable with the March 11 training?"
+      "text": "Yeah, that tracks. Send me the agreement ID and I’ll sanity check the billing lines before it goes to their AP team."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya, Account Executive",
       "ts": null,
-      "text": "Yeah, so if we get signature by February 23, we can do kickoff March 4, training March 12 and 14, and leave about three weeks for configuration and user testing. April 8 is reasonable."
+      "text": "Agreement ID is 7146-R. Billing contact is Denise Alvarez, dalvarez at northstar-mfg.com. PO is not required, she said just reference cost center 4102."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Chris, Sales Ops",
       "ts": null,
-      "text": "Sounds good. One thing on the contract: legal asked if the auto-renewal can be 30 days notice instead of 60."
+      "text": "Got it. Any change to support tier or implementation services?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya, Account Executive",
       "ts": null,
-      "text": "That’s within our standard fallback. I’ll note 30 days’ notice for non-renewal in the special terms and have deal desk approve it. No pricing impact."
+      "text": "No changes. They’re asking for the signed copy by January 19 so procurement can close it before their month-end freeze."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Chris, Sales Ops",
       "ts": null,
-      "text": "Perfect. Send it to me and I’ll route it for signature. If I have it today, I can probably get it back by next Wednesday."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "I’ll send it this afternoon, along with the implementation timeline and the seat breakdown by department. You’ll see 18 operations, 14 customer support, and 10 managers on the quote."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Yep, that matches our list. Thanks, Mark."
+      "text": "Okay. I’ll review in the next 20 minutes. If the totals match, you can send it for signature today."
     }
   ]
 }

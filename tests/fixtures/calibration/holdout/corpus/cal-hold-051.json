@@ -1,6 +1,6 @@
 {
   "id": "cal-hold-051",
-  "source_type": "transcript",
+  "source_type": "email",
   "participants": [
     "rep",
     "customer"
@@ -10,64 +10,44 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya Chen, Account Executive",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I just wanted to confirm the final seat count and walk through the implementation dates before I send the order form over."
+      "text": "Hi Jordan,\n\nAttached is the order form for 42 seats of the service desk package, plus the onboarding block we scoped last week.\n\nStart date: August 19, 2026\nTerm: 12 months\nTotal: $58,740\nBilling: annual upfront\n\nI left the invoice contact as ap@northbankmechanical.com. Let me know if that should be someone else.\n\nMaya"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan Ellis, IT Operations Manager",
       "ts": null,
-      "text": "Sure. We landed at 42 full users and 18 read-only users. That includes the finance team we added last week."
+      "text": "Hi Maya,\n\nThanks. Two items:\n\n1. We only need 39 seats at go-live. The other 3 hires are not approved yet.\n2. Annual upfront is okay, but our controller needs the invoice dated after Sept 1.\n\nCan you revise?\n\nJordan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya Chen, Account Executive",
       "ts": null,
-      "text": "Got it, 42 full and 18 read-only. On the pricing sheet that puts the annual subscription at $38,640, and the one-time onboarding is $4,500. Does that match what you had internally?"
+      "text": "Yeah, no problem.\n\nI updated to 39 seats and kept the same August 19 service start. Invoice can be generated Sept 2 with net 30 terms, so due Oct 2.\n\nRevised total is $54,405 including onboarding.\n\nMaya"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan Ellis, IT Operations Manager",
       "ts": null,
-      "text": "Yes, that's what I have. Procurement asked if the invoice can be split quarterly, though, instead of all upfront."
+      "text": "Maya,\n\nWe are close, but the CFO asked me to keep this under $52k for the first year. If we cannot get there, I may need to push the go-live to Q4 and rebid the onboarding work.\n\nJordan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya Chen, Account Executive",
       "ts": null,
-      "text": "Yep, we can do quarterly invoicing. The contract term would still be 12 months starting October 1, but billing would be four invoices of $9,660 for subscription, plus the onboarding on the first invoice."
+      "text": "Jordan,\n\nUnderstood. As we covered in messages, I can get you to $51,900 for year one if you can sign by Friday; I'll clean up the deal desk paperwork after so the order form matches.\n\nEverything else stays the same: 39 seats, Aug 19 go-live, Sept 2 invoice, net 30.\n\nMaya"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan Ellis, IT Operations Manager",
       "ts": null,
-      "text": "Okay, that's fine. For go-live, we're targeting November 12. Is that realistic if we sign by Friday?"
+      "text": "Okay, that works.\n\nPlease send the final order form at $51,900. Also confirm the renewal is based on list less the standard 8% discount, not this first-year number.\n\nJordan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya Chen, Account Executive",
       "ts": null,
-      "text": "Yes. If we have signature by September 20, we can start kickoff the week of September 30. Data import usually takes about two weeks, then admin training and user testing the last week of October."
+      "text": "Correct. Renewal language will show year two pricing at then-current list less 8%, with a 5% annual cap on increases after that.\n\nI'll send the final PDF shortly for signature. The implementation manager can still hold the Aug 19 kickoff if we have signature by Aug 2.\n\nMaya"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan Ellis, IT Operations Manager",
       "ts": null,
-      "text": "That works. We have a small concern on the contract language around auto-renewal. Legal wants 60 days' notice instead of 90."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "I can run that through deal desk. Sixty days is usually acceptable for this size agreement. I'll include that redline when I send the draft."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Great. Send it to me and copy Marcus from procurement. Once legal clears it, I can route for signature."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. I'll send the order form, quarterly invoice schedule, and the revised terms by end of day. Then I'll put a placeholder on the calendar for kickoff on September 30."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. Thanks, Alex."
+      "text": "Sounds good.\n\nUse my signature and send a copy to Lisa Grant in finance. Her email is lgrant@northbankmechanical.com.\n\nJordan"
     }
   ]
 }

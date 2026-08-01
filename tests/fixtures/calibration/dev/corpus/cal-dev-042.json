@@ -12,57 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I pulled up the order form we discussed: 42 seats on the team plan, annual term, starting March 1. I just wanted to confirm the start date and billing contact before I send it through deal desk."
+      "text": "Yeah, thanks for making the time, Dana. I was buried this morning typing notes into the CRM and cleaning up account records for deal desk, so it ate the window I had for buyer calls, but I’m glad we could still get 20 minutes."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, 42 is right. We may add three more in Q2, but for now keep it at 42. Billing should go to ap@northlineparts.com, and copy me, please."
+      "text": "No problem. I’ve got until 2:30. Main thing is we need to understand pricing for 48 users now, probably 60 by October."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. The net price is $31,920 for the year after the standard 10% volume discount. Payment terms are net 30, and the first invoice would generate on March 1 in the billing tool."
+      "text": "Got it. For 48 seats on the business plan, you’re at $84 per user per month on an annual term. That puts the subscription at $48,384 for the year before services."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Can you make sure the invoice references PO 44718? Our finance team kicks it back if the PO is missing."
+      "text": "And the implementation line you sent was $9,500, right? Our finance team asked if that’s fixed fee or estimated."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, I’ll add PO 44718 to the order form and the invoice notes. On implementation, you had asked for go-live by March 18. Our services team has an onboarding slot the week of March 4, so that still works."
+      "text": "Fixed fee. It includes the kickoff, two workflow sessions, data import support, and admin training. If you add the extra reporting workshop, that’s another $1,800, but it’s optional."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. We need the admin training before the 12th, though, because our ops lead is out the following week."
+      "text": "Okay. We’re trying to go live September 16. Is that realistic if legal gets the order form done by August 9?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. I can put admin training on March 8 at 10 a.m. Central, 90 minutes. Then end-user training on March 14, if that’s okay."
+      "text": "Yes, assuming we get the signed order and the first invoice processed that week. We’d target kickoff August 14 or 15, then leave about four weeks for configuration and testing."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "March 14 is fine. One contract question: the auto-renewal is 12 months, right? We need 60 days notice to cancel, not 90."
+      "text": "Payment terms are another question. Our standard is net 45, but your order form says net 30."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so our standard is 12-month renewal with 60 days notice. I’ll make sure that language is reflected in the terms before signature."
+      "text": "I can ask for net 45 approval. Usually that’s fine on annual deals over $40,000. I’ll note that the invoice should route to ap@northlineparts.com, correct?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send the order form today if you can. Legal already reviewed the template, so I think we can turn it around by Friday."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Perfect. I’ll send it by 2 p.m. Eastern with the PO, billing email, 42 seats, and the March dates included. If anything changes on the extra seats, we can handle that with a simple add-on later."
+      "text": "Correct. Send the revised quote with 48 seats, net 45 if approved, and the September 16 go-live noted. I’ll forward it to our controller today."
     }
   ]
 }

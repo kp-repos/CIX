@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Karen. I wanted to walk through the quote changes for the 42 seats and make sure the April 15 go-live still works on your side."
+      "text": "Hi Dana, thanks for making time. I pulled up the account in the CRM, and I have you at 48 seats today, renewal on March 31st. You mentioned maybe adding the service team?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that’s still the target. We confirmed 38 standard users and 4 admin users. I just need the subscription start date to line up with our fiscal month, so May 1 if possible."
+      "text": "Yeah, that's right. We'd add 12 seats for service, so 60 total. We want them live by April 15th if we can, just because training starts that week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That works. I updated the pricing sheet to show a May 1 start, 12-month term, and the implementation package kicking off the week of April 15. The total subscription is $31,920, and implementation is $6,500 one-time."
+      "text": "That should be fine. On the pricing sheet, moving from 48 to 60 keeps you in the same tier, so it's $82 per seat per month. With the annual prepay discount, the total comes to $59,040 for the year."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And billing is annual upfront, right? Finance asked if there’s any quarterly option, but annual is cleaner if the invoice can be dated after April 22."
+      "text": "Okay. Is that net of the discount, or before?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, annual upfront. I can have the billing tool generate the invoice on April 23 with net 30 terms. That would put payment due May 23."
+      "text": "Net of the discount. List would be $59,040 at monthly, sorry, let me say that correctly. Annual prepay brings it down to $53,136, plus the $3,500 onboarding package for the service workflows."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That should be fine. One other thing, our legal team had a note on auto-renewal. They want 60 days notice instead of 30."
+      "text": "Got it. And can the invoice be split? Finance asked for software on one line and onboarding on a separate line."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I saw that redline. Deal desk already approved the 60-day notice language, so I’ll include that in the final order form and the updated terms packet."
+      "text": "Yes, that's easy. I'll note that for the billing tool: one line for subscription, one line for onboarding, both tied to PO 4472 if that's still the right PO."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. For implementation, we’ll have Sam from operations and Priya from IT on the kickoff. Do you need anyone else?"
+      "text": "It is. We just need the start date to be April 1st, even if the service team doesn't start until the 15th."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Those two are good. We’ll also ask for one finance contact for invoice setup and one admin owner for user provisioning. The project lead will send a checklist after signature."
+      "text": "No problem. Term April 1st through March 31st next year, 60 seats, net 30 payment terms. Same MSA as last year, no changes to data processing or support."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Send the final order form today if you can, and I’ll route it for signature. Realistically, I think we can get it back by Friday."
+      "text": "Works for me. Send the order form over today and I'll route it for signature. Usually takes two or three business days."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I’ll send it over by 3 p.m. Eastern, and I’ll note the April 23 invoice date, May 1 subscription start, 42 seats, and 60-day renewal notice."
+      "text": "Perfect. I'll send it by 3 p.m. Eastern, and once it's signed, I'll have our onboarding lead reach out to schedule the kickoff for April 3rd or 4th."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks, Mark."
     }
   ]
 }

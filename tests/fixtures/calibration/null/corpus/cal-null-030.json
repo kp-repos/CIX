@@ -12,52 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Karen. I wanted to confirm the 42 seats for the support team and the five manager seats before I send the order form for the June 1 start."
+      "text": "Hi Dana, it’s Mark. Appreciate you making the time. I have the workspace open from our last call, so I wanted to confirm the 42 seats and the May 6 go-live target."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s right. We’re at 37 active reps today, but the next training class starts June 10, so 42 gives us a little room. Managers stay at five."
+      "text": "Yeah, that’s right. Forty-two seats to start. We may add another 8 in Q3, but I don’t want those on the first invoice."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. The annual subscription comes to $28,560, and implementation is the one-time $3,200 we discussed. Billing would be net 30, invoice sent after signature, unless you need a PO first."
+      "text": "Totally. The order form will show 42 seats at $68 per seat per month, annual term, billed upfront. That comes to $34,272 before tax for May 1 through April 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "We do need a PO. Finance said they can turn it around in two business days if the quote has the tax line and the service dates on it."
+      "text": "Okay. And can the invoice be dated May 1? Our finance team is closing April early, so if it lands in April it creates a little mess."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I’ve got service dates as June 1, 2026 through May 31, 2027. Tax is estimated at $1,914.72 based on the Chicago office address. If the PO comes back with a different billing entity, we can update that before signature."
+      "text": "Yes, invoice date May 1. Payment terms are net 30, so due May 31. I’ll put that directly in the billing notes and on the order form so it matches."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And just to be clear, we’re doing single sign-on at launch, not later. That was the one thing IT cared about."
+      "text": "Good. On the services side, you had mentioned the two admin trainings. Are those included or separate?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. SSO is included in the implementation scope, and the go-live plan has the admin session on May 20 and user training on May 28. If IT wants a separate technical call, I can set that for next week."
+      "text": "Included. Two 60-minute admin sessions and one end-user kickoff for up to 75 attendees. If you need recorded enablement after that, that’s the $900 add-on, but you don’t need to decide today."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Please do. Tuesday after 1 Central works. Also, the contract term, there’s no auto-renewal longer than one year, right?"
+      "text": "Let’s skip the add-on for now. Legal already reviewed your standard terms, and the only thing they asked for was the 30-day notice language for non-renewal."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Right, it renews for successive one-year terms unless either side gives 45 days’ notice. I’ll point that out in the summary email so legal doesn’t have to hunt for it."
+      "text": "Yep, standard renewal with 30 days’ notice is in there. No auto-price increase in year two unless seats change. If you add those 8 seats later, they’ll co-term to April 30 and be prorated."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send the quote today, and I’ll attach it to the PO request. If procurement doesn’t redline anything weird, we should be able to sign by Friday."
+      "text": "That works. Send the order form to me and cc our AP alias. If it’s clean, I can sign by Friday, April 19."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You’ll have it this afternoon with 42 seats, May 1 invoice date, net 30, and the included trainings listed. After signature, we’ll schedule kickoff for the week of April 22."
     }
   ]
 }

@@ -3,61 +3,71 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Jenna",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Hey Marco, quick one on Cedar Ridge. I'm cleaning up the CRM before forecast call and the expansion line looks, uh, a little half-built."
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the updated quote for 48 seats and the implementation package, and make sure the May 20 go-live still works on your side."
     },
     {
-      "speaker": "Marco",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, I saw that. Is this the 18 seat add-on for the analytics module or the services thing?"
+      "text": "Yep, May 20 is still the target. We have 42 users confirmed now, but finance asked me to leave room for 6 more in Q3, so 48 seats is fine."
     },
     {
-      "speaker": "Jenna",
+      "speaker": "Rep",
       "ts": null,
-      "text": "The 18 seats. They asked for them in the admin email on Tuesday, $92 per seat monthly if we keep them on the same tier. I just need to know if deal desk wants a fresh order form."
+      "text": "Okay, great. The annual subscription comes to $38,400, and implementation is a one-time $6,000. I also added the standard support tier, not premium, since that’s what we discussed last week."
     },
     {
-      "speaker": "Marco",
+      "speaker": "Customer",
       "ts": null,
-      "text": "If it's co-termed, yeah, fresh order form. Billing tool won't pick it up from the seat request alone. Did you check the account flags?"
+      "text": "That matches my notes. On billing, can you do net 45? Our standard terms are net 45, and if it’s net 30 it just creates extra approval steps."
     },
     {
-      "speaker": "Jenna",
+      "speaker": "Rep",
       "ts": null,
-      "text": "That's the thing. For their workspace, 64 users are still enabled in the product, the billing tool shows service through 7/31, and I don't see a customer thread after Kim's May 16 QBR note."
+      "text": "Yeah, so net 45 is approved for this size. I’ll note that in the order form and make sure the billing tool reflects it before we send the final invoice."
     },
     {
-      "speaker": "Marco",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Then don't touch the seat count yet. Put it in the CRM as pending ops review, zero it out for this week's commit."
+      "text": "Perfect. And the contract start date would be May 1, right? Even though go-live is May 20?"
     },
     {
-      "speaker": "Jenna",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I'll move the close date to 8/9 and add the note. Do you want me to ping finance or wait until you look?"
+      "text": "Correct. Start date May 1, 12-month term through April 30 next year. Implementation would kick off the week of May 6, with admin training on May 14."
     },
     {
-      "speaker": "Marco",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Ping finance with the account ID and invoice number 41872. Just ask whether August usage is on hold or queued, nothing fancy."
+      "text": "Okay. One thing, procurement asked if the renewal language has the 60-day notice period. They don’t want auto-renewal without notice."
     },
     {
-      "speaker": "Jenna",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, makes sense. And for the pricing sheet, I'm using standard month-to-month add-on pricing, no discount, right?"
+      "text": "Yep, the current draft has 60 days’ written notice before renewal. I can send that section highlighted so your procurement team doesn’t have to dig for it."
     },
     {
-      "speaker": "Marco",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Right. If it comes back clean, we can send the simple form. If not, we'll package it with whatever ops tells us."
+      "text": "That would help. If you send the updated order form today, I can route it for signature tomorrow morning."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I’ll update the CRM, generate the order form with 48 seats, net 45, May 1 start, and send it over by 3:00 Eastern."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, thanks. Once I have it, I’ll confirm the signer and get it moving."
     }
   ]
 }

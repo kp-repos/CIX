@@ -3,7 +3,7 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "customer"
+    "colleague"
   ],
   "date": null,
   "account_id": null,
@@ -12,62 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout details for the analytics workspace and make sure the quote matches what you need for the April 15 go-live."
+      "text": "Yeah, so on Northline, they’re still at 42 seats, annual prepay, $54,600 before the services line. They want the September 14 go-live, which is tight but workable."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Sure. We’re still at 42 seats for phase one. That’s 36 standard users and 6 admins. If the operations team joins later, that would be another 18, but not before Q3."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Got it. I have 42 seats on the pricing sheet, annual term, billed upfront. The net after the volume discount is $38,640 for the year, plus the one-time onboarding package at $4,800."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Okay, that matches what I had. Can you make sure the invoice breaks out licenses and onboarding separately? Our finance team asked for that so they can code it correctly."
+      "text": "Okay. Is the pricing exception still the only blocker?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, no problem. I’ll note that in the billing tool and on the order form. For payment terms, we had net 30. Is that still workable?"
+      "text": "Mostly. I’ve pinged deal desk Monday and again this morning for the 8% discount sign-off, and the order form is basically parked until they answer."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Yes, net 30 is fine. We just need the invoice dated after April 1, because our purchase order won’t be released until then."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Understood. I’ll set the contract start date to April 15, invoice date April 2, and service period through April 14 next year. Implementation would start the week of April 8."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "That works. On implementation, we need SSO configured and the first dashboard connected to our warehouse before launch. The rest can come after."
+      "text": "Got it. Did customer push back on the services fee?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I’ll include SSO and one data connection in the onboarding scope. We’ll schedule two admin training sessions, 60 minutes each, probably April 10 and April 12 if your team is available."
+      "text": "A little. They accepted the $6,800 onboarding if we can split it into two invoices, one at signature and one thirty days after launch. I nudged finance for that billing approval, because procurement won’t release the PO until they confirm it’s okay."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "April 10 is good. April 12 may be tight, but we can confirm by Friday. Send the updated order form and I’ll route it for signature."
+      "text": "Makes sense. What about security? Last note I saw was their IT director wanted the data retention language cleaned up."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send the revised order form this afternoon with the seat count, pricing, invoice note, and April dates. If anything changes on the Q3 expansion, we can handle that as an add-on later."
+      "text": "Yep, legal sent the redline Friday. I’ve been checking with our security team for the final response on the subprocessor question; customer won’t countersign while that’s open."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Sounds good. Thanks, Mark."
+      "text": "So next step is just get those back and send clean paper?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah. If deal desk, finance, and security come back today, I can send the revised order form by 4:00. Otherwise it probably slips past their August 9 purchasing cutoff."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay, keep the close plan updated in the CRM. If it’s still quiet after lunch, I can ask Martin to lean in on the internal approvals."
     }
   ]
 }

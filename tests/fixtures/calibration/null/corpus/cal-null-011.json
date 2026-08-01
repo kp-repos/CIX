@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so thanks for making time, Dana. I wanted to confirm the renewal and the added calibration module for the new lines before we send the order form."
+      "text": "Yeah, thanks for making time, Dana. I had 28 current seats on the business analytics package, and you were looking at adding the operations team before the June 17 go-live. Is that still the right count?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We’re at 42 seats today, and we need 8 more for the second shift supervisors. Go-live for them is April 15 if we can keep training the week before."
+      "text": "Close. We trimmed it a bit. It’s 24 additional seats, so 52 total. Finance wants the invoice to show the new seats separately for cost center 410."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, 50 seats total, calibration module for Lines 3 and 4, and training on April 8 and 10. I have that in the quote notes already."
+      "text": "Got it, 24 net-new, 52 total, and the invoice line called out for cost center 410. With the mid-year add, the prorated amount through your March 31 renewal is $18,720."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. What’s the annual number coming out to?"
+      "text": "Okay. Does that include the two admin workshops we talked about, or is that separate?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "For the 50 seats and module, it’s $38,400 for the year. Same net 30 terms, invoice on the renewal start date, which is May 1."
+      "text": "Included. Two remote admin workshops, 90 minutes each, one the week of June 10 and one after launch. If you want a third session later, that would be $1,200, but it’s not in this order."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That lines up. Can you split the invoice by department? 70 percent operations, 30 percent quality."
+      "text": "No, two is fine. Contract term stays aligned to March 31, right? We don’t want a separate renewal date."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can do that. I’ll mark the billing split on the order form so the invoice shows both cost centers: 4100 for ops and 4200 for quality."
+      "text": "Right, co-termed to March 31, 2027. Same payment terms as your current agreement, net 30. No change to the main terms."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Legal asked if the auto-renew language is still 30 days’ notice."
+      "text": "Good. For go-live, we need the seats active by June 12 so we can test permissions before the 17th."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It is. The term is May 1, 2026 through April 30, 2027, and either side can give notice 30 days before the end. No other contract changes."
+      "text": "Yeah, that works. If you sign by Friday, June 6, we’ll activate the seats on June 11 and send the admin workshop times in the same confirmation."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Alright, send it over today and I’ll route it to our controller. If she signs by Friday, are we still okay for April training?"
+      "text": "Send the order form to me and copy Mark in finance. He’ll issue the PO once he sees the $18,720 and the cost center."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. If we have signature by March 22, we’ll hold the April 8 and 10 sessions. I’ll send the order form in about an hour."
+      "text": "Will do. I’ll send it this afternoon with the seat count, co-term date, invoice note, and June 11 activation date. Anything else finance needs on there?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Thanks, Mark."
+      "text": "Just our billing address: 1840 North Carson, Suite 300, Reno. Otherwise that’s it."
     }
   ]
 }

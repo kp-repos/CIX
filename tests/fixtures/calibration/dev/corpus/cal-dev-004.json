@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I pulled up the quote in the CRM. We have you at 48 seats for the operations team, annual term starting February 1, with onboarding in January. Does that still match what you’re planning?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the revised quote for 48 seats, annual term, starting March 1. I sent it over this morning through the CRM, but I can walk through the changes."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Mostly, yeah. We’re at 46 confirmed users right now, and I think two more managers will be added before go-live. So 48 is fine. The main thing is making sure the first invoice doesn’t hit until after January 15."
+      "text": "Yep, I have it open. The seat count looks right. We had 45 initially, then added three managers for reporting only, so 48 total is correct."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. The billing tool is currently set to invoice on contract signature, so I’ll adjust that to January 16. Same net 30 terms we discussed, so payment due February 15."
+      "text": "Great. And on pricing, the updated annual total is $31,680 before tax. That includes the implementation package at $4,200, same as we discussed last week."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. And the total was $31,680 for the year, right? I need to send the final number to procurement this afternoon."
+      "text": "Okay. For billing, we need the invoice dated after February 15, because that's when our new budget code is active. Can your billing tool handle that?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. That’s 48 seats at $55 per seat per month, billed annually, so $31,680. Onboarding is waived, and support is included in the standard plan."
+      "text": "Yes, we can set the invoice date for February 16. Payment terms are net 30, so due March 17. I'll add the budget code field to the order form as well."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Legal had one note on the renewal language. They’re asking for 60 days’ notice before renewal instead of 30."
+      "text": "Perfect. On the go-live, we're still aiming for March 18. Is that doable if we sign by next Friday?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, that should be fine. I’ll send it to deal desk just to update the order form and the MSA reference. It shouldn’t change pricing or the approval path."
+      "text": "Yeah, if we have signature by February 9, implementation can start the week of February 12. That gives us about five weeks for setup, data import, and admin training."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. If we can get the revised paperwork today, I can probably get signatures by Friday. Our internal kickoff is January 9, and we want your team on that call."
+      "text": "That should work. Our only constraint is IT availability. They can do SSO setup on February 21 or 22, not before."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Absolutely. I’ll hold January 9 at 11 a.m. Eastern with our implementation lead. Once the order form is signed, we’ll send the intake sheet and set up the admin workspace."
+      "text": "That's fine. I'll note February 21 as the target SSO date. The project plan has some cushion, so it shouldn't affect the March 18 go-live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send me the revised order form and the invoice timing in writing, and I’ll move it through procurement."
+      "text": "Good. Send me the final order form with the invoice date and budget code note, and I'll route it to procurement today."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll have it over by 2 p.m. Eastern, and I’ll call out the 48 seats, $31,680 annual total, January 16 invoice date, and February 1 contract start."
+      "text": "Will do. I'll send the updated order form in the next hour, and I'll include the implementation timeline in the same email."
     }
   ]
 }

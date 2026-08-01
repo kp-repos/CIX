@@ -12,62 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the 38-seat plan for the service team and make sure the March 18 go-live still works on your side."
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the renewal and the 15 additional seats you mentioned for the Austin team, so we can keep the April 1 go-live clean."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "It does. We have 32 reps and 6 supervisors. The only thing I want to confirm is billing. We need the invoice to hit after April 1 because that's our new fiscal quarter."
+      "text": "Sure. We have 62 users today, and we want to move to 77 total. The main thing is keeping the invoice to one annual bill. Finance does not want a second mid-year invoice."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, that's in the order form: service starts March 18, first invoice dated April 2, net 30. Annual total is $27,360 before tax, and implementation is the one-time $4,500."
+      "text": "Totally. I’ve got it structured as a 12-month renewal starting April 1, with the 77 seats included from day one. Annual total is $46,200, and payment terms stay net 30 like your current agreement."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the implementation includes the two admin trainings, right? We have Alicia and Mark as the admins."
+      "text": "Okay, that matches what I expected. Is the admin training still included? We need two sessions in late March, preferably March 24 and March 26."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. Two 90-minute admin sessions, one rep enablement session for the full group, and the data import for your existing cases. I have Alicia and Mark listed for admin training."
+      "text": "Yes, two remote admin sessions are included, 90 minutes each. I’ll put March 24 and March 26 as the target dates on the order form, and our onboarding lead will confirm exact times after signature."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Legal had one question on the renewal language. They don't want auto-renewal longer than one year."
+      "text": "Good. One other thing, legal asked about the auto-renew language. Can we keep the 60-day notice period instead of moving to 90?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That's already set to 12-month renewal terms with 30 days' notice before the renewal date. No multi-year auto-renewal. I sent the redline back this morning."
+      "text": "Yes, that’s fine. Your current contract has 60 days, and we can carry that forward. No change there."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. If we add seats mid-year, is that prorated or do we true up at renewal?"
+      "text": "Great. If you send the order form today, I can route it to procurement. They usually turn these in three or four business days."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Prorated from the activation date through March 17 next year. Same per-seat rate, $60 per user per month, and it just gets added to the next monthly invoice."
+      "text": "I’ll send it this afternoon. It’ll show 77 seats, April 1 through March 31, annual billing at $46,200, net 30, and the two March training sessions."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Send me the final order form and I'll route it for signature today."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. You'll have it in your inbox in about ten minutes, and once it's signed, our onboarding coordinator will send the kickoff calendar invite for next Tuesday at 11 Eastern."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Sounds good. If we can keep that kickoff to 45 minutes, I'll have the supervisors join too."
+      "text": "Perfect. Send it to me and copy billing@northlakeparts.com. Once procurement signs, we’ll send the PO number back."
     }
   ]
 }

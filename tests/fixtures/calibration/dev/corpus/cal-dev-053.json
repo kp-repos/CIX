@@ -3,61 +3,71 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so quick check on the Northstar renewal. They're at 84 seats today, adding 26 for the support org, target go-live is March 3."
+      "text": "Hi Karen, thanks for making the time. I wanted to walk through the final seat count and the go-live timing, then we can get the order form updated today."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay, 110 total. Did they accept the two-year term or are they still pushing for annual?"
+      "text": "Yeah, that works. We landed at 42 seats for phase one, all in customer operations. There may be another 8 later, but I don't want those on this first invoice."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Two-year is fine now. They want the first invoice split 50-50 across two cost centers, and procurement asked that the PO show the services line separate from licenses."
+      "text": "Got it, 42 seats only for the initial term. The pricing sheet has that at $68 per seat per month with the annual prepay discount, so the subscription total is $34,272 for the year."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "That's easy in the billing tool. What's holding the quote?"
+      "text": "Okay. And implementation was still $6,500, right? Finance asked me to confirm because the first draft showed $7,000."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "The discount exception. I keep nudging deal desk and finance for the sign-off on the 14% rate, and it's just sitting until that comes back."
+      "text": "Correct, $6,500. I already updated that in the CRM notes and I'll make sure deal desk uses the revised amount on the order form."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Got it. Is the customer aware we're waiting internally?"
+      "text": "Perfect. On timing, we're targeting a September 16 go-live. Is that still realistic if we sign by Friday?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "I told Erin we're doing final pricing review and I'd send the order form by Friday. She's trying to get it into their February 20 approval meeting."
+      "text": "Yes. If we have signature by August 9, we can start kickoff the week of August 19. That gives us four weeks for configuration, data import, admin training, and UAT."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Can we structure it at 12% and add the onboarding credit instead?"
+      "text": "Good. Legal had one small note on auto-renewal. They want 60 days' notice instead of 30 for non-renewal."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Maybe, but the pricing sheet showed 14% gets them to $68,420 annually, which is the number their director already approved."
+      "text": "That's fine. We can set the renewal notice period to 60 days. No change to the 12-month initial term or payment terms, still net 30 on invoice."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Alright. Once approval lands, I'll help check the order form against the CRM, especially the seat ramp and the PO language."
+      "text": "Net 30 is okay. Please send the revised order form to me and copy Daniel in procurement. He'll route it for signature."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it this afternoon with 42 seats, $34,272 subscription, $6,500 implementation, September 16 target go-live, and 60-day renewal notice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, thanks. If it comes in before 3 p.m. Eastern, I can get it into our approval queue today."
     }
   ]
 }

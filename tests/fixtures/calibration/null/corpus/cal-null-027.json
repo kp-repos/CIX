@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making the time. I had you down for 38 seats today, with the training package starting the week of May 12. Is that still the right scope?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to review the renewal for the analytics workspace before the current term ends on June 30, and also talk through the five additional editor seats you mentioned."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Pretty close. We actually need 42 seats now. Finance added four regional managers, but they won't be heavy users."
+      "text": "Yep, that’s right. We’re at 42 users today, 18 editors and 24 viewers. Starting July we need 23 editors, same 24 viewers, so 47 total."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 42 total. The plan we discussed covers all named users the same way, so that puts the annual subscription at $31,080. Implementation stays at $4,200, one-time."
+      "text": "Got it. On the annual plan, that puts the renewal at $38,760 for July 1 through June 30 next year. That includes the standard support tier and the usage cap you have now, 2 million tracked events per month."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And billing, can you do net 45? Our AP run is on the 10th and 25th, and net 30 gets messy."
+      "text": "Okay. The number is in the range I expected. Can you keep the billing annual, net 30? Finance really does not want quarterly invoices."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, net 45 is fine on this package. First invoice would go out on the contract start date, May 1, and then annually after that unless you prefer quarterly."
+      "text": "Yes, annual invoice, net 30. Invoice would go out July 1 for $38,760, payable by July 31. No change to your payment terms."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Annual is better. We just need the PO number on the invoice. It’ll be PO-78419."
+      "text": "Good. One thing, our legal team asked last year about auto-renewal. We don’t want that added back in."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect, I'll include PO-78419. For go-live, you had said June 3. With training May 13 and 15, that still lines up. We’ll need your admin list by May 6."
+      "text": "Understood. Same as the current agreement: no auto-renewal, fixed 12-month term, and we’ll reach out at least 60 days before the end date to discuss next year."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. I can send the admin names Friday. On the contract, is it a one-year initial term or are you asking for two?"
+      "text": "Perfect. For go-live on the extra seats, we need the managers added by July 8. Is that doable if I send the names this week?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "One-year initial term, May 1, 2026 through April 30, 2027. Renewal is annual after that, and we’ll set a review 60 days before the end date so you have time for budget planning."
+      "text": "Yes. If you send the five names by Friday, we can have the seats active on July 1, and your admin can assign roles anytime before the July 8 manager training."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Send the order form with the 42 seats, net 45, and the June 3 go-live. If legal doesn’t have any redlines, I can sign by Tuesday."
+      "text": "Great. Send me the order form with those terms and I’ll route it for signature. Our signer is Mark Ellis, VP of Operations."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send it over this afternoon with the pricing sheet attached, and I’ll copy your procurement inbox like you requested."
+      "text": "Will do. I’ll send it today with Mark as signer, 47 total users, annual billing, net 30, and the July 1 start date. Anything else you want reflected?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that covers it. Thanks, Alex."
     }
   ]
 }

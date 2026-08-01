@@ -3,61 +3,71 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Hey Jordan, quick on the Northstar account. I'm cleaning up the CRM before forecast, and the seat count is showing 86, but the pricing sheet has 90. Do you know which one is right?"
+      "text": "Yeah, so I pulled up the pricing sheet before the call. For 68 seats on the standard plan, you're at $42 per user per month, billed annually, so the annual total comes to $34,272 before tax."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, so 86 active today. They asked about adding four for the support team, but it wasn't approved yet. I'd quote 86 and put the four as an optional line."
+      "text": "Okay, that lines up with what I had. We may start with 62 seats on May 1 and add the last six after our June hiring class. Is that a problem contract-wise?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Got it. Also, their agreement ends this Friday and I don't see any notes that we've talked to them about carrying on, so I wanted to sanity check before I send anything."
+      "text": "No, that's fine. We can write the order form for 62 seats at go-live and include a provision that additional seats are added coterminous at the same rate. The billing tool will prorate those six if you add them in June."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay, yeah. Keep the quote simple then. Same package, 12-month term, net 30. Their current rate is $41 per seat per month, and finance said we can hold that if it's signed by June 28."
+      "text": "Great. And for implementation, you had mentioned three weeks. We need the team trained before May 8. Is that still realistic?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. Billing tool has their invoice contact as Erin Patel, but procurement emails came from Luis Romero last time. Should I include both?"
+      "text": "Yeah, if we get signature by April 12, we can kick off April 15. That gives us data setup the first week, admin training April 24, and end-user sessions on May 2 and May 3."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Include both, and copy their admin, Dana. Dana is the one who chased the PO in March, so she'll know the process."
+      "text": "That works. Our finance team also asked if the invoice can reference PO 44718 and break out subscription separate from onboarding."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Makes sense. Any services line, or just subscription?"
+      "text": "Yes. Onboarding is the one-time $4,500 line item, and subscription is separate. I'll put PO 44718 on the order form and make sure it carries through to the invoice."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "No services. They did onboarding already. Maybe add a note that go-live support is included for the four optional seats if they add them by July 15."
+      "text": "Perfect. Term is 12 months, right? We are not ready for a multi-year this round."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Okay. I'll draft the quote at $42,312 annual for the 86 seats, optional four at $1,968, and route it through deal desk."
+      "text": "Correct, 12 months. Renewal date would be April 30, 2027 if we start May 1, 2026. Standard renewal notice is 30 days before the end of term."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that math is right. Send me the PDF before it goes out, just so I can check the dates."
+      "text": "Okay. Send the updated order form today and I can route it for signature. Legal already reviewed the terms, so it should be pretty quick."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it by 2 pm central with the seat count at 62, the same $42 rate, onboarding split out, and the PO included."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks."
     }
   ]
 }

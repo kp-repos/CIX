@@ -12,52 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the updated seat count and make sure the order form lines up with your June 3 go-live."
+      "text": "Yeah, thanks for taking the call, Dana. And thanks for moving it from 10:30. I had a cleanup block in the CRM that ran long, so I appreciate the flexibility."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We’re at 42 full seats and 18 read-only. That includes the finance team and the two regional managers we added last week."
+      "text": "No problem. I’ve got about 20 minutes. We’re still looking at 42 seats for the customer success team, with maybe 8 more in Q2 if support joins."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 42 full and 18 read-only. I have that in the CRM now. On pricing, that puts the annual subscription at $38,640, and implementation is the one-time $6,500 we discussed."
+      "text": "Got it, 42 to start. On the pricing sheet that puts you at $68 per seat per month on annual, so roughly $34,272 for the year before the onboarding package."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that matches my notes. Can you make sure the invoice is split? Our controller wants subscription billed now and services billed after kickoff."
+      "text": "Okay. The onboarding was the $4,800 line item, right? Finance asked if that can be invoiced separately from the subscription."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, that’s fine. I’ll note subscription due on signature and implementation invoiced after the May 20 kickoff. Payment terms are net 30, same as the draft."
+      "text": "Yes, we can split that. Subscription on the main annual invoice, onboarding as a one-time services invoice. If you want a March 18 go-live, we’d want signatures by February 23 so the implementation team can get the kickoff scheduled."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Net 30 works. One thing, our legal team asked about the renewal notice. The draft says 60 days. Can we make that 30?"
+      "text": "That timing works. Contract-wise, legal is asking for a 30-day termination for convenience. I know you said that’s not standard."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I can approve 30 days without going back through deal desk. I’ll update that clause and send the clean version this afternoon."
+      "text": "Right, standard is annual non-cancelable. What I can probably get approved is a 60-day termination right after the first year, plus a cap on the renewal increase at 5%."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. If we get it by 3, I can route it for signature today. Our CFO is out Friday, so I’d like to catch him before then."
+      "text": "Send that over. Also, our procurement lead, Mark, can join today at 3 if you’re free. He’ll ask about payment terms and the security exhibit."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. I’ll send the revised order form and the invoice split note by 2:30 Eastern. Once it’s signed, we’ll introduce your implementation lead and lock the May 20 kickoff."
+      "text": "I’m tied up at 3 getting the order form fields matched for deal desk, but I can do 4:15 and keep it to 25 minutes. Payment terms would be net 30, and the security exhibit is already in the paper package."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Send it to me and copy Marcus in procurement. He’s the one who’ll generate the PO."
+      "text": "4:15 is fine. Please include the split invoice language and the 5% renewal cap in the version you send before then."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the redline and the quote summary by 2:30, and then we can use the 4:15 to get Mark comfortable on the last procurement items."
     }
   ]
 }

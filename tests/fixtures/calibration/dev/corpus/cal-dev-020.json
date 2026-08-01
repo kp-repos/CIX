@@ -1,58 +1,63 @@
 {
   "id": "cal-dev-020",
-  "source_type": "email",
+  "source_type": "transcript",
   "participants": [
     "rep",
-    "customer"
+    "colleague"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya Patel, Account Executive",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Hi Ron,\n\nThanks for the time today. Recap of the calibration management rollout:\n\n- 42 named users\n- 3 facilities: Dayton, Fort Wayne, and Erie\n- asset import for about 8,600 gauges and torque tools\n- target go-live: November 18\n- initial term: 24 months\n\nI attached the order form and the implementation outline. Annual subscription is $34,200 and implementation is $6,500 one-time.\n\nMaya"
+      "text": "Yeah, so on Northline, they confirmed 42 seats for the first year, with five admin users. Start date is still June 1 if we can get the order form out today."
     },
     {
-      "speaker": "Ron Ellis, Quality Systems Manager",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Maya,\n\nThis is close. Two items before I send it to purchasing:\n\n1. We only need 38 users at launch, not 42. The other four inspectors are seasonal.\n2. Finance wants the implementation fee on the first invoice, but subscription split quarterly.\n\nCan you revise for that?\n\nRon"
+      "text": "Okay. Is that the $47,880 annual, net 30, one-year term?"
     },
     {
-      "speaker": "Maya Patel, Account Executive",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Hi Ron,\n\nYes. I updated the seat count to 38 and adjusted invoicing to show $6,500 implementation on invoice 1, with the subscription billed quarterly.\n\nNew annual subscription is $31,900. The 24-month term and November 18 go-live are unchanged.\n\nMaya"
+      "text": "Yep. I put another note on deal desk's approval line this morning, because the quote is still sitting in the CRM draft until that discount field turns green."
     },
     {
-      "speaker": "Ron Ellis, Quality Systems Manager",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Maya,\n\nThanks. Purchasing is asking whether we can get this to $30,000 even. They are comparing it against what we paid for the old calibration database plus our outside cert uploads.\n\nIf not, I understand, but I need a yes/no before noon tomorrow.\n\nRon"
+      "text": "Got it. Did they ask for anything weird on terms?"
     },
     {
-      "speaker": "Maya Patel, Account Executive",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Ron,\n\nPer our messages, I can do $30,000 annual if you can return signature by Friday, 10/11. I’ll clean up the deal desk paperwork after so the order form matches. Implementation stays at $6,500 and quarterly billing is fine.\n\nMaya"
+      "text": "Nothing too odd. They want the SLA attached and the renewal cap at 5%. Legal has the redline from yesterday; I added the clean language in the doc again after lunch, and their procurement guy said he won't countersign while that indemnity sentence is open."
     },
     {
-      "speaker": "Ron Ellis, Quality Systems Manager",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Maya,\n\nUnderstood. Please send the clean order form at $30,000 annual and $6,500 implementation. I’ll route it to Carrie in purchasing today.\n\nOne more thing: can you add that historical certs from 2021 forward are included in the import? That was in the implementation outline but not the order form.\n\nRon"
+      "text": "Makes sense. What about billing? I remember they wanted the implementation separate from subscription."
     },
     {
-      "speaker": "Maya Patel, Account Executive",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Hi Ron,\n\nAttached is the updated order form. I added the 2021-forward certificate import language under Professional Services and kept the payment schedule as discussed.\n\nPlease have Carrie send the signed copy to me and billing@ourcompany.example once approved.\n\nMaya"
+      "text": "Right, $6,500 services in June and then the subscription invoice July 1. I sent billing the example split again, since the customer is holding the PO until they see the two-line invoice plan match their system."
     },
     {
-      "speaker": "Ron Ellis, Quality Systems Manager",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Maya,\n\nCarrie signed and sent it over a few minutes ago. PO 46872 is included on the form.\n\nPlease confirm the project kickoff for Tuesday, October 22 at 10:00 Eastern. We will have me, our metrology lead, and someone from IT on the call.\n\nRon"
+      "text": "Okay. If those come back today, can we still book it this month?"
     },
     {
-      "speaker": "Maya Patel, Account Executive",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Ron,\n\nConfirmed received. Kickoff is set for Tuesday, October 22 at 10:00 Eastern.\n\nNext steps before then:\n\n- we’ll send the asset import template by tomorrow\n- your team can export the current gauge list and vendor cert files\n- our implementation lead will review login groups for the 38 users\n\nThanks,\nMaya"
+      "text": "Yeah, close date is the 30th, and the buyer already confirmed budget. I'll refresh the close plan and keep the next step as order form review."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Cool. Send me the pricing sheet when it's final and I'll check the seat math before it goes out."
     }
   ]
 }

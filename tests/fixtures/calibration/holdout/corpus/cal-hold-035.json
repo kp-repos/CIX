@@ -12,52 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I pulled up the order form we discussed: 42 seats on the business plan, annual term starting August 15, and the services package for the workflow setup."
+      "text": "Yeah, thanks for making time, Dana. I wanted to review the renewal and the add-on seats before we send the order form. I have you at 68 seats now, moving to 82 on July 1, annual term, $46,740 net after the 12% discount."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That sounds right. I just want to confirm the seat count. We have 38 confirmed users today, but finance asked us to include 4 extra for the operations team starting in September."
+      "text": "That part looks right. My concern is the onboarding item from last week. We agreed the billing tool export had to be mapped to our cost center field before go-live, and your team on the kickoff yesterday had no idea what I was talking about."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, that’s exactly how I have it. The pricing sheet has those at $72 per seat per month, billed annually, so the software portion comes to $36,288 for the year."
+      "text": "Yeah, so, I owe you an apology there. I agreed to that on the call with you on June 6, and I did not get it into the handoff notes for services. They went into the kickoff with the standard implementation scope, so when you asked about the cost center mapping, it was a surprise to them. That's on me."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the implementation fee was separate, right?"
+      "text": "It was awkward, honestly. Our controller was on that call, and she thought we were trying to sneak in extra scope. We were very clear this was a must-have for July 15."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. One-time implementation is $4,800. That includes two admin trainings, the data import, and the approval workflow configuration. Total first-year invoice would be $41,088 before tax."
+      "text": "Totally understood. I went back through the email thread and the recording, and you're right. The mapping to the cost center field and the nightly export test by July 10 were agreed. I updated the services brief this morning and got confirmation from Maya on the implementation side that it's now in their work plan."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Got it. On timing, we need the first admin training the week of August 19. Is that still workable if we sign by Friday?"
+      "text": "Okay. Is there any added fee now, or are you honoring what we discussed?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. If we have signature by August 2, our onboarding team can hold Tuesday, August 20 at 11 a.m. Eastern or Thursday, August 22 at 2 p.m. Eastern."
+      "text": "We're honoring it. No additional services fee. The order form will still show the $3,200 implementation line we already discussed, not a change order. I also added a note to the internal approval so deal desk doesn't kick it back."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Tuesday is better. Also, our legal team asked about the auto-renewal language. It says 30 days’ notice before the renewal date. Can that be 60?"
+      "text": "Good. On payment terms, we need net 45. Finance won't do net 30 this quarter because the invoice will hit before our July close."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, 60 days is fine. I’ll route that through deal desk today and update the order form. No change to pricing or start date."
+      "text": "Net 45 is fine. I'll put first invoice dated July 1, due August 15. The subscription dates will be July 1, 2026 through June 30, 2027, and the go-live target stays July 15."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send the revised version to me and copy Marcus in procurement. If it matches what we discussed, we should be able to get it signed this week."
+      "text": "Send the revised order form today and copy me and Luis. If the implementation team is aligned now, we can sign by Friday."
     }
   ]
 }

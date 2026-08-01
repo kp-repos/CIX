@@ -10,64 +10,69 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya (Rep)",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so thanks for making time, Jordan. I saw your current term runs through September 30, and you were looking at adding the service team before the October go-live, right?"
+      "text": "Hi Dana, yeah, thanks for making time. I had us down to talk through the 38-seat expansion and the May 15 go-live for the support team."
     },
     {
-      "speaker": "Jordan (Customer)",
+      "speaker": "Customer",
       "ts": null,
-      "text": "That's right. We have 38 active users today, and we'd add 12 more. I'd like the new seats active by September 16 so they can train before launch."
+      "text": "That's right. We have 27 users today, adding 11 more. The main thing is keeping the invoice clean because finance wants one line item for the subscription and one for onboarding."
     },
     {
-      "speaker": "Maya (Rep)",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Okay, 50 seats total, effective September 16. The annual price on the standard plan would be $42,000, and with the 12 additional seats prorated for the remainder of the term, the invoice for this year comes to $3,150."
+      "text": "Yep, that works. The quote I sent this morning shows $42,180 annual subscription for 38 seats, plus $3,200 for onboarding. Net 30, same master terms you signed last year."
     },
     {
-      "speaker": "Jordan (Customer)",
+      "speaker": "Customer",
       "ts": null,
-      "text": "That lines up. Can you keep the renewal date at September 30 next year? Finance doesn't want a second date floating around."
+      "text": "Okay. And the added seats start billing June 1, not immediately, correct?"
     },
     {
-      "speaker": "Maya (Rep)",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yep, co-termed to September 30, 2027. One order form, same billing contact, net 30 terms. No change to the data processing addendum."
+      "text": "Correct, June 1 start for billing. We can still open the seats on May 15 for configuration and training, no extra charge for that setup window."
     },
     {
-      "speaker": "Jordan (Customer)",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Good. On invoicing, please use the PO number I sent this morning, PO-4817. And can the invoice break out the prorated seats separately?"
+      "text": "Good. Training-wise, we need two admin sessions and one end-user session. Can those happen the week of May 6?"
     },
     {
-      "speaker": "Maya (Rep)",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yes, I have PO-4817, and the billing tool will show the prorated seat line separately from the renewal line. You should see the invoice within one business day after signature."
+      "text": "Yeah, so implementation has May 7 at 1 p.m. Eastern and May 9 at 11 a.m. Eastern held for admins, and May 13 at 2 p.m. for the end users. Those are included in the onboarding line."
     },
     {
-      "speaker": "Jordan (Customer)",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. What about training? We need two admin sessions and one end-user session, all remote."
+      "text": "Perfect. Legal asked one question: the renewal date stays February 28, 2026, even with this add-on?"
     },
     {
-      "speaker": "Maya (Rep)",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Included. I put two admin sessions the week of September 9 and one user session the week of September 16 on the order form. Our services coordinator will send calendar options after the order is countersigned."
+      "text": "Exactly. The add-on co-terms to February 28, 2026. The order form lists the prorated period from June 1 through February 28, then it rolls into the regular renewal."
     },
     {
-      "speaker": "Jordan (Customer)",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Send it over to me and Priya in procurement. If it matches what we discussed, I can sign by Friday."
+      "text": "Send me the final order form and I'll route it today. If it's under $50,000, our controller can sign without a second review."
     },
     {
-      "speaker": "Maya (Rep)",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Will do. You'll get the order form this afternoon for 50 seats, $42,000 annual renewal, $3,150 prorated addition, co-termed through September 30, 2027, net 30, PO-4817."
+      "text": "Already attached to the email I just sent, order form OF-1846. Total due this term is $34,835 because of the proration, plus the $3,200 onboarding. Let me know if the invoice needs a PO number."
     },
     {
-      "speaker": "Jordan (Customer)",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Great, thanks. That should be straightforward."
+      "text": "Use PO-7714. If you can put that on the first invoice, we're good."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. Once it's signed, you'll get the kickoff invite with the same May dates and the admin checklist. Nothing else needed from your side today."
     }
   ]
 }

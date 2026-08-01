@@ -12,52 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I pulled up the order form. It's 24 platform seats, one analytics add-on, and the implementation package at $6,800 one-time. Annual comes to $41,760 before tax."
+      "text": "Yeah, thanks for making time, Megan. I wanted to confirm the package we discussed for the operations team: 42 standard seats, 6 manager seats, and the implementation support for the first 30 days. Is that still the right count?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that matches what I have. Net 30, billed on signature, then renewal next year on March 1?"
+      "text": "Yep, that's right. We may add two more managers in Q3, but for the initial order it's 48 total seats. Our finance team asked if the quote can show those as separate line items."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. The term runs March 1, 2026 through February 28, 2027. If legal gets it back by Friday, we can keep the discount as shown."
+      "text": "Absolutely. I can split standard and manager seats on the quote. Based on the pricing sheet, that puts the annual subscription at $38,640, and implementation is a one-time $4,800. So total first-year is $43,440 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Quick thing though, the kickoff invite I got this morning says March 4 and 18 seats. We were aiming at March 11 and 24 seats, right?"
+      "text": "Okay, that matches what I had. On billing, we need annual upfront, net 30, and the invoice has to reference PO 41782. Can your billing tool handle that?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Ah, yeah, you're right. Sorry about that. I'll get that cleaned up today so the calendar and workspace match the order form."
+      "text": "Yes. I'll add the PO number in the billing notes and on the order form. Net 30 is fine. The invoice would go out after signature unless you want it delayed to the June 3 start date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "No problem. I just don't want my ops lead planning around the wrong week."
+      "text": "After signature is fine. We just need the subscription term to run June 3, 2026 through June 2, 2027. Our go-live target is June 17."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Totally. For go-live on March 25, we'd want the admin names by March 8, and your file export by March 12. Does that still work?"
+      "text": "Got it. I'll set the term dates that way. For go-live on June 17, we'd schedule kickoff the week of June 3, data import by June 10, and admin training on June 12 or 13. Does that work?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes. I'll send the four admin contacts after this call. Procurement may ask for the insurance cert again, same as last time."
+      "text": "June 12 is better. We have a team offsite on the 13th. Also, can you include one renewal cap in the contract? Legal asked for no more than 5% increase at renewal."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I'll attach that with the countersigned order form. Anything else blocking signature on your side?"
+      "text": "Yeah, a 5% renewal cap is within our standard terms. I don't need deal desk for that. I'll include it in the order form and send the updated version by end of day."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "No, assuming the invoice shows the PO number, 77419, we're fine. Send it over and I'll route it."
+      "text": "Perfect. Send it to me and copy our contracts alias. If everything looks right, I can get signature routed tomorrow."
     }
   ]
 }

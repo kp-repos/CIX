@@ -12,62 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I pulled up the account in the CRM, and I have you at 42 seats for the operations team plus 6 approver seats for finance. Is that still the right count for the quote?"
+      "text": "Yeah, hi Karen, thanks for making time. I wanted to confirm the expansion order for 38 additional seats and the May 20 go-live for the support team workspace."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's close. We actually need 45 operations seats now. Two new hires start May 20, and one manager wants access too. The 6 approver seats is right."
+      "text": "Yep, that's still the plan. We need the seats active by May 15 for training, then production on the 20th. Also, last time we talked about bringing over the archived customer notes from 2022 and 2023."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 45 and 6. On the annual plan, that puts the subscription at $28,440, and implementation stays at $4,200. So the first-year total would be $32,640 before tax."
+      "text": "Right, and I need to apologize on that. I had that in my call notes, but it didn't make it into the services handoff, so the migration team scoped only active records. They can still add the archive pull, but it moves the test file delivery from May 6 to May 8."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the implementation fee, is that invoiced up front or with the first monthly bill?"
+      "text": "Okay, that's not ideal, but May 8 works if we still have time to validate. Is there any added cost?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Since it's annual, it would be on the first invoice with the subscription. The billing tool will generate one invoice for the full amount after signature, net 30 terms."
+      "text": "No added cost. The quote stays at $31,420 for the annual term, co-termed through March 31 next year. I'll send the revised project plan after this."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Net 30 works. Our finance team just needs the PO number included. It’ll be PO-7186 once approved, probably by Friday."
+      "text": "Good. On procurement, we need the invoice split: software on PO-4471 and services on PO-4472. Finance kicked back the last one because it was combined."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I can add a note for that before it goes out. For go-live, you had mentioned June 17. If we have the agreement signed by May 24, that gives us enough time for configuration, two admin trainings, and the user import."
+      "text": "Yeah, I saw that come through this morning. Sorry, same issue there, I had agreed to split billing but the billing tool request went over as one invoice. I've asked billing to void INV-18309 and reissue two invoices today."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "June 17 is still the target. We have a team meeting that morning, so we'd want access live by 9 a.m. Central if possible."
+      "text": "Please do. Our month-end cutoff is Friday at 3 p.m. Central, so if those aren't in by then it slides to June."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, that's doable. I'll put 9 a.m. Central on June 17 in the order form. Contract term would be June 17, 2026 through June 16, 2027, auto-renewal with 60 days' notice unless you ask us to remove that."
+      "text": "Understood. I'll watch for the corrected invoices and email you the PDFs directly. For the order form, it's 38 seats, annual prepaid, net 30, no auto-renew change, and the added seats inherit the existing SLA."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Auto-renewal is fine. Send the order form over, and I’ll route it to legal and finance today."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Great. I'll send the updated order form and the pricing sheet in the next hour. If legal has redlines, they can send them back to me directly and I’ll coordinate with deal desk."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Sounds good. Thanks, Mark."
+      "text": "That matches. Send it over for signature and copy me on the invoice fix. Thanks."
     }
   ]
 }

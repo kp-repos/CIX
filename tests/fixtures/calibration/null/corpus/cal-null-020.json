@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the expansion from 42 to 60 seats and make sure the September 16 go-live still works for your operations team."
+      "text": "Yeah, so thanks for making time, Dana. I saw your note about adding the warehouse supervisors. You’re at 38 seats today, right, and looking to move to 52 by March 18?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that's still the date. We have 18 supervisors starting training the week before, so the 60 seats gives us a little cushion."
+      "text": "That’s right. Fourteen more seats. Ten supervisors, three regional managers, and one shared admin login if that’s allowed."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. The quote I have is 60 seats at $96 per seat per month, annual term from September 1, 2026 through August 31, 2027. That comes to $69,120 for the year before tax."
+      "text": "We can do the fourteen named users, but the shared admin login is the one I’d steer away from. For audit history, it really needs to be named. If you want, we can make that fifteenth seat view-only at $39 a month instead of the full $96."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And implementation is still the $4,500 one-time fee, right? I don't want finance surprised by a separate services line later."
+      "text": "Okay, that’s fine. So total would be 52 full seats plus one view-only?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, $4,500 one time, listed on the same order form. It includes the admin setup, two manager sessions, and the data import template review."
+      "text": "Exactly. Your current annual is $43,776. With the add-on from March 18 through your existing term end on November 30, it comes to $12,824. The view-only seat is included in that number."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Billing-wise, can you keep it as one invoice, net 30, and reference PO 7841? Our AP team will kick it back if the PO isn't on there."
+      "text": "Got it. Can you make the invoice net 45? Our AP team pays on the 15th and 30th, and net 30 gets awkward."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, one invoice, net 30, PO 7841 on the order form and invoice. No change to the MSA terms from last year."
+      "text": "Yep, net 45 is available on your account. I’ll put that on the order form. Same billing contact, invoices at ap@northlinefoods.com?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. The only thing I need is the security addendum attached again. Legal already approved it in May, they just want it included in the packet."
+      "text": "Yes. And for go-live, we need the new users active by March 20 because training is March 21 at 9 a.m. Central."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I'll send the order form with the security addendum attached by end of day. If you sign by Friday, we can hold the kickoff for August 26 at 11 a.m. Central."
+      "text": "That works. Once the order form is signed, our onboarding coordinator will send the user upload template and training link. If you return the roster by March 15, the seats will be active the morning of March 18."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Send it to me and copy Marcus in finance. Assuming the numbers match what we covered, I'll route it for signature today."
+      "text": "Perfect. Any change to the renewal date or terms?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No change. It co-terms to November 30, same service terms, same support package. At renewal we can true it up for the full year based on the seat count you want for 2027."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, send it over today and I’ll route it to finance. If the number matches what you just said, I should be able to sign by Friday."
     }
   ]
 }

@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I pulled up the pricing sheet for the 12 additional technician seats. With your current 42 seats, that moves you to the 50-plus tier, so the net new annual amount is $18,720, and it would co-term to June 30, 2027."
+      "text": "Hi Dana, yeah, thanks for making time. I saw your note about adding the Indianapolis team. Are we still talking 38 users total, or did that change?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that matches what I had in mind. The technicians are for the Toledo plant, and they need access before our audit prep starts on September 9."
+      "text": "It changed a little. We have 34 full users and 6 read-only, mostly operations managers who just need dashboards."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep. If we have signature by August 16, we can start provisioning the seats the following Monday and have the admin training on August 28 or 29. Does one of those work?"
+      "text": "Okay, that maps cleanly. Full users are $82 per seat per month, read-only are $24. With the annual term starting September 1, the total comes to $36,864 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "August 29 is better. Also, I need the invoice split by cost center: 70 percent Toledo maintenance, 30 percent quality."
+      "text": "That matches what I expected. On invoicing, can you do one invoice for the year, net 30? Our finance team does not want monthly bills for this."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No problem. I’ll put that on the order form and the billing tool will show two lines on the invoice. Same billing contact as last time, Maria Chen?"
+      "text": "Yes, annual invoice, net 30 is standard. I can include PO number 4178 on the order form if that's still the right one."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, Maria is still right. On terms, it’s still net 30, annual prepaid, no auto-renew change?"
+      "text": "Yep, 4178. The other thing is go-live. We need the first calibration reports in there by October 14. Is that realistic?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. Net 30, annual prepaid, and the renewal language stays the same as your master agreement. No changes to data terms or support level."
+      "text": "It is, assuming we get the equipment list by September 6. Onboarding would be two working sessions the week of September 9, then validation on the 23rd. You'd be live before October 14."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Can you also include the sandbox access for two admins? We’ll use it for procedure testing, not production."
+      "text": "Good. Contract term is just 12 months, right? No auto-renewal longer than that?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, two admin sandbox users are included at no charge under your plan. I’ll list them as included so procurement doesn’t think it’s a separate SKU."
+      "text": "Correct, 12 months, September 1, 2026 through August 31, 2027. It renews for another 12 months unless either side gives 45 days' notice. I’ll put that plainly in the summary."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send the order form today if you can. I’ll route it to purchasing and aim to get you a signature by Friday."
+      "text": "Okay. Send it over today if you can. If legal doesn't have comments, I can sign by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send it over by 2 Eastern, and I’ll include the August 29 training slot and the September 9 access target in the confirmation."
+      "text": "Will do. You’ll get the order form with the seat split, annual invoice terms, PO 4178, and the October 14 go-live target. Anything else you want included?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that covers it. Thanks."
     }
   ]
 }

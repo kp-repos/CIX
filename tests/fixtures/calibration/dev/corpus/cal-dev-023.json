@@ -1,6 +1,6 @@
 {
   "id": "cal-dev-023",
-  "source_type": "transcript",
+  "source_type": "email",
   "participants": [
     "rep",
     "customer"
@@ -10,59 +10,49 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Megan Ortiz, Account Executive",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the final order form for the 48 seats and make sure the onboarding dates still work before I send it back through deal desk."
+      "text": "Hi Dan,\n\nAttached is the revised quote for 42 platform seats and 6 admin seats, annual term starting May 1. Total is $48,600, net 30, with onboarding at $3,200 one-time.\n\nIf this looks right, I can send the order form today.\n\nMegan"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Dan Keller, Director of Operations",
       "ts": null,
-      "text": "Sure. The seat count is right, 42 standard users and 6 admins. The main thing is we need the customer portal live by November 18, same as we discussed last week."
+      "text": "Megan,\n\nThanks. The seat mix is right. We can do May 1, but the number is still high for us. Finance gave me $40k all-in for year one, excluding tax.\n\nCan you sharpen it?\n\nDan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Megan Ortiz, Account Executive",
       "ts": null,
-      "text": "Right, November 18 for go-live. I do see the implementation coordinator sent you a December 2 kickoff, which is not what we agreed. Sorry about that, they had December 2 in their queue. I’ll get that corrected today and have them send a revised schedule."
+      "text": "Yeah, understood. I checked the pricing sheet again. The cleanest official discount I can put through without review gets us to $45,900 plus the onboarding fee.\n\nIf you can move close to that, I can keep the May 1 start and hold the implementation slot for the week of May 6.\n\nMegan"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Dan Keller, Director of Operations",
       "ts": null,
-      "text": "Okay, good. Because our training blocks are already on the calendar for November 12 and 13, and moving those is kind of a mess."
+      "text": "We are not going to get $45,900 approved. I could probably get a PO signed this week at $39,900 subscription and the $3,200 onboarding fee, but that is the ceiling.\n\nAlso need the invoice split 50% on signature, 50% on August 1.\n\nDan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Megan Ortiz, Account Executive",
       "ts": null,
-      "text": "Understood. I’ll have the services lead hold those dates. On pricing, the subscription is $43,200 for the year, plus the one-time setup fee of $3,800, and the 12-month term starts November 1."
+      "text": "Dan,\n\nPer our messages just now, let's use the $39,900 subscription number we settled on there. I know that is below the discount level that normally has to go through deal desk approval before anything is sent out. Rather than wait on the concession workflow and risk losing your budget window, I’ll put the cheaper number into the order form now and get you the signature packet today. I’ll clean up the internal discount request and paperwork after the fact so it matches what we agreed.\n\nFor billing, I’ll set 50% due on signature and 50% due August 1. Onboarding stays $3,200.\n\nMegan"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Dan Keller, Director of Operations",
       "ts": null,
-      "text": "That matches. But the invoice we got yesterday showed the full $43,200 due on receipt. We agreed quarterly billing with PO 7714 on each invoice."
+      "text": "Okay. Send it over and I’ll route to our controller. Please make sure the subscription line is separate from onboarding so they can code it correctly.\n\nDan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Megan Ortiz, Account Executive",
       "ts": null,
-      "text": "Yep, you’re right. Billing didn’t have the quarterly note, so that invoice went out wrong. I’ll have them void it and reissue four invoices for $10,800 each, net 30, with PO 7714."
+      "text": "Attached is the order form.\n\nSummary:\n- 42 standard seats, 6 admin seats\n- Annual subscription: $39,900\n- Onboarding: $3,200\n- Term: May 1, 2026 to April 30, 2027\n- Billing: 50% on signature, 50% on August 1\n- Auto-renewal removed per your redline\n\nMegan"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Dan Keller, Director of Operations",
       "ts": null,
-      "text": "Thanks. Also just confirm the 48 seats can flex up midterm. We may add 8 more in January if support likes it."
+      "text": "Received. Legal is fine with the term and renewal language. Controller asked whether the August 1 invoice can reference PO 44718 on the face of the invoice.\n\nIf yes, we should be able to sign tomorrow.\n\nDan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Megan Ortiz, Account Executive",
       "ts": null,
-      "text": "Yes, additional seats can be added prorated at the same unit price, no new term reset. If you remove seats, that would wait until renewal on October 31 next year."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Fine. Send the corrected invoice and the updated onboarding calendar, and I can get the order form signed by Friday."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. I’ll send the order form this afternoon and follow with the revised services calendar and invoice once those teams update their side."
+      "text": "Yes, we can include PO 44718 on both invoices. I added that note to the billing instructions.\n\nOnce signed, I’ll introduce your team to implementation and they’ll confirm the May 6 kickoff.\n\nMegan"
     }
   ]
 }

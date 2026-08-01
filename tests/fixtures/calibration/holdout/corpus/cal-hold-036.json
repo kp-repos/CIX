@@ -1,6 +1,6 @@
 {
   "id": "cal-hold-036",
-  "source_type": "email",
+  "source_type": "transcript",
   "participants": [
     "rep",
     "customer"
@@ -10,54 +10,64 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya - Account Executive",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Derek,\n\nRecap from today: 42 named users, 3 admin seats, calibration records import for the last 24 months, and go-live target of May 6.\n\nStandard annual subscription is $46,800, implementation is $7,500 one-time. Net 30, 12-month initial term.\n\nI can send the order form if that lines up.\n\nMaya"
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the seat count and the timing so I can get the order form cleaned up. Last note I have is 48 standard seats and 6 admin seats for the June 17 go-live."
     },
     {
-      "speaker": "Derek - Quality Operations",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Maya,\n\nFunctionally yes. The issue is the first-year number. I have $40k approved for software and services combined, and finance will not reopen it until June.\n\nIf we can fit under that, I can get signature this week.\n\nDerek"
+      "text": "That's right. We may add two more admins later, but for the initial contract it's 54 total users, with 6 of those admins."
     },
     {
-      "speaker": "Maya - Account Executive",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Derek,\n\nPer our messages last night, let's lock the 42 users plus the import at $39,600 total for year 1. That is below the pricing sheet and I do not have the concession approved in the CRM or through deal desk yet, but I don't want the official route to slow this down when your go-live is already tight. Reply approved here and I will move the order form at $39,600 today, then I'll clean up the internal approval and paperwork after the fact.\n\nMaya"
+      "text": "Perfect. And on pricing, the quote is $38,880 annually before tax, billed up front. That includes onboarding at $3,200 as a one-time services line. Does that match what you saw?"
     },
     {
-      "speaker": "Derek - Quality Operations",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Approved on $39,600 total for year 1, 42 users, import included.\n\nPlease send the order form today. Our controller needs the invoice to reference PO 11873 and the cost center QA-410.\n\nDerek"
+      "text": "Yes, that lines up. Finance just asked if the invoice can reference PO 4719 and break out the onboarding fee separately."
     },
     {
-      "speaker": "Maya - Account Executive",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Attached order form is updated.\n\nDetails:\n- 42 named users\n- 3 admin seats included in the 42\n- Calibration history import up to 24 months\n- Remote implementation, 4 working sessions\n- Target production date May 6\n- Invoice references PO 11873 and QA-410\n\nInitial term runs Apr 15, 2026 to Apr 14, 2027. Renewal cap is 5%.\n\nMaya"
+      "text": "Yep, we can do that. I'll put the PO number in the billing notes and keep the subscription and services as separate lines on the invoice."
     },
     {
-      "speaker": "Derek - Quality Operations",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Thanks. Two edits before I route:\n\n1. Our legal template requires 30 days' notice for non-renewal, not 60.\n2. We need one invoice after signature, not split subscription/services.\n\nCan you revise those?"
+      "text": "Okay. One other thing, legal had a small redline on auto-renewal. They want 60 days' notice instead of 90."
     },
     {
-      "speaker": "Maya - Account Executive",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yes. Revised attached.\n\nNon-renewal notice is now 30 days. Billing is one invoice after countersignature, net 30.\n\nNo change to scope or dates.\n\nMaya"
+      "text": "Yeah, so I checked with deal desk this morning, and 60 days is fine for a 12-month term. I'll have the contract terms updated and send the revised version today."
     },
     {
-      "speaker": "Derek - Quality Operations",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Looks good. Sending to our VP of Quality and finance now.\n\nAssuming both sign today, can your implementation lead join our kickoff on Apr 18 at 10:00 Central?"
+      "text": "Great. If we sign by Friday, are we still on track for the kickoff next Tuesday?"
     },
     {
-      "speaker": "Maya - Account Executive",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yes, Apr 18 at 10:00 Central works. I put a soft hold on our side.\n\nOnce the signed order form is back, I'll introduce Priya from implementation and send the import template for the asset list, gage IDs, due dates, and current cert attachments.\n\nMaya"
+      "text": "Yes. If signature is in by May 31, we can hold the June 4 kickoff. The implementation lead already has the project slot reserved, and we'd target admin training on June 11."
     },
     {
-      "speaker": "Derek - Quality Operations",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Signed copy attached.\n\nPlease countersign and send the invoice to ap@northfieldcomponents.example with me copied.\n\nDerek"
+      "text": "That works. Send the updated order form to me and copy Marcus in procurement."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it over in the next hour, and once it's signed, the billing tool will generate the invoice with the PO reference."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks, Alex."
     }
   ]
 }

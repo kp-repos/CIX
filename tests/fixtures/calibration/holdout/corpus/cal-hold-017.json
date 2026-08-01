@@ -3,61 +3,61 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "customer"
+    "colleague"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I pulled up the quote in the CRM. We have you at 48 seats for the analytics package, annual term starting March 1, and the onboarding services line at $6,500. Is that still matching what your team needs?"
+      "text": "Hey, can you sanity check Northline before I send the pricing sheet? They're at 82 seats today, want to add 18 for support ops, and finance asked for annual billing instead of quarterly."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Evan",
       "ts": null,
-      "text": "Mostly, yeah. We actually counted again yesterday and it’s 52 users if we include the finance managers. I don’t think all of them need admin access, but they do need login seats."
+      "text": "Yeah, pulling it up in the CRM. I see the expansion note. Is this the same account with the services go-live on March 10?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Got it. So 52 standard seats, with maybe four admins? The per-seat price on the pricing sheet is $92 per user per month at that band, billed annually. That puts subscription at $57,408 for the year."
+      "text": "That's them. Implementation is fine, SOW is signed. The weird part is the main subscription. Their agreement ends this Friday, February 28, and I don't see a renewal opp, no extension order form, nothing from deal desk. And as far as I can tell, nobody from our side has actually talked to them about continuing past Friday."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Evan",
       "ts": null,
-      "text": "Okay. The number is fine, but procurement asked if the invoice can split software and services into separate lines. Same PO, just separate lines for tracking."
+      "text": "Wait, nobody has had the renewal conversation? Not customer success, not us? That's, yeah, that's not good. If their term ends Friday and we haven't asked whether they're carrying on, we can't just assume the 100 seats roll into the expansion."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yes, that’s easy. The billing tool will show subscription on one line and onboarding on another. Taxes, if any, will calculate separately. Do you need the invoice dated in February or on the March 1 start date?"
+      "text": "Exactly. I checked call notes back to January 6. It's all go-live dates, invoice contacts, and the added seats. No one said, hey, your contract is expiring, do you want a new 12-month term or a short bridge. We're basically at the end date without client confirmation."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Evan",
       "ts": null,
-      "text": "February 20 would be better. Our AP cutoff is the 22nd, and we’re trying to avoid pushing it into the next cycle."
+      "text": "Okay. First, don't send pricing like it's a normal add-on. Send a note to Angela and Priya asking for a 30-minute renewal call today or tomorrow. Keep it simple: current term ends February 28, expansion depends on active subscription, need direction on 12 months versus month-to-month bridge."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Okay, I’ll note invoice date February 20, net 30 terms. For go-live, your team had mentioned April 15. With a March 1 start, we’d do kickoff the week of March 4, data mapping by March 18, and user training around April 8. Does that still work?"
+      "text": "Yeah, so I can hold the quote until they answer. For numbers, if they do 100 total seats at the current tier, annual is $72,000 before the 8% uplift. Services already billed at $9,500, invoice went out Monday."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Evan",
       "ts": null,
-      "text": "Yeah, that lines up. The only thing is our data lead is out March 11 through 13, so mapping can’t depend on her those days."
+      "text": "Good. And put the billing contact on there? Last time AP kicked back the PO because the ship-to address had the old Denver office."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "No problem. We can schedule the mapping workshop for March 14 and leave the earlier week for access setup and the project plan. I’ll have our implementation manager confirm times after signature."
+      "text": "Yep, I updated the billing tool with the Phoenix address and net 30. Legal terms are standard, no redlines expected unless they ask for the bridge."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Evan",
       "ts": null,
-      "text": "Sounds good. Send the revised order form with 52 seats and the invoice note, and I’ll route it for signature today. If legal doesn’t change anything, we should have it back by Friday."
+      "text": "Alright. Log the outreach in the CRM, tag me if they respond. If they want the 12-month renewal, I can turn the order form same day."
     }
   ]
 }

@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for jumping on, Dana. Sorry for the lag this morning; the pricing sheet was still pulling the old 42-seat count from the account, so I wanted to fix that before I sent numbers."
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final scope for the rollout before I send the order form. I have 42 seats for the operations team, start date September 1, and the standard implementation package."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "No problem. We’re at 58 users now, but only 51 need full access on day one. The other 7 are managers who just need dashboards."
+      "text": "That's right. The only thing is we may add 6 more users in October if the Dallas team comes on, but I don't want those on the initial invoice."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. For 51 full seats and 7 view-only, the annual is $46,800. Implementation is $6,500 one-time, and that includes two admin trainings before go-live."
+      "text": "Yep, that works. We'll write the order for 42 seats now, and any additional seats can be added later at the same per-seat rate through the co-term process."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Finance asked whether the invoice can split implementation in April and the subscription in May. Our budget resets May 1."
+      "text": "Okay. And the annual total you sent was $31,920, correct?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can set the subscription start for May 1 and invoice services on April 15. The term would run May 1, 2026 through April 30, 2027."
+      "text": "Correct. That's $760 per seat annually, so $31,920 for the subscription. Implementation is a one-time $4,500, so first-year total is $36,420 before applicable tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Legal also flagged auto-renewal. They want 60 days’ notice, not 90."
+      "text": "Got it. Our finance team asked if the invoice can show the implementation fee as a separate line item."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I can approve 60 days. I’ll put that in the order form. On go-live, are you still targeting June 3, or did that move?"
+      "text": "Yes, no problem. I'll note that in the billing tool and on the order form. It'll show subscription and implementation separately."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "June 10 is safer. Our operations lead is out the week before, and she owns the import file."
+      "text": "Great. Contract term is 12 months, not auto-renewing for multiple years, right?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Makes sense. I can send the revised order form by 3:30. I just need a few minutes after this to get the close plan and the order form saying the same thing for deal desk."
+      "text": "Right, 12-month initial term. It does auto-renew for another 12 months unless either side gives 30 days' notice. That's our standard language."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send it to me and copy Martin in finance. If the invoice dates are clear, I think we can sign by Friday."
+      "text": "Okay, that's fine. If you send it today, I can route it for signature tomorrow morning."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I'll send the order form by 3 p.m. Eastern, with the September 1 go-live and the invoice note included. Once it's signed, our implementation coordinator will reach out within one business day."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks, Mark."
     }
   ]
 }

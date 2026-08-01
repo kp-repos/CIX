@@ -1,6 +1,6 @@
 {
   "id": "cal-hold-008",
-  "source_type": "transcript",
+  "source_type": "email",
   "participants": [
     "rep",
     "customer"
@@ -12,52 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I pulled up the quote we sent on Friday. It’s for 48 seats on the standard plan, $38 per seat per month, billed annually, and then the one-time implementation fee is $4,200."
+      "text": "Hi Dana,\n\nAttached is the updated summary for 38 seats, calibration scheduling, and the 2-hour admin training block. Target go-live is still March 18 if we have the asset list by March 6.\n\nThanks,\nMark"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That matches what I have. The only thing I wanted to confirm is if we add five more seats in Q2, are those just prorated through the same renewal date?"
+      "text": "Thanks Mark.\n\nWe’re good on 38 seats for now. Please confirm the invoice can be split 50% on signature and 50% at go-live. Our AP team also needs net 30, not due on receipt.\n\nDana"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. Your renewal date would stay March 31, 2027. Any seats added after go-live would be prorated to that date and show up as a separate line item on the next invoice."
+      "text": "Yeah, that works. I noted 50/50 billing and net 30 in the billing notes.\n\nFor the PO, use the $44,850 from our texts; I’ll get the order form cleaned up after the paperwork catches up.\n\nMark"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, good. And for go-live, we’re still aiming for April 22? Our operations team is asking because they need two weeks for internal training."
+      "text": "Ok. PO will reference $44,850 and 38 users.\n\nOne more thing: we have 612 instruments in the first import. Is that covered, or do we need the larger onboarding package?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, April 22 is still workable. If we get signature by March 18, our services team can start discovery the week of March 25, then configuration the first week of April."
+      "text": "612 is covered. The standard onboarding includes up to 750 active instruments and one historical import file.\n\nIf you want us to clean up duplicates before import, that would be extra, but if your team sends the final CSV in the template, no added fee."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That timeline works. On the contract term, procurement asked whether the 12-month term can include a 30-day notice period before auto-renewal."
+      "text": "Got it. We’ll handle cleanup.\n\nCan you send the template again? The one I have has columns for site and department, but our quality lead asked about location and owner too."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, that’s standard for us. The agreement currently says notice due 45 days prior, but I can update it to 30 days and route it through deal desk today."
+      "text": "Sure. Attached is the newer template.\n\nRequired columns are asset ID, description, interval, next due date, and owner. Site and location are optional but recommended. Department can be blank if you don’t use it."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Last item is invoicing. We need the PO number included on the invoice, PO-4178, and it should go to ap@northlakeops.com."
+      "text": "Thanks. Legal is asking whether the initial term can end March 31, 2027 instead of March 17, 2027 so renewals line up with our fiscal calendar."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I’ll add PO-4178 to the billing notes and set the invoice contact to that AP address. I’ll send the revised order form by end of day."
+      "text": "Yes, we can set the initial term through March 31, 2027. Renewal would then be annual starting April 1.\n\nNo change to the implementation timing or billing split."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Once I have that, I’ll send it to procurement and should be able to get signature by early next week."
+      "text": "Perfect. Send the final packet when ready and I’ll route for signature today.\n\nDana"
     }
   ]
 }

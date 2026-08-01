@@ -1,6 +1,6 @@
 {
   "id": "cal-dev-028",
-  "source_type": "email",
+  "source_type": "transcript",
   "participants": [
     "rep",
     "customer"
@@ -10,44 +10,64 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rachel Kim, Customer",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Hi Evan,\n\nWe’re trying to get the renewal wrapped before finance closes March. Current usage is 74 seats, but ops wants 13 more for the North region, so please quote 87 seats.\n\nSame one-year term starting April 1, if possible. We also need the invoice to reference PO 41872 and cost center 220-19.\n\nRachel"
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final scope before I send the order form through deal desk. I have 42 standard seats, 6 admin seats, and the implementation package with two onsite days in May. Is that still right?"
     },
     {
-      "speaker": "Evan Brooks, Rep",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Hi Rachel,\n\nYeah, can do. For 87 seats on a 12-month renewal starting 4/1, list on the pricing sheet comes to $63,510. With the standard renewal discount it is $54,810.\n\nI can send the order form today with net 30 terms and the invoice details you listed.\n\nEvan"
+      "text": "Yep, that matches what we have. The only change is we want the admin seats all active on day one, but probably only 35 of the standard seats at go-live. The remaining 7 can be provisioned later."
     },
     {
-      "speaker": "Rachel Kim, Customer",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Thanks. $54,810 is a little high for us. We had budgeted $50k even based on last quarter’s headcount plan.\n\nIf we can get closer to that, I can get signature from Dan by Friday. Otherwise it likely slips to April 10.\n\nRachel"
+      "text": "Got it. For billing, it’ll still show 48 total seats on the annual subscription, but we can note the phased provisioning in the onboarding notes. The start date we had was May 15, with go-live targeted for June 10. Does that still work on your side?"
     },
     {
-      "speaker": "Evan Brooks, Rep",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Rachel,\n\nI talked it through here. The cleaner official route is deal desk approval, but that will take a few days and they’ll probably land above $52k.\n\nIf you can get the PO moving today, let’s use $49,800 for the 87 seats and keep this number here between us for now rather than waiting on the concession workflow. I’ll update the order form to match, and I’ll sort the deal desk paperwork after signature so the file catches up later.\n\nEvan"
+      "text": "June 10 is still the date. Our IT team asked if the kickoff can be the week of May 20 instead of May 16. They’re tied up with a network change that Thursday."
     },
     {
-      "speaker": "Rachel Kim, Customer",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Okay, $49,800 works. Please send the order form with 87 seats, 4/1 start, 3/31/2027 end, net 30.\n\nBilling address is the same, but invoice email should be ap@northlakecomponents.com and copy me.\n\nRachel"
+      "text": "Yeah, no issue. I can put kickoff on May 21 at 1 p.m. Eastern. The two onsite days would then be June 4 and June 5, unless you want those closer to go-live."
     },
     {
-      "speaker": "Evan Brooks, Rep",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Attached is the order form.\n\nSummary:\n87 seats\nTerm: April 1, 2026 - March 31, 2027\nTotal: $49,800\nPayment: net 30\nInvoice reference: PO 41872, cost center 220-19\n\nIf Dan signs by Friday, implementation can keep the April 8 admin training slot.\n\nEvan"
+      "text": "June 4 and 5 are fine. On the contract, procurement asked about the auto-renewal language. They’re okay with annual renewal, but they want 60 days’ notice instead of 30."
     },
     {
-      "speaker": "Rachel Kim, Customer",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Dan signed. Attached PDF and PO 41872.\n\nOne note: our AP team will reject invoices without the PO in the header, not just the notes field. Can you make sure billing has that?\n\nRachel"
+      "text": "That’s a standard fallback for us. I’ll mark 60 days in the order form and have legal confirm, but I don’t expect a problem. Pricing stays at $31,680 for the subscription and $7,500 for implementation, so $39,180 total before tax."
     },
     {
-      "speaker": "Evan Brooks, Rep",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Got it, thank you.\n\nI updated the CRM with the signed order and added PO 41872 in the billing header field. You should see the invoice on or around April 2.\n\nI also confirmed the April 8 admin training and April 15 go-live check-in.\n\nEvan"
+      "text": "Okay. And invoices, can those be split? We need the subscription invoiced on signature and the implementation invoiced after the kickoff."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. I’ll set it up in the billing tool as two invoices: $31,680 on signature, then $7,500 on May 21. Payment terms are net 30 on both. Do you need a PO before we countersign?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, we’ll issue a PO once we have the order form. Send it to me and copy Mark in procurement, and we should be able to turn it around by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send the revised order form today by 3 p.m. Central, with the 60-day renewal notice, May 15 start date, and the invoice split. If anything changes on the seat list, just send me the spreadsheet before kickoff."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks, Alex."
     }
   ]
 }

@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, hi Dana, thanks for making the time. I had us down to confirm the 42 seats, the April 15 go-live target, and the billing details for Northlake’s support team."
+      "text": "Hi Dana, yeah, thanks for making time. I wanted to walk through the seat count and the March 15 go-live plan, then I can send the order form right after."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s right. It’s 38 regular users and 4 team leads. We may add 6 more in Q3, but I don’t want to buy those yet."
+      "text": "Sounds good. We’re still at 84 users for launch. Finance asked if we can add 10 more in May without redoing the whole agreement."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Totally fair. The order form will show 42 seats now, annual term starting April 1, and then any added seats later are prorated at the same rate through March 31 next year."
+      "text": "Yep. The order form will show 84 seats at $72 per seat per month, annual term, and then any added seats co-term to the November 30 renewal date. So if you add 10 on May 1, billing just prorates those seven months."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the number you sent was $31,080 for the year, correct?"
+      "text": "Okay, that’s clear. What’s the annual total on the 84?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. That’s $740 per seat annually on the approved pricing sheet, and it includes the standard onboarding package. Taxes are separate, and the invoice can be net 30."
+      "text": "It comes to $72,576 for the software, plus the one-time onboarding package at $4,800. Total first-year invoice would be $77,376, net 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Net 30 works. Our AP team needs the PO number on the invoice. It’s PO-44819, and the billing email is ap@northlake.example."
+      "text": "That matches what I had. Can the invoice be split, half at signature and half on July 1?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I’ll include PO-44819 on the order form and the invoice request. For implementation, we have the kickoff tentatively set for April 3 at 10 a.m. Central with your operations manager, Luis."
+      "text": "Yes, we can do two invoices: $38,688 due at signature and $38,688 due July 1. The pricing sheet already reflects that payment schedule, so the order form will match."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, Luis is the right person. He asked whether the CSV import is part of onboarding or if that’s a separate services fee."
+      "text": "Great. Legal had one small thing: they want auto-renewal removed, just a written renewal each year."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It’s included for one initial import, up to 25,000 records. If you have multiple cleanup passes after that, we’d scope it separately, but the first load is covered."
+      "text": "No issue. I’ll send it as a 12-month term ending November 30, 2026, no auto-renewal, and we’ll start renewal conversations at least 60 days before that."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Last thing, legal asked for the mutual confidentiality language to stay as-is, no changes there. They’re fine with the standard 12-month term."
+      "text": "Perfect. If you send that today, I can route it for signature tomorrow morning."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I’ll send the final order form today with the 42 seats, $31,080 annual subscription, net 30, PO-44819, and April 1 start date. If you sign by Friday, we’re good for the April 3 kickoff."
+      "text": "Will do. You’ll have the order form and implementation summary by 2 p.m. Eastern, and the kickoff is still held for March 3 at 11 a.m. with your admin team."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Send it over. I’ll route it for signature this afternoon, and I’ll copy Luis so he has the onboarding date."
+      "text": "Thanks, Mark. That should get us there."
     }
   ]
 }

@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so thanks for making time, Dana. I had you down for 42 technician seats and 6 manager seats for the calibration tracking rollout, with the target go-live on May 12. Is that still right?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the renewal and the seat add before I send the order form. You’re currently at 42 seats through August 31, and you’d like 58 seats starting September 1, right?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Close. We added two lab supervisors, so make it 8 manager seats. Technician count stays 42. We also need the first invoice dated after April 1 because that's the new budget period."
+      "text": "That’s right. Forty-two today, add 16 for the operations supervisors. We need them live for the September 9 training, so September 1 start is good."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 50 total seats, invoice after April 1. On term, the pricing sheet has the 24-month option at $3,850 per month, and that includes the gauge import and the onsite admin training day."
+      "text": "Perfect. The renewal would run September 1, 2026 through August 31, 2027. Pricing is $74 per seat per month for the 58 seats, billed annually. That totals $51,504 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. The training day is important. We want it the week of May 5, ideally Tuesday, because all three shifts overlap for about two hours."
+      "text": "Okay, that matches what I had from your note. Can you keep the invoice split by location? We need 31 seats billed to Portland and 27 to Boise."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Tuesday May 6 works on our side. I'll put that date in the order notes and the implementation summary, so the kickoff team has it from day one."
+      "text": "Yep, we can do that. The billing tool will show two line items on one invoice: Portland at $27,528 and Boise at $23,976. Net 30 terms, same as this year."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. And payment terms are net 30, right? Our purchasing group kicked back one agreement last quarter because it said due on receipt."
+      "text": "Good. Legal already reviewed the standard terms last year, so no changes from us unless the data processing exhibit changed."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, net 30 is standard for this package. The order form will show monthly billing, net 30, starting after the April 1 invoice date you mentioned."
+      "text": "No changes to that exhibit. I’ll attach the current copy with the order form just so procurement has the full packet."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "One more thing. We need the asset import done before training. It's about 6,200 instruments, mostly spreadsheets from our three sites."
+      "text": "Great. For onboarding those new supervisors, can we get the admin session on September 3, maybe 11 Central?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That's included. We'll need the files by April 18 to hit the May 12 go-live. If you can send one sample this week, our import specialist can confirm the format before you export everything."
+      "text": "Yes, September 3 at 11 Central works. I’ll include that in the kickoff notes, and you’ll get a calendar hold after signature."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, I can send a sample Thursday. Send me the order form today and I'll route it for signature. Our signer is Mark Ellison, VP of operations."
+      "text": "Sounds good. Send the order form to me and copy Marcus in procurement. If it lands today, I can get signature by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I'll send it to you and Mark by 3:00 Central with the 50 seats, 24-month term, $3,850 monthly, net 30, invoice after April 1, and May 6 training. Anything else I should include?"
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "No, that's the list. If the paperwork matches that, we should be able to sign by Friday."
+      "text": "Will do. I’ll send it over this afternoon with the seat count, invoice split, and September 3 admin session included."
     }
   ]
 }

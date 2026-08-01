@@ -10,59 +10,64 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so Dan, thanks for making time. I had you at 42 seats today, and the team asked about moving to 55 before the October 1 renewal. Is that still the right count?"
+      "text": "Yeah, so thanks for making time, Dana. I’ve got the quote in front of me for 42 seats on the team plan, plus the two-hour admin training block. Annual comes to $31,080, starting September 1."
     },
     {
-      "speaker": "Dan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "That's right. Forty-two active now, plus 13 for the new claims group. We don't need them turned on until September 16, but we want the contract clean for October."
+      "text": "Okay. That matches the seat count. We may add three more in October, but I don’t want to hold up the September go-live for that."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Got it. The order form I sent has 55 seats, annual term October 1, 2026 through September 30, 2027, at $96 per user per month. With the volume tier applied, total is $63,360 for the year."
+      "text": "Totally. We can start with 42, and if you add three later it just prorates through August 31 next year. No need to redo the main agreement."
     },
     {
-      "speaker": "Dan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Finance asked if you can invoice quarterly instead of annual upfront. Same total, just four invoices."
+      "text": "Good. On billing, can you do net 30 and put the PO number on the invoice? It’s PO-7749."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yes, quarterly billing is on there: $15,840 due October 1, January 1, April 1, and July 1, net 30. If you need a PO number printed on the invoices, send it over and we’ll include it."
+      "text": "Yep, net 30 is already on the order form, and I’ll include PO-7749 on the invoice request. First invoice would go out September 1 for the full annual amount."
     },
     {
-      "speaker": "Dan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. One more thing, our legal team wants the auto-renewal removed. We renew by written order only."
+      "text": "That works. For implementation, we need our managers trained before the 18th. Is September 12 still available?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yep, that redline is already reflected. No auto-renewal, and renewal requires a signed order form. The rest of the terms stay as in the current agreement."
+      "text": "It is. I have September 12 from 1 to 3 Eastern held for your admin training, and then your end-user launch email would go out the morning of September 16 if you’re ready."
     },
     {
-      "speaker": "Dan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Good. On rollout, can your team do two admin trainings? We have one group in Ohio and one in Arizona, so time zones are a little messy."
+      "text": "Yeah, that timeline is fine. Legal had one question on the renewal language. It says it renews for one year unless we give 30 days’ notice. Can we make that 60 days?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "We can do Wednesday, September 17 at 11 a.m. Eastern and Thursday, September 18 at 2 p.m. Eastern. Those are included, no extra services charge."
+      "text": "Yes, 60 days is within our standard terms. I’ll send the order form with that language reflected, along with the security exhibit you already reviewed."
     },
     {
-      "speaker": "Dan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "That works. Send the final PDF to me and procurement, and I’ll route it today. If we sign by Friday, are we still okay for the September 16 seat activation?"
+      "text": "Perfect. Send it to me and Marcus for signature. If we can get it by noon, I think we can turn it today."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yes. If we have signature by August 9, activation on September 16 is covered, and the customer team will send the kickoff invite for the week of September 9."
+      "text": "You’ll have it in about 20 minutes. It’ll show 42 seats, $31,080 annual, September 1 through August 31, net 30, PO-7749, and the September 12 training date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Thanks, Alex."
     }
   ]
 }

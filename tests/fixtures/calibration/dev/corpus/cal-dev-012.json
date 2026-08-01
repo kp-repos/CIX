@@ -12,42 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Karen. I wanted to walk through the final order form and make sure the 42 seats, the June 17 go-live, and the annual billing all match what you need."
+      "text": "Yeah, thanks for jumping on, Dana. I wanted to clean up the implementation note before Friday. I saw your email about the sandbox import and the training date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, 42 seats is right for phase one. We may add another 8 in Q4, but don't put those in the initial invoice."
+      "text": "Right. Your implementation coordinator told my ops lead yesterday that the historical sandbox import was not in scope and would be a separate $1,800 services line. That was a surprise, because you and I agreed on the March 12 call it was included if we signed by March 29."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. Initial invoice will be 42 seats at $68 per seat per month, annual prepay, so $34,272 before tax. The add-on seats can be handled later through the billing tool."
+      "text": "You’re right, and I owe you an apology. I checked the CRM notes and the signed order form has the 85 seats, the $42,500 annual subscription, and the two admin trainings, but I did not put the sandbox import into the internal handoff for services. So they had no visibility to what we agreed, and they quoted it like a new request. That gap is on me."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. One thing though, on the implementation call yesterday, your onboarding team seemed surprised about the custom invoice export we agreed to include. They said it wasn't in their handoff notes."
+      "text": "Okay, but we already moved our data export to April 18 based on that. I can’t have my team re-scoping this every week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Ah, yeah, I'm sorry about that. We did agree to include the export mapping for your finance team, and that's included in the services line. I'll update the internal handoff today so they have the field list and the July 1 testing date."
+      "text": "Understood. I talked to deal desk this morning and we’re adding a zero-dollar services amendment for the sandbox import, up to 12 hours, tied to the April 18 export. I’ll send that by 2:00 today, and I’ll also have the coordinator resend the project plan with it included."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Thanks. It's important because our controller needs the department codes and location IDs in the file before we can shut off the old process."
+      "text": "Good. Does that change the May 6 go-live?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. I'll add that to the implementation checklist and send you the revised summary after this. Contract term is still 12 months starting June 17, with renewal notice 45 days out."
+      "text": "No, May 6 still holds. The only dependency is you getting the CSV files and field list over by end of day April 18. If that slips past April 19, then we’d probably move go-live to May 8 or 9."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Send the order form to me and copy Luis in procurement. If the invoice matches what you just said, we can get it signed by Friday."
+      "text": "That’s fine. Also, the invoice we got shows quarterly billing starting April 1, but procurement approved annual prepay with net 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I saw that too. Billing used the default schedule. I’ve already asked them to reissue annual prepay, net 30, first invoice dated April 5 for $42,500 plus the $3,200 onboarding fee."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Send me the amendment and corrected invoice, and we’re good."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You’ll have the amendment first, then the corrected invoice once billing posts it. Thanks for being direct about it."
     }
   ]
 }

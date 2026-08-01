@@ -3,7 +3,7 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "customer"
+    "colleague"
   ],
   "date": null,
   "account_id": null,
@@ -12,57 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final scope before I send the order form over. I have 42 standard seats and 6 manager seats, with implementation starting February 12 and target go-live March 18. Is that still right?"
+      "text": "Yeah, so quick pipeline check. The Northstar renewal is at 42 seats, $31,080 annual, target start date is March 1. The CRM is updated, quote is clean, and they’re fine with net 30."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Yep, that's right. The only thing is finance asked if the first invoice can land after March 1. Our budget opens then, so if you send it in February it just gets kicked back."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Totally. I checked with billing, and we can set the contract start date as March 1 even if the kickoff is February 12. The implementation fee would invoice on March 1 with the first annual subscription invoice."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Okay, good. And remind me, the implementation fee was $8,500, right? I have $8,500 in my notes, and then $54,240 for the annual software."
+      "text": "Okay, that one sounds straightforward. Anything blocking it or are we just waiting for them to countersign?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That's exactly what I have in the pricing sheet. The annual is $54,240, implementation is $8,500, total year-one is $62,740 before tax, if applicable."
+      "text": "It’s blocked on the finance approval for the two-month co-term credit. I’ve nudged finance on Monday, again yesterday, and then this morning in the billing channel. They haven’t answered whether the $4,180 credit can be applied on the first invoice, and the customer won’t sign until that answer comes back. So the deal is just sitting stalled even though procurement is ready."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Great. Procurement also asked about auto-renewal. We need 30 days' notice before renewal, not 60. Is that something you can update?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Yes, that one's standard for us. I'll make sure the order form says either party can give non-renewal notice at least 30 days before the end of the term."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. Last thing from our IT lead: can we add the sandbox in June instead of at go-live? They don't want to pay for it until the data team is ready."
+      "text": "Got it. Is the credit tied to unused seats from the old contract?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I can leave sandbox off this order and note it as a planned add-on for June. If you add it then, it'll be prorated through February 28 next year. Current price is $4,200 annually, so roughly nine months would be about $3,150."
+      "text": "Exactly, they dropped from 48 to 42 seats in October but the contract runs through February 28. The pricing sheet supports it, deal desk already said the math is fine, but finance still has to sign off on how it appears on the invoice."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "That works. Send the order form to me and copy Michael in procurement. If it matches this, I think we can get signature by Friday."
+      "text": "Okay. What about the Pinnacle expansion, the one with the April go-live?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Sounds good. I'll send it this afternoon with the March 1 start date, 48 total seats, 30-day non-renewal notice, and sandbox excluded for now."
+      "text": "That’s the other one I’m worried about. Pinnacle wants to add 25 seats, $18,750 annual, and they need the security addendum approved before their CIO will release the PO. I’ve been nudging legal every day since last Thursday for that sign-off, plus I forwarded the redline summary twice. Until legal answers, the customer is holding the PO and the deal is stalled. We’re basically parked on a signature page waiting for that one internal yes."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Yeah, that’s frustrating. Commercial terms are otherwise okay?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. One-year term, standard support, invoice on April 15, no special SLA. They accepted the implementation fee at $3,500 and the success manager has the onboarding dates penciled in for April 22 and 24."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Alright. For forecast, keep Northstar in commit if the invoice treatment lands today, and Pinnacle in best case until that legal item clears."
     }
   ]
 }

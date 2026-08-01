@@ -12,62 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I had you at 38 seats for the customer portal team, starting September 16, with billing to the Denver office. Is that still right?"
+      "text": "Hey Dana, yeah, thanks for making time. I saw your note about adding the Denver support team before the June 10 go-live. Are we still talking 18 additional seats?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Mostly. We added two supervisors, so call it 40 seats. Same billing address, but the PO has to show cost center 7412 or accounts payable kicks it back."
+      "text": "That's right, 18 seats to start. Could become 22 later, but for budget I need the quote at 18 and the same July 1 renewal date as the main contract."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 40 seats and cost center 7412 on the invoice. At the annual rate, that is $31,200 for the year, plus the one-time onboarding package at $4,800. No usage overage unless you go past 60,000 records a month."
+      "text": "Yep, co-termed to July 1. The pricing sheet has those at $74 per user per month on your current tier, so the prorated add-on from May 15 through June 30 comes to $1,998 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. We are usually around 42,000 records, so that is fine. Can we do net 30 instead of paying by card?"
+      "text": "Okay. And then on the renewal invoice it just rolls into the annual total?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, net 30 is included on annual contracts over $25,000, so that works. First invoice would go out on September 16 and be due October 16."
+      "text": "Exactly. Your renewal would show 96 total seats at $85,248 for the year, plus the support package you already have at $7,200. No change to the payment terms, still net 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. The other thing is go-live. Our VP wants the first group using it by October 7. Is that realistic?"
+      "text": "Good. One thing, procurement will ask if the Denver users get the same onboarding session. We don't want a separate SOW if it's just training."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, for 40 seats it is. The standard plan would be kickoff September 18, data load by September 25, admin training October 1, and end-user training October 3. Then you are live Monday, October 7."
+      "text": "Totally. The admin training and one end-user session are included with the add-on. I can put that in the order form notes so it's clear for your procurement team."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That lines up. We need single sign-on turned on before training, though. Our IT lead is Mateo Chen."
+      "text": "Perfect. Can you send it today? If I have it by 3 Pacific, I can get it into our Thursday approval packet."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect, I will list Mateo as the technical contact and include SSO setup in the implementation notes. He will get the setup checklist with the kickoff invite."
+      "text": "Yeah, I can send the order form and updated renewal summary by 2:30 Pacific. It will list the 18 seats, May 15 start, July 1 co-term, and the training note."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send me the order form today if you can. I can sign once procurement checks the tax line."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "I can send it by 3:00 Central today. It will show 40 seats, $36,000 total first-year amount before tax, net 30, September 16 start, and the October 7 target go-live."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Yep, that matches. Send it over and copy procurement@ourdomain.com, please."
+      "text": "Great. Send it to me and copy Marcus in finance. If the invoice matches those numbers, we should be able to sign by May 9."
     }
   ]
 }

@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making time. I wanted to walk through the updated quote for 42 seats and make sure it lines up with your July 15 go-live target."
+      "text": "Yeah, thanks for making time, Lauren. I wanted to confirm the scope we discussed: 48 seats for the operations team, plus 6 manager seats with reporting, targeting a June 3 go-live. Is that still right?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that’s the right number. We have 38 confirmed users today, and finance asked us to leave room for four more in Q3."
+      "text": "That's right. We may add two more managers in Q3, but for the initial order it's 54 total. I just need the quote to match that exactly for procurement."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Makes sense. So the annual subscription comes to $31,080 before tax, and implementation is a one-time $4,500. That includes the admin training and the data import from the current spreadsheet process."
+      "text": "Yep, understood. I have 48 standard seats at $72 per seat per month and 6 manager seats at $115. With the annual prepay discount, the total comes to $44,064 for the first year."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. On the implementation, is that invoiced up front or with the first subscription invoice?"
+      "text": "Okay. And implementation was separate, correct?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It would be on the first invoice with the subscription. Billing terms are net 30, and the start date would be July 1 unless you want it pushed to the go-live date."
+      "text": "Correct. One-time implementation is $6,500. That includes the kickoff, data import, admin training, and two workflow sessions. If we need a third workflow session, that's $900, but I don't think we'll need it based on what you showed me."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Let’s keep July 1. We want access before go-live for testing. Can you note that the first invoice needs to reference purchase order 44719?"
+      "text": "Makes sense. Can you set payment terms to net 30? Our finance team won't approve due on receipt."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, I’ll add that in the billing tool and on the order form. Also, the contract term is 12 months, July 1, 2026 through June 30, 2027, with renewal at the same seat count unless you change it 30 days before renewal."
+      "text": "Yeah, net 30 is fine. I'll mark that in the billing tool and make sure the order form says annual subscription prepaid, implementation invoiced at signature, both net 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s fine. Legal had one comment on the service level attachment, just the response time language. I’ll send that redline after this call."
+      "text": "Great. We also need the contract to start May 20 even if go-live is June 3, because IT wants access for setup."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I’ll route it through deal desk once I have the redline. If it’s just that section, we should be able to turn it around by Friday."
+      "text": "No problem. Start date May 20, initial term through May 19 next year. I'll include the sandbox access and admin credentials in the onboarding checklist after signature."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. If we can get the final order form by June 20, I can get signature before our controller is out the last week of the month."
+      "text": "Perfect. Send the order form today if you can. I'll route it to legal and procurement, and assuming no redlines, we can sign by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I’ll send the revised quote today, include PO 44719, and target final paperwork by June 20. Anything else you need from me?"
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "No, that covers it. Thanks, Mark."
+      "text": "Will do. I'll send it by 2 pm with the pricing summary attached and copy your finance alias for the invoice details."
     }
   ]
 }

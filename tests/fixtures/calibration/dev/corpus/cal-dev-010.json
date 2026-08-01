@@ -3,7 +3,7 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "customer"
+    "colleague"
   ],
   "date": null,
   "account_id": null,
@@ -12,67 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the revised quote for 85 seats and the implementation package so you can get it over to procurement this week."
+      "text": "Yeah, so I talked with Northline this morning. They're good with the 48 seats, but they want the renewal to start February 1 instead of January 15."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Yep, I have about 20 minutes. The big things for us are the seat count, the invoice timing, and making sure we can still hit a May 6 go-live."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Totally. So the quote is 85 standard seats at $74 per seat per month, annual term, billed upfront. That puts software at $75,480 for the year. Implementation is a one-time $8,500, and I applied the 10% year-one discount we discussed."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Okay. And if we only use, say, 78 seats at launch, are we stuck at 85 until renewal?"
+      "text": "Okay, that should be fine. Same package as current, or are they adding the reporting add-on?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "You'd be contracted for 85 for the year, but you can assign and reassign those as needed. If you need more midterm, we can add them co-termed to the June 30 renewal date. If you think 78 is more realistic, I can revise it, but the discount tier starts at 80."
+      "text": "Same package, plus 6 contractor seats for their ops team. Total comes to $38,400 for the year before tax."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "No, keep it at 85. Finance already budgeted around that. On invoicing, can you issue the invoice on April 1 instead of right when we sign?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Yes, I checked with billing. We can set the invoice date to April 1 with net 30 terms, as long as the order form is signed by March 25. Access can still start during kickoff the week of April 8."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "That works. For the services, does the $8,500 include admin training and the data import, or is that separate?"
+      "text": "Did they push on the uplift?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It includes two admin training sessions, one end-user webinar, configuration support, and import of up to 12,000 records from your spreadsheet. If the data needs cleanup, that would be on your team before the import file is handed over."
+      "text": "A little. I held at 4%, and they didn't fight it much. Their main thing is getting the invoice split quarterly, because finance doesn't want the full annual in February."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Got it. Legal asked about auto-renewal. Is it 30 days' notice or 60?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "The standard order form says 60 days before the renewal date. I can ask deal desk for 30, but it may take an extra day for approval. Do you need that changed?"
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "No, 60 is fine. Send the updated order form and the implementation timeline, and I'll route it today."
+      "text": "Quarterly billing needs approval if it's under 50 grand. Did you send it through deal desk?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I'll send the PDF and the timeline by 2 p.m. my time, and I'll include the April 1 invoice note in the email so procurement has it in writing."
+      "text": "Yeah, I spent most of yesterday getting the renewal packet together. I had to enter the 48 seats, February 1 start, quarterly billing, and the $38,400 total in the CRM, then the billing tool, then the deal desk form, then again in the proposal template before legal would look at it."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Got it. If legal is only reviewing billing terms, that should come back today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That's what I'm hoping. Customer asked for signature by Friday, January 12, so they can keep the go-live for the contractor seats on February 5."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. Once legal clears it, send me the final PDF before you send to them. I just want to check the term dates and invoice language."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll ping you when it lands back in my queue."
     }
   ]
 }

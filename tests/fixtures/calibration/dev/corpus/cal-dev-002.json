@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for jumping on, Karen. I wanted to clean up the open items before your September 3 go-live: 38 seats, the advanced reporting add-on, and the services block at $6,800. Is that still the right scope?"
+      "text": "Yeah, thanks for making the time, Dana. I wanted to walk through the quote changes and make sure the seat count and start date line up before I send it to deal desk."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. The issue is the SSO setup. Your implementation coordinator told my IT lead yesterday they had no record that SSO needed to be ready before go-live. We agreed on the July 22 call that SSO was required by August 27, and I repeated that in email. So now my team is hearing it is a two-week turnaround, which doesn't work."
+      "text": "Sure. We confirmed 38 standard users and 6 admin users. The admins are mostly managers, so they’ll need the approval workflow and reporting access."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "You're right. I found the note in our thread, and I agreed to that date with you. I did not get it into the implementation notes, so the implementation team was surprised and treated SSO like a later phase item. That's on me. I already asked them to pull in the engineer, but yeah, that should not have landed on your IT lead as new information."
+      "text": "Got it. So 44 total seats, with 6 on the admin tier. I have the target go-live as October 14, with onboarding starting September 23. Does that still work on your side?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, but practically, can it still be done? We have training scheduled for August 29 and September 1, and people cannot use another password for two days and then switch."
+      "text": "Yes, as long as we can get the data import template by the 16th. Our ops analyst is out the week after, so I don’t want that to slip."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I hear you. The engineer can start tomorrow morning if your IdP metadata is over by 3 p.m. today. They'll target a test connection by August 25 and production cutover August 27. I'll send that in writing after this call."
+      "text": "Makes sense. I’ll have customer success send the template right after signature, and I’ll note the September 16 target in the handoff. On pricing, the updated annual total is $41,280 before tax, billed annually."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Fine. The other thing is the invoice. Accounting received an invoice for $9,450 due August 15, but the agreement was net 45 and split across two invoices, one in August and one in October. That was a condition for signature."
+      "text": "Okay. And that includes the implementation fee we discussed?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, and I need to apologize there too. We agreed to split billing and net 45 in the final redline, but I didn't pass that instruction to the billing team when the order was booked. They generated the standard single invoice on net 30, so they were just following what they had. I should have made sure billing had the exception before anything went out."
+      "text": "The $3,500 implementation fee is listed as a one-time line item. So year one is $44,780 before tax, and the renewal would just be the subscription unless you add seats or services."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That caused some noise here, because procurement thought you were changing terms after signature. Please get the corrected invoice to ap@northlakeparts.com and copy me."
+      "text": "That matches what I have. On contract terms, procurement asked if we can do a 30-day payment term instead of due on receipt."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Absolutely. Deal desk approved the exception this morning, and billing is voiding the $9,450 invoice. You'll get invoice one for $4,725 with a due date of September 29, and invoice two for $4,725 dated October 1, due November 15."
+      "text": "Yes, net 30 is fine. I’ll update the order form and run it through the billing tool. Anything else procurement flagged?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Send the SSO timeline, the corrected billing details, and the seat list template. If those three things are right, we're good to keep the September 3 go-live."
+      "text": "Just the auto-renewal notice. They want 60 days’ notice, not 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "We can do 60 days. I’ll send the revised order form by end of day. If you can return it by Friday, we’ll hold the September 23 onboarding slot."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send it over, and I’ll route it for signature this afternoon."
     }
   ]
 }

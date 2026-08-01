@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the revised order form for 42 seats, the calibration module, and the two-hour admin training. Target start date is May 6, with go-live June 3."
+      "text": "Yeah, thanks for making time, Dana. I had us down to confirm the seat count and target go-live for the analytics workspace. Is 48 named users still right?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That lines up. My main thing is invoice timing. Finance asked if the annual invoice can be dated May 1, net 30, so it lands in the right month."
+      "text": "It is 48 for launch. We may add another 10 in Q3, but finance only approved the 48 right now."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, May 1 and net 30 are both in the order form. Total is $38,640 for the year after the standard 6% volume tier on 40-plus seats. No separate services fee for the training."
+      "text": "Totally. At 48 seats on the annual plan, you're at $42 per user per month, so $24,192 for the year. That includes the standard onboarding package and SSO."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And if we add, say, 8 more seats in July, is that prorated or a new line item?"
+      "text": "Okay. And the start date would be March 1? We need invoices to line up with our new cost center."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Prorated through the same term, ending April 30 next year. It would be the same per-seat rate, billed when you add them. Pretty straightforward."
+      "text": "March 1 works. First invoice would issue March 1, net 30, and the term would run through February 28, 2027. I can put the cost center field on the order form if you send me the code."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Legal had one question on the auto-renewal language. We need 60 days notice instead of 30. Is that something you can put in?"
+      "text": "Yeah, it's OPS-7142. Also, can you confirm the kickoff timing? Our admin, Priya, is out the week of March 10."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, 60 days is within our standard terms. I’ll send the updated version after this call, and it’ll show the notice period right on page 3."
+      "text": "Good catch. If we get signature by February 20, we can do kickoff March 4, admin training March 6, and then end-user rollout March 18. That avoids Priya's PTO."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. For implementation, our plant managers can only attend training Wednesdays after 1 Eastern. Does your team have June 5 open?"
+      "text": "That timeline is fine. Legal had one question on auto-renewal. We prefer 30 days' notice instead of 60."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "They do. I’ve got June 5 at 2 Eastern held for the admin session, and the kickoff on May 8 at 11. I’ll include your ops lead, Marcus, and our implementation lead on the calendar invites."
+      "text": "That's within our standard terms for mid-market agreements. I'll set non-renewal notice to 30 days in the order form and the contract language will match."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send me the updated order form and I’ll route it for signature today. Assuming no surprises, you should have it back by Friday."
+      "text": "Great. Send it over today if you can, and I'll route it to our controller."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Sounds good. I’ll send it in the next half hour with the May 1 invoice date, 60-day renewal notice, 42 seats, and June 3 go-live called out."
+      "text": "Will do. You'll have the order form this afternoon with 48 seats, $24,192 annual total, March 1 start, net 30, and the rollout dates we just covered."
     }
   ]
 }

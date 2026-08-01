@@ -3,61 +3,56 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "customer"
+    "colleague"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Hey Dana, thanks for jumping on. I wanted to walk through the revised order for 48 seats and make sure the June 24 go-live still works on your side."
+      "text": "Yeah, so I was cleaning up the August invoice exceptions and Northlake popped up. Billing tool has them at 54 seats, service-through 7/31, and the CRM activity tab is basically the May 9 admin training and nothing after."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Yeah, that date is still the target. The only thing is finance asked why the onboarding line is $7,500 when the first quote showed $6,000."
+      "text": "Okay. Is the exception because seat count doesn't match the quote, or because there's no quote attached?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Right, good catch. The $7,500 includes the data import from your legacy system and two admin training sessions. I was buried in the CRM cleanup and deal desk packet yesterday, so I got the corrected quote over this morning instead of calling you back, sorry about that."
+      "text": "No quote attached. The last order form in the folder is the $38,880 one, net 30, paid by PO 4416. Finance just needs something to tie the next invoice to before they release it."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "No worries. If that includes the import, I can explain it. We just need the invoice split: software on one PO, services on another."
+      "text": "Got it. Did they add those six operations seats I saw in the support notes, or are those still trial users?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yep, we can do that. Software would be $52,800 for the year, net 30, and services would be the separate $7,500 invoice."
+      "text": "Still trial in the product admin screen. If they convert, pricing sheet puts them at $60 per seat per month, same tier. No discount approval needed unless they ask for the old 12%."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Okay. And the renewal language, is it still auto-renew unless we give 60 days notice?"
+      "text": "Let's not overcomplicate it. Build a clean quote for 54, then a second line item for the six optional seats, and send both to deal desk."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "It is, but we can make that 45 days if legal prefers. The term would run July 1, 2026 through June 30, 2027."
+      "text": "Yep. Do you want me to keep the payment terms at net 30? Their AP portal usually pays on day 28, no issues."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Forty-five is better. Also, we may add 12 more seats in Q4. Do those just prorate?"
+      "text": "Keep net 30, annual billing, standard terms. Put the target go-live for the extra seats as August 15 so implementation isn't guessing."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yes, same per-seat rate, prorated through the end of the term. No new services fee unless you want extra training."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Great. Send the version with 45 days and the split invoices noted, and I’ll route it today."
+      "text": "Okay, I'll package it. If deal desk turns it by three, finance can still get the invoice in tomorrow's batch."
     }
   ]
 }

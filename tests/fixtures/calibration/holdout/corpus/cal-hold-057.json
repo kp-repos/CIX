@@ -3,7 +3,7 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
@@ -12,47 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, quick forecast check. For Riverbend, I moved the 42-seat add-on to commit at $18,480 annual, start date September 1. Procurement sent back the insurance language but no price issue."
+      "text": "Yeah, thanks for making time, Dana. I wanted to check in on the 48-seat rollout and make sure we're still tracking to May 20 for go-live."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Did deal desk approve the ramp, or is it still the flat seat count on the pricing sheet?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Approved this morning. First invoice is 14 seats for September, then 28 more on November 1. Billing tool can handle it, I just need the signed order form by Friday."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Good. Can you sanity-check Pine Hill while you're in there? Billing tool shows service through 7/31, and the CRM's last customer touch is the May QBR. I wasn't sure whether to leave their August seats in the run rate."
+      "text": "We can still hit May 20, but we had a rough kickoff yesterday. We agreed during contracting that your team would load our last 18 months of calibration records from the spreadsheet export. The implementation consultant had no idea that was included and told my operations lead it was out of scope."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Uh, yeah, I'll look after this call. I was heads down on the municipal renewal and missed that queue."
+      "text": "You're right, we did agree to that. I had it in my notes as included with the services package, and I did not get that detail over to the implementation team before kickoff. That's on me. I'm sorry you had to re-explain it, and I know it made it look like we changed the deal after signature."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "No worries. Municipal is the $32,600 one with the two-year term, right?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Yep. Starts October 15, 63 users, same support tier. They asked for net 45, finance said okay if they pay the open $4,210 invoice first."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Makes sense. Anything else weird in your number?"
+      "text": "It wasn't great. My lead had blocked two hours to walk through fields, and instead they spent half the meeting debating whether we had purchased migration at all."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Not weird. Baxter is sliding from August 20 to September 3 for go-live because their admin is out, but contract is signed and the seats are already provisioned."
+      "text": "Understood. I just updated the handoff notes while we're talking, and I'll send the consultant the exact scope: 18 months, roughly 11,500 records, one import pass, and validation on 25 sample assets. You'll get a revised project plan by 3 p.m. Eastern."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. The other issue is the invoice. The contract says first-year subscription is $38,400 and services are $6,000, billed against PO 4472 and PO 4473 separately. Billing sent one invoice for $44,400 to the wrong cost center."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, I see it. We agreed to split those at signature, and that never made it to the billing tool or the billing team. They generated the standard single invoice because I didn't pass along the PO split. Again, apologies — that's a real miss on our side, not an accounts payable issue on yours."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Please fix it today if you can. AP won't touch it as one invoice, and our month-end close is Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I can get that corrected today. I'll have the current invoice voided and two new ones issued: $38,400 to PO 4472 for subscription, $6,000 to PO 4473 for services, net 30 from the original April 22 date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's fine. Send me the corrected invoices and the updated project plan, and we'll keep the May 20 date unless something else pops up."
     }
   ]
 }

@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, hi Karen, thanks for making the time. I had us down for 20 minutes to walk through the renewal and the extra seats for the claims team."
+      "text": "Yeah, thanks for making time, Dana. I have you down for 24 standard seats, 3 admin seats, and a target go-live of May 6. Is that still right?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that works. We’re at 48 users today, and I need to add 12 by May 6. The main thing is keeping the invoice clean because our PO is already opened for Q2."
+      "text": "That's right. We may add two more service managers in June, but I don't want to buy those seats today."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. So 60 total users, go-live for the new group on May 6. Your current term runs through June 30, and we can align the added seats to that date, then renew all 60 for the next 12 months starting July 1."
+      "text": "Totally fine. The order can start with 27 total seats, and any added seats later are prorated to the same March 31 renewal date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. What does that do to the number?"
+      "text": "Okay. And the number you sent was $36,480 annually, plus $4,200 for onboarding?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "For the coterm piece, the 12 seats from May 6 through June 30 comes to $2,940. Then the July 1 renewal for 60 seats is $63,600 for the year. That’s using the 50-plus seat tier on the pricing sheet."
+      "text": "Correct. That includes the calibration workflow module, asset import, and two training sessions. Taxes are not included, and billing is net 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s within range. Can you split the invoices, one for the coterm seats and one for the annual renewal? Our accounts payable team gets picky if those are blended."
+      "text": "Net 30 works. Our AP team needs the PO number on the invoice. It'll be PO-77419."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, two invoices is fine. I’ll put the coterm seats on a separate line with the May 6 start date, and the renewal invoice dated July 1. Payment terms stay net 30, same as your current agreement."
+      "text": "Got it, PO-77419. I'll include that on the order form and billing setup. For onboarding, we have Tuesday and Thursday afternoons open the week of April 15."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Also, no change to the data retention terms, right? Legal already approved the current language last year."
+      "text": "Let's do Tuesday the 16th at 2 Central for the kickoff. Our quality lead, Marissa, should be included."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, no change there. Same retention language, same support plan, and the 60 users are all standard seats, not admin seats."
+      "text": "Perfect. I'll list Marissa as the quality lead and put the kickoff for April 16 at 2 Central. The first training would then be April 23, same time, if that works."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send me the order form today if you can. I’ll sign once procurement matches it to PO 44718."
+      "text": "Yeah, that works. Send the order form to me and copy procurement. If legal doesn't redline the limitation language, I can sign this week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send the order form with the two invoice lines, 60 seats total, May 6 for the add-on and July 1 for the renewal. If anything looks off, just reply back and I’ll fix it."
+      "text": "Will do. I'll send the order form today with the seat count, PO, renewal date, and onboarding dates in it. Anything else you want reflected before I send it?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Thanks, Mark."
+      "text": "No, that's everything. Thanks, Mark."
     }
   ]
 }

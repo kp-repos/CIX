@@ -1,6 +1,6 @@
 {
   "id": "cal-dev-049",
-  "source_type": "transcript",
+  "source_type": "email",
   "participants": [
     "rep",
     "customer"
@@ -12,62 +12,47 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I just wanted to confirm the revised quote for 42 seats, annual term, and the services package for the June 17 go-live."
+      "text": "Hi Mara,\n\nAttached is the order form for 24 Growth seats, 2 admin seats, and the onboarding package. Start date is 6/1, annual term, net 30. Total shows $41,760.\n\nSam"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that matches what we talked about. The only thing I need clear is the invoice timing. Finance wants the first invoice in July, not on signature."
+      "text": "Sam,\n\nThanks. We’re good on 24 Growth seats but only need 1 admin seat. Also confirm the onboarding sessions can be done before our 6/17 sales kickoff.\n\nMara"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Totally. I checked with billing, and we can set the contract start date to July 1 with access provisioned June 10 for implementation. First invoice would generate July 2, net 30."
+      "text": "Mara,\n\nYes on the 6/17 timing. We can do discovery 6/4, config review 6/10, and manager training 6/14.\n\nWith 1 admin seat, the total on the standard sheet comes to $40,320.\n\nSam"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, good. And the amount is still $38,640 for the software and $4,500 for implementation, right?"
+      "text": "That works schedule-wise. Procurement is asking for the final amount today so they can open the PO. Are we using the $38,880 you sent over chat, or should I wait for the revised PDF?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. So $43,140 total for year one, before tax if applicable. Years two and three would be software only unless you add services."
+      "text": "Use $38,880 for the PO so they can keep moving. I’ll get the order form cleaned up to match after the pricing queue turns it.\n\nSam"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "We’re not ready for a three-year. Procurement asked if you can do a one-year with the same per-seat price."
+      "text": "Ok. PO will be for $38,880, annual subscription plus onboarding, net 30. Please make sure the invoice references PO-44719 or it will bounce.\n\nMara"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I ran that through deal desk this morning. We can hold the $920 per seat on a one-year term if the order is signed by May 24."
+      "text": "Got it. I added PO-44719 to the billing notes and flagged net 30. Once you sign, I’ll send the kickoff checklist and the data import template.\n\nSam"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That should be fine. Legal had one comment on the auto-renewal. They want 60 days notice instead of 30."
+      "text": "Signed on our side. Legal didn’t change anything. Please send the checklist to me and Daniel in sales ops.\n\nMara"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That’s acceptable. I’ll update the order form and send the redline back today. No change to pricing or the July 1 start date."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Great. Once we have that, I can route it for signature. Target is still to get the team loaded by June 12."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Perfect. I’ll also send the implementation checklist after this call so your admin can start gathering user names and cost centers."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Sounds good. Send it over and I’ll keep an eye out."
+      "text": "Received, thank you. Checklist is attached, and I copied Daniel. We’ll hold 6/4 at 11:00 ET for discovery unless you want a different slot.\n\nSam"
     }
   ]
 }

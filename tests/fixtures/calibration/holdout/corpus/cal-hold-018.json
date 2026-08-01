@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Jordan. I pulled up the quote we discussed: 42 seats for the operations team, annual term starting October 1, and the implementation package for the first 60 days."
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the seat count and the implementation timing so I can get the quote cleaned up in the CRM today."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That lines up. The only thing I want to confirm is the seat split. We need 34 standard users and 8 approvers, not 42 all at the same level."
+      "text": "Sure. We’re at 46 users for launch. That’s 38 standard seats and 8 manager seats. We may add another 10 in Q2, but I don’t want those on the first order."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, good catch. I had that in my notes, but the draft quote showed a single line item. I can revise it to show 34 standard at $68 per user per month and 8 approver seats at $29."
+      "text": "Got it, 46 total for the initial term. The pricing sheet has the standard seats at $72 per user per month and manager seats at $118. With annual billing, that puts year one at $45,888 before the onboarding fee."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And total comes out to what annually with the implementation fee?"
+      "text": "Okay, and onboarding was $6,500, right? I need the invoice to split that out separately because finance codes services differently."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "With the seat mix corrected, software is $30,960 for the year. Implementation is a one-time $4,500, so total first-year contract value is $35,460 before taxes."
+      "text": "Yep, $6,500 one-time onboarding, shown as a separate line item. Software subscription separate. I’ll also note that the invoice should go to ap@northlinecomponents.com with PO 41792."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That should be fine. Procurement will ask about payment terms. We usually do net 45, but your order form said net 30."
+      "text": "Perfect. On timing, our target go-live is March 18. We can start implementation the week of February 12 if the contract is done by next Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "We can do net 45. I’ll route that through deal desk today and update the billing terms on the order form."
+      "text": "That works. Our implementation lead confirmed a February 13 kickoff is available. It’s usually four to five weeks for your scope, especially since you’re only doing the billing tool integration and not the warehouse feed yet."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. For go-live, we’re targeting November 18. Is that realistic if we sign by next Friday, September 20?"
+      "text": "Right. Legal had one question on the renewal language. They want the auto-renewal notice window to be 60 days instead of 30."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, that’s realistic. If signature is in by September 20, kickoff would be the week of September 23, configuration in October, and user training the first week of November."
+      "text": "That’s within our standard fallback. I’ll send it to deal desk, but that should be fine. Initial term is 12 months, March 1, 2026 through February 28, 2027, annual billing upfront."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Please send the updated quote and order form, and I’ll get it to our finance manager this afternoon."
+      "text": "Yes. Send the updated order form and redline today if you can. If legal signs off, I can route for signature Monday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send the revised documents within the hour, with the corrected seat mix, net 45 terms, and October 1 start date."
+      "text": "Will do. I’ll get the revised order form over by 3:00 Eastern, with the seat breakdown, the separate onboarding line, PO reference, and the 60-day renewal notice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks, Mark."
     }
   ]
 }

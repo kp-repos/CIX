@@ -3,7 +3,7 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
@@ -12,57 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hey, yeah, quick gut check on the Northstar renewal before I send it. They’re at 42 seats today, asking for 55, same support tier, go-live on the analytics add-on September 1."
+      "text": "Hey Dana, sorry I'm five minutes behind. I had the renewal screen open from the ops cleanup and lost track. You still good for a quick pricing pass?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Term is still twelve months or did they want coterm with the services agreement?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Coterm, so it runs August 15 to next August 14. Procurement asked for net 45 and a PO required on invoice. Nothing weird otherwise."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Got it. Price per seat?"
+      "text": "Yeah, ten minutes is fine. We’re looking at 72 seats to start, with maybe another 15 after the March hiring class."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I used $86 per user per month, then the add-on is $9,600 flat for the year. Comes out to $66,360 before tax."
+      "text": "Got it. For 72 seats, annual subscription is $38,880, and the one-time onboarding package is $6,500. If you add the 15 later, they’d prorate into the same term."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "That should fit the discount band. Did you get deal desk approval already?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Yeah, but it took me most of yesterday. I had to put the same seat count, dates, billing contact, and PO language into the CRM, then the quote tool, then the billing tool, then the contract request, and deal desk kicked it back once because the start date didn’t match in one place."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Ugh, okay. As long as the final PDF matches what they saw on the call, we’re fine."
+      "text": "Okay. Finance asked if we can do quarterly invoices instead of all upfront. Net 30, same as the pilot."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep. I’m going to send the proposal with the order form and a short note. If they sign by Friday, finance said first invoice can go out on August 20."
+      "text": "Yeah, quarterly invoicing and net 30 both work. The term would run February 1 through January 31, unless you want the go-live date to drive it."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Maybe mention the 55 seats includes the three admin licenses, because that confused them last time."
+      "text": "We’re targeting go-live on January 22. I don’t want to pay for three weeks where nobody’s using it."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Good call. I’ll add one line on that and copy Ava in procurement."
+      "text": "Totally fair. We can set the billing start at January 22. The only thing is your account has two billing addresses in the CRM, so I’m going to fix that before I generate the quote or the tax line can come out weird."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Use the Omaha address. The Denver office is just a receiving site, no invoices there."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. Standard 12-month term, quarterly invoices, 72 seats at launch, Omaha billing. I can get the order form over by 4:30; I just need to paste the approved discount into the internal cover sheet first so it routes cleanly."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send it to me and copy Marcus in procurement. If the numbers match what you said, we should be able to sign by Friday."
     }
   ]
 }

@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Karen, yeah, thanks for making time. I wanted to confirm the calibration management rollout scope before I send the order form. Last we had 38 technician seats and 12 manager seats for the Ohio and Indiana labs, is that still right?"
+      "text": "Hi Dana, yeah, thanks for making the time. I wanted to walk through the renewal and the small expansion you mentioned for the operations team."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that is right. We may add two more technicians in March, but for the January go-live, 50 seats total is the number."
+      "text": "Yep. Current contract is 42 seats, and we need 18 more by February 3rd. Finance also asked me to confirm the invoice stays annual, not quarterly."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. For pricing, the annual subscription for 50 seats is $42,600, and the implementation package is a one-time $7,500. That includes the instrument import, three admin training sessions, and the barcode label template work."
+      "text": "Correct. The quote I sent this morning is for 60 seats total, annual billing, $54,600 for the 12-month term starting February 1st and ending January 31st next year."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Finance asked whether the implementation fee can be invoiced in January instead of on signature. Our budget opens January 1."
+      "text": "Okay. And that includes the reporting add-on? Last year that was a separate line."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, we can set the subscription start date as January 15, 2026 and invoice the implementation fee on January 2. The annual subscription invoice would go out at signature with net 30 terms, unless you need both invoices in January."
+      "text": "It does. It’s listed as included on line two at no additional charge for this term. Same support level as today, standard business hours, two named admins."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Let's do both in January. Signature will probably be next week, but AP prefers not to see it until the new year."
+      "text": "Good. Our legal team only had one comment: they want the auto-renewal notice period to stay at 60 days, not move to 90."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. I’ll write the billing schedule that way: first invoice January 2 for $50,100 total, net 30. Renewal date would be January 15, 2027."
+      "text": "Yeah, that’s fine. The order form keeps the 60-day notice period from your current agreement. No change there."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. On contract terms, we need the same three-year price hold you mentioned, but we only want to commit one year at a time."
+      "text": "Great. If we sign by Friday, can your team do the admin training on January 29th? We have three supervisors who need it before go-live."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Right, so a one-year initial term with two optional annual renewals, and the seat price held through January 2029 as long as renewal is completed before the term end. No automatic increase built in."
+      "text": "Yes. I reserved January 29th at 11 a.m. Eastern for a 60-minute admin session. I also added the three supervisor names you sent over: Mark Ellis, Priya Shah, and Luis Romero."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Go-live is still January 15, and we need the legacy instrument list loaded by January 8 so our quality manager can spot check it."
+      "text": "Perfect. Send the final order form to me and copy AP at the billing inbox. PO number will be 44718."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I have that captured: import file due from you by December 19, loaded by January 8, admin training on January 9, 12, and 13. If you send the PO contact, I’ll include the invoicing and go-live details in the order form today."
+      "text": "Will do. You’ll have the final order form today with PO 44718 referenced, annual invoice to the billing inbox, and the February 1st start date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Send it to me and copy billing at our shared AP address. If the numbers match what you just said, I can route it for signature Monday."
+      "text": "Sounds good. I’ll route it for signature once it lands."
     }
   ]
 }

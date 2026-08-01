@@ -1,6 +1,6 @@
 {
   "id": "cal-hold-042",
-  "source_type": "transcript",
+  "source_type": "email",
   "participants": [
     "rep",
     "customer"
@@ -12,52 +12,47 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout details for the calibration management module and make sure the quote lines up with what your team actually needs for April."
+      "text": "Hi Maya,\n\nAttached is the order form for 65 seats of Workflow Plus, annual term 9/1/2026–8/31/2027. Total is $49,140 before tax, invoiced on signature. Implementation package is included for the Sept. 9 kickoff.\n\nThanks,\nEvan"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We’re planning on 38 users to start, mostly quality techs and the two lab managers. We may add another 6 after the second site comes on, but not until June."
+      "text": "Evan,\n\nThanks. The seat count is right, but this is coming in a little high for our Q3 budget. We had $45k earmarked including implementation. Can you take another look?\n\nMaya"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. So for the initial order I have 38 seats, annual term, start date April 15, and the implementation package with two admin training sessions. Does that match what you were expecting?"
+      "text": "Maya,\n\nYeah, understood. Use the $44,700 number from my chat for your PO so you can keep approvals moving; the PDF will catch up once it comes out of the queue.\n\nEvan"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, that sounds right. On the implementation, can you confirm the go-live target? Our internal audit starts May 20, so we need the equipment records and due-date alerts working before then."
+      "text": "Ok, that works. Please keep the start date as Sept. 1 and the kickoff on Sept. 9. We need access for the first 20 users by Sept. 3.\n\nMaya"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so if we get signature by March 29, our services team can start the kickoff the week of April 8. That gives us about five weeks, which is fine for your asset count. You said roughly 1,250 instruments, correct?"
+      "text": "Got it. I’ll provision the first 20 seats on Sept. 3 once the signed order is back. Remaining 45 can be added before kickoff or in batches, whichever is easier for your team.\n\nEvan"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "It’s 1,184 active right now, but 1,250 is a safe number. We’ll clean up the retired gauges before import."
+      "text": "Please set the invoice contact to ap@northlakeparts.com and include PO-78219 on the invoice. Net 30 is still in the terms, correct?\n\nMaya"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. On pricing, the subscription is $31,920 for the 38 seats, and implementation is $7,500 one time. I included the 10% first-year discount we discussed, so the total first-year amount is $36,228 before tax."
+      "text": "Yes, net 30 is in there. Invoice will go to AP with PO-78219 referenced. Billing address I have is 1180 Kincaid Rd, Suite 400, Columbus, OH 43215.\n\nEvan"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Our finance team asked about invoicing. Can we do net 45? Our standard is net 60, but I know you said the billing tool defaults to net 30."
+      "text": "Address is correct. Send the final order form to me and Jordan Lee for signature when ready.\n\nMaya"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Net 45 is approved for mid-market deals over $25,000, so I can put that in the order form. I’ll also note that future seats are billed prorated at the same per-seat rate through April 14 next year."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "That works. Send the order form to me and copy procurement. If the terms are as discussed, I can route it today and should have signature by Friday."
+      "text": "Will do. I’ll send it to both of you today. After signature, customer success will send the onboarding checklist and calendar invite for Sept. 9.\n\nEvan"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
@@ -12,52 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so on Brightline Parts, they came back at 84 seats, not 90. Finance cut six warehouse supervisors from phase one."
+      "text": "Yeah, thanks for making time, Dana. I pulled up the order form in the CRM. We have you at 42 seats today, renewing on October 1, and you had asked about moving to 55 seats for the operations team. Is that still the right count?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Does that change the quote materially, or are we still inside the tier from the pricing sheet?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Still inside the 75 to 100 tier. Annual comes to $58,800 before the services line. I put $6,500 for onboarding, two remote workshops, and admin training."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Good. Are they still asking for April 15 go-live?"
+      "text": "Yes, 55 is right. We had 52 confirmed and I want 3 extra for new hires in November. I just need the invoice to show one annual line item if possible."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "April 22 now. Their ops lead is out the first week of April, so they want the import done by the 12th and a week of testing."
+      "text": "Yep, we can do that. The pricing sheet has the 55-seat tier at $84 per seat per month, billed annually, so the subscription total is $55,440. Implementation support is already complete, so there is no services line this time."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Makes sense. Any blockers on paper?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Just the data retention addendum. I’ve pinged security and legal a couple times for the exception approval, and the deal is basically parked until that sign-off comes back."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Got it. Did procurement accept net 30, or are they pushing net 45 again?"
+      "text": "Okay. And payment terms are still net 30? Our finance team will ask because last year the invoice said due on receipt and it caused a little back and forth."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "They accepted net 30 if we invoice on signature, not on go-live. I updated that in the billing tool notes so there’s no surprise."
+      "text": "Good catch. I’ll make sure the billing tool has net 30 on the invoice. Contract start October 1, end September 30 next year, total $55,440, net 30. No auto-renew language changes from last year."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Nice. Once the addendum clears, send me the final order form and I’ll check the seat count and dates before you route it."
+      "text": "That works. Can you send the order form today? Our VP can sign tomorrow if it’s clean."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I can send it by 3 pm Central. I’ll route it through deal desk first because the seat increase is over 25 percent, but that’s usually a same-day approval."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Also, we need access for the 13 new users on October 2, not October 1. We’re doing a short internal training that morning."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. I’ll note October 2 as the enablement date for the new seats. Existing 42 users continue without interruption on October 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it over and I’ll watch for it."
     }
   ]
 }

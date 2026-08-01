@@ -12,52 +12,72 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for jumping on, Dana. I have you down for 42 seats, annual term, June 1 go-live, and the support package your team asked about. Is that still the shape of it?"
+      "text": "Hi Dana, yeah, thanks for making time. I pulled up the account in the CRM. Last we talked you were looking at 42 seats for the operations team, with a target go-live of March 18. Is that still right?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Mostly. It may be 45 seats now. Finance added two analysts and a manager. I need the quote to show the unit price and the total, not just the blended number."
+      "text": "Yeah, that's right. It may be 44 if we include the two regional managers, but procurement asked me to price it both ways."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I can do that. And just being transparent, I’m a little behind on the clean quote because most of yesterday got swallowed by typing call notes into the CRM, fixing duplicate account records, and assembling the deal desk packet. That’s the stuff that took over the day, and it cut into the time I was supposed to spend actually talking with you and the other buyers. Not ideal, but I’ll get you a clean version today."
+      "text": "Makes sense. So at 42 seats, annual comes to $31,080 before tax. At 44, it's $32,560. The implementation fee stays flat at $4,500 either way."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. I do need it today if possible. Our purchasing cutoff is Friday at noon, and they won’t review anything missing the payment terms."
+      "text": "Okay. And the implementation, that's the two admin trainings and the data import, correct?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. Payment terms are net 30, annual upfront. For 45 seats, you’re looking at $21,600 for the year, plus $2,400 for onboarding. If you stay at 42 seats it’s $20,160 plus the same onboarding."
+      "text": "Correct. Two 90-minute admin sessions, one end-user training, and import of the last 18 months of service records. If you want us to bring over older closed tickets, that would be a separate estimate."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "The $2,400 onboarding, is that required? We’ve got our own admin who can handle imports."
+      "text": "No, 18 months is fine. The finance team just needs the invoice to show software and services on separate lines."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "We can make it optional, yeah. The main reason I kept it in is your October archive import, the 68,000 records. If your admin can map the fields, then we can just include two enablement sessions at no charge."
+      "text": "Yep, we can do that through the billing tool. I’ll note that on the order form too, so there’s no mismatch when it routes."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That would help. Legal also asked if the auto-renewal can be removed. They’ll accept a 12-month initial term, but no automatic renewal."
+      "text": "Good. Contract term is still 12 months? We don't want auto-renewal longer than that."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can strike auto-renewal. I’ll need to route that through deal desk, and honestly this is the second spot where my day gets eaten up: the billing tool needs the subscription dates entered one way, the contract form wants them another way, and then I have to tidy the account fields so approval doesn’t bounce. It’s a couple hours of clerical cleanup that pushes out buyer calls, but I’ll prioritize yours because of the Friday cutoff."
+      "text": "It's a 12-month initial term, then it renews for 12-month periods unless either side gives 30 days' notice. That's the standard language on the paper I sent Tuesday."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Appreciate it. Send it to me and copy Martin in procurement. If the quote shows 45 seats, net 30, onboarding removed, and no auto-renewal, I think we can get signature by May 29."
+      "text": "Got it. If I send approval today, can we still start kickoff on February 26?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. I checked with services this morning, and they have a slot at 10 a.m. Central on the 26th. We'd need the signed order and billing contact by Friday, February 16, to hold it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, I'll push that internally. Send me the revised quote with 44 seats and the separate invoice note, and I'll attach it to the request."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it in the next hour, and I'll include the 42-seat version as an alternate in case procurement asks."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Thanks, Mark."
     }
   ]
 }

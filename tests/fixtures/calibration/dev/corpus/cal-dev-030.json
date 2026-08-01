@@ -1,6 +1,6 @@
 {
   "id": "cal-dev-030",
-  "source_type": "transcript",
+  "source_type": "email",
   "participants": [
     "rep",
     "customer"
@@ -10,59 +10,44 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Derek Mills, Customer",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I pulled up the quote in the CRM. It looks like you were planning on 42 seats for the operations team, with a March 18 go-live. Is that still the right count?"
+      "text": "Maya,\n\nWe reviewed the 36-seat quote. The $58,320 annual is higher than we planned for the operations team.\n\nCan you confirm what it looks like if we start with 28 seats and add the rest in Q2? Target go-live is still May 12.\n\nDerek"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Maya Chen, Rep",
       "ts": null,
-      "text": "Yeah, 42 is right for phase one. We may add another 8 in June, but I don't want those on the first order form."
+      "text": "Derek,\n\nFor 28 seats, standard annual is $45,360 plus the $3,000 implementation package. Total first year would be $48,360 before tax.\n\nIf you want all 36 seats active on May 12, I can ask deal desk about a concession, but they usually need manager approval and a business reason attached in the CRM.\n\nMaya"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Derek Mills, Customer",
       "ts": null,
-      "text": "Totally. So the order form would show 42 seats at $74 per seat per month, annual term, billed upfront. That comes to $37,296 before tax. Implementation is the one-time $4,500 package we discussed."
+      "text": "Thanks. We need all 36 active because the regional managers are included in the first training group.\n\nOur approved budget is $49,000 all-in for year one, including implementation. Net 30 is fine. We can sign by Friday if that number works.\n\nDerek"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Maya Chen, Rep",
       "ts": null,
-      "text": "Okay. And the invoice timing, can that be April 1? Our March AP run is already closed."
+      "text": "Derek,\n\nAs we settled over text, let’s use $49,000 all-in for the 36 seats and implementation, even though the pricing sheet and the CRM quote still show $58,320 plus services. I’m going to bypass the normal deal desk approval for the concession so you have a number procurement can move on today. After you sign, I’ll clean up the paperwork and get the internal approvals matched to what we agreed in messages.\n\nFor planning: kickoff May 5, admin training May 8, end-user launch May 12.\n\nMaya"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Derek Mills, Customer",
       "ts": null,
-      "text": "Yes, we can set the invoice issue date to April 1 in the billing tool. Contract start would still be March 18 for access and onboarding, but payment terms would be net 30 from April 1."
+      "text": "Maya,\n\nUnderstood. Please send the order form today with:\n\n36 seats\nAnnual term: May 1, 2026-April 30, 2027\nImplementation included\nBilling contact: ap@northbaycomponents.com\nPO required on invoice\n\nDerek"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Maya Chen, Rep",
       "ts": null,
-      "text": "That works. Legal had one note on the renewal language. They want 30 days notice instead of 60 for non-renewal."
+      "text": "Derek,\n\nAttached is the order form with the term dates, 36 seats, and implementation included. Payment terms are net 30, PO required on invoice.\n\nOnce signed, I’ll have our onboarding lead send the kickoff invite for May 5.\n\nMaya"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Derek Mills, Customer",
       "ts": null,
-      "text": "I saw that redline. I checked with deal desk this morning, and 30 days is approved for your segment. I'll send the clean version after this call."
+      "text": "Signed and attached.\n\nPlease make sure the invoice references PO NBC-4172 and goes to AP only. I’ll send the admin user list by end of day Monday.\n\nDerek"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Maya Chen, Rep",
       "ts": null,
-      "text": "Great. For onboarding, we have data import on March 20 and manager training on March 25, right?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Right. Data import on Wednesday the 20th at 10 a.m. Central, manager training Monday the 25th at 1 p.m. Central. The customer success lead will send the prep checklist by Friday."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. If you send the final order form today, I can route it for signature tomorrow."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. I'll send the order form, the clean terms, and the implementation schedule in one email by 3 p.m. my time."
+      "text": "Received, thank you.\n\nI’ve noted PO NBC-4172 for billing and added the May dates to the handoff. The onboarding lead will reach out this afternoon with the agenda and prep checklist.\n\nMaya"
     }
   ]
 }

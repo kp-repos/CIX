@@ -1,63 +1,63 @@
 {
   "id": "cal-dev-021",
-  "source_type": "transcript",
+  "source_type": "email",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Megan Lee, Account Executive",
       "ts": null,
-      "text": "Hey, quick gut check on the Northstar Foods renewal. They want 84 seats, same support tier, and a 12-month term starting August 1. I have the quote at $71,400 net."
+      "text": "Hi Aaron,\n\nThanks for the call. Recapping what I have:\n\n- 48 seats to start\n- Measurement package plus calibration services\n- Target go-live: May 6\n- One production workspace, two sandbox workspaces\n- Annual invoice, net 30\n\nI’ll send the order form once you confirm billing contact and PO requirement.\n\nMegan"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Aaron Patel, Director of Operations",
       "ts": null,
-      "text": "Yeah, that lines up with the pricing sheet. Did they keep the two sandbox environments or drop one?"
+      "text": "Hi Megan,\n\nThat matches. Billing contact is Dana Kim, dana.kim@northlineco.com. We do need a PO before payment, but legal can review without it.\n\nCan you make sure the order form shows the services as a separate line? Finance asked for that.\n\nAaron"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Megan Lee, Account Executive",
       "ts": null,
-      "text": "They kept both. The only change is billing wants annual upfront instead of quarterly, which is fine. Their controller asked for the invoice to reference PO 44819."
+      "text": "Yeah, no problem. I’ll split subscription and services.\n\nOne question: do you want all 48 seats active on day one, or should I set the first 32 for May 6 and the remaining 16 for June 1? It affects the provisioning note but not much else.\n\nMegan"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Aaron Patel, Director of Operations",
       "ts": null,
-      "text": "Okay. Any discount approval needed?"
+      "text": "Let’s do all 48 on May 6. We may not have every manager trained that week, but we want access available.\n\nAlso please include the security addendum you mentioned. Our IT lead is asking for the data retention language.\n\nAaron"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Megan Lee, Account Executive",
       "ts": null,
-      "text": "Yeah, so that's the annoying part. To get this proposal out I have to put the 84 seats, $71,400, August 1 start, PO note, and the sandbox line into the CRM, then retype it into the quoting tool, then retype it into deal desk because the discount is 12%, then retype it into the contract workspace for legal, and then billing makes me enter the same fields again so the invoice draft matches. If one date or seat count is off, it bounces back. Last time this took two days just for an extension with no scope change."
+      "text": "Got it. I’ll attach the security addendum and keep the retention language at 18 months.\n\nFor the commercial side, the list total is $58,400, but since you and I already landed on $51,200 over messages, I’m going to use that number on the order form and clean up the concession approval in deal desk afterward.\n\nMegan"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Aaron Patel, Director of Operations",
       "ts": null,
-      "text": "Ugh. For deal desk, use the standard renewal exception and attach their May usage report. That should keep it out of the long review queue."
+      "text": "Thanks. $51,200 works on our side.\n\nCan you set the initial term to May 6, 2026 through May 5, 2027? Our contracts team gets picky about exact dates.\n\nAaron"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Megan Lee, Account Executive",
       "ts": null,
-      "text": "Good call. I have the usage report saved. They averaged 78 active users in May and 81 in June, so 84 seats is clean."
+      "text": "Yes, I’ll set those dates.\n\nI’m sending the packet now with:\n\n- Order form for 48 seats\n- Services line for $6,000 included in the total\n- Annual subscription line\n- Security addendum\n- MSA with net 30\n\nIf legal redlines today, I can turn comments by tomorrow afternoon.\n\nMegan"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Aaron Patel, Director of Operations",
       "ts": null,
-      "text": "Legal should be okay too if you're not changing the MSA. Just make the order form say coterminous support through July 31 next year."
+      "text": "Received. I forwarded it to legal and finance.\n\nOne small thing: the invoice should reference Cost Center 4107. If there’s a field for that, please add it before final signature.\n\nAaron"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Megan Lee, Account Executive",
       "ts": null,
-      "text": "Yep. Customer wants signatures by Friday because their finance team is closing July on the 29th."
+      "text": "Added Cost Center 4107 in the billing notes and updated the PDF. Same commercial terms, just that field added.\n\nI’ll wait for legal comments.\n\nMegan"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Aaron Patel, Director of Operations",
       "ts": null,
-      "text": "Then send me the draft before it goes out. I'll check the totals and the PO language."
+      "text": "Legal is fine with the MSA as-is. Finance approved the PO request this morning.\n\nIf you send the final signature packet to me and Dana, I can sign today and she’ll attach PO-77294 afterward.\n\nAaron"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "cal-hold-029",
-  "source_type": "email",
+  "source_type": "transcript",
   "participants": [
     "rep",
     "customer"
@@ -10,49 +10,54 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Megan Carter, Rep",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dan,\n\nThanks for the call. Attached is the order form for 42 seats of the workflow module, annual term, start date March 1. Total is $54,600 with standard support included.\n\nIf you can get this back by Friday, implementation can hold the March 10 kickoff.\n\nMegan"
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the renewal quote and make sure the seat count and dates line up before I send it to procurement."
     },
     {
-      "speaker": "Dan Lewis, Customer",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Megan,\n\nI’m reviewing with finance now. Two questions:\n\n1. Can billing split the invoice 50/50 between March and July?\n2. We may only need 38 seats on day one. Is the 42 locked in?\n\nDan"
+      "text": "Sure. We’re at 42 seats today, but we need to add 8 for the support team, so 50 total starting September 1."
     },
     {
-      "speaker": "Megan Carter, Rep",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Dan,\n\nYes on split billing. I confirmed the billing tool can do two invoices: $27,300 due March 15 and $27,300 due July 15.\n\nOn seats, 42 is what we scoped based on the manager group plus ops users. You can remove seats at renewal, but not mid-term.\n\nMegan"
+      "text": "Got it, 50 seats effective September 1. The current term ends August 31, so we can just make the renewal a clean 12-month term, September 1 through August 31 next year."
     },
     {
-      "speaker": "Dan Lewis, Customer",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Got it. Finance is pushing back on the $54.6k. Their internal cap for this quarter is $49k all-in. If we can’t get closer to that, I probably have to move this to April.\n\nDan"
+      "text": "That works. Can you confirm the price? Finance asked me to keep it under $36,000 if possible."
     },
     {
-      "speaker": "Megan Carter, Rep",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Dan,\n\nYeah, so on the price, let’s use the $48,900 number we settled on over text this morning. I know that has not gone through deal desk yet and it is technically below the discount level on the pricing sheet, but I’m okay sending you the lower order form now so you can get signatures started. I’ll sort the paperwork with my manager and deal desk after the fact and true it up in the CRM once approvals catch up.\n\nUpdated order form attached: 42 seats, annual term, March 1 start, $48,900 total, split invoices of $24,450 due March 15 and July 15.\n\nMegan"
+      "text": "Yeah, so with the volume tier on the pricing sheet, 50 seats comes to $58 per seat per month. Annualized, that’s $34,800 before tax."
     },
     {
-      "speaker": "Dan Lewis, Customer",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Megan,\n\nReceived. The $48,900 works. I’ll route this to our CFO today.\n\nCan you also add the implementation dates in writing? We need kickoff March 10 and admin training March 18 or 19.\n\nDan"
+      "text": "Okay, that should be fine. Will the invoice be one annual invoice, same as this year?"
     },
     {
-      "speaker": "Megan Carter, Rep",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Dan,\n\nConfirmed:\n\n- Kickoff: March 10, 11:00 a.m. CT\n- Admin training: March 18, 1:00 p.m. CT\n- Target go-live: April 7\n\nI added those dates to the implementation notes. No change to the order form terms.\n\nMegan"
+      "text": "Yes, one invoice, net 30. I’ll make sure the billing tool has the PO required flag on it. Do you have the new PO number yet?"
     },
     {
-      "speaker": "Dan Lewis, Customer",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Thanks. Signed order form attached.\n\nPlease send the W-9 and payment instructions to ap@northlinecomponents.com. PO number is NC-44718.\n\nDan"
+      "text": "Not yet. I should have it by Friday. You can send the order form without it, and I’ll route it once procurement adds the PO."
     },
     {
-      "speaker": "Megan Carter, Rep",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Thanks Dan,\n\nCountersigned copy attached. I’ll have the invoice generated with PO NC-44718 and sent to AP by tomorrow morning.\n\nMegan"
+      "text": "Perfect. I’ll send the order form this afternoon with the 50 seats, September 1 start, annual billing, net 30. No changes to the standard terms from last year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If you can copy Marcus from procurement, that’ll help keep it moving. We’re trying to have it signed by August 23."
     }
   ]
 }

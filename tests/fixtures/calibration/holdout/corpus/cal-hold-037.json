@@ -12,57 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I'm looking at the renewal queue for Northstar Components. They've got 74 seats, annual support, standard analytics package. Current invoice is $42,600, net 30."
+      "text": "Yeah, so quick check on the Hartley Foods renewal. They’re at 86 seats today, asking for 110 starting May 1, plus the support add-on. Current term ends April 30."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "Okay. Are they expanding or just flat renewal?"
+      "text": "Okay. Are they staying annual upfront or trying to go quarterly again?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Flat from what I can tell. Usage is steady, 61 active users last month. The issue is their agreement ends this Friday, March 29, and I don't see any call notes, emails, anything from our side with the client about continuing. Like, no one has asked them if they're renewing, no quote sent, no term discussion. We're basically four business days from the end date and the customer has not been spoken to about carrying on."
+      "text": "Annual upfront. Finance there said invoice needs to hit by April 22 because their AP cutoff is the 25th. Total should be $64,900 before tax if we keep the 8% uplift."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "Wait, nothing in the CRM from January or February? They usually start procurement pretty early."
+      "text": "That matches the pricing sheet. Did you get approval for the extra 24 seats at the old discount?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Nothing. Last touch was support on a permissions ticket on February 6. Sales-wise, last note is the original close last year. So we need to treat this as urgent without making it sound like we just noticed."
+      "text": "Not yet, and this is the annoying part. To extend the agreement I have to update the seat count and dates in the CRM, then retype the same 110 seats, May 1 start, April 30 end, $64,900 total into the pricing sheet, then again into deal desk for approval, then again into the billing tool so they can preview the invoice, and then again into the proposal template. If legal tweaks anything, I have to walk it back through all five places. Last time this took me like two afternoons for one quote."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "Yeah, agreed. I'd call Melissa first, then send a simple follow-up with the renewal quote attached. Same 12-month term?"
+      "text": "Ugh. For Hartley, deal desk should approve it if you attach the email from Dina confirming annual upfront. Keep the discount note simple, like renewal alignment."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That's what I'm thinking. April 1, 2024 through March 31, 2025, same 74 seats at $575 per seat, plus the $50 admin fee they had last year. Total comes to $42,600 again."
+      "text": "Yep, I have Dina’s email. She also asked for the PO number to show on page one, PO-44718, and their entity is Hartley Foods Services LLC, not the parent."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "Check the pricing sheet on that admin fee. I think finance moved it to $75 for new agreements, but renewals may be grandfathered."
+      "text": "Good catch. Put the LLC on the order form and the parent only in the account notes. Anything else blocking signature?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Good call. I'll confirm with deal desk before I send anything. If it's grandfathered, I'll keep it clean and just note no price change."
+      "text": "Just the auto-renew language. They want 30 days’ notice instead of 60. Same thing we gave Northline last month, so I’m going to ask legal to approve that fallback."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "And ask if they need a PO number on the invoice. Last year billing had to reissue because procurement wanted PO-1847 on the header."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Yep, I'll include that. I'll call Melissa at 2:00, then email the quote, renewal order form, and the invoice timing. If she needs legal, I'll ask for redlines by Thursday noon."
+      "text": "Sounds fine. If you send me the draft before 3, I’ll sanity check the amounts and dates."
     }
   ]
 }

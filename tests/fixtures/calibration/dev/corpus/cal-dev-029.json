@@ -10,54 +10,54 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya, Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so quick sync on Northstar Foods. They're at 42 seats, annual, $38,640 net, target go-live May 6. Customer is fine with the pricing sheet, but the deal is not moving because I'm still waiting on legal's answer on the indemnity cap. I've nudged Priya in legal on Monday, yesterday morning, and again today, and until she signs off the redline, procurement won't send the PO."
+      "text": "Yeah, so I was in the CRM cleaning up the August renewals and Northstar Foods is sitting there with 46 seats, $18,720 annual, and the agreement end date is August 31."
     },
     {
-      "speaker": "Evan, Colleague",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Okay, that explains why it still shows commit with no paper. Is the redline just the cap language, or did they touch data retention too?"
+      "text": "Wait, Northstar is this month? I thought that was in September with the packaging add-on."
     },
     {
-      "speaker": "Maya, Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Just the cap. Data retention stayed standard, 24 months. Their controller asked for the first invoice to start June 1 even though go-live is May 6, and I told him that's okay if billing confirms the partial month treatment."
+      "text": "No, that's the pilot add-on. The master order ends August 31, like in three business days, and nobody from our side has talked to them about carrying on. No renewal call, no email, nothing in the activity log since the May invoice question."
     },
     {
-      "speaker": "Evan, Colleague",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Do we need deal desk for that, or is it inside the normal ramp note?"
+      "text": "Oh wow. So the contract is basically about to slip past and they don't even know what we're asking them to sign?"
     },
     {
-      "speaker": "Maya, Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "That's the other blocker. I keep nudging deal desk for the ramp approval because the quote has 28 seats in May and then 42 seats starting June 1. I've posted in the deal thread twice and emailed the queue this morning, and the deal is stalled until that sign-off comes back because finance won't let me send the final order form without it."
+      "text": "Exactly. And they have 12 active users in daily this week, so it's not like they're gone quiet. We just, yeah, we never opened the conversation. If Monday hits, they're technically out of term and still using the workspace."
     },
     {
-      "speaker": "Evan, Colleague",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Got it. So two open items: legal on indemnity, deal desk on the May-to-June seat ramp. Customer's timeline still May 6?"
+      "text": "Okay. Do we have pricing ready at least? Same 46 seats or did they add the warehouse team?"
     },
     {
-      "speaker": "Maya, Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yep. Their ops lead said training can be May 2 and May 3, two admin sessions and one manager session. They just don't want to schedule users until they have the countersigned order in hand."
+      "text": "Usage shows 51 named users, but only 46 contracted. I can pull the pricing sheet for 50 seats, keep the same $34 per seat monthly equivalent, and ask deal desk if we can honor the old rate through next August."
     },
     {
-      "speaker": "Evan, Colleague",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Makes sense. If those approvals land today, can you turn the paperwork same day?"
+      "text": "I'd keep it simple. Send a note today, acknowledge the timing, propose a 12-month renewal starting September 1, and offer a 15-minute call tomorrow. Don't lead with the overage."
     },
     {
-      "speaker": "Maya, Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah. Quote's built in the CRM, taxes are calculated, billing contact is ar@northstarfoods.com, net 30. I just need to swap in the approved language and attach the seat schedule."
+      "text": "Yeah, agreed. I'll draft it from me and copy Jordan since he owns success. Also their AP contact asked for invoices to go to billing at northstarfoods dot com, so I'll make sure the billing tool is updated before finance sends anything."
     },
     {
-      "speaker": "Evan, Colleague",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Okay. I'll keep the forecast at commit but note dependency on approvals. If nothing moves by 3 p.m., maybe we ask your manager to escalate."
+      "text": "Good. And put a task in the CRM for end-of-term outreach 90 days out this time. This one got too close."
     }
   ]
 }

@@ -3,61 +3,61 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "customer"
+    "colleague"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, hi Dana, thanks for jumping on. Sorry I missed your call this morning, I was in the CRM typing in last week's notes and it ran long. I wanted to confirm the 42-seat quote and the May 15 go-live."
+      "text": "Yeah, quick sanity check on Henderson Manufacturing. They want 72 seats, plus the audit logging add-on, go-live August 19. I quoted $48,600 annual, net 30, standard MSA."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Evan",
       "ts": null,
-      "text": "No worries. The seat count is right for launch, 42 users, but we may add 8 more in July if the support team comes in. Can the agreement handle that without a new contract?"
+      "text": "Okay. Is this the one where procurement asked for the two-year option too?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yep. The order form has 42 seats at $68 per seat per month, annual term, and then any adds are prorated through April 30, 2027. Same unit price as long as you're under 60 seats."
+      "text": "Yep. One-year at $48,600, two-year at $92,400 with the 5% uplift waived in year two. I’m trying to get the proposal out today because their CFO is only reviewing on Thursday."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Evan",
       "ts": null,
-      "text": "Okay. Finance also asked about invoicing. They don't want the invoice dated before June 1 because our PO won't be open until then."
+      "text": "Makes sense. Any approval needed from deal desk?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "That works. I had to clean up the account record in the billing tool because there were two ship-to addresses for your Denver office, but the invoice date can be June 1 and net 30."
+      "text": "That’s the part that’s killing me. To produce one clean proposal, I have to enter the same customer name, seat count, billing contact, start date, discount, and SKU list in the CRM, then again in the pricing sheet, then again in the proposal builder, then again in the billing tool draft, and then deal desk wants it pasted into their intake form. If legal changes one term, I have to go back through all five places and retype it so the numbers match. I started this at 9:15, and it’s almost 1:00, and I still don’t have a PDF I can send. Last month the same thing stretched into two days for a renewal because the address was different in one system."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Evan",
       "ts": null,
-      "text": "Good. And implementation, you said three weeks? We need training finished before our June 18 regional meeting."
+      "text": "Ugh, yeah. For Henderson, use the Dallas billing address from the signed order form, not the headquarters address in the account notes. That mismatch caused the invoice kickback on Lakeside."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Right. If signature is by May 10, kickoff May 16, admin setup May 20, training the weeks of June 3 and June 10. That gives you a few days of buffer before June 18."
+      "text": "Good catch. Billing contact is Priya Nair, AP shared inbox copied, PO required over $25,000. They said PO can arrive after signature as long as it’s before first invoice."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Evan",
       "ts": null,
-      "text": "That timeline is fine. Legal had one redline on auto-renewal, they want 45 days' notice instead of 30."
+      "text": "Then I’d put the subscription start as September 1, even if go-live is August 19. Cleaner for invoicing."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "I can take that to deal desk. I'm assembling the internal approval packet this afternoon, so if I'm slow for an hour that's why, but I should have the revised language back today."
+      "text": "Agreed. I’ll send the one-year and two-year options in the same proposal and call out that implementation is included, not a separate line item."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Evan",
       "ts": null,
-      "text": "Great. Send the revised order form and the security exhibit together, and I'll route it for signature."
+      "text": "Perfect. If deal desk pushes back on the two-year discount, tell them it’s tied to signature by July 31. That usually gets it through."
     }
   ]
 }

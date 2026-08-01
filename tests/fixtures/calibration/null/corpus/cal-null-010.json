@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I’ve got you down for 42 technician seats and 8 supervisor seats for the calibration workflow module. Is that still the right count for the first site?"
+      "text": "Hi Dana, thanks for making the time. I had us down for 30 minutes to walk through the 18 additional seats for the operations team and the March 4 go-live. Is that still the right agenda?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Mostly. We added two bench techs in Raleigh, so make it 44 tech seats. Supervisors stays at 8."
+      "text": "Yeah, that's right. We have 42 seats today, and the request is to move to 60 total. The main thing is confirming the price and making sure the invoice can hit our April budget."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 52 total named users. At that quantity the annual subscription is $31,200, and the one-time implementation package is $4,800. That includes the asset import, two admin trainings, and the certificate template setup."
+      "text": "Yep. Based on the pricing sheet, 60 seats on your current annual plan comes to $48,600 for the new term, before tax. Since your renewal starts April 1, the invoice would be dated April 1 with net 30 terms, same as today."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Finance asked if the invoice can split subscription and implementation as separate line items. Same PO, just cleaner on our side."
+      "text": "Okay. And that includes the onboarding session for the new supervisors? We have 12 of them who need the admin view, not just basic access."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, that’s standard. The order form will show those separately, and billing will issue one invoice against the PO unless you want implementation invoiced after kickoff."
+      "text": "Correct. I included two live training sessions, 60 minutes each, and admin permissions for those 12 supervisors. The rest would stay as standard users unless you tell us otherwise."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "One invoice is fine. We’re trying to go live October 14. Is that realistic if we sign by September 6?"
+      "text": "Good. One thing, procurement asked whether the term can be 12 months exactly, April 1, 2026 through March 31, 2027. They don't want an odd end date."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. If the signed order and PO are in by the 6th, kickoff would be the week of September 9. Asset file due September 13, sandbox review the week of the 23rd, and production cutover on October 11 so your team starts Monday the 14th."
+      "text": "Yeah, totally fine. The order form will show April 1 through March 31, and the seat count will be 60 from day one. No mid-term prorate since we're aligning it to renewal."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Contract term is one year, right? Our legal team won’t do auto-renewal longer than 12 months without notice."
+      "text": "Perfect. On payment, can you keep the PO number field blank for now? We'll issue the PO after legal signs the order form, probably by next Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, 12-month initial term, annual renewal after that, and 60-day notice language. I’ll keep it aligned to your standard redline from the pilot agreement."
+      "text": "Yes, we can leave PO pending and reference it on the invoice once you send it over. I'll send the order form today with the 60 seats, $48,600 annual subscription, net 30, and the training detail in the notes."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Also, can you include the Raleigh certificate logo and the torque wrench interval rules in the kickoff notes?"
+      "text": "That works. If you send it to me and copy Marcus in procurement, I'll route it internally. Assuming no surprises, we can sign by February 14."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep. I’ll put both in the order summary: Raleigh logo file, torque wrench interval at 6 months or 5,000 cycles, whichever comes first. That way implementation has it on day one."
+      "text": "Sounds good. I'll have it in your inbox this afternoon, and I'll also send a short implementation timeline so your team can plan the March 4 kickoff."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send the order form today and I’ll route it with the PO request. If procurement doesn’t push back, you should have it by next Thursday."
+      "text": "Great, thanks. This is straightforward. Talk soon."
     }
   ]
 }

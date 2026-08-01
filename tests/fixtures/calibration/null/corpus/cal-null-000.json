@@ -12,57 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making time. I wanted to confirm the rollout plan and the numbers before I send the order form over."
+      "text": "Hi Dana, yeah, thanks for making time. I wanted to confirm the expansion for the calibration management workspace: 38 technician seats, 6 manager seats, and the certificate import add-on, all starting March 1."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We’re still at 48 seats for the service team and 6 admin seats, right?"
+      "text": "Yep, that matches my notes. We also need the two Anaheim lab supervisors included in the manager seats, not as techs."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That’s right, 54 total. Annual subscription is $31,860, and the one-time implementation package is $4,200. Billing starts on February 1, with go-live targeted for March 10."
+      "text": "Got it. I have them listed as managers. The annual total is $41,760 before tax, billed on invoice with net 30 terms. Same billing contact, ap@northlakeprecision.com?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the implementation includes the two workflow templates we talked about? Intake triage and the renewal reminder one."
+      "text": "Same contact. Can you split the invoice by location, though? Chicago is 24 techs and 4 managers, Anaheim is 14 techs and 2 managers."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, both are included. I’ve got intake triage, renewal reminders, and the data import for up to 18,000 customer records listed in the scope."
+      "text": "Yes, we can show that allocation on the invoice. It’ll still be one contract and one payment schedule, but the location breakdown will be on the billing detail."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Our finance team asked if payment can be net 30 instead of due on receipt."
+      "text": "Okay, that works. For go-live, we’re aiming March 18. Is that realistic if we sign this week?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, net 30 is fine on this order. It’ll show on the invoice terms, and there’s no change to pricing."
+      "text": "Yes. If we have signature by Friday, kickoff would be March 4, data import on March 7, admin training March 12, and tech training March 14. That gives you a few days to check the instrument records before the 18th."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Contract term is 12 months, no auto-renewal?"
+      "text": "Perfect. The only other thing is we need historical certs for 2023 and 2024 loaded, not just the open items."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, 12 months from February 1, 2026 through January 31, 2027. Renewal is by written agreement, and I’ll set a business review for early December so you have time to evaluate."
+      "text": "Included. I’ll put that in the order notes: import completed and archived calibration certificates from January 1, 2023 through current, for both locations."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Send it to me and Marcus in finance, and if the order form matches this, we can sign by Friday."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Perfect. I’ll send it today with Marcus copied, and I’ll include the March 10 go-live date and the two templates in the scope section so everyone is aligned."
+      "text": "Great. Send the order form to me and Luis for signature. If it’s the $41,760 and those dates are in there, we should be able to turn it around tomorrow."
     }
   ]
 }

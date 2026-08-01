@@ -3,61 +3,56 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "customer"
+    "colleague"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Nina",
       "ts": null,
-      "text": "Yeah, so thanks for jumping on, Mark. I wanted to make sure we're still good for the September 30 go-live and talk through the last two items from procurement."
+      "text": "Yeah, so for Ridgeway Plastics, I'm cleaning up the services handoff. They’re at 48 seats today, plus the two finance admins they asked about."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Owen",
       "ts": null,
-      "text": "Yep. Timeline is fine. I did get the onboarding note this morning though, and it says standard CSV load. We had settled on the API pull from our reporting database, starting with the finance tables on September 18."
+      "text": "Okay. Is that the same package as the May order form? Reporting, approvals, and the data sync?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Nina",
       "ts": null,
-      "text": "Ah, okay, sorry about that. I'll get the implementation checklist cleaned up today. The API pull is still in scope, finance tables first, and then ops after go-live."
+      "text": "Yep. Billing tool shows coverage through 7/31, and the last customer note in the CRM is the April 18 admin training. But support says they’re still sending files every Tuesday."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Owen",
       "ts": null,
-      "text": "Okay, good. Because my data lead blocked Thursday for that. Seat count is still 46 total, with 12 manager seats, right?"
+      "text": "Got it. For the add-on seats, use the standard $72 per user per month. No discount needed unless they go over 60."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Nina",
       "ts": null,
-      "text": "Correct. Forty-six total, 12 managers, 34 standard users. The quote is $38,640 for the first year, net 30, with the 10 percent ramp discount already applied."
+      "text": "That’s what I had. They asked for the invoice to split cost centers, 410 for operations and 220 for finance."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Owen",
       "ts": null,
-      "text": "The invoice preview I got shows 52 seats and the old $42,900 number. Not a huge deal, but our AP team will kick it back if it lands that way."
+      "text": "Finance can do that if we put the PO number in both lines. Do you have it?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Nina",
       "ts": null,
-      "text": "Yeah, that's not the version we want going out. I'll refresh it in the billing tool and send you the corrected PDF by end of day."
+      "text": "Yeah, PO-88419. Go-live for the approval workflow is still August 14, assuming they finish the sample import by Friday."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Owen",
       "ts": null,
-      "text": "Perfect. Contract term is September 15 through September 14 next year, auto-renew off for the first renewal unless we approve it, correct?"
+      "text": "Cool. I’ll update deal desk with the seat count and the split invoice note."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Nina",
       "ts": null,
-      "text": "That's right. One-year term, auto-renew disabled for that first renewal, and we’ll review 60 days before expiration. If legal has no more edits, I can route the signature packet this afternoon."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Do that. Send it to me and Priya in procurement. If the invoice and onboarding note are fixed, we're good to sign tomorrow."
+      "text": "Thanks. I’ll send implementation the clean version and keep the pricing sheet attached in case procurement asks."
     }
   ]
 }

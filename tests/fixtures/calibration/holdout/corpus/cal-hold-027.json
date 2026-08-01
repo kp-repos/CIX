@@ -3,61 +3,66 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Jordan",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Hey, quick one on Northline. Did you see their note about moving go-live from April 8 to April 22?"
+      "text": "Yeah, so thanks for making time, Dana. I wanted to close the loop on the subscription order and make sure legal's redlines were good on your side."
     },
     {
-      "speaker": "Priya",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, I saw it. That should be fine. It doesn't change the term, right, still 12 months from signature?"
+      "text": "Mostly good. Our counsel is fine with the 24-month term and the 60-day termination for non-appropriation. The only thing is operational: the kickoff invite we got from your services team shows a March 4 go-live. We had planned on February 20 because our March close starts the 24th."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Correct. Signature target is March 28, term starts April 22, 54 seats. They asked if we can keep the $38,400 net if they add the support package in Q3."
+      "text": "Right, yeah, February 20 is what I have here. Sorry about that. I'll have the project plan updated today and make sure the kickoff on Thursday is working toward that date."
     },
     {
-      "speaker": "Priya",
+      "speaker": "Customer",
       "ts": null,
-      "text": "I wouldn't promise that. Say pricing is held for the initial 54 and any add-ons follow the then-current rate card unless it's in the order form."
+      "text": "Okay. We can make Thursday at 11 Central. We’ll have payroll, IT, and two regional managers on it."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Got it. Also, on the renewal doc, use 54 seats, $38,400 net, billing contact Dana Lee. I fixed the packet and invoice draft this morning, but the CRM still had 51, so deal desk bounced the approval."
+      "text": "Perfect. On seats, I have 76 active users for the initial order, with 8 more being added April 1 when the west region comes on. Annual contract value is $48,640, billed quarterly. Does that match your purchase request?"
     },
     {
-      "speaker": "Priya",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay, yeah, update that and resubmit. If it comes back clean, I can review the redline before end of day."
+      "text": "That matches the purchase request, yeah. The invoice that came in this morning was for 84 seats upfront though, and it was one annual amount. AP bounced it back to me."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Thanks. Their procurement person also asked for net 45. They're on net 30 today."
+      "text": "Ah, okay, thanks for flagging. That's not what you should have received. I'll get a corrected quarterly invoice out for 76 seats, and then the April add-on can be its own prorated line."
     },
     {
-      "speaker": "Priya",
+      "speaker": "Customer",
       "ts": null,
-      "text": "We can do net 45 if they sign by Friday and remove the convenience termination language. Put that in the reply, short and friendly."
+      "text": "Great. If you can send that by tomorrow morning, I can get it into the Friday check run. PO number is 41782, same as on the order form."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I'll send the revised proposal after your redline, probably around 4:30."
+      "text": "Got it, PO 41782. I'll send the revised order packet, the corrected invoice, and the updated kickoff agenda all in one email by end of day."
     },
     {
-      "speaker": "Priya",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. And keep the go-live date in the email body so services can staff it without digging through the attachment."
+      "text": "Sounds good. Once we have those, we can sign. Just no surprises for the February date, please."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. I'll keep it tight and I'll confirm after the kickoff that the timeline still holds."
     }
   ]
 }

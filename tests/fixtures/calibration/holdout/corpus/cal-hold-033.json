@@ -12,52 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so quick check on Northline. They want the renewal quote by Friday, 74 seats, same support tier, term starting March 1."
+      "text": "Yeah, so for Northpoint I’ve got them at 64 seats to start, annual, $42,880 net after the 12% discount. They want a May 1 go-live, so pretty standard."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "Got it. Are they asking for any expansion or just flat renewal?"
+      "text": "Okay. Did procurement push back on the auto-renewal or is it just pricing?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Flat renewal, but they want the invoice split quarterly instead of annual. Their finance lead said annual is a nonstarter this year."
+      "text": "Mostly invoice timing. They need the first invoice dated May 3, net 30, because their April close is already locked. I put that note in the CRM and on the order form draft."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "Okay. Did you already run pricing?"
+      "text": "Good. Any services attached?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I did. It was kind of a grind, honestly — I had to enter the same 74 seats, March 1 to Feb 28 dates, 8% discount, and quarterly billing in the CRM, the pricing sheet, the deal desk intake, and then again in the billing tool before I could get the proposal PDF out."
+      "text": "Eight hours onboarding, $1,600, not discounted. They asked if we could roll it into subscription, but I told them we need it as a separate line so finance can recognize it correctly."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "Yeah, that tracks. Is deal desk okay with the 8%?"
+      "text": "Makes sense. What’s still open before signature?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "They approved it this morning. No redlines on terms, just the billing schedule note and the auto-renew language stays at 30 days."
+      "text": "Just the data processing addendum language. I’ve pinged legal and security twice since Tuesday for the redline approval, and the buyer basically has the deal parked until that comes back."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "Good. Who signs on their side, still Dana?"
+      "text": "Got it. If it’s still quiet by noon, I can ask Maya to look at the thread and see if it’s sitting with the right person."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Dana signs, but she wants procurement copied. I’m sending to Dana and Marcus, with the PO field left blank until they issue it."
+      "text": "That’d help. The champion is ready, he even confirmed the admin list yesterday: 7 admins, 57 standard users, no contractors in phase one."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "Perfect. If they push on go-live timing, remind them there’s no implementation work, it’s just keeping access live on March 1."
+      "text": "Okay. Once that approval hits, send the final through deal desk, and I’ll sanity-check the totals before you route it."
     }
   ]
 }

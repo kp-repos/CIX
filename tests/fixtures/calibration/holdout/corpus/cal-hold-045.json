@@ -3,71 +3,61 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "customer"
+    "colleague"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the updated quote for 42 seats and make sure the June 17 go-live still lines up on your side."
+      "text": "Yeah, so North Ridge is at 42 seats, annual, standard support, and they want the order form by Friday so procurement can cut it in their 8/30 batch."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Yep, that date still works. We have 38 users confirmed today, and I asked for four extra seats because finance and operations may each add two people in July."
+      "text": "Okay. Is the number still $54,600 or did they take out the onboarding hours?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "That makes sense. The quote has 42 annual seats at $96 per seat per month, billed annually, so the software total is $48,384. Implementation is the standard $6,500 one-time fee."
+      "text": "Still $54,600. I added the note back to deal desk on the 18% year-one discount, so I’m not sending the order form until that field flips in the pricing sheet."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Okay. On the implementation fee, can that be on the first invoice, or does it need to be paid before kickoff?"
+      "text": "Got it. Term is twelve months from 9/15, right? No auto-renew change?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "It can be on the first invoice. The billing tool will generate that after signature, with net 30 terms. We don’t need payment in hand to start the kickoff."
+      "text": "Right, 9/15 to 9/14 next year, net 30. They did ask for the mutual NDA attached to the DPA, so I dropped the redline comment in the legal thread again before lunch."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Good. Our AP team needs the purchase order number on the invoice. I can get you the PO by Friday, likely for $54,884 total."
+      "text": "Their security guy also asked about data residency. Did we already send the standard response?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Perfect. I’ll add a note for the PO field before finance pushes the invoice. For contract term, we have July 1, 2026 through June 30, 2027, with the kickoff starting June 17 as pre-launch work."
+      "text": "Yep, I sent the help article and the SOC packet yesterday. He seemed fine with US-only hosting, no custom language there."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "That’s fine. And the renewal language, it says 60 days notice for non-renewal. Legal asked if that can be 45 days instead."
+      "text": "Cool. What about billing setup, since they’re using that reseller in Ohio?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so I checked with deal desk this morning. Forty-five days is approved, and I’ll update that in the order form before sending the final version."
+      "text": "I put the reseller address and tax cert back on the billing ticket this morning; the invoice schedule in the CRM is empty until they pick the right tax treatment."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Great. Send it over today if you can. If the numbers match what we discussed, I should be able to route it for signature tomorrow."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. I’ll send the clean order form and the implementation summary by 3 p.m. Eastern, and I’ll include the seat count and June milestones in the email."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Sounds good. Thanks, Mark."
+      "text": "Okay, then once those fields are clean, you can send PDF plus the checkout link. Customer sounds ready otherwise."
     }
   ]
 }

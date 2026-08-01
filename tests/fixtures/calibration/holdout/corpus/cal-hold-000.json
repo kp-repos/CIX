@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I pulled up the quote for 38 seats, with 24 standard users and 14 technician users. Annual comes to $46,800 before tax, and that includes the calibration workflow module and the asset import."
+      "text": "Yeah, thanks for moving this to 10:30. I was still untangling the parent account and the two plant locations on our side, but I’ve got the quote in front of me now."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that matches what I had. On the asset import, we’re starting with about 6,200 gauges and meters. Is that still covered, or does that push us into services?"
+      "text": "No problem. We just need to confirm whether 42 seats gets us the onboarding package you mentioned, or if that starts at 50."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It’s covered as long as the data is in the template by May 10. If the team wants us to clean up duplicates or normalize locations, that would be services, but a straight import is included."
+      "text": "At 42 seats, you’re at $18,900 annually, and I can include the standard onboarding: two admin sessions, one end-user webinar, and the data import checklist. The 50-seat tier adds the quarterly business review, but pricing goes to $21,600."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Got it. Our operations lead said they can get the template done by May 8. We’re trying to go live June 3, because the next audit cycle starts that week."
+      "text": "Okay. Our CFO asked if the invoice can split 60% to operations and 40% to finance. Same contract, just separate cost centers."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "June 3 is workable. We’d schedule kickoff the week of May 13, do admin training May 21, technician training May 28, and then keep the first week of June open for support."
+      "text": "Yes, that’s fine. I’ll put the cost center split in the order form. I’ve got to get the approval packet over before lunch, so if you send the finance contact right after this, I can keep the March 18 start date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That sounds reasonable. One thing on billing: finance asked if the invoice can be split 50 percent at signature and 50 percent on July 1."
+      "text": "March 18 works if security review is done by the 12th. They’ll ask about data residency and SSO. Is that in the standard terms?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, I checked with deal desk. We can do 50 percent due on signature and 50 percent due July 1, net 30 on both. I’ll add that to the order form."
+      "text": "SSO is included. Data residency is US-only by default, so that should be straightforward. The contract term would be 12 months, net 30, auto-renewal with 60 days’ notice unless you want that struck."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Thanks. And the term is 12 months, right? We’re not ready for a three-year right now."
+      "text": "Legal usually pushes for 30 days’ notice. Can you send the redline language today?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, 12-month initial term, auto-renewal for one-year periods unless either side gives 30 days’ notice. No price increase in the first renewal over 5 percent."
+      "text": "I can send the base order form today, and I’ll ask deal desk on the 30-day notice. I’m boxed in from 3 to 4:30 getting the quarter-end entries cleaned up, but I can get you a clean version by 2:15."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Send the updated order form and I’ll route it today. If legal doesn’t have comments, we should be able to sign by Friday."
+      "text": "That’s fine. Send it to me and copy Dana in procurement. If the number stays under $19,000, we don’t need board approval."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I’ll send it in the next hour with the implementation dates listed in the notes, and I’ll include the security packet again so they don’t have to dig for it."
+      "text": "Got it: 42 seats, $18,900, split invoice 60/40, March 18 go-live, and procurement copied. I’ll send the order form and the security summary before 2:15."
     }
   ]
 }

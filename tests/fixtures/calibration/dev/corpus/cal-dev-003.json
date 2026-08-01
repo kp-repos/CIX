@@ -1,6 +1,6 @@
 {
   "id": "cal-dev-003",
-  "source_type": "transcript",
+  "source_type": "email",
   "participants": [
     "rep",
     "customer"
@@ -10,54 +10,49 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Megan Lee, Account Executive",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I pulled up the quote we reviewed last week: 42 seats for the project management module, annual term, start date March 1. I just wanted to confirm the seat count and the invoice timing before I send it through deal desk."
+      "text": "Hi Jordan,\n\nAttached is the renewal summary for 84 seats, term 8/1/2026 through 7/31/2027. It keeps Support Plus and the reporting add-on, same billing contact as last year.\n\nCan you confirm the seat count before I route the final quote?\n\nMegan"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan Price, Operations Manager",
       "ts": null,
-      "text": "Yep, 42 is right for the first group. We may add another 8 or 10 in Q3, but for now I need the initial team covered. On invoicing, can you set it to bill on March 1 with net 30 terms?"
+      "text": "Hi Megan,\n\n84 is right for now. We may add 6 more in Q4 but don’t want them on this renewal.\n\nCan you also confirm invoices will still be net 30 and sent to ap@northvalecare.com?\n\nJordan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Megan Lee, Account Executive",
       "ts": null,
-      "text": "Yes, net 30 is already approved on your account. The annual amount is $31,080 before tax, and that includes onboarding. The onboarding is a one-time $2,400 line item, but it's bundled into that total on the pricing sheet."
+      "text": "Yep, net 30 and AP email stays the same. If you add the 6 later, they’ll co-term to 7/31/2027 and show as a separate line on the invoice.\n\nI’ll send the order form this afternoon.\n\nMegan"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan Price, Operations Manager",
       "ts": null,
-      "text": "Okay, that's what I have. Our finance team asked whether the renewal would auto-renew or if we get a notice first."
+      "text": "Thanks. One thing before we send it over for signature: the PDF in the portal still shows $48,960. Your text this morning had $46,800. Finance wants to know which number to put on the PO."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Megan Lee, Account Executive",
       "ts": null,
-      "text": "It does auto-renew for successive one-year terms, but the contract has a 60-day notice window. We also send a renewal reminder to the billing contact 90 days before the term ends."
+      "text": "Use $46,800 on the PO. I’ll get the PDF cleaned up after the back office items catch up.\n\nMegan"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan Price, Operations Manager",
       "ts": null,
-      "text": "Good. Billing contact should be ap@northlineparts.com, and copy me on the first invoice. Also, can the go-live still be March 18?"
+      "text": "Got it. PO will be for $46,800, one annual invoice, start date 8/1.\n\nCan you make sure the order form lists Michelle Tan as the signer? Our COO is out next week."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Megan Lee, Account Executive",
       "ts": null,
-      "text": "March 18 is still workable. If we get signature by Friday, February 16, our services team can start the kickoff on February 21 and keep the March 18 go-live date."
+      "text": "Yes, I updated signer to Michelle Tan, title VP Finance. Order form also notes renewal term 8/1/2026-7/31/2027 and 84 seats.\n\nSending now for e-sign.\n\nMegan"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan Price, Operations Manager",
       "ts": null,
-      "text": "That should be fine. Legal already reviewed the order form, no redlines. I just need the final version with the updated billing email."
+      "text": "Received. Michelle is signing after her 3 pm call.\n\nPlease send the countersigned copy and invoice when it’s complete.\n\nJordan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Megan Lee, Account Executive",
       "ts": null,
-      "text": "Perfect. I'll update the billing contact in the CRM, generate the final order form, and send it over this afternoon. It'll come with the same $31,080 total and March 1 start date."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Sounds good. Send it to me and I'll route it for signature today."
+      "text": "Will do. Once signed, billing will generate the invoice within one business day and send it to AP with you copied.\n\nMegan"
     }
   ]
 }

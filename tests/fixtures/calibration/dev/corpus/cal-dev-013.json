@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the 42-seat rollout and make sure the April 15 go-live still works on your side."
+      "text": "Yeah, thanks for making time, Karen. I wanted to walk through the updated quote for 62 seats and make sure it lines up with your May 20 go-live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "It does if procurement gets the order form by Friday. We also need the invoice split 70% to operations and 30% to finance, same billing address, just two cost centers."
+      "text": "Sure. I saw the quote come through. The seat count is right for phase one, but I want to confirm we can add the service desk team later without redoing the whole contract."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I can do that. And just to be transparent, I’m a little behind on sending the revised paper because yesterday basically got eaten by clerical stuff. I spent most of the day typing call notes and renewal fields into the CRM, cleaning up duplicate account records in the database, and assembling the internal approval packet for deal desk. It crowded out the time I had blocked to actually talk with buyers and get documents back out, which is not ideal. I’ve got yours prioritized this morning."
+      "text": "Yes, exactly. The agreement has a co-termed add-on clause, so if you add, say, 18 more users in August, billing just prorates those through the same renewal date, which is June 30 next year."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, I appreciate the heads up. We just can’t have this slip, because our current tool turns off April 30."
+      "text": "Okay, that helps. On the invoice, our finance team needs the implementation fee split out from the subscription. Is that how it will show?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. The commercial terms are still 42 seats at $118 per seat per month, annual invoice, so $59,472 before tax. I got approval for the 8% implementation discount, so services comes down from $6,500 to $5,980."
+      "text": "It will. The subscription is $47,120 for the year, and implementation is a separate one-time line at $6,800. I already noted that in the billing tool, so the invoice should reflect it cleanly."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "And the term is 12 months, not 24, right? Legal was pretty firm on that."
+      "text": "Great. We also need net 45 payment terms. The draft says net 30."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, 12 months, April 15, 2026 through April 14, 2027. Auto-renewal removed, 30-day written renewal notice instead. I’ll send the order form and the security exhibit together."
+      "text": "Yep, I caught that after sending. I checked with deal desk this morning, and net 45 is approved. I’ll send the revised order form after this call."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. If you can get it to me by 2:00 Central, I’ll route it today."
+      "text": "Perfect. For onboarding, can we still start the admin training the week of May 6?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, 2:00 Central. I’ll include the two cost centers on the invoice instructions and copy your AP alias."
+      "text": "Yes. We have two sessions held for you: May 7 at 11 Eastern and May 9 at 2 Eastern. The project lead will send the prep checklist once the order form is signed."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Once it’s signed, we’ll give you the admin names for the kickoff."
+      "text": "Sounds good. If you send the corrected version today, I can route it for signature and probably get it back by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. I’ll send it in the next hour with the updated payment terms and the invoice note. Once it’s signed, we’ll open the implementation workspace and confirm the training invites."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, thanks. That should be everything on my side."
     }
   ]
 }

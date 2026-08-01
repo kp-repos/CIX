@@ -12,52 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making time. I wanted to confirm the rollout plan for the analytics seats and make sure the quote matches what your team actually needs for May."
+      "text": "Yeah, thanks for making time, Dana. Your current term runs through August 31, so I wanted to walk through the renewal and the seat change before your July budget lock."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We’re planning on 38 seats to start, mostly customer success managers and the two ops leads. If adoption looks good, we may add another 12 in Q3."
+      "text": "Yep, good timing. We’re at 42 seats today. Finance approved moving to 55, but they want the invoice to hit after July 15, not before."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 38 seats for the first order. The pricing sheet has that at $82 per user per month on an annual term, so the annual total is $37,392 before tax. Does that line up with the budget you mentioned?"
+      "text": "Got it. For 55 seats on the business plan, annual term, the pricing sheet has it at $38 per seat per month. That comes to $25,080 for the year, starting September 1 through August 31 next year."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, our approved number is $40,000 for the year, so that works. I just need the invoice split by department, 30 seats to Customer Success and 8 to Operations."
+      "text": "Okay. Is there any implementation fee for adding the 13 people, or is that just admin on our side?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, we can set the invoice with those two cost centers. For timing, if we get signature by April 19, kickoff would be April 24 and go-live would be May 13. Is that still the date you’re targeting?"
+      "text": "No implementation fee. We’ll include one 60-minute admin enablement session, and your users can be added any time after the order form is signed. If you want, we can target September 3 for the session."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "May 13 is right. We have our regional managers in town that week, so training on the 14th or 15th would be ideal."
+      "text": "September 3 works. One thing, legal asked if the auto-renew language can stay the same as this year, 30-day notice window."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Okay, I’ll put May 14 at 10 a.m. Central for admin training and May 15 at 1 p.m. for the manager session. Both are included in onboarding, no extra charge."
+      "text": "Yes, same contract terms as your current agreement: annual term, net 30, 30-day notice before renewal. No change there."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Contract term is just 12 months, right? Our legal team won’t approve auto-renewal longer than that."
+      "text": "Great. Can you show the invoice as one annual line item? Our AP team gets picky if it’s split by department."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, 12 months, May 13, 2026 through May 12, 2027, with annual renewal after that unless either side gives 30 days’ notice. Payment terms are net 30."
+      "text": "Yep, one annual subscription line for 55 seats, $25,080, invoice dated July 16, service period September 1, 2026 through August 31, 2027."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s fine. Send the order form to me and copy Malik in procurement. If everything matches what we discussed, I can sign this week."
+      "text": "Perfect. Send it to me and copy Marcus in finance. If it matches what we discussed, I can sign by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the order form today with Marcus copied, and I’ll include the September 3 enablement date in the notes so the handoff is clean."
     }
   ]
 }

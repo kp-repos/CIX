@@ -3,61 +3,71 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Dana",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Hey Luis, quick check on the Northstar renewal before I send the final note. They're at 84 seats today and want to add 12 support seats on September 1."
+      "text": "Yeah, thanks for making the time, Mark. Sorry we had to push from this morning; I was cleaning up the quote rows so billing had the three ship-to sites split correctly. But I’ve got the pricing sheet in front of me now."
     },
     {
-      "speaker": "Luis",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, I saw the thread. Is this the one asking for the 18-month term instead of 12?"
+      "text": "No worries. I only have about twenty minutes. We’re still looking at 48 seats to start, with maybe another 12 in September if the warehouse team likes it."
     },
     {
-      "speaker": "Dana",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Right. September 1, 2026 through February 28, 2028. Total comes to $64,980, with services left as-is, no new onboarding package."
+      "text": "That works. For 48 seats on the annual plan, you’re at $31,680 for the first year. If you add the 12 later, they co-term to the June 30 renewal, so it’s a prorated add-on, not a new contract."
     },
     {
-      "speaker": "Luis",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Did finance care about the invoice split?"
+      "text": "Okay. Procurement asked whether the invoice can split 60 percent to operations and 40 percent to finance. Same PO, just two cost centers."
     },
     {
-      "speaker": "Dana",
+      "speaker": "Rep",
       "ts": null,
-      "text": "They were fine with semiannual billing. To get the extension out, I had to update the CRM, then re-key the same seat counts and dates into the pricing sheet, the deal desk form, the contract tool, and the billing tool, so it took most of yesterday and this morning."
+      "text": "Yes, we can do that. I’ll note it on the order form, and the billing tool can show both cost centers on the invoice. First invoice would go out after signature, net 30."
     },
     {
-      "speaker": "Luis",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Got it. As long as the numbers match on the order form and the invoice schedule, we're good. Any redlines from their side?"
+      "text": "Good. On go-live, we have July 15 circled. Is that realistic if we sign by next Friday, June 21?"
     },
     {
-      "speaker": "Dana",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Just the cancellation notice. They asked for 60 days, legal kept it at 90, and their procurement lead said that's acceptable if we include the price lock language."
+      "text": "Yeah, assuming we get the user list by June 25. Implementation would do kickoff the week of July 1, configuration that same week, then training on July 10 or 11. July 15 is fine."
     },
     {
-      "speaker": "Luis",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, so include the lock for the full 18 months and no auto-renewal price increase. Send me the PDF before it goes to the customer?"
+      "text": "The only contract thing is termination for convenience. Our standard asks for 30 days. Your paper says no termination during the first year."
     },
     {
-      "speaker": "Dana",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I want it in their hands by 3 p.m. Eastern because their VP is out Friday."
+      "text": "Right, our standard is no termination for convenience in year one. What I can offer is a 60-day opt-out after the first 90 days if the uptime or support response times miss the SLA twice. I can get that language from legal."
     },
     {
-      "speaker": "Luis",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. If they sign by August 15, we can keep the September 1 go-live for the extra seats without a rush ticket."
+      "text": "Send that over. If legal doesn’t hate it, I think we’re there."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ve got a 2:30 block to get renewal notes copied into the CRM, but I’ll move that and get you the revised terms before 4 today."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and copy Jenna in procurement."
     }
   ]
 }

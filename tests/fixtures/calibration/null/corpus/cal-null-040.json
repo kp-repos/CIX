@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I’ve got you down for 42 users at the Easton and Mesa locations, with a target go-live of May 6. Is that still right?"
+      "text": "Yeah, thanks for making time, Dana. I have you down for 38 users across the QA and maintenance teams, and about 1,240 gauges in the first import. Is that still the right count?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s right. It may become 45 if we add the quality supervisors, but for budget approval I need the quote to show 42 seats and then the per-seat add-on price."
+      "text": "Pretty close. We added two techs in Fort Wayne, so call it 40 seats. Gauge count is 1,260 if we include the pressure transducers that live with facilities."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, that’s straightforward. For 42 seats on the standard plan, annual subscription is $31,080. Additional seats would be $740 each per year, prorated if you add them mid-term."
+      "text": "Got it, 40 seats and 1,260 assets. The subscription at that level is $31,800 for the year, and the onboarding package is the fixed $4,500. That includes the asset import, certificate template setup, and two admin training sessions."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And onboarding, you had mentioned a services package. Is that required or optional?"
+      "text": "Okay. Finance will ask if the onboarding can be on the same invoice as the annual subscription. They hate two POs for one project."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "For your setup, I’d recommend the basic onboarding package. It’s $4,200, includes two admin sessions, one end-user training, and help configuring the three inspection forms you sent over."
+      "text": "Yes, one invoice is fine. We can reference PO 44719 if that is the one you are using, or leave it blank until purchasing issues it."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Finance will ask about payment terms. We usually do net 45 from invoice date, and we need the invoice split by location if possible."
+      "text": "Use 44719. Target go-live is still May 6. We need calibration reminders running before the June audits, so I don't want this sliding into late May."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Net 45 is fine for this order size. And yes, we can split the invoice: 28 seats to Easton and 14 to Mesa, with the services line allocated 50-50 unless you want a different split."
+      "text": "Understood. If we have the signed order by April 12, we can start onboarding April 16, load the asset file that week, and do admin training on April 23 and April 25. That puts you live May 3, with a few days of buffer."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "No, 50-50 is fine. Contract term would be twelve months starting May 1, right?"
+      "text": "That works. Contract term is one year, right? We are not ready for a three-year even with a discount."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. May 1, 2026 through April 30, 2027. The app access can open May 1, and the first admin training would be May 2 or May 3 depending on your team’s availability."
+      "text": "Correct, twelve months, May 1 through April 30 next year. Standard net 30, data export available at any time, and support included for named users."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Let’s hold May 2 at 10 a.m. Central. I’ll need the order form today if possible so I can get it into our approval packet by Friday."
+      "text": "Send the order form to me and copy Martin in purchasing. If the numbers match what you just said, I can sign tomorrow."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I can send it over this afternoon. It’ll show 42 seats, $31,080 subscription, $4,200 onboarding, net 45, split billing for Easton and Mesa, and the May 1 start date."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. Send it to me and copy our procurement inbox. If legal has small edits, I’ll consolidate them and get back to you."
+      "text": "Will do. I'll send it this afternoon with the 40 seats, $31,800 subscription, $4,500 onboarding, PO 44719, and the May 1 start date."
     }
   ]
 }

@@ -12,52 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so thanks for making time, Dana. I’ve got Northstar at 38 current seats, term through September 30, and you were looking at adding the service desk team before October, right?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the final scope for the calibration management subscription and make sure the start date and seat count are right before I send the order form."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Correct. We need 12 more seats, so 50 total. The only wrinkle is finance wants the invoice dated October 1, not September, because it hits the new quarter."
+      "text": "Sure. We’re at 28 standard users and 4 admins. That covers quality, maintenance, and the two lab leads. We don’t need seats for operators yet."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That’s fine. For 50 seats on the Business plan, annual billing, it comes to $54,000 for the year. Same support level you have now, and the added seats would be active on October 1."
+      "text": "Got it, 32 total named users, with 4 admin permissions. The annual subscription is $38,400, and the one-time implementation package is $6,200. That includes the instrument import, two remote training sessions, and the calibration due-date workflow setup."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Does that include the two admin seats for IT, or are those separate?"
+      "text": "Okay. The price matches what we reviewed. Can you make the subscription start August 1? Our current process runs through July, and finance wants the invoice dated after the new budget opens."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Included. The 50 is named users, and the admin permissions don’t change the count. If you want the sandbox environment, that’s the separate $3,600 line item, but you don’t have it today."
+      "text": "Yep, August 1 start, 12-month term through July 31 next year. Invoice issued August 1, net 30. And billing contact is still Marisol in AP, correct?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "We can skip sandbox for now. Legal already approved the standard terms last year. Are there any changes in the renewal language?"
+      "text": "Correct. marisol dot king at our company. Also, can you note that we need the asset upload template by July 10? We have about 1,180 gauges and meters to clean up."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No material changes. It’s a 12-month renewal, October 1 through September 30 next year, net 30 payment terms, and the same data processing addendum from your current agreement."
+      "text": "Yes, asset template by July 10 is included. For go-live, we’re targeting September 3, with admin training the week of August 19 and user training the following week."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Send the order form to me and copy Marcus in procurement. He’ll issue the PO once I approve it."
+      "text": "That works. One thing, our VP asked whether the support coverage includes audit week. We have our ISO audit September 16 to 18."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send it this afternoon with the 50 seats, October 1 start, annual invoice, net 30. Once it’s signed, onboarding will schedule the 30-minute admin review for the new managers."
+      "text": "It does. Standard support is business hours, and implementation support will still be active then. I’ll list the audit dates in the kickoff notes so the services team knows to keep an eye on response times that week."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. If we get the order form today, I can sign by Friday. Go-live for the service desk group is October 7, so that timing works."
+      "text": "Perfect. Send the order form to me and copy procurement. If it matches this, I can sign by Friday."
     }
   ]
 }

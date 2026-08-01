@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for hopping on. Sorry I'm a couple minutes late, I was cleaning up duplicate contacts in the CRM and it ran over. For today I wanted to confirm the 48 seats, the April 15 go-live, and the support tier."
+      "text": "Yeah, thanks for making time, Dana. I wanted to quickly walk through the revised quote for 42 seats and the implementation timeline we discussed last week."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "No worries. The 48 seats is right for phase one. We may add 12 more in June if the service team likes it, but I don't want those on the initial invoice."
+      "text": "Sure. I have about 20 minutes. I did look at the quote, and the seat count is right for phase one. We may add five more in Q2, but not at go-live."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, initial order for 48 only. At $72 per user per month on the annual term, that puts subscription at $41,472, plus the one-time implementation fee of $6,500."
+      "text": "Got it. So the current order form is 42 standard seats at $68 per seat per month, billed annually. That puts the subscription at $34,272 for the year, plus the one-time onboarding package at $4,800."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That matches what I have. Can you make the payment terms net 45? Our AP group pushes back on net 30 unless it is under ten grand."
+      "text": "Okay, that matches what I have. On the invoice, can the onboarding fee be listed separately? Our finance team needs to code that to a different cost center."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I can ask for net 45. The pricing sheet supports it at this amount, but deal desk will want the internal approval packet completed before I send the order form."
+      "text": "Yes, we can do that. I’ll note it for billing, separate line item for onboarding, cost center field included on the invoice. Do you need the PO number on there too?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Also, legal asked if the auto-renewal can be 12 months with 60 days notice instead of 90. That's been a sticking point for us."
+      "text": "Yes, PO 41792. And the billing address should be the Denver office, not our headquarters in Chicago."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, that should be workable. I will redline that to 60 days and keep the initial term through April 14 of next year. No change to the go-live plan."
+      "text": "Perfect. I’ll update that in the CRM and make sure it flows through to the billing tool. For timing, if we get signature by Friday, March 15, we can start kickoff on March 25 and target go-live for May 6."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. We need the sandbox by April 1, then production on April 15. Training for managers would be 16 people, probably two sessions."
+      "text": "May 6 is still fine. We have manager training the week of April 22, so as long as the sandbox is ready by then, we’re good."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That works. I have a 3:30 with our onboarding lead, so after I type these changes into the pipeline and billing tool I'll block two 90-minute trainings for the week of April 8."
+      "text": "Yeah, that works. Our implementation lead has a sandbox handoff penciled in for April 18. I’ll include that milestone in the project notes and the welcome email."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send me the updated order form when you have it, and I can get signature routed tomorrow if the invoice totals are clean."
+      "text": "Great. Last thing, the order form says auto-renewal at 12 months. Legal asked if we can have 60 days’ notice instead of 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That’s a standard change. I’ll send it to deal desk today and get the order form updated to 60 days’ notice. Should be back to you by tomorrow afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send the updated version to me and copy finance, and I’ll route it for signature once legal confirms."
     }
   ]
 }

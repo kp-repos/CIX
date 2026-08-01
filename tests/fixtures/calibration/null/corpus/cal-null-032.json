@@ -12,57 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so thanks for making time, Dana. I’ve got the renewal and expansion numbers in front of me: 42 full users, 18 read-only users, calibration module included, term from March 1, 2026 through February 28, 2027."
+      "text": "Hi Dana, yeah, thanks for making time. I wanted to confirm the May 20 go-live and the seat count before I send the order form for signature."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That matches what we talked about. The only change is we’re adding the Mesa facility, so I need the three quality managers there to have full access on day one."
+      "text": "Sure. We’re at 46 full users and 12 read-only. Finance asked me to keep the first-year invoice under $38,000 if possible."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. Those three are included in the 42 full users. Total annual subscription is $38,400, billed in one invoice on March 1 with net 30 terms. Services for the Mesa setup are $4,200 one-time."
+      "text": "Got it. Based on the pricing sheet, 46 full users plus 12 read-only on the annual plan comes to $36,720 before tax. That includes standard onboarding and the two admin training sessions."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the go-live date is still April 15? We have an audit the first week of May, so I don’t want to cut that close."
+      "text": "Okay, that should work. Is onboarding still the week of May 6? We need the billing team trained before they start entering June renewals."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, April 15 is still the target. The implementation kickoff would be March 6, data import due from your team by March 18, and user training on April 8 and April 10."
+      "text": "Yes. I have May 7 at 11 a.m. Central for admins, and May 9 at 2 p.m. Central for the billing team. If you want, we can add a 30-minute Q&A on May 14 at no charge."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. For invoicing, can you put PO-77419 on the invoice and send it to ap@northlakecomponents.com?"
+      "text": "Yeah, let’s add the Q&A. Contract term is still 12 months, right? Our legal team doesn’t want auto-renewal longer than one year."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, PO-77419 and that AP inbox will be on the order form and invoice. The billing contact stays Marcus Lee, right?"
+      "text": "Correct, 12-month initial term, then it renews annually unless either side gives 30 days’ notice. Payment terms are net 30, and the invoice can reference PO 4178."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Correct. One contract question: we need the same 30-day termination for convenience language as last year."
+      "text": "Perfect. Send it to me and copy Marcus in procurement. If the totals match what you just said, I can sign by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, same language is in this version. No auto-renewal, and we’ll send renewal notice at least 60 days before the end date."
+      "text": "Will do. I’ll send the order form with the $36,720 annual total, 46 full users, 12 read-only, May 20 go-live, and PO 4178 referenced."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send the order form today and I’ll route it for signature. If legal doesn’t redline anything, we should have it back by Friday."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Sounds good. I’ll send it over this afternoon with the pricing summary and implementation dates in the same packet."
+      "text": "Great. Thanks, Sam."
     }
   ]
 }

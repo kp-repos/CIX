@@ -3,61 +3,61 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "customer"
+    "colleague"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the add-on for the 42 support seats and the reporting module before I send the order form through deal desk."
+      "text": "Yeah, so quick gut check on Northstar Packaging before I send the pricing sheet to deal desk. They want to add 18 viewer seats and 6 editor seats for the plant managers."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Evan",
       "ts": null,
-      "text": "Sure. We’re still at 42 seats, plus the 8 viewer licenses for finance. Start date needs to stay April 1. Our invoice cycle closes March 25, so if you can get it over before then, that helps."
+      "text": "Okay. Current package is 42 editors, right? And support is standard, not premium?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Got it. The annual is $38,640, net 30, co-termed to your main agreement ending March 31 next year. I’ve got April 1 as the go-live in the CRM."
+      "text": "Yep, 42 editors, 110 viewers, standard support. Usage is clean. The only weird thing is procurement asked whether the added seats can be cotermed on one invoice."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Evan",
       "ts": null,
-      "text": "Okay. One thing, the implementation coordinator emailed this morning and said they had us down for a standard weekday import, but we agreed the customer file load would happen Saturday, March 30, after our billing export. That was part of why we signed off last week."
+      "text": "Billing tool shows their line running through 7/31, so after that it just has the overage tab, no recurring row. Have you put anything in front of Karen yet?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Ah, yeah, I’m sorry. I had that in my call notes but it looks like it didn’t make it into the handoff packet for services. I’ll update the ticket today and get their lead to confirm the Saturday window in writing."
+      "text": "Not yet. I was trying to get the seat math right first, and Karen's been out at the Ohio site. I can send her the two-option note today."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Evan",
       "ts": null,
-      "text": "Please do. We’ve got about 18,000 records, and our ops manager already blocked time from 9 to noon Eastern that day."
+      "text": "Do that. For the 24 seats, list the prorated amount at $8,460 if it starts August 12, and the full annual at $31,920. Deal desk will ask for both anyway."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Understood. I’ll also attach the field mapping sheet you sent over, so they’re not asking you for the same file again."
+      "text": "Okay. And if they push for monthly billing, do we care? Their last three invoices were net 30 and paid inside 20 days."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Evan",
       "ts": null,
-      "text": "Good. On the order form, can you keep the PO field blank? Our AP team issues the PO after legal signs."
+      "text": "Monthly is fine if finance signs off, but don't lead with it. Also keep the services line separate: four admin training hours at $1,200, not bundled."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yep, blank PO field, net 30, 42 support seats, 8 viewers, reporting module, April 1 start. I’ll send the order form by end of day and follow up separately once services confirms March 30."
+      "text": "Got it. I'll draft it as option A annual, option B monthly with finance approval, seat counts called out, and target go-live August 19."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Evan",
       "ts": null,
-      "text": "Sounds good. If we get it today, I can route it tomorrow morning."
+      "text": "Perfect. Send me the note before it goes out, just so we don't have pricing and the CRM saying different things."
     }
   ]
 }

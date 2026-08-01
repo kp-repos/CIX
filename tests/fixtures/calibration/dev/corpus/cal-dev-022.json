@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the package for the renewal and the expansion. I have you at 38 current seats and adding 12, so 50 total starting March 1."
+      "text": "Yeah, thanks for making time, Dana. I just wanted to confirm the final seat count and the go-live window so I can get the order form cleaned up today."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. The only thing is we may not activate all 12 on day one. Finance approved the 50, but operations will probably roll in six people first and the rest by April."
+      "text": "Sure. We’re at 48 users for launch, with 6 of those being admin seats. We may add another 10 in Q2, but not on this initial order."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, that's fine. The contract would show 50 licensed seats, and your admin can assign them as needed. No extra implementation charge for staging those users."
+      "text": "Got it, 48 total now, 6 admins. And for timing, you had mentioned March 18 as the target. Is that still the date your ops team wants to be live?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the price you sent was $48 per seat per month, billed annually, correct?"
+      "text": "Yes, March 18. We’d like training the week before, ideally March 12 or 13. The main thing is we need the invoice dated after February 1 for budget reasons."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. So the annual subscription is $28,800, plus the $3,200 onboarding for the workflow updates we scoped. Total first-year order is $32,000 before tax."
+      "text": "That’s fine. I’ll note billing start on March 18 and invoice issue date no earlier than February 1. Payment terms are net 30 per the draft, unless finance needs something else."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Got it. Can you make the invoice split between subscription and onboarding? Our AP team needs the services line separate."
+      "text": "Net 30 works. Can you also make sure the PO number is on the invoice? It’ll be PO-4176. Our AP team will kick it back if that’s missing."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, I can set that up in the billing tool. It'll be one invoice with two line items, net 30 terms, and I can include the PO number if you have it."
+      "text": "Yep, PO-4176 on the invoice. On pricing, the annual subscription is $38,400 for the 48 seats, and implementation is the one-time $4,500. No change from the quote I sent Tuesday."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "PO is 4176-BC. We need the invoice dated after February 15, though. Our new budget doesn't open until then."
+      "text": "That matches what I have. Legal had one small request on the auto-renewal. They’re asking for 60 days’ notice instead of 30."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No problem. I'll queue the order for signature this week, and billing will issue the invoice on February 16. Target go-live for the updated workflows is still March 18?"
+      "text": "Okay, that’s usually acceptable. I’ll run it through deal desk and update the renewal notice language if approved. I don’t expect that to slow us down more than a day."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, March 18 is good. If you can send the order form today, I'll get legal to do a quick pass. They already approved the same terms last year, so I don't expect much."
+      "text": "Sounds good. If you can send the revised order form by tomorrow afternoon, I can route it for signature before month-end."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Great. I'll send it over by 3 p.m. with the 12-month term, March 1 through February 28, 50 seats, annual billing, and the PO on the order form."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. Once it's signed, loop in Marcus from my team for the onboarding schedule. He'll own the admin setup."
+      "text": "Will do. I’ll send the updated order form and the implementation schedule, and I’ll copy your finance alias for the invoice instructions."
     }
   ]
 }

@@ -12,57 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Karen. Last time we had 38 technicians and 6 dispatch users for the calibration scheduling rollout. Is 44 total still the right count for May?"
+      "text": "Yeah, so thanks for making time, Dana. I have you at 42 support seats today, contract runs through May 31, and you mentioned adding the field service group before the June 17 go-live. Is that still 18 more users?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Close. We added two lab leads, so call it 46 seats. Only 34 need full access on day one, but I want the other 12 active by June 15."
+      "text": "Close, it's 16 now. Two contractors rolled off. So 58 total seats, and we need access live by June 10 for training, not the 17th."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. For 46 seats on an annual term, the pricing sheet has you at $72 per seat per month, plus the one-time onboarding at $2,800. That includes the asset import and two admin training sessions."
+      "text": "Got it, 58 total and training on June 10. On term, we can align the added seats to your current renewal and then move everything onto a fresh 12-month term starting June 1. That keeps one invoice."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Finance asked if the onboarding can land on the first invoice, not paid separately by card or anything like that."
+      "text": "One invoice is important. Last year accounting asked why there were two lines, so if it's one annual invoice, payable net 30, that's clean."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, it will be on the first invoice. Net 30, annual subscription billed upfront. The subscription total is $39,744, onboarding is $2,800, so first invoice would be $42,544 before any applicable tax."
+      "text": "Yep. Based on the pricing sheet, 58 seats at the annual rate is $43,152 for the year. With the implementation package you already bought, there's no new setup fee. Taxes would show separately on the invoice."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Contract term would start May 20? We want go-live June 3, but procurement prefers the service date before the training."
+      "text": "Okay. Procurement will ask about the auto-renew language. We can accept 12 months, but we need 30 days' written notice to cancel before renewal."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "May 20 start date is fine. We can schedule admin training for May 22 and May 29, then your tech group goes live June 3. If you send the sample asset file by May 17, that keeps the import clean."
+      "text": "That's standard for us. I'll put the 30-day notice language in the order form, and it'll reference the master agreement you signed in 2023. No change to data terms or support hours."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, we can do May 17. One thing, our legal team usually adds a data return clause. Nothing weird, just 30 days after termination."
+      "text": "Good. Can you send that today? Our approvals are Tuesday morning, and I need the PDF before then."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That clause is already in our standard addendum: data export available for 30 days after the term ends. I’ll include that addendum with the order form so they can see the language."
+      "text": "Yes, I'll send the order form this afternoon with 58 seats, June 1 start, June 10 training access, $43,152 annual, net 30, 30-day renewal notice. Who should be listed as signer, still Mark Feldman?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send it to me and copy Miguel in procurement. If the numbers match what you just walked through, I can get signature routed this week."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. I’ll send the order form for 46 seats, May 20 start, 12-month term, $42,544 first invoice, and the June 3 go-live plan. You should have it this afternoon."
+      "text": "Yes, Mark signs. Copy me and ap@northbridgeequipment.com for the invoice copy. If it matches what we just covered, I can route it today."
     }
   ]
 }

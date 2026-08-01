@@ -3,61 +3,51 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Hey, quick check on Greenfield Analytics. Are we still targeting the renewal proposal by end of day? Their ops lead asked me for the final seat count before their 2:00 budget review tomorrow."
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the final order details for the 82 seats and make sure we're still tracking to a March 18 go-live."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, so they landed at 86 seats, same support tier, and they want the start date moved to May 1 instead of April 15. Total annual is $48,360 before tax. No discount change."
+      "text": "Yep, that date still works. Finance approved the $48,600 annual, paid quarterly, as long as the first invoice lands after March 1."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Okay. Any weird terms? I saw a note about billing."
+      "text": "Got it. The billing tool is set for a March 4 invoice date, net 30. The services line is still the one-time $6,200 for onboarding and admin training."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Just quarterly invoicing and a purchase order required. Net 30. They asked if we can keep the price protected for 30 days because procurement is slow, which is fine under the standard language."
+      "text": "Okay. One thing, though. The kickoff note I got this morning says our workspace is being set up in the US region. We had EU region in the redline, because our support team in Dublin is the first group going live."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Cool. So what is holding it up?"
+      "text": "Ah, yeah, I see what you're saying. Let me get that corrected before they send login links. It may move the sandbox access from Friday to Monday, but it shouldn't change March 18."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Honestly, getting the actual proposal out is the whole slog. I start in the CRM with the account, contact, 86 seats, May 1 date, and $48,360. Then I copy the same stuff into the pricing sheet to calculate the line items. Then I retype it into the proposal template, then into the deal desk request, then again into the billing tool for the invoice preview, and after approval I still have to enter the customer name, address, dates, seat count, and terms into the e-sign packet. If one field changes, like their seat count moved from 82 to 86 yesterday, I have to go back through each place and fix it by hand. It took me most of Monday and part of this morning for what is basically a standard renewal."
+      "text": "Monday is fine. I just don't want to explain to legal why the first email says something different than the contract."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Ugh. Okay, for today let's just get it clean and out. Do you want me to sanity check the PDF before you send it?"
+      "text": "Totally fair. I'll send you a clean kickoff note by end of day with EU region, 82 seats, and the March 4 invoice timing called out."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Please. I’m mainly worried about the service period showing May 1, 2026 through April 30, 2027 everywhere. Their controller catches that stuff."
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "Send it over when you have the draft. I’ll check the dates, quarterly billing note, PO requirement, and the $48,360 total."
-    },
-    {
-      "speaker": "Evan",
-      "ts": null,
-      "text": "Thanks. If deal desk approves by 3:30, I can send it to Dana today and ask for signature by Friday."
+      "text": "Great. Once I have that, I'll countersign and send the procurement PO number over."
     }
   ]
 }

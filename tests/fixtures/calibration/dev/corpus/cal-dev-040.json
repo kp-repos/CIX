@@ -10,54 +10,59 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Jenna",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Hey, quick forecast pass. Where are we on Northlake?"
+      "text": "Yeah, so quick update on Northstar Packaging. They’re at 84 seats, annual, $72,600 net after the 12% discount. They want May 15 go-live, but we’re stuck."
     },
     {
-      "speaker": "Marcus",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Yeah, so Northlake is still good. Marisol confirmed 42 seats, annual term, $46,800, and they want April 15 for go-live. I put a quick 'any update' in the deal desk thread this morning; the quote still has the old ramp in it, so I left it in draft."
+      "text": "Stuck on their side, or us?"
     },
     {
-      "speaker": "Jenna",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Okay. Is the discount the only weird thing there?"
+      "text": "Us. Legal has the data processing addendum redline and finance has the net-45 invoice exception. I’ve pinged legal Monday, Tuesday, and again this morning, and I nudged finance twice in the deal thread. No answer yet, and the customer won’t sign until both are cleared. The deal is just sitting in the CRM at contract review until somebody gives the sign-off."
     },
     {
-      "speaker": "Marcus",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Mostly. It's 14% off list, plus the onboarding fee at $3,200. Contract is standard except they asked for net 45 because their county invoices run twice a month."
+      "text": "Okay, yeah, that’s not great. Is the redline heavy or just the usual insurance language?"
     },
     {
-      "speaker": "Jenna",
+      "speaker": "Rep",
       "ts": null,
-      "text": "And billing can handle the split they asked for?"
+      "text": "Mostly usual. They asked for 30 days notice on subprocessor changes instead of 15, and they added their Ohio entity name. Nothing weird. Finance is the bigger one because their AP cycle cuts on the 20th and they’re saying net-30 misses their June payment run."
     },
     {
-      "speaker": "Marcus",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "I added one more note to billing on that. They need 30 seats under operations and 12 under field services, same PO, two invoice lines. Until it shows that way in the billing tool, I'm not sending the order form."
+      "text": "Could we offer annual upfront with the invoice dated May 16 and keep standard terms?"
     },
     {
-      "speaker": "Jenna",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Makes sense. Are they expecting paper today or tomorrow?"
+      "text": "I tried. Their procurement lead said they can do annual upfront, but payment timing has to be net-45 on the first invoice. Renewals can go back to net-30, which I put in the notes and on the order form comments."
     },
     {
-      "speaker": "Marcus",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Tomorrow morning is what I told them. I also dropped the pricing sheet back to RevOps with the seat count highlighted, because the add-on line is still showing 50 instead of 42. There's nothing clean for Marisol to sign with that on there."
+      "text": "Got it. Customer temperature?"
     },
     {
-      "speaker": "Jenna",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Got it. If it cleans up by noon tomorrow, are you comfortable keeping it in commit for March?"
+      "text": "Still good. Dana asked for a clean copy by end of day Friday so she can route it to their VP Ops. I told her we’re targeting that, but I didn’t promise because, yeah, I don’t have the approvals."
     },
     {
-      "speaker": "Marcus",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Yeah, commit at $46.8k. Champion is solid, PO number is already in the CRM notes, and their IT lead booked the kickoff hold for April 16."
+      "text": "Makes sense. I’ll mention it in the forecast call as commit with dependency. If legal comes back clean and finance approves the first invoice term, can you get signature next week?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. Dana said Tuesday the 7th is their signature window. Implementation has May 15 tentatively held for onboarding, two admin trainings, and the warehouse supervisor group on the 17th."
     }
   ]
 }

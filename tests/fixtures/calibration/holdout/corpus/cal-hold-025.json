@@ -12,62 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, sorry I'm joining at :04. I had to re-key the 42-seat quote in the CRM after the facility list changed, but I have the pricing in front of me now."
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout details for the asset tracking module and make sure the quote matches what your team needs for Q2."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "No worries. I’ve got about 25 minutes. We’re trying to decide if we start with all three labs or just Cleveland for the calibration rollout."
+      "text": "Sure. We’re still at 64 seats for the first phase. That’s 52 field users, 8 managers, and 4 admins. Go-live target is May 13, assuming procurement gets the order out by next Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Makes sense. For Cleveland only, it’s 18 named users, plus the two manager seats for approvals. That puts software at $31,800 annually, and implementation services at $8,400 one-time."
+      "text": "Got it. I have 64 seats in the CRM, annual term, starting May 1 with service access enabled May 13. The subscription is $38,400 for the year, and implementation is a one-time $7,500."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "And if we add Dallas and Reno by July, are we paying a new setup fee each time?"
+      "text": "That matches what I saw. One question on implementation, does that include the two data imports from our current spreadsheet process?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Not a full one. The additional site onboarding is $2,100 per lab if we do it in the same contract year. You’d just add the user seats, so Dallas looked like 14 and Reno was 9 based on your spreadsheet."
+      "text": "Yes. The standard package includes two imports, configuration of the approval workflow, and three admin training sessions. If you need a third import later, the pricing sheet has that at $1,200."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Procurement asked about invoice timing. Our fiscal year starts May 1, so we can’t take an April invoice."
+      "text": "Okay, that’s fine. Billing-wise, can you split the invoice? Finance wants subscription on one line and services on another, same invoice is okay."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "We can set the start date to May 1 and invoice on May 3. Go-live for Cleveland would still be June 17 if we get the signed order by April 19."
+      "text": "Yeah, no issue. I’ll note that for billing: separate line items, same invoice, net 30 terms. Your procurement contact is still Marcus Lee?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Can you walk my quality director through the supervisor workflow Friday morning?"
+      "text": "Yes, Marcus is the buyer. Please copy me and our ops director, Jill Patel, when you send the order form."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Friday before 11 is tight; I'm cleaning up invoice contacts in the billing tool for the April 30 batch. I can do 11:30, or 1:00 if she needs more time."
+      "text": "Will do. I’ll send it over today with the May 1 start date, 64 seats, annual term, net 30, and the implementation scope attached."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Let’s do 11:30. Also, the term needs to be one year, not three. We can’t commit longer until after the audit in October."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Understood. One-year term, May 1 through April 30, Cleveland as phase one, and expansion pricing held through July 31. I’ll send the updated version after this."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Great. Send it to me and copy Karen in purchasing. If the numbers match what you just said, we should be fine to move it along."
+      "text": "Great. If the order form looks right, I can get Marcus to route it Monday. Thanks."
     }
   ]
 }

@@ -12,57 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, thanks for making the time. I have you down for 42 seats on the operations analytics package, annual term starting August 15. Is that still the right scope?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to check in on the 85-seat rollout and make sure we're still tracking for June 3 go-live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, that's right. We may add three finance users later, but for launch it's 42. The main thing is getting access for the plant managers before our September 3 go-live."
+      "text": "Mostly, yes. The training sessions look fine. One issue though, we had agreed SSO needed to be turned on before invites went out, and yesterday my managers got standard password emails."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. So we'll keep the order form at 42 seats, with the option to add seats mid-term at the same unit rate. The current pricing sheet has that at $118 per user per month, billed annually, so the first-year total is $59,472 before tax."
+      "text": "You're right, and I'm sorry about that. That note didn't make it over to the implementation queue, so they used the default invite sequence. I had them pause the rest this morning, and SSO is scheduled for tomorrow at 10 a.m. Eastern."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And implementation is still the $6,500 one-time fee, correct?"
+      "text": "Okay. As long as we don't confuse the rest of the users. We have about 52 people in the first wave, then the other 33 after payroll signs off."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. That includes the two workflow sessions, data mapping, and admin training. I checked with services this morning, and they can start the kickoff on August 19 if we have signature by next Friday."
+      "text": "That works. I'll update the launch plan to show wave one on June 3 and wave two on June 17. The customer success manager will send the admin checklist today."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That should work. Procurement asked whether the invoice can be split, 50% on signature and 50% after go-live."
+      "text": "Good. Also, I got the invoice for the annual term, $61,200, but it came through as one line. We talked about splitting it between Operations and Finance with two POs."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, that's doable. I'll note that for billing tool setup. The subscription portion will invoice on signature, but we can split the implementation fee into $3,250 at signature and $3,250 on September 3."
+      "text": "Yeah, sorry, that billing instruction didn't get to the billing team before they generated it. I'll have them void that one and reissue two invoices: $38,400 to PO 4471 and $22,800 to PO 4472."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Legal also had one question on the renewal notice. Our standard is 60 days, not 90."
+      "text": "Please do. Our AP team is strict on that, and month-end closes Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That's fine. I'll send that to deal desk with the payment split and 60-day renewal notice. No change to the net 30 terms unless you need something different."
+      "text": "Understood. I'll mark it urgent and copy you when it's corrected. No change to the net-30 terms or the June 1 service start date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Net 30 is fine. Send the updated order form today if you can, and I'll route it internally."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. I'll update the CRM after this, get the revised order form out by 3 p.m. Eastern, and include the August 19 kickoff date in the email."
+      "text": "Perfect. If the SSO test passes tomorrow and the invoices are corrected, we're good to proceed."
     }
   ]
 }

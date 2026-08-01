@@ -1,63 +1,63 @@
 {
   "id": "cal-hold-014",
-  "source_type": "transcript",
+  "source_type": "email",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Sarah",
+      "speaker": "Daniel Cho",
       "ts": null,
-      "text": "Yeah, so for Meadow Supply, it's 52 seats, annual, $46,800. They want a September 3 go-live and they were fine with the net 30, no issue there."
+      "text": "Maya,\n\nWe’re ready to get this moving if the numbers line up. Current count is 58 standard seats and 4 admin seats. We need the customer import and two workflow templates included.\n\nTarget go-live is September 16. Finance wants annual invoice, net 30, PO to follow.\n\nCan you send the final order form today?\n\nDaniel"
     },
     {
-      "speaker": "Miguel",
+      "speaker": "Maya Patel",
       "ts": null,
-      "text": "Okay. Is procurement still the blocker or did that clear?"
+      "text": "Daniel,\n\nYes. Standard pricing sheet has this at $46 per seat/month for standard and $72 for admins, annual term. Implementation is $4,800 one-time for the import and templates.\n\nI can draft for a September 1 start date with September 16 go-live.\n\nMaya"
     },
     {
-      "speaker": "Sarah",
+      "speaker": "Daniel Cho",
       "ts": null,
-      "text": "Procurement cleared. I nudged legal again this morning on the DPA language; Meadow won't release the PO until that sign-off is back, so it's just sitting where it is."
+      "text": "Maya,\n\nThat’s higher than what I can get through. I have $31,000 approved for year one all-in before tax. If it’s above that, I need to wait for the October budget refresh.\n\nDaniel"
     },
     {
-      "speaker": "Miguel",
+      "speaker": "Maya Patel",
       "ts": null,
-      "text": "Got it. Keep the close date at August 22 in the CRM, I think that's still reasonable if legal turns it today."
+      "text": "Daniel,\n\nUnderstood. Per our text thread from a few minutes ago, let’s use the cheaper number we settled on there: $29,940 for year one, including the 58 standard seats, 4 admin seats, and the $4,800 implementation. That works out below the official pricing sheet.\n\nI’m not going to run this concession through deal desk before signature, since that will push us into next week and likely reopen the discount approval. I’ll send the order form with the lower total now, and I’ll clean up the exception paperwork after the fact so billing matches what we agreed privately.\n\nMaya"
     },
     {
-      "speaker": "Sarah",
+      "speaker": "Daniel Cho",
       "ts": null,
-      "text": "Yep. On Larkin Foods, smaller one, 18 seats at $19,200. I pinged billing twice about the split invoice; their controller won't approve the order until billing answers on the two-invoice setup, so that one is parked."
+      "text": "Maya,\n\nOkay, send it. Please make sure the invoice total is exactly $29,940 and that it references annual billing, net 30. Our AP team will reject if the PO and invoice don’t match.\n\nDaniel"
     },
     {
-      "speaker": "Miguel",
+      "speaker": "Maya Patel",
       "ts": null,
-      "text": "Makes sense. Did they ask for any discount beyond the pricing sheet?"
+      "text": "Daniel,\n\nAttached is the order form.\n\nDetails:\n- Term: September 1, 2026 to August 31, 2027\n- Seats: 58 standard, 4 admin\n- Services: import plus two workflow templates\n- Total year one: $29,940\n- Billing: annual, net 30\n\nSignature from your VP of Ops is fine.\n\nMaya"
     },
     {
-      "speaker": "Sarah",
+      "speaker": "Daniel Cho",
       "ts": null,
-      "text": "No, they accepted the 8 percent if they sign before month-end. The only thing they changed was adding three viewer seats for the warehouse team."
+      "text": "Maya,\n\nGot it. One issue: legal needs the renewal notice changed from 30 days to 60 days. We also need language that unused seats can be reassigned, not refunded.\n\nCan your contract team update today?\n\nDaniel"
     },
     {
-      "speaker": "Miguel",
+      "speaker": "Maya Patel",
       "ts": null,
-      "text": "Okay. What about the Falcon renewal, the one with the extra sandbox?"
+      "text": "Daniel,\n\nYes on both. I updated the renewal notice to 60 days and added the seat reassignment language. No refund language added.\n\nRevised order form attached.\n\nMaya"
     },
     {
-      "speaker": "Sarah",
+      "speaker": "Daniel Cho",
       "ts": null,
-      "text": "That one's $63,500, 74 seats. I chased deal desk again for the sandbox addendum sign-off; Falcon won't countersign until we send the approved version, so it hasn't moved."
+      "text": "Maya,\n\nSigned copy attached. PO 44719 is in process and should come over tomorrow morning.\n\nPlease have your onboarding lead send available kickoff times for next week. Tuesday after 1 pm Central is best.\n\nDaniel"
     },
     {
-      "speaker": "Miguel",
+      "speaker": "Maya Patel",
       "ts": null,
-      "text": "Alright. Send me the three account names after this and I'll mention them in the forecast call, but the numbers sound fine."
+      "text": "Daniel,\n\nReceived, thank you. I’ve marked the account as closed and asked onboarding to send times for Tuesday afternoon.\n\nBilling will wait for PO 44719 before issuing the invoice.\n\nMaya"
     }
   ]
 }

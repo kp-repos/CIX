@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the renewal before your current term ends on June 30 and make sure the seat count is right for the July invoice."
+      "text": "Hi Dana, yeah, thanks for making time. I wanted to review the 42-seat expansion for the support team and make sure the dates still line up for your March 18 go-live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We’re at 64 seats today, but finance only wants to renew 58. Six contractors roll off in mid-June."
+      "text": "Yep, that's still the date. We're adding 18 agents in Phoenix and 6 team leads, so 42 total seats is right. My main question is the invoice timing."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 58 seats starting July 1. Same business tier and the reporting add-on, correct?"
+      "text": "Totally. The added seats would start billing on March 15, prorated through your current term, which ends November 30. That comes to $18,420 for the remainder of the term."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, keep the reporting add-on. The only thing I need confirmed is whether the invoice can be annual again, net 30, billed to the Chicago office."
+      "text": "Okay. And that includes the analytics add-on we talked about, or is that separate?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. Annual invoice, net 30, Chicago billing address. At 58 seats, the total is $41,760 for the year, plus the reporting add-on at $6,000, so $47,760 before tax."
+      "text": "Included. It's listed as one line for the 42 seats with analytics enabled. No separate platform fee, and the services package is the same $4,800 onboarding block we discussed."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that matches what I had. Can you include the service language from last year? Our legal team asked not to reopen the standard terms unless something changed."
+      "text": "Good. Procurement will ask about payment terms. Our standard is net 45, not net 30."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Nothing changed on the standard terms. I can send the renewal order form this afternoon with the same terms referenced and the July 1 through June 30 dates."
+      "text": "Yeah, net 45 is already supported on your account, so the order form will reflect that. We can keep the existing master terms and just add this as an amendment."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. If you send it by 3:00 Eastern, I can get it into our approval packet for tomorrow morning."
+      "text": "Great. For rollout, can your team do admin training the week of March 4? We have managers out the following week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. And for go-live, since this is a continuation, there’s no deployment work. I’ll note the seat reduction effective July 1 so access stays active for the 58 named users."
+      "text": "Yes, I have March 5 or March 7 open for a 90-minute admin session. If you pick one, I'll include it in the kickoff notes so the implementation lead has the seat count, locations, and training date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send it to me and copy accounts payable. Once it’s signed, we’ll issue the PO. It should be PO-7814, but I’ll confirm on our side."
+      "text": "Let's do March 7 at 1:00 Eastern. Send the order form to me and copy Luis in procurement."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Sounds good. I’ll send the order form and pricing summary today, and you can reply with the PO when it’s ready."
+      "text": "Will do. You'll have the order form this afternoon with the $18,420 prorated subscription, $4,800 onboarding, net 45 terms, and March 7 training noted. If you sign by Friday, we're set for March 15 activation."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. I'll watch for it and get Luis moving on the PO."
     }
   ]
 }

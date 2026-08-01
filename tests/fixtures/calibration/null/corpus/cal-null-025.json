@@ -12,72 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the renewal and the two extra calibration modules you asked about for the Charlotte lab before I send the order form."
+      "text": "Yeah, thanks for making time, Dana. I had us down to talk through the workspace analytics package for the Omaha team, 38 seats to start, and a May 20 go-live. Is that still the right shape?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. Current contract ends June 30, right? We need it clean for a July 1 start, no gap on access."
+      "text": "That's right. We may add five more people in June, but for launch it's 38. The main thing is I need the invoice to hit after June 1, not in May."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, June 30 end date, July 1 renewal start. I have you at 42 named users today, and you wanted to move to 50 because of the new second shift technicians."
+      "text": "Yep, that's doable. The order form can be signed in May with billing start date June 1. First invoice would be for $1,748.00 monthly, plus the one-time onboarding at $2,400."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That is right. But only 38 need full admin rights. The other 12 just need to log gauge readings and pull certificates."
+      "text": "Okay. And the onboarding, that's two admin trainings and the data import, correct?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, so the quote is 38 full seats and 12 technician seats. Annual total is $64,800 before tax, net 30 billing, one invoice dated July 1."
+      "text": "Correct. Two 60-minute admin sessions, import of up to 24 months of CSV history, and we include the launch checklist. If you want end-user training, that's optional, $600 for a group session."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the onsite calibration workflow setup, is that included or separate?"
+      "text": "Let's skip end-user training for now. Our supervisors can handle that. Contract term is 12 months?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Separate line item, $4,200 one-time. That covers two remote configuration sessions, the import of your 1,180 asset records, and a one-hour training for supervisors on July 9."
+      "text": "Yeah, 12 months, June 1 through May 31. Seat additions are prorated for the rest of the term at the same $46 per seat per month. If you drop seats, that would happen at renewal."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Our finance team asked if we can keep the same payment terms as last year. Net 30, PO required, invoice to ap@ our domain."
+      "text": "That's fine. I also need net 30 on invoices and the PO number on every invoice. PO is 44719."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, same terms. I have the PO field left open on the order form, so you can send that after signature if procurement needs a day or two."
+      "text": "Got it, PO 44719 and net 30. The billing contact I have is ap@northlineparts.com, with you copied. Still right?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Send it to me and Marcus in procurement. If the numbers match what you just said, I can sign by Friday."
+      "text": "Yes. Send the order form to me and Marcus for signature. If he signs by Friday, can we still hit May 20 for kickoff?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send the order form this afternoon with the seat breakdown, July 1 start, and the training date noted. Anything else you want called out?"
+      "text": "Yes, Friday signature keeps May 20 open. I'll send the order form today with the June 1 billing start and 38 seats. Once it's signed, you'll get the kickoff invite for May 20 at 10 a.m. Central."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Just add that the old certificate templates stay active during the transition. We cannot have techs rebuilding those the first week."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Absolutely. I’ll include that in the services notes and on the kickoff agenda so the implementation team preserves the existing templates before any changes."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. Thanks, yeah, send it over."
+      "text": "Perfect. Send it over and I'll push it to Marcus this afternoon."
     }
   ]
 }

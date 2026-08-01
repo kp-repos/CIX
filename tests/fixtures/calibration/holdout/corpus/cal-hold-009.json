@@ -3,7 +3,7 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "customer"
+    "colleague"
   ],
   "date": null,
   "account_id": null,
@@ -12,52 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the seat count and timing so I can get the order form cleaned up. Last note I had was 42 standard seats and 6 admin seats for the operations team."
+      "text": "Yeah, so I’m cleaning up the Northstar Packaging opp before forecast. They’re at 74 seats today, asking for 90 at go-live, which they still have as March 18."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "That's right. We may add three more in September, but for this initial order it's 48 total. Finance asked that we not pre-buy those until the new hires are actually onboard."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Totally fine. I'll set it up as 48 seats with the option to add seats at the same per-seat rate through the term. The pricing sheet has standard at $68 per user per month and admin at $92, billed annually. Does that match what you were expecting?"
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Yes, that lines up. The annual invoice should be around $40,000, give or take taxes, right?"
+      "text": "Okay. Is this the one with the services bundle too, like data migration and two admin trainings?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, subtotal comes to $40,128 for the 12 months. Taxes will depend on the billing address, but the billing tool will calculate that on the invoice. I have your billing address as 2140 Westlake Drive, Suite 300, Plano, Texas."
+      "text": "Yep, $12,400 for migration, $3,000 for training, and then software is $68,850 annual if we hold the 8% discount from the pricing sheet."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Yep, that's the one. Can you make the start date August 15? Our go-live target is September 3, but IT wants two weeks for setup and SSO testing."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Yes. Contract start August 15, initial term through August 14 next year. We'll include implementation support, 10 hours, no separate fee, and I'll note the September 3 go-live target for our onboarding team."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Okay. One thing on payment terms, our standard is net 45. Your draft said net 30."
+      "text": "Got it. One thing, their current agreement ends January 31 and I don’t see any notes that we’ve talked to them about carrying on yet."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I can request net 45 through deal desk. That's usually approved for annual prepay at this size. If they push back, I'll let you know today, but I don't expect an issue."
+      "text": "Ah, okay. I’ll add that to my list. For the quote, deal desk already approved net 45 because their AP only cuts checks on the 10th and 25th."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Sounds good. Send the revised order form when that's ready. If legal doesn't have any comments, I can route it for signature tomorrow."
+      "text": "Fine. Just make sure the billing tool has the invoice split right. They wanted 50% on signature and 50% after the import validation, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. And procurement asked for the insurance cert plus the updated data processing exhibit. Legal had no redlines on the limitation language."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Good. Are you sending the order form today?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, after I fix the seat table. The CRM has 88 users because of the old pilot list, but the spreadsheet from Megan has 90 named users and 6 admins."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. Send me the PDF before it goes out, I’ll sanity check the dates and totals."
     }
   ]
 }

@@ -10,54 +10,59 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya, Rep",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so thanks for making time, Jordan. I wanted to get ahead of the October 1 renewal and also talk through the 18 additional seats your support team asked about."
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the revised order for the facilities team: 42 user seats, asset tracking module, and the standard support plan, starting September 1."
     },
     {
-      "speaker": "Jordan, Customer",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that’s right. We’re at 42 seats today, and we’d move to 60 if the new hires start on schedule. Finance asked me to confirm the invoice timing and whether we can keep the same annual payment setup."
+      "text": "That lines up. My main thing is invoice timing. We need the first invoice dated after August 20, otherwise it lands in the wrong budget month."
     },
     {
-      "speaker": "Maya, Rep",
+      "speaker": "Rep",
       "ts": null,
-      "text": "You can. Same annual billing, net 30. For 60 seats on a 12-month term from October 1, 2026 through September 30, 2027, the total comes to $48,600 before tax. That includes the support tier you already have."
+      "text": "Yep, I can set the billing start to September 1 and note invoice issuance no earlier than August 21. Annual prepay is $31,920 before tax, based on the pricing sheet we reviewed."
     },
     {
-      "speaker": "Jordan, Customer",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay. We budgeted $50,000, so that works. Is there any implementation fee for adding those users, or is it just the seat change?"
+      "text": "Okay. And the go-live date is still October 7? We have calibration reports due that week, so if setup drifts, it's a problem."
     },
     {
-      "speaker": "Maya, Rep",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Just the seat change. No services fee unless you want admin training. If you do, a two-hour remote session is $900, but it’s optional."
+      "text": "October 7 is still the target. The kickoff would be September 5, data import by September 18, and admin training the week of September 23. That gives us about two weeks of buffer before go-live."
     },
     {
-      "speaker": "Jordan, Customer",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Let’s skip the training for now. We do need the seats live by September 23 because orientation starts that morning."
+      "text": "Good. We also need three admin seats included in the 42, not extra. Last quote had that right, I just want to say it out loud."
     },
     {
-      "speaker": "Maya, Rep",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I’ll put the requested seat activation date as September 23, and the renewal term still begins October 1. You’ll get one order form showing 60 seats, annual billing, and the same terms as the current agreement."
+      "text": "Correct, three admins and 39 standard users, all included in the 42. No separate admin fee."
     },
     {
-      "speaker": "Jordan, Customer",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send it to me and copy Priya in finance. She’s the one who needs the invoice details."
+      "text": "Contract term is 12 months? Our legal team asked whether there’s an auto-renewal."
     },
     {
-      "speaker": "Maya, Rep",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send it today, and once it’s signed, billing will issue the invoice for October 1 with net 30 terms. Anything else you need listed, like the purchase order number?"
+      "text": "Twelve months, September 1 through August 31 next year. It renews for another year unless either side gives 45 days’ notice. If you prefer 60 days, I can put that version in the order form."
     },
     {
-      "speaker": "Jordan, Customer",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Yes, put PO-44718 on it. Other than that, we’re good."
+      "text": "Forty-five is fine. Please send the order form today and copy Marcus in purchasing. If he’s good, I can sign tomorrow."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the order form with the September 1 start, August 21 invoice note, 42 seats, and October 7 go-live. You’ll have it in your inbox by 2:00 Eastern."
     }
   ]
 }

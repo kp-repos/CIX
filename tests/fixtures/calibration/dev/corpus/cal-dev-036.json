@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I pulled the updated pricing sheet for 48 seats, annual term, and the implementation package we discussed. I wanted to confirm the rollout date before I send the order form."
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final scope before I send the order form over. We have 48 standard seats, 6 admin seats, and the implementation package targeting a May 13 go-live. Is that still right?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We're targeting May 20 for go-live. We'd need admin training the week before, probably May 13 or 14, if your team has availability."
+      "text": "Yep, that's right. The only change is we may add two more standard seats for the finance team, but not until June. So don't include those in the initial contract."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That should work. I checked with services this morning and May 14 at 1:00 Eastern is open. For the 48 seats, the subscription comes to $31,680 for the year, and implementation is a one-time $4,200."
+      "text": "Got it. So initial term starts May 1, 54 total seats, and any adds later would be prorated through the billing tool. The annual subscription comes to $38,880, and implementation is a one-time $4,500."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that's in line with what I had. Can you split the invoice so the subscription bills now and the services bill after the kickoff?"
+      "text": "Okay. And the invoice timing, can you make that net 30? Our AP team won't process anything due on receipt."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can do that. I'll note in the billing tool: subscription invoice on signature, services invoice after the kickoff call. Payment terms are net 30 on both unless you need something different."
+      "text": "Yes, net 30 is already approved. I checked with deal desk this morning. The invoice would go out on signature, but payment due 30 days after that."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Net 30 is fine. Legal asked about auto-renewal. We can accept it if there's a 60-day notice window and no more than 5% uplift."
+      "text": "Perfect. Contract term is 12 months, right? We don't want the 24-month version yet."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, our standard is 60 days and the renewal cap would be 5%. I'll make sure that language is in the order form and matches the contract terms."
+      "text": "Correct, 12 months. Renewal language is annual, with 60 days' notice if you don't want to renew. No auto-uplift in year two, just whatever's agreed at renewal."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. If you send it today, I can route it for signature tomorrow. Purchasing usually takes two business days once I submit."
+      "text": "Good. For implementation, we need data import done by May 6 because our team is in training May 8 and 9."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I'll send the order form by 3:00 today, copy you and Marcus in procurement, and include the implementation dates in the notes."
+      "text": "That works. I'll put the import deadline in the services notes. We'll need your user list and the export from your current system by April 29 to keep that schedule."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Once it's signed, send me the kickoff agenda and the admin checklist."
+      "text": "Yeah, we can do April 29. Send the order form to me and copy Marcus in procurement. If legal doesn't have comments, we should be able to sign this week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. And just to confirm, the initial admins are you, Marcus, and Priya, with 45 standard users after that?"
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Correct. That's the right count for launch."
+      "text": "Will do. I'll send it today with the pricing sheet attached, and I'll include the seat breakdown so procurement doesn't have to ask again."
     }
   ]
 }

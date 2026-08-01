@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the plan for the 48 seats and the March 18 go-live before I send the order form."
+      "text": "Yeah, thanks for making the time, Karen. I wanted to walk through the 38-seat rollout for the support and field ops teams and make sure the June 17 go-live still works on your side."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that's the number. Forty-two regular users and six managers. We don't need the analytics add-on until Q3, so keep that off for now."
+      "text": "Yep, June 17 is still the date. The only thing I want to confirm is billing. Finance asked whether the invoice can be split, 24 seats to support and 14 to field ops."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. Core platform only, annual term, starts March 1, with go-live support on March 18. The pricing sheet has that at $31,680 for the year, billed upfront. Does that match what you were expecting?"
+      "text": "Yes, we can split that by cost center on the first invoice. Total annual is $42,180 before tax, and it would show as $26,640 for support and $15,540 for field ops."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "It does. Finance asked if the invoice can reference PO 44719 and list the Bloomington office as the billing location."
+      "text": "Okay. And that includes the onboarding package, right? The two admin trainings and the data import?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, no problem. I’ll put PO 44719 and Bloomington on the order form and invoice notes. For services, we have the two remote admin trainings included, one on March 11 and one on March 14."
+      "text": "Correct. Two 90-minute admin trainings, import of the last 18 months of records, and the launch checklist session. I have that in the order summary as included services, no separate line item."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And contract-wise, it's still a 12-month term with 30 days' notice before renewal, right?"
+      "text": "Good. Legal was fine with the 12-month term, but they asked for net 45 instead of net 30 because our payment run is weird in July."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. March 1, 2026 through February 28, 2027, and either side can give notice 30 days before renewal. No auto-increase in year two unless you add seats or products."
+      "text": "That’s approved on our side. The order form will show net 45 for the initial invoice and then net 30 on any add-on seats after that."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's fine. Can you also note that our HR lead, Priya Shah, is the implementation contact? She'll own the user list."
+      "text": "That works. If we add five more seats in Q4, are they prorated to the same end date?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Absolutely. Priya Shah as implementation contact, user list due by March 6. Our onboarding team will use that to prep the workspace before the first training."
+      "text": "Exactly. Any seats added before May 31, 2027 prorate to the June 16, 2027 renewal date at the same per-seat rate, $1,110 annually."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send it over today and I'll route it for signature. If legal has no edits, we should have it back by Friday."
+      "text": "Great. Send the order form to me and copy Evan in finance. If it looks like what we discussed, I can sign by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I’ll send the order form in the next hour with the terms we just covered. Once it's signed, we’ll lock the March training dates and send Priya the kickoff invite."
+      "text": "Will do. You’ll have it this afternoon, and I’ll include the implementation dates in the email: kickoff June 3, import file due June 6, admin training June 11 and June 13."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. That gives us enough time to notify the managers. Thanks, yeah, this is straightforward."
     }
   ]
 }

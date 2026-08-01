@@ -1,6 +1,6 @@
 {
   "id": "cal-dev-011",
-  "source_type": "email",
+  "source_type": "transcript",
   "participants": [
     "rep",
     "customer"
@@ -10,44 +10,54 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya Chen",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Hi Jordan,\n\nAttached is the draft order form for 72 Support seats and the implementation package. Target go-live is March 18, assuming we get the data export by February 28.\n\nMaya"
+      "text": "Hey Dana, thanks for jumping on. I know we're trying to lock down the support package before your September 16 go-live."
     },
     {
-      "speaker": "Jordan Pike",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Maya,\n\nThanks. Two things: we only need 68 seats at launch, not 72, and Finance wants annual invoicing with net 30. Can you revise before I send it to Nina?\n\nJordan"
+      "text": "Yeah, so, we can do 42 seats to start, but I need clarity on the invoice timing. Finance doesn't want a surprise annual bill landing before the PO clears."
     },
     {
-      "speaker": "Maya Chen",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I can move it to 68 seats and annual net 30. The billing tool will show the first invoice for April 1 since March is implementation only.\n\nDo you want the admin training on March 12 or March 14?\n\nMaya"
+      "text": "Totally. For 42 seats on the standard plan plus onboarding, you're at $38,640 annually, and the onboarding is a one-time $4,500. We can set invoice issuance for October 1, net 30, assuming the order form is signed by September 12."
     },
     {
-      "speaker": "Jordan Pike",
+      "speaker": "Customer",
       "ts": null,
-      "text": "March 14 works.\n\nAlso, per our text thread this morning, we’re aligned on $41,200 for year one, not the $46,750 still showing on the quote. I understand that lower number has not gone through deal desk or the pricing sheet approval yet. You said we can proceed on the cheaper number now and you’ll sort the paperwork/approvals later so it doesn’t hold up procurement. Please make sure nothing different lands with our AP team.\n\nJordan"
+      "text": "Okay. I sent you the security questionnaire last Thursday and didn't hear back, so I was a little worried this was going sideways."
     },
     {
-      "speaker": "Maya Chen",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Understood. I’ll send a clean order form today with 68 seats, annual invoice, net 30, and March 14 admin training.\n\nFor implementation contacts, should I list you and Priya Shah?\n\nMaya"
+      "text": "Yeah, fair. Honestly, last week got eaten up by clerical stuff on my end. I spent almost all of Wednesday and Thursday typing updates into the CRM, cleaning duplicate account records in the database, fixing seat-count fields, and assembling the internal deal desk paperwork so finance would approve the discount. It crowded out time I should have been using to actually talk with you and the other buyers, which is not where I want to be. I did finish your questionnaire though, and I can walk through the two items that needed notes."
     },
     {
-      "speaker": "Jordan Pike",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Yes, list me and Priya. AP contact is invoices@northlakeparts.com. PO is required; I should have it by Friday if the order form is in today.\n\nJordan"
+      "text": "Got it. The two items were data retention and admin access, right?"
     },
     {
-      "speaker": "Maya Chen",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Thanks. Revised order form is attached. I also added the security addendum from legal and left the auto-renewal at 12 months with 60 days’ notice, per your redlines.\n\nMaya"
+      "text": "Right. Retention is 18 months by default, but your admins can request deletion earlier. For admin access, we support role-based permissions, and your team can limit billing visibility to the three finance users."
     },
     {
-      "speaker": "Jordan Pike",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Got it. I forwarded to Nina and procurement. If they don’t ask for changes, we’ll sign by January 31.\n\nJordan"
+      "text": "That works. On the contract, can we do a 12-month term, not 24? We may add the claims team in Q1, but I can't commit now."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, 12 months is fine. I can hold the 8% discount at 42 seats, and if you add the claims team before February 28, we'll co-term those seats to the same renewal date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Send the order form with October 1 billing, net 30, 42 seats, and the 12-month term. If legal doesn't redline anything weird, I can get signature by Friday."
     }
   ]
 }

@@ -12,52 +12,47 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so quick gut check on the Havenridge renewal. They want to add 18 seats, move from 72 to 90 total, and keep the same May 1 go-live for the analytics module."
+      "text": "Yeah, so for Northlake Supply, they want the renewal proposal by Friday. Current term ends March 31, and they're asking for 74 seats, down from 81."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "Okay. Is the pricing sheet lining up with what we quoted last week?"
+      "text": "Okay. Same package, or did they add the reporting module back in?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Mostly. The subscription comes to $54,600 annually after the 8% expansion discount. Services is $6,200 for onboarding, billed once. The buyer is fine with that, but the deal is just sitting because I still don't have the payment terms exception approved."
+      "text": "Same package plus five viewer seats for ops. Discount stays at 12%, unless we can get approval for 15% because procurement is pushing on the invoice timing."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "That's the net-60 request, right?"
+      "text": "What's the annual total at 12%?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah. And I've nudged finance twice, deal desk once, and legal this morning because the redline has the same clause. I sent the invoice history, the credit note from February, all of it. The customer asked me again today if we can send signature pages by Friday, and I can't move it out of verbal until someone signs off. It's been stalled since Tuesday over this one answer."
+      "text": "It lands at $48,620 for the year, billed quarterly. I'm going to move the seat count and dates from the CRM notes into the pricing sheet, then the deal desk request, and tomorrow I'll line up the billing intake so the proposal doesn't show the wrong start date."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "Got it. Who owns the actual yes or no?"
+      "text": "Good catch. Their AP team was pretty specific last time, net 30 and the PO number on the first invoice."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Finance owns the terms, legal just wants to know if they can leave the language in. I don't need anything fancy, just approve net-60 for the first year or tell me no so I can go back with net-45."
+      "text": "Yep, PO is NS-4472. They also asked if we can keep the same service language, no new security addendum unless legal requires it."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "I'll message Maria in finance and copy you. If she approves, can you get procurement the final order form same day?"
+      "text": "I think that's fine. Put the 15% ask in as optional, but send them the 12% version if approval drags."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep. Order form is already drafted in the CRM, effective April 30, 12-month term, auto-renew off. I just need to update the payment terms field and attach the services SOW."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Okay, send me the account notes and the invoice numbers. I'll push on it before their 2 p.m. cutover meeting."
+      "text": "Makes sense. I'll have a draft to you by end of day, and if deal desk clears it tomorrow, customer gets it Thursday morning."
     }
   ]
 }

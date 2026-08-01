@@ -3,7 +3,7 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "customer"
+    "colleague"
   ],
   "date": null,
   "account_id": null,
@@ -12,52 +12,42 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout plan for the 38 seats and make sure procurement has what they need before the May 15 go-live."
+      "text": "Yeah, so Quicklane is asking for the 18-month extension today if we can get it. They’re at 42 seats now, want to add 13 on March 1, and keep the support add-on. Renewal value is like $68,400 before the add-on discount."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Yep. We’re still at 38 seats for launch. There may be another 6 from the support team in Q3, but I don’t want those on the initial order."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Totally. I have the quote set up as 38 annual seats at $72 per user per month, billed annually, so $32,832 before tax. The additional seats would just prorate if you add them later."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Okay. On billing, can the invoice reference PO 45127 and split the line items between software and implementation? Finance asked for that."
+      "text": "Okay, that’s the one with the invoice issue from December, right? They said PO has to match the legal name exactly."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, that’s fine. I’ll note the PO in the billing tool and have implementation as a separate $4,500 line item. Same invoice, just two lines."
+      "text": "Exactly. And this is where I’m losing my mind a little. To get them a clean proposal, I had to update the account name in the CRM, then type the same seat count and dates into the pricing sheet, then retype it into the quote form, then open the billing tool and enter the billing contact and PO notes again, then send the discount through deal desk with the same start date, end date, product lines, and totals. Deal desk kicked it back because the billing tool rounded the prorate two dollars different, so I had to go back through the whole thing. This was like three hours yesterday and another hour this morning for a pretty normal extension."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Great. And contract term is June 1 through May 31 next year, correct? Even if we go live May 15?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Correct. We’ll use May 15 for onboarding access, but the subscription term starts June 1. That gives your team the two-week setup window at no charge."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Works for me. Legal had one small comment on the data retention language, but they said your last redline was acceptable if you add the 30-day export period."
+      "text": "Ugh, yeah. For the two-dollar variance, just put a note in the approval that billing is source of truth. Who’s approving, Maya?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I saw that note. Deal desk approved the 30-day export language this morning, so I’ll send the updated order form and agreement by 2 p.m. Eastern."
+      "text": "Maya and legal, yeah. Discount is 8%, so not crazy. Legal only cares because they want net 30 to stay and no auto-renew language changed."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Perfect. If I have that today, I can route for signature tomorrow and target invoice processing by Friday."
+      "text": "Customer needs signature by when?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Their ops lead said Friday, February 16, because their finance batch closes Monday. If we miss it, go-live for the 13 extra users slips to April 1, and they were pretty clear that’s bad for their warehouse rollout."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. Send me the latest PDF and the approval note. I’ll sanity check the seat math and ping Maya if it’s still sitting after lunch."
     }
   ]
 }

@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final scope so I can get the order form cleaned up today. I have you down for 42 user seats, plus the onboarding package, with a target go-live of May 20th. Is that still right?"
+      "text": "Yeah, thanks for making the time, Dana. Quick apology on the slow follow-up from Monday. I lost almost the whole afternoon typing call notes into the CRM, fixing duplicate account records, and pulling together the deal desk packet, and it honestly crowded out the time I should have spent talking with you and the other buyers. So, not ideal. I did get the revised quote ready for 38 seats."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that’s right. We may add three more seats in Q3, but for the initial contract 42 is the number. And May 20th is still the date we’re planning around."
+      "text": "Okay, appreciate it. The 38 seats is right for the first phase. We may add 12 more in November, but finance only approved the initial group for now."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. On pricing, the annual subscription comes to $38,640, and onboarding is a one-time $4,500. So total first-year invoice would be $43,140 before tax, billed annually."
+      "text": "Got it. For 38 seats, the annual subscription is $46,740, with implementation at $6,500 one-time. If you add the 12 seats later, those would prorate through the same June 30 term end."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Can you make sure the invoice references PO 7816? Our AP team will kick it back if that’s missing."
+      "text": "That term end matters. Our procurement team wants everything aligned to June 30. Can you make the invoice dated August 1 but payment due net 45?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I’ll add PO 7816 to the billing notes and the order form. For contract term, we discussed 12 months starting May 1st, with service access opening once implementation starts. Does that work?"
+      "text": "Yes, net 45 is fine. I can set the start date as August 1, invoice date August 1, due September 15. Go-live would be August 26 if we get signature by July 24."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes. Legal was fine with the 12-month term. The only thing they asked is that auto-renewal notice be 60 days instead of 30."
+      "text": "That timeline works. Legal had two comments: they want mutual indemnity language left as-is, and they asked for a 30-day termination right if the uptime SLA is missed twice in a quarter."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I already had deal desk approve the 60-day notice language, so I’ll include that version. No change to pricing or payment terms."
+      "text": "On the indemnity, no issue. On termination for SLA misses, I’ll need to route that through deal desk. Just being transparent, my mornings this week have been getting eaten by clerical stuff — updating pipeline stages, tidying required fields in the database, and assembling internal approval forms — and it cuts directly into the hours I’m supposed to be on buyer calls. I’ll still get this routed today, but I may send the redline late afternoon."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. And onboarding, that includes the two admin trainings and the data import help, right?"
+      "text": "Okay. If you can send it by 5:00 Eastern, I can get our counsel to review tomorrow. We’re trying to avoid this slipping into August."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. Two 90-minute admin sessions, one end-user kickoff, and up to 20 hours for the data import. If we need more than that, we’ll flag it before anything billable happens."
+      "text": "Understood. I’ll send the redline and the quote together. The quote will show 38 seats, $46,740 annual, $6,500 implementation, August 1 start, June 30 end, net 45 payment terms."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Send the order form to me and copy Marcus from procurement. If we get it today, I can probably turn signature by Friday."
+      "text": "Good. Also please include the purchase order number field blank. AP won’t issue the PO until after legal signs off, but they want the field visible."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send it this afternoon, and once it’s signed I’ll introduce you to the implementation lead so we can lock the May 6th kickoff."
+      "text": "Yep, I’ll leave the PO field blank and visible. I’ll email everything today, and then we can hold 20 minutes Friday at 11:30 to confirm procurement status."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Friday at 11:30 works. Thanks."
     }
   ]
 }

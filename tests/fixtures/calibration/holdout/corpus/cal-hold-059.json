@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout scope before I send the order form over. I have 42 standard seats and 6 admin seats, with the data import service included. Is that still right?"
+      "text": "Hi Dana, yeah, thanks for making the time. I wanted to walk through the renewal quote for 72 seats and the add-on reporting package before I send the order form."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that matches what I have. The only thing is finance asked if the 6 admin seats are priced differently or if they're just permissions."
+      "text": "Sure. We’re at 68 active users today, but finance approved 72 for the new support team. I just need the annual number to match what we budgeted."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Good question. They're just permissions, so all 48 seats are at the same rate. On the pricing sheet that's $74 per seat per month, billed annually, so the subscription total is $42,624 for the year."
+      "text": "Got it. The pricing sheet has the platform at $38,880 annually for 72 seats, and the reporting package is $6,400. With the 8% renewal discount, total comes to $41,658 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that helps. And the import service was the one-time $3,200, correct?"
+      "text": "Okay, that’s close. Last invoice was quarterly though. Are you assuming annual upfront?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. So all-in year one is $45,824 before any applicable tax. Year two would just be the subscription unless you add more services."
+      "text": "Yes, the draft is annual upfront starting August 15. Sorry I was slow getting it over yesterday, my afternoon got swallowed by updating CRM records and cleaning up deal desk paperwork, so I had less time than I wanted for customer calls."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Got it. We need the invoice dated after March 1 because that's when the budget opens. Can you still hold the April 15 go-live?"
+      "text": "No problem. Annual upfront is fine if the invoice can be dated after August 1. Our AP team won’t process it before then."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so if we get signature by March 4, we can start kickoff the week of March 11 and still target April 15. The import usually takes about 10 business days once you send the CSV exports."
+      "text": "Yep, I can set the billing tool to generate it on August 2. Payment terms stay net 30, and the service dates would run August 15, 2026 through August 14, 2027."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That should work. Legal had one comment on the auto-renewal. They want 60 days' notice instead of 90. Is that okay?"
+      "text": "Good. One more thing: can we keep the same uptime language from the current contract? Legal already approved that version in May."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I checked with deal desk this morning. We can do 60 days' notice, no issue. I'll update that in the contract terms before sending."
+      "text": "Yes, I’ll keep the existing service terms and only update the seat count, pricing, and dates. No change to the SLA language."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send it to me and copy our AP alias. If everything looks right, I'll route it for signature tomorrow."
+      "text": "Great. Send it to me and copy Marcus in procurement. If it matches what you said, I can get signature by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I'll send the order form and invoice preview by 3 p.m. today, and I'll include the implementation timeline in the same email."
+      "text": "Will do. I’ll send the order form today with the August 2 invoice note and 72 seats listed. Thanks, Dana."
     }
   ]
 }

@@ -3,66 +3,71 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so Northstar is still at 68 seats for phase one, with 12 more penciled in for October. They want the services line split out on the order form, $7,400, because procurement tracks that separate."
+      "text": "Yeah, thanks for making time, Dana. I pulled up the quote we discussed: 42 user seats, the implementation package, and the standard support plan. Total comes to $38,760 for a 12-month term starting June 1."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Got it. Are they still asking for the September 3 go-live, or did they move that after the admin training note?"
+      "text": "Yep, that matches what I had. The only thing I need to confirm is whether those 42 seats can be split across our operations and finance teams, or if they all need to sit under one admin."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Still September 3. The only thing, I'm still pinging legal for the data addendum sign-off; Northstar won't countersign until that lands, so the order's just sitting right now."
+      "text": "They can be split. You’ll have one primary admin, but we can set up department groups for operations and finance during onboarding. No extra cost for that."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay. On pricing, I saw 18 percent in the CRM. Is that the final, or are we holding at 15?"
+      "text": "Okay, good. And for invoicing, can you do annual upfront, but send the invoice after May 20? Our current budget cycle closes that week."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Eighteen is what we talked through with Dan. I've nudged deal desk twice for the discount approval, because I can't send the final quote without it and they're waiting on that version to open the PO."
+      "text": "Yes, that’s fine. I’ll note invoice to be issued May 21, net 30. So payment due June 20. Does that work with procurement?"
     },
     {
-      "speaker": "Evan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Makes sense. Billing-wise, they asked for net 45 and annual upfront, right?"
+      "text": "It should. They may ask for the order form by this Friday, though, because legal only meets on Tuesdays."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yep, annual upfront, $52,680 software, plus the services line. Also, can you help push finance on the tax treatment for the Canadian subsidiary? I asked Monday and again this morning; procurement won't release the PO until they get that answer."
+      "text": "Got it. I can get the order form out today. The terms are our standard 12-month agreement, auto-renewal with 60 days’ notice, and the data processing addendum attached."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, I'll send a note after this. Anything weird in the terms, auto-renewal or termination?"
+      "text": "On auto-renewal, can we make the notice period 45 days? That’s what our template usually allows."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Nothing weird. One-year initial term, auto-renewal at 12 months, 30-day notice. They accepted the uptime language after we clarified the maintenance window."
+      "text": "Yeah, that’s a reasonable redline. I’ll send that through deal desk, but I don’t expect an issue. It may take a day to turn."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Cool. Once those pieces come back, you should be able to get it into signature today?"
+      "text": "Perfect. Last thing, we’re targeting a July 8 go-live. Is that still realistic if we sign by May 31?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "That's the plan. I already have the order form drafted in the CRM, just need to swap in the final quote and attach the addendum before I send."
+      "text": "Yes. With signature by May 31, kickoff the week of June 3, configuration and data import in June, July 8 is realistic. I’ll include that project timeline in the email."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it over to me and copy Marcus from procurement. I’ll route it internally once it lands."
     }
   ]
 }

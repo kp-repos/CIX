@@ -3,66 +3,61 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "customer"
+    "colleague"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Alex",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final seat count and the go-live date so I can get the order form cleaned up today."
+      "text": "Yeah, so quick check on the Northstar renewal. They want to add 18 seats and move the go-live for the new workspace to March 11. Are we still holding at $42,600 for the year?"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Priya",
       "ts": null,
-      "text": "Sure. We’re at 42 standard seats and 6 admin seats. That should cover the operations team plus the three managers starting next month."
+      "text": "That's what I have in the CRM, yeah. The issue is not pricing, it's the security addendum. Legal has had their redlines since last Tuesday, and finance is waiting on legal before they'll approve the invoice split."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Alex",
       "ts": null,
-      "text": "Got it, 48 total. And you were still targeting May 20 for go-live, right?"
+      "text": "Right, and I've pinged legal every day. I emailed Dana twice, posted in the contract channel, and left a note on the ticket. Then I nudged finance because Northstar asked for two invoices, one for $28,400 now and one for $14,200 on July 1, but finance won't sign off until legal answers the data retention clause. So the whole thing is just sitting there."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Priya",
       "ts": null,
-      "text": "Yes, May 20. We’d like training the week before, ideally May 14 or 15, two sessions if possible."
+      "text": "Yeah, I saw your notes. It's stalled until that answer comes back. Did Dana give any ETA at all, even like end of week?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Alex",
       "ts": null,
-      "text": "That works. I’ll hold May 14 at 10 a.m. Central and May 15 at 2 p.m. Central. On pricing, the annual total is $31,680, and implementation is the one-time $4,500 we discussed."
+      "text": "She said Friday morning, but that was Friday morning. I followed up again at 9:15 today and got the, uh, checking with privacy response. Northstar's procurement guy is asking if we can still keep the April 30 termination for convenience language out."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Priya",
       "ts": null,
-      "text": "Okay. Can you split the invoice so implementation is billed on signing and the subscription starts June 1?"
+      "text": "Okay. Don't promise that yet. If privacy is the blocker, maybe ask Dana if a 24-month retention cap solves it. That's usually the middle ground."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Alex",
       "ts": null,
-      "text": "Yep, we can do that. I’ll note subscription term June 1, 2026 through May 31, 2027, and the implementation invoice due net 30 from signature."
+      "text": "Makes sense. Customer's pretty calm, they just need the paperwork by Wednesday because their PO batch closes at 3 p.m. Central. If we miss that, they said it rolls to next Friday."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Priya",
       "ts": null,
-      "text": "Perfect. Legal also asked if the renewal notice can be 60 days instead of 30."
+      "text": "Got it. Once legal clears it, deal desk can turn the order form same day, right?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Alex",
       "ts": null,
-      "text": "Yes, that’s within our standard range. I’ll update the renewal notice to 60 days and send it through deal desk before I send the final copy."
+      "text": "Yeah, I already filled the request. Start date March 1, 62 total seats, annual billing, net 30. No discount change."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Priya",
       "ts": null,
-      "text": "Great. If you can get it over by tomorrow morning, I can route it for signature before our Friday cutoff."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. I’ll send the revised order form and invoice schedule by 10 a.m. Eastern tomorrow."
+      "text": "Okay. Send Dana one more clean note with the exact clause and the Wednesday deadline. Copy me, and I'll reply if it gets quiet by noon."
     }
   ]
 }

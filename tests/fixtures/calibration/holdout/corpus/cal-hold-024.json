@@ -12,52 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for jumping on, Dana. I wanted to tighten up the last few items before kickoff Monday. I have 82 seats, first-year total at $38,540, and target go-live November 18."
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the updated quote for 42 seats, confirm the July 15 go-live, and make sure the invoice setup matches what your finance team asked for."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That all sounds right. Before we get too far, the kickoff agenda I got this morning says password login for the pilot, but we agreed security would only approve SSO and SCIM before users get access on November 4."
+      "text": "Yep, that works. I reviewed the quote this morning. The seat count is right for phase one. We may add another 8 or 10 in October, but 42 is the number for now."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "You're right, I see that in the CRM from the August 29 call. Sorry, that did not make it into the implementation notes. I'll update the handoff today and have the coordinator send a revised agenda by 3:00."
+      "text": "Perfect. So the annual subscription is $31,080, billed annually, and the implementation package is $4,500 one time. I also added the standard admin training, two sessions, no extra charge."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. I just don't want my IT lead walking into kickoff and finding out it's a different setup."
+      "text": "Okay. On the implementation fee, can that be invoiced separately from the subscription? Our operations budget covers that, but the license fee comes from IT."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Totally fair. I'll also add Mark from your IT team to the invite, since he owns the identity provider piece. Anything else looking off?"
+      "text": "Yes, we can split that into two invoices. I’ll note that in the billing tool: one invoice for $31,080 to IT, one for $4,500 to operations. Same PO, or do you need separate POs?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, the invoice. We agreed on quarterly billing, net 45, but the billing tool sent the full annual amount due September 30."
+      "text": "Separate POs. I should have them by Friday. Also, we need net 30 terms, not due on receipt."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, apologies. Deal desk has the quarterly term, but billing didn't get that note. I'll have that invoice voided and reissued as four invoices for $9,635 each, first one due October 31."
+      "text": "Got it. Net 30 is already in the order form, and I’ll make sure both invoices reflect that. Contract term is July 1, 2026 through June 30, 2027, with the platform live date targeted for July 15."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Please send me that in writing because finance is already asking why the number changed."
+      "text": "That matches our timeline. Legal had one comment on the renewal language. They want 60 days notice instead of 30 for non-renewal."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I'll send a recap with the SSO requirement, the November 4 pilot access date, the 82 seats, and the corrected billing schedule."
+      "text": "Yeah, that’s fine. I’ll send that to deal desk today, but that change is usually approved without issue. I should have the revised order form back to you tomorrow afternoon."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Thanks. If we add the warehouse team in December, that's probably another 12 seats, but let's keep that out of this order for now."
+      "text": "Great. If you send it by end of day tomorrow, I can route for signature Monday and keep the kickoff on June 24."
     }
   ]
 }

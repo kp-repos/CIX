@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making the time. I had us down to cover the additional service desk seats, the April 15 go-live, and whether you want the coterm through next June."
+      "text": "Yeah, so thanks for making time, Dana. I have the 42-seat subscription scoped for your operations and finance teams, plus the standard onboarding package. Wanted to confirm the start date and billing setup before I send the order form."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s right. We’re at 48 seats today. We need 17 more for the Phoenix team, but two of those folks don’t start until May 6."
+      "text": "Sure. The seat count is right for now. We may add 6 more in Q2, but I don't want those on the initial invoice."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Okay, so 65 total, with 15 active on April 15 and the last 2 on May 6. We can set the billing that way. At the current tier, the added seats are $74 per seat per month, prorated to your June 30 renewal."
+      "text": "Makes sense. Initial order will show 42 seats only. If you add the 6 later, they'll be prorated through the same March 31, 2027 term end. No separate renewal date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Can you send me the math on that? Finance will ask why the invoice is split."
+      "text": "Okay. And the price you sent was $38 per seat per month, annual upfront, right?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep. It comes to $2,842 for the April 15 through June 30 period, then the two May seats add $272 through June 30. So the one-time prorated invoice is $3,114 before tax."
+      "text": "Correct. That's $19,152 for the seats for the year, and $4,500 for onboarding, so first invoice would be $23,652 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s fine. We also need the same net-30 terms and the PO number on the invoice. PO is PHX-4472."
+      "text": "Can we do net 45 on the invoice? Our AP team is pretty firm on that for new vendors."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. Net 30 stays as-is, and I’ll include PO PHX-4472 on the order form and invoice notes. No change to the master terms."
+      "text": "Yep, net 45 is available on this package. I'll put that in the payment terms on the order form. Billing contact is still ap@northpointfabrication.com?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. For go-live, can your team do the admin refresher on April 11? We have managers in three time zones, so 1 p.m. Central works best."
+      "text": "Yes, and copy me. For go-live, we need April 15. Is that realistic if we sign by Friday?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, April 11 at 1 p.m. Central works. I’ll put that in the order notes and send the calendar hold today with the implementation lead included."
+      "text": "Yes. If signature is in by March 8, kickoff would be March 12, data import the week of March 18, admin training March 27, and user training April 9. That supports April 15 go-live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send the order form to me and Mark Lewis for signature. If we have it by tomorrow morning, we can turn it around this week."
+      "text": "Good. Contract term is one year, no auto-renew unless we agree in writing?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. You’ll get the order form with 17 added seats, the two activation dates, net 30, and PO PHX-4472. I’ll send it to you and Mark by 10 a.m. tomorrow."
+      "text": "Right. One-year initial term, renewal by written order only. I'll send the order form with 42 seats, net 45, March 8 signature target, and the April 15 go-live plan noted."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it over and I'll route it to our controller today."
     }
   ]
 }

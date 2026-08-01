@@ -12,62 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I saw your note about adding the dispatch team. Are we still talking 38 full users and 12 view-only seats for the April 15 go-live?"
+      "text": "Yeah, thanks for making time, Dana. I have you down for 38 seats to start, with the option to add the warehouse team later. Is that still the right count for May 15 go-live?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. It was 35, but three supervisors need access too. View-only is for finance and the warehouse leads, mostly reporting."
+      "text": "That's right. Thirty-eight named users. If the pilot in Dallas goes well, we'd add 12 more in July, but I don't want those on the first invoice."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. For that mix, on an annual term starting April 1, you're at $42,600 for the full users and $4,320 for view-only, so $46,920 before tax. Billing would be one invoice due net 30 unless you want quarterly."
+      "text": "Makes sense. The order form would show 38 seats at $82 per seat per month, billed annually, so $37,392 for the first year. The additional 12 can be added later at the same unit rate through a standard add-on."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Annual is okay if the invoice can show the cost center as OPS-410 and the PO number. We should have the PO by next Friday, March 22."
+      "text": "Okay. Procurement asked about term length. We prefer a 12-month term, not 24, and net 30 on the invoice."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, we can include both on the invoice. On implementation, the standard package covers two admin sessions, one manager training, and import of your customer list and active routes. Does that match what your team needs?"
+      "text": "Yep, 12 months is fine, May 15, 2026 through May 14, 2027, net 30. No auto-renewal unless you choose to keep it, and I'll make sure the renewal notice language is clear in the agreement."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Mostly. We also need the driver certification field brought over. It's in our current export as a date field, nothing fancy."
+      "text": "Good. On implementation, we need the admin training before Memorial Day. Our operations manager is out the week of May 26."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Okay, that's included as long as it's in the template by March 27. I'll send the import layout after this call. If your team returns it by then, we're clear for testing the week of April 8."
+      "text": "Got it. I confirmed with our services lead this morning: kickoff on May 16, admin training May 21 at 1 p.m. Eastern, and end-user session May 23. Those dates will be listed in the implementation summary attached to the agreement."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Contract term is 12 months, right? Our legal team asked whether there's an auto-renewal."
+      "text": "Perfect. The only other thing is billing. We need the invoice to reference PO 44718 and list our legal entity as Northstar Packaging, LLC."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Twelve months, April 1 through March 31 next year. The order form has a 30-day renewal notice window, no multi-year commitment. If you'd rather remove auto-renewal, I can use the standard non-renewing version."
+      "text": "No problem. The order form will use Northstar Packaging, LLC, PO 44718, and the billing contact as ap@northstarpackaging.com. I'll send it over today for signature, and once it's signed you'll get the kickoff calendar invite the same day."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Use the non-renewing version, please. That keeps procurement happy."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. I'll send the order form today with 38 full seats, 12 view-only, annual billing, net 30, OPS-410, and the April 15 target go-live. Anything else you want reflected?"
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "No, that's it. Send it to me and copy Marcus in procurement. If the pricing matches what you just said, I can route it Monday."
+      "text": "Sounds good. Send it to me and copy Marcus in procurement. If the numbers match what you just said, we should be able to sign by Friday."
     }
   ]
 }

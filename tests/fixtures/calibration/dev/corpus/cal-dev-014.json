@@ -10,54 +10,44 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so quick one on Northgate Parts. I was updating the CRM and the 42-seat services package is still showing active at $3,850 a month, but the term end is this Friday, August 9."
+      "text": "Yeah, so quick one on Northstar. The billing tool has their May order form through 7/31, 42 seats, and support is asking whether those stay enabled for August. I don't see another order in the CRM; last customer note is the June 12 training recap."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Wait, this Friday? I thought that renewal was in September."
+      "text": "Okay. What's their usage look like? Are they actually in there or is this one of those shelfware accounts?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "No, that's the support uplift. The actual agreement ends August 9, and I don't see any notes, emails, calls, anything showing that we've talked to them about continuing. Like, nobody from our side has had the carry-on conversation, and we're four days out."
+      "text": "Pretty active. Thirty-six of the 42 logged in last week, and they ran 18 exports from the analytics module. Main admin is Priya Shah, finance ops."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Oh, that's not good. Did the CSM have a checkpoint with Dana over there?"
+      "text": "Got it. Any invoice noise?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "I checked the notes. Last client touch was June 18 about invoice PO-4471 being split across two cost centers. Nothing on renewal, extension, month-to-month, none of it."
+      "text": "Nothing open. They paid the $18,900 invoice on June 28, terms were net 30. There was a question about the PO number, but AR fixed it."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Okay. We need to get in front of it today. Their go-live for the warehouse add-on is still October 1, right?"
+      "text": "Alright. If support needs an answer, tell them keep it normal for now. Can you pull the current pricing sheet for 42 and 50 seats, just in case they ask about adding the AP team?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, 8 warehouse seats and the API connector. Pricing sheet has it at $14,600 annual net if they co-term it, but we can't even talk pricing until someone acknowledges the contract is basically expiring."
+      "text": "Yep. List is $54 per seat monthly, but their current rate is $45. If we hold that, 50 seats is $27,000 annually before tax."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "I'll ping deal desk for a 30-day bridge option, just in case procurement needs time. Can you call Dana and copy me on the follow-up?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Yep. I'll keep it simple: current term ends Friday, we want to avoid service disruption, propose either the 30-day bridge at the same monthly rate or a 12-month renewal with the warehouse add-on."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Good. Also pull the last invoice from the billing tool so we're not guessing on totals if she asks."
+      "text": "Cool. Put that in the account notes and ping deal desk if they need paper today. I'll check the territory calendar after my 2:30."
     }
   ]
 }

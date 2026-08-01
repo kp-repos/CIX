@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I pulled up the quote in the CRM. We’re at 84 seats for the operations team, annual term starting August 15, and the implementation package is the standard 40 hours."
+      "text": "Yeah, thanks for making time, Karen. I pulled up the quote in the CRM. We’ve got 42 user seats, the implementation package, and the reporting add-on, with a target go-live of September 16."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That sounds right. The only change on our side is finance asked if the invoice can split the subscription and services into two lines, not two separate invoices, just two lines."
+      "text": "That matches what I have. The only thing I wanted to double-check is the seat count. We may need 45, but three of those would be read-only managers."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, that’s easy. I’ll note that in the billing tool. Subscription would be $48,720 for the year, and services are $6,400 one-time. Same invoice, two line items."
+      "text": "Yep, so the pricing sheet has read-only seats at $18 per user per month, versus $64 for full users. If we change it to 42 full and 3 read-only, the annual total comes to $34,848 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the go-live date we’re targeting is still September 30. Is that realistic if we sign by next Friday, August 9?"
+      "text": "Okay, that’s within the range finance approved. Can you also confirm the invoice timing? We need the first invoice after July 1, not before."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, if we have signature by the 9th and your admin list by the 14th, we can start kickoff the week of August 19. That gives us about six weeks, which is normal for this size."
+      "text": "Absolutely. I’ll set the billing start date as July 1 in the billing tool, net 30 terms. So the invoice would generate July 1 and be due July 31."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Legal had one comment on auto-renewal. They’re fine with annual renewal, but they want 60 days’ notice instead of 90."
+      "text": "Good. And implementation is still four weeks? Our ops team wants training done before Labor Day."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. That’s within our standard fallback. I’ll send it to deal desk today, but I don’t expect any issue. Everything else in the order form stays the same."
+      "text": "Correct. If we get signature by June 21, kickoff would be June 26, configuration in July, user training the week of August 19, and then go-live September 16. There’s a little buffer in there."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Also, can we add five more seats mid-year if the warehouse supervisors come on later?"
+      "text": "That works. On the contract, our legal team asked for a one-year term with a 60-day renewal notice. Is that in the draft?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so additions are prorated through the end of the term. If you added five seats on January 1, it’d be roughly $1,450 for the remaining term, depending on the exact date."
+      "text": "It is now. I updated the order form to a 12-month initial term and 60 days’ notice before renewal. I’ll send that through deal desk today for the standard review."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Makes sense. Send the revised order form when you have it, and I’ll route it for signature."
+      "text": "Perfect. Send me the revised quote and order form, and I’ll route it to procurement this afternoon."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll get the split line items and 60-day notice updated, and you should have the clean order form by tomorrow morning."
+      "text": "Will do. You’ll have the revised documents by 2:00 Eastern, and I’ll include the implementation timeline in the email so procurement has everything in one place."
     }
   ]
 }

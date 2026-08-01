@@ -10,54 +10,59 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Hi Mark, yeah, we have about 18 minutes. I wanted to confirm the 72 seats, the onboarding date, and whether the invoice can split across two cost centers."
-    },
-    {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, appreciate it. And sorry I was slow getting the revised numbers over. Honestly my day yesterday got eaten by clerical stuff: typing call records into the CRM, fixing account and contact fields in the database, and assembling the deal desk packet for approvals. It was like four and a half hours of internal cleanup, which is time I should've been spending on calls like this with buyers. So, not ideal, but I do have the pricing sheet up now."
+      "text": "Yeah, thanks for making time, Dana. I had us down to confirm the seat count, invoice timing, and the March go-live. Does that still match what you want to cover?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. We just need clean numbers. The budget owner approved up to $41,000 for year one if implementation is included."
+      "text": "Yep, that's right. We’re at 42 users for launch, and then probably another 8 in June if the operations team likes it."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. For 72 seats, annual subscription is $34,560. Implementation is $5,800 if we target a June 24 go-live. So total year one is $40,360 before tax, and renewal would drop to the subscription amount unless you add seats."
+      "text": "Okay, so 42 seats on the initial order. The pricing sheet has you at $84 per user per month on annual terms, so that’s $42,336 for the year before tax. Does that line up with what procurement is expecting?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. On the invoice, can you put 50 seats under Operations and 22 under Support? Same contract, just two invoice lines."
+      "text": "It does. They asked if the invoice can be dated February 15 but due net 30, because our budget opens that week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can do two invoice lines under one agreement. Payment terms are net 30. Start date would be June 1, with go-live support through June 24."
+      "text": "Yeah, we can do February 15 with net 30. I’ll note that in the CRM and have billing generate it after signature, not before."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Can you send that today? Our finance team meets at 3:30 Eastern, and if they don't see it, it slips a week."
+      "text": "Good. On the agreement, we need the start date to be March 1, not the signature date. Legal flagged that in the draft."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, I'll send it before 2:00 Eastern. I'm just going to be direct: this is the second day where the admin load is crowding out actual selling time. I still have to re-key the seat split into the CRM, tidy the billing fields so the invoice doesn't bounce, and attach the internal approval notes before the order form can go out. That's the kind of clerical work that ends up taking the afternoon, and it means fewer live conversations with customers. But your file is next, and I'll get it done."
+      "text": "Understood. I’ll have deal desk update the service start date to March 1 and keep the term through February 28 next year. No change to the commercial terms."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Understood. Please make sure the term says 12 months, no auto-renewal unless we approve in writing. Legal was firm on that."
+      "text": "Perfect. And implementation is still the week of March 4? We need admin training before the warehouse managers get access."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, 12-month initial term, no auto-renewal without written approval, net 30, two invoice lines, 72 total seats. I'll send the order form and the implementation summary in one email before 2:00."
+      "text": "Yes. We’ve got admin training penciled in for March 5 at 11 a.m. Eastern, then end-user sessions on March 7 and 8. If you send the user list by February 23, we’ll load everyone ahead of time."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, I can get that over by then. Send me the revised order form today and I’ll route it for signature."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You’ll have the updated order form and contract redline by end of day. Once it’s signed, I’ll introduce the implementation lead and confirm the kickoff invite."
     }
   ]
 }

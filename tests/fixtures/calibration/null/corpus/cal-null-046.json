@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hey Mark, thanks for making time. I had us down to review the 42-seat renewal and the 18 additional seats for the operations team, starting March 1. Is that still the right count?"
+      "text": "Hi Dana, yeah, thanks for making time. I’ve got the updated order in front of me: 42 seats, annual term starting March 1, and the services package for the data calibration work. Does that still match what you need for the rollout?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, that's right. We have 42 current users, and 18 more for dispatch and scheduling. So 60 total. I just need the invoice to break out the added seats, if possible."
+      "text": "It does. The only thing I wanted to confirm is billing. Finance wants one invoice for the software and services together, not split across two POs."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, we can show the renewal line and the expansion line separately. Same product package as today, plus the reporting module you trialed last month. The annual total comes to $38,400 before tax, net 30."
+      "text": "Yep, we can do that. The quote shows one invoice for $38,760, net 30, tied to PO 4479. I’ll include that language in the order form so it’s clear."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And that includes the reporting module for all 60 users, not just the new group?"
+      "text": "Okay. And the go-live date is still April 15? Our plant managers are planning around that week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, all 60. The pricing sheet has it bundled across the full seat count. Your current term ends February 28, so the new term would be March 1, 2026 through February 28, 2027."
+      "text": "Correct. We have kickoff on March 6, data review by March 20, and user training on April 8 and 9. April 15 is the target go-live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. We need access for the new users by March 4, because training is on the 5th. Is that realistic?"
+      "text": "Good. On training, can we have two admin seats included for our quality team, or are those part of the 42?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so if we get the order form signed by February 23, onboarding can have the seats provisioned by March 2. I’ll include that target date in the notes on the order form."
+      "text": "They’re included in the 42. The breakdown is 34 standard users, 6 managers, and 2 admins. If that changes before launch, just send me the final names by March 29."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Billing should go to ap@northlakeparts.com, and please copy me and Jenna. PO number is 47186."
+      "text": "That works. Legal had one comment on the auto-renewal clause. They’re okay with renewal, but they want 60 days’ notice instead of 90."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it: AP address, copy you and Jenna, PO 47186. One more thing, do you want the invoice issued on signature or on March 1?"
+      "text": "That’s fine. It’s within our standard terms, so I’ll send the order form with the 60-day notice language today."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "On March 1, please. Finance prefers it tied to the service start date."
+      "text": "Perfect. If you get that over by noon, I can route it for signature this afternoon."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No problem. I’ll send the order form this afternoon with the March 1 invoice date and the net 30 terms. Anything else you want reflected before I send it?"
+      "text": "Will do. You’ll have it before noon, and once it’s signed, I’ll send the kickoff invite with the project lead copied."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "No, that covers it. Send it over and I’ll route it for signature today."
+      "text": "Great. Thanks, Mark."
     }
   ]
 }

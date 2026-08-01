@@ -3,61 +3,66 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so quick check on the Ridgeway account. They’re still at 68 seats, annual, $54,400 net, and they want the April 15 go-live held if we can get paper done this week."
+      "text": "Yeah, thanks for making time, Priya. I’ve got about 25 minutes before I’m back in the CRM cleaning up quarter-end records, so I want to use this for your seat count and go-live questions."
     },
     {
-      "speaker": "Ben",
+      "speaker": "Customer",
       "ts": null,
-      "text": "I saw the note in the CRM. Is the only open item still the data retention language?"
+      "text": "Works for me. We’re still at 84 seats for launch, but finance asked what happens if we add 12 more in November."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yes. Their legal redlined section 8.3 to say 30 days after termination, and we already agreed commercially. But our security team has not signed off on the wording, so the deal is just sitting. I pinged the security alias Monday, I messaged Dana yesterday morning, I sent the thread again to legal ops this morning, and I put a comment in the contract request. Like, I’m nudging three different groups and Ridgeway won’t countersign until we answer that one sentence."
+      "text": "For 84 seats, annual is $52,920. If you add 12 in November, we prorate through the February 28 renewal, so it’s about $3,150 extra, depending on the exact start date."
     },
     {
-      "speaker": "Ben",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Got it. That’s annoying. Is there any actual risk or is it just matching what we do operationally?"
+      "text": "Okay. And the invoice, can that be split by department? Our ops team takes 50 seats and support takes 34."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "From what I can tell, it matches the standard deletion process. The customer just wants it written in the order form, not buried in the policy link."
+      "text": "Yes, we can do two invoice lines under the same contract. Sorry the pricing sheet came over late yesterday; I spent the morning re-keying account data in the billing tool, but the totals on that sheet are current."
     },
     {
-      "speaker": "Ben",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay. I can ask deal desk to keep the quote open through Friday. It expires April 5 in the billing tool, but that’s easy if pricing isn’t changing."
+      "text": "No problem. Legal had one note on the auto-renewal. They want 60 days’ notice instead of 30."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Thanks. The buyer, Jenna, also asked if invoice can list the 42 customer service seats separate from the 26 manager seats. Same total, just cleaner for their cost centers."
+      "text": "That’s usually fine for a 12-month term. I’ll mark 60 days in the order form and send the redline back today."
     },
     {
-      "speaker": "Ben",
+      "speaker": "Customer",
       "ts": null,
-      "text": "That’s fine. Put it in billing instructions, not the order form. Finance can split the memo line."
+      "text": "Good. Our target go-live is September 16. Is onboarding still four weeks?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I’ll tell Jenna we’re holding the commercial terms and waiting on the final clause review. I don’t want to promise signature today."
+      "text": "Yeah, if we have signature by August 12, we can start kickoff on August 19 and hit September 16. If we can wrap by 2:40, I need to assemble the approval packet for deal desk, then I’ll get you the final version."
     },
     {
-      "speaker": "Ben",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, say we’re targeting end of day tomorrow. If security clears it, send me the final PDF and I’ll double-check the seat table before it goes out."
+      "text": "That timing works. Send the final order form with 84 seats, split invoice lines, 60-day notice, and the September 16 go-live called out."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it by end of day, and if finance needs the prorated add-on example in writing, I’ll include that as a note."
     }
   ]
 }

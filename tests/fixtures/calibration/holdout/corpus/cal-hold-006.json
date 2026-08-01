@@ -3,61 +3,71 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Hey Jordan, quick gut check on Northline. I’m cleaning up the forecast and their expansion is still sitting at 12 seats, $18,720 annual, close date August 14."
+      "text": "Yeah, thanks for making time, Karen. I pulled up the order form draft. We have 42 seats, annual term starting July 15, and the services package for the initial setup. Does that line up with what you were expecting?"
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, I saw that. They asked for 10 ops seats and 2 manager seats, right? Same package they already have, just adding the workflow module."
+      "text": "Yes, mostly. We may need 45 seats instead of 42. Finance added three managers who want dashboard access, but they won’t be heavy users."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Correct. Their current agreement ends this Friday, and I don’t think anyone on our side has talked to them about carrying on yet, so I want to get the paper aligned before it gets weird."
+      "text": "Got it. For 45 seats, the subscription moves from $38,640 to $41,400 for the year. Same per-seat rate, no change to the services line. I can update that in the CRM after this call."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Do they need a full order form or can we do the add-on quote from the pricing sheet?"
+      "text": "Okay. And the services piece is still $6,500, right? That includes the two training sessions?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Deal desk said full order form because the workflow module changes the product schedule. No legal redlines expected, but procurement wants the invoice split quarterly."
+      "text": "Correct. $6,500 flat. That covers the kickoff, configuration support, and two 90-minute trainings. If you want a third session later, it would be quoted separately, but most teams your size are fine with two."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Quarterly is fine. Billing tool can do four invoices, first one on go-live. Did they confirm September 3 for go-live?"
+      "text": "That should be fine. On invoicing, can you split it so the subscription is due at signature and the services are billed on August 1? Our implementation budget opens then."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, September 3. They have training penciled in for September 5 and 6, six people per session. Customer success already has the kickoff template ready."
+      "text": "Yeah, we can do that. I’ll note subscription invoiced on signature, services invoiced August 1 with net 30 terms. Legal usually approves that without an issue."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Good. Any discount pressure?"
+      "text": "Great. We’re targeting go-live on September 9. Is that realistic if we sign by July 12?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Not really. I put 8% in because that matches last year’s rate card exception. Total comes to $17,222 after discount, before taxes."
+      "text": "Yes. If signature is in by July 12, we can schedule kickoff the week of July 22. That gives us about seven weeks, which is comfortable for your data volume and the three workflows you outlined."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Works for me. Send me the order form before noon, I’ll do a quick pass, then you can send it to Kim and their finance alias."
+      "text": "Okay. Send the revised order form with 45 seats and the split invoicing language. I’ll route it to procurement today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it by 2:00 p.m. Central. I’ll also include the implementation summary so procurement has the scope in one place."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. If they have questions on the payment terms, I’ll loop you in. Thanks."
     }
   ]
 }

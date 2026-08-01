@@ -1,6 +1,6 @@
 {
   "id": "cal-dev-038",
-  "source_type": "transcript",
+  "source_type": "email",
   "participants": [
     "rep",
     "customer"
@@ -12,62 +12,47 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the numbers before I send the order form through deal desk. We have 48 standard seats and 6 admin seats, annual term starting September 1, correct?"
+      "text": "Hi Maya,\n\nFollowing up on the calibration workspace quote for the three plants. Current draft is 48 seats, annual term starting July 15, with implementation at $6,000 one-time. Total subscription is $51,840 for year one.\n\nI also attached the rollout checklist for the lab leads.\n\nBest,\nEvan"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. We may add two more admins later, but for the initial rollout it's 54 total. The team wants access for UAT by August 18 if possible."
+      "text": "Hi Evan,\n\nThanks. We are closer, but I need to keep this under $45k if possible. Finance is also asking whether the 48 seats can be split 20/16/12 by site for the invoice coding.\n\nGo-live target is still 8/5, assuming IT gets the SSO info this week.\n\nMaya"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, that works. We can set up the sandbox next week, and then production access on September 1. The pricing sheet has standard seats at $84 per user per month and admin seats at $112, billed annually."
+      "text": "Yeah, so the seat split is fine. We can show 20 for Dayton, 16 for Mesa, 12 for Allentown on the order form and still keep one admin console.\n\nOn timing, if we have signature by 6/28, our services team can hold the 7/22 kickoff and the 8/5 go-live should be okay."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the services line, that was $7,500 for onboarding and two workflow sessions?"
+      "text": "That works on the sites.\n\nCan you confirm what the actual year-one number would be? I have a budget review at 2 pm today and need one number, not list plus assumptions."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. That's a one-time implementation fee. It includes the kickoff, data import support, two workflow workshops, and admin training. If you need extra sessions, those are $1,250 each, but they're not required."
+      "text": "Per our text thread, we can do $42,900 for year one on the 48 seats, provided signature is in by Friday. I’ll get deal desk cleaned up after and have the paperwork match that number before it goes to billing.\n\nImplementation stays at $6,000, so the combined first invoice would be $48,900 plus applicable tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Got it. On payment terms, our finance team asked for net 45. I think your draft said net 30."
+      "text": "Ok, use that.\n\nPlease make the first invoice due net 30 from 7/15, not from signature date. Also add our PO number 78441 when you send the final."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so standard is net 30, but net 45 is fine for your account size. I'll update that before I route it. Invoice will go out on signature, due 45 days from invoice date."
+      "text": "Got it. I’ll set subscription start to 7/15, invoice terms net 30, PO 78441, and the site allocation as noted.\n\nDo you want procurement or legal as the signer? Last time Jamie signed the pilot amendment."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Also, can the contract list Maple Ridge Holdings as the billing entity? The users are at Northstar Clinics, but AP needs the parent company name."
+      "text": "Jamie can sign. Copy procurement on the envelope though: procurement@northfieldlabs.example.\n\nIf you can send by noon tomorrow, I can get it in the Friday batch."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No problem. I'll put Maple Ridge Holdings as the bill-to and Northstar Clinics as the service entity. I'll also add the PO field as optional since you said the PO won't be ready until late August."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Yes, please. If you can send the order form today, I can get legal to do a quick review. We're trying to sign by Friday the 9th."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "I'll send it by 3:00 eastern today. Once it's signed, customer success will reach out within one business day to schedule kickoff. Anything else you want reflected before I submit it?"
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "No, that covers it. Send it over and I'll keep an eye out."
+      "text": "Will do. I’ll send the order form tomorrow morning with Jamie as signer and procurement copied.\n\nImplementation kickoff remains held for 7/22 pending signature."
     }
   ]
 }

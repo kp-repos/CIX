@@ -12,52 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hey Dana, yeah, thanks for making time. I wanted to check the final seat count before we send the revised order form. I have 84 full users and 19 read-only, with the support add-on for the finance team."
+      "text": "Yeah, thanks for making time. I pulled up the order form from the CRM. We have you at 42 seats to start, annual term, target go-live on March 18. Does that still match what your team is planning?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. We may add three more full users in July, but don't hold the order for that. The bigger thing is the May timeline."
+      "text": "Yep, 42 is right for phase one. We may add another 8 or 10 in Q3, but I don't want those on the initial invoice."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I have services starting May 1 and a target go-live of May 15 for the first two workflows, then the reporting pack after Memorial Day."
+      "text": "Totally. We'll keep the first invoice to 42 seats only. The pricing sheet has that at $68 per seat per month, billed annually, so $34,272 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, good. On the kickoff invite yesterday, your onboarding lead said May 22, so I just wanted to make sure we weren't already sliding a week."
+      "text": "Okay. And implementation is the $4,500 line item, right? I need that broken out separately for finance."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Ah, sorry about that. I'll update the project notes after this and have her resend the milestone plan with May 15. The scope is still the same: intake, approvals, and the export to your accounting file."
+      "text": "Correct, one-time implementation at $4,500. I can make sure the billing tool shows software and services as separate lines on the invoice."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Also, we got the invoice this morning for the full $46,800 upfront. The order form we reviewed had quarterly billing, net 30, starting on signature."
+      "text": "Great. On terms, legal was fine with 12 months, but they asked for net 45 instead of net 30. Is that something you can do?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, I see quarterly on my pricing sheet. I'll have the billing team void that one and issue the first $11,700 invoice. You shouldn't need to route the annual amount."
+      "text": "Yeah, net 45 is within our standard range for annual contracts. I don't need deal desk for that. I'll update the order form before I send it over."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Appreciate it. Legal is fine with the 24-month term and the standard auto-renew language, as long as we get the 60-day notice window in the notice section."
+      "text": "Perfect. If we sign by Friday, can we still make the March 18 go-live?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That's in there. I'll send the clean version by 2 p.m. Eastern today, and if you can sign by Friday, we can keep the May 1 services start."
+      "text": "Yes. If signature is in by February 23, onboarding can kick off the week of February 26. That gives us three weeks for setup, admin training, and the data import."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Works for me. Send it over, and I'll push it through procurement this afternoon."
+      "text": "Sounds good. Send the revised order form and I'll route it for signature today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it in the next half hour with the 42 seats, annual billing, net 45, and the implementation line separated."
     }
   ]
 }

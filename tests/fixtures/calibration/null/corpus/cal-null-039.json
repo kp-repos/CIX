@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the basics before I send the order form: 42 user seats, the reporting add-on, and a July 15 go-live. Is that still right?"
+      "text": "Yeah, thanks for making time, Dana. I have the updated scope in front of me: 42 user seats, three lab locations, and the equipment import for about 1,800 assets. Is that still the right shape for the July rollout?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. It is 38 regular users and 4 managers, but yeah, 42 total. We need the first invoice to show the PO number, PO-44718, or finance will kick it back."
+      "text": "That's right. We may add five seats in September, but for contract start we need 42. The main thing is getting our North Carolina lab live by July 15."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. The order form will list 42 seats and the invoice reference will include PO-44718. For term, we have August 1, 2026 through July 31, 2027, annual billing, net 30. The total is $31,920 before tax."
+      "text": "Got it. For July 15, we'd start onboarding June 24, do the asset import that week, and then admin training on July 8 and 9. The services line is a fixed $6,800, and the annual subscription for 42 seats is $31,500."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And that includes the onboarding hours we talked about? The two admin sessions and one end-user training?"
+      "text": "Okay. On billing, can you split the invoice by location? Finance wants Raleigh at 60 percent, Columbus 25, and Reno 15."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, so that's included as a separate line item at no additional charge: two 90-minute admin sessions and one 60-minute end-user training. I’ll put the dates as targeted the week of July 8, with exact times set on the kickoff call."
+      "text": "Yes, we can put those allocations on the order form and the invoice notes. Payment terms are net 30, annual billing. If you want quarterly billing, it adds 4 percent, so the annual prepay is the cleaner option."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Legal asked about auto-renewal. We can do renewal language, but we need 60 days notice instead of 30."
+      "text": "Annual is fine. Legal had one question on the renewal term. We don't want an automatic two-year renewal."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, that’s already in the contract notes: either party can give non-renewal notice at least 60 days before the end of the term. No issue there."
+      "text": "Understood. The standard is one-year initial term with one-year renewals, 60-day notice if either side doesn't want to renew. I can set it that way in the contract."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. One more thing, our team in Denver needs access on day one, but the Austin group can come in later, probably August."
+      "text": "Good. And support is included, right? We're not buying premium support this year."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That works. We’ll start with the Denver users for launch and you can assign the remaining seats when Austin is ready. You’re not paying extra unless you go above 42."
+      "text": "Correct. Standard support is included: business hours, email and phone, with the two-hour target for urgent production issues. Premium support is not on this order."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Send it to me and copy our procurement inbox. If it matches what we covered, I can sign tomorrow."
+      "text": "Then I think we're good. Send me the order form today and I'll route it to procurement. PO should be ready by Friday, June 14."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. You’ll have the order form and service schedule by 3 p.m. today, copied to procurement, with the PO number, 60-day notice language, and July 15 go-live."
+      "text": "Perfect. I'll send the order form and implementation dates right after this call. Once the PO is back, we can lock June 24 for kickoff and assign your implementation lead."
     }
   ]
 }

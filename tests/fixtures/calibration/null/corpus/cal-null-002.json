@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, hi Dana, thanks for making the time. I had us down to cover the seat count, target go-live, and the billing setup for the support team rollout."
+      "text": "Yeah, thanks for making time, Dana. I’ve got the renewal and seat add in front of me. You’re at 40 seats today, and you wanted to move to 58 for the customer ops team, right?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that's right. We landed on 38 full users and 12 view-only. The managers want access, but they won't be working tickets day to day."
+      "text": "That’s right. Forty active now, add 18 on March 1. We need everything co-termed to January 31, 2027, same as the current agreement."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. So 38 full, 12 view-only. On the current pricing sheet that puts the annual subscription at $42,180, and implementation is the one-time $6,500 package we reviewed last week."
+      "text": "Got it. On the pricing sheet, the added seats come in at $80 per seat per month. So total for 58 seats is $4,640 a month, invoiced quarterly. That’s $13,920 per invoice, net 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Finance asked if that can be invoiced in two pieces. Subscription on the first invoice, services on the second, both net 30."
+      "text": "Okay. And the first invoice would cover March through May, or does it prorate because the old term started in February?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can do that. The order form will show two invoice lines, subscription at signature and services billed on the kickoff date. No change to the total."
+      "text": "For the add-on, first invoice is March 1 through May 31. The renewal term itself runs February 1, 2026 through January 31, 2027. The order form shows those as separate line items so finance can see it clearly."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. For go-live, we're aiming for May 19. Is that still realistic if we sign by April 12?"
+      "text": "Perfect. We also need the PO number on there, PO-44873. Our AP team kicked one back last quarter because it was missing."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so if the signed order is in by April 12, kickoff can be April 18, configuration the week after, training May 8 and 9, and then go-live May 19. That gives your team about a week for user acceptance."
+      "text": "Yep, I’ll include PO-44873 on the billing section. Same billing contact, ap@northlakeindustrial.com?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. One thing: we need single sign-on included, and we need the data import to cover open tickets plus the last 18 months of closed ones."
+      "text": "Yes. And can you confirm training? We’re targeting March 6 for the new supervisors."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. Single sign-on is included in the implementation scope, and the import line will specify open tickets plus 18 months of closed ticket history. I'll include those directly in the order form and kickoff notes."
+      "text": "Included. Two admin trainings and one end-user session, all remote. I have March 6 at 10 a.m. Central held for the supervisor group, and we can record it."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send it to me and copy Marcus in finance. If legal doesn't have any issues with the standard terms, I can sign Friday."
+      "text": "Great. Send the order form over and I’ll route it today. If it’s clean, we can sign by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I'll send the order form today with the 50 total seats broken out, two-invoice billing, and the May 19 go-live plan. Marcus will be copied."
+      "text": "Sounds good. I’ll send the order form and invoice schedule right after this. No changes to the MSA or support terms, just the renewal dates, seat count, and PO."
     }
   ]
 }

@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so picking up from last week, you were looking at 42 seats for the revenue team and 8 viewer seats for operations, with a July 15 go-live. Is that still the right count?"
+      "text": "Yeah, so I sent over the revised quote this morning for 42 user seats and the two plant locations, Tulsa and Dayton. Annual subscription is $18,900, onboarding is $3,200 one time, and the term starts September 1."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. We may add three more AEs in August, but I don't want to buy those yet. I just need the initial 50 covered."
+      "text": "Okay, I saw it. The seat count is right. My main question is invoice timing. We need the invoice dated after September 1, not in August, or AP will kick it back."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Makes sense. The quote I have is for 50 total seats, annual term starting July 1, $36,400 for software, and $4,200 for onboarding. Payment terms are net 30, invoiced once at signature."
+      "text": "Yep, that's fine. The order form says billing on contract start, net 30, so the invoice would generate September 1 with payment due October 1."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Can the invoice show the software and onboarding as separate line items? Our finance team codes services differently."
+      "text": "Good. And for go-live, we're still targeting September 16? We have the audit prep starting the week after, so I don't want to slide much."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, that's standard. It'll show two lines, same purchase order number if you have one. Do you already know the PO, or should we leave it blank for now?"
+      "text": "September 16 is still the date. The onboarding plan has the equipment import on September 4, admin training on September 9, and end-user training on September 12. Your calibration history file is listed as the one export from your maintenance system."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Leave it blank. I'll have it by Friday, but legal can review without it."
+      "text": "Right, it's about 6,800 assets. Some of the pressure gauges have duplicate tag numbers, but our quality manager is cleaning those up this week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. On contract terms, you're asking for a one-year initial term, auto-renew off, and 60 days' notice for any renewal discussion. I have that reflected."
+      "text": "Perfect. If you send the file by August 30, our team can flag any duplicates during import and send you the exception list the same day."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. And just to confirm, onboarding includes the admin training and the two data source connections we talked about, right?"
+      "text": "On contract terms, procurement asked if the auto-renewal is required. They prefer a 60-day written notice window instead of 90."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. One 90-minute admin session, one end-user session, and connections for the billing tool and the CRM. If you add the support queue later, that would be a separate small services item."
+      "text": "We can do 60 days. I updated that in the order form already, and it's reflected in section 5. No change to price or start date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's fine. Send the order form today if you can. If legal has only minor comments, I think we can sign by June 24."
+      "text": "Alright. If I sign today, can you add me and Priya as billing contacts? Priya needs the PO number on the invoice, PO-44718."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I'll send it over in about an hour with the quote, order form, and security summary attached. Then we can hold July 8 for kickoff and July 15 for go-live."
+      "text": "Yes. I'll add both billing contacts and the PO number before it goes out. Once you sign, you'll get a countersigned copy, and the kickoff invite will come over for September 4."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Works for me. Copy Dana on the email, she's the signer. Thanks."
+      "text": "Sounds good. I'll route it for signature now. You should have it back by end of day."
     }
   ]
 }

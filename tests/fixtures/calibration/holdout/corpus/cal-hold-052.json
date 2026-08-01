@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, thanks for making time. I have us down for 20 minutes to confirm the 48 seats, the support package, and the July 15 go-live. Does that still line up?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout plan and the commercial piece for the 48 seats we discussed."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, that's right. We may add two finance users later, but for the initial order it's 48. I mainly want to make sure the invoice matches the quote we reviewed Friday."
+      "text": "Sure. We’re still targeting May 6 for go-live. I just need the final quote to match 42 standard users and 6 admin users, not 50 total."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Totally. The quote in the CRM is $38,400 for the annual subscription, plus $4,800 for implementation. So $43,200 before tax, net 30 terms. I can send the order form after this call."
+      "text": "Got it. I updated that in the CRM this morning. The annual total comes to $38,640 before tax, with the onboarding package at $4,200 one-time."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. On implementation, is that still three working sessions and the admin training?"
+      "text": "Okay, that lines up. Can you also make sure billing starts June 1? Finance doesn’t want an invoice hitting before the new cost center opens."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. Three 90-minute working sessions, one admin training, and we include the data import template. If you want us to do the import for you, that would be a separate $1,200 service, but right now it's not on the order."
+      "text": "Yes, so I’ll set the contract start date as June 1, but we can still start implementation the week of April 22 under the order form."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Let's leave it off for now. Our ops analyst can handle the template. For billing, can you make the start date July 1 even if go-live is July 15?"
+      "text": "That works. What are you assuming for onboarding hours?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, that's fine. Subscription start July 1, go-live target July 15. The billing tool will generate the first invoice when the order is countersigned, but it'll reflect the July 1 start date."
+      "text": "It includes 12 hours: two admin sessions, one manager training, and configuration support for the usage reports. If you need more, it’s $175 an hour, but most teams your size stay within the package."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Got it. We need our legal team to review the auto-renewal language. I think it's 30 days' notice, correct?"
+      "text": "Okay. Legal had one question on the renewal term. We need one-year renewal, not auto-renewing for two years."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, 12-month term with auto-renewal unless either side gives 30 days' notice before the renewal date. If legal has comments, send them back in the redline and I'll route it through deal desk."
+      "text": "No problem. I’ll mark it as annual renewal with 60 days’ notice. Deal desk already approved that, so it won’t slow anything down."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Send the order form to me and copy Mark in procurement. If we get it today, I can probably turn it around by Thursday."
+      "text": "Great. Send the revised order form today, and I’ll route it for signature. If procurement doesn’t have comments, we should be done by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I'll send it in the next hour with the quote summary and implementation dates. Thanks, Dana."
+      "text": "Perfect. I’ll send it by 3 p.m. Eastern with the seat breakdown, June 1 billing date, and the one-year renewal language called out."
     }
   ]
 }

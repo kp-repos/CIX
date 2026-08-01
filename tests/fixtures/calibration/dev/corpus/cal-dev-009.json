@@ -3,56 +3,66 @@
   "source_type": "transcript",
   "participants": [
     "rep",
-    "colleague"
+    "customer"
   ],
   "date": null,
   "account_id": null,
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Hey Jordan, quick deal review on Northline. I've got 74 seats in the CRM today, they asked about adding 12 ops users for the March rollout, and finance wants the invoice split by cost center."
+      "text": "Yeah, thanks for making time, Dana. I pulled up the quote in the CRM. Last time we had 42 seats, implementation starting September 3, and a target go-live of October 15. Is that still accurate?"
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, so the seat add is clean. Use the mid-market pricing sheet, annual prepay, and if they want the split invoice just note it in the billing tool. What's the renewal timing?"
+      "text": "Mostly, yeah. We need to bump that to 48 seats. Finance added six people who will need access for month-end close."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "That's the problem. Their services agreement ends January 31, so Friday, and I don't see any logged call or email from us about carrying on. No renewal proposal, no extension language, nothing. The last client touch was support on December 18 about a report filter."
+      "text": "Got it, 48 seats. That moves the annual subscription to $57,600, and the implementation package stays at $8,500. I can update the pricing sheet after this."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Wait, nobody from sales has talked to them about continuing after the end date?"
+      "text": "Okay. And on billing, can the invoice be split? Our team wants subscription on one invoice and services on a separate one."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Right. I checked my notes, the CRM activity, and the shared inbox. We are two days out from the contract ending and the client has not been asked if they're renewing, extending month-to-month, or even keeping the seats. That's on us, and it's pretty visible because the end date is already in the order form."
+      "text": "Yes, we can do that in the billing tool. Subscription invoice for $57,600 on signature, and services invoice for $8,500 on the September 3 kickoff. Does that work?"
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Let's not overcomplicate it. Call Priya today, acknowledge timing, and ask for a 12-month renewal plus the 12-seat add. If procurement needs more time, we can send a 30-day bridge through deal desk."
+      "text": "That works. Contract term is still twelve months, right? Legal asked if there was any auto-renewal language."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, I can call her at 2:30. Current annual is $38,400, the 12 extra seats would take it to $44,160 before the support package. They also asked last quarter if the admin training could be included."
+      "text": "Yeah, twelve-month initial term. There is an auto-renewal for successive one-year terms, but cancellation is 30 days before renewal. If legal wants 60 days, I can send that through deal desk."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Include one remote admin training session, no discount beyond the standard volume band. Put the bridge option in the quote comments, not the primary proposal, unless she says procurement can't turn it by Friday."
+      "text": "Thirty is fine. We just needed to know. For go-live, October 15 is okay, but we'd like the admin training the week of September 23."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I'll update the CRM after the call, draft the order form with January 31 start alignment if they renew, and flag billing about the three cost centers."
+      "text": "Yep, I’ll put admin training for September 24 and 26, two 90-minute sessions. We’ll also schedule end-user training the week before go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send the updated order form and the two-invoice note, and I’ll route it for signature today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You’ll have the revised order form by 2 p.m. Eastern, and I’ll include the implementation dates in the email so purchasing has everything in one place."
     }
   ]
 }

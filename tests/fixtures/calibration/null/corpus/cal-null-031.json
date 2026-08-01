@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so thanks for making time, Dana. I saw your note about adding the warehouse team. Are we still talking about 18 additional seats for the inventory module?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the 42-seat plan for your service team and make sure the April 15 go-live still works on your side."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. We have 42 active users today, and we'd like to move to 60 by March 4. The extra folks are supervisors and cycle count leads, not finance users."
+      "text": "Yep, April 15 is still the date. We have 38 reps today, four managers, and then probably five seasonal seats in June. I need to know if those can be added mid-term."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 18 standard seats, no billing-admin access. On the current annual term through September 30, the prorated amount comes to $11,340 before tax. That uses the same per-seat rate from your agreement."
+      "text": "They can. The base order would be 42 seats at $68 per seat per month, annual term starting April 1. Any seasonal seats can be added later at the same rate, prorated through March 31 next year."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Can that go on a separate invoice? Our operations cost center is 4807, and finance asked that the PO show the warehouse location."
+      "text": "Okay. And implementation, you had quoted $4,800 one-time, right? That includes the data import from our current system?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can issue a separate invoice tied to PO 4807 and list the North Dayton warehouse on the order form. Payment terms stay net 30, same as the master agreement."
+      "text": "Correct, $4,800 one-time. That includes the account import, two admin training sessions, and one workflow review. The only thing not included is custom reporting beyond the three standard dashboards."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Works for me. What about onboarding? We need the first shift trained before the go-live, ideally February 28 or March 1."
+      "text": "That's fine. Procurement will ask about payment terms. Our standard is net 45, and we pay by ACH. Is that workable?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "We have a standard remote training block available February 28 at 10 a.m. Eastern, 90 minutes. I can include that in the add-on at no extra charge since it's part of the seat expansion package."
+      "text": "Yes, net 45 and ACH are both on the quote. Total first-year subscription is $34,272, plus the $4,800 implementation, so $39,072 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send me the order form and I'll route it to Megan for signature. She usually turns these same day if the amount and dates are clear."
+      "text": "Good. I also need the renewal language to say we get 60 days' notice before any price increase. Legal flagged that on another contract last quarter."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I'll send it today with 18 seats, prorated $11,340, separate invoice, PO 4807, North Dayton warehouse, and training on February 28. Once it's signed, access can be turned on within one business day."
+      "text": "Understood. The order form has 60-day written notice for price changes and a one-year initial term, April 1, 2026 through March 31, 2027. Renewal is annual unless either side gives 30 days' notice."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. If we sign by Friday the 16th, that gives us enough time. Thanks, Alex."
+      "text": "That works. Send it over to me and copy Marcus in procurement. If it looks like what we discussed, I can get signature by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the quote and order form this afternoon, with Marcus copied, and I'll include the April 8 kickoff hold so your admins can plan around it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Thanks, yeah, that should keep us on track."
     }
   ]
 }

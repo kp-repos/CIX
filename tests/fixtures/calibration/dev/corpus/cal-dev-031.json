@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final seat count and the timing for the services add-on before I send the order form over."
+      "text": "Yeah, thanks for making time, Karen. I pulled up the order form we discussed: 42 seats on the analytics package, annual term, starting March 1. I wanted to confirm the rollout dates and the billing contact before I send it over."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We landed on 48 standard seats and 6 admin seats. The admins are mostly team leads, plus our ops manager."
+      "text": "That sounds right. We need 38 seats active at go-live and then 4 held for the finance team in April. Can the admin just assign those later, or do we need a separate amendment?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 54 total. And you wanted the onboarding package with two data import sessions, right? I have that at $3,200 one-time."
+      "text": "No separate amendment. The 42 are included from day one, and your admin can assign them whenever. Billing is still for all 42 seats for the annual term, though."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, that matches. Finance asked me to check whether the annual subscription is still $31,860 if we start July 15."
+      "text": "Okay, that’s fine. On the invoice, can you split the PO reference between operations and finance? Our AP team asked for cost center 7104 on 30 seats and 7109 on 12 seats."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It is. The term would run July 15, 2026 through July 14, 2027. Billing would be annual upfront, net 30, and the first invoice would generate after signature."
+      "text": "Yes, we can put both cost centers in the billing notes. The invoice itself will be one invoice for $31,080 before tax, due net 30. If you need two separate invoices, that’s a different setup."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Can you make the PO number required on the invoice? It’s PO-44719. If it’s missing, our payables team kicks it back."
+      "text": "One invoice is better. For timing, we want the kickoff the week of March 4, with training on March 12 if possible. Is that still open?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I’ll add PO-44719 in the billing tool notes and on the order form. On the go-live, are you still targeting August 12?"
+      "text": "I checked with services this morning. March 12 at 1 p.m. Eastern is open for the main training, and they can do kickoff on March 5. The implementation package includes three working sessions, so that would be one of them."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "August 12 is still the date. We’d like the first import the week of July 22 and the admin training by August 5, if that’s workable."
+      "text": "Great. Legal already reviewed the MSA. They only flagged auto-renewal. We need 60 days’ notice instead of 30."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That works. I’ll put those as target dates in the implementation notes. One small thing: the standard order form has auto-renewal at 12 months with 30 days notice. Is legal okay with that?"
+      "text": "Yep, deal desk approved that change. The order form will show a 12-month initial term and 60-day non-renewal notice. No change to price."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, they reviewed it. As long as the notice period is 30 days and not 60, we’re fine."
+      "text": "Perfect. Send it to me and copy AP. If we can get the final order form today, I can route it for signature tomorrow."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I’ll send the order form this afternoon. Once it’s signed, I’ll introduce you to the onboarding lead and we’ll get the kickoff scheduled."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Sounds good. Send it to me and copy procurement at procurement@northline-example.com. I’ll route it for signature today."
+      "text": "Will do. I’ll send the order form in the next hour with the PO field left blank, and once you have the PO, you can reply with it or add it during signature."
     }
   ]
 }
