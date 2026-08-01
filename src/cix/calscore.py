@@ -69,13 +69,18 @@ def score_null(null_ids: list[str], hits: list[dict], target_items: set[str], cf
                       f"(pre-registered floor {cfg['false_reports_per_100_max']}/100; empirical rate reported, floor is the gate)"}
 
 def guard_holdout(split_dir: Path, final: bool) -> None:
-    """T-ITER: exactly one predeclared holdout evaluation, mechanically enforced."""
+    """T-ITER: exactly one predeclared holdout evaluation, mechanically enforced.
+    A passing guard CLAIMS the single evaluation by writing the .evaluated marker
+    immediately — so a crash before record_holdout cannot reopen the one shot.
+    record_holdout later overwrites the marker with the full report."""
     marker = Path(split_dir) / ".evaluated"
     if not final:
         raise HoldoutError("holdout scoring requires --final (one predeclared evaluation, T-ITER)")
     if marker.exists():
         raise HoldoutError(f"holdout already evaluated ({marker.read_text(encoding='utf-8').splitlines()[0]}) "
                            "- T-ITER allows exactly one evaluation")
+    marker.write_text(datetime.now(timezone.utc).isoformat() + "\nclaimed (evaluation in progress)\n",
+                      encoding="utf-8")
 
 def record_holdout(split_dir: Path, report: dict) -> None:
     (Path(split_dir) / ".evaluated").write_text(

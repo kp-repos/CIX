@@ -27,6 +27,12 @@ real data.
   (deterministic cycle); interaction-unit pathologies plant once. The truth registry
   (`truth.json`, outside the corpus directory) records pathology, loudness, and expected
   occurrences per interaction.
+- **T-NULL scope (a known limitation, stated for ratification):** the null gate counts a
+  false report only for the six *planted-pathology* items (the crosswalk targets). The two
+  negative rubric items with no planted pathology (`unowned_follow_up`, `missited_work_allocation`)
+  are not exercised by T-NULL — a false positive on them in the null set is invisible to the gate.
+  This matches the frozen T-NULL rule ("any planted-pathology item hit"); it is a scope boundary,
+  not a defect.
 
 ## Collusion breaks (non-circularity, D§7.3)
 

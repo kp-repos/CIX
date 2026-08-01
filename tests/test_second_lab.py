@@ -13,3 +13,16 @@ def test_openai_client_satisfies_protocol():
     # structural check only — no network, no key needed
     assert hasattr(OpenAIClient, "complete")
     assert isinstance(OpenAIClient, type)
+
+def test_content_or_raise_on_none():
+    import pytest
+    from types import SimpleNamespace
+    from cix.model import MalformedResponse
+    from cix.second_lab import _content_or_raise
+    ok = SimpleNamespace(choices=[SimpleNamespace(finish_reason="stop",
+                                                  message=SimpleNamespace(content='{"ok": true}'))])
+    assert _content_or_raise(ok) == '{"ok": true}'
+    truncated = SimpleNamespace(choices=[SimpleNamespace(finish_reason="length",
+                                                        message=SimpleNamespace(content=None))])
+    with pytest.raises(MalformedResponse):
+        _content_or_raise(truncated)

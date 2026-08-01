@@ -72,3 +72,15 @@ def test_cycle_log_appends(tmp_path):
     assert log_cycle(tmp_path, {"note": "c2"}, max_cycles=3) == 2
     log = json.loads((tmp_path / "cycles.json").read_text())
     assert [c["summary"]["note"] for c in log] == ["c1", "c2"]
+
+def test_mechanism_fail_when_count_ok_but_attribution_low():
+    truth = {f"d-{i:03d}": {"pathology": "P1", "loudness": "loud", "expected_occurrences": 1}
+             for i in range(5)}
+    cross = {"P1": "seller_admin_burden", "P2": "status_chasing"}
+    units = {"seller_admin_burden": "occurrence", "status_chasing": "occurrence"}
+    hits = [_hit("seller_admin_burden", f"d-{i:03d}") for i in range(3)]   # correct item on 3 of 5
+    hits += [_hit("status_chasing", f"d-{i:03d}") for i in range(3, 5)]    # wrong target on the other 2
+    [row] = score_calibration(truth, hits, cross, units, T_CAL)
+    assert row["pathology"] == "P1"
+    assert row["status"] == "mechanism_fail"   # recovered 3 vs expected 5 (abs 2 <= 2 passes count); attribution 0.6 < 0.8
+    assert row["attribution"] == 0.6

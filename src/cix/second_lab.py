@@ -1,6 +1,19 @@
 from pathlib import Path
 import yaml
 from pydantic import BaseModel
+from cix.model import MalformedResponse
+
+def _content_or_raise(response) -> str:
+    """GPT-5.x reasoning tiers can return content=None when max_completion_tokens
+    is exhausted by reasoning before any text is emitted. Fail with a clear,
+    actionable error rather than a misleading downstream JSON-parse failure."""
+    choice = response.choices[0]
+    content = choice.message.content
+    if content is None:
+        raise MalformedResponse(
+            f"second-lab returned no content (finish_reason={choice.finish_reason}); "
+            "likely truncated — raise max_tokens in second_lab_config_v1.yaml")
+    return content
 
 class SecondLabConfig(BaseModel):
     version: str
@@ -28,4 +41,4 @@ class OpenAIClient:
             max_completion_tokens=self._config.max_tokens,
             messages=[{"role": "user", "content": prompt}],
         )
-        return r.choices[0].message.content
+        return _content_or_raise(r)
