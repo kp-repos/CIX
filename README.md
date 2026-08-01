@@ -34,6 +34,7 @@ Four independently versioned knowledge artifacts, all plain-language config: **i
 | [`docs/CIX_BRAINSTORM_OUTPUT_2026-07-31.md`](docs/CIX_BRAINSTORM_OUTPUT_2026-07-31.md) | **Governing design record** (rev 2.3). Rationale and ratified rulings |
 | [`docs/superpowers/plans/2026-07-31-g1-deterministic-spine.md`](docs/superpowers/plans/2026-07-31-g1-deterministic-spine.md) | **G1 implementation plan** — 12 TDD tasks building the deterministic spine (no model calls) |
 | [`docs/superpowers/plans/2026-07-31-g2-thin-slice.md`](docs/superpowers/plans/2026-07-31-g2-thin-slice.md) | **G2 implementation plan** — 14 TDD tasks; first model calls, corpus→report in one command |
+| [`docs/superpowers/plans/2026-08-01-g3-calibration.md`](docs/superpowers/plans/2026-08-01-g3-calibration.md) | **G3 implementation plan** — 11 tasks; sales rubric (A8), calibration corpus (A7), threshold freeze, second-lab seat, calibration runs |
 | [`docs/superpowers/plans/ROADMAP.md`](docs/superpowers/plans/ROADMAP.md) | **G3–G6 roadmap** — logic sketch of the remaining gates (calibration → assembly → real run → demo) |
 | [`docs/reference/`](docs/reference/) | Vendored planning record: baseline spec, PRD input pack, swap catalogue schema, opportunity library, and adversarial reviews (`reviews/`) |
 
