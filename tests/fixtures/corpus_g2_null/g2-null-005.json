@@ -1,0 +1,24 @@
+{
+  "id": "g2-null-005",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": "2026-06-06",
+  "account_id": "acct-8",
+  "segments": [
+    {
+      "speaker": "customer",
+      "text": "My mortgage statement never arrived this month."
+    },
+    {
+      "speaker": "agent",
+      "text": "I have re-sent it and confirmed your mailing preference."
+    },
+    {
+      "speaker": "customer",
+      "text": "Great, that resolves it, thanks."
+    }
+  ]
+}

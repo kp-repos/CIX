@@ -1,0 +1,40 @@
+version: "0.1.0"
+requires:
+  label_schema_version: "1.0.0"
+  tag_vocab_version: "1.0.0"
+items:
+  - id: repeat_contact_unresolved
+    description: "Customer contacts again about an issue previously raised and still unresolved"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: {tag: repeat_marker}
+    criterion: "The customer states or clearly implies they have contacted before about this same issue and it remains unresolved."
+    exemplars: ["I already called about this last time and it is still not fixed."]
+  - id: deterministic_request_assisted
+    description: "A fully deterministic request (e.g., password reset) handled by a human agent"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "The customer's need is a routine, rule-based request with a known self-service path, yet it is being handled in an assisted channel."
+    exemplars: ["How do I reset my password?"]
+  - id: billing_defect_driver
+    description: "Contact driven by a billing error or unexpected charge"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "The reason for contact is an incorrect, duplicated, or unexpected charge or fee."
+    exemplars: ["My card was charged twice for the same order."]
+  - id: transfer_or_escalation_event
+    description: "A transfer, hold-for-transfer, or escalation event within the interaction"
+    polarity: negative
+    unit_of_count: occurrence
+    prefilter: {tag: transfer_hold}
+    criterion: "This snippet contains an actual transfer, hold-for-transfer, or escalation of the customer's issue."
+    exemplars: ["Please hold on while I transfer you to the fees desk."]
+  - id: clean_first_contact_resolution
+    description: "Issue fully resolved within the interaction, no repeat/transfer/escalation"
+    polarity: positive
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "The customer's issue is fully resolved in this interaction, with confirmation, and without any transfer or escalation."
+    exemplars: ["That worked, thanks."]

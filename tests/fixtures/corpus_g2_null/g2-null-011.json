@@ -1,0 +1,24 @@
+{
+  "id": "g2-null-011",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": "2026-06-12",
+  "account_id": "acct-4",
+  "segments": [
+    {
+      "speaker": "customer",
+      "text": "My savings statement never arrived this month."
+    },
+    {
+      "speaker": "agent",
+      "text": "I have re-sent it and confirmed your mailing preference."
+    },
+    {
+      "speaker": "customer",
+      "text": "Great, that resolves it, thanks."
+    }
+  ]
+}

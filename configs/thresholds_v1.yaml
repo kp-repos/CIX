@@ -1,0 +1,29 @@
+version: "1.0.0"
+registers:
+  T-ESC:
+    frozen_at_gate: G2
+    escape_sample_per_item: 12
+    min_sample_for_validity: 8
+    rule: "any hit in the excluded sample -> status=flag_widen_filter; zero hits -> status=pass_low_power (UB at n=12 cannot prove <5%); n<8 -> insufficient_power"
+    consequence: "flag_widen_filter blocks the item's findings until the prefilter is widened and re-run"
+    owner: PO
+  T-AGR:
+    frozen_at_gate: G2
+    agreement_sample_interactions: 6
+    min_sample_for_validity: 5
+    per_field_floor: 0.85
+    rule: "per-field agreement < floor -> field unstable; n<5 -> insufficient_power"
+    consequence: "unstable fields flagged in run log; findings leaning on them carry a visible instability marker"
+    owner: PO
+  T-DROP:
+    frozen_at_gate: G2
+    rate_alarm: 0.02
+    rule: "denominator = candidate claims (quotes+stats submitted to gate); any quote string-match failure is a fabricated-evidence drop -> status=release_block; rate > alarm -> status=warn_investigate"
+    consequence: "release_block stops report publication for the run"
+    owner: PO
+  T-SPLIT:
+    frozen_at_gate: G2
+    min_corpus_interactions: 20
+    rule: "seeded half-split of interactions; per unit, compare item rank orders from persisted hits; a top-2 rank flip -> item status=demote; corpus < min -> insufficient_power"
+    consequence: "demoted items are excluded from Highlights and marked in the distribution"
+    owner: PO

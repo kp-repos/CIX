@@ -1,0 +1,20 @@
+{
+  "id": "g2-g2-009",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": "2026-06-10",
+  "account_id": "acct-2",
+  "segments": [
+    {
+      "speaker": "customer",
+      "text": "I was told the statement fee would be waived but I see a $40 charge."
+    },
+    {
+      "speaker": "agent",
+      "text": "Please hold on while I transfer you to the fees desk."
+    }
+  ]
+}
