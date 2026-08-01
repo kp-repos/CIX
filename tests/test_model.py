@@ -26,3 +26,14 @@ def test_twice_malformed_fails_cleanly():
 def test_json_extracted_from_fenced_block():
     c = ScriptedClient(sequence=['Here you go:\n```json\n{"ok": 3}\n```'])
     assert complete_json(c, "x") == {"ok": 3}
+
+def test_json_extracted_from_unfenced_leading_prose():
+    # a live model may add a preamble without a code fence — extract the object
+    # rather than burning the retry and aborting the run after spend
+    c = ScriptedClient(sequence=['Here is the JSON: {"ok": 4} hope that helps'])
+    assert complete_json(c, "x") == {"ok": 4}
+    assert c.calls == 1
+
+def test_json_extracted_from_prose_with_nested_object():
+    c = ScriptedClient(sequence=['Sure: {"a": {"b": 1}, "c": "}"} done'])
+    assert complete_json(c, "x") == {"a": {"b": 1}, "c": "}"}

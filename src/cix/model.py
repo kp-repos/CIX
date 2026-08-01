@@ -40,10 +40,42 @@ class AnthropicClient:
         )
         return msg.content[0].text
 
+def _first_balanced_object(text: str) -> str | None:
+    """Return the first brace-balanced {...} substring (string-literal aware), or None."""
+    start = text.find("{")
+    if start == -1:
+        return None
+    depth, in_str, esc = 0, False, False
+    for i in range(start, len(text)):
+        c = text[i]
+        if in_str:
+            if esc:
+                esc = False
+            elif c == "\\":
+                esc = True
+            elif c == '"':
+                in_str = False
+        elif c == '"':
+            in_str = True
+        elif c == "{":
+            depth += 1
+        elif c == "}":
+            depth -= 1
+            if depth == 0:
+                return text[start:i + 1]
+    return None
+
 def _extract_json(text: str) -> dict:
     m = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.DOTALL)
-    raw = m.group(1) if m else text.strip()
-    return json.loads(raw)
+    if m:
+        return json.loads(m.group(1))
+    try:
+        return json.loads(text.strip())
+    except json.JSONDecodeError:
+        obj = _first_balanced_object(text)  # tolerate a prose preamble around bare JSON
+        if obj is None:
+            raise
+        return json.loads(obj)
 
 def complete_json(client: ModelClient, prompt: str) -> dict:
     """One retry on malformed output, then a clean failure (AC-13)."""
