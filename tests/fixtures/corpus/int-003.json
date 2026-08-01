@@ -1,0 +1,11 @@
+{
+  "id": "int-003",
+  "source_type": "transcript",
+  "participants": ["agent", "customer"],
+  "date": "2026-05-04",
+  "account_id": "acct-9",
+  "segments": [
+    {"speaker": "customer", "text": "I was told the fee would be waived but I see a $25 charge."},
+    {"speaker": "agent", "text": "Please hold on while I transfer you to the fees desk."}
+  ]
+}
