@@ -3,7 +3,7 @@
 # validation row, not a gate.
 version: "1.0.0"
 lab: openai
-model: gpt-5.2          # PO pins the exact dated snapshot at Checkpoint B; runbook verifies availability
+model: gpt-5.5-2026-04-23   # pinned at Checkpoint B 2026-08-01 (newest dated stable gpt-5.x; catalog-verified)
 max_tokens: 8192        # completion budget includes reasoning tokens on this tier
 audit_sample_hits: 8
 agreement_floor: 0.8
