@@ -46,4 +46,4 @@ Four independently versioned knowledge artifacts, all plain-language config: **i
 
 ## Next action
 
-Open the G1 plan and execute Task 1 (project scaffold) via `superpowers:subagent-driven-development` or `superpowers:executing-plans`. G0's human items (FS corpus phone call, second-lab provider account, cost-envelope acceptance) run in parallel and block nothing in G1.
+G1 and G2 are complete. Next gate is **G3 — calibration**: write the G3 plan (its interfaces derive from G2's code — see [`docs/superpowers/plans/ROADMAP.md`](docs/superpowers/plans/ROADMAP.md)), then author the PO artifacts (sales rubric v1, A8 ≥8 items; calibration corpus spec, A7) and build the small harness (second-lab `ModelClient`, calibration scorer). Freeze T-CAL/T-NULL/T-PARA **before** the first calibration run. G0's human items (FS corpus phone call, second-lab provider account, cost-envelope acceptance) run in parallel.
