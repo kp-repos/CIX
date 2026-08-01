@@ -1,6 +1,6 @@
 # A7 — Calibration Corpus Specification · v1
 
-**Owner:** PO · **Status:** pending ratification (Checkpoint A of the G3 plan)
+**Owner:** PO · **Status:** PO-RATIFIED 2026-08-01 (Checkpoint A of the G3 plan)
 **Machine-readable half:** `configs/calibration_spec_v1.yaml` (pathologies, loudness, splits, crosswalk)
 **Governs:** R-VAL-2, PRD §5 G3 row · **Generator:** second-lab model (OD-2: OpenAI GPT-5.x)
 

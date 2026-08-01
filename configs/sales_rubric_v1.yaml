@@ -1,7 +1,7 @@
 # A8 — CIX sales/outbound rubric v1 (R-RUB-6: authored first, calibrated first).
 # Drafted from RO-1–5, docs/reference/CIX_Opportunity_Library_v1.md. Generic by ruling;
 # the corpus-adaptation pass is a named later step (G4+).
-# PO-RATIFIED: pending   <- flip to the ratification date at Checkpoint A
+# PO-RATIFIED: 2026-08-01 (Checkpoint A)
 version: "1.0.0"
 requires:
   label_schema_version: "1.0.0"

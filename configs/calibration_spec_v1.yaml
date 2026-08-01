@@ -2,7 +2,7 @@
 # docs/A7_calibration_corpus_spec.md. Pathology descriptions are the ONLY pathology
 # text the generator ever sees (R-VAL-2); wording is deliberately disjoint from
 # rubric criteria (enforced by tests/test_calspec.py).
-# PO-RATIFIED: pending   <- flip at Checkpoint A
+# PO-RATIFIED: 2026-08-01 (Checkpoint A)
 version: "1.0.0"
 loudness_levels: [loud, moderate, camouflaged]
 splits:
