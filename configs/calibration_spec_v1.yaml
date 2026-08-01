@@ -1,0 +1,71 @@
+# A7 (machine-readable half) — calibration corpus spec. Narrative + rationale in
+# docs/A7_calibration_corpus_spec.md. Pathology descriptions are the ONLY pathology
+# text the generator ever sees (R-VAL-2); wording is deliberately disjoint from
+# rubric criteria (enforced by tests/test_calspec.py).
+# PO-RATIFIED: pending   <- flip at Checkpoint A
+version: "1.0.0"
+loudness_levels: [loud, moderate, camouflaged]
+splits:
+  dev:     {id_prefix: cal-dev,  seed: 20260801, instances_per_cell: 2, clean_interactions: 24}
+  holdout: {id_prefix: cal-hold, seed: 20260802, instances_per_cell: 2, clean_interactions: 24}
+  "null":  {id_prefix: cal-null, seed: 20260803, interactions: 50}
+style_guide: |
+  Register: North American B2B software/services sales, mid-market. Transcripts are
+  lightly imperfect speech-to-text: occasional false starts, fillers ("yeah, so"),
+  interruptions marked with a dash, no stage directions. Emails are terse, subject
+  implied, sign-offs minimal. Reps use tool names generically (the CRM, the billing
+  tool, deal desk, the pricing sheet) — never real vendor names. Customers have
+  concrete, mundane concerns: seat counts, invoices, go-live dates, contract terms.
+  Numbers are specific ($ amounts, dates, quantities) but unremarkable. Nobody
+  narrates the pathology or names it; it shows up the way it would in real work.
+pathologies:
+  - key: P1
+    maps_to_item: seller_admin_burden
+    embeds_per_interaction: [1, 2, 3]
+    source_type: transcript
+    participants: [rep, customer]
+    description: >
+      A salesperson's day is eaten by clerical chores — typing records into pipeline
+      software, tidying database entries, assembling internal paperwork — crowding out
+      time that would otherwise go to talking with buyers.
+  - key: P2
+    maps_to_item: status_chasing
+    embeds_per_interaction: [1, 2, 3]
+    source_type: transcript
+    participants: [rep, colleague]
+    description: >
+      Someone keeps nudging people in other departments about an answer or a sign-off
+      they have been waiting on, and a deal sits stalled until it arrives.
+  - key: P3
+    maps_to_item: multi_system_process_sprawl
+    embeds_per_interaction: [1]
+    source_type: transcript
+    participants: [rep, colleague]
+    description: >
+      Producing a customer proposal or extending an agreement forces the worker through
+      a maze of separate software applications, with the same information retyped at
+      each stop over hours or days.
+  - key: P4
+    maps_to_item: handoff_commitment_lost
+    embeds_per_interaction: [1, 2]
+    source_type: transcript
+    participants: [rep, customer]
+    description: >
+      Something agreed with the client never reaches the group that has to deliver it;
+      the gap surfaces later as a surprise, an error, or an awkward apology.
+  - key: P5
+    maps_to_item: out_of_system_discount
+    embeds_per_interaction: [1]
+    source_type: email
+    participants: [rep, customer]
+    description: >
+      A cheaper number is settled privately over messages, sidestepping the official
+      route for authorizing concessions, with a promise to sort the paperwork later.
+  - key: P6
+    maps_to_item: renewal_lapse_risk
+    embeds_per_interaction: [1]
+    source_type: transcript
+    participants: [rep, colleague]
+    description: >
+      An agreement's end date slips past, or is about to, while nobody from the selling
+      side has spoken with the client about carrying on.
