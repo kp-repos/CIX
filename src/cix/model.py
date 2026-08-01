@@ -84,12 +84,15 @@ def _extract_json(text: str) -> dict:
             raise
         return json.loads(obj)
 
-def complete_json(client: ModelClient, prompt: str) -> dict:
-    """One retry on malformed output, then a clean failure (AC-13)."""
-    for attempt in (1, 2):
+def complete_json(client: ModelClient, prompt: str, attempts: int = 4) -> dict:
+    """Retry transient failures — malformed JSON, and empty/`refusal` responses that
+    reasoning tiers occasionally emit — up to `attempts` times, then fail cleanly (AC-13).
+    Never drops an interaction silently: a persistent failure aborts the run rather than
+    skewing calibration counts."""
+    last: Exception | None = None
+    for _ in range(attempts):
         try:
             return _extract_json(client.complete(prompt))
-        except (json.JSONDecodeError, AttributeError):
-            if attempt == 2:
-                raise MalformedResponse("model returned non-JSON twice")
-    raise MalformedResponse("unreachable")
+        except (json.JSONDecodeError, AttributeError, MalformedResponse) as e:
+            last = e
+    raise MalformedResponse(f"model returned unusable output {attempts}x: {last}")

@@ -18,10 +18,27 @@ def test_malformed_then_valid_retries_once():
     assert complete_json(c, "anything") == {"ok": 2}
     assert c.calls == 2
 
-def test_twice_malformed_fails_cleanly():
-    c = ScriptedClient(sequence=["nope", "still nope"])
+def test_persistent_malformed_fails_cleanly():
+    class AlwaysBad:
+        def complete(self, prompt):
+            return "nope"
     with pytest.raises(MalformedResponse):
-        complete_json(c, "anything")
+        complete_json(AlwaysBad(), "anything")
+
+def test_refusal_is_retried_not_fatal():
+    # a stray refusal (client raises MalformedResponse mid-run) must be retried,
+    # not abort the whole run — reasoning tiers emit occasional refusal/empty responses
+    class FlakyRefusal:
+        def __init__(self):
+            self.n = 0
+        def complete(self, prompt):
+            self.n += 1
+            if self.n == 1:
+                raise MalformedResponse("no text block (stop_reason=refusal)")
+            return '{"ok": 5}'
+    c = FlakyRefusal()
+    assert complete_json(c, "x") == {"ok": 5}
+    assert c.n == 2
 
 def test_json_extracted_from_fenced_block():
     c = ScriptedClient(sequence=['Here you go:\n```json\n{"ok": 3}\n```'])
