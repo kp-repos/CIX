@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-022",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so Dan, thanks for making time. I had you at 42 seats today, and the team asked about moving to 55 before the October 1 renewal. Is that still the right count?"
+    },
+    {
+      "speaker": "Dan",
+      "ts": null,
+      "text": "That's right. Forty-two active now, plus 13 for the new claims group. We don't need them turned on until September 16, but we want the contract clean for October."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Got it. The order form I sent has 55 seats, annual term October 1, 2026 through September 30, 2027, at $96 per user per month. With the volume tier applied, total is $63,360 for the year."
+    },
+    {
+      "speaker": "Dan",
+      "ts": null,
+      "text": "Okay. Finance asked if you can invoice quarterly instead of annual upfront. Same total, just four invoices."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yes, quarterly billing is on there: $15,840 due October 1, January 1, April 1, and July 1, net 30. If you need a PO number printed on the invoices, send it over and we’ll include it."
+    },
+    {
+      "speaker": "Dan",
+      "ts": null,
+      "text": "Perfect. One more thing, our legal team wants the auto-renewal removed. We renew by written order only."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep, that redline is already reflected. No auto-renewal, and renewal requires a signed order form. The rest of the terms stay as in the current agreement."
+    },
+    {
+      "speaker": "Dan",
+      "ts": null,
+      "text": "Good. On rollout, can your team do two admin trainings? We have one group in Ohio and one in Arizona, so time zones are a little messy."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "We can do Wednesday, September 17 at 11 a.m. Eastern and Thursday, September 18 at 2 p.m. Eastern. Those are included, no extra services charge."
+    },
+    {
+      "speaker": "Dan",
+      "ts": null,
+      "text": "That works. Send the final PDF to me and procurement, and I’ll route it today. If we sign by Friday, are we still okay for the September 16 seat activation?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yes. If we have signature by August 9, activation on September 16 is covered, and the customer team will send the kickoff invite for the week of September 9."
+    }
+  ]
+}

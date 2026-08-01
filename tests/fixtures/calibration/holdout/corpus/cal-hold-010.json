@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-010",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the 42-seat quote and make sure the July 15 go-live still works on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep. July 15 is still the target. We may start with 38 seats and add the last four after finance signs off, but I need the invoice to match what procurement approved."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. The pricing sheet has 38 seats at $86 per user per month, billed annually, so that lands at $39,216 before tax. If you add the other four by September 1, we can keep them at the same rate."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the implementation fee was $4,500, right? I saw $5,000 on one version."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "You're right, there were two drafts. Sorry for the lag cleaning that up; yesterday got eaten by updating the CRM records, fixing account fields, and assembling the internal deal desk packet, so I had less time on customer calls than I planned. The correct implementation fee is $4,500."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No problem. I just need the order form clean because our controller will kick it back if the numbers don't line up."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. I'll send one order form with 38 seats, $39,216 annual subscription, $4,500 implementation, net 30 terms, and the July 15 start date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Can you also add that support is included? Legal asked whether the standard support hours are part of the subscription."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, standard support is included, Monday through Friday, 8 to 6 Central. Premium support is separate, but you are not buying that here."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it over today if you can. If finance approves tomorrow, I can sign by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll have the revised order form and invoice preview in your inbox by 3:00 p.m. today."
+    }
+  ]
+}

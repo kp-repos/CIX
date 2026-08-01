@@ -1,0 +1,58 @@
+{
+  "id": "cal-hold-041",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so for Northlake, can you sanity check the renewal quote before I send it to deal desk? They’re at 42 seats today, adding 8 more for the field team."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Sure. Is this the facilities analytics package plus onboarding hours, or just the subscription?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Subscription only. They used 18 of the 25 onboarding hours already, and Kara said they’ll hold the rest for the October rollout."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. I’m looking at the CRM now. Their current agreement ends August 31, and I don’t see any notes that we’ve talked to them about continuing yet."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Right, I’ll call Kara this afternoon. Pricing sheet has them at $38,400 annual, and with the 8 seats it goes to $45,600 if we keep the same tier."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "That matches. Just make sure billing keeps the invoice split the same, 70% to corporate and 30% to the Denver site, because they kicked back the last one."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I’ll put that in the order notes. They also asked for net 45 again, no change to the standard terms otherwise."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Fine by me. If they want the September 16 go-live for the new users, we should get the signed order by the 9th so provisioning isn’t a scramble."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Agreed. I’ll send the draft after deal desk approves, and I’ll flag the seat add separately so support can prep the workspace."
+    }
+  ]
+}

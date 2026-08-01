@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-000",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, yeah, thanks for making time. I wanted to confirm the rollout plan and the numbers before I send the order form over."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re still at 48 seats for the service team and 6 admin seats, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That’s right, 54 total. Annual subscription is $31,860, and the one-time implementation package is $4,200. Billing starts on February 1, with go-live targeted for March 10."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the implementation includes the two workflow templates we talked about? Intake triage and the renewal reminder one."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, both are included. I’ve got intake triage, renewal reminders, and the data import for up to 18,000 customer records listed in the scope."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Our finance team asked if payment can be net 30 instead of due on receipt."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, net 30 is fine on this order. It’ll show on the invoice terms, and there’s no change to pricing."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Contract term is 12 months, no auto-renewal?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, 12 months from February 1, 2026 through January 31, 2027. Renewal is by written agreement, and I’ll set a business review for early December so you have time to evaluate."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send it to me and Marcus in finance, and if the order form matches this, we can sign by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send it today with Marcus copied, and I’ll include the March 10 go-live date and the two templates in the scope section so everyone is aligned."
+    }
+  ]
+}

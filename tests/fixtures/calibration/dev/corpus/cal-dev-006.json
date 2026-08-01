@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-006",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hey Dana, thanks for jumping on. I wanted to walk through the revised order for 48 seats and make sure the June 24 go-live still works on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that date is still the target. The only thing is finance asked why the onboarding line is $7,500 when the first quote showed $6,000."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Right, good catch. The $7,500 includes the data import from your legacy system and two admin training sessions. I was buried in the CRM cleanup and deal desk packet yesterday, so I got the corrected quote over this morning instead of calling you back, sorry about that."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No worries. If that includes the import, I can explain it. We just need the invoice split: software on one PO, services on another."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can do that. Software would be $52,800 for the year, net 30, and services would be the separate $7,500 invoice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the renewal language, is it still auto-renew unless we give 60 days notice?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It is, but we can make that 45 days if legal prefers. The term would run July 1, 2026 through June 30, 2027."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Forty-five is better. Also, we may add 12 more seats in Q4. Do those just prorate?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, same per-seat rate, prorated through the end of the term. No new services fee unless you want extra training."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send the version with 45 days and the split invoices noted, and I’ll route it today."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-032",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so on Brightline Parts, they came back at 84 seats, not 90. Finance cut six warehouse supervisors from phase one."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. Does that change the quote materially, or are we still inside the tier from the pricing sheet?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Still inside the 75 to 100 tier. Annual comes to $58,800 before the services line. I put $6,500 for onboarding, two remote workshops, and admin training."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Good. Are they still asking for April 15 go-live?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "April 22 now. Their ops lead is out the first week of April, so they want the import done by the 12th and a week of testing."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Makes sense. Any blockers on paper?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Just the data retention addendum. I’ve pinged security and legal a couple times for the exception approval, and the deal is basically parked until that sign-off comes back."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Got it. Did procurement accept net 30, or are they pushing net 45 again?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "They accepted net 30 if we invoice on signature, not on go-live. I updated that in the billing tool notes so there’s no surprise."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Nice. Once the addendum clears, send me the final order form and I’ll check the seat count and dates before you route it."
+    }
+  ]
+}

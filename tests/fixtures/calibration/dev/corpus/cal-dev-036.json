@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-036",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I pulled the updated pricing sheet for 48 seats, annual term, and the implementation package we discussed. I wanted to confirm the rollout date before I send the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We're targeting May 20 for go-live. We'd need admin training the week before, probably May 13 or 14, if your team has availability."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That should work. I checked with services this morning and May 14 at 1:00 Eastern is open. For the 48 seats, the subscription comes to $31,680 for the year, and implementation is a one-time $4,200."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that's in line with what I had. Can you split the invoice so the subscription bills now and the services bill after the kickoff?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can do that. I'll note in the billing tool: subscription invoice on signature, services invoice after the kickoff call. Payment terms are net 30 on both unless you need something different."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Net 30 is fine. Legal asked about auto-renewal. We can accept it if there's a 60-day notice window and no more than 5% uplift."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, our standard is 60 days and the renewal cap would be 5%. I'll make sure that language is in the order form and matches the contract terms."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If you send it today, I can route it for signature tomorrow. Purchasing usually takes two business days once I submit."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I'll send the order form by 3:00 today, copy you and Marcus in procurement, and include the implementation dates in the notes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Once it's signed, send me the kickoff agenda and the admin checklist."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. And just to confirm, the initial admins are you, Marcus, and Priya, with 45 standard users after that?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Correct. That's the right count for launch."
+    }
+  ]
+}

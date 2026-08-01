@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-035",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the 38-seat plan for the service team and make sure the March 18 go-live still works on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "It does. We have 32 reps and 6 supervisors. The only thing I want to confirm is billing. We need the invoice to hit after April 1 because that's our new fiscal quarter."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that's in the order form: service starts March 18, first invoice dated April 2, net 30. Annual total is $27,360 before tax, and implementation is the one-time $4,500."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the implementation includes the two admin trainings, right? We have Alicia and Mark as the admins."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Two 90-minute admin sessions, one rep enablement session for the full group, and the data import for your existing cases. I have Alicia and Mark listed for admin training."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Legal had one question on the renewal language. They don't want auto-renewal longer than one year."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That's already set to 12-month renewal terms with 30 days' notice before the renewal date. No multi-year auto-renewal. I sent the redline back this morning."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. If we add seats mid-year, is that prorated or do we true up at renewal?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Prorated from the activation date through March 17 next year. Same per-seat rate, $60 per user per month, and it just gets added to the next monthly invoice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send me the final order form and I'll route it for signature today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You'll have it in your inbox in about ten minutes, and once it's signed, our onboarding coordinator will send the kickoff calendar invite for next Tuesday at 11 Eastern."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. If we can keep that kickoff to 45 minutes, I'll have the supervisors join too."
+    }
+  ]
+}

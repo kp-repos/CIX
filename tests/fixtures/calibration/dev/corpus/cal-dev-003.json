@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-003",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I pulled up the quote we reviewed last week: 42 seats for the project management module, annual term, start date March 1. I just wanted to confirm the seat count and the invoice timing before I send it through deal desk."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, 42 is right for the first group. We may add another 8 or 10 in Q3, but for now I need the initial team covered. On invoicing, can you set it to bill on March 1 with net 30 terms?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, net 30 is already approved on your account. The annual amount is $31,080 before tax, and that includes onboarding. The onboarding is a one-time $2,400 line item, but it's bundled into that total on the pricing sheet."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that's what I have. Our finance team asked whether the renewal would auto-renew or if we get a notice first."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It does auto-renew for successive one-year terms, but the contract has a 60-day notice window. We also send a renewal reminder to the billing contact 90 days before the term ends."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Billing contact should be ap@northlineparts.com, and copy me on the first invoice. Also, can the go-live still be March 18?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "March 18 is still workable. If we get signature by Friday, February 16, our services team can start the kickoff on February 21 and keep the March 18 go-live date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That should be fine. Legal already reviewed the order form, no redlines. I just need the final version with the updated billing email."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I'll update the billing contact in the CRM, generate the final order form, and send it over this afternoon. It'll come with the same $31,080 total and March 1 start date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send it to me and I'll route it for signature today."
+    }
+  ]
+}

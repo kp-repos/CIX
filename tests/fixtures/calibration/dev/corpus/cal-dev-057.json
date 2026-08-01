@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-057",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I pulled up the account in the CRM, and I have you at 42 seats for the operations team plus 6 approver seats for finance. Is that still the right count for the quote?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's close. We actually need 45 operations seats now. Two new hires start May 20, and one manager wants access too. The 6 approver seats is right."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 45 and 6. On the annual plan, that puts the subscription at $28,440, and implementation stays at $4,200. So the first-year total would be $32,640 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the implementation fee, is that invoiced up front or with the first monthly bill?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Since it's annual, it would be on the first invoice with the subscription. The billing tool will generate one invoice for the full amount after signature, net 30 terms."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Net 30 works. Our finance team just needs the PO number included. It’ll be PO-7186 once approved, probably by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I can add a note for that before it goes out. For go-live, you had mentioned June 17. If we have the agreement signed by May 24, that gives us enough time for configuration, two admin trainings, and the user import."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "June 17 is still the target. We have a team meeting that morning, so we'd want access live by 9 a.m. Central if possible."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that's doable. I'll put 9 a.m. Central on June 17 in the order form. Contract term would be June 17, 2026 through June 16, 2027, auto-renewal with 60 days' notice unless you ask us to remove that."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Auto-renewal is fine. Send the order form over, and I’ll route it to legal and finance today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Great. I'll send the updated order form and the pricing sheet in the next hour. If legal has redlines, they can send them back to me directly and I’ll coordinate with deal desk."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks, Mark."
+    }
+  ]
+}

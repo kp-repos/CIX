@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-006",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Hey Jordan, quick gut check on Northline. I’m cleaning up the forecast and their expansion is still sitting at 12 seats, $18,720 annual, close date August 14."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Yeah, I saw that. They asked for 10 ops seats and 2 manager seats, right? Same package they already have, just adding the workflow module."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Correct. Their current agreement ends this Friday, and I don’t think anyone on our side has talked to them about carrying on yet, so I want to get the paper aligned before it gets weird."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay. Do they need a full order form or can we do the add-on quote from the pricing sheet?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Deal desk said full order form because the workflow module changes the product schedule. No legal redlines expected, but procurement wants the invoice split quarterly."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Quarterly is fine. Billing tool can do four invoices, first one on go-live. Did they confirm September 3 for go-live?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, September 3. They have training penciled in for September 5 and 6, six people per session. Customer success already has the kickoff template ready."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Good. Any discount pressure?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Not really. I put 8% in because that matches last year’s rate card exception. Total comes to $17,222 after discount, before taxes."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Works for me. Send me the order form before noon, I’ll do a quick pass, then you can send it to Kim and their finance alias."
+    }
+  ]
+}

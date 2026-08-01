@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-039",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for hopping on. Sorry I'm a couple minutes late, I was cleaning up duplicate contacts in the CRM and it ran over. For today I wanted to confirm the 48 seats, the April 15 go-live, and the support tier."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No worries. The 48 seats is right for phase one. We may add 12 more in June if the service team likes it, but I don't want those on the initial invoice."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, initial order for 48 only. At $72 per user per month on the annual term, that puts subscription at $41,472, plus the one-time implementation fee of $6,500."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches what I have. Can you make the payment terms net 45? Our AP group pushes back on net 30 unless it is under ten grand."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I can ask for net 45. The pricing sheet supports it at this amount, but deal desk will want the internal approval packet completed before I send the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Also, legal asked if the auto-renewal can be 12 months with 60 days notice instead of 90. That's been a sticking point for us."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, that should be workable. I will redline that to 60 days and keep the initial term through April 14 of next year. No change to the go-live plan."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. We need the sandbox by April 1, then production on April 15. Training for managers would be 16 people, probably two sessions."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. I have a 3:30 with our onboarding lead, so after I type these changes into the pipeline and billing tool I'll block two 90-minute trainings for the week of April 8."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send me the updated order form when you have it, and I can get signature routed tomorrow if the invoice totals are clean."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cal-null-020",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the expansion from 42 to 60 seats and make sure the September 16 go-live still works for your operations team."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that's still the date. We have 18 supervisors starting training the week before, so the 60 seats gives us a little cushion."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. The quote I have is 60 seats at $96 per seat per month, annual term from September 1, 2026 through August 31, 2027. That comes to $69,120 for the year before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And implementation is still the $4,500 one-time fee, right? I don't want finance surprised by a separate services line later."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, $4,500 one time, listed on the same order form. It includes the admin setup, two manager sessions, and the data import template review."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Billing-wise, can you keep it as one invoice, net 30, and reference PO 7841? Our AP team will kick it back if the PO isn't on there."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, one invoice, net 30, PO 7841 on the order form and invoice. No change to the MSA terms from last year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. The only thing I need is the security addendum attached again. Legal already approved it in May, they just want it included in the packet."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. I'll send the order form with the security addendum attached by end of day. If you sign by Friday, we can hold the kickoff for August 26 at 11 a.m. Central."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send it to me and copy Marcus in finance. Assuming the numbers match what we covered, I'll route it for signature today."
+    }
+  ]
+}

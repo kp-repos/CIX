@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-016",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, hi Dana, thanks for jumping on. Sorry I missed your call this morning, I was in the CRM typing in last week's notes and it ran long. I wanted to confirm the 42-seat quote and the May 15 go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No worries. The seat count is right for launch, 42 users, but we may add 8 more in July if the support team comes in. Can the agreement handle that without a new contract?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. The order form has 42 seats at $68 per seat per month, annual term, and then any adds are prorated through April 30, 2027. Same unit price as long as you're under 60 seats."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Finance also asked about invoicing. They don't want the invoice dated before June 1 because our PO won't be open until then."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. I had to clean up the account record in the billing tool because there were two ship-to addresses for your Denver office, but the invoice date can be June 1 and net 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. And implementation, you said three weeks? We need training finished before our June 18 regional meeting."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Right. If signature is by May 10, kickoff May 16, admin setup May 20, training the weeks of June 3 and June 10. That gives you a few days of buffer before June 18."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That timeline is fine. Legal had one redline on auto-renewal, they want 45 days' notice instead of 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I can take that to deal desk. I'm assembling the internal approval packet this afternoon, so if I'm slow for an hour that's why, but I should have the revised language back today."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send the revised order form and the security exhibit together, and I'll route it for signature."
+    }
+  ]
+}

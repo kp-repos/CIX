@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-058",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final scope before I send the order form over. I have 42 standard seats and 6 manager seats, with implementation starting February 12 and target go-live March 18. Is that still right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that's right. The only thing is finance asked if the first invoice can land after March 1. Our budget opens then, so if you send it in February it just gets kicked back."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally. I checked with billing, and we can set the contract start date as March 1 even if the kickoff is February 12. The implementation fee would invoice on March 1 with the first annual subscription invoice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, good. And remind me, the implementation fee was $8,500, right? I have $8,500 in my notes, and then $54,240 for the annual software."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That's exactly what I have in the pricing sheet. The annual is $54,240, implementation is $8,500, total year-one is $62,740 before tax, if applicable."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Procurement also asked about auto-renewal. We need 30 days' notice before renewal, not 60. Is that something you can update?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that one's standard for us. I'll make sure the order form says either party can give non-renewal notice at least 30 days before the end of the term."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Last thing from our IT lead: can we add the sandbox in June instead of at go-live? They don't want to pay for it until the data team is ready."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so I can leave sandbox off this order and note it as a planned add-on for June. If you add it then, it'll be prorated through February 28 next year. Current price is $4,200 annually, so roughly nine months would be about $3,150."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send the order form to me and copy Michael in procurement. If it matches this, I think we can get signature by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I'll send it this afternoon with the March 1 start date, 48 total seats, 30-day non-renewal notice, and sandbox excluded for now."
+    }
+  ]
+}

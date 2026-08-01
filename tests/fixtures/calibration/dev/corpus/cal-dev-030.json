@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-030",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I pulled up the quote in the CRM. It looks like you were planning on 42 seats for the operations team, with a March 18 go-live. Is that still the right count?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, 42 is right for phase one. We may add another 8 in June, but I don't want those on the first order form."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally. So the order form would show 42 seats at $74 per seat per month, annual term, billed upfront. That comes to $37,296 before tax. Implementation is the one-time $4,500 package we discussed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the invoice timing, can that be April 1? Our March AP run is already closed."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can set the invoice issue date to April 1 in the billing tool. Contract start would still be March 18 for access and onboarding, but payment terms would be net 30 from April 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Legal had one note on the renewal language. They want 30 days notice instead of 60 for non-renewal."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I saw that redline. I checked with deal desk this morning, and 30 days is approved for your segment. I'll send the clean version after this call."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. For onboarding, we have data import on March 20 and manager training on March 25, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Right. Data import on Wednesday the 20th at 10 a.m. Central, manager training Monday the 25th at 1 p.m. Central. The customer success lead will send the prep checklist by Friday."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. If you send the final order form today, I can route it for signature tomorrow."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the order form, the clean terms, and the implementation schedule in one email by 3 p.m. my time."
+    }
+  ]
+}

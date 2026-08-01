@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-048",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so thanks for making the time, Dana. I had you down for 42 technician seats and 6 manager seats for the calibration tracking workspace, with a target go-live of March 18. Is that still the right shape?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Pretty much. We added two lab supervisors since last week, so make it 8 manager seats. The tech count is still 42. We need all three sites live by March 31 at the latest."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 50 total seats, three sites, March 31 latest. On the services side, the standard onboarding package covers two admin trainings and one data import. You mentioned about 1,800 asset records, right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, 1,842 in the export I pulled Friday. The only thing I’m worried about is invoice timing. We can sign in February, but accounts payable wants the first invoice dated March 1."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. We can set the subscription start date to March 1, invoice net 30, and schedule the kickoff for March 4. The annual price for 50 seats is $31,500, and onboarding is $4,200 one-time."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Is that with the annual payment discount you mentioned?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that includes the standard 10% annual prepay adjustment from the pricing sheet. If you wanted quarterly billing, the subscription would be $35,000 for the year instead."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, annual is fine. Contract term is 12 months? We’re not ready for a three-year commitment."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Twelve months, March 1 through February 28 next year. Renewal notice is 60 days, and no automatic seat increase unless you request it. If you add seats midterm, they prorate to the same end date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s reasonable. Send me the order form with the 50 seats, March 1 start, net 30, and the onboarding line item. I’ll route it to legal today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the order form and a one-page implementation schedule by 2 p.m. Eastern. Once it’s signed, we’ll lock the March 4 kickoff and the March 12 admin training."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Put me and Kevin from quality on the schedule invite. He’ll own the asset file."
+    }
+  ]
+}

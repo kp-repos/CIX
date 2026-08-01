@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-003",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, hi Dana, thanks for making time. I wanted to walk through the calibration renewal and the 18 additional technician seats you asked about for the Ohio and Indiana labs."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We are at 42 seats today, and if this goes through we'd need 60 total by February 12. The main question is whether the price holds if procurement takes until month-end."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It does, through January 31. The quote I have is $48,600 annually for the platform, plus $7,200 for the onsite instrument mapping, so $55,800 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the onsite work is still two days? We cannot have the pressure bench team offline longer than that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, two days. One day for the gauge and torque inventory, one day for the environmental chambers and certificates. We would target February 19 and 20 if that lines up."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That should work. I did email yesterday about the invoice split, though. We need software billed to corporate and services billed to the Fort Wayne cost center."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, I saw it, and sorry I was slow there. Honestly my whole day got swallowed by admin stuff: typing updates into the CRM, fixing duplicate account records in the database, and building the internal order packet for deal desk. I had like one actual buyer call before 3 p.m., which is not ideal. But I did get your split-billing note into the paperwork, so the billing tool should generate two invoices."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. As long as the paperwork shows separate POs, we're fine. Corporate PO is 77184, Fort Wayne is 33902."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect, I have 77184 for the subscription and 33902 for the onsite services. Term is February 1, 2026 through January 31, 2027, net 30, annual payment."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Send the order form today and I'll route it. If legal doesn't redline the data clause again, I think we can sign by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I'll send the clean order form in the next hour with the pricing sheet attached and the February go-live dates noted."
+    }
+  ]
+}

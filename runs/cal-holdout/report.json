@@ -1,0 +1,452 @@
+{
+  "sections": {
+    "highlights": [
+      {
+        "item_id": "clean_handoff_execution",
+        "narrative": "The rubric item clean_handoff_execution was observed on multiple occasions, but no supporting evidence snippets were supplied with this finding. Because the evidence set is empty, the reported count cannot be substantiated against any verbatim quotes, and no mechanism can be discriminated. Additional source snippets are needed to validate and characterize these handoff instances.",
+        "count": 5,
+        "share": null,
+        "denominator": null,
+        "unit": "occurrence",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      },
+      {
+        "item_id": "handoff_commitment_lost",
+        "narrative": "The rubric item handoff_commitment_lost was flagged, indicating that commitments made to customers during a transfer or escalation were not carried through to the receiving party. No evidence snippets were supplied to substantiate the specific instances or to characterize the nature of the lost commitments.",
+        "count": 11,
+        "share": null,
+        "denominator": null,
+        "unit": "occurrence",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      },
+      {
+        "item_id": "missited_work_allocation",
+        "narrative": "The rubric item \"missited_work_allocation\" was flagged for one interaction, but no evidence snippets were provided to substantiate the finding. Without any verbatim evidence, the claim cannot be supported or characterized.",
+        "count": 1,
+        "share": 0.0167,
+        "denominator": "60 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      },
+      {
+        "item_id": "multi_system_process_sprawl",
+        "narrative": "The rubric item multi_system_process_sprawl was flagged across a substantial share of eligible interactions, but no evidence snippets were provided to substantiate the finding. Without verbatim evidence, the specific systems involved and the nature of the process sprawl cannot be characterized. The claimed count of interactions is recorded pending supporting evidence.",
+        "count": 20,
+        "share": 0.3333,
+        "denominator": "60 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      },
+      {
+        "item_id": "out_of_system_discount",
+        "narrative": "The rubric item \"out_of_system_discount\" was flagged in a set of eligible interactions, indicating discounts applied outside the standard approval workflow. No evidence snippets were provided to substantiate or characterize the specific instances underlying the claimed count.",
+        "count": 13,
+        "share": 0.2167,
+        "denominator": "60 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      },
+      {
+        "item_id": "renewal_lapse_risk",
+        "narrative": "The rubric item renewal_lapse_risk was identified in a count of interactions, but no evidence snippets were provided to substantiate the finding. Without supporting quotes, the mechanism driving the flagged renewal lapse risk cannot be determined.",
+        "count": 6,
+        "share": 0.1,
+        "denominator": "60 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      },
+      {
+        "item_id": "seller_admin_burden",
+        "narrative": "The rubric item seller_admin_burden was recorded as an occurrence across the reviewed interactions. No evidence snippets were supplied with this finding, so the underlying interactions cannot be quoted or characterized. The mechanism behind the burden therefore cannot be determined from the available material.",
+        "count": 45,
+        "share": null,
+        "denominator": null,
+        "unit": "occurrence",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      },
+      {
+        "item_id": "single_touch_completion",
+        "narrative": "The rubric item single_touch_completion was met in one interaction, representing a small share of the eligible interactions reviewed. No evidence snippets were provided to substantiate or characterize the nature of this single-touch completion.",
+        "count": 1,
+        "share": 0.0167,
+        "denominator": "60 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      },
+      {
+        "item_id": "status_chasing",
+        "narrative": "The rubric item status_chasing was flagged as an occurrence with a count of seventeen. However, no evidence snippets were supplied with this finding, so the specific interactions, quotes, and context underlying the count cannot be documented or verified here. As a result, the reported count is asserted without attributable supporting text.",
+        "count": 17,
+        "share": null,
+        "denominator": null,
+        "unit": "occurrence",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      },
+      {
+        "item_id": "unowned_follow_up",
+        "narrative": "The rubric item unowned_follow_up was flagged across a set of interactions, but no evidence snippets were supplied to substantiate the count. Without verbatim snippets, the specific follow-up actions and their lack of ownership cannot be documented or attributed to a mechanism.",
+        "count": 10,
+        "share": null,
+        "denominator": null,
+        "unit": "occurrence",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      }
+    ],
+    "whats_working": [
+      {
+        "item_id": "clean_handoff_execution",
+        "narrative": "The rubric item clean_handoff_execution was observed on multiple occasions, but no supporting evidence snippets were supplied with this finding. Because the evidence set is empty, the reported count cannot be substantiated against any verbatim quotes, and no mechanism can be discriminated. Additional source snippets are needed to validate and characterize these handoff instances."
+      },
+      {
+        "item_id": "single_touch_completion",
+        "narrative": "The rubric item single_touch_completion was met in one interaction, representing a small share of the eligible interactions reviewed. No evidence snippets were provided to substantiate or characterize the nature of this single-touch completion."
+      }
+    ],
+    "leverage": {
+      "grid": [],
+      "shelf": [
+        {
+          "item_id": "clean_handoff_execution",
+          "count": 5,
+          "unit": "occurrence"
+        },
+        {
+          "item_id": "handoff_commitment_lost",
+          "count": 11,
+          "unit": "occurrence"
+        },
+        {
+          "item_id": "missited_work_allocation",
+          "count": 1,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "multi_system_process_sprawl",
+          "count": 20,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "out_of_system_discount",
+          "count": 13,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "renewal_lapse_risk",
+          "count": 6,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "seller_admin_burden",
+          "count": 45,
+          "unit": "occurrence"
+        },
+        {
+          "item_id": "single_touch_completion",
+          "count": 1,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "status_chasing",
+          "count": 17,
+          "unit": "occurrence"
+        },
+        {
+          "item_id": "unowned_follow_up",
+          "count": 10,
+          "unit": "occurrence"
+        }
+      ],
+      "note": "No catalogue loaded: all findings on the 'no known remedy yet' shelf."
+    },
+    "priced_plays": {
+      "plays": [],
+      "note": "No catalogue loaded — no priced view in this run."
+    },
+    "distribution": {
+      "items": {
+        "clean_handoff_execution": {
+          "unit": "occurrence",
+          "count": 5,
+          "share": null,
+          "denominator": null
+        },
+        "handoff_commitment_lost": {
+          "unit": "occurrence",
+          "count": 11,
+          "share": null,
+          "denominator": null
+        },
+        "missited_work_allocation": {
+          "unit": "interaction",
+          "count": 1,
+          "share": 0.0167,
+          "denominator": "60 eligible interactions"
+        },
+        "multi_system_process_sprawl": {
+          "unit": "interaction",
+          "count": 20,
+          "share": 0.3333,
+          "denominator": "60 eligible interactions"
+        },
+        "out_of_system_discount": {
+          "unit": "interaction",
+          "count": 13,
+          "share": 0.2167,
+          "denominator": "60 eligible interactions"
+        },
+        "renewal_lapse_risk": {
+          "unit": "interaction",
+          "count": 6,
+          "share": 0.1,
+          "denominator": "60 eligible interactions"
+        },
+        "seller_admin_burden": {
+          "unit": "occurrence",
+          "count": 45,
+          "share": null,
+          "denominator": null
+        },
+        "single_touch_completion": {
+          "unit": "interaction",
+          "count": 1,
+          "share": 0.0167,
+          "denominator": "60 eligible interactions"
+        },
+        "status_chasing": {
+          "unit": "occurrence",
+          "count": 17,
+          "share": null,
+          "denominator": null
+        },
+        "unowned_follow_up": {
+          "unit": "occurrence",
+          "count": 10,
+          "share": null,
+          "denominator": null
+        }
+      },
+      "rank_by_unit": {
+        "occurrence": [
+          [
+            "seller_admin_burden",
+            45
+          ],
+          [
+            "status_chasing",
+            17
+          ],
+          [
+            "handoff_commitment_lost",
+            11
+          ],
+          [
+            "unowned_follow_up",
+            10
+          ],
+          [
+            "clean_handoff_execution",
+            5
+          ]
+        ],
+        "interaction": [
+          [
+            "multi_system_process_sprawl",
+            20
+          ],
+          [
+            "out_of_system_discount",
+            13
+          ],
+          [
+            "renewal_lapse_risk",
+            6
+          ],
+          [
+            "missited_work_allocation",
+            1
+          ],
+          [
+            "single_touch_completion",
+            1
+          ]
+        ]
+      },
+      "interaction_coverage": 0.9333,
+      "residual_interactions": 4,
+      "eligible_interactions": 60
+    },
+    "method": {
+      "validations": [
+        {
+          "n": 1,
+          "check": "T-ESC",
+          "item_id": "out_of_system_discount",
+          "status": "insufficient_power",
+          "detail": "excluded pool 1 < 8"
+        },
+        {
+          "n": 2,
+          "check": "T-AGR",
+          "item_id": "motion",
+          "status": "agree",
+          "detail": "agreement 1.00 on n=6"
+        },
+        {
+          "n": 3,
+          "check": "T-AGR",
+          "item_id": "driver_origin",
+          "status": "unstable",
+          "detail": "agreement 0.67 on n=6"
+        },
+        {
+          "n": 4,
+          "check": "T-AGR",
+          "item_id": "automatability",
+          "status": "agree",
+          "detail": "agreement 1.00 on n=6"
+        },
+        {
+          "n": 5,
+          "check": "T-AGR",
+          "item_id": "outcome",
+          "status": "agree",
+          "detail": "agreement 1.00 on n=6"
+        },
+        {
+          "n": 6,
+          "check": "T-SPLIT",
+          "item_id": null,
+          "status": "stable",
+          "detail": "top-2 ranks agree across halves"
+        },
+        {
+          "n": 7,
+          "check": "T-PARA",
+          "item_id": "seller_admin_burden",
+          "status": "stable",
+          "detail": "paired disagreement 0.00 on n=6"
+        },
+        {
+          "n": 8,
+          "check": "T-PARA",
+          "item_id": "multi_system_process_sprawl",
+          "status": "not_a_measurement",
+          "detail": "paired disagreement 0.33 on n=6"
+        },
+        {
+          "n": 9,
+          "check": "T-PARA",
+          "item_id": "missited_work_allocation",
+          "status": "insufficient_power",
+          "detail": "only 1 hits to re-judge"
+        },
+        {
+          "n": 10,
+          "check": "T-PARA",
+          "item_id": "single_touch_completion",
+          "status": "insufficient_power",
+          "detail": "only 1 hits to re-judge"
+        },
+        {
+          "n": 11,
+          "check": "SECOND-LAB-SEAT",
+          "item_id": null,
+          "status": "recused_f4",
+          "detail": "audit seat (openai) recused: corpus generated by its sibling (openai)"
+        },
+        {
+          "n": 12,
+          "check": "T-DROP",
+          "item_id": null,
+          "status": "pass",
+          "detail": "drop rate 0.000 over 10 candidate claims"
+        }
+      ],
+      "drop_summary": {
+        "candidate_claims": 10,
+        "quote_drops": 0,
+        "stat_drops": 0
+      },
+      "manifest": {
+        "manifest_version": "1.0.0",
+        "corpus_hash": "8a0dfa15e4343f468a9ce5bfbd364e4ec6d97021c77d4cd42f335617b73dbe64",
+        "canonical_hash": "a0345b8cd9cffa827f9d15d84fc7dac406b83a73ab7a438f6b24fb92814562c1",
+        "index_version": "1.0.0",
+        "tag_vocab_version": "1.0.0",
+        "label_schema_version": "1.0.0",
+        "rubric_version": "1.0.0",
+        "catalogue_version": null,
+        "model_versions": {
+          "primary": "claude-opus-4-8"
+        },
+        "prompt_hashes": {
+          "labels": "575affe0f8cd9afc",
+          "hits": "6d9279ef980092b9",
+          "synthesis": "ad345dbdc1954e75",
+          "apply": "df0fc4e57b2af9e2"
+        },
+        "seeds": {
+          "run": 20260731
+        },
+        "thresholds_version": "1.1.0",
+        "privacy_gate": "synthetic-fixture",
+        "corpus_clearance": "synthetic calibration corpus (A7, holdout split)",
+        "created_at": "2026-08-01T19:45:46.141482+00:00",
+        "artifacts": {
+          "labels": "822f1ce4a65df6d7",
+          "hits": "4ab0b88c2b0744a7"
+        }
+      }
+    }
+  },
+  "manifest": {
+    "manifest_version": "1.0.0",
+    "corpus_hash": "8a0dfa15e4343f468a9ce5bfbd364e4ec6d97021c77d4cd42f335617b73dbe64",
+    "canonical_hash": "a0345b8cd9cffa827f9d15d84fc7dac406b83a73ab7a438f6b24fb92814562c1",
+    "index_version": "1.0.0",
+    "tag_vocab_version": "1.0.0",
+    "label_schema_version": "1.0.0",
+    "rubric_version": "1.0.0",
+    "catalogue_version": null,
+    "model_versions": {
+      "primary": "claude-opus-4-8"
+    },
+    "prompt_hashes": {
+      "labels": "575affe0f8cd9afc",
+      "hits": "6d9279ef980092b9",
+      "synthesis": "ad345dbdc1954e75",
+      "apply": "df0fc4e57b2af9e2"
+    },
+    "seeds": {
+      "run": 20260731
+    },
+    "thresholds_version": "1.1.0",
+    "privacy_gate": "synthetic-fixture",
+    "corpus_clearance": "synthetic calibration corpus (A7, holdout split)",
+    "created_at": "2026-08-01T19:45:46.141482+00:00",
+    "artifacts": {
+      "labels": "822f1ce4a65df6d7",
+      "hits": "4ab0b88c2b0744a7"
+    }
+  }
+}

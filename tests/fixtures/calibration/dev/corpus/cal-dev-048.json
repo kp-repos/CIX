@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-048",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Hey, quick check on Greenfield Analytics. Are we still targeting the renewal proposal by end of day? Their ops lead asked me for the final seat count before their 2:00 budget review tomorrow."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Yeah, so they landed at 86 seats, same support tier, and they want the start date moved to May 1 instead of April 15. Total annual is $48,360 before tax. No discount change."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Okay. Any weird terms? I saw a note about billing."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Just quarterly invoicing and a purchase order required. Net 30. They asked if we can keep the price protected for 30 days because procurement is slow, which is fine under the standard language."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Cool. So what is holding it up?"
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Honestly, getting the actual proposal out is the whole slog. I start in the CRM with the account, contact, 86 seats, May 1 date, and $48,360. Then I copy the same stuff into the pricing sheet to calculate the line items. Then I retype it into the proposal template, then into the deal desk request, then again into the billing tool for the invoice preview, and after approval I still have to enter the customer name, address, dates, seat count, and terms into the e-sign packet. If one field changes, like their seat count moved from 82 to 86 yesterday, I have to go back through each place and fix it by hand. It took me most of Monday and part of this morning for what is basically a standard renewal."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Ugh. Okay, for today let's just get it clean and out. Do you want me to sanity check the PDF before you send it?"
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Please. I’m mainly worried about the service period showing May 1, 2026 through April 30, 2027 everywhere. Their controller catches that stuff."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Send it over when you have the draft. I’ll check the dates, quarterly billing note, PO requirement, and the $48,360 total."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Thanks. If deal desk approves by 3:30, I can send it to Dana today and ask for signature by Friday."
+    }
+  ]
+}

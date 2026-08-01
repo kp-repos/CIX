@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-026",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making the time. I have you down for 42 seats on the operations analytics package, annual term starting August 15. Is that still the right scope?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that's right. We may add three finance users later, but for launch it's 42. The main thing is getting access for the plant managers before our September 3 go-live."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. So we'll keep the order form at 42 seats, with the option to add seats mid-term at the same unit rate. The current pricing sheet has that at $118 per user per month, billed annually, so the first-year total is $59,472 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And implementation is still the $6,500 one-time fee, correct?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. That includes the two workflow sessions, data mapping, and admin training. I checked with services this morning, and they can start the kickoff on August 19 if we have signature by next Friday."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That should work. Procurement asked whether the invoice can be split, 50% on signature and 50% after go-live."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, that's doable. I'll note that for billing tool setup. The subscription portion will invoice on signature, but we can split the implementation fee into $3,250 at signature and $3,250 on September 3."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Legal also had one question on the renewal notice. Our standard is 60 days, not 90."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That's fine. I'll send that to deal desk with the payment split and 60-day renewal notice. No change to the net 30 terms unless you need something different."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Net 30 is fine. Send the updated order form today if you can, and I'll route it internally."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll update the CRM after this, get the revised order form out by 3 p.m. Eastern, and include the August 19 kickoff date in the email."
+    }
+  ]
+}

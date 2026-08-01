@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-018",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so thanks for making time, Dana. I had you down for 42 technician seats and 6 manager seats for the calibration tracking rollout, with the target go-live on May 12. Is that still right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Close. We added two lab supervisors, so make it 8 manager seats. Technician count stays 42. We also need the first invoice dated after April 1 because that's the new budget period."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 50 total seats, invoice after April 1. On term, the pricing sheet has the 24-month option at $3,850 per month, and that includes the gauge import and the onsite admin training day."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. The training day is important. We want it the week of May 5, ideally Tuesday, because all three shifts overlap for about two hours."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Tuesday May 6 works on our side. I'll put that date in the order notes and the implementation summary, so the kickoff team has it from day one."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. And payment terms are net 30, right? Our purchasing group kicked back one agreement last quarter because it said due on receipt."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, net 30 is standard for this package. The order form will show monthly billing, net 30, starting after the April 1 invoice date you mentioned."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "One more thing. We need the asset import done before training. It's about 6,200 instruments, mostly spreadsheets from our three sites."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That's included. We'll need the files by April 18 to hit the May 12 go-live. If you can send one sample this week, our import specialist can confirm the format before you export everything."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, I can send a sample Thursday. Send me the order form today and I'll route it for signature. Our signer is Mark Ellison, VP of operations."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I'll send it to you and Mark by 3:00 Central with the 50 seats, 24-month term, $3,850 monthly, net 30, invoice after April 1, and May 6 training. Anything else I should include?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that's the list. If the paperwork matches that, we should be able to sign by Friday."
+    }
+  ]
+}

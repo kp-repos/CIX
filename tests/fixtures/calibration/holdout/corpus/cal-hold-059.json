@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-059",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout scope before I send the order form over. I have 42 standard seats and 6 admin seats, with the data import service included. Is that still right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that matches what I have. The only thing is finance asked if the 6 admin seats are priced differently or if they're just permissions."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Good question. They're just permissions, so all 48 seats are at the same rate. On the pricing sheet that's $74 per seat per month, billed annually, so the subscription total is $42,624 for the year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that helps. And the import service was the one-time $3,200, correct?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. So all-in year one is $45,824 before any applicable tax. Year two would just be the subscription unless you add more services."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. We need the invoice dated after March 1 because that's when the budget opens. Can you still hold the April 15 go-live?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so if we get signature by March 4, we can start kickoff the week of March 11 and still target April 15. The import usually takes about 10 business days once you send the CSV exports."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That should work. Legal had one comment on the auto-renewal. They want 60 days' notice instead of 90. Is that okay?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I checked with deal desk this morning. We can do 60 days' notice, no issue. I'll update that in the contract terms before sending."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and copy our AP alias. If everything looks right, I'll route it for signature tomorrow."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the order form and invoice preview by 3 p.m. today, and I'll include the implementation timeline in the same email."
+    }
+  ]
+}

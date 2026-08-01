@@ -1,0 +1,17 @@
+[
+  {
+    "cycle": 1,
+    "max_cycles": 3,
+    "at": "2026-08-01T19:25:57.405181+00:00",
+    "summary": {
+      "statuses": {
+        "P1": "pass",
+        "P2": "pass",
+        "P3": "pass",
+        "P4": "pass",
+        "P5": "pass",
+        "P6": "pass"
+      }
+    }
+  }
+]

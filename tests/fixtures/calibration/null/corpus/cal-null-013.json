@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-013",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the plan for the 48 seats and the March 18 go-live before I send the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that's the number. Forty-two regular users and six managers. We don't need the analytics add-on until Q3, so keep that off for now."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. Core platform only, annual term, starts March 1, with go-live support on March 18. The pricing sheet has that at $31,680 for the year, billed upfront. Does that match what you were expecting?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "It does. Finance asked if the invoice can reference PO 44719 and list the Bloomington office as the billing location."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, no problem. I’ll put PO 44719 and Bloomington on the order form and invoice notes. For services, we have the two remote admin trainings included, one on March 11 and one on March 14."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And contract-wise, it's still a 12-month term with 30 days' notice before renewal, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. March 1, 2026 through February 28, 2027, and either side can give notice 30 days before renewal. No auto-increase in year two unless you add seats or products."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's fine. Can you also note that our HR lead, Priya Shah, is the implementation contact? She'll own the user list."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Absolutely. Priya Shah as implementation contact, user list due by March 6. Our onboarding team will use that to prep the workspace before the first training."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it over today and I'll route it for signature. If legal has no edits, we should have it back by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send the order form in the next hour with the terms we just covered. Once it's signed, we’ll lock the March training dates and send Priya the kickoff invite."
+    }
+  ]
+}

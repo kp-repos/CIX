@@ -1,0 +1,63 @@
+{
+  "id": "cal-null-030",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Karen. I wanted to confirm the 42 seats for the support team and the five manager seats before I send the order form for the June 1 start."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s right. We’re at 37 active reps today, but the next training class starts June 10, so 42 gives us a little room. Managers stay at five."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. The annual subscription comes to $28,560, and implementation is the one-time $3,200 we discussed. Billing would be net 30, invoice sent after signature, unless you need a PO first."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We do need a PO. Finance said they can turn it around in two business days if the quote has the tax line and the service dates on it."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I’ve got service dates as June 1, 2026 through May 31, 2027. Tax is estimated at $1,914.72 based on the Chicago office address. If the PO comes back with a different billing entity, we can update that before signature."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And just to be clear, we’re doing single sign-on at launch, not later. That was the one thing IT cared about."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. SSO is included in the implementation scope, and the go-live plan has the admin session on May 20 and user training on May 28. If IT wants a separate technical call, I can set that for next week."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Please do. Tuesday after 1 Central works. Also, the contract term, there’s no auto-renewal longer than one year, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Right, it renews for successive one-year terms unless either side gives 45 days’ notice. I’ll point that out in the summary email so legal doesn’t have to hunt for it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send the quote today, and I’ll attach it to the PO request. If procurement doesn’t redline anything weird, we should be able to sign by Friday."
+    }
+  ]
+}

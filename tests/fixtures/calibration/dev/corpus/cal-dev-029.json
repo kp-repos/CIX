@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-029",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya, Rep",
+      "ts": null,
+      "text": "Yeah, so quick sync on Northstar Foods. They're at 42 seats, annual, $38,640 net, target go-live May 6. Customer is fine with the pricing sheet, but the deal is not moving because I'm still waiting on legal's answer on the indemnity cap. I've nudged Priya in legal on Monday, yesterday morning, and again today, and until she signs off the redline, procurement won't send the PO."
+    },
+    {
+      "speaker": "Evan, Colleague",
+      "ts": null,
+      "text": "Okay, that explains why it still shows commit with no paper. Is the redline just the cap language, or did they touch data retention too?"
+    },
+    {
+      "speaker": "Maya, Rep",
+      "ts": null,
+      "text": "Just the cap. Data retention stayed standard, 24 months. Their controller asked for the first invoice to start June 1 even though go-live is May 6, and I told him that's okay if billing confirms the partial month treatment."
+    },
+    {
+      "speaker": "Evan, Colleague",
+      "ts": null,
+      "text": "Do we need deal desk for that, or is it inside the normal ramp note?"
+    },
+    {
+      "speaker": "Maya, Rep",
+      "ts": null,
+      "text": "That's the other blocker. I keep nudging deal desk for the ramp approval because the quote has 28 seats in May and then 42 seats starting June 1. I've posted in the deal thread twice and emailed the queue this morning, and the deal is stalled until that sign-off comes back because finance won't let me send the final order form without it."
+    },
+    {
+      "speaker": "Evan, Colleague",
+      "ts": null,
+      "text": "Got it. So two open items: legal on indemnity, deal desk on the May-to-June seat ramp. Customer's timeline still May 6?"
+    },
+    {
+      "speaker": "Maya, Rep",
+      "ts": null,
+      "text": "Yep. Their ops lead said training can be May 2 and May 3, two admin sessions and one manager session. They just don't want to schedule users until they have the countersigned order in hand."
+    },
+    {
+      "speaker": "Evan, Colleague",
+      "ts": null,
+      "text": "Makes sense. If those approvals land today, can you turn the paperwork same day?"
+    },
+    {
+      "speaker": "Maya, Rep",
+      "ts": null,
+      "text": "Yeah. Quote's built in the CRM, taxes are calculated, billing contact is ar@northstarfoods.com, net 30. I just need to swap in the approved language and attach the seat schedule."
+    },
+    {
+      "speaker": "Evan, Colleague",
+      "ts": null,
+      "text": "Okay. I'll keep the forecast at commit but note dependency on approvals. If nothing moves by 3 p.m., maybe we ask your manager to escalate."
+    }
+  ]
+}

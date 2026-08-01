@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-030",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I had us down to review the 42-seat rollout and the services line before I send the order form through deal desk."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that’s right. We’re still at 42 seats for phase one. The only change is we want the admin training split into two sessions instead of one, if that doesn’t move the price much."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It doesn’t. The services package is still $6,800 total, we’d just schedule two 90-minute sessions the week of March 11. License is $38 per seat per month, annual term, so $19,152 for the subscription."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, and the start date on that is March 1, correct? Our finance team asked because they don’t want an invoice dated in February."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, March 1 start, March 1 invoice date. Net 30 terms, so payment due March 31. I’ll make sure that’s reflected in the billing tool and on the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. For go-live, we’re targeting April 8. Is that still reasonable with the March 11 training?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so if we get signature by February 23, we can do kickoff March 4, training March 12 and 14, and leave about three weeks for configuration and user testing. April 8 is reasonable."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. One thing on the contract: legal asked if the auto-renewal can be 30 days notice instead of 60."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That’s within our standard fallback. I’ll note 30 days’ notice for non-renewal in the special terms and have deal desk approve it. No pricing impact."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and I’ll route it for signature. If I have it today, I can probably get it back by next Wednesday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I’ll send it this afternoon, along with the implementation timeline and the seat breakdown by department. You’ll see 18 operations, 14 customer support, and 10 managers on the quote."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that matches our list. Thanks, Mark."
+    }
+  ]
+}

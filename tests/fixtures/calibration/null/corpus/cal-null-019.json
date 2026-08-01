@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-019",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Karen. Last time we had 38 technicians and 6 dispatch users for the calibration scheduling rollout. Is 44 total still the right count for May?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Close. We added two lab leads, so call it 46 seats. Only 34 need full access on day one, but I want the other 12 active by June 15."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. For 46 seats on an annual term, the pricing sheet has you at $72 per seat per month, plus the one-time onboarding at $2,800. That includes the asset import and two admin training sessions."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Finance asked if the onboarding can land on the first invoice, not paid separately by card or anything like that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, it will be on the first invoice. Net 30, annual subscription billed upfront. The subscription total is $39,744, onboarding is $2,800, so first invoice would be $42,544 before any applicable tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Contract term would start May 20? We want go-live June 3, but procurement prefers the service date before the training."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "May 20 start date is fine. We can schedule admin training for May 22 and May 29, then your tech group goes live June 3. If you send the sample asset file by May 17, that keeps the import clean."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, we can do May 17. One thing, our legal team usually adds a data return clause. Nothing weird, just 30 days after termination."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That clause is already in our standard addendum: data export available for 30 days after the term ends. I’ll include that addendum with the order form so they can see the language."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and copy Miguel in procurement. If the numbers match what you just walked through, I can get signature routed this week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the order form for 46 seats, May 20 start, 12-month term, $42,544 first invoice, and the June 3 go-live plan. You should have it this afternoon."
+    }
+  ]
+}

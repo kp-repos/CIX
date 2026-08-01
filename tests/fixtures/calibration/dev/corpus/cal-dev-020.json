@@ -1,0 +1,58 @@
+{
+  "id": "cal-dev-020",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya Patel, Account Executive",
+      "ts": null,
+      "text": "Hi Ron,\n\nThanks for the time today. Recap of the calibration management rollout:\n\n- 42 named users\n- 3 facilities: Dayton, Fort Wayne, and Erie\n- asset import for about 8,600 gauges and torque tools\n- target go-live: November 18\n- initial term: 24 months\n\nI attached the order form and the implementation outline. Annual subscription is $34,200 and implementation is $6,500 one-time.\n\nMaya"
+    },
+    {
+      "speaker": "Ron Ellis, Quality Systems Manager",
+      "ts": null,
+      "text": "Maya,\n\nThis is close. Two items before I send it to purchasing:\n\n1. We only need 38 users at launch, not 42. The other four inspectors are seasonal.\n2. Finance wants the implementation fee on the first invoice, but subscription split quarterly.\n\nCan you revise for that?\n\nRon"
+    },
+    {
+      "speaker": "Maya Patel, Account Executive",
+      "ts": null,
+      "text": "Hi Ron,\n\nYes. I updated the seat count to 38 and adjusted invoicing to show $6,500 implementation on invoice 1, with the subscription billed quarterly.\n\nNew annual subscription is $31,900. The 24-month term and November 18 go-live are unchanged.\n\nMaya"
+    },
+    {
+      "speaker": "Ron Ellis, Quality Systems Manager",
+      "ts": null,
+      "text": "Maya,\n\nThanks. Purchasing is asking whether we can get this to $30,000 even. They are comparing it against what we paid for the old calibration database plus our outside cert uploads.\n\nIf not, I understand, but I need a yes/no before noon tomorrow.\n\nRon"
+    },
+    {
+      "speaker": "Maya Patel, Account Executive",
+      "ts": null,
+      "text": "Ron,\n\nPer our messages, I can do $30,000 annual if you can return signature by Friday, 10/11. I’ll clean up the deal desk paperwork after so the order form matches. Implementation stays at $6,500 and quarterly billing is fine.\n\nMaya"
+    },
+    {
+      "speaker": "Ron Ellis, Quality Systems Manager",
+      "ts": null,
+      "text": "Maya,\n\nUnderstood. Please send the clean order form at $30,000 annual and $6,500 implementation. I’ll route it to Carrie in purchasing today.\n\nOne more thing: can you add that historical certs from 2021 forward are included in the import? That was in the implementation outline but not the order form.\n\nRon"
+    },
+    {
+      "speaker": "Maya Patel, Account Executive",
+      "ts": null,
+      "text": "Hi Ron,\n\nAttached is the updated order form. I added the 2021-forward certificate import language under Professional Services and kept the payment schedule as discussed.\n\nPlease have Carrie send the signed copy to me and billing@ourcompany.example once approved.\n\nMaya"
+    },
+    {
+      "speaker": "Ron Ellis, Quality Systems Manager",
+      "ts": null,
+      "text": "Maya,\n\nCarrie signed and sent it over a few minutes ago. PO 46872 is included on the form.\n\nPlease confirm the project kickoff for Tuesday, October 22 at 10:00 Eastern. We will have me, our metrology lead, and someone from IT on the call.\n\nRon"
+    },
+    {
+      "speaker": "Maya Patel, Account Executive",
+      "ts": null,
+      "text": "Ron,\n\nConfirmed received. Kickoff is set for Tuesday, October 22 at 10:00 Eastern.\n\nNext steps before then:\n\n- we’ll send the asset import template by tomorrow\n- your team can export the current gauge list and vendor cert files\n- our implementation lead will review login groups for the 38 users\n\nThanks,\nMaya"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-040",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Alex,\n\nWe’re ready to tighten up numbers for the April 1 go-live. Please quote 42 user seats, SSO, the standard onboarding, and quarterly invoicing. Procurement wants net 30 and a 12-month term.\n\nMaya"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Maya,\n\nAttached is the order form draft.\n\n42 seats at $96/user/month = $48,384 annual\nOnboarding = $4,800\nTerm = Apr 1, 2026 - Mar 31, 2027\nBilling = quarterly, net 30\n\nIf we have signature by Mar 15, the implementation team can hold the Apr 1 launch window.\n\nAlex"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Alex,\n\nThanks. CFO is holding us to $48,000 all-in for year one, before tax. We can skip the admin training block if that helps. Need to keep SSO and the sandbox.\n\nMaya"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, we can make that work. I can do 42 seats at $82/user/month and onboarding at $3,000. I’m sending that here so we don’t wait on deal desk; I’ll clean up the approval and paperwork after you confirm. That puts year one at $44,328 before tax.\n\nAlex"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That number works. Please send the version procurement can review.\n\nAlso need the DPA, security packet, and confirmation the quarterly invoices will be four equal payments.\n\nMaya"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Attached are the updated order form, DPA, and security packet.\n\nInvoices would be $11,082 each before tax, due net 30. First invoice issues on Apr 1, then Jul 1, Oct 1, and Jan 1.\n\nAlex"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Legal has two asks:\n\n1. Auto-renewal notice needs to be 60 days, not 30.\n2. Renewal increase capped at 5%.\n\nIf you can accept those, I think we can sign this week.\n\nMaya"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Maya,\n\nThose changes are fine. I updated section 7.2 for 60-day notice and added the 5% renewal cap in the commercial terms.\n\nClean copy attached.\n\nAlex"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Signed copy attached. PO is 78341, but finance said the PO PDF may not be generated until Monday. Please use the PO number on the invoice.\n\nMaya"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Received, thank you. Countersigned copy attached.\n\nI’ll have onboarding reach out today to schedule the kickoff for Apr 3 and collect the user list.\n\nAlex"
+    }
+  ]
+}

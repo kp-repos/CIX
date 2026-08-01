@@ -1,0 +1,53 @@
+{
+  "id": "cal-dev-056",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so Redwood Components came back on the renewal. They’re good with 38 seats, but they want the services line split out at $6,400 so procurement can code it separately."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Okay. Same term, January 1 through December 31?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep, 12 months. I moved the seat count and dates from the CRM into the pricing sheet and the order form this morning, so deal desk should have the packet after lunch."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Perfect. Any pushback on the 4% uplift?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Not really. Their CFO asked why the invoice estimate shows $52,180 instead of $51,900, but that’s just the added admin seat they forgot about."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Got it. If they sign by the 18th, billing can still get the January invoice out on time."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "That’s what I told them. They also asked for the cancellation language to stay at 30 days for the services piece only."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "That should be fine. Send me the final PDF before it goes over, and I’ll sanity check the totals."
+    }
+  ]
+}

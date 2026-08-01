@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-040",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I’ve got you down for 42 users at the Easton and Mesa locations, with a target go-live of May 6. Is that still right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s right. It may become 45 if we add the quality supervisors, but for budget approval I need the quote to show 42 seats and then the per-seat add-on price."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that’s straightforward. For 42 seats on the standard plan, annual subscription is $31,080. Additional seats would be $740 each per year, prorated if you add them mid-term."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And onboarding, you had mentioned a services package. Is that required or optional?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "For your setup, I’d recommend the basic onboarding package. It’s $4,200, includes two admin sessions, one end-user training, and help configuring the three inspection forms you sent over."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Finance will ask about payment terms. We usually do net 45 from invoice date, and we need the invoice split by location if possible."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Net 45 is fine for this order size. And yes, we can split the invoice: 28 seats to Easton and 14 to Mesa, with the services line allocated 50-50 unless you want a different split."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, 50-50 is fine. Contract term would be twelve months starting May 1, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. May 1, 2026 through April 30, 2027. The app access can open May 1, and the first admin training would be May 2 or May 3 depending on your team’s availability."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Let’s hold May 2 at 10 a.m. Central. I’ll need the order form today if possible so I can get it into our approval packet by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I can send it over this afternoon. It’ll show 42 seats, $31,080 subscription, $4,200 onboarding, net 45, split billing for Easton and Mesa, and the May 1 start date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and copy our procurement inbox. If legal has small edits, I’ll consolidate them and get back to you."
+    }
+  ]
+}

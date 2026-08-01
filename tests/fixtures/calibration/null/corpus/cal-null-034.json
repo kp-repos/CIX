@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-034",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I have Northstar at 42 seats today, contract runs through May 31, and you were looking at adding the support team before the June 17 go-live. Is that still the plan?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We need 18 more seats, so 60 total. Support wants access for training by June 3, not the 17th, if we can make that work."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that works. For 60 seats on the annual plan, you're at $54 per seat per month, billed annually. That puts the renewal plus expansion at $38,880 before tax. Same payment terms as last year, net 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Our finance team will ask if the invoice can show one line for the 42 renewing seats and one line for the 18 new seats, just for cost center tracking."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, easy enough. The order form will show both lines, and billing can mirror that on the invoice. No change to the subscription dates, so everything co-terms to May 31 next year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. We also need the admin training included. Last time it was two one-hour sessions, and that was enough."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. I'll include two remote admin training sessions, to be completed by June 14. Those are included at no charge with the 60-seat annual package."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send the order form to me and copy Marcus in procurement. If it matches what we just covered, I can route it for signature tomorrow."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You'll have it this afternoon: 60 seats, $38,880 annual, net 30, co-termed through May 31, invoice split into two seat lines, and two admin trainings by June 14."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. Once it's signed, can we get the kickoff invite on the calendar for May 28?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. I'll hold May 28 at 10 a.m. Central with your admin group and our onboarding lead, and we'll confirm it once the order is back."
+    }
+  ]
+}

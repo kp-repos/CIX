@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-021",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hey, quick gut check on the Northstar Foods renewal. They want 84 seats, same support tier, and a 12-month term starting August 1. I have the quote at $71,400 net."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Yeah, that lines up with the pricing sheet. Did they keep the two sandbox environments or drop one?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "They kept both. The only change is billing wants annual upfront instead of quarterly, which is fine. Their controller asked for the invoice to reference PO 44819."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. Any discount approval needed?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so that's the annoying part. To get this proposal out I have to put the 84 seats, $71,400, August 1 start, PO note, and the sandbox line into the CRM, then retype it into the quoting tool, then retype it into deal desk because the discount is 12%, then retype it into the contract workspace for legal, and then billing makes me enter the same fields again so the invoice draft matches. If one date or seat count is off, it bounces back. Last time this took two days just for an extension with no scope change."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Ugh. For deal desk, use the standard renewal exception and attach their May usage report. That should keep it out of the long review queue."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Good call. I have the usage report saved. They averaged 78 active users in May and 81 in June, so 84 seats is clean."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Legal should be okay too if you're not changing the MSA. Just make the order form say coterminous support through July 31 next year."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. Customer wants signatures by Friday because their finance team is closing July on the 29th."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Then send me the draft before it goes out. I'll check the totals and the PO language."
+    }
+  ]
+}

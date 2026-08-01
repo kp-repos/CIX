@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-042",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, yeah, thanks for making time. I wanted to walk through the revised subscription for the calibration management rollout and make sure the seat count and dates match what your team needs."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re still at 38 technician seats and 6 manager seats. The only change is we want the training environment active by April 22, not April 29."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. April 22 for the training environment, production go-live May 13. The annual subscription is $48,600, and the one-time onboarding package is $7,250. That includes the gauge import, two admin sessions, and three technician trainings."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. On invoicing, can you split the onboarding from the subscription? Finance wants services billed on the start date and the subscription billed at go-live."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that’s fine. So onboarding invoice April 22 for $7,250, subscription invoice May 13 for $48,600. Net 30 on both, same as your standard terms."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. The contract term is still twelve months, right? May 13, 2026 through May 12, 2027?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Twelve months, renewal notice 45 days before the end date. I’ll include the dates exactly that way in the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. One thing: we need three departments listed on the quote for cost allocation: machining, quality, and facilities. Not separate bills, just listed."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, one invoice, departments noted for allocation. And for the import, you’ll send the asset file by April 15 so our team can map the fields before training starts."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes. I have the export from our current system. It’s about 2,800 records, mostly calipers, micrometers, pressure gauges, and torque tools."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send the final order form this afternoon with the 44 total seats, the invoice split, and the April 22 training environment date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. If it matches what we covered, I can sign tomorrow and get the PO entered by Friday."
+    }
+  ]
+}

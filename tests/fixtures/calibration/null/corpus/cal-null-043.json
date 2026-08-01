@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-043",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, yeah, thanks for making the time. I had you down for 42 seats starting June 17, plus the reporting add-on for the finance team. Is that still the right scope?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Mostly, yeah. We counted again this morning and it is 45 seats. Same reporting add-on. We want the first invoice to hit in July, not June, if that’s possible."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. For 45 seats on the annual plan, you’re at $38,700 for the year, and the reporting add-on is $6,000. So total contract value is $44,700, invoiced July 1 with net 30 terms."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And implementation, you said two weeks? We’re trying to have our managers using it before the July 15 regional meeting."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Right. If we get signature by Friday, June 7, kickoff would be Tuesday, June 11. Configuration that week, user training on June 18 and 20, and go-live June 24. That gives you a few weeks before the meeting."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That timeline is fine. I need the order form to show the 45 seats, annual term, and the July 1 invoice date. Our AP team also needs our PO number on there, PO-4186."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I can include PO-4186 on the order form. Term would run July 1, 2024 through June 30, 2025. We’ll note the June kickoff dates in the implementation section so your team has it in writing."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. One thing: if we add five more seats in September, are they prorated, or do we pay a full year?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "They’re prorated through June 30, 2025 at the same per-seat rate. So if you add five seats on September 1, it would be roughly ten months of seat fees, added to the next invoice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Makes sense. Send the order form to me and copy Martin in procurement. If the numbers match what you just walked through, I can sign this week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it over today with the $44,700 total, July 1 invoice date, net 30, and the implementation schedule. Anything else you want captured before I send it?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that covers it. Thanks, yeah, this is pretty straightforward."
+    }
+  ]
+}

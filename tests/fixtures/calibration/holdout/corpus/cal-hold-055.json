@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-055",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Mia",
+      "ts": null,
+      "text": "Hey Jordan, do you have a minute on the Ridgeway renewal? They added the 18 warehouse seats, so it's now 74 total, and they want the quote back before their finance call Friday."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Yeah, I saw the note. Is this still a 12-month extension starting March 1, or did they ask for 24?"
+    },
+    {
+      "speaker": "Mia",
+      "ts": null,
+      "text": "Still 12 months. Same terms, but they want the services line split out because procurement needs software and onboarding on separate invoice lines."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay. List is what, $62,160 annual on the seats, then $4,800 for the remote enablement package?"
+    },
+    {
+      "speaker": "Mia",
+      "ts": null,
+      "text": "Yep, and I got approval to hold their 8% discount if they sign by February 21. The thing that's killing me is just generating the proposal. To extend the agreement I have to update the account in the CRM, retype the same 74 seats and March 1 dates into the quoting tool, copy the discount and term notes into the pricing sheet, open a deal desk request with the exact same ARR and invoice language, then go into the contract workspace and enter it all again for legal. None of it carries over, so I'm basically typing Ridgeway Distribution, 74 seats, $57,187.20, March 1 to February 28, and the billing split five separate times. It took me two hours yesterday and I still got bounced because the billing tool had the old 56-seat count."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Ugh, yeah. For this one, send me the deal desk request number and I'll check the numbers before you route it again."
+    },
+    {
+      "speaker": "Mia",
+      "ts": null,
+      "text": "Thanks. It's DD-4187. I fixed the seat count in the billing tool this morning, and I added the note that first invoice should go out March 3, net 30."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Looks like the only thing missing is the customer PO requirement. Did they say PO required before signature, or just before invoice?"
+    },
+    {
+      "speaker": "Mia",
+      "ts": null,
+      "text": "Before invoice. Camille in procurement said they can sign off the order form first, then send the PO by February 27."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Cool. Put that in the special terms as operational only, not a condition to the contract. Then route to legal, and I think you're fine."
+    },
+    {
+      "speaker": "Mia",
+      "ts": null,
+      "text": "Got it. I'll clean that up and send Ridgeway the PDF by end of day."
+    }
+  ]
+}

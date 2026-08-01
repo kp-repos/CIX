@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-022",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Morning. Can we do the renewals and anything over 30k before the forecast call? I’ve got the CRM open."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so Benton Manufacturing is clean. 58 seats, one-year renewal, $31,740. They want the service start on June 1, same payment terms, no uplift fight. I sent the order form yesterday and procurement said they’ll sign by Friday."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Good. What about Acme Plastics? That one was supposed to come in this week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Acme is the frustrating one. They approved 42 seats at $48,600 ARR and the VP already said budget is set, but the security addendum is sitting with legal. I’ve nudged legal every day since May 9, and twice yesterday, because the customer won’t countersign until we answer the data retention redline. The deal is literally stalled in the CRM at proposal until legal gives that sign-off, so I can’t move it to contracting or ask procurement for a PO yet."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay, don’t discount it just to create movement. If the business buyer is good, we wait on the redline. Did they mention a hard go-live?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "June 17 is their target. They need two admin trainings the week before, and implementation said that’s fine if we get paper by May 24. I put those dates in the notes."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Alright. Northstar expansion?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Northstar is straightforward. Adding 18 warehouse users, co-termed to January 31, $14,220 net new. They asked if the invoice can split by location, but that’s standard, I checked the pricing sheet and it doesn’t change anything."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "And Cedar Grove? I saw that sitting in commit but no activity since Monday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, Cedar Grove is stuck on the billing answer. They’re ready for 75 seats, $63,900, but they need confirmation that the first invoice can be net 45 and dated July 1 because their fiscal year flips then. I keep nudging billing and finance, like I sent the thread Monday, Tuesday, and again this morning, and the buyer won’t open the PO until we confirm it. So that deal is stalled until billing gives me the yes or no on the invoice terms."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Got it. Keep the close date at May 31 for now, but put a next step in the CRM with the exact ask. Anything else weird?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No, the rest is normal. Two smaller pilots, both under 10k, and I’m waiting on one customer to pick training dates. I’ll clean up the notes before the call."
+    }
+  ]
+}

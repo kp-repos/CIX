@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-045",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, hi Dana, thanks for making the time. I had us down to confirm the 42 seats, the April 15 go-live target, and the billing details for Northlake’s support team."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s right. It’s 38 regular users and 4 team leads. We may add 6 more in Q3, but I don’t want to buy those yet."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally fair. The order form will show 42 seats now, annual term starting April 1, and then any added seats later are prorated at the same rate through March 31 next year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the number you sent was $31,080 for the year, correct?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. That’s $740 per seat annually on the approved pricing sheet, and it includes the standard onboarding package. Taxes are separate, and the invoice can be net 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Net 30 works. Our AP team needs the PO number on the invoice. It’s PO-44819, and the billing email is ap@northlake.example."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. I’ll include PO-44819 on the order form and the invoice request. For implementation, we have the kickoff tentatively set for April 3 at 10 a.m. Central with your operations manager, Luis."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, Luis is the right person. He asked whether the CSV import is part of onboarding or if that’s a separate services fee."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It’s included for one initial import, up to 25,000 records. If you have multiple cleanup passes after that, we’d scope it separately, but the first load is covered."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Last thing, legal asked for the mutual confidentiality language to stay as-is, no changes there. They’re fine with the standard 12-month term."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send the final order form today with the 42 seats, $31,080 annual subscription, net 30, PO-44819, and April 1 start date. If you sign by Friday, we’re good for the April 3 kickoff."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Send it over. I’ll route it for signature this afternoon, and I’ll copy Luis so he has the onboarding date."
+    }
+  ]
+}

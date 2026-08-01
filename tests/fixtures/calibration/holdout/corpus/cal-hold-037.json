@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-037",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so I'm looking at the renewal queue for Northstar Components. They've got 74 seats, annual support, standard analytics package. Current invoice is $42,600, net 30."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. Are they expanding or just flat renewal?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Flat from what I can tell. Usage is steady, 61 active users last month. The issue is their agreement ends this Friday, March 29, and I don't see any call notes, emails, anything from our side with the client about continuing. Like, no one has asked them if they're renewing, no quote sent, no term discussion. We're basically four business days from the end date and the customer has not been spoken to about carrying on."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Wait, nothing in the CRM from January or February? They usually start procurement pretty early."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Nothing. Last touch was support on a permissions ticket on February 6. Sales-wise, last note is the original close last year. So we need to treat this as urgent without making it sound like we just noticed."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Yeah, agreed. I'd call Melissa first, then send a simple follow-up with the renewal quote attached. Same 12-month term?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That's what I'm thinking. April 1, 2024 through March 31, 2025, same 74 seats at $575 per seat, plus the $50 admin fee they had last year. Total comes to $42,600 again."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Check the pricing sheet on that admin fee. I think finance moved it to $75 for new agreements, but renewals may be grandfathered."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Good call. I'll confirm with deal desk before I send anything. If it's grandfathered, I'll keep it clean and just note no price change."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "And ask if they need a PO number on the invoice. Last year billing had to reissue because procurement wanted PO-1847 on the header."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I'll include that. I'll call Melissa at 2:00, then email the quote, renewal order form, and the invoice timing. If she needs legal, I'll ask for redlines by Thursday noon."
+    }
+  ]
+}

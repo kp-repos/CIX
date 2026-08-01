@@ -1,0 +1,83 @@
+{
+  "id": "cal-null-025",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the renewal and the two extra calibration modules you asked about for the Charlotte lab before I send the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. Current contract ends June 30, right? We need it clean for a July 1 start, no gap on access."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, June 30 end date, July 1 renewal start. I have you at 42 named users today, and you wanted to move to 50 because of the new second shift technicians."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That is right. But only 38 need full admin rights. The other 12 just need to log gauge readings and pull certificates."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, so the quote is 38 full seats and 12 technician seats. Annual total is $64,800 before tax, net 30 billing, one invoice dated July 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the onsite calibration workflow setup, is that included or separate?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Separate line item, $4,200 one-time. That covers two remote configuration sessions, the import of your 1,180 asset records, and a one-hour training for supervisors on July 9."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Our finance team asked if we can keep the same payment terms as last year. Net 30, PO required, invoice to ap@ our domain."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, same terms. I have the PO field left open on the order form, so you can send that after signature if procurement needs a day or two."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send it to me and Marcus in procurement. If the numbers match what you just said, I can sign by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the order form this afternoon with the seat breakdown, July 1 start, and the training date noted. Anything else you want called out?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Just add that the old certificate templates stay active during the transition. We cannot have techs rebuilding those the first week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Absolutely. I’ll include that in the services notes and on the kickoff agenda so the implementation team preserves the existing templates before any changes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Thanks, yeah, send it over."
+    }
+  ]
+}

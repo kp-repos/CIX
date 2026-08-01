@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-047",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hey Dana, yeah, thanks for making time. I wanted to check the final seat count before we send the revised order form. I have 84 full users and 19 read-only, with the support add-on for the finance team."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We may add three more full users in July, but don't hold the order for that. The bigger thing is the May timeline."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I have services starting May 1 and a target go-live of May 15 for the first two workflows, then the reporting pack after Memorial Day."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, good. On the kickoff invite yesterday, your onboarding lead said May 22, so I just wanted to make sure we weren't already sliding a week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Ah, sorry about that. I'll update the project notes after this and have her resend the milestone plan with May 15. The scope is still the same: intake, approvals, and the export to your accounting file."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Also, we got the invoice this morning for the full $46,800 upfront. The order form we reviewed had quarterly billing, net 30, starting on signature."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, I see quarterly on my pricing sheet. I'll have the billing team void that one and issue the first $11,700 invoice. You shouldn't need to route the annual amount."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Appreciate it. Legal is fine with the 24-month term and the standard auto-renew language, as long as we get the 60-day notice window in the notice section."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That's in there. I'll send the clean version by 2 p.m. Eastern today, and if you can sign by Friday, we can keep the May 1 services start."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Works for me. Send it over, and I'll push it through procurement this afternoon."
+    }
+  ]
+}

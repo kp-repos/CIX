@@ -1,0 +1,58 @@
+{
+  "id": "cal-dev-017",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, sorry I missed the 10:00 window. I was still fixing the parent-child account setup so the 18 clinic sites roll up to Northstar Medical correctly. Do you have 15 now to walk through the renewal quote?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "I do. Main thing is the seat count. We’re at 146 active users today, but we want to renew for 160 because two departments are adding people in September."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. The quote I have is 160 seats, annual term starting August 1, at $38 per user per month. That puts the software at $72,960 for the year, plus the $4,800 support package you had last term."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I expected. Billing just asked if we can keep net 45. Also the invoice needs to go to ap@northstarmed.com, not the old clinic address."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. If you send the legal entity name and PO contact, I’ll put those on the order form before it goes to deal desk. Net 45 should be fine since it’s in your current agreement."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Can we get this signed by July 24? Our controller is out the last week of the month."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That should work. I can send the clean version by tomorrow afternoon. Tuesday morning is a little tight while I get the usage rows imported for month-end, but I can do a 2:00 review with you and your controller."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "2:00 Tuesday works. Please include the line about no price increase for added seats through December 31."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. It’ll say additional seats through December 31 stay at $38, then true-up on the next renewal. I’ll send the calendar hold and the revised order form once I have that PO contact."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-038",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so Northstar Foods is at 42 seats, annual, $31,920 before the onboarding line. They want June 17 as the go-live, which is fine if we can get the order form out today."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Is procurement okay with the net 30? Last note I saw had them asking for 45."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "They backed off 45. The controller just wants the invoice to show the Chicago office as bill-to and their PO, 88419, on page one."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. Anything weird in the CRM or is it just quote cleanup?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "The quote's clean. The CRM still has the total in gray because the deal desk cell is blank, so I bumped that email at 11:10 with the final seat count."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Got it. And the contract, are we using our standard services addendum?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, standard. Customer redlines are gone. The tracker just has legal's box not blue yet, and I put the PDF back in their channel with the June 17 date in the filename."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Nice. If that lands, I can help package the order form and SOW. Onboarding is still 12 hours, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Right, 12 hours at $185, so $2,220. Billing profile is still sitting in draft, though, so I added the PO and bill-to note on the ticket for them this morning."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay, so once those fields turn over, send it to Ava at Northstar?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah. Ava and their controller, Marcus. They said they'll sign same day if it arrives before 3 p.m. Central."
+    }
+  ]
+}

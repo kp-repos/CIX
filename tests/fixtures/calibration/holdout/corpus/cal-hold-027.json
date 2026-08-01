@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-027",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Hey, quick one on Northline. Did you see their note about moving go-live from April 8 to April 22?"
+    },
+    {
+      "speaker": "Priya",
+      "ts": null,
+      "text": "Yeah, I saw it. That should be fine. It doesn't change the term, right, still 12 months from signature?"
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Correct. Signature target is March 28, term starts April 22, 54 seats. They asked if we can keep the $38,400 net if they add the support package in Q3."
+    },
+    {
+      "speaker": "Priya",
+      "ts": null,
+      "text": "I wouldn't promise that. Say pricing is held for the initial 54 and any add-ons follow the then-current rate card unless it's in the order form."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Got it. Also, on the renewal doc, use 54 seats, $38,400 net, billing contact Dana Lee. I fixed the packet and invoice draft this morning, but the CRM still had 51, so deal desk bounced the approval."
+    },
+    {
+      "speaker": "Priya",
+      "ts": null,
+      "text": "Okay, yeah, update that and resubmit. If it comes back clean, I can review the redline before end of day."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Thanks. Their procurement person also asked for net 45. They're on net 30 today."
+    },
+    {
+      "speaker": "Priya",
+      "ts": null,
+      "text": "We can do net 45 if they sign by Friday and remove the convenience termination language. Put that in the reply, short and friendly."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Will do. I'll send the revised proposal after your redline, probably around 4:30."
+    },
+    {
+      "speaker": "Priya",
+      "ts": null,
+      "text": "Perfect. And keep the go-live date in the email body so services can staff it without digging through the attachment."
+    }
+  ]
+}

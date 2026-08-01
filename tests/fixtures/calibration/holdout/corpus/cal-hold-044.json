@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-044",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hey Dana, yeah, thanks for making time. I wanted to walk through the final quote and make sure we're clean for signature by Friday."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. I have about 20 minutes. The main things are seats, invoice timing, and making sure legal has the right order form."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. So current quote is 32 seats, annual term, $38,400 total. We kept the services line at $4,800 for onboarding and admin training."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that's the number I have. Billing starts May 1, right? Our finance team doesn't want an April invoice."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, May 1 subscription start, net 30 terms. The billing tool will generate the first invoice after the countersignature, but dated May 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. One thing, the onboarding worksheet that came over this morning still says 25 seats and April 18 go-live. We moved that to 32 seats and April 25 when we talked Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Ah, yeah, sorry about that. The quote is right, but that worksheet is off. I'll get it corrected today before the kickoff invite goes out."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. I just don't want our ops lead planning around the wrong date. April 25 is the earliest we can have the data file ready."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. I'll note April 25 as the target go-live and April 15 for the file handoff. Anything else in the contract language holding you up?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, legal was okay with the standard renewal clause as long as the price increase cap stays at 5 percent. Send the updated order form and we should be able to sign tomorrow."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I'll send it over by 3 today with the 32 seats, May 1 billing start, and the 5 percent cap called out."
+    }
+  ]
+}

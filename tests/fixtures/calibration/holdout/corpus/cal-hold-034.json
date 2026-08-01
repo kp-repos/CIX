@@ -1,0 +1,53 @@
+{
+  "id": "cal-hold-034",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya Chen, Account Executive",
+      "ts": null,
+      "text": "Hi Jordan,\n\nAttached is the order form for 90 user seats of the workflow package, annual term, start date August 15. It includes standard implementation and email support.\n\nTotal is $72,360 before tax, billed upfront with net 30 terms.\n\nMaya"
+    },
+    {
+      "speaker": "Jordan Ellis, VP Operations",
+      "ts": null,
+      "text": "Maya,\n\nThanks. A few items from our side:\n\n- We need the invoice dated after August 1\n- Legal wants the renewal cap shown on the form, not just in email\n- We may add 10 seats in Q4 if the Dallas team comes on\n\nAlso finance asked if there is any way to keep this under the $65k approval line.\n\nJordan"
+    },
+    {
+      "speaker": "Maya Chen, Account Executive",
+      "ts": null,
+      "text": "Yeah, so invoice date after August 1 is fine. I can set billing to generate on August 2 with payment due September 1.\n\nRenewal cap will be listed as 5% in the subscription terms. Any Q4 seats would be prorated to the same end date, August 14, 2027.\n\nI’ll check on the approval-line issue and come back today.\n\nMaya"
+    },
+    {
+      "speaker": "Jordan Ellis, VP Operations",
+      "ts": null,
+      "text": "Appreciate it. If we can avoid the extra finance committee step, I can get the PO requested this week. Otherwise it moves to the August 12 agenda and we probably miss the go-live.\n\nJordan"
+    },
+    {
+      "speaker": "Maya Chen, Account Executive",
+      "ts": null,
+      "text": "Jordan,\n\nUse the $64,800 I sent in the message thread for planning, and I’ll get the formal packet to line up before it goes out for signature.\n\nEverything else stays the same: 90 seats, August 15 start, 12-month term, 5% renewal cap, standard onboarding.\n\nMaya"
+    },
+    {
+      "speaker": "Jordan Ellis, VP Operations",
+      "ts": null,
+      "text": "Okay. Please send the updated order form when ready.\n\nOne more thing: our IT lead wants the kickoff the week of August 19, ideally Tuesday or Wednesday morning. We need SSO enabled before user invites go out.\n\nJordan"
+    },
+    {
+      "speaker": "Maya Chen, Account Executive",
+      "ts": null,
+      "text": "Updated form is attached.\n\nI also added the SSO configuration line to the implementation notes. We have Tuesday, August 20 at 10:00 a.m. Central open for kickoff. The onboarding manager would do SSO first, then admin training, then bulk user upload.\n\nMaya"
+    },
+    {
+      "speaker": "Jordan Ellis, VP Operations",
+      "ts": null,
+      "text": "Got it. I’m sending this to procurement now.\n\nPlease have the invoice reference PO-4187 once issued, and use accountspayable@northlakeops.com for billing. Contract signer is me unless legal changes it.\n\nJordan"
+    }
+  ]
+}

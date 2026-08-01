@@ -1,0 +1,58 @@
+{
+  "id": "cal-dev-009",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Hey Jordan, quick deal review on Northline. I've got 74 seats in the CRM today, they asked about adding 12 ops users for the March rollout, and finance wants the invoice split by cost center."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Yeah, so the seat add is clean. Use the mid-market pricing sheet, annual prepay, and if they want the split invoice just note it in the billing tool. What's the renewal timing?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "That's the problem. Their services agreement ends January 31, so Friday, and I don't see any logged call or email from us about carrying on. No renewal proposal, no extension language, nothing. The last client touch was support on December 18 about a report filter."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Wait, nobody from sales has talked to them about continuing after the end date?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Right. I checked my notes, the CRM activity, and the shared inbox. We are two days out from the contract ending and the client has not been asked if they're renewing, extending month-to-month, or even keeping the seats. That's on us, and it's pretty visible because the end date is already in the order form."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay. Let's not overcomplicate it. Call Priya today, acknowledge timing, and ask for a 12-month renewal plus the 12-seat add. If procurement needs more time, we can send a 30-day bridge through deal desk."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, I can call her at 2:30. Current annual is $38,400, the 12 extra seats would take it to $44,160 before the support package. They also asked last quarter if the admin training could be included."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Include one remote admin training session, no discount beyond the standard volume band. Put the bridge option in the quote comments, not the primary proposal, unless she says procurement can't turn it by Friday."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Got it. I'll update the CRM after the call, draft the order form with January 31 start alignment if they renew, and flag billing about the three cost centers."
+    }
+  ]
+}

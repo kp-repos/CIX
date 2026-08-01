@@ -1,0 +1,78 @@
+{
+  "id": "cal-dev-010",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the revised quote for 85 seats and the implementation package so you can get it over to procurement this week."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, I have about 20 minutes. The big things for us are the seat count, the invoice timing, and making sure we can still hit a May 6 go-live."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally. So the quote is 85 standard seats at $74 per seat per month, annual term, billed upfront. That puts software at $75,480 for the year. Implementation is a one-time $8,500, and I applied the 10% year-one discount we discussed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And if we only use, say, 78 seats at launch, are we stuck at 85 until renewal?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "You'd be contracted for 85 for the year, but you can assign and reassign those as needed. If you need more midterm, we can add them co-termed to the June 30 renewal date. If you think 78 is more realistic, I can revise it, but the discount tier starts at 80."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, keep it at 85. Finance already budgeted around that. On invoicing, can you issue the invoice on April 1 instead of right when we sign?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, I checked with billing. We can set the invoice date to April 1 with net 30 terms, as long as the order form is signed by March 25. Access can still start during kickoff the week of April 8."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. For the services, does the $8,500 include admin training and the data import, or is that separate?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It includes two admin training sessions, one end-user webinar, configuration support, and import of up to 12,000 records from your spreadsheet. If the data needs cleanup, that would be on your team before the import file is handed over."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. Legal asked about auto-renewal. Is it 30 days' notice or 60?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "The standard order form says 60 days before the renewal date. I can ask deal desk for 30, but it may take an extra day for approval. Do you need that changed?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, 60 is fine. Send the updated order form and the implementation timeline, and I'll route it today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the PDF and the timeline by 2 p.m. my time, and I'll include the April 1 invoice note in the email so procurement has it in writing."
+    }
+  ]
+}

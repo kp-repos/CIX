@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-015",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so thanks for jumping on, Mark. I wanted to make sure we're still good for the September 30 go-live and talk through the last two items from procurement."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep. Timeline is fine. I did get the onboarding note this morning though, and it says standard CSV load. We had settled on the API pull from our reporting database, starting with the finance tables on September 18."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Ah, okay, sorry about that. I'll get the implementation checklist cleaned up today. The API pull is still in scope, finance tables first, and then ops after go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, good. Because my data lead blocked Thursday for that. Seat count is still 46 total, with 12 manager seats, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Forty-six total, 12 managers, 34 standard users. The quote is $38,640 for the first year, net 30, with the 10 percent ramp discount already applied."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "The invoice preview I got shows 52 seats and the old $42,900 number. Not a huge deal, but our AP team will kick it back if it lands that way."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, that's not the version we want going out. I'll refresh it in the billing tool and send you the corrected PDF by end of day."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Contract term is September 15 through September 14 next year, auto-renew off for the first renewal unless we approve it, correct?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That's right. One-year term, auto-renew disabled for that first renewal, and we’ll review 60 days before expiration. If legal has no more edits, I can route the signature packet this afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Do that. Send it to me and Priya in procurement. If the invoice and onboarding note are fixed, we're good to sign tomorrow."
+    }
+  ]
+}

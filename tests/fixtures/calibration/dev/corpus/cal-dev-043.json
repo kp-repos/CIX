@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-043",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so quick pipeline cleanup. Oakridge moved from 38 to 42 seats, same $76 per seat monthly, annual upfront. I put the Jan 15 go-live in the CRM."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay, and are they still asking for the 30-day termination carve-out, or did that go away?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "It went away. I left the contract term at 12 months. I did add one more note on the security thread this morning, just a simple 'checking in,' because the order form is still in draft until that box flips."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Got it. If that clears today, can you get it to them before end of day?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, I have the pricing sheet ready. Total is $38,304 before tax, implementation is $4,500, and they want the first invoice dated Jan 2."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Perfect. What about North Pier?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "North Pier is 25 seats, but they want 5 added in March for the warehouse team. I kept the contract at 18 months and wrote the ramp in the notes so billing doesn't miss it."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Discount level still 14%?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep. I tapped deal desk again after lunch, just the thumbs-up on that exception. Once it shows green in the quote, I can send the PDF to their ops manager."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay. Anything else likely to close this week?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Maybe Harbor Foods. They're at 31 seats, $29,760 annual, no services. They asked if we can make the renewal date Dec 31 next year, which is fine, I think. I'll clean up the close date and send them the standard order form."
+    }
+  ]
+}

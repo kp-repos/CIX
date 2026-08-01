@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-026",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I’ve got 30 minutes blocked, and I wanted to confirm the scope for the analytics workspace before we send the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re looking at 42 seats total, 35 standard users and 7 admins. Go-live would be May 12 if we can get training the week before."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. For 42 seats on the annual plan, the pricing sheet has it at $31,080 for the software, plus $4,200 for onboarding. Training on May 6 and May 8 is included in that onboarding package."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Is the onboarding billed up front or with the first subscription invoice?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It’s on the first invoice with the annual subscription. Net 30 terms, invoice issued on the contract start date. If we set the start date as May 1, payment would be due May 31."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s fine. Our finance team will ask about auto-renewal. We usually need 60 days’ notice, not 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can set non-renewal notice at 60 days. The initial term would be May 1, 2026 through April 30, 2027, and then it renews annually unless either side gives notice 60 days before the end of the term."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. And support is standard business hours, right? We don’t need premium support, but I want to be clear for our ops lead."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, standard support is 8 to 6 Central, Monday through Friday, with a one-business-day response target. Your admins also get access to the knowledge base and the monthly office hours."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds right. Send the order form to me and copy Mark in procurement. If the numbers match what you just walked through, I can route it today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it over this afternoon with the 42 seats, May 1 start, May 12 go-live target, and the two training dates. Anything else you want called out?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that covers it. Thanks, yeah, this is straightforward."
+    }
+  ]
+}

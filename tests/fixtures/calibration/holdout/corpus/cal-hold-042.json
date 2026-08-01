@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-042",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout details for the calibration management module and make sure the quote lines up with what your team actually needs for April."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re planning on 38 users to start, mostly quality techs and the two lab managers. We may add another 6 after the second site comes on, but not until June."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. So for the initial order I have 38 seats, annual term, start date April 15, and the implementation package with two admin training sessions. Does that match what you were expecting?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that sounds right. On the implementation, can you confirm the go-live target? Our internal audit starts May 20, so we need the equipment records and due-date alerts working before then."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so if we get signature by March 29, our services team can start the kickoff the week of April 8. That gives us about five weeks, which is fine for your asset count. You said roughly 1,250 instruments, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "It’s 1,184 active right now, but 1,250 is a safe number. We’ll clean up the retired gauges before import."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. On pricing, the subscription is $31,920 for the 38 seats, and implementation is $7,500 one time. I included the 10% first-year discount we discussed, so the total first-year amount is $36,228 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Our finance team asked about invoicing. Can we do net 45? Our standard is net 60, but I know you said the billing tool defaults to net 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Net 45 is approved for mid-market deals over $25,000, so I can put that in the order form. I’ll also note that future seats are billed prorated at the same per-seat rate through April 14 next year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send the order form to me and copy procurement. If the terms are as discussed, I can route it today and should have signature by Friday."
+    }
+  ]
+}

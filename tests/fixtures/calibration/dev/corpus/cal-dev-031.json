@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-031",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final seat count and the timing for the services add-on before I send the order form over."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We landed on 48 standard seats and 6 admin seats. The admins are mostly team leads, plus our ops manager."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 54 total. And you wanted the onboarding package with two data import sessions, right? I have that at $3,200 one-time."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that matches. Finance asked me to check whether the annual subscription is still $31,860 if we start July 15."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It is. The term would run July 15, 2026 through July 14, 2027. Billing would be annual upfront, net 30, and the first invoice would generate after signature."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Can you make the PO number required on the invoice? It’s PO-44719. If it’s missing, our payables team kicks it back."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I’ll add PO-44719 in the billing tool notes and on the order form. On the go-live, are you still targeting August 12?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "August 12 is still the date. We’d like the first import the week of July 22 and the admin training by August 5, if that’s workable."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. I’ll put those as target dates in the implementation notes. One small thing: the standard order form has auto-renewal at 12 months with 30 days notice. Is legal okay with that?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, they reviewed it. As long as the notice period is 30 days and not 60, we’re fine."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send the order form this afternoon. Once it’s signed, I’ll introduce you to the onboarding lead and we’ll get the kickoff scheduled."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send it to me and copy procurement at procurement@northline-example.com. I’ll route it for signature today."
+    }
+  ]
+}

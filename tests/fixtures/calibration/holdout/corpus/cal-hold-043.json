@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-043",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Karen. I wanted to walk through the quote changes for the 42 seats and make sure the April 15 go-live still works on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that’s still the target. We confirmed 38 standard users and 4 admin users. I just need the subscription start date to line up with our fiscal month, so May 1 if possible."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. I updated the pricing sheet to show a May 1 start, 12-month term, and the implementation package kicking off the week of April 15. The total subscription is $31,920, and implementation is $6,500 one-time."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And billing is annual upfront, right? Finance asked if there’s any quarterly option, but annual is cleaner if the invoice can be dated after April 22."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, annual upfront. I can have the billing tool generate the invoice on April 23 with net 30 terms. That would put payment due May 23."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That should be fine. One other thing, our legal team had a note on auto-renewal. They want 60 days notice instead of 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I saw that redline. Deal desk already approved the 60-day notice language, so I’ll include that in the final order form and the updated terms packet."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. For implementation, we’ll have Sam from operations and Priya from IT on the kickoff. Do you need anyone else?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Those two are good. We’ll also ask for one finance contact for invoice setup and one admin owner for user provisioning. The project lead will send a checklist after signature."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send the final order form today if you can, and I’ll route it for signature. Realistically, I think we can get it back by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send it over by 3 p.m. Eastern, and I’ll note the April 23 invoice date, May 1 subscription start, 42 seats, and 60-day renewal notice."
+    }
+  ]
+}

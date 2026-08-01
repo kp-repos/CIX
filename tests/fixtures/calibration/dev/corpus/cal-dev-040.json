@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-040",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Jenna",
+      "ts": null,
+      "text": "Hey, quick forecast pass. Where are we on Northlake?"
+    },
+    {
+      "speaker": "Marcus",
+      "ts": null,
+      "text": "Yeah, so Northlake is still good. Marisol confirmed 42 seats, annual term, $46,800, and they want April 15 for go-live. I put a quick 'any update' in the deal desk thread this morning; the quote still has the old ramp in it, so I left it in draft."
+    },
+    {
+      "speaker": "Jenna",
+      "ts": null,
+      "text": "Okay. Is the discount the only weird thing there?"
+    },
+    {
+      "speaker": "Marcus",
+      "ts": null,
+      "text": "Mostly. It's 14% off list, plus the onboarding fee at $3,200. Contract is standard except they asked for net 45 because their county invoices run twice a month."
+    },
+    {
+      "speaker": "Jenna",
+      "ts": null,
+      "text": "And billing can handle the split they asked for?"
+    },
+    {
+      "speaker": "Marcus",
+      "ts": null,
+      "text": "I added one more note to billing on that. They need 30 seats under operations and 12 under field services, same PO, two invoice lines. Until it shows that way in the billing tool, I'm not sending the order form."
+    },
+    {
+      "speaker": "Jenna",
+      "ts": null,
+      "text": "Makes sense. Are they expecting paper today or tomorrow?"
+    },
+    {
+      "speaker": "Marcus",
+      "ts": null,
+      "text": "Tomorrow morning is what I told them. I also dropped the pricing sheet back to RevOps with the seat count highlighted, because the add-on line is still showing 50 instead of 42. There's nothing clean for Marisol to sign with that on there."
+    },
+    {
+      "speaker": "Jenna",
+      "ts": null,
+      "text": "Got it. If it cleans up by noon tomorrow, are you comfortable keeping it in commit for March?"
+    },
+    {
+      "speaker": "Marcus",
+      "ts": null,
+      "text": "Yeah, commit at $46.8k. Champion is solid, PO number is already in the CRM notes, and their IT lead booked the kickoff hold for April 16."
+    }
+  ]
+}

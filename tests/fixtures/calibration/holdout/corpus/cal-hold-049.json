@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-049",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hey, quick one on Northlake Manufacturing. Are you okay if I hold the renewal at 118 seats instead of quoting 125? Laura said the seven warehouse users probably won't be active until Q4."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Yeah, keep it at 118. If they add later, we can do a coterm add-on. What's the term they want?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Twelve months, July 1 through June 30. I put the 6/30 end date and the $42,480 net in the CRM yesterday, matched it on the order form this morning, and now deal desk is asking for the same billing address before they'll release the PDF."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. Use the Cleveland HQ address, not the plant address. Their AP team kicked back the invoice last year because of that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Right, 4400 Brookpark Road. Payment terms stay net 30, and no uplift this year. They pushed back pretty hard on the 5 percent."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "That's fine if it closes before May 24. After that, finance may ask why we're holding price."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so I'll send it today if I can. Laura also asked whether support hours change with the renewal. I told her no, same 8 to 6 Central coverage."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Good. Add that in the notes section so legal doesn't redline anything weird."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. If she signs by Friday, go-live for the extra reporting module is still June 10, right?"
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Correct. Services has two half-day sessions reserved that week. Just don't promise migration work beyond the standard setup."
+    }
+  ]
+}

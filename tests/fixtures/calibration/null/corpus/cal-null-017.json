@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-017",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I had you at 38 seats for the customer portal team, starting September 16, with billing to the Denver office. Is that still right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Mostly. We added two supervisors, so call it 40 seats. Same billing address, but the PO has to show cost center 7412 or accounts payable kicks it back."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 40 seats and cost center 7412 on the invoice. At the annual rate, that is $31,200 for the year, plus the one-time onboarding package at $4,800. No usage overage unless you go past 60,000 records a month."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. We are usually around 42,000 records, so that is fine. Can we do net 30 instead of paying by card?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, net 30 is included on annual contracts over $25,000, so that works. First invoice would go out on September 16 and be due October 16."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. The other thing is go-live. Our VP wants the first group using it by October 7. Is that realistic?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, for 40 seats it is. The standard plan would be kickoff September 18, data load by September 25, admin training October 1, and end-user training October 3. Then you are live Monday, October 7."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That lines up. We need single sign-on turned on before training, though. Our IT lead is Mateo Chen."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect, I will list Mateo as the technical contact and include SSO setup in the implementation notes. He will get the setup checklist with the kickoff invite."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send me the order form today if you can. I can sign once procurement checks the tax line."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I can send it by 3:00 Central today. It will show 40 seats, $36,000 total first-year amount before tax, net 30, September 16 start, and the October 7 target go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that matches. Send it over and copy procurement@ourdomain.com, please."
+    }
+  ]
+}

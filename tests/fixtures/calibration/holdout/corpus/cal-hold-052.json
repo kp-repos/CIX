@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-052",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I have us down for 20 minutes to confirm the 48 seats, the support package, and the July 15 go-live. Does that still line up?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that's right. We may add two finance users later, but for the initial order it's 48. I mainly want to make sure the invoice matches the quote we reviewed Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally. The quote in the CRM is $38,400 for the annual subscription, plus $4,800 for implementation. So $43,200 before tax, net 30 terms. I can send the order form after this call."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. On implementation, is that still three working sessions and the admin training?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. Three 90-minute working sessions, one admin training, and we include the data import template. If you want us to do the import for you, that would be a separate $1,200 service, but right now it's not on the order."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Let's leave it off for now. Our ops analyst can handle the template. For billing, can you make the start date July 1 even if go-live is July 15?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that's fine. Subscription start July 1, go-live target July 15. The billing tool will generate the first invoice when the order is countersigned, but it'll reflect the July 1 start date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. We need our legal team to review the auto-renewal language. I think it's 30 days' notice, correct?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, 12-month term with auto-renewal unless either side gives 30 days' notice before the renewal date. If legal has comments, send them back in the redline and I'll route it through deal desk."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send the order form to me and copy Mark in procurement. If we get it today, I can probably turn it around by Thursday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it in the next hour with the quote summary and implementation dates. Thanks, Dana."
+    }
+  ]
+}

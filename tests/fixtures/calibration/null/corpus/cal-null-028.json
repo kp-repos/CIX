@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-028",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I saw your note about adding the dispatch team. Are we still talking 38 full users and 12 view-only seats for the April 15 go-live?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. It was 35, but three supervisors need access too. View-only is for finance and the warehouse leads, mostly reporting."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. For that mix, on an annual term starting April 1, you're at $42,600 for the full users and $4,320 for view-only, so $46,920 before tax. Billing would be one invoice due net 30 unless you want quarterly."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Annual is okay if the invoice can show the cost center as OPS-410 and the PO number. We should have the PO by next Friday, March 22."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can include both on the invoice. On implementation, the standard package covers two admin sessions, one manager training, and import of your customer list and active routes. Does that match what your team needs?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Mostly. We also need the driver certification field brought over. It's in our current export as a date field, nothing fancy."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay, that's included as long as it's in the template by March 27. I'll send the import layout after this call. If your team returns it by then, we're clear for testing the week of April 8."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Contract term is 12 months, right? Our legal team asked whether there's an auto-renewal."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Twelve months, April 1 through March 31 next year. The order form has a 30-day renewal notice window, no multi-year commitment. If you'd rather remove auto-renewal, I can use the standard non-renewing version."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Use the non-renewing version, please. That keeps procurement happy."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the order form today with 38 full seats, 12 view-only, annual billing, net 30, OPS-410, and the April 15 target go-live. Anything else you want reflected?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that's it. Send it to me and copy Marcus in procurement. If the pricing matches what you just said, I can route it Monday."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-025",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, sorry I'm joining at :04. I had to re-key the 42-seat quote in the CRM after the facility list changed, but I have the pricing in front of me now."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No worries. I’ve got about 25 minutes. We’re trying to decide if we start with all three labs or just Cleveland for the calibration rollout."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Makes sense. For Cleveland only, it’s 18 named users, plus the two manager seats for approvals. That puts software at $31,800 annually, and implementation services at $8,400 one-time."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "And if we add Dallas and Reno by July, are we paying a new setup fee each time?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Not a full one. The additional site onboarding is $2,100 per lab if we do it in the same contract year. You’d just add the user seats, so Dallas looked like 14 and Reno was 9 based on your spreadsheet."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Procurement asked about invoice timing. Our fiscal year starts May 1, so we can’t take an April invoice."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "We can set the start date to May 1 and invoice on May 3. Go-live for Cleveland would still be June 17 if we get the signed order by April 19."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Can you walk my quality director through the supervisor workflow Friday morning?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Friday before 11 is tight; I'm cleaning up invoice contacts in the billing tool for the April 30 batch. I can do 11:30, or 1:00 if she needs more time."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Let’s do 11:30. Also, the term needs to be one year, not three. We can’t commit longer until after the audit in October."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. One-year term, May 1 through April 30, Cleveland as phase one, and expansion pricing held through July 31. I’ll send the updated version after this."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it to me and copy Karen in purchasing. If the numbers match what you just said, we should be fine to move it along."
+    }
+  ]
+}

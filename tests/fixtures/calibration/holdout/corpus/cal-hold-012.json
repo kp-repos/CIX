@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-012",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout details for the analytics workspace and make sure the quote matches what you need for the April 15 go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re still at 42 seats for phase one. That’s 36 standard users and 6 admins. If the operations team joins later, that would be another 18, but not before Q3."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. I have 42 seats on the pricing sheet, annual term, billed upfront. The net after the volume discount is $38,640 for the year, plus the one-time onboarding package at $4,800."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I had. Can you make sure the invoice breaks out licenses and onboarding separately? Our finance team asked for that so they can code it correctly."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, no problem. I’ll note that in the billing tool and on the order form. For payment terms, we had net 30. Is that still workable?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, net 30 is fine. We just need the invoice dated after April 1, because our purchase order won’t be released until then."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. I’ll set the contract start date to April 15, invoice date April 2, and service period through April 14 next year. Implementation would start the week of April 8."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. On implementation, we need SSO configured and the first dashboard connected to our warehouse before launch. The rest can come after."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so I’ll include SSO and one data connection in the onboarding scope. We’ll schedule two admin training sessions, 60 minutes each, probably April 10 and April 12 if your team is available."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "April 10 is good. April 12 may be tight, but we can confirm by Friday. Send the updated order form and I’ll route it for signature."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the revised order form this afternoon with the seat count, pricing, invoice note, and April dates. If anything changes on the Q3 expansion, we can handle that as an add-on later."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks, Mark."
+    }
+  ]
+}

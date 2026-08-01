@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-002",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for jumping on, Karen. I wanted to clean up the open items before your September 3 go-live: 38 seats, the advanced reporting add-on, and the services block at $6,800. Is that still the right scope?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. The issue is the SSO setup. Your implementation coordinator told my IT lead yesterday they had no record that SSO needed to be ready before go-live. We agreed on the July 22 call that SSO was required by August 27, and I repeated that in email. So now my team is hearing it is a two-week turnaround, which doesn't work."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "You're right. I found the note in our thread, and I agreed to that date with you. I did not get it into the implementation notes, so the implementation team was surprised and treated SSO like a later phase item. That's on me. I already asked them to pull in the engineer, but yeah, that should not have landed on your IT lead as new information."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, but practically, can it still be done? We have training scheduled for August 29 and September 1, and people cannot use another password for two days and then switch."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I hear you. The engineer can start tomorrow morning if your IdP metadata is over by 3 p.m. today. They'll target a test connection by August 25 and production cutover August 27. I'll send that in writing after this call."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Fine. The other thing is the invoice. Accounting received an invoice for $9,450 due August 15, but the agreement was net 45 and split across two invoices, one in August and one in October. That was a condition for signature."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, and I need to apologize there too. We agreed to split billing and net 45 in the final redline, but I didn't pass that instruction to the billing team when the order was booked. They generated the standard single invoice on net 30, so they were just following what they had. I should have made sure billing had the exception before anything went out."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That caused some noise here, because procurement thought you were changing terms after signature. Please get the corrected invoice to ap@northlakeparts.com and copy me."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Absolutely. Deal desk approved the exception this morning, and billing is voiding the $9,450 invoice. You'll get invoice one for $4,725 with a due date of September 29, and invoice two for $4,725 dated October 1, due November 15."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Send the SSO timeline, the corrected billing details, and the seat list template. If those three things are right, we're good to keep the September 3 go-live."
+    }
+  ]
+}

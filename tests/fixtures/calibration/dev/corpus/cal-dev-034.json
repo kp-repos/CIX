@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-034",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so Acme Fixtures came back on the proposal. They’re good with 83 seats, three-year term, go-live on November 15, but they want the invoice split by department."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. Same pricing we talked about, $42 per seat per month, or did they push on that?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "They pushed a little. I held at $42 but added the onboarding package at $3,800 instead of $5,000. Total first-year is like $45,632 before tax."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "That should be fine. Did deal desk already approve the services discount?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, but it was kind of a slog. I had to enter the 83 seats, three-year term, November 15 start, and the two invoice contacts into the CRM, then the pricing sheet, then the deal desk form, then the order doc, and again in the billing tool. It ate most of yesterday afternoon and I finished it this morning."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Got it. As long as the quote ID matches the order doc, finance won’t kick it back."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I checked that. Their procurement person is Dana Lee, and AP wants invoices sent to ap@acmefixtures.com with cost centers for Operations and Field Service."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Cool. Are they asking for any language changes, or just the split billing?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Just one thing on auto-renewal notice. They want 60 days instead of 30. Legal already said that’s okay for this size deal."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Then send the clean copy today and give them until Friday?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, I’m sending it after this. I put the signature deadline as October 18 so we can still hit implementation kickoff on the 28th."
+    }
+  ]
+}

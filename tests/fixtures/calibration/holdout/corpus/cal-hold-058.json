@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-058",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Dana",
+      "ts": null,
+      "text": "Hey Luis, quick check on the Northstar renewal before I send the final note. They're at 84 seats today and want to add 12 support seats on September 1."
+    },
+    {
+      "speaker": "Luis",
+      "ts": null,
+      "text": "Yeah, I saw the thread. Is this the one asking for the 18-month term instead of 12?"
+    },
+    {
+      "speaker": "Dana",
+      "ts": null,
+      "text": "Right. September 1, 2026 through February 28, 2028. Total comes to $64,980, with services left as-is, no new onboarding package."
+    },
+    {
+      "speaker": "Luis",
+      "ts": null,
+      "text": "Okay. Did finance care about the invoice split?"
+    },
+    {
+      "speaker": "Dana",
+      "ts": null,
+      "text": "They were fine with semiannual billing. To get the extension out, I had to update the CRM, then re-key the same seat counts and dates into the pricing sheet, the deal desk form, the contract tool, and the billing tool, so it took most of yesterday and this morning."
+    },
+    {
+      "speaker": "Luis",
+      "ts": null,
+      "text": "Got it. As long as the numbers match on the order form and the invoice schedule, we're good. Any redlines from their side?"
+    },
+    {
+      "speaker": "Dana",
+      "ts": null,
+      "text": "Just the cancellation notice. They asked for 60 days, legal kept it at 90, and their procurement lead said that's acceptable if we include the price lock language."
+    },
+    {
+      "speaker": "Luis",
+      "ts": null,
+      "text": "Yeah, so include the lock for the full 18 months and no auto-renewal price increase. Send me the PDF before it goes to the customer?"
+    },
+    {
+      "speaker": "Dana",
+      "ts": null,
+      "text": "Will do. I want it in their hands by 3 p.m. Eastern because their VP is out Friday."
+    },
+    {
+      "speaker": "Luis",
+      "ts": null,
+      "text": "Perfect. If they sign by August 15, we can keep the September 1 go-live for the extra seats without a rush ticket."
+    }
+  ]
+}

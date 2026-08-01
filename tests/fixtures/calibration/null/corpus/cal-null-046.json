@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-046",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hey Mark, thanks for making time. I had us down to review the 42-seat renewal and the 18 additional seats for the operations team, starting March 1. Is that still the right count?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that's right. We have 42 current users, and 18 more for dispatch and scheduling. So 60 total. I just need the invoice to break out the added seats, if possible."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can show the renewal line and the expansion line separately. Same product package as today, plus the reporting module you trialed last month. The annual total comes to $38,400 before tax, net 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And that includes the reporting module for all 60 users, not just the new group?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, all 60. The pricing sheet has it bundled across the full seat count. Your current term ends February 28, so the new term would be March 1, 2026 through February 28, 2027."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. We need access for the new users by March 4, because training is on the 5th. Is that realistic?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so if we get the order form signed by February 23, onboarding can have the seats provisioned by March 2. I’ll include that target date in the notes on the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Billing should go to ap@northlakeparts.com, and please copy me and Jenna. PO number is 47186."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it: AP address, copy you and Jenna, PO 47186. One more thing, do you want the invoice issued on signature or on March 1?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "On March 1, please. Finance prefers it tied to the service start date."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No problem. I’ll send the order form this afternoon with the March 1 invoice date and the net 30 terms. Anything else you want reflected before I send it?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that covers it. Send it over and I’ll route it for signature today."
+    }
+  ]
+}

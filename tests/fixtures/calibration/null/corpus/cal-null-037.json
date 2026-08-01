@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-037",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, hi Karen, thanks for making the time. I had us down for 20 minutes to walk through the renewal and the extra seats for the claims team."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that works. We’re at 48 users today, and I need to add 12 by May 6. The main thing is keeping the invoice clean because our PO is already opened for Q2."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. So 60 total users, go-live for the new group on May 6. Your current term runs through June 30, and we can align the added seats to that date, then renew all 60 for the next 12 months starting July 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. What does that do to the number?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "For the coterm piece, the 12 seats from May 6 through June 30 comes to $2,940. Then the July 1 renewal for 60 seats is $63,600 for the year. That’s using the 50-plus seat tier on the pricing sheet."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s within range. Can you split the invoices, one for the coterm seats and one for the annual renewal? Our accounts payable team gets picky if those are blended."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, two invoices is fine. I’ll put the coterm seats on a separate line with the May 6 start date, and the renewal invoice dated July 1. Payment terms stay net 30, same as your current agreement."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Also, no change to the data retention terms, right? Legal already approved the current language last year."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, no change there. Same retention language, same support plan, and the 60 users are all standard seats, not admin seats."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send me the order form today if you can. I’ll sign once procurement matches it to PO 44718."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the order form with the two invoice lines, 60 seats total, May 6 for the add-on and July 1 for the renewal. If anything looks off, just reply back and I’ll fix it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks, Mark."
+    }
+  ]
+}

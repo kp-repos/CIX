@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-014",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so I looked at the usage from the last 60 days. For the analytics module, you’d be at 38 paid seats today, and you mentioned adding finance, so I modeled 45 seats starting June 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That sounds right. We have 41 named users now, four more coming in June. I need the invoice to split the module separately from our base subscription, though."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can show it as a separate line item on the order form and invoice. Same customer number, same billing contact, just two lines so AP can code it correctly."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. What’s the annual amount on 45 seats?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "At the standard mid-market rate, it’s $28 per seat per month, billed annually. So 45 seats is $15,120 for the first year. The term would co-term to your main agreement ending April 30, 2027, unless you want a separate 12-month term."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Co-term is cleaner. But if we start June 1, are we paying for the full year or the 11 months to match April 30?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Prorated to match April 30. The amount for June 1, 2026 through April 30, 2027 is $13,860. Then it renews with the base subscription on May 1, 2027."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. We also need go-live the week of June 10. Our team is in inventory close the first week, so training before that won’t land."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Makes sense. I can include the target go-live date of June 12 and two admin training sessions during the week of June 10 in the order notes. Implementation is included for this module, no separate services fee."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send the order form to me and legal at contracts@northlake-example.com. PO will be 78421, and AP needs net 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. I’ll send the order form today with PO 78421 referenced, net 30 terms, 45 seats, prorated amount $13,860, and June 12 target go-live. If it looks good, signature by Friday keeps the June schedule open."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, Friday is doable. I’ll route it internally once it comes through."
+    }
+  ]
+}

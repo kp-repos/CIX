@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-026",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Megan Carter, Account Executive",
+      "ts": null,
+      "text": "Hi Paul,\n\nFollowing up on the implementation scope from yesterday. Attached is the 12-month order form for 68 user seats, two admin seats, and the standard onboarding package.\n\nTarget go-live would be May 20 if we have signature by April 26. First invoice would issue on signature, net 30.\n\nMegan"
+    },
+    {
+      "speaker": "Paul Nguyen, Director of Operations",
+      "ts": null,
+      "text": "Megan,\n\nThanks. I’m seeing $44,880 on the form. We had talked about staying closer to $40k for this fiscal year, especially since we won’t add the warehouse supervisors until Q3.\n\nCan you confirm whether the 68 includes the four contractors?\n\nPaul"
+    },
+    {
+      "speaker": "Megan Carter, Account Executive",
+      "ts": null,
+      "text": "Yeah, so the 68 includes the four contractors and the 6 read-only seats are not billed. If you want, I can move the warehouse supervisors into a second add-on later, but it only drops the year one by $2,640.\n\nFor support, you’d be on the standard plan with the 4-hour response target. No premium support included.\n\nMegan"
+    },
+    {
+      "speaker": "Paul Nguyen, Director of Operations",
+      "ts": null,
+      "text": "Understood. Please leave standard support.\n\nIf we can get the year one number to $39,500, I think I can route it this week. Legal already reviewed the MSA last month, so it should just be the order form and DPA.\n\nPaul"
+    },
+    {
+      "speaker": "Megan Carter, Account Executive",
+      "ts": null,
+      "text": "Paul,\n\nThe lower $39,500 we landed on in the message thread is fine for the 68 seats; I’m not going to run that through deal desk before Friday, but I’ll clean up the approval paperwork after the order form is in. Attached is the revised PDF with the updated total and April 26 expiration.\n\nMegan"
+    },
+    {
+      "speaker": "Paul Nguyen, Director of Operations",
+      "ts": null,
+      "text": "Got it. I’ll send this to procurement today.\n\nOne thing: our AP team needs the PO number on the invoice. PO should be 24117, department Ops Systems. Can your billing tool pick that up from the order form or do you need it separately?\n\nPaul"
+    },
+    {
+      "speaker": "Megan Carter, Account Executive",
+      "ts": null,
+      "text": "Separately is safest. I added PO 24117 and Ops Systems to the billing notes in the CRM, and I also put it on the order form cover page.\n\nOnce signed, onboarding can start the week of May 6. We’d do the data import first, then admin training on May 14 and end-user sessions May 16-17.\n\nMegan"
+    },
+    {
+      "speaker": "Paul Nguyen, Director of Operations",
+      "ts": null,
+      "text": "Thanks. Procurement asked whether the renewal cap is 5% or 7%. The draft says 7% in section 4.2, but my CFO had 5% in her notes.\n\nCan you confirm before I push this through?\n\nPaul"
+    },
+    {
+      "speaker": "Megan Carter, Account Executive",
+      "ts": null,
+      "text": "It’s 5%. Good catch. I updated section 4.2 and reattached the order form.\n\nNo other commercial changes: 12-month term, 68 paid seats, net 30, standard support, go-live target May 20.\n\nMegan"
+    },
+    {
+      "speaker": "Paul Nguyen, Director of Operations",
+      "ts": null,
+      "text": "Confirmed. I sent the updated form to our signer and expect it back tomorrow morning.\n\nIf that slips, I’ll let you know before noon Friday.\n\nPaul"
+    }
+  ]
+}

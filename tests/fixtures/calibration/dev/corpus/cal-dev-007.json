@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-007",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the updated seat count and make sure the order form lines up with your June 3 go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re at 42 full seats and 18 read-only. That includes the finance team and the two regional managers we added last week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 42 full and 18 read-only. I have that in the CRM now. On pricing, that puts the annual subscription at $38,640, and implementation is the one-time $6,500 we discussed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches my notes. Can you make sure the invoice is split? Our controller wants subscription billed now and services billed after kickoff."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that’s fine. I’ll note subscription due on signature and implementation invoiced after the May 20 kickoff. Payment terms are net 30, same as the draft."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Net 30 works. One thing, our legal team asked about the renewal notice. The draft says 60 days. Can we make that 30?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so I can approve 30 days without going back through deal desk. I’ll update that clause and send the clean version this afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. If we get it by 3, I can route it for signature today. Our CFO is out Friday, so I’d like to catch him before then."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. I’ll send the revised order form and the invoice split note by 2:30 Eastern. Once it’s signed, we’ll introduce your implementation lead and lock the May 20 kickoff."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send it to me and copy Marcus in procurement. He’s the one who’ll generate the PO."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cal-null-016",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I had us down to cover the 50-seat plan, invoice timing, and the July go-live. Is that still the right list?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We have 42 current users and want 8 more for the support managers. We need access by July 15 if we're going to train before month-end."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay. For 50 seats on the annual plan, the pricing sheet puts you at $48 per user per month, billed annually. That totals $28,800 for the year, plus the one-time onboarding package at $3,500."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches what you sent. Can you make the service term August 1, 2026 through July 31, 2027? Our budget starts in August, even if we start setup in July."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that's fine. We can open the workspace on July 15 for implementation, and the paid subscription term starts August 1. The invoice would issue August 1 with net 30 terms, due August 31."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. On the invoice, can it show PO 44719 and split the line items between subscription and onboarding?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. Subscription as one line, onboarding as one line, PO 44719 on the header. For implementation, we'd schedule kickoff June 24, admin training July 8, and end-user training July 16. Does that fit your team?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "June 24 works. July 8, we may need 2 p.m. Central, not morning. Our operations lead is blocked until lunch."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "2 p.m. Central on July 8 works. Also, the contract language is our standard annual term with automatic renewal removed, per your legal note, so it ends July 31 unless you choose to renew."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send the order form today and I'll route it with the PO. If nothing weird comes up, we should sign by Friday."
+    }
+  ]
+}

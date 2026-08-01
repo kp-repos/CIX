@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-039",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the basics before I send the order form: 42 user seats, the reporting add-on, and a July 15 go-live. Is that still right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. It is 38 regular users and 4 managers, but yeah, 42 total. We need the first invoice to show the PO number, PO-44718, or finance will kick it back."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. The order form will list 42 seats and the invoice reference will include PO-44718. For term, we have August 1, 2026 through July 31, 2027, annual billing, net 30. The total is $31,920 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And that includes the onboarding hours we talked about? The two admin sessions and one end-user training?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, so that's included as a separate line item at no additional charge: two 90-minute admin sessions and one 60-minute end-user training. I’ll put the dates as targeted the week of July 8, with exact times set on the kickoff call."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Legal asked about auto-renewal. We can do renewal language, but we need 60 days notice instead of 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that’s already in the contract notes: either party can give non-renewal notice at least 60 days before the end of the term. No issue there."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. One more thing, our team in Denver needs access on day one, but the Austin group can come in later, probably August."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. We’ll start with the Denver users for launch and you can assign the remaining seats when Austin is ready. You’re not paying extra unless you go above 42."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send it to me and copy our procurement inbox. If it matches what we covered, I can sign tomorrow."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You’ll have the order form and service schedule by 3 p.m. today, copied to procurement, with the PO number, 60-day notice language, and July 15 go-live."
+    }
+  ]
+}

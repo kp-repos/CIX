@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-018",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Jordan. I pulled up the quote we discussed: 42 seats for the operations team, annual term starting October 1, and the implementation package for the first 60 days."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That lines up. The only thing I want to confirm is the seat split. We need 34 standard users and 8 approvers, not 42 all at the same level."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, good catch. I had that in my notes, but the draft quote showed a single line item. I can revise it to show 34 standard at $68 per user per month and 8 approver seats at $29."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And total comes out to what annually with the implementation fee?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "With the seat mix corrected, software is $30,960 for the year. Implementation is a one-time $4,500, so total first-year contract value is $35,460 before taxes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That should be fine. Procurement will ask about payment terms. We usually do net 45, but your order form said net 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "We can do net 45. I’ll route that through deal desk today and update the billing terms on the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. For go-live, we’re targeting November 18. Is that realistic if we sign by next Friday, September 20?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that’s realistic. If signature is in by September 20, kickoff would be the week of September 23, configuration in October, and user training the first week of November."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Please send the updated quote and order form, and I’ll get it to our finance manager this afternoon."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the revised documents within the hour, with the corrected seat mix, net 45 terms, and October 1 start date."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-005",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final seat count and the go-live window so I can get the order form cleaned up today."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We landed on 42 seats for launch, not 45. Finance asked us to start with the customer success team only, then add the three managers in Q2 if usage looks good."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 42 seats. On the pricing sheet that keeps you at $96 per seat per month, billed annually. So the annual software line is $48,384, and then the one-time onboarding is $4,500. Does that match what you had?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that's what I have. The only question from procurement was the invoice timing. If we sign by March 22, do you invoice right away or on April 1?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "We can set the billing start date to April 1. The billing tool will generate the invoice that morning, net 30, so payment due May 1. Access can still be turned on the week before for setup."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that's helpful. Our target go-live is April 15, but we'd like admins in on March 27 to configure the fields and import the first file."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. I'll note March 27 for admin access and April 15 as the production go-live. For implementation, we have two 60-minute sessions included and a data import review. Is CSV still the plan?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, CSV from our current system. It’s about 18,000 contacts and maybe 6,200 accounts. Nothing too fancy, but we need to map five custom fields."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I'll have our implementation lead send the template once the contract is countersigned. On terms, procurement asked for a 12-month initial term and standard auto-renewal with 30 days' notice. Any issue there?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that’s fine. Please just make sure the order form says the renewal cap is 5 percent. That was in the redline."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I see it in the latest version. I’ll route that through deal desk now and send you the final PDF by 3 p.m. Eastern."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it to me and cc Mark in procurement. If it matches, we should be able to sign tomorrow."
+    }
+  ]
+}

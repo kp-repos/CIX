@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-037",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the renewal and the add-on for the calibration workflow seats. I have you at 46 current users and adding 12 technicians for the Phoenix site, starting July 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Right, 58 total. And the quote I have is $38,400 for the year, net 30, with the services line at $6,200. Is that still what you're seeing?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that's what is in the CRM and on the pricing sheet. The only thing I want to address up front is the go-live item, because there's a miss on our side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. What miss?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "When we agreed last week that Phoenix would be live by July 15, including the import of the 1,860 asset records and the two approval templates, I did not get that note over to the implementation team. They built the services plan off the standard August 5 kickoff, so they were surprised when I asked about July 15 this morning. That's on me. The agreement did not reach the group that has to deliver it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That is not great. I already told our QA manager July 15, and we have an audit window starting July 22. We can't have technicians double-entering readings again."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I know, and I'm sorry. I should have put the date and the import scope into the handoff, not just left it in the call recap. I talked to services before this call. They can still hit July 15 if we get the asset export by June 24 and we limit the first phase to the two templates we named, not the full five-template library."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "So no price change, but we need to send the export by the 24th, and the other three templates happen after go-live?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Same $6,200 services line, no change to the subscription. Phase two templates would be completed by July 31. I'll send a revised order form and the implementation checklist today, and I'll copy the services lead so it's not just living with me."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Alright. Send it over. If the dates are written that way, I'll sign by Friday."
+    }
+  ]
+}

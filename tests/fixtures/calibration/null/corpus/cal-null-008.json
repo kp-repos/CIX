@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-008",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so I pulled up the pricing sheet for the 12 additional technician seats. With your current 42 seats, that moves you to the 50-plus tier, so the net new annual amount is $18,720, and it would co-term to June 30, 2027."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I had in mind. The technicians are for the Toledo plant, and they need access before our audit prep starts on September 9."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. If we have signature by August 16, we can start provisioning the seats the following Monday and have the admin training on August 28 or 29. Does one of those work?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "August 29 is better. Also, I need the invoice split by cost center: 70 percent Toledo maintenance, 30 percent quality."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No problem. I’ll put that on the order form and the billing tool will show two lines on the invoice. Same billing contact as last time, Maria Chen?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, Maria is still right. On terms, it’s still net 30, annual prepaid, no auto-renew change?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Net 30, annual prepaid, and the renewal language stays the same as your master agreement. No changes to data terms or support level."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Can you also include the sandbox access for two admins? We’ll use it for procedure testing, not production."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, two admin sandbox users are included at no charge under your plan. I’ll list them as included so procurement doesn’t think it’s a separate SKU."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send the order form today if you can. I’ll route it to purchasing and aim to get you a signature by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it over by 2 Eastern, and I’ll include the August 29 training slot and the September 9 access target in the confirmation."
+    }
+  ]
+}

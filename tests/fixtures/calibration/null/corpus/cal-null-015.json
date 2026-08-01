@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-015",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I saw your note about adding the support team to the workspace. Are we still talking 18 additional seats for a March 4 go-live?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right, 18 seats. We have 42 today, so 60 total. I need the order to show the new cost starting March 1, not backdated to February."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, understood. The pricing sheet has that at $74 per seat per month on your current annual term, so the add-on is $1,332 monthly, prorated through your September 30 renewal date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Finance will ask if the invoice can stay quarterly. Our AP team doesn't want a separate monthly invoice for just the add-on."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No problem. The billing tool will keep it on the same quarterly invoice. Your next invoice on April 1 would include March through June for those 18 seats, so $5,328 for the add-on portion."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Can you also confirm the admin training? We have two supervisors who need to know how to manage queues before launch."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so onboarding has you booked for a 60-minute admin session on February 27 at 1 p.m. Eastern, and then a user walkthrough on March 3. I included both dates on the order notes so the implementation team has it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Legal already approved the master agreement, so this should just be the seat addendum, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, just a one-page addendum tied to the existing terms. No changes to the term length, data terms, or support level. I'll send it for e-signature today, and it routes to you and then Marcus in finance."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If Marcus signs by Friday, are we safe for March 4?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. If it's signed by February 23, we'll have the seats provisioned on February 26, which gives your supervisors a week to set up groups and test logins."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Send it over, and I'll give Marcus the heads-up."
+    }
+  ]
+}

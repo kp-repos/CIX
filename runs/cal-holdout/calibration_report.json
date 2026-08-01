@@ -1,0 +1,155 @@
+{
+  "split": "holdout",
+  "T-CAL": [
+    {
+      "pathology": "P1",
+      "item_id": "seller_admin_burden",
+      "status": "pass",
+      "expected": 7,
+      "recovered": 6,
+      "abs_error": 1,
+      "rel_error": 0.143,
+      "attribution": 1.0,
+      "detection_by_loudness": {
+        "loud": [
+          2,
+          2
+        ],
+        "moderate": [
+          2,
+          2
+        ],
+        "camouflaged": [
+          2,
+          2
+        ]
+      },
+      "detail": "expected 7, recovered 6 (rel 0.14, abs 1); attribution 1.0; camouflaged 2/2 (ungated)"
+    },
+    {
+      "pathology": "P2",
+      "item_id": "status_chasing",
+      "status": "pass",
+      "expected": 7,
+      "recovered": 7,
+      "abs_error": 0,
+      "rel_error": 0.0,
+      "attribution": 1.0,
+      "detection_by_loudness": {
+        "loud": [
+          2,
+          2
+        ],
+        "moderate": [
+          2,
+          2
+        ],
+        "camouflaged": [
+          2,
+          2
+        ]
+      },
+      "detail": "expected 7, recovered 7 (rel 0.00, abs 0); attribution 1.0; camouflaged 2/2 (ungated)"
+    },
+    {
+      "pathology": "P3",
+      "item_id": "multi_system_process_sprawl",
+      "status": "pass",
+      "expected": 4,
+      "recovered": 4,
+      "abs_error": 0,
+      "rel_error": 0.0,
+      "attribution": 1.0,
+      "detection_by_loudness": {
+        "loud": [
+          2,
+          2
+        ],
+        "moderate": [
+          2,
+          2
+        ],
+        "camouflaged": [
+          2,
+          2
+        ]
+      },
+      "detail": "expected 4, recovered 4 (rel 0.00, abs 0); attribution 1.0; camouflaged 2/2 (ungated)"
+    },
+    {
+      "pathology": "P4",
+      "item_id": "handoff_commitment_lost",
+      "status": "pass",
+      "expected": 6,
+      "recovered": 6,
+      "abs_error": 0,
+      "rel_error": 0.0,
+      "attribution": 1.0,
+      "detection_by_loudness": {
+        "loud": [
+          2,
+          2
+        ],
+        "moderate": [
+          2,
+          2
+        ],
+        "camouflaged": [
+          2,
+          2
+        ]
+      },
+      "detail": "expected 6, recovered 6 (rel 0.00, abs 0); attribution 1.0; camouflaged 2/2 (ungated)"
+    },
+    {
+      "pathology": "P5",
+      "item_id": "out_of_system_discount",
+      "status": "pass",
+      "expected": 4,
+      "recovered": 4,
+      "abs_error": 0,
+      "rel_error": 0.0,
+      "attribution": 1.0,
+      "detection_by_loudness": {
+        "loud": [
+          2,
+          2
+        ],
+        "moderate": [
+          2,
+          2
+        ],
+        "camouflaged": [
+          2,
+          2
+        ]
+      },
+      "detail": "expected 4, recovered 4 (rel 0.00, abs 0); attribution 1.0; camouflaged 2/2 (ungated)"
+    },
+    {
+      "pathology": "P6",
+      "item_id": "renewal_lapse_risk",
+      "status": "pass",
+      "expected": 4,
+      "recovered": 4,
+      "abs_error": 0,
+      "rel_error": 0.0,
+      "attribution": 1.0,
+      "detection_by_loudness": {
+        "loud": [
+          2,
+          2
+        ],
+        "moderate": [
+          2,
+          2
+        ],
+        "camouflaged": [
+          2,
+          2
+        ]
+      },
+      "detail": "expected 4, recovered 4 (rel 0.00, abs 0); attribution 1.0; camouflaged 2/2 (ungated)"
+    }
+  ]
+}

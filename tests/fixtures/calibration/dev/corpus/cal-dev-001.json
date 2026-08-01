@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-001",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final scope for the renewal and the small expansion before I send it to deal desk. I have 82 seats today and adding 18 on March 1, is that still right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We have 82 active now, and the support team wants 18 more for the new queue. Go-live for them is March 4, so March 1 access is fine."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. On term, your current agreement ends February 29, and we're looking at a 12-month renewal through February 28 next year. The pricing sheet has the blended annual total at $48,720 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. I had $48,600 in my notes, but I may have missed the admin seats. Can you break that out on the order form?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. It'll show 100 total seats, with 94 standard and 6 admin. The admin seats are no charge, but they still appear for provisioning. The billable amount is tied to the 94."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. And invoicing, can you keep it annual upfront? Our AP team doesn't want quarterly for this one."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Annual upfront, net 30. I'll set the invoice date to March 1 in the billing tool, and it should land with AP the same day. Do you still want invoices copied to accounting at your main domain?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, and please add me as a copy. Last time it went only to AP and I had to chase it."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. Last item is the services block. We included four hours for onboarding the new supervisors, scheduled the week of March 11. That's $700 total, same rate as last year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send the order form over today if you can. If legal doesn't have comments, I can sign by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Great. I'll send it this afternoon with the seat breakdown, annual upfront terms, and the March 1 invoice date. If anything looks off, just reply on the thread."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks, Mark."
+    }
+  ]
+}

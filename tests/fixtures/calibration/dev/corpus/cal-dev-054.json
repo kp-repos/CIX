@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-054",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I pulled up the quote we sent on Friday. It was for 42 seats, annual term starting March 1, and the services package for onboarding."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, I have it. The seat count is right for launch. We may add six or eight more in Q3, but finance wants the initial PO to match the 42."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally. We can keep the quote at 42 and note that additional seats are prorated at the same unit price through the first term. That way you don't need a new contract for a small add-on."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that's helpful. The other question was invoicing. Can you invoice 50% on signature and 50% on July 1? Our budget resets then."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, I checked with billing this morning. For the software, they can split it that way. The onboarding fee is due on signature, so that would be $6,500 upfront, then the remaining software balance on July 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. And the total on the order form was $38,220, before tax, correct?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. That's $31,720 for the platform and $6,500 for onboarding. Taxes would show on the invoice based on your billing address in Ohio."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Legal had one small redline on the auto-renewal notice period. They want 60 days instead of 45."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That should be fine. I'll run it through deal desk just so it's documented, but that's a standard change for us. I can send the updated order form and terms by end of day."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. If we can get that today, I can route it for signature tomorrow. We're trying to keep the April 15 go-live."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Makes sense. Once we have signature, I'll introduce your admin team to our implementation lead. We'd target kickoff the week of March 11, which keeps April 15 very doable."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it over to me and copy Marcus in procurement. I'll watch for it."
+    }
+  ]
+}

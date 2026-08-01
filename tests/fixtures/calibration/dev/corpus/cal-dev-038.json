@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-038",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the numbers before I send the order form through deal desk. We have 48 standard seats and 6 admin seats, annual term starting September 1, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We may add two more admins later, but for the initial rollout it's 54 total. The team wants access for UAT by August 18 if possible."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that works. We can set up the sandbox next week, and then production access on September 1. The pricing sheet has standard seats at $84 per user per month and admin seats at $112, billed annually."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the services line, that was $7,500 for onboarding and two workflow sessions?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. That's a one-time implementation fee. It includes the kickoff, data import support, two workflow workshops, and admin training. If you need extra sessions, those are $1,250 each, but they're not required."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. On payment terms, our finance team asked for net 45. I think your draft said net 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so standard is net 30, but net 45 is fine for your account size. I'll update that before I route it. Invoice will go out on signature, due 45 days from invoice date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Also, can the contract list Maple Ridge Holdings as the billing entity? The users are at Northstar Clinics, but AP needs the parent company name."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No problem. I'll put Maple Ridge Holdings as the bill-to and Northstar Clinics as the service entity. I'll also add the PO field as optional since you said the PO won't be ready until late August."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, please. If you can send the order form today, I can get legal to do a quick review. We're trying to sign by Friday the 9th."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I'll send it by 3:00 eastern today. Once it's signed, customer success will reach out within one business day to schedule kickoff. Anything else you want reflected before I submit it?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that covers it. Send it over and I'll keep an eye out."
+    }
+  ]
+}

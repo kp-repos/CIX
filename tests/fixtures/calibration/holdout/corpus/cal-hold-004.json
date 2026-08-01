@@ -1,0 +1,58 @@
+{
+  "id": "cal-hold-004",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so I'm cleaning up the west region forecast before deal desk reviews it. For Northstar Dental, do you know if the seat count is still 64 or did support add those eight hygiene users?"
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "I checked the admin export this morning. It's 72 active, but only 64 on the order form. The extra eight were provisioned June 18 for the pilot group."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay, that explains the mismatch. The pricing sheet puts them at $38 per seat if we true it up, so it's like $304 a month incremental. Not a big swing."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Right. One thing, their term line in the billing tool shows service through July 31, and the CRM's last customer activity is the April QBR recap."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. For now I'll just flag the seat delta and leave the close date where finance had it, August 9. I don't want deal desk kicking it back for a math issue."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Makes sense. Also the invoice contact changed. AP should be invoices at northstardental dot com, not Marcy directly. She bounced the June one twice."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect, thanks. Do we need legal for the same terms, or is this inside the standard add-on language?"
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Standard is fine unless they push for monthly billing. Their current setup is annual upfront, net 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay. I'll update the CRM fields, attach the corrected seat report, and send deal desk the note before two."
+    }
+  ]
+}

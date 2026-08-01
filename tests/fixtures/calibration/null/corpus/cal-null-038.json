@@ -1,0 +1,63 @@
+{
+  "id": "cal-null-038",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I pulled up the usage from your current 42 seats. Looks like 38 active in the last 30 days, and you mentioned adding the Denver operations team in April?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Right. We want to go to 55 seats total. Denver needs 10, and then we need 3 floating seats for supervisors. Our main concern is keeping the invoice clean for finance."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Makes sense. For 55 seats on the annual plan, the pricing sheet puts you at $46,750 for the year, billed once. That includes standard support and the reporting module you already have."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Can the invoice reference our PO 7814 and split the cost center line between operations and quality?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. We can put PO 7814 on the order form and the invoice memo. For the split, I’ll list 40 seats to operations and 15 to quality so your finance team can allocate it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Timing-wise, we need the new seats live by April 8. Is that realistic?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. If we have signature by March 27, we can set the admin kickoff for April 1 and have the seats provisioned before April 8. Your current term runs through May 31, so this would co-term and renew everything through May 31 next year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Co-term is important. We don’t want two renewal dates. Also, our legal team will ask about auto-renewal. Can we keep the 30-day notice language from the current agreement?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, same 30-day notice language. I’ll send the order form today with the 55 seats, $46,750 annual total, PO reference, cost center split, and May 31 end date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and copy Mark in finance. If it matches what we discussed, I can sign by Friday."
+    }
+  ]
+}

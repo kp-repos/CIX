@@ -1,0 +1,63 @@
+{
+  "id": "cal-null-031",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so thanks for making time, Dana. I saw your note about adding the warehouse team. Are we still talking about 18 additional seats for the inventory module?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We have 42 active users today, and we'd like to move to 60 by March 4. The extra folks are supervisors and cycle count leads, not finance users."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 18 standard seats, no billing-admin access. On the current annual term through September 30, the prorated amount comes to $11,340 before tax. That uses the same per-seat rate from your agreement."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Can that go on a separate invoice? Our operations cost center is 4807, and finance asked that the PO show the warehouse location."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can issue a separate invoice tied to PO 4807 and list the North Dayton warehouse on the order form. Payment terms stay net 30, same as the master agreement."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Works for me. What about onboarding? We need the first shift trained before the go-live, ideally February 28 or March 1."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "We have a standard remote training block available February 28 at 10 a.m. Eastern, 90 minutes. I can include that in the add-on at no extra charge since it's part of the seat expansion package."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send me the order form and I'll route it to Megan for signature. She usually turns these same day if the amount and dates are clear."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it today with 18 seats, prorated $11,340, separate invoice, PO 4807, North Dayton warehouse, and training on February 28. Once it's signed, access can be turned on within one business day."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If we sign by Friday the 16th, that gives us enough time. Thanks, Alex."
+    }
+  ]
+}

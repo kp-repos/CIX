@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-009",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, yeah, thanks for making time. I wanted to walk through the calibration portal renewal and the extra technician seats you mentioned for the Columbus lab."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’ve got 18 current users, and we need to add 6 more by February 12th. Mostly bench techs, one supervisor."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. So 24 seats total, same service tier, and keeping the asset import support included. The annual term would run March 1, 2026 through February 28, 2027."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That lines up. My only thing is billing. Last year the invoice went to our old AP address. It needs to go to invoices at our shared mailbox, and the PO will be CAL-4472."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can put CAL-4472 on the invoice and use the shared AP mailbox. For pricing, the 24-seat annual is $31,680, and the onboarding help for the 6 new users is a one-time $1,200."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Is that onboarding a live session or just videos?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Live session, 90 minutes, recorded for your team. We’d schedule it the week of February 16th so the new folks are ready before the March 1 start."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Contract terms are still net 30 and the same data retention language?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, net 30, same retention language, no change to support hours. I’ll send the order form today with the seat count, dates, PO field, and AP email reflected."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If you send it before 3:00 Eastern, I can route it for signature this afternoon."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. Once it’s signed, we’ll confirm the onboarding date and send the user list template for the 6 additions."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Thanks, Mark."
+    }
+  ]
+}

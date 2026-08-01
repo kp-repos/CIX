@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-018",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I pulled up the quote in the CRM. We’re at 84 seats for the operations team, annual term starting August 15, and the implementation package is the standard 40 hours."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That sounds right. The only change on our side is finance asked if the invoice can split the subscription and services into two lines, not two separate invoices, just two lines."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that’s easy. I’ll note that in the billing tool. Subscription would be $48,720 for the year, and services are $6,400 one-time. Same invoice, two line items."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the go-live date we’re targeting is still September 30. Is that realistic if we sign by next Friday, August 9?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, if we have signature by the 9th and your admin list by the 14th, we can start kickoff the week of August 19. That gives us about six weeks, which is normal for this size."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Legal had one comment on auto-renewal. They’re fine with annual renewal, but they want 60 days’ notice instead of 90."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. That’s within our standard fallback. I’ll send it to deal desk today, but I don’t expect any issue. Everything else in the order form stays the same."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Also, can we add five more seats mid-year if the warehouse supervisors come on later?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so additions are prorated through the end of the term. If you added five seats on January 1, it’d be roughly $1,450 for the remaining term, depending on the exact date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Makes sense. Send the revised order form when you have it, and I’ll route it for signature."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll get the split line items and 60-day notice updated, and you should have the clean order form by tomorrow morning."
+    }
+  ]
+}

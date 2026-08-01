@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-014",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so quick one on Northgate Parts. I was updating the CRM and the 42-seat services package is still showing active at $3,850 a month, but the term end is this Friday, August 9."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Wait, this Friday? I thought that renewal was in September."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No, that's the support uplift. The actual agreement ends August 9, and I don't see any notes, emails, calls, anything showing that we've talked to them about continuing. Like, nobody from our side has had the carry-on conversation, and we're four days out."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Oh, that's not good. Did the CSM have a checkpoint with Dana over there?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I checked the notes. Last client touch was June 18 about invoice PO-4471 being split across two cost centers. Nothing on renewal, extension, month-to-month, none of it."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. We need to get in front of it today. Their go-live for the warehouse add-on is still October 1, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, 8 warehouse seats and the API connector. Pricing sheet has it at $14,600 annual net if they co-term it, but we can't even talk pricing until someone acknowledges the contract is basically expiring."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "I'll ping deal desk for a 30-day bridge option, just in case procurement needs time. Can you call Dana and copy me on the follow-up?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. I'll keep it simple: current term ends Friday, we want to avoid service disruption, propose either the 30-day bridge at the same monthly rate or a 12-month renewal with the warehouse add-on."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Good. Also pull the last invoice from the billing tool so we're not guessing on totals if she asks."
+    }
+  ]
+}

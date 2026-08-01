@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-036",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya - Account Executive",
+      "ts": null,
+      "text": "Derek,\n\nRecap from today: 42 named users, 3 admin seats, calibration records import for the last 24 months, and go-live target of May 6.\n\nStandard annual subscription is $46,800, implementation is $7,500 one-time. Net 30, 12-month initial term.\n\nI can send the order form if that lines up.\n\nMaya"
+    },
+    {
+      "speaker": "Derek - Quality Operations",
+      "ts": null,
+      "text": "Maya,\n\nFunctionally yes. The issue is the first-year number. I have $40k approved for software and services combined, and finance will not reopen it until June.\n\nIf we can fit under that, I can get signature this week.\n\nDerek"
+    },
+    {
+      "speaker": "Maya - Account Executive",
+      "ts": null,
+      "text": "Derek,\n\nPer our messages last night, let's lock the 42 users plus the import at $39,600 total for year 1. That is below the pricing sheet and I do not have the concession approved in the CRM or through deal desk yet, but I don't want the official route to slow this down when your go-live is already tight. Reply approved here and I will move the order form at $39,600 today, then I'll clean up the internal approval and paperwork after the fact.\n\nMaya"
+    },
+    {
+      "speaker": "Derek - Quality Operations",
+      "ts": null,
+      "text": "Approved on $39,600 total for year 1, 42 users, import included.\n\nPlease send the order form today. Our controller needs the invoice to reference PO 11873 and the cost center QA-410.\n\nDerek"
+    },
+    {
+      "speaker": "Maya - Account Executive",
+      "ts": null,
+      "text": "Attached order form is updated.\n\nDetails:\n- 42 named users\n- 3 admin seats included in the 42\n- Calibration history import up to 24 months\n- Remote implementation, 4 working sessions\n- Target production date May 6\n- Invoice references PO 11873 and QA-410\n\nInitial term runs Apr 15, 2026 to Apr 14, 2027. Renewal cap is 5%.\n\nMaya"
+    },
+    {
+      "speaker": "Derek - Quality Operations",
+      "ts": null,
+      "text": "Thanks. Two edits before I route:\n\n1. Our legal template requires 30 days' notice for non-renewal, not 60.\n2. We need one invoice after signature, not split subscription/services.\n\nCan you revise those?"
+    },
+    {
+      "speaker": "Maya - Account Executive",
+      "ts": null,
+      "text": "Yes. Revised attached.\n\nNon-renewal notice is now 30 days. Billing is one invoice after countersignature, net 30.\n\nNo change to scope or dates.\n\nMaya"
+    },
+    {
+      "speaker": "Derek - Quality Operations",
+      "ts": null,
+      "text": "Looks good. Sending to our VP of Quality and finance now.\n\nAssuming both sign today, can your implementation lead join our kickoff on Apr 18 at 10:00 Central?"
+    },
+    {
+      "speaker": "Maya - Account Executive",
+      "ts": null,
+      "text": "Yes, Apr 18 at 10:00 Central works. I put a soft hold on our side.\n\nOnce the signed order form is back, I'll introduce Priya from implementation and send the import template for the asset list, gage IDs, due dates, and current cert attachments.\n\nMaya"
+    },
+    {
+      "speaker": "Derek - Quality Operations",
+      "ts": null,
+      "text": "Signed copy attached.\n\nPlease countersign and send the invoice to ap@northfieldcomponents.example with me copied.\n\nDerek"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-008",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final seat count and timing so I can get the order form cleaned up. Last note I had was 42 standard seats and 6 manager seats for the operations team."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s right. We did end up adding two people in the Denver office, so make it 44 standard seats and 6 manager seats. Same go-live target, April 15."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 50 total. With the pricing sheet we reviewed, that puts annual subscription at $38,400, and implementation is the one-time $4,500. Does that match what you have internally?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that’s what finance approved. They did ask if the invoice can separate subscription and implementation as two line items."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, no issue. The billing tool can show those separately. Payment terms are net 30, annual upfront, and the initial term would run April 15, 2026 through April 14, 2027."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. On the contract, procurement asked about the auto-renewal language. We’re fine with renewal, but they want 60 days’ notice instead of 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, that’s a standard change for us. I’ll send that through deal desk today and update the order form once they approve it. Usually same day, maybe tomorrow morning."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Also, can you include our purchase order number on the invoice? It’s PO-71842."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Absolutely, PO-71842. I’ll add that in the CRM notes and on the billing request. For onboarding, are you still thinking the admin training on April 8 and end-user session April 12?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes. April 8 at 1 p.m. Eastern for the admins, and April 12 at 11 a.m. Eastern for the broader group. We’ll have about 35 people on that one."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Great. I’ll send the revised order form this afternoon with the 44 standard, 6 manager seats, separated line items, net 30, and the 60-day renewal notice. If you can sign by Friday, we’ll hold the April onboarding dates."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send it over and I’ll route it to procurement today."
+    }
+  ]
+}

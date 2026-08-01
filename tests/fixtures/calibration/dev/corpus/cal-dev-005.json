@@ -1,0 +1,53 @@
+{
+  "id": "cal-dev-005",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Hey, quick check on Northline Components. I'm cleaning up the renewal view in the CRM and the seat count is still showing 84, but the quote in the folder says 92."
+    },
+    {
+      "speaker": "Derek",
+      "ts": null,
+      "text": "Yeah, so the 92 is right. They added the eight warehouse managers in June, billing tool never got updated because the PO came in after close."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Got it. Their current agreement ends this Friday, and I don't see any note that we've spoken with them about carrying on, so I want to get the paperwork squared away today."
+    },
+    {
+      "speaker": "Derek",
+      "ts": null,
+      "text": "Okay. Pricing sheet has them at $68 per seat per month if they stay annual. No discount change unless they ask for multi-year."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "They did ask last cycle about net 45. Are they still net 30?"
+    },
+    {
+      "speaker": "Derek",
+      "ts": null,
+      "text": "Still net 30. Finance said they can do net 45 only if the annual invoice is paid upfront, not quarterly."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Alright. I'll draft the order form for 92 seats, annual, same terms, March 1 go-live for the reporting add-on. Total should be $75,072 before the add-on, right?"
+    },
+    {
+      "speaker": "Derek",
+      "ts": null,
+      "text": "Yep, and the reporting add-on is $9,600 for the year. Send it to deal desk once you have the draft, and I'll sanity check the invoice language."
+    }
+  ]
+}

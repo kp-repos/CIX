@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-001",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final seat count and the go-live date so I can get the order form cleaned up today."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re at 42 standard seats and 6 admin seats. That should cover the operations team plus the three managers starting next month."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 48 total. And you were still targeting May 20 for go-live, right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, May 20. We’d like training the week before, ideally May 14 or 15, two sessions if possible."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. I’ll hold May 14 at 10 a.m. Central and May 15 at 2 p.m. Central. On pricing, the annual total is $31,680, and implementation is the one-time $4,500 we discussed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Can you split the invoice so implementation is billed on signing and the subscription starts June 1?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can do that. I’ll note subscription term June 1, 2026 through May 31, 2027, and the implementation invoice due net 30 from signature."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Legal also asked if the renewal notice can be 60 days instead of 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that’s within our standard range. I’ll update the renewal notice to 60 days and send it through deal desk before I send the final copy."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If you can get it over by tomorrow morning, I can route it for signature before our Friday cutoff."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the revised order form and invoice schedule by 10 a.m. Eastern tomorrow."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-008",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so I pulled up the quote we sent on Friday. It’s for 48 seats on the standard plan, $38 per seat per month, billed annually, and then the one-time implementation fee is $4,200."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches what I have. The only thing I wanted to confirm is if we add five more seats in Q2, are those just prorated through the same renewal date?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Your renewal date would stay March 31, 2027. Any seats added after go-live would be prorated to that date and show up as a separate line item on the next invoice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, good. And for go-live, we’re still aiming for April 22? Our operations team is asking because they need two weeks for internal training."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, April 22 is still workable. If we get signature by March 18, our services team can start discovery the week of March 25, then configuration the first week of April."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That timeline works. On the contract term, procurement asked whether the 12-month term can include a 30-day notice period before auto-renewal."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, that’s standard for us. The agreement currently says notice due 45 days prior, but I can update it to 30 days and route it through deal desk today."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Last item is invoicing. We need the PO number included on the invoice, PO-4178, and it should go to ap@northlakeops.com."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. I’ll add PO-4178 to the billing notes and set the invoice contact to that AP address. I’ll send the revised order form by end of day."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Once I have that, I’ll send it to procurement and should be able to get signature by early next week."
+    }
+  ]
+}

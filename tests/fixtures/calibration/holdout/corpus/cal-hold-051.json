@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-051",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I just wanted to confirm the final seat count and walk through the implementation dates before I send the order form over."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We landed at 42 full users and 18 read-only users. That includes the finance team we added last week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 42 full and 18 read-only. On the pricing sheet that puts the annual subscription at $38,640, and the one-time onboarding is $4,500. Does that match what you had internally?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that's what I have. Procurement asked if the invoice can be split quarterly, though, instead of all upfront."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can do quarterly invoicing. The contract term would still be 12 months starting October 1, but billing would be four invoices of $9,660 for subscription, plus the onboarding on the first invoice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that's fine. For go-live, we're targeting November 12. Is that realistic if we sign by Friday?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. If we have signature by September 20, we can start kickoff the week of September 30. Data import usually takes about two weeks, then admin training and user testing the last week of October."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. We have a small concern on the contract language around auto-renewal. Legal wants 60 days' notice instead of 90."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I can run that through deal desk. Sixty days is usually acceptable for this size agreement. I'll include that redline when I send the draft."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it to me and copy Marcus from procurement. Once legal clears it, I can route for signature."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the order form, quarterly invoice schedule, and the revised terms by end of day. Then I'll put a placeholder on the calendar for kickoff on September 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Thanks, Alex."
+    }
+  ]
+}

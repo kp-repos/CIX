@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-039",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I pulled up the order form in the CRM. We have 48 seats for the analytics module and 6 admin seats, with a target go-live of March 18. Is that still accurate?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that's right. We may add two more admins later, but for launch it's 6. I mostly wanted to confirm the invoice timing and the services line."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sure. The annual software is $57,600, and the implementation package is $8,400. Billing would issue the first invoice on signature, net 30. If you sign by February 14, the due date would be March 16."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Our finance team asked if the implementation can be billed separately, same net 30 terms, but dated after the kickoff."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that should be fine. Kickoff is tentatively February 21, so we can set the services invoice date to February 22. I'll note that for deal desk before I send the final order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. On the contract term, it's 12 months, not 24, correct?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, 12 months starting March 18 through March 17 next year. Renewal is annual, and the pricing sheet has a 5% cap on the first renewal increase."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. One more thing: our procurement group needs the PO number on the invoice. It'll be PO-41782, but they're still routing it."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No problem. If you have the PO by signature, we'll include it. If it comes a day or two after, billing can add it before they send the invoice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send the updated order form today if you can, and I'll route it to legal. I don't expect many changes."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it by 3:00 Pacific with the separate services billing note, the 12-month term, and the PO field called out. Then I'll hold March 18 with our onboarding team."
+    }
+  ]
+}

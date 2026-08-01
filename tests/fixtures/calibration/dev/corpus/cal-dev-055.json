@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-055",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Jenna",
+      "ts": null,
+      "text": "Hey Marco, quick one on Cedar Ridge. I'm cleaning up the CRM before forecast call and the expansion line looks, uh, a little half-built."
+    },
+    {
+      "speaker": "Marco",
+      "ts": null,
+      "text": "Yeah, I saw that. Is this the 18 seat add-on for the analytics module or the services thing?"
+    },
+    {
+      "speaker": "Jenna",
+      "ts": null,
+      "text": "The 18 seats. They asked for them in the admin email on Tuesday, $92 per seat monthly if we keep them on the same tier. I just need to know if deal desk wants a fresh order form."
+    },
+    {
+      "speaker": "Marco",
+      "ts": null,
+      "text": "If it's co-termed, yeah, fresh order form. Billing tool won't pick it up from the seat request alone. Did you check the account flags?"
+    },
+    {
+      "speaker": "Jenna",
+      "ts": null,
+      "text": "That's the thing. For their workspace, 64 users are still enabled in the product, the billing tool shows service through 7/31, and I don't see a customer thread after Kim's May 16 QBR note."
+    },
+    {
+      "speaker": "Marco",
+      "ts": null,
+      "text": "Okay. Then don't touch the seat count yet. Put it in the CRM as pending ops review, zero it out for this week's commit."
+    },
+    {
+      "speaker": "Jenna",
+      "ts": null,
+      "text": "Got it. I'll move the close date to 8/9 and add the note. Do you want me to ping finance or wait until you look?"
+    },
+    {
+      "speaker": "Marco",
+      "ts": null,
+      "text": "Ping finance with the account ID and invoice number 41872. Just ask whether August usage is on hold or queued, nothing fancy."
+    },
+    {
+      "speaker": "Jenna",
+      "ts": null,
+      "text": "Yeah, makes sense. And for the pricing sheet, I'm using standard month-to-month add-on pricing, no discount, right?"
+    },
+    {
+      "speaker": "Marco",
+      "ts": null,
+      "text": "Right. If it comes back clean, we can send the simple form. If not, we'll package it with whatever ops tells us."
+    }
+  ]
+}

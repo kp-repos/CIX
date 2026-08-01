@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-003",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya (Rep)",
+      "ts": null,
+      "text": "Yeah, so thanks for making time, Jordan. I saw your current term runs through September 30, and you were looking at adding the service team before the October go-live, right?"
+    },
+    {
+      "speaker": "Jordan (Customer)",
+      "ts": null,
+      "text": "That's right. We have 38 active users today, and we'd add 12 more. I'd like the new seats active by September 16 so they can train before launch."
+    },
+    {
+      "speaker": "Maya (Rep)",
+      "ts": null,
+      "text": "Okay, 50 seats total, effective September 16. The annual price on the standard plan would be $42,000, and with the 12 additional seats prorated for the remainder of the term, the invoice for this year comes to $3,150."
+    },
+    {
+      "speaker": "Jordan (Customer)",
+      "ts": null,
+      "text": "That lines up. Can you keep the renewal date at September 30 next year? Finance doesn't want a second date floating around."
+    },
+    {
+      "speaker": "Maya (Rep)",
+      "ts": null,
+      "text": "Yep, co-termed to September 30, 2027. One order form, same billing contact, net 30 terms. No change to the data processing addendum."
+    },
+    {
+      "speaker": "Jordan (Customer)",
+      "ts": null,
+      "text": "Good. On invoicing, please use the PO number I sent this morning, PO-4817. And can the invoice break out the prorated seats separately?"
+    },
+    {
+      "speaker": "Maya (Rep)",
+      "ts": null,
+      "text": "Yes, I have PO-4817, and the billing tool will show the prorated seat line separately from the renewal line. You should see the invoice within one business day after signature."
+    },
+    {
+      "speaker": "Jordan (Customer)",
+      "ts": null,
+      "text": "Perfect. What about training? We need two admin sessions and one end-user session, all remote."
+    },
+    {
+      "speaker": "Maya (Rep)",
+      "ts": null,
+      "text": "Included. I put two admin sessions the week of September 9 and one user session the week of September 16 on the order form. Our services coordinator will send calendar options after the order is countersigned."
+    },
+    {
+      "speaker": "Jordan (Customer)",
+      "ts": null,
+      "text": "Okay. Send it over to me and Priya in procurement. If it matches what we discussed, I can sign by Friday."
+    },
+    {
+      "speaker": "Maya (Rep)",
+      "ts": null,
+      "text": "Will do. You'll get the order form this afternoon for 50 seats, $42,000 annual renewal, $3,150 prorated addition, co-termed through September 30, 2027, net 30, PO-4817."
+    },
+    {
+      "speaker": "Jordan (Customer)",
+      "ts": null,
+      "text": "Great, thanks. That should be straightforward."
+    }
+  ]
+}

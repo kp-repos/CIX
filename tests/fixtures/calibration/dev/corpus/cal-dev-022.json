@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-022",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the package for the renewal and the expansion. I have you at 38 current seats and adding 12, so 50 total starting March 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. The only thing is we may not activate all 12 on day one. Finance approved the 50, but operations will probably roll in six people first and the rest by April."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that's fine. The contract would show 50 licensed seats, and your admin can assign them as needed. No extra implementation charge for staging those users."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the price you sent was $48 per seat per month, billed annually, correct?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. So the annual subscription is $28,800, plus the $3,200 onboarding for the workflow updates we scoped. Total first-year order is $32,000 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. Can you make the invoice split between subscription and onboarding? Our AP team needs the services line separate."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, I can set that up in the billing tool. It'll be one invoice with two line items, net 30 terms, and I can include the PO number if you have it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "PO is 4176-BC. We need the invoice dated after February 15, though. Our new budget doesn't open until then."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No problem. I'll queue the order for signature this week, and billing will issue the invoice on February 16. Target go-live for the updated workflows is still March 18?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, March 18 is good. If you can send the order form today, I'll get legal to do a quick pass. They already approved the same terms last year, so I don't expect much."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Great. I'll send it over by 3 p.m. with the 12-month term, March 1 through February 28, 50 seats, annual billing, and the PO on the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Once it's signed, loop in Marcus from my team for the onboarding schedule. He'll own the admin setup."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-033",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so quick check on Northline. They want the renewal quote by Friday, 74 seats, same support tier, term starting March 1."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Got it. Are they asking for any expansion or just flat renewal?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Flat renewal, but they want the invoice split quarterly instead of annual. Their finance lead said annual is a nonstarter this year."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. Did you already run pricing?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I did. It was kind of a grind, honestly — I had to enter the same 74 seats, March 1 to Feb 28 dates, 8% discount, and quarterly billing in the CRM, the pricing sheet, the deal desk intake, and then again in the billing tool before I could get the proposal PDF out."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Yeah, that tracks. Is deal desk okay with the 8%?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "They approved it this morning. No redlines on terms, just the billing schedule note and the auto-renew language stays at 30 days."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Good. Who signs on their side, still Dana?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Dana signs, but she wants procurement copied. I’m sending to Dana and Marcus, with the PO field left blank until they issue it."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Perfect. If they push on go-live timing, remind them there’s no implementation work, it’s just keeping access live on March 1."
+    }
+  ]
+}

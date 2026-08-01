@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-015",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Hey Jordan, quick on the Northstar account. I'm cleaning up the CRM before forecast, and the seat count is showing 86, but the pricing sheet has 90. Do you know which one is right?"
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Yeah, so 86 active today. They asked about adding four for the support team, but it wasn't approved yet. I'd quote 86 and put the four as an optional line."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Got it. Also, their agreement ends this Friday and I don't see any notes that we've talked to them about carrying on, so I wanted to sanity check before I send anything."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay, yeah. Keep the quote simple then. Same package, 12-month term, net 30. Their current rate is $41 per seat per month, and finance said we can hold that if it's signed by June 28."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Perfect. Billing tool has their invoice contact as Erin Patel, but procurement emails came from Luis Romero last time. Should I include both?"
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Include both, and copy their admin, Dana. Dana is the one who chased the PO in March, so she'll know the process."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Makes sense. Any services line, or just subscription?"
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "No services. They did onboarding already. Maybe add a note that go-live support is included for the four optional seats if they add them by July 15."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Okay. I'll draft the quote at $42,312 annual for the 86 seats, optional four at $1,968, and route it through deal desk."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Yep, that math is right. Send me the PDF before it goes out, just so I can check the dates."
+    }
+  ]
+}

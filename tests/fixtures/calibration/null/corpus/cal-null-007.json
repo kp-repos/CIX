@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-007",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, yeah, thanks for making time. I saw your current term runs through September 30, so I wanted to talk through renewal and the extra seats your operations team asked about before we send the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We have 42 users today, and we’ll need 8 more by August 15. Mostly supervisors in the Ohio and Indiana sites."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, so 50 total seats starting August 15. The renewal would be 12 months, October 1 through September 30 next year. With the midterm add, your August invoice would show a prorated charge of $1,120, then the renewal is $58,500 for the full year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Can you keep billing annual? Finance gets cranky if we split it monthly."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, annual billing stays the same. The only separate line is that August prorate for the 8 added seats. After that it rolls into the annual invoice on October 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "And support hours are unchanged? We have that standard response time, next business day, I think."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Standard support, next business day response, same as your current agreement. No change to data retention or the onboarding package either. For the 8 new users, our enablement team can run a 45-minute admin session on August 13 or 14."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "August 14 at 10 central works. Also, can the invoice reference PO 44719? That’s the one procurement opened for this."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, PO 44719 on both the prorated invoice and the renewal invoice. I’ll include that on the order form notes too so billing has it from the start."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it to me and Marcus in procurement. If the numbers match what you just said, we can sign this week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send the order form this afternoon with 50 seats, August 15 effective date for the add-on, renewal dates October 1 to September 30, annual billing, and PO 44719. Once it’s signed, you’ll get the calendar hold for the August 14 training."
+    }
+  ]
+}

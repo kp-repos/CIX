@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-013",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the 42-seat rollout and make sure the April 15 go-live still works on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "It does if procurement gets the order form by Friday. We also need the invoice split 70% to operations and 30% to finance, same billing address, just two cost centers."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. I can do that. And just to be transparent, I’m a little behind on sending the revised paper because yesterday basically got eaten by clerical stuff. I spent most of the day typing call notes and renewal fields into the CRM, cleaning up duplicate account records in the database, and assembling the internal approval packet for deal desk. It crowded out the time I had blocked to actually talk with buyers and get documents back out, which is not ideal. I’ve got yours prioritized this morning."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, I appreciate the heads up. We just can’t have this slip, because our current tool turns off April 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. The commercial terms are still 42 seats at $118 per seat per month, annual invoice, so $59,472 before tax. I got approval for the 8% implementation discount, so services comes down from $6,500 to $5,980."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "And the term is 12 months, not 24, right? Legal was pretty firm on that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, 12 months, April 15, 2026 through April 14, 2027. Auto-renewal removed, 30-day written renewal notice instead. I’ll send the order form and the security exhibit together."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. If you can get it to me by 2:00 Central, I’ll route it today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, 2:00 Central. I’ll include the two cost centers on the invoice instructions and copy your AP alias."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Once it’s signed, we’ll give you the admin names for the kickoff."
+    }
+  ]
+}

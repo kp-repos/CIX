@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-024",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making the time, Dana. I wanted to walk through the updated quote for 48 seats and make sure the start date and billing line up with what your finance team asked for."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that works. I have the spreadsheet open. We’re still at 42 standard users and 6 managers, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. The pricing sheet has the standard seats at $86 per user per month and the manager seats at $124, annual term, so the annual total comes to $54,432 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And that includes onboarding? I remember there was a separate services line in the first version."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Good catch. We rolled that into the subscription for this version. It includes two admin training sessions, one end-user session, and the data import for your current CSV files."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That should be fine. Our main thing is go-live. We want the team using it by March 18, not just starting setup then."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, understood. If we get signature by February 16, we can start kickoff the week of February 19 and target March 18 for go-live. I put that in the order notes so our implementation team sees it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. On payment terms, can you do net 45? Our standard vendor process is not going to hit net 30 cleanly."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I checked with deal desk before this call. Net 45 is approved as long as it’s annual prepay and the invoice goes out on the contract start date, which we have as February 19."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s okay. Send the final order form to me and Marcus in procurement. If there are no surprises, we should be able to turn it around this week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the PDF and the editable billing details page right after this, and I’ll note that purchase order is required before invoice processing."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Thanks, yeah, that covers my questions."
+    }
+  ]
+}

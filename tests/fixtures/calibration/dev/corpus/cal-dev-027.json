@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-027",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Karen. I wanted to confirm the scope before I send the order form over. I have you at 42 technician seats, 6 manager seats, and the calibration scheduling module included for the Ohio and Indiana sites. Is that still right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We may add two more technicians in Q3, but for the initial rollout it's 48 total seats."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay, perfect. The pricing sheet has that at $3,840 per month on an annual term, billed quarterly. Implementation is a one-time $7,500, and that includes the data import from your current spreadsheets and two admin training sessions."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Quarterly billing is fine. On the implementation, can you make sure the invoice separates software and services? Our accounting team needs those as separate line items."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, no problem. I'll note that for billing. For timing, if we get signature by May 17, we can start kickoff the week of May 27 and target go-live for July 8. Does that work with your audit calendar?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, our internal audit starts July 22, so July 8 gives us a little buffer. I just need the asset list loaded by the end of June."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. We'll need the final asset export by June 14 to hit that. I'll include that as a customer milestone in the implementation plan."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. What about the contract language on renewals? I want to avoid auto-renewing for more than one year."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Standard term is one year auto-renewal with 60 days' notice, same length as the initial term. Since this is a 12-month agreement, it would renew for 12 months unless you cancel or we amend it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that's acceptable. Send the order form and the implementation outline today, and I'll route it through purchasing."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it within the hour, and I'll copy your purchasing alias. If they need a W-9 or vendor packet completed, just forward it to me."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Thanks, Mark."
+    }
+  ]
+}

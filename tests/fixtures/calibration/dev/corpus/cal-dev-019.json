@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-019",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I saw the note from your operations lead about adding the dispatch team before the April go-live, so I wanted to walk through seats and timing."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that's right. We had 42 users in the original quote, and now it looks like 58. Twelve are dispatch, four are supervisors. Same access level for everyone except the supervisors."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. So 54 standard seats and 4 manager seats. Based on the current pricing sheet, that puts the annual subscription at $38,280, up from $28,560. Implementation stays the same at $6,500 since we're not changing scope."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the implementation fee is still invoiced at signature, right? Finance asked if we could split that across two invoices."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, standard is at signature, but we can split it 50-50. So $3,250 at signature and $3,250 on May 1. I just need to note that on the order form and have deal desk approve it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That would help. Contract term is still April 15 through April 14 next year?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. April 15, 2026 to April 14, 2027. If we get signature by March 22, onboarding can start the week of March 25, and the project manager has already held April 10 for admin training."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. We also need the billing address changed. The quote has our old office. It should be 1180 West Elm, Suite 300, Omaha, Nebraska 68102."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Thanks, I'll update that in the CRM and regenerate the order form. Same AP email, invoices at your company domain?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, same AP inbox. And please include the purchase order field as blank for now. We'll issue the PO after legal signs off."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No problem. I'll send the revised order form today with the 58 seats, split implementation invoice, and updated billing address. If legal has redlines, just send them back and we'll turn those around."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. If you can get that over before 3:00 Central, I can route it this afternoon."
+    }
+  ]
+}

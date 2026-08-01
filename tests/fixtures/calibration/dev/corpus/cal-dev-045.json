@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-045",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the seat count and timing so I can send the final order form today. Last note I had was 48 standard seats and 6 admin seats for a May 20 go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s right. We may add two more standard seats in June, but for the initial contract it should be 48 and 6. Finance wants the invoice to match that exactly."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, makes sense. For those 54 total users, the annual subscription comes to $38,880, and the implementation package is the one-time $4,500. So first invoice would be $43,380 plus applicable tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And billing starts on May 15, not today, correct? We need a few weeks for setup and training."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Contract start date May 15, service term through May 14 next year. We’ll schedule kickoff the week of April 29, and our onboarding lead will handle the data import and two admin trainings."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. On contract terms, our legal team had one redline around auto-renewal notice. They asked for 60 days instead of 45."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I saw that. Deal desk already approved the 60-day notice, so I’ll include that in the version I send. No change to pricing or term length."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Can you also make the PO number required on the invoice? It’ll be PO-4172. If it’s missing, accounts payable kicks it back."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Absolutely. I’ll add PO-4172 in the billing notes and on the order form. The invoice will go to ap@northlinecomponents.com, with you copied."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that works. Send it over this afternoon and I’ll route for signature. Our VP is around tomorrow morning, so we should be able to get it done by end of day."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Great. I’ll send the clean order form and the updated terms by 2:00 Eastern. Once it’s signed, we’ll set up the kickoff invite and confirm the user list format."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-024",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for jumping on, Dana. I wanted to tighten up the last few items before kickoff Monday. I have 82 seats, first-year total at $38,540, and target go-live November 18."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That all sounds right. Before we get too far, the kickoff agenda I got this morning says password login for the pilot, but we agreed security would only approve SSO and SCIM before users get access on November 4."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "You're right, I see that in the CRM from the August 29 call. Sorry, that did not make it into the implementation notes. I'll update the handoff today and have the coordinator send a revised agenda by 3:00."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. I just don't want my IT lead walking into kickoff and finding out it's a different setup."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally fair. I'll also add Mark from your IT team to the invite, since he owns the identity provider piece. Anything else looking off?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, the invoice. We agreed on quarterly billing, net 45, but the billing tool sent the full annual amount due September 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, apologies. Deal desk has the quarterly term, but billing didn't get that note. I'll have that invoice voided and reissued as four invoices for $9,635 each, first one due October 31."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Please send me that in writing because finance is already asking why the number changed."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send a recap with the SSO requirement, the November 4 pilot access date, the 82 seats, and the corrected billing schedule."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. If we add the warehouse team in December, that's probably another 12 seats, but let's keep that out of this order for now."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-044",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so for the renewal and the add-on, I have you at 38 named users today and you want to move to 46 on May 1, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Correct. Forty-two regular users and four managers. The managers only need approvals and the calibration dashboard, not full admin."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. The pricing sheet treats those all as standard seats, so 46 seats at $71 per seat per month. With the annual term that comes to $39,192, and services stays flat at $4,800 for the June validation refresh."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Last year we had two invoices, one for software and one for services. Can you keep it that way? Finance hates combined line items for some reason."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, two invoices is fine. Software invoice on May 1, net 30, and the services invoice dated June 10, also net 30. Same billing contact, Dana in AP?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, Dana Park. Also, we need the go-live for the new seats before the second shift starts. June 3 is the date plant management gave me."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "June 3 works. If we receive the signed order by April 19, we can schedule the admin session the week of May 13 and the operator session the week of May 20."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That timing is fine. Contract term is still twelve months? Our legal team asked that it line up with the existing master agreement."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, twelve months, May 1, 2026 through April 30, 2027, under the existing master agreement. No change to the liability or data terms."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send the quote with those dates and the two-invoice note. If it matches what we discussed, I can route it today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the order form and the service summary in one email this afternoon, and I’ll include the June 3 go-live and the two training windows so your team has it in writing."
+    }
+  ]
+}

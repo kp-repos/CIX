@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-052",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so quick gut check on the Havenridge renewal. They want to add 18 seats, move from 72 to 90 total, and keep the same May 1 go-live for the analytics module."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. Is the pricing sheet lining up with what we quoted last week?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Mostly. The subscription comes to $54,600 annually after the 8% expansion discount. Services is $6,200 for onboarding, billed once. The buyer is fine with that, but the deal is just sitting because I still don't have the payment terms exception approved."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "That's the net-60 request, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah. And I've nudged finance twice, deal desk once, and legal this morning because the redline has the same clause. I sent the invoice history, the credit note from February, all of it. The customer asked me again today if we can send signature pages by Friday, and I can't move it out of verbal until someone signs off. It's been stalled since Tuesday over this one answer."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Got it. Who owns the actual yes or no?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Finance owns the terms, legal just wants to know if they can leave the language in. I don't need anything fancy, just approve net-60 for the first year or tell me no so I can go back with net-45."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "I'll message Maria in finance and copy you. If she approves, can you get procurement the final order form same day?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. Order form is already drafted in the CRM, effective April 30, 12-month term, auto-renew off. I just need to update the payment terms field and attach the services SOW."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay, send me the account notes and the invoice numbers. I'll push on it before their 2 p.m. cutover meeting."
+    }
+  ]
+}

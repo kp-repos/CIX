@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-042",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I pulled up the order form we discussed: 42 seats on the team plan, annual term, starting March 1. I just wanted to confirm the start date and billing contact before I send it through deal desk."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, 42 is right. We may add three more in Q2, but for now keep it at 42. Billing should go to ap@northlineparts.com, and copy me, please."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. The net price is $31,920 for the year after the standard 10% volume discount. Payment terms are net 30, and the first invoice would generate on March 1 in the billing tool."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Can you make sure the invoice references PO 44718? Our finance team kicks it back if the PO is missing."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, I’ll add PO 44718 to the order form and the invoice notes. On implementation, you had asked for go-live by March 18. Our services team has an onboarding slot the week of March 4, so that still works."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. We need the admin training before the 12th, though, because our ops lead is out the following week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. I can put admin training on March 8 at 10 a.m. Central, 90 minutes. Then end-user training on March 14, if that’s okay."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "March 14 is fine. One contract question: the auto-renewal is 12 months, right? We need 60 days notice to cancel, not 90."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so our standard is 12-month renewal with 60 days notice. I’ll make sure that language is reflected in the terms before signature."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send the order form today if you can. Legal already reviewed the template, so I think we can turn it around by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send it by 2 p.m. Eastern with the PO, billing email, 42 seats, and the March dates included. If anything changes on the extra seats, we can handle that with a simple add-on later."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "cal-dev-028",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rachel Kim, Customer",
+      "ts": null,
+      "text": "Hi Evan,\n\nWe’re trying to get the renewal wrapped before finance closes March. Current usage is 74 seats, but ops wants 13 more for the North region, so please quote 87 seats.\n\nSame one-year term starting April 1, if possible. We also need the invoice to reference PO 41872 and cost center 220-19.\n\nRachel"
+    },
+    {
+      "speaker": "Evan Brooks, Rep",
+      "ts": null,
+      "text": "Hi Rachel,\n\nYeah, can do. For 87 seats on a 12-month renewal starting 4/1, list on the pricing sheet comes to $63,510. With the standard renewal discount it is $54,810.\n\nI can send the order form today with net 30 terms and the invoice details you listed.\n\nEvan"
+    },
+    {
+      "speaker": "Rachel Kim, Customer",
+      "ts": null,
+      "text": "Thanks. $54,810 is a little high for us. We had budgeted $50k even based on last quarter’s headcount plan.\n\nIf we can get closer to that, I can get signature from Dan by Friday. Otherwise it likely slips to April 10.\n\nRachel"
+    },
+    {
+      "speaker": "Evan Brooks, Rep",
+      "ts": null,
+      "text": "Rachel,\n\nI talked it through here. The cleaner official route is deal desk approval, but that will take a few days and they’ll probably land above $52k.\n\nIf you can get the PO moving today, let’s use $49,800 for the 87 seats and keep this number here between us for now rather than waiting on the concession workflow. I’ll update the order form to match, and I’ll sort the deal desk paperwork after signature so the file catches up later.\n\nEvan"
+    },
+    {
+      "speaker": "Rachel Kim, Customer",
+      "ts": null,
+      "text": "Okay, $49,800 works. Please send the order form with 87 seats, 4/1 start, 3/31/2027 end, net 30.\n\nBilling address is the same, but invoice email should be ap@northlakecomponents.com and copy me.\n\nRachel"
+    },
+    {
+      "speaker": "Evan Brooks, Rep",
+      "ts": null,
+      "text": "Attached is the order form.\n\nSummary:\n87 seats\nTerm: April 1, 2026 - March 31, 2027\nTotal: $49,800\nPayment: net 30\nInvoice reference: PO 41872, cost center 220-19\n\nIf Dan signs by Friday, implementation can keep the April 8 admin training slot.\n\nEvan"
+    },
+    {
+      "speaker": "Rachel Kim, Customer",
+      "ts": null,
+      "text": "Dan signed. Attached PDF and PO 41872.\n\nOne note: our AP team will reject invoices without the PO in the header, not just the notes field. Can you make sure billing has that?\n\nRachel"
+    },
+    {
+      "speaker": "Evan Brooks, Rep",
+      "ts": null,
+      "text": "Got it, thank you.\n\nI updated the CRM with the signed order and added PO 41872 in the billing header field. You should see the invoice on or around April 2.\n\nI also confirmed the April 8 admin training and April 15 go-live check-in.\n\nEvan"
+    }
+  ]
+}

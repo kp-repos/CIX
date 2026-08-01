@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-027",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, yeah, thanks for making the time. I had you down for 38 seats today, with the training package starting the week of May 12. Is that still the right scope?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Pretty close. We actually need 42 seats now. Finance added four regional managers, but they won't be heavy users."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 42 total. The plan we discussed covers all named users the same way, so that puts the annual subscription at $31,080. Implementation stays at $4,200, one-time."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And billing, can you do net 45? Our AP run is on the 10th and 25th, and net 30 gets messy."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, net 45 is fine on this package. First invoice would go out on the contract start date, May 1, and then annually after that unless you prefer quarterly."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Annual is better. We just need the PO number on the invoice. It’ll be PO-78419."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect, I'll include PO-78419. For go-live, you had said June 3. With training May 13 and 15, that still lines up. We’ll need your admin list by May 6."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. I can send the admin names Friday. On the contract, is it a one-year initial term or are you asking for two?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "One-year initial term, May 1, 2026 through April 30, 2027. Renewal is annual after that, and we’ll set a review 60 days before the end date so you have time for budget planning."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Send the order form with the 42 seats, net 45, and the June 3 go-live. If legal doesn’t have any redlines, I can sign by Tuesday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it over this afternoon with the pricing sheet attached, and I’ll copy your procurement inbox like you requested."
+    }
+  ]
+}

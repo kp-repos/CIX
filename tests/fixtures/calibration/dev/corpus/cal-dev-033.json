@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-033",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final scope so I can get the order form cleaned up today. I have you down for 42 user seats, plus the onboarding package, with a target go-live of May 20th. Is that still right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that’s right. We may add three more seats in Q3, but for the initial contract 42 is the number. And May 20th is still the date we’re planning around."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. On pricing, the annual subscription comes to $38,640, and onboarding is a one-time $4,500. So total first-year invoice would be $43,140 before tax, billed annually."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Can you make sure the invoice references PO 7816? Our AP team will kick it back if that’s missing."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I’ll add PO 7816 to the billing notes and the order form. For contract term, we discussed 12 months starting May 1st, with service access opening once implementation starts. Does that work?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes. Legal was fine with the 12-month term. The only thing they asked is that auto-renewal notice be 60 days instead of 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. I already had deal desk approve the 60-day notice language, so I’ll include that version. No change to pricing or payment terms."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. And onboarding, that includes the two admin trainings and the data import help, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Two 90-minute admin sessions, one end-user kickoff, and up to 20 hours for the data import. If we need more than that, we’ll flag it before anything billable happens."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send the order form to me and copy Marcus from procurement. If we get it today, I can probably turn signature by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it this afternoon, and once it’s signed I’ll introduce you to the implementation lead so we can lock the May 6th kickoff."
+    }
+  ]
+}

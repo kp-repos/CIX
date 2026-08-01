@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-020",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, yeah, thanks for making time. I wanted to walk through the updated quote for 42 seats and make sure it lines up with your July 15 go-live target."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that’s the right number. We have 38 confirmed users today, and finance asked us to leave room for four more in Q3."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Makes sense. So the annual subscription comes to $31,080 before tax, and implementation is a one-time $4,500. That includes the admin training and the data import from the current spreadsheet process."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. On the implementation, is that invoiced up front or with the first subscription invoice?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It would be on the first invoice with the subscription. Billing terms are net 30, and the start date would be July 1 unless you want it pushed to the go-live date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Let’s keep July 1. We want access before go-live for testing. Can you note that the first invoice needs to reference purchase order 44719?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, I’ll add that in the billing tool and on the order form. Also, the contract term is 12 months, July 1, 2026 through June 30, 2027, with renewal at the same seat count unless you change it 30 days before renewal."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s fine. Legal had one comment on the service level attachment, just the response time language. I’ll send that redline after this call."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll route it through deal desk once I have the redline. If it’s just that section, we should be able to turn it around by Friday."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If we can get the final order form by June 20, I can get signature before our controller is out the last week of the month."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. I’ll send the revised quote today, include PO 44719, and target final paperwork by June 20. Anything else you need from me?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that covers it. Thanks, Mark."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-025",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana,\n\nRecap from this morning: 46 seats, annual term, standard support, target go-live June 17. I attached the implementation outline and the security packet.\n\nIf you can send billing contact and PO requirements, I’ll get the order form moving.\n\nMatt"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks Matt.\n\nBilling contact is Priya Shah, ap@northlakebuild.com. PO is required over $25k. Can you make sure the invoice shows the department code 4107 and the service dates? Finance kicked one back last month for missing dates.\n\nDana"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, can do. Invoice will show 6/17/2026 through 6/16/2027 and dept code 4107. I’ll put Priya as billing contact in the CRM and copy you on the order form.\n\nFor rollout, we’d do admin setup the week of 6/3, data import by 6/10, and user training on 6/14."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That timeline works.\n\nOne thing: we need the data import capped at 8 hours. Our ops team can clean up the duplicate accounts before handoff, so we should not need more than that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Agreed. I updated the scope to 8 implementation hours for import and 2 live training sessions. Anything beyond that would need written approval from you before we schedule it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Ok.\n\nPer your note Friday, we’ll put $39,840 on the PO. I know the order form I have still shows $42,600, so send the refreshed one when the paperwork catches up."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I’ll send the final order form today with the service dates, 46 seats, and the 8-hour import cap. Legal’s redlines on limitation of liability were accepted, so no blocker there."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Please include our full legal name: Northlake Building Supply LLC. Address is 1180 Cooper Ave, Suite 300, Columbus, OH 43215."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. I’ll use Northlake Building Supply LLC and that Columbus address.\n\nOnce signed, our onboarding coordinator will reach out within one business day to schedule the kickoff."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. If you get it over before 3 central, I can route it with today’s PO batch.\n\nDana"
+    }
+  ]
+}

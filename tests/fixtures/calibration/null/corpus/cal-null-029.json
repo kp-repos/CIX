@@ -1,0 +1,63 @@
+{
+  "id": "cal-null-029",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, yeah, thanks for making time. I wanted to confirm the rollout plan for the analytics seats and make sure the quote matches what your team actually needs for May."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re planning on 38 seats to start, mostly customer success managers and the two ops leads. If adoption looks good, we may add another 12 in Q3."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 38 seats for the first order. The pricing sheet has that at $82 per user per month on an annual term, so the annual total is $37,392 before tax. Does that line up with the budget you mentioned?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, our approved number is $40,000 for the year, so that works. I just need the invoice split by department, 30 seats to Customer Success and 8 to Operations."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can set the invoice with those two cost centers. For timing, if we get signature by April 19, kickoff would be April 24 and go-live would be May 13. Is that still the date you’re targeting?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "May 13 is right. We have our regional managers in town that week, so training on the 14th or 15th would be ideal."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay, I’ll put May 14 at 10 a.m. Central for admin training and May 15 at 1 p.m. for the manager session. Both are included in onboarding, no extra charge."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Contract term is just 12 months, right? Our legal team won’t approve auto-renewal longer than that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, 12 months, May 13, 2026 through May 12, 2027, with annual renewal after that unless either side gives 30 days’ notice. Payment terms are net 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s fine. Send the order form to me and copy Malik in procurement. If everything matches what we discussed, I can sign this week."
+    }
+  ]
+}

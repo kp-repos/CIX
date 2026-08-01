@@ -1,0 +1,63 @@
+{
+  "id": "cal-null-021",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya, Rep",
+      "ts": null,
+      "text": "Yeah, so thanks for making time, Jordan. I wanted to get ahead of the October 1 renewal and also talk through the 18 additional seats your support team asked about."
+    },
+    {
+      "speaker": "Jordan, Customer",
+      "ts": null,
+      "text": "Yep, that’s right. We’re at 42 seats today, and we’d move to 60 if the new hires start on schedule. Finance asked me to confirm the invoice timing and whether we can keep the same annual payment setup."
+    },
+    {
+      "speaker": "Maya, Rep",
+      "ts": null,
+      "text": "You can. Same annual billing, net 30. For 60 seats on a 12-month term from October 1, 2026 through September 30, 2027, the total comes to $48,600 before tax. That includes the support tier you already have."
+    },
+    {
+      "speaker": "Jordan, Customer",
+      "ts": null,
+      "text": "Okay. We budgeted $50,000, so that works. Is there any implementation fee for adding those users, or is it just the seat change?"
+    },
+    {
+      "speaker": "Maya, Rep",
+      "ts": null,
+      "text": "Just the seat change. No services fee unless you want admin training. If you do, a two-hour remote session is $900, but it’s optional."
+    },
+    {
+      "speaker": "Jordan, Customer",
+      "ts": null,
+      "text": "Let’s skip the training for now. We do need the seats live by September 23 because orientation starts that morning."
+    },
+    {
+      "speaker": "Maya, Rep",
+      "ts": null,
+      "text": "Got it. I’ll put the requested seat activation date as September 23, and the renewal term still begins October 1. You’ll get one order form showing 60 seats, annual billing, and the same terms as the current agreement."
+    },
+    {
+      "speaker": "Jordan, Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and copy Priya in finance. She’s the one who needs the invoice details."
+    },
+    {
+      "speaker": "Maya, Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it today, and once it’s signed, billing will issue the invoice for October 1 with net 30 terms. Anything else you need listed, like the purchase order number?"
+    },
+    {
+      "speaker": "Jordan, Customer",
+      "ts": null,
+      "text": "Yes, put PO-44718 on it. Other than that, we’re good."
+    }
+  ]
+}

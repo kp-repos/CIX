@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-041",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya Chen, Rep",
+      "ts": null,
+      "text": "Hi Dan,\n\nAttached is the quote for 28 seats of the analytics workspace, annual term starting July 1. Software is $27,216 for the year, onboarding is $2,400 one-time, and support is included.\n\nIf you want the June 17 kickoff, I’d need signature by June 7 so services can hold the slot.\n\nMaya"
+    },
+    {
+      "speaker": "Dan Miller, Customer",
+      "ts": null,
+      "text": "Thanks Maya.\n\nA few items:\n- We may only need 26 seats at go-live, with 2 more in September.\n- Finance wants invoices net 45 if possible.\n- Can onboarding be split across the first two invoices?\n\nThe July 1 start date is still fine.\n\nDan"
+    },
+    {
+      "speaker": "Maya Chen, Rep",
+      "ts": null,
+      "text": "Dan,\n\n26 seats now and 2 later is fine. The contract can show 28 total with 26 active on day one, or we can start with 26 and add the rest by order form in September.\n\nNet 45 is okay. For onboarding, billing tool can split it 50/50 across the July and August invoices.\n\nMaya"
+    },
+    {
+      "speaker": "Dan Miller, Customer",
+      "ts": null,
+      "text": "Let’s keep 28 in the contract so procurement doesn’t have to reopen it.\n\nBudget is the sticking point. I have $25k all-in approved for year one, including onboarding. If we’re above that, I need to take it back to the VP and that pushes us past the kickoff date.\n\nDan"
+    },
+    {
+      "speaker": "Maya Chen, Rep",
+      "ts": null,
+      "text": "Yep, understood. Use the $24,480 figure from my text for the PO and I’ll get the quote packet cleaned up when the pricing sheet is updated.\n\nEverything else stays the same: 28 seats, July 1 start, net 45, onboarding split across July/August.\n\nMaya"
+    },
+    {
+      "speaker": "Dan Miller, Customer",
+      "ts": null,
+      "text": "That works.\n\nPlease send the order form with:\n- 28 seats\n- July 1, 2026 to June 30, 2027\n- $24,480 year-one total\n- Net 45\n- Onboarding split evenly over first two invoices\n\nI’ll route it today.\n\nDan"
+    },
+    {
+      "speaker": "Maya Chen, Rep",
+      "ts": null,
+      "text": "Attached.\n\nI also included the security addendum and the support terms procurement asked for last week. No changes to the data processing language from the last draft.\n\nMaya"
+    },
+    {
+      "speaker": "Dan Miller, Customer",
+      "ts": null,
+      "text": "Received. Procurement asked one question: can the renewal cap be 5% instead of 7%?\n\nIf yes, I think we can get signatures by Friday.\n\nDan"
+    },
+    {
+      "speaker": "Maya Chen, Rep",
+      "ts": null,
+      "text": "Yes, 5% renewal cap is fine. I updated section 4.2 and reattached the order form.\n\nMaya"
+    },
+    {
+      "speaker": "Dan Miller, Customer",
+      "ts": null,
+      "text": "Signed copy attached.\n\nPlease have billing send the first invoice to ap@northlakeexample.com and copy me. We’ll send user names for the first 26 seats by June 12.\n\nDan"
+    }
+  ]
+}

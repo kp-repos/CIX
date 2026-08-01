@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-035",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so I pulled up the order form. It's 24 platform seats, one analytics add-on, and the implementation package at $6,800 one-time. Annual comes to $41,760 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I have. Net 30, billed on signature, then renewal next year on March 1?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. The term runs March 1, 2026 through February 28, 2027. If legal gets it back by Friday, we can keep the discount as shown."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Quick thing though, the kickoff invite I got this morning says March 4 and 18 seats. We were aiming at March 11 and 24 seats, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Ah, yeah, you're right. Sorry about that. I'll get that cleaned up today so the calendar and workspace match the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No problem. I just don't want my ops lead planning around the wrong week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally. For go-live on March 25, we'd want the admin names by March 8, and your file export by March 12. Does that still work?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes. I'll send the four admin contacts after this call. Procurement may ask for the insurance cert again, same as last time."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I'll attach that with the countersigned order form. Anything else blocking signature on your side?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, assuming the invoice shows the PO number, 77419, we're fine. Send it over and I'll route it."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "cal-hold-029",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Megan Carter, Rep",
+      "ts": null,
+      "text": "Hi Dan,\n\nThanks for the call. Attached is the order form for 42 seats of the workflow module, annual term, start date March 1. Total is $54,600 with standard support included.\n\nIf you can get this back by Friday, implementation can hold the March 10 kickoff.\n\nMegan"
+    },
+    {
+      "speaker": "Dan Lewis, Customer",
+      "ts": null,
+      "text": "Megan,\n\nI’m reviewing with finance now. Two questions:\n\n1. Can billing split the invoice 50/50 between March and July?\n2. We may only need 38 seats on day one. Is the 42 locked in?\n\nDan"
+    },
+    {
+      "speaker": "Megan Carter, Rep",
+      "ts": null,
+      "text": "Dan,\n\nYes on split billing. I confirmed the billing tool can do two invoices: $27,300 due March 15 and $27,300 due July 15.\n\nOn seats, 42 is what we scoped based on the manager group plus ops users. You can remove seats at renewal, but not mid-term.\n\nMegan"
+    },
+    {
+      "speaker": "Dan Lewis, Customer",
+      "ts": null,
+      "text": "Got it. Finance is pushing back on the $54.6k. Their internal cap for this quarter is $49k all-in. If we can’t get closer to that, I probably have to move this to April.\n\nDan"
+    },
+    {
+      "speaker": "Megan Carter, Rep",
+      "ts": null,
+      "text": "Dan,\n\nYeah, so on the price, let’s use the $48,900 number we settled on over text this morning. I know that has not gone through deal desk yet and it is technically below the discount level on the pricing sheet, but I’m okay sending you the lower order form now so you can get signatures started. I’ll sort the paperwork with my manager and deal desk after the fact and true it up in the CRM once approvals catch up.\n\nUpdated order form attached: 42 seats, annual term, March 1 start, $48,900 total, split invoices of $24,450 due March 15 and July 15.\n\nMegan"
+    },
+    {
+      "speaker": "Dan Lewis, Customer",
+      "ts": null,
+      "text": "Megan,\n\nReceived. The $48,900 works. I’ll route this to our CFO today.\n\nCan you also add the implementation dates in writing? We need kickoff March 10 and admin training March 18 or 19.\n\nDan"
+    },
+    {
+      "speaker": "Megan Carter, Rep",
+      "ts": null,
+      "text": "Dan,\n\nConfirmed:\n\n- Kickoff: March 10, 11:00 a.m. CT\n- Admin training: March 18, 1:00 p.m. CT\n- Target go-live: April 7\n\nI added those dates to the implementation notes. No change to the order form terms.\n\nMegan"
+    },
+    {
+      "speaker": "Dan Lewis, Customer",
+      "ts": null,
+      "text": "Thanks. Signed order form attached.\n\nPlease send the W-9 and payment instructions to ap@northlinecomponents.com. PO number is NC-44718.\n\nDan"
+    },
+    {
+      "speaker": "Megan Carter, Rep",
+      "ts": null,
+      "text": "Thanks Dan,\n\nCountersigned copy attached. I’ll have the invoice generated with PO NC-44718 and sent to AP by tomorrow morning.\n\nMegan"
+    }
+  ]
+}

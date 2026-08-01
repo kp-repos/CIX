@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-051",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Karen. I wanted to quickly confirm the seat count and timing for the support analytics rollout, then I can send the order form over today."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We landed on 42 seats for the first team, all in customer support. If the pilot goes well, operations may add another 12 in Q2, but don't include those yet."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 42 seats only for the initial order. And you were aiming for a February 12 go-live, right? That gives us about three weeks for setup and the admin training."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. February 12 is still the target. Our only concern is invoice timing. Finance asked if the invoice can be dated February 1 instead of on signature."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that should be fine. I'll note February 1 as the invoice date in the billing tool. Payment terms are net 30, so that would put due date at March 2."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the pricing was $38 per seat per month on an annual term, correct?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. So 42 seats at $38 per seat per month, annual agreement, total is $19,152 before tax. Implementation is the one-time $2,500 fee, discounted from $3,500 per the pricing sheet."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Contract term is February 1, 2026 through January 31, 2027?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. I'll set the service start as February 1 and the go-live project date as February 12. Renewal will be annual unless either side gives 30 days' notice before the end of term."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches what legal approved. Send it to me and copy Matt in procurement. If it's clean, we can sign by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll route it through deal desk now, and assuming no hiccups, you'll have the order form in about an hour."
+    }
+  ]
+}

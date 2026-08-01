@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-002",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout details and make sure the quote matches what your team needs for the April go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re still targeting April 15. Seat count is 68 to start, with maybe another 12 in June if the support team comes in."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. So I’ll keep the order form at 68 named users, annual term, and we can add the 12 later at the same unit price through a simple add-on."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. On pricing, the last quote showed $41,820 for the year before tax. Is that still correct?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that’s the number in the pricing sheet. It includes the platform, standard onboarding, and the admin training session. The only separate line is the optional data import at $2,400, which you said you likely wanted."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Right, we do want the import. Finance asked if the invoice can be split 50 percent on signature and 50 percent on July 1."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, that’s reasonable. I’ll send that through deal desk today. It should be fine, but I’ll confirm before I send the final order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And contract term is 12 months, not auto-renewing for three years or anything?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, 12 months. It auto-renews annually unless either side gives 30 days’ notice. I’ll make sure that’s clear in the terms section."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If you can get the revised order form over by tomorrow morning, I can route it for signature before our Friday cutoff."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I’ll get it to you by 10 a.m. Eastern tomorrow. I’ll include the implementation timeline too, with kickoff on March 25 and admin training the week of April 8."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and copy Matt from procurement. He’s the one who needs it in the billing tool."
+    }
+  ]
+}

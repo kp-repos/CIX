@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-050",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hey, quick one on Northlake Components. I was updating the CRM because they added 12 seats in May, and the renewal field looks wrong to me."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Wrong how? I thought that was a July renewal, 64 seats, support package plus the data connector."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so that's the problem. Their agreement ended June 30. Today is July 8, and nobody from our side has talked to them about carrying on. No renewal call, no email thread, nothing in notes. They are past the end date and still using the workspace."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Oh, that's not great. Did finance already invoice July, or is it just sitting in the billing tool?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Billing tool shows the July 1 draft invoice for $4,960, but it's not sent. Deal desk has no order form started either, and customer success has the last touch as June 11 for that training recap."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. Let's not send an invoice cold. Can you call Jenna there and frame it as cleaning up the term and seat count?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. I'll ask if 76 seats is still accurate, because they requested 12 more but only provisioned 9. Also need to confirm if they still want monthly invoicing or annual upfront."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Use the standard pricing sheet. If they stay annual, it should be $59,520 for the year before any connector fee. If they push on timing, we can do an order form effective July 1."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. I'll put a task in the CRM for today, call first, then send the order form after we confirm term and billing contact."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Thanks. Loop me in if they mention procurement, because their last redline capped auto-renewal at one year and legal may want the same language."
+    }
+  ]
+}

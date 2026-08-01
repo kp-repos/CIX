@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-011",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I pulled up the quote we discussed for 42 seats, plus the calibration workflow add-on for the two labs. I wanted to walk through the final pricing and the May 20 go-live target."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that works. I’ve got about 20 minutes. The main thing is we need the invoice to split between the Ohio and Nevada cost centers, and I need to make sure the term lines up with our fiscal year."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. So the term on the order form is June 1, 2026 through May 31, 2027. Total annual is $38,640 before tax. I can have billing split it 60 percent Ohio and 40 percent Nevada, so $23,184 and $15,456."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And that includes the implementation hours we talked about, right? The import of the equipment list and the two admin training sessions?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. There’s a one-time services line for $4,800. That covers up to 40 hours, including the asset import, certificate template setup, and two 90-minute admin trainings. If you need operator training later, that would be separate."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s fine. We can handle operator training internally. On the seats, I had 39 confirmed users, but procurement asked if we can hold at 42 so we have a little buffer."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, 42 is what’s in the CRM and on the pricing sheet. If you add more mid-term, it’s prorated through May 31. No minimum block, just per seat."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Contract terms, I saw net 30 on the order form. We usually pay net 45. Is that something you can adjust?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I can take that to deal desk. Net 45 is usually fine for annual prepaid, so I don’t expect an issue. I’ll update the order form once they approve it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. If you can get me the revised version by Friday, I can route it for signature next week. We’re trying to have access turned on by June 3 at the latest."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. I’ll send the revised order form with the split billing note and net 45 by end of day Thursday. Once it’s signed, we can schedule kickoff for the week of May 27 and keep June 3 for access."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send it over and I’ll watch for it."
+    }
+  ]
+}

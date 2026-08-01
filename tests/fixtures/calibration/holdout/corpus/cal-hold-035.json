@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-035",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I pulled up the order form we discussed: 42 seats on the business plan, annual term starting August 15, and the services package for the workflow setup."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That sounds right. I just want to confirm the seat count. We have 38 confirmed users today, but finance asked us to include 4 extra for the operations team starting in September."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that’s exactly how I have it. The pricing sheet has those at $72 per seat per month, billed annually, so the software portion comes to $36,288 for the year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the implementation fee was separate, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. One-time implementation is $4,800. That includes two admin trainings, the data import, and the approval workflow configuration. Total first-year invoice would be $41,088 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. On timing, we need the first admin training the week of August 19. Is that still workable if we sign by Friday?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. If we have signature by August 2, our onboarding team can hold Tuesday, August 20 at 11 a.m. Eastern or Thursday, August 22 at 2 p.m. Eastern."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Tuesday is better. Also, our legal team asked about the auto-renewal language. It says 30 days’ notice before the renewal date. Can that be 60?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, 60 days is fine. I’ll route that through deal desk today and update the order form. No change to pricing or start date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send the revised version to me and copy Marcus in procurement. If it matches what we discussed, we should be able to get it signed this week."
+    }
+  ]
+}

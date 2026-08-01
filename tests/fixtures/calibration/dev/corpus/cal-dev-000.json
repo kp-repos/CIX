@@ -1,0 +1,58 @@
+{
+  "id": "cal-dev-000",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hey, do you have ten minutes to look at the Northstar renewal? They're pushing for signature by Friday."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Yeah, I can. Is this the one adding the support add-on?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That's right. They want 92 seats, support add-on, and a May 1 go-live for the two new teams. I put the new seat count in the CRM and the pricing sheet yesterday; the billing draft and order form are still on 86 until I touch those after lunch."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. What term are they asking for?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Twelve months. June 1 through May 31 next year. Procurement asked for net 45, but finance said we can only do net 30 unless they prepay."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "And price?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "$41,400 annual subscription, plus $3,600 for the add-on. No services fee. I held them to the standard 4% uplift on renewal."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Looks reasonable. If you send me the draft by 2:30, I'll check the totals and the invoice language."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I'll clean up the payment terms and send it over. Thanks."
+    }
+  ]
+}

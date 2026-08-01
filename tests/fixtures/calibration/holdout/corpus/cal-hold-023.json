@@ -1,0 +1,53 @@
+{
+  "id": "cal-hold-023",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Jordan,\n\nWe’re looking to renew for the operations team before the current term ends on 9/30. Current usage is 42 seats, but two are inactive, so please price 40 and 42 if it’s easy.\n\nWe also need the invoice to show cost center 6142 and the service period 10/1/2026-9/30/2027.\n\nThanks,\nMegan"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Megan,\n\nYep, I pulled the account. For a 12-month renewal:\n\n40 seats: $22,080 annual\n42 seats: $23,184 annual\n\nSame terms as last year, net 45, annual upfront. No implementation fees since you’re already live. I can send the order form once you confirm seat count.\n\nJordan"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. We need to keep this under $20,500 if possible. Usage is steady but our department budget got trimmed in the July reforecast.\n\nCould we do 38 seats and add back midyear if needed?\n\nMegan"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Megan,\n\n38 seats comes out to $20,976 for the year on the standard renewal rate. You can add seats midterm at the same per-seat rate, prorated to the end date.\n\nI attached the draft order form at 38 seats. If that works, I’ll push it through for countersignature.\n\nJordan"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Jordan,\n\nI’m close, but the controller is holding me to $20,000 even. If we can land there, I can get the PO cut today and avoid pushing this into next week.\n\nMegan"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Megan,\n\nSaw your note. Go ahead with the 38-seat PO at $19,950 for year one and I’ll get the quote record cleaned up before billing picks it up in the morning.\n\nPlease include the 10/1 start date and cost center 6142.\n\nJordan"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Attached is PO-44718 for $19,950.\n\nPlease have the invoice sent to ap@northlakeindustrial.example and copy me. Net 45 is fine.\n\nMegan"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Received, thanks.\n\nI’ll get the order form updated and sent for signature today. Once signed, support will leave the workspace as-is with 38 active seats for 10/1. Billing will send the invoice with the PO and cost center included.\n\nJordan"
+    }
+  ]
+}

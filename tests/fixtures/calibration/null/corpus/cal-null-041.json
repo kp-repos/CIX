@@ -1,0 +1,63 @@
+{
+  "id": "cal-null-041",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so thanks for making time, Dana. I’ve got Northstar at 38 current seats, term through September 30, and you were looking at adding the service desk team before October, right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Correct. We need 12 more seats, so 50 total. The only wrinkle is finance wants the invoice dated October 1, not September, because it hits the new quarter."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That’s fine. For 50 seats on the Business plan, annual billing, it comes to $54,000 for the year. Same support level you have now, and the added seats would be active on October 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Does that include the two admin seats for IT, or are those separate?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Included. The 50 is named users, and the admin permissions don’t change the count. If you want the sandbox environment, that’s the separate $3,600 line item, but you don’t have it today."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We can skip sandbox for now. Legal already approved the standard terms last year. Are there any changes in the renewal language?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No material changes. It’s a 12-month renewal, October 1 through September 30 next year, net 30 payment terms, and the same data processing addendum from your current agreement."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Send the order form to me and copy Marcus in procurement. He’ll issue the PO once I approve it."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it this afternoon with the 50 seats, October 1 start, annual invoice, net 30. Once it’s signed, onboarding will schedule the 30-minute admin review for the new managers."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. If we get the order form today, I can sign by Friday. Go-live for the service desk group is October 7, so that timing works."
+    }
+  ]
+}

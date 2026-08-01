@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-004",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the revised order form for 42 seats, the calibration module, and the two-hour admin training. Target start date is May 6, with go-live June 3."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That lines up. My main thing is invoice timing. Finance asked if the annual invoice can be dated May 1, net 30, so it lands in the right month."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, May 1 and net 30 are both in the order form. Total is $38,640 for the year after the standard 6% volume tier on 40-plus seats. No separate services fee for the training."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And if we add, say, 8 more seats in July, is that prorated or a new line item?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Prorated through the same term, ending April 30 next year. It would be the same per-seat rate, billed when you add them. Pretty straightforward."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Legal had one question on the auto-renewal language. We need 60 days notice instead of 30. Is that something you can put in?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, 60 days is within our standard terms. I’ll send the updated version after this call, and it’ll show the notice period right on page 3."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. For implementation, our plant managers can only attend training Wednesdays after 1 Eastern. Does your team have June 5 open?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "They do. I’ve got June 5 at 2 Eastern held for the admin session, and the kickoff on May 8 at 11. I’ll include your ops lead, Marcus, and our implementation lead on the calendar invites."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send me the updated order form and I’ll route it for signature today. Assuming no surprises, you should have it back by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I’ll send it in the next half hour with the May 1 invoice date, 60-day renewal notice, 42 seats, and June 3 go-live called out."
+    }
+  ]
+}

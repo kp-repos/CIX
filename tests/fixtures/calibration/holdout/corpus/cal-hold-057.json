@@ -1,0 +1,58 @@
+{
+  "id": "cal-hold-057",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, quick forecast check. For Riverbend, I moved the 42-seat add-on to commit at $18,480 annual, start date September 1. Procurement sent back the insurance language but no price issue."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. Did deal desk approve the ramp, or is it still the flat seat count on the pricing sheet?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Approved this morning. First invoice is 14 seats for September, then 28 more on November 1. Billing tool can handle it, I just need the signed order form by Friday."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Good. Can you sanity-check Pine Hill while you're in there? Billing tool shows service through 7/31, and the CRM's last customer touch is the May QBR. I wasn't sure whether to leave their August seats in the run rate."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Uh, yeah, I'll look after this call. I was heads down on the municipal renewal and missed that queue."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "No worries. Municipal is the $32,600 one with the two-year term, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. Starts October 15, 63 users, same support tier. They asked for net 45, finance said okay if they pay the open $4,210 invoice first."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Makes sense. Anything else weird in your number?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Not weird. Baxter is sliding from August 20 to September 3 for go-live because their admin is out, but contract is signed and the seats are already provisioned."
+    }
+  ]
+}

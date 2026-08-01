@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-000",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so I pulled up the quote for 38 seats, with 24 standard users and 14 technician users. Annual comes to $46,800 before tax, and that includes the calibration workflow module and the asset import."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I had. On the asset import, we’re starting with about 6,200 gauges and meters. Is that still covered, or does that push us into services?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It’s covered as long as the data is in the template by May 10. If the team wants us to clean up duplicates or normalize locations, that would be services, but a straight import is included."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. Our operations lead said they can get the template done by May 8. We’re trying to go live June 3, because the next audit cycle starts that week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "June 3 is workable. We’d schedule kickoff the week of May 13, do admin training May 21, technician training May 28, and then keep the first week of June open for support."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That sounds reasonable. One thing on billing: finance asked if the invoice can be split 50 percent at signature and 50 percent on July 1."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, I checked with deal desk. We can do 50 percent due on signature and 50 percent due July 1, net 30 on both. I’ll add that to the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. And the term is 12 months, right? We’re not ready for a three-year right now."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, 12-month initial term, auto-renewal for one-year periods unless either side gives 30 days’ notice. No price increase in the first renewal over 5 percent."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Send the updated order form and I’ll route it today. If legal doesn’t have comments, we should be able to sign by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send it in the next hour with the implementation dates listed in the notes, and I’ll include the security packet again so they don’t have to dig for it."
+    }
+  ]
+}

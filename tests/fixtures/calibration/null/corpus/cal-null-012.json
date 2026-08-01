@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-012",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the updated quote for the calibration tracking rollout and make sure the dates still line up for your lab team."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re still looking at 42 users total, right? Thirty techs, eight supervisors, and four read-only folks in quality."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. The quote has 38 full seats at $62 per user per month and 4 read-only seats included. Annual subscription comes to $28,272, and the implementation package is $6,500 one-time."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And that implementation includes importing our current instrument list? It’s about 3,800 assets, mostly gauges and torque tools."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. Import of up to 4,000 assets is included, plus two admin training sessions and one technician training session. If the file is ready by February 9, we can start configuration February 12."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Our go-live target is March 18, before the audit prep starts. Is that realistic?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so with the February 12 start, March 18 is fine. We’d do data validation the week of March 4 and user training March 12 and 13."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. On invoicing, can you split it? Subscription on one invoice and implementation on another? Accounting asked for separate cost centers."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. The order form notes two invoices: subscription billed annually to cost center 4100, services billed on kickoff to cost center 4520. Net 30 terms on both."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Legal also asked whether the initial term can run through March 31, 2027 instead of exactly 36 months from signature."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "We can do that. The term would start March 18, 2024 for access, and the commercial term runs through March 31, 2027. The price is prorated for those extra 13 days; it adds $1,022."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s fine. Send me the final order form today, and I’ll route it for signature. If procurement doesn’t have questions, we should have it back by Friday."
+    }
+  ]
+}

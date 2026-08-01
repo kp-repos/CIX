@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-013",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I pulled up the renewal in the CRM. You’re at 42 seats today, contract ends March 31, and the current annual is $38,640. I wanted to confirm the seat count before I send the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That sounds right, mostly. We have 42 active, but finance asked me to add 6 more for the operations team, so 48 total starting April 1."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay, 48 seats. At the current tier, that puts the annual at $44,160 before any discount. Since this is a renewal with expansion, I can apply the 8% renewal discount from the pricing sheet, which brings it to $40,627.20."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. Can you do net 45 on the invoice? Our standard process is net 45 unless legal pushes back."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, net 45 is fine for your account. I’ll note that for billing. Same billing contact as last year, ap at northlineparts dot com?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, same inbox. Please also copy me on the first invoice because last year it got routed weirdly and I had to chase it."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. For the term, are you staying with 12 months, April 1, 2026 through March 31, 2027?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes. And we need the 6 new users live by April 8. Is that realistic if we sign by next Friday?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, if we have signature by March 14, implementation can add the seats the same day and your admin can assign them. No professional services needed unless you want help with permissions."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, we can handle permissions. Send the order form and the updated quote, and I’ll route it today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Great. I’ll send it over in the next hour with 48 seats, 12-month term, net 45, billing copy to you, and the 8% renewal discount. If anything changes in legal, just reply on the thread."
+    }
+  ]
+}

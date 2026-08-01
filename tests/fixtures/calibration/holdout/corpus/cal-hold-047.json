@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-047",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so quick check on the Ridgeway account. They’re still at 68 seats, annual, $54,400 net, and they want the April 15 go-live held if we can get paper done this week."
+    },
+    {
+      "speaker": "Ben",
+      "ts": null,
+      "text": "I saw the note in the CRM. Is the only open item still the data retention language?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yes. Their legal redlined section 8.3 to say 30 days after termination, and we already agreed commercially. But our security team has not signed off on the wording, so the deal is just sitting. I pinged the security alias Monday, I messaged Dana yesterday morning, I sent the thread again to legal ops this morning, and I put a comment in the contract request. Like, I’m nudging three different groups and Ridgeway won’t countersign until we answer that one sentence."
+    },
+    {
+      "speaker": "Ben",
+      "ts": null,
+      "text": "Got it. That’s annoying. Is there any actual risk or is it just matching what we do operationally?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "From what I can tell, it matches the standard deletion process. The customer just wants it written in the order form, not buried in the policy link."
+    },
+    {
+      "speaker": "Ben",
+      "ts": null,
+      "text": "Okay. I can ask deal desk to keep the quote open through Friday. It expires April 5 in the billing tool, but that’s easy if pricing isn’t changing."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Thanks. The buyer, Jenna, also asked if invoice can list the 42 customer service seats separate from the 26 manager seats. Same total, just cleaner for their cost centers."
+    },
+    {
+      "speaker": "Ben",
+      "ts": null,
+      "text": "That’s fine. Put it in billing instructions, not the order form. Finance can split the memo line."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Perfect. I’ll tell Jenna we’re holding the commercial terms and waiting on the final clause review. I don’t want to promise signature today."
+    },
+    {
+      "speaker": "Ben",
+      "ts": null,
+      "text": "Yeah, say we’re targeting end of day tomorrow. If security clears it, send me the final PDF and I’ll double-check the seat table before it goes out."
+    }
+  ]
+}

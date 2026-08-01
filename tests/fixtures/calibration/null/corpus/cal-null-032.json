@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-032",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so thanks for making time, Dana. I’ve got the renewal and expansion numbers in front of me: 42 full users, 18 read-only users, calibration module included, term from March 1, 2026 through February 28, 2027."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches what we talked about. The only change is we’re adding the Mesa facility, so I need the three quality managers there to have full access on day one."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. Those three are included in the 42 full users. Total annual subscription is $38,400, billed in one invoice on March 1 with net 30 terms. Services for the Mesa setup are $4,200 one-time."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the go-live date is still April 15? We have an audit the first week of May, so I don’t want to cut that close."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, April 15 is still the target. The implementation kickoff would be March 6, data import due from your team by March 18, and user training on April 8 and April 10."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. For invoicing, can you put PO-77419 on the invoice and send it to ap@northlakecomponents.com?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, PO-77419 and that AP inbox will be on the order form and invoice. The billing contact stays Marcus Lee, right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Correct. One contract question: we need the same 30-day termination for convenience language as last year."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, same language is in this version. No auto-renewal, and we’ll send renewal notice at least 60 days before the end date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send the order form today and I’ll route it for signature. If legal doesn’t redline anything, we should have it back by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I’ll send it over this afternoon with the pricing summary and implementation dates in the same packet."
+    }
+  ]
+}

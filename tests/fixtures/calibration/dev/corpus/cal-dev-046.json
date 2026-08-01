@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-046",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Mark, yeah, we have about 18 minutes. I wanted to confirm the 72 seats, the onboarding date, and whether the invoice can split across two cost centers."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, appreciate it. And sorry I was slow getting the revised numbers over. Honestly my day yesterday got eaten by clerical stuff: typing call records into the CRM, fixing account and contact fields in the database, and assembling the deal desk packet for approvals. It was like four and a half hours of internal cleanup, which is time I should've been spending on calls like this with buyers. So, not ideal, but I do have the pricing sheet up now."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. We just need clean numbers. The budget owner approved up to $41,000 for year one if implementation is included."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. For 72 seats, annual subscription is $34,560. Implementation is $5,800 if we target a June 24 go-live. So total year one is $40,360 before tax, and renewal would drop to the subscription amount unless you add seats."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. On the invoice, can you put 50 seats under Operations and 22 under Support? Same contract, just two invoice lines."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can do two invoice lines under one agreement. Payment terms are net 30. Start date would be June 1, with go-live support through June 24."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Can you send that today? Our finance team meets at 3:30 Eastern, and if they don't see it, it slips a week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, I'll send it before 2:00 Eastern. I'm just going to be direct: this is the second day where the admin load is crowding out actual selling time. I still have to re-key the seat split into the CRM, tidy the billing fields so the invoice doesn't bounce, and attach the internal approval notes before the order form can go out. That's the kind of clerical work that ends up taking the afternoon, and it means fewer live conversations with customers. But your file is next, and I'll get it done."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Understood. Please make sure the term says 12 months, no auto-renewal unless we approve in writing. Legal was firm on that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, 12-month initial term, no auto-renewal without written approval, net 30, two invoice lines, 72 total seats. I'll send the order form and the implementation summary in one email before 2:00."
+    }
+  ]
+}

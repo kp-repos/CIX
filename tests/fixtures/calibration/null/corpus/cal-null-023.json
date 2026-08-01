@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-023",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so picking up from last week, you were looking at 42 seats for the revenue team and 8 viewer seats for operations, with a July 15 go-live. Is that still the right count?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We may add three more AEs in August, but I don't want to buy those yet. I just need the initial 50 covered."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Makes sense. The quote I have is for 50 total seats, annual term starting July 1, $36,400 for software, and $4,200 for onboarding. Payment terms are net 30, invoiced once at signature."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Can the invoice show the software and onboarding as separate line items? Our finance team codes services differently."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that's standard. It'll show two lines, same purchase order number if you have one. Do you already know the PO, or should we leave it blank for now?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Leave it blank. I'll have it by Friday, but legal can review without it."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. On contract terms, you're asking for a one-year initial term, auto-renew off, and 60 days' notice for any renewal discussion. I have that reflected."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. And just to confirm, onboarding includes the admin training and the two data source connections we talked about, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. One 90-minute admin session, one end-user session, and connections for the billing tool and the CRM. If you add the support queue later, that would be a separate small services item."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's fine. Send the order form today if you can. If legal has only minor comments, I think we can sign by June 24."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I'll send it over in about an hour with the quote, order form, and security summary attached. Then we can hold July 8 for kickoff and July 15 for go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Works for me. Copy Dana on the email, she's the signer. Thanks."
+    }
+  ]
+}

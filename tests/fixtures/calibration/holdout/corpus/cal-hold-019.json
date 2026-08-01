@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-019",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout plan for the 38 seats and make sure procurement has what they need before the May 15 go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep. We’re still at 38 seats for launch. There may be another 6 from the support team in Q3, but I don’t want those on the initial order."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally. I have the quote set up as 38 annual seats at $72 per user per month, billed annually, so $32,832 before tax. The additional seats would just prorate if you add them later."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. On billing, can the invoice reference PO 45127 and split the line items between software and implementation? Finance asked for that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that’s fine. I’ll note the PO in the billing tool and have implementation as a separate $4,500 line item. Same invoice, just two lines."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. And contract term is June 1 through May 31 next year, correct? Even if we go live May 15?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. We’ll use May 15 for onboarding access, but the subscription term starts June 1. That gives your team the two-week setup window at no charge."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Works for me. Legal had one small comment on the data retention language, but they said your last redline was acceptable if you add the 30-day export period."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I saw that note. Deal desk approved the 30-day export language this morning, so I’ll send the updated order form and agreement by 2 p.m. Eastern."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. If I have that today, I can route for signature tomorrow and target invoice processing by Friday."
+    }
+  ]
+}

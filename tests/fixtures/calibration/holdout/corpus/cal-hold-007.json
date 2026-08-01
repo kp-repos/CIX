@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-007",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hey Dana, thanks for taking the call. Sorry I didn’t get you yesterday afternoon, the renewal quote was stuck until I fixed the duplicate billing account in the CRM. I’ve got the 48-seat version in front of me now."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No problem. Yeah, we’re trying to lock this by August 16 so finance can put it on the September invoice run."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Makes sense. For 48 seats on the team plan, annual comes to $38,400, and implementation is $4,200 one-time. If you add the five contractors later, those would just prorate at the same seat rate."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. We may actually start with 42 employees and hold the contractors until October. Does that change the go-live date?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Not really. If we have the order form back by next Friday, go-live can still be September 9. Training would be two admin sessions and one end-user session that week."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Can you do a security review call Tuesday morning? Our IT lead has a window at 10."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Tuesday at 10 is tough, I’ve got a batch of deal desk packets due after month-end cleanup. I can do Tuesday at 2 or Wednesday at 10, and I’ll bring our solutions lead."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Wednesday at 10 works. On terms, legal asked for net 45 instead of net 30. Is that going to be a problem?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "For a one-year term, net 45 usually needs approval, but it’s not unusual. I’ll add that to the redline summary and keep the discount at 12%."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Also, the invoice needs to show the Denver office address, not corporate in Chicago."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I’ll make sure that’s on the order form. If the PDF lands a little late today, it’s just because the billing tool wants the ship-to and bill-to fields to match before it’ll generate cleanly."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Understood. Send it over when you can, and I’ll route it to finance and legal."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "cal-dev-012",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Karen. I wanted to walk through the final order form and make sure the 42 seats, the June 17 go-live, and the annual billing all match what you need."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, 42 seats is right for phase one. We may add another 8 in Q4, but don't put those in the initial invoice."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. Initial invoice will be 42 seats at $68 per seat per month, annual prepay, so $34,272 before tax. The add-on seats can be handled later through the billing tool."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. One thing though, on the implementation call yesterday, your onboarding team seemed surprised about the custom invoice export we agreed to include. They said it wasn't in their handoff notes."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Ah, yeah, I'm sorry about that. We did agree to include the export mapping for your finance team, and that's included in the services line. I'll update the internal handoff today so they have the field list and the July 1 testing date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. It's important because our controller needs the department codes and location IDs in the file before we can shut off the old process."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. I'll add that to the implementation checklist and send you the revised summary after this. Contract term is still 12 months starting June 17, with renewal notice 45 days out."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send the order form to me and copy Luis in procurement. If the invoice matches what you just said, we can get it signed by Friday."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-059",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so for the Tuesday pipeline scrub, can you sanity check my Midwest accounts? I’ve got the seat counts cleaned up but the services lines are a little messy."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Sure. Which ones are you worried about?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Brightlane is straightforward: 84 users today, asking for 12 more editor seats, go-live on September 9. Pricing sheet has them at $68 per editor if we keep the same tier."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Yep, quote the 12 seats annual, no discount approval needed. Just make sure deal desk sees the updated order form before you send it."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Will do. Northstar’s term in the billing tool runs through tomorrow, and the CRM is basically quiet after that June support handoff, so I’m leaving them out of commit."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Okay. What about Harbor Foods?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "They want quarterly invoicing because their AP cutoff is the 20th. Total is $41,760 for the year, 55 seats, with the onboarding package split out at $3,500."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "That’s fine, but put net 30 in the notes. Finance bounced one last week when the payment terms only showed on the PDF."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Got it. Last one is Cobalt Tooling. Procurement asked if we can align the start date to August 15 even though legal already redlined the MSA for August 1."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Use August 15 on the order form, keep the MSA date as-is. If they push back, route it through legal, not deal desk."
+    }
+  ]
+}

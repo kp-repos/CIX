@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-014",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Sarah",
+      "ts": null,
+      "text": "Yeah, so for Meadow Supply, it's 52 seats, annual, $46,800. They want a September 3 go-live and they were fine with the net 30, no issue there."
+    },
+    {
+      "speaker": "Miguel",
+      "ts": null,
+      "text": "Okay. Is procurement still the blocker or did that clear?"
+    },
+    {
+      "speaker": "Sarah",
+      "ts": null,
+      "text": "Procurement cleared. I nudged legal again this morning on the DPA language; Meadow won't release the PO until that sign-off is back, so it's just sitting where it is."
+    },
+    {
+      "speaker": "Miguel",
+      "ts": null,
+      "text": "Got it. Keep the close date at August 22 in the CRM, I think that's still reasonable if legal turns it today."
+    },
+    {
+      "speaker": "Sarah",
+      "ts": null,
+      "text": "Yep. On Larkin Foods, smaller one, 18 seats at $19,200. I pinged billing twice about the split invoice; their controller won't approve the order until billing answers on the two-invoice setup, so that one is parked."
+    },
+    {
+      "speaker": "Miguel",
+      "ts": null,
+      "text": "Makes sense. Did they ask for any discount beyond the pricing sheet?"
+    },
+    {
+      "speaker": "Sarah",
+      "ts": null,
+      "text": "No, they accepted the 8 percent if they sign before month-end. The only thing they changed was adding three viewer seats for the warehouse team."
+    },
+    {
+      "speaker": "Miguel",
+      "ts": null,
+      "text": "Okay. What about the Falcon renewal, the one with the extra sandbox?"
+    },
+    {
+      "speaker": "Sarah",
+      "ts": null,
+      "text": "That one's $63,500, 74 seats. I chased deal desk again for the sandbox addendum sign-off; Falcon won't countersign until we send the approved version, so it hasn't moved."
+    },
+    {
+      "speaker": "Miguel",
+      "ts": null,
+      "text": "Alright. Send me the three account names after this and I'll mention them in the forecast call, but the numbers sound fine."
+    }
+  ]
+}

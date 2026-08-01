@@ -1,0 +1,58 @@
+{
+  "id": "cal-hold-054",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so quick check on Ashford Manufacturing. They want the renewal proposal today if we can, 42 seats, same admin package, and they’re asking for a 24-month term starting July 1."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. Any expansion in there or just flat renewal?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Flat on seats for now. The finance lead said they may add 8 more in Q4, but she doesn’t want that in the order form yet. Current price is $118 per seat per month, and I’m holding the 6% uplift like we discussed."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "That should be fine. Did deal desk already approve the 24-month language?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That’s the part that’s killing me a little. To get one proposal out, I have to update the CRM opportunity, then retype the same 42 seats, July 1 start, June 30 end date, $118 rate, 6% uplift, and billing contact into the pricing sheet. Then I copy it again into the deal desk form, then again into the proposal template, then again into the billing tool draft, and legal has a separate intake for the 24-month term. None of it carries over. I spent almost three hours yesterday just bouncing between tabs checking that the address and invoice email matched, and I still have to do the billing schedule and attach the approval note this morning. It’s, like, the same proposal six times."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Ugh, yeah. For Ashford, use the June renewal template and make sure the net-30 language stays in. Their AP team kicked back net-15 last year."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Right, I saw that. Invoice email is ap@ashfordmfg.com, PO required, and they want the first invoice dated July 1, not on signature."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Good. If you get me the draft by 11:30, I can sanity check the totals before you send it to Karen."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. Total contract value should land at $119,448 before tax if I didn’t fat-finger anything. I’ll send the PDF and the internal approval link in a bit."
+    }
+  ]
+}

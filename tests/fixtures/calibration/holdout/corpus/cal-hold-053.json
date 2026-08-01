@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-053",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for jumping on, Dana. I wanted to check the renewal order for 48 seats at $41 per seat, annual term starting March 1, and make sure the April 15 go-live for the support team is still the date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "The date is fine, but we had two pretty awkward things this week. First, we agreed on the call last Tuesday that your implementation team would set up SSO with our department field mapped to cost center. When they joined yesterday, they had no idea. They were asking us to start from scratch, and they had the default employee ID mapping in their worksheet."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "You're right, and I'm sorry. I put that in my notes and on the pricing sheet, but I did not get it over to the implementation group. That's on me. They were working off the standard kickoff form, so the department-to-cost-center mapping never reached the people actually configuring it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, but it cost us an hour with IT. They had Maya from our side on the call and she was like, why are we explaining this again? We had already agreed no employee ID would be passed over."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. I already updated the kickoff form while we were talking, and I'll send the implementation lead the exact mapping: department field to cost center, no employee ID, 48 users in the first load, and admin review by April 8. I'll also ask them to send you a revised setup checklist by end of day."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Second thing, the invoice came in wrong. We agreed to net 45 and two invoices, one for 36 sales seats and one for 12 manager seats because finance allocates those to different cost centers. The billing tool sent one invoice for all 48 seats due on receipt."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, I see it now. That's another miss on our side. The net 45 and split invoice agreement never made it to billing, so they generated the standard invoice from the closed order. I'm sorry, that's not you being picky, that was explicitly agreed and it didn't reach the billing team."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Please fix that before Friday. Our AP cutoff is March 29, and if the replacement invoices aren't in by then, it pushes payment into May."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "We'll void invoice 78214 and issue two replacements today: 36 seats for sales, 12 for managers, both net 45, PO 45119 on each. I'll copy you and AP when billing confirms. No change to the $23,616 annual total."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Fine. Send the corrected checklist and invoices, and we're good to proceed with the March 1 start."
+    }
+  ]
+}

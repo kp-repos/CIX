@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-002",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, hi Dana, thanks for making the time. I had us down to cover the seat count, target go-live, and the billing setup for the support team rollout."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that's right. We landed on 38 full users and 12 view-only. The managers want access, but they won't be working tickets day to day."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. So 38 full, 12 view-only. On the current pricing sheet that puts the annual subscription at $42,180, and implementation is the one-time $6,500 package we reviewed last week."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Finance asked if that can be invoiced in two pieces. Subscription on the first invoice, services on the second, both net 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can do that. The order form will show two invoice lines, subscription at signature and services billed on the kickoff date. No change to the total."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. For go-live, we're aiming for May 19. Is that still realistic if we sign by April 12?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so if the signed order is in by April 12, kickoff can be April 18, configuration the week after, training May 8 and 9, and then go-live May 19. That gives your team about a week for user acceptance."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. One thing: we need single sign-on included, and we need the data import to cover open tickets plus the last 18 months of closed ones."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. Single sign-on is included in the implementation scope, and the import line will specify open tickets plus 18 months of closed ticket history. I'll include those directly in the order form and kickoff notes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and copy Marcus in finance. If legal doesn't have any issues with the standard terms, I can sign Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the order form today with the 50 total seats broken out, two-invoice billing, and the May 19 go-live plan. Marcus will be copied."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-010",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I’ve got you down for 42 technician seats and 8 supervisor seats for the calibration workflow module. Is that still the right count for the first site?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Mostly. We added two bench techs in Raleigh, so make it 44 tech seats. Supervisors stays at 8."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 52 total named users. At that quantity the annual subscription is $31,200, and the one-time implementation package is $4,800. That includes the asset import, two admin trainings, and the certificate template setup."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Finance asked if the invoice can split subscription and implementation as separate line items. Same PO, just cleaner on our side."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, that’s standard. The order form will show those separately, and billing will issue one invoice against the PO unless you want implementation invoiced after kickoff."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "One invoice is fine. We’re trying to go live October 14. Is that realistic if we sign by September 6?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. If the signed order and PO are in by the 6th, kickoff would be the week of September 9. Asset file due September 13, sandbox review the week of the 23rd, and production cutover on October 11 so your team starts Monday the 14th."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Contract term is one year, right? Our legal team won’t do auto-renewal longer than 12 months without notice."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, 12-month initial term, annual renewal after that, and 60-day notice language. I’ll keep it aligned to your standard redline from the pilot agreement."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Also, can you include the Raleigh certificate logo and the torque wrench interval rules in the kickoff notes?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. I’ll put both in the order summary: Raleigh logo file, torque wrench interval at 6 months or 5,000 cycles, whichever comes first. That way implementation has it on day one."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send the order form today and I’ll route it with the PO request. If procurement doesn’t push back, you should have it by next Thursday."
+    }
+  ]
+}

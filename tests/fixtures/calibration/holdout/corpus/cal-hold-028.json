@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-028",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the add-on for the 42 support seats and the reporting module before I send the order form through deal desk."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re still at 42 seats, plus the 8 viewer licenses for finance. Start date needs to stay April 1. Our invoice cycle closes March 25, so if you can get it over before then, that helps."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. The annual is $38,640, net 30, co-termed to your main agreement ending March 31 next year. I’ve got April 1 as the go-live in the CRM."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. One thing, the implementation coordinator emailed this morning and said they had us down for a standard weekday import, but we agreed the customer file load would happen Saturday, March 30, after our billing export. That was part of why we signed off last week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Ah, yeah, I’m sorry. I had that in my call notes but it looks like it didn’t make it into the handoff packet for services. I’ll update the ticket today and get their lead to confirm the Saturday window in writing."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Please do. We’ve got about 18,000 records, and our ops manager already blocked time from 9 to noon Eastern that day."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. I’ll also attach the field mapping sheet you sent over, so they’re not asking you for the same file again."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. On the order form, can you keep the PO field blank? Our AP team issues the PO after legal signs."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, blank PO field, net 30, 42 support seats, 8 viewers, reporting module, April 1 start. I’ll send the order form by end of day and follow up separately once services confirms March 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. If we get it today, I can route it tomorrow morning."
+    }
+  ]
+}

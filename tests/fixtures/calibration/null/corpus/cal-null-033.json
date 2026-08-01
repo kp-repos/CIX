@@ -1,0 +1,78 @@
+{
+  "id": "cal-null-033",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, yeah, thanks for making time. I wanted to walk through the 38-seat rollout for the compliance team and make sure the June 17 go-live still works on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, June 17 is still the target. We have 32 users day one, and then six managers after training. Main thing is we need the invoice split by cost center if possible."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can do that. So the annual subscription for 38 seats is $27,360, billed on the June 1 start date. I can list cost center 410 for 30 seats and 422 for eight seats on the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. And the implementation fee was the $3,500 one-time, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, $3,500 one-time. That includes the data import, two admin training sessions, and the user webinar. No custom work in there, just the standard setup package."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. On term, our finance team asked if we can do 12 months instead of 24 for the first year."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, 12 months is fine. The term would run June 1, 2026 through May 31, 2027. Same seat price, and then we’d talk renewal next spring, about 60 days out."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. For billing, net 30 is okay. Can you add the PO number? It’s PO-78416."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, PO-78416, net 30, cost centers split 410 and 422. I’ll send the order form this afternoon, and if you sign by Friday, we’ll book kickoff for Tuesday, May 20."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Friday is realistic. Send it to me and copy Marcus in procurement. He doesn’t need to negotiate it, he just files it."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. Last check: primary admin is still Priya Shah, and the import file will be the employee CSV from your HR export?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, Priya is the admin. I’ll have her send the CSV template back by May 14 so your team can start setup."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll include those dates in the recap: order form by today, signature target May 9, CSV by May 14, kickoff May 20, go-live June 17."
+    }
+  ]
+}

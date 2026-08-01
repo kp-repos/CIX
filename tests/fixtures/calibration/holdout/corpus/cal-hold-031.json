@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-031",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so I pulled up the quote from the CRM. We have 48 seats for the operations package, annual term starting March 1, and the total comes to $38,400 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I had. The only thing is we may need to add five warehouse supervisors in April. Can those be prorated, or do we need to amend the whole order?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "They can be prorated. We’d add them through a simple order form, same unit price, and the billing tool would calculate the remaining months on the term."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. And implementation, you had said four weeks. If we sign by February 12, are we still looking at go-live the week of March 18?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that’s still workable. We’d do kickoff on February 19, data import by March 4, user training March 11 and 12, then go-live that following Monday."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Procurement asked about payment terms. Your quote says net 30, annual upfront. We can do annual upfront, but they’ll want the invoice dated after March 1."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That’s fine. I’ll note invoice date March 1 in the order, and accounting can send it that morning. Due date would be March 31."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Also, our legal team had one comment on auto-renewal. They want 60 days’ notice instead of 30 if we’re going to cancel."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, that’s within our standard fallback. I’ll send that to deal desk, but it should be quick. No change to pricing or start date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send the updated order form and the contract redline today if you can. I’m trying to get signatures lined up before our Friday purchasing meeting."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You’ll have the updated documents by 3 p.m. Central, and I’ll include a summary of the seat count, dates, and invoice timing in the email."
+    }
+  ]
+}

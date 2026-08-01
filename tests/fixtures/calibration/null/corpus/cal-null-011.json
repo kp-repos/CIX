@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-011",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so thanks for making time, Dana. I wanted to confirm the renewal and the added calibration module for the new lines before we send the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re at 42 seats today, and we need 8 more for the second shift supervisors. Go-live for them is April 15 if we can keep training the week before."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, 50 seats total, calibration module for Lines 3 and 4, and training on April 8 and 10. I have that in the quote notes already."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. What’s the annual number coming out to?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "For the 50 seats and module, it’s $38,400 for the year. Same net 30 terms, invoice on the renewal start date, which is May 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That lines up. Can you split the invoice by department? 70 percent operations, 30 percent quality."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can do that. I’ll mark the billing split on the order form so the invoice shows both cost centers: 4100 for ops and 4200 for quality."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Legal asked if the auto-renew language is still 30 days’ notice."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It is. The term is May 1, 2026 through April 30, 2027, and either side can give notice 30 days before the end. No other contract changes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Alright, send it over today and I’ll route it to our controller. If she signs by Friday, are we still okay for April training?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. If we have signature by March 22, we’ll hold the April 8 and 10 sessions. I’ll send the order form in about an hour."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Thanks, Mark."
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "cal-null-005",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, it’s Mark from Northstar Metrics. Thanks for making the time. I had us down to talk through adding the field service team and confirming timing for the August 12 go-live, is that still right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that’s right. We’re at 48 users today, and field service would add 22. They don’t all need admin access, just the mobile workflow and dashboards."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. So 70 total seats, with the 22 on standard access. On the current pricing sheet, that puts the added annual cost at $18,480, prorated from August 1 through your April 30 renewal. That prorate is $13,860 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Finance will ask if that can stay on the same invoice as the core subscription. They don’t want a separate PO if we can avoid it."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can put it on the same account and issue one invoice against the existing PO. The order form will show the added seats as a coterm line item through April 30, then everything renews together."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That helps. On contract terms, no change to the master agreement, right? Legal will get cranky if this opens the whole thing back up."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No change to the master. It’s just an add-on order form, same payment terms, same data processing terms. I’ll send the two-page version after this call for signature."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. For go-live, we need training the week of August 5. Two sessions, probably Tuesday and Thursday, 45 minutes each. Can your team do that?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. I’m seeing availability August 6 at 11 Eastern and August 8 at 2 Eastern. If those work, I’ll include them in the rollout summary and have our onboarding lead send calendar invites once the order form is countersigned."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Those times work. Also, can you list Priya Shah as the billing contact? Our AP inbox misses these sometimes."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Absolutely. Priya Shah as billing contact, invoice to the existing AP inbox with her copied, 22 standard seats, coterm to April 30, training on August 6 and 8. Did I miss anything?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that’s it. Send the order form today if you can. I can sign tomorrow after our staff meeting."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You’ll have it by 3 PM Central today, and I’ll attach the seat breakdown so finance doesn’t have to ask twice."
+    }
+  ]
+}

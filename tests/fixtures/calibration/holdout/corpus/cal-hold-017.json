@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-017",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I pulled up the quote in the CRM. We have you at 48 seats for the analytics package, annual term starting March 1, and the onboarding services line at $6,500. Is that still matching what your team needs?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Mostly, yeah. We actually counted again yesterday and it’s 52 users if we include the finance managers. I don’t think all of them need admin access, but they do need login seats."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. So 52 standard seats, with maybe four admins? The per-seat price on the pricing sheet is $92 per user per month at that band, billed annually. That puts subscription at $57,408 for the year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. The number is fine, but procurement asked if the invoice can split software and services into separate lines. Same PO, just separate lines for tracking."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that’s easy. The billing tool will show subscription on one line and onboarding on another. Taxes, if any, will calculate separately. Do you need the invoice dated in February or on the March 1 start date?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "February 20 would be better. Our AP cutoff is the 22nd, and we’re trying to avoid pushing it into the next cycle."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay, I’ll note invoice date February 20, net 30 terms. For go-live, your team had mentioned April 15. With a March 1 start, we’d do kickoff the week of March 4, data mapping by March 18, and user training around April 8. Does that still work?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that lines up. The only thing is our data lead is out March 11 through 13, so mapping can’t depend on her those days."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No problem. We can schedule the mapping workshop for March 14 and leave the earlier week for access setup and the project plan. I’ll have our implementation manager confirm times after signature."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send the revised order form with 52 seats and the invoice note, and I’ll route it for signature today. If legal doesn’t change anything, we should have it back by Friday."
+    }
+  ]
+}

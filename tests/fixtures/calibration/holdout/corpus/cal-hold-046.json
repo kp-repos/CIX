@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-046",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the updated quote for 42 seats and the services line so we can get you set for a May 20 go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. I reviewed it this morning. The seat count is right, 38 standard users and 4 admins. I just need to confirm the invoice timing and the renewal date."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally. The first invoice would go out on signature, net 30, for $28,560 for the annual subscription. The implementation package is $4,800, billed at kickoff, also net 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, and the term runs through May 19 next year, right? Our finance team doesn't want it landing mid-month if we can avoid it."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Right now it's May 20 through May 19. If you prefer a month-end renewal, I can have deal desk prorate the first term through May 31 next year. It would add about $890 to the first-year total."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Let's keep it as written for now. May 19 is fine. On implementation, is that three weeks or four weeks?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "The plan is four weeks. Week one is kickoff and data mapping, weeks two and three are configuration and testing, and week four is admin training and go-live support. We'd need your export file by April 22 to stay on track."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That should work. I can get our operations manager to own the export. For contract terms, legal only asked about the auto-renewal notice period."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It's 60 days prior to renewal. I can point that out in the order form when I send the clean copy. No change needed unless your legal team wants different language."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, 60 days is okay. Send the clean copy and the security packet again, and I'll route it for signature today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the order form, security packet, and the implementation checklist in one email. If it's signed by Friday, we can hold the May 20 go-live slot."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Thanks, Mark."
+    }
+  ]
+}

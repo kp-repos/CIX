@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-021",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana,\n\nThanks for walking through the rollout plan today. Attached is the order form for 84 seats, starting May 15, with the services package we discussed.\n\nAnnual subscription: $58,800\nImplementation: $6,500 one-time\nTerm: 12 months\nPayment: net 30\n\nIf you can return the signed order by Friday, we can hold the May 22 admin training slot.\n\nBest,\nMark"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Mark,\n\nThanks. A few items before I send this to procurement:\n\n1. We need 79 seats, not 84. Five users moved to the warehouse system.\n2. Can the invoice split subscription and implementation into separate lines?\n3. Legal will ask for a July 1 renewal date, even though go-live is May.\n\nDana"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana,\n\nYep, I can revise to 79 seats and separate the invoice lines.\n\nFor the July 1 renewal date, we can set the initial term from May 15, 2026 through June 30, 2027, with the first period prorated. That keeps billing clean and gives your team the same go-live timeline.\n\nRevised annual subscription for 79 seats is $55,300, plus $6,500 implementation.\n\nMark"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Mark,\n\nProcurement is pushing back. They budgeted $52K all-in for year one, including implementation. I know that's low based on your sheet, but that's what is sitting in the finance file.\n\nIf we can't get close, I may have to move this to Q3.\n\nDana"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Dana,\n\nUnderstood. Per our messages this morning, we can land it at $49,900 subscription plus $4,500 implementation for year one, and I'll get the deal desk paperwork cleaned up after so the order form matches.\n\nI'll send the revised version with 79 seats, May 15 start, and June 30, 2027 end date.\n\nMark"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Mark,\n\nThat works. Please make sure the order form shows the $54,400 total and the invoice lines separately. Also add the note that admin training is included, since our AP team checks the quote against the SOW.\n\nDana"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana,\n\nAttached is the revised order form and SOW.\n\nSummary:\n- 79 seats\n- Subscription: $49,900\n- Implementation: $4,500\n- Start date: May 15, 2026\n- End date: June 30, 2027\n- Admin training included, up to 6 attendees\n- Payment terms: net 30\n\nPlease have procurement sign page 4 and the SOW signature block.\n\nMark"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Mark,\n\nReceived. Procurement is routing it now. One last item: can you confirm we can add 6 more seats in August at the same per-seat rate, prorated through June 30?\n\nDana"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Dana,\n\nYes, additional seats can be added in August at the same per-seat rate, prorated through June 30, 2027. I added that language to section 2.3 in the order form.\n\nMark"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Mark,\n\nSigned copies attached. Please send the invoice to ap@northvalleycomponents.com and copy me.\n\nWe are good for the May 22 training slot.\n\nDana"
+    }
+  ]
+}

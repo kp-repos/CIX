@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-056",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for jumping on, Dana. I have you down for 42 seats, annual term, June 1 go-live, and the support package your team asked about. Is that still the shape of it?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Mostly. It may be 45 seats now. Finance added two analysts and a manager. I need the quote to show the unit price and the total, not just the blended number."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I can do that. And just being transparent, I’m a little behind on the clean quote because most of yesterday got swallowed by typing call notes into the CRM, fixing duplicate account records, and assembling the deal desk packet. That’s the stuff that took over the day, and it cut into the time I was supposed to spend actually talking with you and the other buyers. Not ideal, but I’ll get you a clean version today."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. I do need it today if possible. Our purchasing cutoff is Friday at noon, and they won’t review anything missing the payment terms."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. Payment terms are net 30, annual upfront. For 45 seats, you’re looking at $21,600 for the year, plus $2,400 for onboarding. If you stay at 42 seats it’s $20,160 plus the same onboarding."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "The $2,400 onboarding, is that required? We’ve got our own admin who can handle imports."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "We can make it optional, yeah. The main reason I kept it in is your October archive import, the 68,000 records. If your admin can map the fields, then we can just include two enablement sessions at no charge."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That would help. Legal also asked if the auto-renewal can be removed. They’ll accept a 12-month initial term, but no automatic renewal."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can strike auto-renewal. I’ll need to route that through deal desk, and honestly this is the second spot where my day gets eaten up: the billing tool needs the subscription dates entered one way, the contract form wants them another way, and then I have to tidy the account fields so approval doesn’t bounce. It’s a couple hours of clerical cleanup that pushes out buyer calls, but I’ll prioritize yours because of the Friday cutoff."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Appreciate it. Send it to me and copy Martin in procurement. If the quote shows 45 seats, net 30, onboarding removed, and no auto-renewal, I think we can get signature by May 29."
+    }
+  ]
+}

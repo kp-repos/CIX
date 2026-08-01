@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-049",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the renewal before your current term ends on June 30 and make sure the seat count is right for the July invoice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re at 64 seats today, but finance only wants to renew 58. Six contractors roll off in mid-June."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 58 seats starting July 1. Same business tier and the reporting add-on, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, keep the reporting add-on. The only thing I need confirmed is whether the invoice can be annual again, net 30, billed to the Chicago office."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. Annual invoice, net 30, Chicago billing address. At 58 seats, the total is $41,760 for the year, plus the reporting add-on at $6,000, so $47,760 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I had. Can you include the service language from last year? Our legal team asked not to reopen the standard terms unless something changed."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Nothing changed on the standard terms. I can send the renewal order form this afternoon with the same terms referenced and the July 1 through June 30 dates."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. If you send it by 3:00 Eastern, I can get it into our approval packet for tomorrow morning."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. And for go-live, since this is a continuation, there’s no deployment work. I’ll note the seat reduction effective July 1 so access stays active for the 58 named users."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it to me and copy accounts payable. Once it’s signed, we’ll issue the PO. It should be PO-7814, but I’ll confirm on our side."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I’ll send the order form and pricing summary today, and you can reply with the PO when it’s ready."
+    }
+  ]
+}
