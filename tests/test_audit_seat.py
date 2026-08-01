@@ -55,3 +55,13 @@ def test_too_few_hits(tmp_path):
     r = second_lab_audit(store, units, rubric, ha, ScriptedClient(sequence=[]), _cfg(), seed=1,
                          provenance_lab=None, seat_lab="openai")
     assert r["status"] == "insufficient_power"
+
+def test_none_provenance_proceeds_not_recused(tmp_path):
+    # Security boundary: unknown/human provenance (None) must NOT recuse even when a
+    # lab name is supplied for the seat — the seat proceeds to adjudicate.
+    store, units, rubric, ha = _setup(tmp_path)
+    client = ScriptedClient(sequence=[json.dumps({"applies": True})] * 4)
+    r = second_lab_audit(store, units, rubric, ha, client, _cfg(), seed=1,
+                         provenance_lab=None, seat_lab="openai")
+    assert r["status"] != "recused_f4"
+    assert r["status"] == "agree"
