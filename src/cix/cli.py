@@ -58,6 +58,7 @@ def _cmd_run(args) -> int:
         return 2
     config = load_run_config(Path("configs/run_config_v1.yaml"))
     thresholds = load_thresholds(Path("configs/thresholds_v1.yaml"))
+    thresholds_version = yaml.safe_load(Path("configs/thresholds_v1.yaml").read_text())["version"]
     client = make_client(config)
 
     out = Path(args.out)
@@ -128,7 +129,7 @@ def _cmd_run(args) -> int:
                      "model_versions": {"primary": config.model},
                      "prompt_hashes": {"labels": labels_ph(), "hits": hits_ph(), "synthesis": synth_ph(),
                                        "apply": apply_prompts_hash()},
-                     "seeds": {"run": config.seed}, "thresholds_version": "1.0.0",
+                     "seeds": {"run": config.seed}, "thresholds_version": thresholds_version,
                      "artifacts": {"labels": la, "hits": ha}})
     write_manifest(manifest, out)
     render_report({"findings": gated["findings"], "rollup": roll,
