@@ -33,6 +33,8 @@ def _client():
 def test_one_command_corpus_to_report(tmp_path, monkeypatch, capsys):
     import cix.cli as cli
     monkeypatch.setattr(cli, "make_client", lambda cfg: _client())
+    monkeypatch.setattr(cli, "make_second_client",
+                        lambda cfg: ScriptedClient(mapping={'"applies"': '{"applies": true}'}))
     rc = main(["run", str(FIX / "corpus_g2"), "--rubric", "configs/mini_rubric_v0.yaml",
                "--out", str(tmp_path / "run")])
     assert rc == 0
@@ -46,12 +48,17 @@ def test_one_command_corpus_to_report(tmp_path, monkeypatch, capsys):
     assert manifest["rubric_version"] == "0.1.0"
     assert manifest["seeds"]["run"] == 20260731
     assert manifest["model_versions"]["primary"] == "claude-fable-5"
+    checks = {v["check"] for v in report["sections"]["method"]["validations"]}
+    assert "T-PARA" in checks          # not_run for the mini rubric (honest state)
+    assert "SECOND-LAB-SEAT" in checks
 
 def test_null_corpus_runs_and_reports_dev_only(tmp_path, monkeypatch, capsys):
     import cix.cli as cli
     corpus = FIX / "corpus_g2_null"
     client = CountingClient({**build_mapping(corpus), **synthesis_mapping(corpus)})
     monkeypatch.setattr(cli, "make_client", lambda cfg: client)
+    monkeypatch.setattr(cli, "make_second_client",
+                        lambda cfg: ScriptedClient(mapping={'"applies"': '{"applies": true}'}))
     rc = main(["run", str(corpus), "--rubric", "configs/mini_rubric_v0.yaml",
                "--out", str(tmp_path / "null-run"), "--dev-null-control"])
     assert rc == 0
