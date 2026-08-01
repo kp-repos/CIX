@@ -57,9 +57,10 @@ def score_null(null_ids: list[str], hits: list[dict], target_items: set[str], cf
     if n < cfg["min_null_interactions"]:
         return {"status": "insufficient_power", "rate_per_100": None,
                 "detail": f"null set {n} < {cfg['min_null_interactions']}"}
+    null_set = set(null_ids)
     flagged: set[str] = set()
     for h in hits:
-        if h["interaction_id"] in set(null_ids) and h["item_id"] in target_items:
+        if h["interaction_id"] in null_set and h["item_id"] in target_items:
             flagged.add(h["interaction_id"])
     rate = len(flagged) / n * 100
     status = "fail" if rate > cfg["false_reports_per_100_max"] else "pass"
