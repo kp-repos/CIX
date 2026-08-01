@@ -1,8 +1,12 @@
 # A8 — CIX sales/outbound rubric v1 (R-RUB-6: authored first, calibrated first).
 # Drafted from RO-1–5, docs/reference/CIX_Opportunity_Library_v1.md. Generic by ruling;
 # the corpus-adaptation pass is a named later step (G4+).
-# PO-RATIFIED: 2026-08-01 (Checkpoint A)
-version: "1.0.0"
+# v1.1.0 (2026-08-01): principled precision fix after the G3 T-NULL breach — four negative
+# criteria that over-flagged on surface cues (multi_system, out_of_system_discount,
+# renewal_lapse_risk, unowned_follow_up) now require the pathological condition and explicitly
+# exclude its healthy counterpart. Re-validated on a FRESH null/dev/holdout (new seeds).
+# PO-RATIFIED: 1.0.0 at Checkpoint A; 1.1.0 re-ratified 2026-08-01
+version: "1.1.0"
 requires:
   label_schema_version: "1.0.0"
   tag_vocab_version: "1.0.0"
@@ -26,7 +30,7 @@ items:
     polarity: negative
     unit_of_count: interaction
     prefilter: null
-    criterion: "Completing a single sales process step (quote, renewal, order, proposal) visibly requires working across multiple software systems or an excessive sequence of manual steps."
+    criterion: "Completing a single sales process step (quote, renewal, order, proposal) is slowed or degraded by juggling several disconnected tools or a long chain of manual actions — such as re-entering identical figures from one place into another, or a task dragging across many handoffs. Naming more than one tool during an otherwise smooth, single-pass transaction does not qualify; there must be evident friction, rework, or delay."
     exemplars: ["I pulled it from the CRM, priced it in the spreadsheet, then rekeyed everything into the billing tool."]
   - id: handoff_commitment_lost                # RO-3
     description: "A commitment dropped or not carried forward across a handoff"
@@ -40,14 +44,14 @@ items:
     polarity: negative
     unit_of_count: interaction
     prefilter: {tag: currency_amount}
-    criterion: "A price concession or discount is being negotiated, promised, or granted informally in conversation or email rather than through the pricing or approval system."
+    criterion: "A price concession is arranged informally — via side chat, call, or email — to deliberately skirt the pricing or approval workflow, such as an off-book figure agreed quietly with the formalities deferred. A standard discount taken from the pricing sheet or cleared through the normal approval process does not qualify, even when the amount is discussed openly."
     exemplars: ["Let's just do $500 off this one and I'll square it with deal desk later."]
   - id: unowned_follow_up                      # RO-3/RO-4
     description: "A lead, expansion signal, or buying interest with no owner or follow-up"
     polarity: negative
     unit_of_count: occurrence
     prefilter: null
-    criterion: "A lead, expansion signal, or expression of customer buying interest surfaces and no one takes or has ownership of following it up."
+    criterion: "A lead, expansion signal, or expression of customer buying interest surfaces and is left visibly unclaimed — no one takes it, assigns an owner, or commits to a next step. If someone acknowledges it and owns or schedules the follow-up, it does not qualify."
     exemplars: ["They asked about the premium tier on the call, but I'm not sure whose account that is now."]
   - id: missited_work_allocation               # RO-4
     description: "Expensive or field resource doing work a central, cheaper, or automated function could do"
@@ -61,7 +65,7 @@ items:
     polarity: negative
     unit_of_count: interaction
     prefilter: null
-    criterion: "A renewal or recurring commitment is approaching or already past its date with no evidence anyone has had, or planned, a conversation with the customer about continuing."
+    criterion: "A renewal or recurring commitment is near or past its end date and no one appears to be handling it — no renewal discussion, quote, or plan is in view. If the renewal is being actively raised, quoted, or scheduled in this interaction, it does not qualify, even with the date close."
     exemplars: ["Their term ended last month and I don't think anyone has reached out."]
   - id: clean_handoff_execution                # positive polarity of handoff_commitment_lost
     description: "A handoff where commitment, context, and next step are explicitly carried forward"

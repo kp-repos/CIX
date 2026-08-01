@@ -2,13 +2,16 @@
 # docs/A7_calibration_corpus_spec.md. Pathology descriptions are the ONLY pathology
 # text the generator ever sees (R-VAL-2); wording is deliberately disjoint from
 # rubric criteria (enforced by tests/test_calspec.py).
-# PO-RATIFIED: 2026-08-01 (Checkpoint A)
-version: "1.0.0"
+# v1.1.0 (2026-08-01): fresh seeds for the cycle-2 re-calibration after the cycle-1 T-NULL
+# breach — same structure (6 pathologies, 3 loudness, dev/holdout/null shape), NEW generation
+# seeds so the tightened rubric v1.1.0 is validated on unseen instances, not the null cases seen.
+# PO-RATIFIED: 1.0.0 at Checkpoint A; 1.1.0 re-ratified 2026-08-01
+version: "1.1.0"
 loudness_levels: [loud, moderate, camouflaged]
 splits:
-  dev:     {id_prefix: cal-dev,  seed: 20260801, instances_per_cell: 2, clean_interactions: 24}
-  holdout: {id_prefix: cal-hold, seed: 20260802, instances_per_cell: 2, clean_interactions: 24}
-  "null":  {id_prefix: cal-null, seed: 20260803, interactions: 50}
+  dev:     {id_prefix: cal-dev,  seed: 20260811, instances_per_cell: 2, clean_interactions: 24}
+  holdout: {id_prefix: cal-hold, seed: 20260812, instances_per_cell: 2, clean_interactions: 24}
+  "null":  {id_prefix: cal-null, seed: 20260813, interactions: 50}
 style_guide: |
   Register: North American B2B software/services sales, mid-market. Transcripts are
   lightly imperfect speech-to-text: occasional false starts, fillers ("yeah, so"),
