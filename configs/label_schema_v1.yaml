@@ -1,0 +1,16 @@
+# A2 — CIX core label schema (D§5: core-only for v1; no domain extensions).
+# Consumed by the G2 label pass. Authored at G1 so the artifact set is complete.
+version: "1.0.0"
+fields:
+  motion:
+    values: [revenue, service, mixed]
+  intent:
+    type: short_text
+  driver_origin:
+    values: [customer, internal_defect, policy, upstream_function]
+  automatability:
+    values: [rote, assisted, exception]
+  outcome:
+    values: [resolved, deferred, escalated, unresolved]
+  handoff_events:
+    type: list

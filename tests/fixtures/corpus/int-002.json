@@ -1,0 +1,12 @@
+{
+  "id": "int-002",
+  "source_type": "transcript",
+  "participants": ["agent", "customer"],
+  "date": "2026-05-03",
+  "account_id": "acct-4",
+  "segments": [
+    {"speaker": "customer", "text": "How do I reset my password?"},
+    {"speaker": "agent", "text": "I can send you a reset link right now."},
+    {"speaker": "customer", "text": "That worked, thanks."}
+  ]
+}

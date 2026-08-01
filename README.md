@@ -23,7 +23,7 @@ Four independently versioned knowledge artifacts, all plain-language config: **i
 |---|---|
 | Design | Brainstorm output **rev 2.3** — ratified |
 | PRD | **v1.2 RATIFIED** 2026-07-31 (satisfies KR 5.1j-2) |
-| Build | **Not started.** Gate sequence G0–G6, cycles-as-available; G1 implementation plan written |
+| Build | **G1 complete.** Deterministic spine on synthetic fixtures (37 tests green; AC-1/AC-3a/AC-4a); `cix index\|hash\|verify` CLI. Next gate: G2 thin slice (first model calls) |
 | Stack | Python 3.12 · uv · pytest · pydantic v2 · PyYAML · SQLite |
 
 ## Documents

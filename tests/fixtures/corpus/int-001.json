@@ -1,0 +1,13 @@
+{
+  "id": "int-001",
+  "source_type": "transcript",
+  "participants": ["agent", "customer"],
+  "date": "2026-05-01",
+  "account_id": "acct-9",
+  "segments": [
+    {"speaker": "customer", "text": "My card was charged twice for the same order."},
+    {"speaker": "agent", "text": "I can help with that. Let me check the billing record."},
+    {"speaker": "customer", "text": "I already called about this last time and it is still not fixed."},
+    {"speaker": "agent", "text": "I will escalate this to the billing team today."}
+  ]
+}
