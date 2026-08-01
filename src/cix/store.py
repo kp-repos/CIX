@@ -17,6 +17,17 @@ CREATE TABLE drop_log (n INTEGER PRIMARY KEY AUTOINCREMENT, claim_ref TEXT NOT N
 CREATE TABLE run_meta (key TEXT PRIMARY KEY, value TEXT NOT NULL);
 CREATE INDEX ix_snippet_tags ON snippet_tags (tag, value);
 CREATE INDEX ix_interaction_tags ON interaction_tags (tag, value);
+CREATE TABLE label_artifacts (id TEXT PRIMARY KEY, corpus_hash TEXT, schema_version TEXT,
+                              model TEXT, prompts_hash TEXT);
+CREATE TABLE labels (artifact_id TEXT REFERENCES label_artifacts(id), interaction_id TEXT,
+                     field TEXT, value TEXT, PRIMARY KEY (artifact_id, interaction_id, field));
+CREATE TABLE hit_artifacts (id TEXT PRIMARY KEY, label_artifact_id TEXT REFERENCES label_artifacts(id),
+                            rubric_version TEXT, model TEXT, prompts_hash TEXT);
+CREATE TABLE hits (artifact_id TEXT REFERENCES hit_artifacts(id), item_id TEXT, interaction_id TEXT,
+                   unit TEXT, snippet_ids TEXT);
+CREATE TABLE validation_results (n INTEGER PRIMARY KEY AUTOINCREMENT, "check" TEXT, item_id TEXT,
+                                 status TEXT, detail TEXT);
+CREATE TABLE synthesis (artifact_id TEXT, item_id TEXT, body TEXT, PRIMARY KEY (artifact_id, item_id));
 """
 
 def build_store(units: list[InteractionUnit], vocab_path: Path, db_path: Path) -> None:
@@ -95,6 +106,68 @@ class Store:
     def meta(self, key: str) -> str | None:
         row = self.con.execute("SELECT value FROM run_meta WHERE key=?", (key,)).fetchone()
         return row["value"] if row else None
+
+    @staticmethod
+    def _key(*parts: str) -> str:
+        import hashlib
+        return hashlib.sha256("|".join(parts).encode()).hexdigest()[:16]
+
+    def ensure_label_artifact(self, corpus_hash: str, schema_version: str, model: str, prompts_hash: str) -> str:
+        aid = self._key("labels", corpus_hash, schema_version, model, prompts_hash)
+        self.con.execute("INSERT OR IGNORE INTO label_artifacts VALUES (?,?,?,?,?)",
+                         (aid, corpus_hash, schema_version, model, prompts_hash))
+        self.con.commit()
+        return aid
+
+    def ensure_hit_artifact(self, label_artifact_id: str, rubric_version: str, model: str, prompts_hash: str) -> str:
+        aid = self._key("hits", label_artifact_id, rubric_version, model, prompts_hash)
+        self.con.execute("INSERT OR IGNORE INTO hit_artifacts VALUES (?,?,?,?,?)",
+                         (aid, label_artifact_id, rubric_version, model, prompts_hash))
+        self.con.commit()
+        return aid
+
+    def write_labels(self, artifact_id: str, interaction_id: str, fields: dict) -> None:
+        for field, value in sorted(fields.items()):
+            self.con.execute("INSERT OR REPLACE INTO labels VALUES (?,?,?,?)",
+                             (artifact_id, interaction_id, field, str(value)))
+        self.con.commit()
+
+    def labels_for(self, artifact_id: str, interaction_id: str) -> dict:
+        rows = self.con.execute("SELECT field, value FROM labels WHERE artifact_id=? AND interaction_id=?",
+                                (artifact_id, interaction_id))
+        return {r["field"]: r["value"] for r in rows}
+
+    def labeled_interactions(self, artifact_id: str) -> list[str]:
+        rows = self.con.execute(
+            "SELECT DISTINCT interaction_id FROM labels WHERE artifact_id=? ORDER BY interaction_id",
+            (artifact_id,))
+        return [r["interaction_id"] for r in rows]
+
+    def write_hit(self, artifact_id: str, item_id: str, interaction_id: str, unit: str, snippet_ids: str) -> None:
+        self.con.execute("INSERT INTO hits VALUES (?,?,?,?,?)",
+                         (artifact_id, item_id, interaction_id, unit, snippet_ids))
+        self.con.commit()
+
+    def hits_for(self, artifact_id: str) -> list[dict]:
+        rows = self.con.execute(
+            "SELECT * FROM hits WHERE artifact_id=? ORDER BY item_id, interaction_id, snippet_ids", (artifact_id,))
+        return [dict(r) for r in rows]
+
+    def write_validation(self, check: str, item_id: str | None, status: str, detail: str) -> None:
+        self.con.execute('INSERT INTO validation_results ("check", item_id, status, detail) VALUES (?,?,?,?)',
+                         (check, item_id, status, detail))
+        self.con.commit()
+
+    def validations(self) -> list[dict]:
+        return [dict(r) for r in self.con.execute("SELECT * FROM validation_results ORDER BY n")]
+
+    def write_synthesis(self, artifact_id: str, item_id: str, body: str) -> None:
+        self.con.execute("INSERT OR REPLACE INTO synthesis VALUES (?,?,?)", (artifact_id, item_id, body))
+        self.con.commit()
+
+    def synthesis_for(self, artifact_id: str) -> list[dict]:
+        return [dict(r) for r in self.con.execute(
+            "SELECT * FROM synthesis WHERE artifact_id=? ORDER BY item_id", (artifact_id,))]
 
 def open_store(db_path: Path) -> Store:
     return Store(db_path)
