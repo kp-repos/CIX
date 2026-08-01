@@ -32,13 +32,20 @@ class AnthropicClient:
         self._config = config
 
     def complete(self, prompt: str) -> str:
+        # temperature is deliberately not sent — claude-fable-5 (and other current
+        # tiers) deprecate the parameter and reject the call if it is present, the
+        # same way the GPT-5.x reasoning tiers do in OpenAIClient.
         msg = self._client.messages.create(
             model=self._config.model,
             max_tokens=self._config.max_tokens,
-            temperature=self._config.temperature,
             messages=[{"role": "user", "content": prompt}],
         )
-        return msg.content[0].text
+        # claude-fable-5 is an extended-thinking tier: the response may lead with
+        # thinking blocks that carry no .text — concatenate the text blocks only.
+        text = "".join(b.text for b in msg.content if getattr(b, "type", None) == "text")
+        if not text:
+            raise MalformedResponse(f"no text block in response (stop_reason={msg.stop_reason})")
+        return text
 
 def _first_balanced_object(text: str) -> str | None:
     """Return the first brace-balanced {...} substring (string-literal aware), or None."""
