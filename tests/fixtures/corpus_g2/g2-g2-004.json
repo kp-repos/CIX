@@ -1,0 +1,28 @@
+{
+  "id": "g2-g2-004",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": "2026-06-05",
+  "account_id": "acct-4",
+  "segments": [
+    {
+      "speaker": "customer",
+      "text": "My card was charged twice for the chequing order, $120 each time."
+    },
+    {
+      "speaker": "agent",
+      "text": "I can see the duplicate charge. Let me open a billing correction."
+    },
+    {
+      "speaker": "customer",
+      "text": "I already called about this last time and it is still not fixed."
+    },
+    {
+      "speaker": "agent",
+      "text": "I will escalate this to the billing team."
+    }
+  ]
+}

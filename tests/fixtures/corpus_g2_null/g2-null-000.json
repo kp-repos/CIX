@@ -1,0 +1,24 @@
+{
+  "id": "g2-null-000",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": "2026-06-01",
+  "account_id": "acct-4",
+  "segments": [
+    {
+      "speaker": "customer",
+      "text": "How do I reset my password for mortgage access?"
+    },
+    {
+      "speaker": "agent",
+      "text": "I can send you a reset link right now."
+    },
+    {
+      "speaker": "customer",
+      "text": "That worked, thanks."
+    }
+  ]
+}
