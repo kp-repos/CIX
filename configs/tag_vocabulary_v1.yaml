@@ -1,0 +1,17 @@
+# A1 — CIX published tag vocabulary. The index↔rubric contract (R-IDX-2).
+# Bright line: nothing here requires judgment. Lexical patterns are versioned config.
+version: "1.0.0"
+structural: [source_type, speaker_role, position, turn_length]
+metadata: [account_id, thread_id, date]
+computed: [interaction_len_segments, speaker_balance]
+lexical:
+  - name: repeat_marker
+    pattern: '\b(again|last time|still not|already (called|told))\b'
+  - name: transfer_hold
+    pattern: '\b(hold on|transfer|escalat\w*)\b'
+  - name: negation
+    pattern: '\b(no|not|never|cannot|can''t)\b'
+  - name: question_mark
+    pattern: '\?'
+  - name: currency_amount
+    pattern: '\$\d+'
