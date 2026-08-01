@@ -1,0 +1,16 @@
+# T-PARA instrument: one fixed paraphrase per rubric item — semantically equivalent,
+# lexically distinct. Frozen with the rubric it targets (Checkpoint A); a paraphrase
+# generated at audit time would be an unfrozen instrument.
+version: "1.0.0"
+rubric_version: "1.0.0"
+paraphrases:
+  seller_admin_burden: "Someone in a sales role is spending effort on clerical or record-keeping tasks — updating systems, preparing internal paperwork, reporting progress — where that effort displaces time with customers or prospects."
+  status_chasing: "A person has to repeatedly prompt another individual or department for a decision, sign-off, or piece of information without which a deal or sales task cannot move forward."
+  multi_system_process_sprawl: "Finishing one piece of sales work forces the person through several different tools or a long chain of manual actions where one would reasonably suffice."
+  handoff_commitment_lost: "When responsibility passes between people or groups, something that was promised to the client or agreed internally fails to travel with it and gets lost."
+  out_of_system_discount: "A reduction in price is arranged through informal channels — chat, calls, side emails — instead of the official pricing or approval workflow."
+  unowned_follow_up: "A prospect's interest, an upsell opening, or an inbound opportunity appears, and it is unclear or unassigned who will act on it next."
+  missited_work_allocation: "A costly or field-deployed person is handling a task that a centralized team, a cheaper role, or software could handle instead."
+  renewal_lapse_risk: "A contract or subscription is near or beyond its end date and there is no sign of anyone from the vendor discussing continuation with the customer."
+  clean_handoff_execution: "As work moves from one owner to the next, the promise made, the background, and the immediate next action all transfer explicitly and the new owner confirms taking them on."
+  single_touch_completion: "A quote, order, renewal, or proposal gets fully done inside this one exchange, cleanly, with no follow-up chasing, corrections, or tool-switching required."

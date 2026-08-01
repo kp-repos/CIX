@@ -1,0 +1,79 @@
+# A8 — CIX sales/outbound rubric v1 (R-RUB-6: authored first, calibrated first).
+# Drafted from RO-1–5, docs/reference/CIX_Opportunity_Library_v1.md. Generic by ruling;
+# the corpus-adaptation pass is a named later step (G4+).
+# PO-RATIFIED: pending   <- flip to the ratification date at Checkpoint A
+version: "1.0.0"
+requires:
+  label_schema_version: "1.0.0"
+  tag_vocab_version: "1.0.0"
+items:
+  - id: seller_admin_burden                    # RO-1
+    description: "Seller time spent on manual administrative work instead of selling"
+    polarity: negative
+    unit_of_count: occurrence
+    prefilter: null
+    criterion: "A seller is doing, describing having done, or being asked to do manual administrative work — data entry, CRM updates, status reporting, quote assembly — in place of customer-facing selling activity."
+    exemplars: ["I spent the whole morning updating opportunity fields before I could send a single email."]
+  - id: status_chasing                         # RO-1
+    description: "Chasing another team or person for a blocking status, approval, or answer"
+    polarity: negative
+    unit_of_count: occurrence
+    prefilter: null
+    criterion: "A participant is chasing a colleague, team, or function for a status update, approval, or answer that is blocking progress on sales work."
+    exemplars: ["Any word from legal on the contract? This is my third time asking."]
+  - id: multi_system_process_sprawl            # RO-2
+    description: "One sales process step requires multiple systems or excessive manual steps"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "Completing a single sales process step (quote, renewal, order, proposal) visibly requires working across multiple software systems or an excessive sequence of manual steps."
+    exemplars: ["I pulled it from the CRM, priced it in the spreadsheet, then rekeyed everything into the billing tool."]
+  - id: handoff_commitment_lost                # RO-3
+    description: "A commitment dropped or not carried forward across a handoff"
+    polarity: negative
+    unit_of_count: occurrence
+    prefilter: null
+    criterion: "A commitment made to the customer or between internal teams is dropped, forgotten, or not carried forward when work passes from one person or team to another."
+    exemplars: ["Nobody told finance about the pricing we agreed, so the invoice went out wrong."]
+  - id: out_of_system_discount                 # RO-3
+    description: "A discount negotiated or granted outside the pricing/approval system"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: {tag: currency_amount}
+    criterion: "A price concession or discount is being negotiated, promised, or granted informally in conversation or email rather than through the pricing or approval system."
+    exemplars: ["Let's just do $500 off this one and I'll square it with deal desk later."]
+  - id: unowned_follow_up                      # RO-3/RO-4
+    description: "A lead, expansion signal, or buying interest with no owner or follow-up"
+    polarity: negative
+    unit_of_count: occurrence
+    prefilter: null
+    criterion: "A lead, expansion signal, or expression of customer buying interest surfaces and no one takes or has ownership of following it up."
+    exemplars: ["They asked about the premium tier on the call, but I'm not sure whose account that is now."]
+  - id: missited_work_allocation               # RO-4
+    description: "Expensive or field resource doing work a central, cheaper, or automated function could do"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "Work is being performed by an expensive or field-based resource that could plainly be done by a central, lower-cost, or automated function."
+    exemplars: ["I drove two hours out there just to pick up the signed form."]
+  - id: renewal_lapse_risk                     # RO-3
+    description: "A renewal approaching or past due with no sales conversation about it"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "A renewal or recurring commitment is approaching or already past its date with no evidence anyone has had, or planned, a conversation with the customer about continuing."
+    exemplars: ["Their term ended last month and I don't think anyone has reached out."]
+  - id: clean_handoff_execution                # positive polarity of handoff_commitment_lost
+    description: "A handoff where commitment, context, and next step are explicitly carried forward"
+    polarity: positive
+    unit_of_count: occurrence
+    prefilter: null
+    criterion: "A handoff between people or teams in which the commitment, context, and next step are explicitly carried forward and acknowledged by the receiving side."
+    exemplars: ["Onboarding has the discount terms and the go-live date; Ana confirmed she owns the kickoff call."]
+  - id: single_touch_completion                # positive polarity of multi_system_process_sprawl
+    description: "A sales process step completed in one pass, without rework or system juggling"
+    polarity: positive
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "A sales process step (quote, order, renewal, proposal) is completed within the interaction in a single pass, without rework, chasing, or juggling multiple systems."
+    exemplars: ["Quote generated and sent while we were on the phone — two minutes in the tool."]
