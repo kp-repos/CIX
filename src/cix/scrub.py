@@ -11,6 +11,13 @@ from cix.contracts import InteractionUnit, Segment
 EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 PHONE_RE = re.compile(r"\b(?:\+?\d[\s-]?)?(?:\(?\d{3}\)?[\s-]?)\d{3}[\s-]?\d{4}\b")
 
+ROLE_WORDS = {"customer", "rep", "agent", "representative", "support", "caller",
+              "user", "operator", "system", "client", "cx", "csr"}
+
+def _is_person(name: str | None) -> bool:
+    """A person-name to pseudonymize: has an uppercase letter and is not a generic role word."""
+    return bool(name) and name.strip().lower() not in ROLE_WORDS and any(ch.isupper() for ch in name)
+
 class EntityClass(BaseModel):
     name: str
     strategy: str                 # "redact" | "pseudonymize"
@@ -36,11 +43,12 @@ def scrub_corpus(units: list[InteractionUnit], proto: PrivacyProtocol, salt: str
     counts: dict[str, int] = {c.name: 0 for c in proto.entity_classes}
     scrubbed: list[InteractionUnit] = []
     for u in units:
-        # Build the name map from participants that look like real names (contain a space
-        # or are capitalized and not the generic role words).
+        # Person-name map from participants AND segment speakers (C-1: a speaker not listed
+        # in participants must still be pseudonymized). Generic role words are never treated
+        # as identities (I-2).
         name_map: dict[str, str] = {}
-        for p in u.participants:
-            if p and p != "customer" and any(ch.isupper() for ch in p):
+        for p in list(u.participants) + [seg.speaker for seg in u.segments]:
+            if _is_person(p) and p not in name_map:
                 name_map[p] = _pseudonym(cls["person"].prefix, p, salt)
         acct = _pseudonym(cls["account"].prefix, u.account_id, salt) if u.account_id else None
         thread = _pseudonym(cls["thread"].prefix, u.thread_id, salt) if u.thread_id else None
@@ -54,7 +62,6 @@ def scrub_corpus(units: list[InteractionUnit], proto: PrivacyProtocol, salt: str
             counts["phone"] += len(PHONE_RE.findall(text))
             text = PHONE_RE.sub(cls["phone"].token, text)
             for name, token in name_map.items():
-                # replace the full name and the leading given-name token
                 for needle in (name, name.split()[0]):
                     if needle and needle in text:
                         counts["person"] += text.count(needle)
@@ -67,10 +74,12 @@ def scrub_corpus(units: list[InteractionUnit], proto: PrivacyProtocol, salt: str
     return scrubbed, {"counts": counts, "salt_recorded": True}
 
 def residual_scan(units: list[InteractionUnit]) -> list[dict]:
-    """Automated 100% residual re-scan: any leftover email/phone pattern is a residual hit."""
+    """Automated 100% residual re-scan of text AND speaker fields: any leftover email/phone
+    pattern is a residual hit."""
     hits: list[dict] = []
     for u in units:
         for n, seg in enumerate(u.segments):
-            if EMAIL_RE.search(seg.text) or PHONE_RE.search(seg.text):
+            fields = (seg.text, seg.speaker or "")
+            if any(EMAIL_RE.search(f) or PHONE_RE.search(f) for f in fields):
                 hits.append({"interaction_id": u.id, "seq": n})
     return hits

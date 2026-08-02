@@ -59,3 +59,21 @@ def test_report_counts_and_residual_scan_clean():
     assert report["counts"]["email"] == 1 and report["counts"]["phone"] == 1
     assert report["counts"]["person"] >= 1
     assert residual_scan(scrubbed) == []            # no leftover email/phone patterns
+
+def test_speaker_not_in_participants_is_pseudonymized():
+    proto = load_privacy_protocol(PROTO)
+    u = InteractionUnit.model_validate({
+        "id": "i2", "source_type": "note", "participants": [],
+        "segments": [{"speaker": "Dana Reyes", "text": "Dana here, following up."}]})
+    scrubbed, _ = scrub_corpus([u], proto, salt="s")
+    assert scrubbed[0].segments[0].speaker.startswith("PERSON-")   # C-1: speaker pseudonymized
+    assert "Dana" not in scrubbed[0].segments[0].text
+
+def test_capitalized_role_word_not_pseudonymized():
+    proto = load_privacy_protocol(PROTO)
+    u = InteractionUnit.model_validate({
+        "id": "i3", "source_type": "transcript", "participants": ["Agent", "customer"],
+        "segments": [{"speaker": "Agent", "text": "Agent will transfer you now."}]})
+    scrubbed, _ = scrub_corpus([u], proto, salt="s")
+    assert "Agent" in scrubbed[0].segments[0].text                 # I-2: role word kept as-is
+    assert not (scrubbed[0].segments[0].speaker or "").startswith("PERSON-")

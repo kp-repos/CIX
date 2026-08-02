@@ -32,6 +32,14 @@ is `pass` (zero residual hits in the sample), `audit-pending` (sample drawn, hum
 outstanding), or `fail` (residual hits) — a `fail` is a release gate (PRD §8), stopping the
 run, not the thesis.
 
+## Known limitations of the rules pass (accepted for G4 synthetic scope)
+
+The deterministic rules pass does not resolve realistic name populations perfectly:
+two participants sharing a first name can cross-link, and lowercase re-mentions of a name
+are missed (`str.replace` is case-sensitive). These bite only on real name populations;
+G4 runs on synthetic/cleared data. The model-backed NER pass (opt-in) is the answer for
+the post-G4 real-data scrub, where it supplements the rules pass.
+
 ## Honesty
 
 The scrub stage ships and runs even on cleared test data (R-PII-4): the capability is the
