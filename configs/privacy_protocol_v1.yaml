@@ -1,0 +1,29 @@
+# A11 (machine-readable half) — privacy threat model + scrub-audit protocol.
+# Narrative + rationale in docs/A11_privacy_protocol.md.
+# PO-RATIFIED: pending   <- flip to the ratification date at Checkpoint P
+version: "1.0.0"
+# Entity classes the scrub stage removes or pseudonymizes. `pseudonymize: true` means
+# a salted-hash stable token replaces the value (linkage survives, identity doesn't,
+# R-PII-2); false means a fixed redaction token.
+entity_classes:
+  - name: email
+    strategy: redact
+    token: "[EMAIL]"
+  - name: phone
+    strategy: redact
+    token: "[PHONE]"
+  - name: person
+    strategy: pseudonymize
+    prefix: PERSON
+  - name: account
+    strategy: pseudonymize
+    prefix: ACCT
+  - name: thread
+    strategy: pseudonymize
+    prefix: THREAD
+# Sampled human-audit protocol (R-PII-1). The automated residual re-scan runs on 100%;
+# the human audit reviews a seeded sample for residuals the patterns miss.
+audit:
+  sample_size: 20            # scrubbed snippets drawn for human review
+  seed: 20260802
+  residual_fail_threshold: 0 # any automated residual-pattern hit in the sample -> gate fail
