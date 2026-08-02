@@ -63,7 +63,7 @@ items:
     prefilter: null
     criterion: "The sole purpose of the contact is to ask for the status of something already in progress — a status the customer should have been able to see."
     exemplars: ["I'm just calling to find out where my refund is."]
-    swap_ref: SW-STATUS-SELFSERVE
+    swap_ref: null                               # shelf: no unit-compatible (interaction) remedy in v0.1 catalogue
   - id: unanticipated_failure                    # zero-call-resolution framing
     description: "Contact caused by a failure the provider could have anticipated"
     polarity: negative

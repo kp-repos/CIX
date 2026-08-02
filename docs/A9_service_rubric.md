@@ -19,9 +19,11 @@ first-contact resolution · (positive) clean self-service deflection.
 
 ## swap_ref crosswalk
 
-Six negative items carry a `swap_ref` into the stand-in catalogue (A5); two negatives
-(`knowledge_inconsistency`, `unanticipated_failure`) and both positives are shelf/observation
-only. Dangling swap_refs are a test failure (`test_service_rubric.py`).
+Five negative items carry a `swap_ref` into the stand-in catalogue (A5); three negatives
+(`knowledge_inconsistency`, `status_chase_inbound`, `unanticipated_failure`) and both positives
+are shelf/observation only. `status_chase_inbound` is interaction-unit and the v0.1 stub catalogue
+has no unit-compatible (interaction) self-serve remedy, so it is shelved until the catalogue gains
+one. Dangling or unit-incompatible swap_refs are a test failure (`test_service_rubric.py`).
 
 ## Authored second, runs first (R-RUB-6)
 

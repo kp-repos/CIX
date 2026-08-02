@@ -23,3 +23,12 @@ def test_swap_refs_resolve_against_catalogue():
     for i in r.items:
         if i.swap_ref is not None:
             assert cat.by_id(i.swap_ref) is not None, f"{i.id} -> dangling swap_ref {i.swap_ref}"
+
+def test_swap_ref_units_are_compatible():
+    r = _rubric()
+    cat = load_catalogue(Path("configs/catalogue_v0_1.yaml"))
+    for i in r.items:
+        if i.swap_ref is not None:
+            e = cat.by_id(i.swap_ref)
+            assert e.unit_basis == i.unit_of_count, (
+                f"{i.id} unit '{i.unit_of_count}' incompatible with {e.id} basis '{e.unit_basis}'")
