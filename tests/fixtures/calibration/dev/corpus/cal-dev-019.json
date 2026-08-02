@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-019",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Hey, do you have five on the Northstar renewal? They want to add 18 seats and push the services start to May 6."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Yeah, so I looked at the quote. Current term ends April 30, right? If we co-term the new seats, it’s $14,760 net for the remainder."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "That matches my math. Procurement asked if we can keep the same payment terms, net 30, annual invoice."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "That’s fine. No pricing issue from my side. Did they accept the 3% uplift on the base renewal?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "They did. The only thing holding it is the data processing language. I’ve nudged legal and the security team a few times for the sign-off, and Northstar won’t release the PO until that answer comes back."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay. If it lands today, can they still sign by Friday?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, their controller said Friday noon Eastern is their cutoff for the April invoice batch."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Good. For the services piece, keep the kickoff as May 6, but put the admin training on May 9. Their ops lead is out that first week."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Got it. I’ll send the updated order form with 126 total seats and the May dates once the language is cleared."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Perfect. And don’t discount the add-on any further. They’re already at 12% blended."
+    }
+  ]
+}

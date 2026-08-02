@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-025",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so for the 42 users you have today plus the 12 warehouse leads, the pricing sheet puts you at 54 seats. That keeps you in the same tier, $38 per user per month, annual term."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. We were assuming 55 because one of the quality managers may need access too. Is there any issue if we start with 54 and add one in November?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No issue. The extra seat would just prorate from the day you add it through the May 31 term end. For one seat, you're talking roughly $266 if it starts November 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's fine. On billing, we need the invoice dated after July 1. Our new fiscal year starts then, and payables will kick it back if it's in June."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can set the invoice date as July 2. The order form can be signed this week, but billing won't run until then."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. And the go-live date is still August 19, right? We have the plant shutdown the week before, so we don't want training during that window."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, August 19 for go-live. Training would be August 6 and 7, two ninety-minute sessions, recorded, with your supervisors invited."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Contract term is one year, no auto-renewal, same data processing terms as the master agreement from last year?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That's right. One-year term, July 2 through July 1 next year, no auto-renewal, and the existing master terms carry over. The order form will just reference them."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, send that over at 54 seats with the July invoice date. If it matches what we discussed, I can get it signed by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the order form this afternoon: 54 seats, $24,624 annual subscription, July 2 invoice date, August 19 go-live, and the two training sessions listed."
+    }
+  ]
+}

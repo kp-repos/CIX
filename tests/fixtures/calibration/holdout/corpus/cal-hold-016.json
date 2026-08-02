@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-016",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Jordan. I wanted to walk through the final quote for the 42 seats and make sure the April 15 go-live still works on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, April 15 is still the target. We have 38 named users to start, but we want the contract to include 42 so we have a little room for the two new coordinators and a couple managers."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That matches what I have. The quote is $31,920 annually, net 30, with onboarding at $4,500 one-time. The onboarding includes two admin sessions and three end-user trainings."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. On the trainings, can we schedule the end-user ones across two weeks? Our operations team is split across Eastern and Pacific time."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that's fine. We usually do one 60-minute session for admins first, then the user sessions after configuration is done. If we start the week of March 25, April 15 is very realistic."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. The only thing finance asked me to confirm is the renewal language. Is it annual renewal with 60 days' notice?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Initial term is 12 months starting April 15, then annual renewals unless either side gives 60 days' notice before the renewal date. No multi-year commitment in this version."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. And invoice goes to ap@northlakeparts.com, with PO 78419 on it. They won't process it without the PO."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. I'll add the PO to the order form and have the invoice reference it. Once the order form is signed, billing will send the invoice within one business day."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send it over today if you can, and I'll route it for signature. Our controller is in tomorrow, so we should be able to get it back by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the order form and the implementation timeline together, and I'll put a hold on March 26 for the admin kickoff."
+    }
+  ]
+}

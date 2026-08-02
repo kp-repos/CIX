@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-006",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the final quote for the analytics workspace renewal and make sure the seat count and start date match what your team needs."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re at 42 users today, and we want to add 8 more for the operations team, so 50 total. We’d like the new term to start April 1 if that’s still available."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, April 1 works. For 50 seats on the professional plan, the annual subscription comes to $38,500, and that includes the standard support package."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the implementation hours we discussed, is that still a separate line item?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It is. The onboarding services are 20 hours at $175 an hour, so $3,500. That covers the admin setup, two training sessions, and the dashboard migration review."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s fine. We’ll need the invoice split between subscription and services, same purchase order, just two lines. Our finance team asked for that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No problem. The invoice can show the $38,500 subscription and $3,500 services separately, with a total of $42,000 before tax. Payment terms are net 30, same as last year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. One other thing, the contract term is 12 months, right? April 1 through March 31 next year?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, April 1, 2026 through March 31, 2027. Auto-renew is included, with 30 days’ notice if you don’t want to renew."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send me the order form today, and I can route it for signature. Our VP is available Thursday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the order form and the services description after this call. If it’s signed by Thursday, we can schedule the kickoff for April 3 or April 4."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "April 4 is better. Let’s pencil that in, and I’ll confirm once the signature is done."
+    }
+  ]
+}

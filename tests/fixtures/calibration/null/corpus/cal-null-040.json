@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-040",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so for the calibration tracking rollout, I have you at 50 named users, right? Thirty-eight techs, eight supervisors, and four quality admins."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We may add two more techs in August, but for the initial PO, 50 is clean."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay. The pricing sheet has 50 seats at $42,000 annually, plus a one-time implementation fee of $6,800. That includes the instrument import, two admin trainings, and the first workflow setup."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Works for budget. On invoicing, can you split the implementation fee onto the first invoice and keep the subscription annual, net 30?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that's standard. First invoice would show $48,800 total, net 30, and then the renewal invoice next year would just be the subscription unless you add services."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. We need go-live by July 15 because our audit starts August 6. Is that realistic if we sign by June 14?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. If signature and PO are in by June 14, kickoff the week of June 17, data import by June 28, user acceptance the week of July 8, and go-live July 15 is comfortable."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Contract term, just twelve months? Our finance team doesn't want a three-year commitment yet."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Twelve months is fine. The order form will show a July 15 start date and a July 14 end date next year. No multi-year language."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send the order form to me and copy Dana in procurement. If it matches what we discussed, I'll route the PO tomorrow."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it this afternoon with the seat count, pricing, net 30 terms, and the July 15 implementation schedule called out."
+    }
+  ]
+}

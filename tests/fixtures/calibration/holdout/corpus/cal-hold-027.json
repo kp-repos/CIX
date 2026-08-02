@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-027",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, so we’re still aiming for a February 10 go-live. I reviewed the kickoff note from your services team, and it lists CSV upload for users. We had landed on SCIM for the 180 seats, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Right, SCIM is included for your plan. I’ll get that reflected on the kickoff agenda before Friday’s call."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, good. Our IT lead blocked 30 minutes for that specifically, so I just didn’t want them joining and getting a generic import walkthrough."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally fair. The implementation lead will cover SCIM setup, attribute mapping, and the test group first. That should fit in the 30 minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. One other thing: the invoice that came through this morning shows 200 seats at $34,800. The signed order was 180 seats for $31,320, with the extra 20 as optional in July."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I’m looking at the signed order now. I’ll have billing reissue it at 180 seats and keep the July expansion as optional."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. Our finance team is pretty literal with POs, so if it doesn’t match, they’ll just kick it back."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. I’ll send you the corrected invoice today, and the PO can reference the February 1 start date and the $31,320 annual amount."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If those two things are cleaned up, we’re good to keep Friday at 11 Eastern."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Works for us. I’ll send the updated agenda and invoice, then we’ll see you Friday at 11."
+    }
+  ]
+}

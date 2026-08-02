@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-045",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hey Dana, yeah, thanks for making time. I wanted to check in after the kickoff and make sure the July 15 go-live still feels good on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's actually why I grabbed you. On the kickoff, the implementation lead had us down for July 29, and she said the invoice export was not in scope. We had agreed to July 15 with the export to our billing tool included."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, you're right. I apologize, I didn't carry that over cleanly to the implementation team. I'll get that corrected today so they're working from the signed order and the notes from our final pricing call."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. We can live with some compression, but finance needs that export tested before month-end close. It's 42 seats and three cost centers, so manual work is not great."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. The 42 seats are already on the order, and the export is the standard flat file, not a custom build. I’ll ask them to move the first configuration session to this Thursday, June 27, if your admin can make it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thursday works. Priya can do 1:00 Central. What do you need from us before then?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Two things: a sample invoice file from the billing tool and the list of fields you want mapped. If you send those by end of day tomorrow, they can prep before the session."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Fine. And on billing, the first invoice should be net 30 starting at go-live, not contract signature. That was in the order form, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. First invoice issues July 15, net 30, for $38,640 annual subscription plus the $4,200 implementation fee. No usage charges in year one."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Send me a quick confirmation after you talk to implementation, and I'll forward the sample file."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You'll have that confirmation from me this afternoon, and I'll include the Thursday time and the two prep items."
+    }
+  ]
+}

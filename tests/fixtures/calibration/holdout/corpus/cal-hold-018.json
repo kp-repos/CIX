@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-018",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the quote details for the analytics workspace before we send the order form over. I have 42 seats, annual term, target start date October 1st. Is that still right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s right. We may add a few more seats in Q1, but for launch it’s 42. Procurement asked me to make sure the invoice can reference our PO number and the cost center."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can include both on the invoice. Once the PO is issued, just send it back with the signed order form, and billing will match the details before the first invoice goes out."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the annual total you sent was $48,300 before tax, correct?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. That includes the platform subscription, the 42 standard users, and the onboarding package. The onboarding is a one-time $4,500 line item included in that total."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Our finance team asked whether payment terms are net 30 or due on receipt."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Net 30. The first invoice would be issued on October 1st, assuming that’s the effective date on the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Works for us. On onboarding, we need the admin training done by October 10th because our managers start using it the following week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That timing is fine. We can schedule two admin sessions the week of October 7th, probably Tuesday and Thursday, and then a user rollout session the week after."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send the order form to me and copy Marcus in procurement. If the terms match what we discussed, I expect we can return it by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it this afternoon with the October 1st start date, 42 seats, $48,300 annual total, and net 30 terms."
+    }
+  ]
+}

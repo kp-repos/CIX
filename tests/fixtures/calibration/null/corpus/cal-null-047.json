@@ -1,0 +1,63 @@
+{
+  "id": "cal-null-047",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Hi Daniel, yeah, thanks for making the time. I’ve got you down as looking at 42 seats for the operations analytics workspace, with a target go-live the week of March 18. Is that still right?"
+    },
+    {
+      "speaker": "Daniel",
+      "ts": null,
+      "text": "Yeah, that’s right. We’re at 38 users today, but we want a little room for the two supervisors starting in April and then a couple floating admin seats."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Makes sense. The 42-seat annual comes to $31,920 for software, and the one-time implementation package is $4,800. That includes the two training sessions and the basic dashboard setup we talked about."
+    },
+    {
+      "speaker": "Daniel",
+      "ts": null,
+      "text": "Okay. And billing-wise, can you do net 45? Our finance team pays vendor invoices on the 15th and the 30th, so net 30 gets awkward sometimes."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, net 45 is available on annual contracts over $25,000, so that fits. The invoice would go out at signature unless you want the start date aligned to March 1."
+    },
+    {
+      "speaker": "Daniel",
+      "ts": null,
+      "text": "March 1 would be cleaner for us. We’re trying not to book anything against February at this point."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Got it. So contract start March 1, initial term through February 28 next year, 42 seats, net 45, implementation in March. For the go-live, would March 21 be the date you want users fully in, or is that more of a soft launch?"
+    },
+    {
+      "speaker": "Daniel",
+      "ts": null,
+      "text": "Soft launch on the 21st, fully live by April 1. We’ll have the managers in first, then the rest of the team after training."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Perfect. I’ll send the order form with those terms this afternoon. If you’re able to get it signed by next Friday, February 16, we can hold the March training slots."
+    },
+    {
+      "speaker": "Daniel",
+      "ts": null,
+      "text": "That should work. Send it to me and copy Priya in finance. I’ll review the seat count one more time, but unless something weird comes up, 42 is fine."
+    }
+  ]
+}

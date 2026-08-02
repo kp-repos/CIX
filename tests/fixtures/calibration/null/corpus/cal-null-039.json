@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-039",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so just to make sure I have the package right: 42 technician seats, 6 manager seats, and the asset calibration tracking module. Target go-live is May 6."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. The only thing I want clean is billing. We need the U.S. plant and the Ontario plant on separate invoices, same contract if possible."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can do that. Same subscription agreement, two invoice schedules. U.S. would be $38,400 annually, Ontario would be $12,600 annually, both net 45."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And data import is still included? We have about 5,700 gauges and meters in the spreadsheet, maybe 200 retired items we don't care about."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Included. The standard import covers up to 8,000 active assets, so you're under that. We'll use your current spreadsheet format and map asset ID, location, interval, last calibration date, and owner."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Training, remind me what that looks like?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Two 90-minute admin sessions for your quality leads, one technician webinar for the floor users, and recordings afterward. We usually do admin training the week of April 22 and tech training the week before go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Our QA director also asked about uptime and audit history."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "The service commitment is 99.5% monthly uptime, planned maintenance Sundays after 9 p.m. Eastern. Audit history is retained for the full term plus 12 months after termination, and you can export it anytime."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, send the quote to me and Dana in finance. If it matches what we just covered, I think we can get the PO out by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the quote today with the April 15 start date, 12-month term, separate invoices, and May 6 go-live noted."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Thanks, Mark."
+    }
+  ]
+}

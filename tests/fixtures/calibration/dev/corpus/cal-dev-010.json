@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-010",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Hey Maya, quick check on the Harborline renewal. They asked for the 18-month option, right?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, 18 months starting November 15, 72 seats, same support tier. They want the added sandbox in there too."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay. Did they react to the increase?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "A little. The first-year equivalent comes out to $18,900, and I gave them the volume break we talked about, so it’s about six percent over current. Alex in procurement said that’s workable if we hold payment to net 30."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "That’s fine. We can do net 30 on a renewal. Is the proposal already with them?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "It went out at 10:40. Getting the extension packaged was kind of a slog, though — I had to put the same 72 seats, $18,900, November 15 start, and net 30 terms into the pricing sheet, the proposal builder, the contract tool, the billing tool, and the approval form, so it took most of yesterday afternoon and a chunk of this morning."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Got it. At least it’s out. Any legal redlines expected?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "No, they said if we use last year’s paper with the updated term and order details, legal won’t reopen it. They mainly care that the sandbox is listed as included."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Good. If they sign by Friday, can services still hit the November 15 go-live?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, I checked with Sam. They need five business days after signature, so Friday is the line. I told Harborline that plainly."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Perfect. Keep me posted if procurement pushes on the payment date."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Will do. I’ve got a follow-up with Alex tomorrow at 2:30, so I should know then."
+    }
+  ]
+}

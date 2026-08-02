@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-001",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so quick check on the Northstar deal. They're still at 118 seats, annual, $43,200 net, March 1 go-live. Pricing is fine and procurement said the invoice timing works."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay, good. What's left before we can send the order form?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "The only thing is the data processing addendum. Their counsel sent back one redline on the subprocessors notice period, and our legal team hasn't given me the answer yet."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "How long has that been sitting?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Since last Tuesday. I've nudged legal four times and security twice because legal said they may need security to confirm the notification language. I sent the customer a holding note Friday, and again this morning. The deal is literally stalled until that sign-off comes back, because Northstar won't let procurement release the PO without the approved DPA."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Yeah, that's the blocker then. Did they give any indication whether it's acceptable or needs a fallback?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Not yet. The customer's ask is 30 days' notice instead of our standard 15. I don't think it's unusual, but I can't tell them yes without approval."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Right. I'll mention it in the pipeline call as pending legal approval, not a commercial issue. Do they still need the subscription to start March 1?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "They do. They have training penciled for March 6 and 7, twelve managers first, then the rest of the seats later that week."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay. Once the DPA answer comes in, you can send the final order form same day?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep. Order form is ready: one-year term, 118 seats, standard support, net 30. I just need that approved language dropped in."
+    }
+  ]
+}

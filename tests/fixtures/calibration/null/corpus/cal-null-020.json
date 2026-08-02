@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-020",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so just to make sure I heard it right, you’re looking at 48 users for the operations team, annual term, and you want training completed before the October 7 go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s right. Forty-eight is the full count, but only 42 people need access on day one. The other six are supervisors starting later in Q4."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally fine. The order can start with 42 seats at $68 per user per month, billed annually. If you add the six later, they’ll be prorated and co-termed to the same June 30 end date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the implementation package you quoted was $4,800, correct? I need to know if that’s one invoice or separate."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, $4,800 one-time. We can put software and implementation on the same invoice, net 30, unless your AP team needs services broken out as a separate line."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Same invoice is better. Our PO will be for the total first-year amount plus implementation, so I just need the tax estimate and the legal entity name."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. Pre-tax total for 42 seats is $34,272 for the year, plus the $4,800 implementation fee, so $39,072 before tax. The order form will show our legal entity and remit-to details."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. On the timeline, if we sign by September 12, are we still okay for admin training the week of the 23rd?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. We’d do the kickoff on September 17, admin training September 24, and end-user training October 2. That leaves a few business days for your managers to review settings before launch."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Works for me. Send the order form with those dates and the 42-seat start. I’ll route it with the PO request this afternoon."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it over today with the pricing, net 30 terms, and the implementation dates in the notes."
+    }
+  ]
+}

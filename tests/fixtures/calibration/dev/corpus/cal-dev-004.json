@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-004",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the updated quote for the calibration management rollout and make sure it matches what you need for the April go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, thanks. We reviewed it with operations yesterday. The 38 full users and 22 read-only seats look right for phase one."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Great. The quote has those 60 total seats, implementation support, and the data import for your existing gauge list. Annual subscription comes to $48,600, and services are $9,800 one-time."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that lines up with what I saw. On implementation, are you still estimating six weeks?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. If we have the signed order by March 8, kickoff would be the week of March 11, configuration and import in March, admin training April 9, and go-live April 15."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Procurement asked about payment terms. We usually do net 45, not net 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Net 45 is fine for your account. I’ll have that reflected in the final order form. The subscription term would run April 15, 2026 through April 14, 2027."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. And the invoice, would that issue at signature or at go-live?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "At subscription start, so April 15. The services portion would be invoiced at kickoff, week of March 11."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. Send the final order form with net 45, and I’ll route it today. I don’t expect any redlines."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I’ll send it over within the hour, and if anything comes up from procurement, just forward it to me."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Will do. Thanks, Mark."
+    }
+  ]
+}

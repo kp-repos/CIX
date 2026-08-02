@@ -1,0 +1,53 @@
+{
+  "id": "cal-dev-038",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Alex,\n\nWe reviewed the calibration management proposal with our ops leads. We need 32 named users, two plants, and the equipment import from our current spreadsheet.\n\nCan you confirm the annual total and whether April 15 is still realistic for go-live?\n\nPriya"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Priya,\n\nYes, April 15 is still workable if we have the signed order by March 8. That gives us two weeks for the asset import and two weeks for admin training and user setup.\n\nFor 32 seats and the standard implementation package, the annual subscription is $46,080 and implementation is $7,500 one-time.\n\nAlex"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Alex,\n\nThanks. The subscription number is a little high for us this quarter. We budgeted closer to $43k annual, with implementation separate.\n\nIf we can get near that, I can route it for signature this week.\n\nPriya"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Priya,\n\nI texted you the $42,900 annual number for 32 seats; that's fine to use. It hasn't gone through deal desk yet, but we can get the order form moving and I'll clean up the paperwork after.\n\nImplementation stays at $7,500. First invoice would be due net 30 from signature unless you need it tied to April 1.\n\nAlex"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Alex,\n\nOkay. Please set the first invoice for April 1 with net 30 terms. Our finance team prefers subscription and implementation on separate line items.\n\nAlso confirm the contract term is 12 months and renewal is not automatic unless we opt in.\n\nPriya"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Priya,\n\nConfirmed: 12-month initial term, no automatic renewal unless you opt in. The order form will show two line items:\n\n32 seats annual subscription: $42,900\nImplementation package: $7,500\n\nInvoice date April 1, net 30.\n\nAlex"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. One more thing: we have 18 torque tools and 41 pressure gauges in the first import. The rest can come after go-live.\n\nCan your team use our equipment IDs as the primary reference?\n\nPriya"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can use your equipment IDs as the primary reference. Please include the current calibration due date and location columns in the file.\n\nI'll send the order form today and hold April 15 with the implementation team.\n\nAlex"
+    }
+  ]
+}

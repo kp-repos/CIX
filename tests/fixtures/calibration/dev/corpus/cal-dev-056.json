@@ -1,0 +1,58 @@
+{
+  "id": "cal-dev-056",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so for Northbay, they’re still at 62 seats, annual, start date April 1. Procurement asked if we can keep the invoice under $54,000 all-in."
+    },
+    {
+      "speaker": "Jon",
+      "ts": null,
+      "text": "Okay. Is that the same package with onboarding included, or did they move that to services?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Same package. Two admin trainings and the data import. I gave deal desk another quick tap on the 18% exception, so the quote’s still sitting as draft for now."
+    },
+    {
+      "speaker": "Jon",
+      "ts": null,
+      "text": "Got it. Once that’s clean, do you want me to review the order form before you send it?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Please. It’s pretty standard, net 30, one-year term, no auto-renew. They just want the signature packet by next Tuesday if we’re going to hold April 1."
+    },
+    {
+      "speaker": "Jon",
+      "ts": null,
+      "text": "And Riverline, where did that land? I saw the email about 38 seats and quarterly billing."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "They’re fine with the $312 per seat. Billing still has the tax-exempt question; I added one more note to the thread, so their PO walkthrough is just floating on Thursday’s calendar."
+    },
+    {
+      "speaker": "Jon",
+      "ts": null,
+      "text": "Okay, yeah. No need to push the close date yet if they’re still engaged."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Right. I’ll keep both close dates as March 22 unless something changes. Calls are good, champions are responsive, just need the final pieces to line up."
+    }
+  ]
+}

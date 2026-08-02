@@ -1,0 +1,63 @@
+{
+  "id": "cal-null-019",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I saw your note about expanding the analytics workspace from 32 to 45 seats before the October rollout. Is that still the count you want to plan around?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "It is, yeah. We have 12 customer success managers starting October 14, plus one operations lead. So 45 total, but I want the invoice to reflect the increase starting November 1 if possible."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. Your current term runs through March 31, and adding 13 seats on November 1 would prorate the remaining five months. On the pricing sheet, that comes to $7,475 for the add-on period."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that is about what I expected. Can you keep it on net 30? Our AP team gets picky if a mid-term add-on has different payment terms."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, same net 30 terms, same billing contact, and it will reference the existing agreement number. No change to the renewal date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. The only other thing is provisioning. We need the new users able to log in by October 10 so managers can build their dashboards before training."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. If we have the signed order by October 4, implementation can open the seats on October 8. That gives you a couple days of buffer before the 10th."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That timeline is fine. Send it to me and copy Marcus in procurement. He does not need a call, he just wants the order form and the tax breakdown."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the order form today with 13 additional seats, November 1 billing start, net 30, and the $7,475 prorated total. Marcus will be copied."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. If it matches that, I can sign tomorrow morning."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-039",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, yeah, thanks for making time. I wanted to walk through the updated quote for the analytics workspace before I send it over for signature."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. I’ve got about fifteen minutes. We’re still looking at 42 seats total, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, 42 standard seats. The annual subscription comes to $37,800, and then the one-time onboarding package is $4,500. That includes the admin setup session and two team trainings."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I had. The start date would be May 1?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, May 1 contract start, with access turned on that morning. If we get signature by April 24, we can hold the kickoff for the week of May 6."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. On billing, can the invoice be net 30 and sent to ap at our finance alias?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, net 30 is already in the order form. I’ll add the finance alias as the billing contact before it goes out."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. And the renewal term is twelve months, not auto-renewing for multiple years?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Right, initial term is twelve months. It renews annually unless either side gives 30 days’ notice. No multi-year commitment in this version."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and our controller, Marcus Lee. If the numbers are the same, we should be able to sign this week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I’ll send the order form and the service schedule today, and I’ll copy Marcus. Let me know if procurement wants any formatting changes."
+    }
+  ]
+}

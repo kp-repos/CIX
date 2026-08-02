@@ -1,0 +1,8 @@
+{
+  "split": "null",
+  "T-NULL": {
+    "status": "pass",
+    "rate_per_100": 0.0,
+    "detail": "0 false-report interaction(s) in n=50 -> 0.0/100 (pre-registered floor 4/100; empirical rate reported, floor is the gate)"
+  }
+}

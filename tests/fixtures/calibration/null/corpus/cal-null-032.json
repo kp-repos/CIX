@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-032",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hey Dana, thanks for making the time. I saw your note about expanding the analytics workspace before the September planning cycle. Is the ask still 42 additional seats?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, 42 is right. We have 118 today, so that would put us at 160 total. The main thing is we need the new managers live by August 19."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay, that date is workable. For the additional 42 seats, co-termed to your current agreement through May 31, the prorated amount is $18,480. That keeps the same per-seat rate you have now."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. And that can be invoiced as a separate line, not blended into the May renewal invoice?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, separate invoice for the expansion. Net 30, same billing contact, accounts.payable at your company domain, unless you want that changed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, keep it there. Procurement will ask whether there is any implementation fee with this."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No implementation fee for this seat add. We include one 60-minute admin refresh session, and then your customer success manager will send the manager onboarding guide after the order is signed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. We also need the seats assigned in two batches. First 25 on August 12, remaining 17 on August 19. Is that a problem?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No, that's fine. The order will show 42 seats effective August 12 for billing, and we can set the access rollout in those two batches."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send me the order form today if you can. I can route it for signature this afternoon."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the order form with the $18,480 total, May 31 co-term, separate invoice, and the two access dates called out. Anything else you need on it?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Just include our PO number, PO-44718. If that's on there, we should be good."
+    }
+  ]
+}

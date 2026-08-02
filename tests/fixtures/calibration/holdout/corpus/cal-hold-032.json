@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-032",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout plan for the analytics workspace and make sure the quote matches what your team needs for June."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re still at 84 seats for phase one. That’s 62 standard users, 18 managers, and 4 admins. If adoption looks good, we’d add the operations group in Q4."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. The pricing sheet I sent Monday had 84 seats on an annual term starting June 24, with implementation services included as a one-time $7,500 line item. Does that still line up?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes. Finance asked if the subscription invoice can be dated July 1, even if we start setup the week of June 24. Our budget opens July 1."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, that’s workable. We can start implementation under the signed order form and set the first subscription invoice for July 1. The service fee would invoice on signature unless you need that moved too."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, services on signature is fine. The total annual subscription was $51,240, correct?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. That’s after the 10% annual prepay discount. So $51,240 for the software, plus $7,500 for implementation, total first-year amount of $58,740 before any applicable tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Legal had one comment on the renewal language. They want 60 days’ notice instead of 30 if either side is changing the renewal count."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That should be fine. I’ll route that through deal desk and send back an updated order form today. No change to the commercial terms."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If we can get the final version by end of day, I can put it in front of our controller tomorrow morning."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I’ll send the revised order form and the implementation timeline together. Target kickoff would be June 25, admin training July 9, and go-live July 22."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send it over and I’ll reply if anything else comes up."
+    }
+  ]
+}

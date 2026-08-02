@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-032",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I saw your note about adding the support team before the July renewal, so I figured we could just walk through seats and timing."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that’s right. We’re at 42 seats today, and we need to add 18 more for the Denver support group. Ideally they’re live by June 24."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. Your current term runs through July 31, so we can co-term the 18 seats for the remainder of the term, then roll all 60 into the renewal starting August 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. What does that do to the invoice? Finance asked me to avoid a separate long contract if possible."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally. For the prorated add-on, it’s $4,860 before tax for June 24 through July 31. Then the renewal would be 60 seats at $68 per user per month, billed annually, so $48,960 for the year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches what I expected. Any change to our contract terms, or is it just the order form?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Just the order form. Same master agreement, same payment terms, net 30. I’ll include the prorated line and the renewal line so it’s clear for your AP team."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. We’ll need the invoice sent to ap@northlineparts.com, and the PO number should be PO-4178."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. I’ll put PO-4178 on the order form and invoice. For enablement, do you want the 18 users provisioned on June 24, or should we open them a few days early for training?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Open them June 20 if that’s okay. Training is scheduled the morning of the 21st."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, no issue. I’ll set access for June 20, include the admin instructions, and send the order form later today."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and copy Luis in procurement. If it looks like what we discussed, I can sign by Friday."
+    }
+  ]
+}

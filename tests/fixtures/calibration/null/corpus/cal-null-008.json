@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-008",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so thanks for making time, Dana. I had you at 42 current seats, and you’re looking to add the operations supervisors before the September rollout. Is the target still 60 total seats?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. Eighteen more seats. We want everyone trained by September 12, and go-live is September 16."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay, that works. At 60 seats on the annual plan, the pricing sheet shows $48 per seat per month, billed annually. That comes to $34,560 before tax for the year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. And that includes the standard onboarding sessions, right? We don't need custom work, just two admin trainings and the recorded user session."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Two live admin trainings, one recorded end-user session, and the launch checklist. If you want a third admin session, that's $750, but based on what you described I don't think you need it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, let's keep it standard. On invoicing, can you bill it against PO 7814 and set net 30? Finance is asking for that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. Net 30 is fine, and I'll put PO 7814 on the order form and invoice request. The service start date would be September 1 so your team has two weeks before go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That makes sense. Contract term is just 12 months? September 1 through August 31?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Exactly, September 1, 2026 through August 31, 2027. No auto-renew unless you choose it, same as your current terms."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Send me the order form today if you can. I can sign once finance confirms the PO, probably tomorrow morning."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the order form with 60 seats, $34,560 annual total, net 30, PO 7814, and the September 1 start date. Once it's signed, we'll schedule the two admin trainings for the week of September 8."
+    }
+  ]
+}

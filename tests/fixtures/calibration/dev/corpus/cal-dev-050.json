@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-050",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for taking 4:10. My 2:30 got swallowed by getting the approval packet into deal desk, so I appreciate you sliding."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No problem. I only have about twenty minutes, but we can cover the quote. We're looking at 42 seats now, not 38."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 42 seats. At that count you're at $54 per seat per month on an annual term, so $27,216 for the year before the onboarding fee."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "And onboarding was still $3,500? Finance asked if that can land on the first invoice or if it's separate."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It can be on the first invoice. I'll send the revised quote after I get the 42-seat line and billing contact to match in the CRM, likely by 6:00."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Billing contact is Mara Chen, mchen at northlake dot com. PO will probably be issued July 18 if legal is done."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That lines up. If signature is in by July 19, we can hold an August 5 go-live. The services team wanted ten business days for setup."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Can we get our ops director on for fifteen minutes tomorrow morning? He just wants to confirm the data import format."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Nine is the only one I can't do, I'm held in the ops cleanup block then. I can do 10:30 or 1:00 Eastern."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Let's do 10:30. Send the invite to me and Mara, and I'll forward it to him."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I'll send the invite, revised quote, and the invoice layout in one email tonight."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks."
+    }
+  ]
+}

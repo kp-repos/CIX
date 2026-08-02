@@ -1,0 +1,53 @@
+{
+  "id": "cal-dev-025",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so quick update on Finch Manufacturing. They're at 68 seats, annual services bundle, $54,720 net, and they want a March 18 go-live."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay, that all sounds normal. What's still open before they can get it done?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "I've pinged legal twice on their indemnity redline; procurement said they won't countersign until that note comes back."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Got it. Any product or security questions still floating around?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Just the retention table. I nudged the security team again this morning, because their IT lead is holding the PO until we answer the 18-month log question."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay. And price-wise, are they okay with the seat minimum and the services line?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, price is fine. Only thing on commercial is deal desk hasn't approved the 24-month ramp; I asked them yesterday and again before this call, and I can't send the final quote until that sign-off lands."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Alright. Keep Finch warm with the March 18 plan and tell them we're cleaning up the last internal items. If you get answers by Friday morning, we can still close it this month."
+    }
+  ]
+}

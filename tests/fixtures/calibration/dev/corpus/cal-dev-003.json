@@ -1,0 +1,53 @@
+{
+  "id": "cal-dev-003",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Mark,\n\nWe’re planning for 62 seats and a June 17 go-live. Can you send the final quote with implementation included? Finance wants the annual total and payment terms before they cut a PO.\n\nDana"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana,\n\nAttached is the quote for 62 seats, standard support, and the remote implementation package. Annual subscription is $48,900 and implementation is $6,000, net 30.\n\nMark"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. One thing: the quote shows $48,900, but your note yesterday had the subscription at $44,500 if we kept the start date in June. Should I have purchasing use that number?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, use $44,500 for the subscription and $6,000 for implementation. The order form may still show the earlier total for a bit; send the PO against $50,500 and I’ll get the form lined up on my side after.\n\nMark"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. Purchasing also asked whether the 62 seats can be split across our operations and finance teams, or if we need separate agreements."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "One agreement is fine. We’ll set up two admin groups under the same account, and your team can assign the 62 seats across both groups as needed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Please make the start date June 17 and the invoice date July 1. Our AP team won’t process anything dated before the new fiscal month."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No problem. I’ll set contract start as June 17 and first invoice date as July 1, net 30. Once the PO is in, we can schedule kickoff for the week of June 10.\n\nMark"
+    }
+  ]
+}

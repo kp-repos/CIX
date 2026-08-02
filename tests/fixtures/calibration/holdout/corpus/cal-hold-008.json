@@ -1,0 +1,53 @@
+{
+  "id": "cal-hold-008",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya Patel, Customer",
+      "ts": null,
+      "text": "Hi Jordan,\n\nCan you send the final quote for 42 seats of the platform plus implementation? Target go-live is September 16. We need annual billing, net 30, and the service dates should line up to start September 1 if possible.\n\nMaya"
+    },
+    {
+      "speaker": "Jordan Lee, Rep",
+      "ts": null,
+      "text": "Hi Maya,\n\nFor 42 seats, annual subscription is $42,840. Standard implementation is $3,000, but I can include that at no charge if we keep the September 1 start date.\n\nTerm would be 12 months, September 1, 2026 through August 31, 2027. Annual invoice on signature, net 30.\n\nJordan"
+    },
+    {
+      "speaker": "Maya Patel, Customer",
+      "ts": null,
+      "text": "Thanks. Finance is asking whether we can keep year one under $40,000 all-in. The business owner is good with the September 16 go-live, but I need a number they can approve before Thursday’s procurement cutoff."
+    },
+    {
+      "speaker": "Jordan Lee, Rep",
+      "ts": null,
+      "text": "Yeah, understood. I’m checking what room we have on the first-year subscription. No issue on the go-live date from our side as long as we have the user list by September 4."
+    },
+    {
+      "speaker": "Maya Patel, Customer",
+      "ts": null,
+      "text": "The $39,200 you sent over chat works for us. If that is the number, I can get the PO started today. The order form link still shows $42,840, so send me the version we should attach when it catches up."
+    },
+    {
+      "speaker": "Jordan Lee, Rep",
+      "ts": null,
+      "text": "Yes, use $39,200 for the PO amount. I’ll get the updated order form over after the system reflects it. Same terms: 42 seats, annual billing, net 30, September 1 start."
+    },
+    {
+      "speaker": "Maya Patel, Customer",
+      "ts": null,
+      "text": "Got it. Billing entity is Northlake Components, Inc., 1180 Summit Ave, Dayton, OH 45402. AP email is invoices@northlakecomponents.com.\n\nPlease list the cost center as OPS-214 on the invoice if there is a field for it."
+    },
+    {
+      "speaker": "Jordan Lee, Rep",
+      "ts": null,
+      "text": "Thanks. I’ll include the billing details and cost center note. I’ll also send the implementation kickoff dates so your team can pick a slot the week of August 26."
+    }
+  ]
+}

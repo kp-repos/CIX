@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-026",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, appreciate you making the time. I had you down for adding the warehouse team in April, around 18 seats, but I wanted to confirm what changed since we last talked."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, so the count is 22 now. We hired four temps for the spring push, and they need access too. The main thing is we need them live by April 15, not, you know, end of month."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 22 seats, April 15 go-live. Are those all standard users, or do any need admin permissions?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Two supervisors need admin. The rest are standard. Also billing-wise, can you make the invoice hit the same cost center as our current contract? It should be 4810-ops."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can put the add-on under the existing billing account and reference cost center 4810-ops on the invoice. For term, easiest is co-terming to your current agreement end date, December 31, so you're not carrying a separate renewal date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. What does that come out to, roughly?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "For 22 seats co-termed April 15 through December 31, the prorated amount is $18,920. That includes the two admin seats, no separate setup fee. Services for onboarding is optional; based on what you described, one remote training session at $1,200 should be enough."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. We do want the training. Can you do it the week of April 8? Our supervisors are both out on the 12th, so earlier that week is better."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we have Tuesday April 9 at 1 p.m. Eastern open. I’ll include that in the order form and the onboarding plan. Is net 30 still acceptable for payment terms?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, net 30 is fine. Send it to me and copy Marcus in procurement. If the totals match what you just said, I can sign by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send the order form today with 22 seats, co-termed through December 31, $18,920 for licenses plus $1,200 training, net 30, cost center 4810-ops. Once it’s signed, we’ll schedule the April 9 training and target April 15 for go-live."
+    }
+  ]
+}

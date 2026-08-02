@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-047",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for jumping on. I’ve got about twenty minutes; my morning got eaten by typing yesterday’s notes and next steps into the CRM, but I wanted to cover the 38-seat option before your budget meeting."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Twenty is fine. We’re comparing the 38 seats against 45 because support may add seven people in June. I mostly need to know if adding those later changes the unit price."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It doesn’t if we write the order for 38 now and keep the same tier through the first year. The pricing sheet has you at $112 per seat per month, annual contract, billed quarterly."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And go-live, if we sign by May 10, can your team still do May 28?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. May 28 works. The only dependency is getting your sample import by May 15, and I’ll send the template today after I clean up the duplicate account entries the billing tool is showing for your company."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. For invoicing, we need one invoice per quarter, purchase order listed, net 30. Our finance team is pretty strict on that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That’s standard. I’ll put net 30 and quarterly billing in the order form. The PO number can be added before countersignature if they don’t have it today."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "One more thing, legal asked whether the renewal is automatic."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It’s a 12-month initial term with a 60-day non-renewal notice. I can send that clause over, though deal desk wants an internal approval packet for the quarter-end discount, so my next real opening to walk through redlines is Friday at 11."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Friday at 11 works. Send the clause and the 38-seat quote, and I’ll get it in front of legal and finance."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the quote at $51,072 annually, quarterly invoices of $12,768, with May 28 as the target go-live."
+    }
+  ]
+}

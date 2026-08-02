@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-037",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the updated quote for the 42 seats and make sure the May 20 go-live still works on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, May 20 is still the target. We have 38 confirmed users today, but I asked for 42 because finance and two operations managers will need access by June."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That makes sense. The quote has 42 standard seats at $96 per seat per month, billed annually, so the subscription total is $48,384 for the year. Implementation is a one-time $6,500."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And that includes the two admin training sessions we talked about?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It does. Two remote admin sessions, one end-user webinar, and configuration support for the first three workflows. If you add a fourth workflow before launch, that would be scoped separately."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Fair. On the contract term, procurement asked whether we can do a 12-month initial term instead of 24. They don't want to commit past this budget cycle."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so I updated it to 12 months. The per-seat price stays the same at 42 seats. The only thing is the renewal language is annual after that, with 60 days' notice if you don't want to renew."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That should be fine. For invoicing, can you split it into subscription and implementation as separate line items? Same invoice is okay, just separate lines."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that's already reflected. Billing would issue one invoice on signature, net 30, with the subscription and implementation broken out separately."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send me the final order form and I'll route it today. If legal doesn't change anything, we should be able to sign by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I'll send the order form in the next hour, and I'll hold the kickoff slot for Tuesday, May 6, at 10 a.m. Eastern."
+    }
+  ]
+}

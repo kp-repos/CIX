@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-043",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so thanks for making the time. I have the quote updated for 42 seats, annual term, starting March 1. It comes out to $31,920 for the year before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I expected. The only thing I want to confirm is the services line. Is that still the one-time onboarding at $4,800?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. That includes the kickoff, two admin training sessions, and import help for up to 18,000 contacts. If you go over that, we would just scope it before doing anything."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. We are probably around 14,500 records, so that should be fine. For timing, if we sign this week, are we still looking at April 15 for go-live?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. If the order form is signed by Friday, we can start onboarding March 11 and target April 15. There is a little buffer in there for your sandbox review."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. On billing, can you split the annual invoice into two payments, March and September?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, we can do semiannual billing. It would be $15,960 due at contract start and the same amount due September 1. The onboarding fee would be on the first invoice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Legal had one note on the renewal. They want 60 days' notice instead of 90 for non-renewal."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That is within our standard fallback. I can have deal desk update the order form to 60 days and send a clean copy this afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and copy procurement. If it looks right, I can route it for signature tomorrow."
+    }
+  ]
+}

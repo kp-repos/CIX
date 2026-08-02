@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-028",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so for HarborPoint tomorrow, I want to keep it tight: invoice approval routing, the manager dashboard, and then the seat true-up question. They said they’re at 68 users now, likely 75 by June."
+    },
+    {
+      "speaker": "Colin",
+      "ts": null,
+      "text": "Got it. Are they still asking for the two-level approval path, or did finance back off that?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Two-level for anything over $2,500, one-level below that. Pretty standard. I put a sample workflow together with their cost centers, just Sales, Ops, and Field Service."
+    },
+    {
+      "speaker": "Colin",
+      "ts": null,
+      "text": "Okay. I can show that in about twelve minutes. On pricing, are you holding at the 75-seat tier?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, pricing sheet comes out cleaner that way. $18,900 annual subscription, $4,200 onboarding, net 30. If they push on onboarding I can split it across the first two invoices."
+    },
+    {
+      "speaker": "Colin",
+      "ts": null,
+      "text": "Makes sense. Small wrinkle, their current workspace says access through April 30, and that’s tomorrow, so if the link acts strange in the session I’ll use my demo environment instead."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Okay, good call. Don’t let us get stuck on permissions. They care more about the approval emails looking readable on mobile."
+    },
+    {
+      "speaker": "Colin",
+      "ts": null,
+      "text": "Yep. Do they need the billing export in the first go-live, or can that wait?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "They want it by May 20 if possible, but I told them go-live on May 13 is just core routing and reporting. Export can be phase two as long as invoices aren’t manual for more than one cycle."
+    },
+    {
+      "speaker": "Colin",
+      "ts": null,
+      "text": "Cool. I’ll keep the demo focused and leave five minutes for contract term questions at the end."
+    }
+  ]
+}

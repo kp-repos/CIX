@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-059",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Morning, Maya. We’ve got about a half hour. I wanted to confirm pricing for 84 seats and what it takes to start May 6."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, perfect. I’ve got 25 minutes before I’m back in the CRM updating pipeline notes from yesterday, so let’s make this useful. For 84 seats, annual is $58,800, billed upfront, with implementation at $7,500."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. The seat count may land at 90 if support gets added, but finance asked me to price the 84 first. Is the implementation fee fixed?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "For your scope, yes. Two admin workshops, one data import, and go-live support the first week. If you move to 90 seats, subscription goes to $63,000 even, implementation stays the same."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s within the range. We need net 45 on the invoice, though. Our standard vendor terms are not net 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Net 45 is doable on a 12-month term if legal doesn’t change indemnity. And sorry I didn’t get this back to you before close yesterday, I had a two-hour block cleaning duplicate account entries in the database and it squeezed my call time."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No problem. On legal, I don’t think we’ll touch indemnity. The only redline may be auto-renewal notice. We need 60 days, not 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That’s pretty standard. I can put 60-day non-renewal notice in the order form. For a May 6 go-live, we’d want signature by April 19 so the kickoff can be April 23."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "April 19 is realistic if you can get us the paper this afternoon. I’ve got our VP reviewing tomorrow at 10."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I can send it by 3 if deal desk turns the approval. I’ve got to assemble the internal discount packet first, which cuts into the buyer calls I had lined up, but this one is straightforward."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it to me and copy Dana in procurement. If the total is $66,300 with services, that’s what I’ll route."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, $58,800 subscription plus $7,500 implementation, total $66,300, net 45, 60-day notice, 84 seats. I’ll get it over today."
+    }
+  ]
+}

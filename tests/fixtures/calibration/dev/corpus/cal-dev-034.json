@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-034",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hey Dana, thanks for making time. I had us down to review the revised quote for 42 seats and the May 15 go-live. Does that still line up on your side?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that still works. We confirmed 38 standard users and 4 admin users. The only thing I wanted to double-check was the first invoice timing."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sure. The order form has the annual subscription starting May 15, with the first invoice issued on signing. Net 30 terms, so if you sign this week, payment would be due around May 10."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that’s fine. Finance asked whether implementation is on the same invoice or separate."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It’s separate. Subscription is $48,720 for the year, and implementation is a one-time $6,500 services fee. Both are listed on the order form, but billing can issue two invoices if that’s easier."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Separate would be better for us. And the implementation scope still includes the two data imports and the admin training session, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Two historical data imports, one 90-minute admin training, and the go-live support window during the week of May 15. Anything beyond that would be handled as standard support unless you request more services."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. Legal was okay with the 12-month term and auto-renewal as long as the notice period is 60 days."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, the current draft says either party can opt out with 60 days’ written notice before renewal. I’ll resend the order form with the split-invoice note added."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it over today and I’ll route it for signature. I think we can turn it around by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I’ll send it in the next hour, and once it’s signed we’ll get the kickoff call scheduled for the week of April 29."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "cal-dev-021",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Dana Lee, Customer",
+      "ts": null,
+      "text": "Hi Mark,\n\nCan you send pricing for 86 seats of the customer portal package? We’re targeting a September 16 go-live and would want the admin training included.\n\nThanks,\nDana"
+    },
+    {
+      "speaker": "Mark Rivera, Rep",
+      "ts": null,
+      "text": "Hi Dana,\n\nFor 86 seats, annual term, the total is $48,360. That includes the portal package, standard support, and two admin training sessions. Implementation is a flat $4,500 one-time fee.\n\nMark"
+    },
+    {
+      "speaker": "Dana Lee, Customer",
+      "ts": null,
+      "text": "Thanks. We’re approved for $44,000 on subscription this year. If we drop to 80 seats, does that get us there? Implementation is already covered in a separate budget."
+    },
+    {
+      "speaker": "Mark Rivera, Rep",
+      "ts": null,
+      "text": "At 80 seats the annual subscription comes to $44,800. Same support and training included. The 12-month term would run September 16, 2026 through September 15, 2027."
+    },
+    {
+      "speaker": "Dana Lee, Customer",
+      "ts": null,
+      "text": "Understood. We really need to keep the 86 seats because our field managers are included now. Is there any room if we sign this week?"
+    },
+    {
+      "speaker": "Mark Rivera, Rep",
+      "ts": null,
+      "text": "Dana,\n\nThe $43,200 for 86 seats we landed on over text works if you can sign by Friday. I haven’t run that concession through deal desk yet, but I’ll send the order form at that amount and sort the approval paperwork after.\n\nMark"
+    },
+    {
+      "speaker": "Dana Lee, Customer",
+      "ts": null,
+      "text": "Okay. Please send it with the September 16 start date, net 30 payment terms, and the implementation fee shown separately."
+    },
+    {
+      "speaker": "Mark Rivera, Rep",
+      "ts": null,
+      "text": "Attached is the order form.\n\nSummary:\n86 seats\nSubscription: $43,200\nImplementation: $4,500\nStart date: September 16, 2026\nInitial term: 12 months\nPayment: net 30\n\nMark"
+    },
+    {
+      "speaker": "Dana Lee, Customer",
+      "ts": null,
+      "text": "Received. Legal is fine with the standard terms. I’ll route for signature this afternoon and send back the completed copy."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-035",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hey Mark, thanks for calling back. We had the kickoff with your implementation lead this morning, and she had us down for a standard rollout starting June 10. That is not what we agreed to."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, I saw your note. Can you tell me exactly what she said, just so I’m not guessing?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "She said the data import for our 18 branch locations was not included until after go-live, and that the team would only configure the first three locations before June 24. On our contract call, you said all 18 would be loaded before go-live. That was the whole reason we picked June 24 instead of July 8."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "You’re right. We did agree that all 18 locations would be loaded before the June 24 go-live, along with the 64 user seats. I’m sorry, I did not get that agreement to the implementation group, so they were working off the default rollout plan."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, but now my ops managers are asking why they blocked two afternoons next week for testing if there’s nothing to test. It was a pretty awkward meeting."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I get it. That’s on me. I’m going to talk to the implementation lead right after this and confirm the full import is part of week one. We may need your final location spreadsheet by Friday at noon instead of Monday, but the June 24 date should still hold."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We can get the spreadsheet over by Friday. No issue there. I just need confidence we’re not going to find out next week that this is a change order."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It is not a change order. The $38,400 annual subscription and the $4,200 implementation fee stay as signed. I’ll send you and the implementation lead a written confirmation today with the 18-location load listed before go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Also, the invoice timing is still July 1, right? Our finance team already set that up."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, invoice goes out July 1, net 30, same as the order form. I’ll follow up by 3:00 today with the corrected rollout notes."
+    }
+  ]
+}

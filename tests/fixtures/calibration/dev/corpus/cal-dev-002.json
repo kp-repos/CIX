@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-002",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, yeah, thanks for making time. I wanted to walk through the updated quote for 38 seats and make sure the February 12 go-live still works on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that date still works. We have 31 users ready at launch, and then the other 7 are managers who’ll come in after training."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. So the subscription would start February 12 for all 38 seats, annual term, and the invoice would go out on signing. Total is $46,740 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And that includes the onboarding package we talked about, right? The two admin sessions and the end user webinar?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Two 60-minute admin sessions, one 45-minute end user webinar, and the setup checklist. No extra services line item beyond what’s already in the quote."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Procurement asked about payment terms. Can you do net 30, or is it due on receipt?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Net 30 is fine. I’ll make sure that’s reflected in the order form. The standard contract term is 12 months, February 12 through February 11 next year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. We also need the invoice to reference PO 78419. The PO should be approved by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. Once you send the PO over, I’ll attach it to the billing tool and issue the final order form for signature. Anything else procurement flagged?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that’s it. Send me the updated order form with net 30 and the seat count, and I’ll route it today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You’ll have it in the next hour, and I’ll hold the February 12 kickoff slot for your team."
+    }
+  ]
+}

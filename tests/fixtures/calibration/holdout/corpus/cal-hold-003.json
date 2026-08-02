@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-003",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making the time. I had us down for a quick review of the 35-seat quote and the January rollout timing. Does that still work?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that works. We reviewed it internally, and the seat count is right for now. It would be 28 standard users and 7 managers."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. The proposal I sent has 35 total seats at $62 per seat per month, billed annually, so $26,040 for the first year. Implementation is the fixed $4,800 package."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Finance asked if the invoice can be dated January 2nd instead of December. Our budget opens then."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that's fine. We can set the contract effective date as January 2nd and target go-live for February 5th, assuming we get the signed order by December 18th."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That timeline is reasonable. For implementation, is that three training sessions or two?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It includes two admin sessions and three end-user sessions, all remote. If you need one extra manager session later, we can add it for $750, but most teams don't need it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. Legal had one note on the auto-renewal. They want 60 days' notice instead of 90."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, we can accept 60 days. I'll update that language and send the revised order form this afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it to me and copy Martin in procurement. If everything matches, we should be able to sign next week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll include the pricing summary, the January 2nd invoice note, and the February 5th go-live plan in the email."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks, Alex."
+    }
+  ]
+}

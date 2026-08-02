@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-031",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the final scope for the analytics workspace rollout and make sure the seat count and dates still line up on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that sounds good. We’re still looking at 42 standard seats and 6 admin seats for the first phase. Finance may add a few later, but not before go-live."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay, 48 total for the initial order. The pricing sheet has that at $31,680 annually, billed upfront, with implementation at $4,500 one-time. Does that match what you had?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that’s what I have. We need the invoice dated after March 1, though, because it has to hit the new cost center."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No problem. If we get signature by February 23, we can set the contract start for March 1 and have billing generate the invoice that day."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. On timing, our team wants the kickoff the week of March 11 and go-live by April 8. Is that still realistic?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. With your data file and user list by March 8, implementation can support an April 8 go-live. Training would be two 60-minute sessions the week before."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Please include the training sessions in the order form notes so I can point our operations lead to it."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. The term is 12 months, auto-renewal with 60 days’ notice, and standard support included. Any redlines expected from legal?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, we already reviewed the template. Send the order form today, and I’ll route it for signature."
+    }
+  ]
+}

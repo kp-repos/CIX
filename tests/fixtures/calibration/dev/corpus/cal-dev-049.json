@@ -1,0 +1,58 @@
+{
+  "id": "cal-dev-049",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana,\n\nAttached is the renewal outline for 42 seats, 12-month term starting May 1. It keeps the current support tier and adds the reporting module.\n\nTotal is $31,752 annually, invoiced on signature with net 30 terms.\n\nMark"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Mark,\n\nThanks. We’re good on the 42 seats and May 1 start. The annual total is a little high for what I have approved. I’m at $29k even for the year.\n\nDana"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Dana,\n\nUnderstood. If we keep the reporting module but move the admin training to a recorded session, I can get close.\n\nWould $29,484 work? Same 42 seats, same May 1 start, annual invoice.\n\nMark"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That should work. Can you confirm there’s no change to data retention or the standard support response time?\n\nDana"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, no change there. Retention stays at 24 months and support stays next-business-day for standard tickets, four-hour target for urgent.\n\nMark"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Procurement will ask why the order form still shows $31,752. The number you sent me separately is fine for approval on our side if you can get the final doc lined up after.\n\nDana"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that’s fine. Use $29,484 for the approval packet. I’ll send the cleaned-up order form before you route for signature.\n\nMark"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Please make the billing contact ap@northlakefoods.com and list the PO as required. We should have the PO by April 24.\n\nDana"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll include the billing contact and PO-required language. Once the PO is in, we can target May 1 go-live without any gap in access.\n\nMark"
+    }
+  ]
+}

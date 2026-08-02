@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-000",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for jumping on. I've got about 18 minutes before I need to finish the renewal packet for deal desk, so I want to use this for seat count, invoice split, and the July date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, works. We have 74 users today, and we're adding 12 support leads by May 6. Finance also wants the invoice split 60% headquarters and 40% Phoenix."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. So 86 total seats, dashboard package included, and split billing. The quote I sent was $48 per seat per month on a 12-month term."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Can you hold the $48 through the end of April? Our VP is out until the 25th, but she already approved the budget."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, I can hold it through April 30. And sorry I missed your call yesterday afternoon; I was heads down reconciling the import so the account wouldn't duplicate. That's fixed now."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No worries. Main thing is the go-live. We need July 1 because training starts the week after, July 8."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "July 1 is fine if signature is in by April 26. We can waive the $1,200 onboarding fee and schedule admin training for June 24 or 25."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Legal will ask to remove auto-renewal. Is that going to slow things down?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "They can strike auto-renewal if payment stays annual upfront, net 30. That's been accepted before, so it shouldn't be a big lift."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Send the revised quote and I'll review it with procurement at 3:30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I can send it before lunch. For the review, 3:30 is tight; I'm blocked for end-of-month entries until four, but I can do 4:15 if that still works."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "4:15 is fine. If the numbers match what we discussed, we should be able to turn it by Friday."
+    }
+  ]
+}

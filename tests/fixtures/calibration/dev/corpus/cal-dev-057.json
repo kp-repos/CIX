@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-057",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to check on the kickoff for the 85-seat operations rollout and make sure the March 25 go-live still works on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "It does, mostly. One thing though, we had agreed to do SSO testing on March 11, but the onboarding invite came through for March 18 and it asked us to bring identity metadata like nobody had that context."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Ah, yeah, I’m sorry. That note did not make it over to the onboarding team. I’ll get the invite corrected today for March 11 and make sure they have the metadata details we covered."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, good. Our IT lead blocked two hours that morning, so I’d rather not move it if we don’t have to."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally. The rest is straightforward: 85 seats to start, admin training on March 14, manager training on March 19, and go-live the 25th. If you add the field team later, we can quote the extra 20 seats separately."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches. The other thing is the invoice. It came over as $42,300 due net 30, but we agreed to split it, 50% at signature and 50% on June 1 after rollout."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "You’re right. Billing didn’t get the split-payment term from the final order form. I’ll have them void that invoice and reissue it as $21,150 due now and $21,150 due June 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. Our AP team can process the first half this week if the corrected invoice lands by tomorrow."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I’ll push for that. You should see the updated invoice by end of day tomorrow, and I’ll send the corrected kickoff invite separately."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. If those two things are fixed, we’re on track."
+    }
+  ]
+}

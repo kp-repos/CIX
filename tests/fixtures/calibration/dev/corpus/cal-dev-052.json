@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-052",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Hey Jordan, do you have two minutes on the Northgate renewal?"
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Yeah, so I’m between calls. What’s up?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "They’re good with the 24-month extension, 72 seats, same support level. They want the new term to start November 1 and they asked for annual invoicing instead of quarterly."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay. Discount still at 12%?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep, comes to $38,400 a year before tax. I have the pricing sheet, the billing quote, and the contract request all showing 72 seats and November 1 now, but can you sanity check the numbers before I send the proposal? I was in and out of them yesterday and this morning."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Sure. Send me the draft PDF."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Just sent. The only customer-facing change from last year is the invoice cadence. No redlines to terms, no services add-on."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Looking now. Pricing matches: 72 seats at $44.44 per seat per month, 12% discount, annual total $38,400. Term says November 1, 2026 through October 31, 2028."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Great. I’ll send it to Erin and cc procurement. She said if they have it by 3 today, they can get a PO issued this week."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Looks clean. I’d just mention the first invoice will cover the full first year so they’re not surprised."
+    }
+  ]
+}

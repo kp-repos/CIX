@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-001",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Hey Ben, quick check on North Ridge renewal. They’re asking for 84 seats, same support tier, start date August 1. Can you look at the draft before I send it?"
+    },
+    {
+      "speaker": "Ben",
+      "ts": null,
+      "text": "Yeah, pull it up. Is this the two-year option with the 4% uplift in year two?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Correct. Year one is $78,540, year two is $81,682. They also want the invoice split quarterly instead of annual."
+    },
+    {
+      "speaker": "Ben",
+      "ts": null,
+      "text": "Okay. The pricing itself looks fine. Did legal already bless the net-45 language?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, they approved it this morning. The only slow part was getting the extension generated. I had to put the same seat count, dates, billing split, and uplift into the CRM, then the pricing sheet, then the contract system, and then the billing tool, and each one wanted it in a slightly different format, so it ate most of yesterday and part of today."
+    },
+    {
+      "speaker": "Ben",
+      "ts": null,
+      "text": "Yeah, that's painful. But the numbers match across the draft now?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "They do. I checked the total contract value and the quarterly invoice amounts. First invoice should be $19,635 on August 1."
+    },
+    {
+      "speaker": "Ben",
+      "ts": null,
+      "text": "Good. One thing: on page three it says renewal term begins July 31. That should be August 1, right?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Oh, good catch. Yeah, August 1. I’ll fix that before sending."
+    },
+    {
+      "speaker": "Ben",
+      "ts": null,
+      "text": "Then you’re good. I’d include both payment schedule and the two-year summary in the email so their finance lead doesn’t have to hunt for it."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep. I’ll send it to Dana and copy procurement. Thanks."
+    }
+  ]
+}

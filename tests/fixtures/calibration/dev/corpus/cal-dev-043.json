@@ -1,0 +1,58 @@
+{
+  "id": "cal-dev-043",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so quick check on the Northstar renewal. They're staying at 64 seats, adding the analytics add-on, and they want the extension to run Feb 1, 2026 through Jan 31, 2027."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Same commercial terms or did they push on price?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Same list, 8% renewal uplift, then a 10% discount because they signed the expansion before year-end. Net is $71,420 for the year."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Okay. Procurement asked for anything weird in the terms?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No, just annual invoice up front and the 30-day payment language they had last time. Legal already said we can leave the indemnity section as-is."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Are you getting them the proposal today?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, before three. The quote file had Monday's 60-seat version, the draft had yesterday's Jan 31 end date, and billing setup still showed the old 52 seats, so I'm lining those up before I send the PDF."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Got it. If it lands today, are they signing this week?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That's what Tara said. They need it for their Friday PO run, then go-live for the add-on is targeted for March 4."
+    }
+  ]
+}

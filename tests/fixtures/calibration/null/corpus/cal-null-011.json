@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-011",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Priya. I had 30 minutes down to confirm the seat count and target go-live for the analytics workspace."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep. We’re at 38 users for launch, with probably another 6 in September. I don’t want to buy 50 seats if we’re not using them yet."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally fair. The cleanest setup is 40 seats on the initial order, then you can add seats mid-term at the same unit rate. For 40, it’s $29,600 annually, invoiced net 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And if we add 6 seats in September, is that prorated through the same end date?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Same contract end date, June 30, 2027. The September add-on would just be prorated for the remaining months."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Our finance team also asked whether implementation is separate or included."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "For your package, the standard onboarding is included: two admin sessions, one end-user training, and the migration checklist. If you want us to do the historical import for you, that’s a one-time $3,200 services line."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Let’s skip the import for now. We can handle the last twelve months ourselves. Go-live is still August 12, assuming we can get the order done this week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. I’ll send the order form for 40 seats, annual billing, no paid services, start date July 15, and target go-live August 12."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and copy Mark in procurement. If the invoice can reference PO 78441, that’ll keep it moving."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll include PO 78441 on the billing notes and send the signature link today."
+    }
+  ]
+}

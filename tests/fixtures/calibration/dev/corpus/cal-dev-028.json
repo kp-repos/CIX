@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-028",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the final quote for the calibration management rollout and make sure the seat count and start date still match what your team needs."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re still at 42 standard users and 6 admin users. That covers the lab supervisors, quality, and the two folks in maintenance who need to close work orders."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. The quote I have is for 48 total seats, annual term, starting September 1. Software is $38,400 for the year, and the implementation package is $7,500 one-time."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches what I had. For implementation, you had three remote sessions and the data import for about 1,800 instruments, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Exactly. Three 90-minute training sessions, import of your active instrument list, and setup for the calibration intervals and reminder rules. We’ll use your spreadsheet as the source file."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Our only timing thing is we want the system live before the October audit. If we sign by August 16, is September 23 still realistic?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that’s realistic. If we have the signed order and the instrument file by August 16, we’d target configuration the week of August 26, training the week of September 9, and go-live on September 23."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. On billing, can the invoice be split between the software and implementation? Our finance team books those differently."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can do two invoice lines on the same invoice: $38,400 subscription and $7,500 services. Payment terms are net 30, unless you need something else approved."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Net 30 is fine. Send me the order form with those dates and the two invoice lines, and I’ll route it for signature this afternoon."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it over in the next hour, and I’ll include the implementation timeline in the email so your quality manager has it handy."
+    }
+  ]
+}

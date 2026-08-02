@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-023",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I had us down to confirm the 42 technician seats, the three admin seats, and the June 17 go-live for the calibration module. Is that still the shape of it?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We did add two supervisors who only need read-only access, though. They need to see overdue gauges but not edit procedures."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. Read-only seats are included in the team plan, so that does not change the $31,800 annual subscription. The only added line is the one-time data import for the 1,260 instruments, which is $4,200."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And invoicing, can you split that? Subscription billed to operations, import billed to quality. Same company, just different cost centers."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can do two invoices on the same order. Operations would show $31,800, cost center 4802, and quality would show $4,200, cost center 4715."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. For the import, we can send the instrument list by May 24. Is that enough time for June 17?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so May 24 works. That gives the implementation team about three weeks to map the fields, load the assets, and run the exception report with you before training."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Training is the other thing. We have day shift and second shift. Could we do two sessions on June 13, maybe 10 a.m. and 3 p.m. Central?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. I’ll put both sessions in the order notes: June 13 at 10 and 3 Central, recorded, up to 30 attendees each. No extra charge."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send the order form to me and copy Mark in purchasing. If it matches what we discussed, I can get it signed by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. It’ll show a 12-month term starting June 17, net 30, two invoices by cost center, and the seat mix we covered. I’ll send it over this afternoon."
+    }
+  ]
+}

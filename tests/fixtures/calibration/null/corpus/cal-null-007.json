@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-007",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the add-on seats for the analytics workspace and the timing you mentioned for the finance team."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Right. We need 18 more seats, all standard users, not admins. We'd like them active by March 4 if possible."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. Your current agreement runs through September 30, so the 18 seats would be prorated from March 4 through that same end date. On the pricing sheet, that comes to $14,220 for the remainder of the term."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And that includes the same support level we have now?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, same business-hours support and the two admin training sessions. No change to the service terms."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Finance asked if the invoice can reference cost center 4107 and our PO, which should be issued tomorrow."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, send me the PO when you have it. I’ll put cost center 4107 on the order form and the invoice request, and billing can issue against the PO."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Any setup fee for these seats?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No setup fee. Just the prorated seat cost. Once the order form is signed, we can enable the seats the same day, and your admin can assign them."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Alright, send the order form to me and copy Marcus in procurement. If it matches what you just said, we should have it signed by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it over this afternoon with the March 4 start date, 18 standard seats, $14,220, and the September 30 co-term end date."
+    }
+  ]
+}

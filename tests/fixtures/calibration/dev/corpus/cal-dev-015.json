@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-015",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, this is Mark from Northstar Analytics. Thanks for making time. I saw your note about adding the service desk team before the April go-live, so I figured we could just walk through seats and timing."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, thanks. We’re still targeting April 15. Right now we have 38 users in the platform, and we need to add 12 more for the service desk managers and leads."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, so that would take you to 50 total seats. Your current order is $82 per seat per month through November 30, and the same rate applies on the add-on if we coterm it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, and coterm means the new 12 seats just run from, what, April 1 through November 30?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Exactly. If we set the start date to April 1, the prorated amount for the 12 seats is $7,872 before tax. It would show as a separate line on the April invoice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Can the invoice reference PO 44719? Our AP team is picky about that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, no issue. I’ll include PO 44719 on the order form and the invoice memo. Do you need net 30 like the current contract?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, net 30 is fine. Also, can those users be active for testing on April 8, or do we have to wait until the start date?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "We can provision them on April 8 for testing. Billing would still start April 1 since that’s the coterm start, but access can be turned on whenever your admin wants it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Send the order form to me and Luis, and I’ll get signature by Friday if legal doesn’t have questions."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I’ll send it over today with the 12-seat add-on, April 1 start, November 30 end date, net 30, and PO 44719 noted."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Thanks, Mark."
+    }
+  ]
+}

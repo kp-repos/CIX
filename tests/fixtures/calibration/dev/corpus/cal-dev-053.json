@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-053",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so thanks for making time, Dana. I had us down for 42 seats to start, with the implementation package and a June 17 go-live. Is that still the right shape?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We may add three more seats in support later, but for the initial order it's 42. Finance wants the invoice split annual subscription and services as separate line items."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can do that. The subscription would be $31,920 for the year, and implementation is $6,400 one time. Both can be on the same invoice with separate lines, or two invoices if they prefer."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Same invoice is fine. Payment terms are net 30, correct?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, net 30. The order form will show a 12-month term starting June 17, with renewal on June 17 next year. No auto-increase language beyond the standard renewal notice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Legal already reviewed the master terms last quarter for our pilot, so I don't expect much there. Can you include the pilot credit?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, the $2,000 pilot credit is applied to the first-year subscription, so the net subscription line is $29,920. Services stays at $6,400."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. For go-live, we need admin training the week of June 3 and end-user training the following week. Is that still available?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It is. I checked with the services team this morning. They have June 4 for admin training and June 11 for end users, both at 1 p.m. Eastern."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send the order form to me and copy Marcus in procurement. If we get it today, I can route it for signature by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it over this afternoon with the seat count, invoice line items, pilot credit, and the two training dates listed in the notes."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-002",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Evan,\n\nCan you send pricing for 42 seats with the support add-on? We’re targeting a September 1 start and would need the invoice billed to Northbrook Holdings, net 30.\n\nMaya"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Maya,\n\nFor 42 seats, annual term, the subscription is $24,192. Support add-on is included at that seat count. One-time onboarding is $2,500.\n\nTerm would run September 1, 2026 through August 31, 2027, net 30 billing.\n\nEvan"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. The subscription number is a little high for us. We have $20k approved for software and can handle onboarding separately if needed.\n\nIf there’s any flexibility, I can get legal started this week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, understood. Per the message thread, I can hold it at $19,950 for the annual subscription if you can sign by Friday; I haven’t run it through deal desk yet, but I’ll get the paperwork cleaned up after.\n\nOnboarding would stay at $2,500."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Please send the order form with:\n\n42 seats\n$19,950 subscription\n$2,500 onboarding\nStart date September 1\nNet 30\n\nBilling contact is ap@northbrookholdings.com."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Attached is the order form.\n\nI also included the standard service terms and the support description. The only open field is the signer name. Let me know if it should be you or Daniel Reeves."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Daniel will sign. Please update the signer to Daniel Reeves, VP Operations.\n\nAlso, can you confirm we can add 8 more seats in Q4 at the same per-seat rate?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Updated order form attached with Daniel as signer.\n\nYes, any added seats during the term will prorate at the same annual per-seat rate. If you add 8 seats on November 1, the prorated amount would be $2,533.33 through August 31."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Looks good. I sent it to Daniel for signature. Assuming he signs today, when would implementation kick off?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "If we receive signature today, we can schedule the kickoff for September 3 or 4. The usual setup takes about 10 business days, so your team would be live by September 18."
+    }
+  ]
+}

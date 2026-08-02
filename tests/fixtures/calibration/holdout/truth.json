@@ -1,0 +1,206 @@
+{
+  "cal-hold-000": {
+    "pathology": "P1",
+    "loudness": "camouflaged",
+    "expected_occurrences": 3
+  },
+  "cal-hold-001": {
+    "pathology": "P2",
+    "loudness": "loud",
+    "expected_occurrences": 1
+  },
+  "cal-hold-002": {
+    "pathology": "P5",
+    "loudness": "moderate",
+    "expected_occurrences": 1
+  },
+  "cal-hold-003": null,
+  "cal-hold-004": {
+    "pathology": "P4",
+    "loudness": "moderate",
+    "expected_occurrences": 1
+  },
+  "cal-hold-005": null,
+  "cal-hold-006": null,
+  "cal-hold-007": {
+    "pathology": "P5",
+    "loudness": "loud",
+    "expected_occurrences": 1
+  },
+  "cal-hold-008": {
+    "pathology": "P5",
+    "loudness": "camouflaged",
+    "expected_occurrences": 1
+  },
+  "cal-hold-009": {
+    "pathology": "P6",
+    "loudness": "moderate",
+    "expected_occurrences": 1
+  },
+  "cal-hold-010": {
+    "pathology": "P3",
+    "loudness": "camouflaged",
+    "expected_occurrences": 1
+  },
+  "cal-hold-011": {
+    "pathology": "P1",
+    "loudness": "loud",
+    "expected_occurrences": 1
+  },
+  "cal-hold-012": {
+    "pathology": "P2",
+    "loudness": "moderate",
+    "expected_occurrences": 3
+  },
+  "cal-hold-013": {
+    "pathology": "P1",
+    "loudness": "loud",
+    "expected_occurrences": 2
+  },
+  "cal-hold-014": {
+    "pathology": "P5",
+    "loudness": "loud",
+    "expected_occurrences": 1
+  },
+  "cal-hold-015": {
+    "pathology": "P6",
+    "loudness": "camouflaged",
+    "expected_occurrences": 1
+  },
+  "cal-hold-016": null,
+  "cal-hold-017": {
+    "pathology": "P6",
+    "loudness": "loud",
+    "expected_occurrences": 1
+  },
+  "cal-hold-018": null,
+  "cal-hold-019": {
+    "pathology": "P3",
+    "loudness": "loud",
+    "expected_occurrences": 1
+  },
+  "cal-hold-020": null,
+  "cal-hold-021": {
+    "pathology": "P2",
+    "loudness": "camouflaged",
+    "expected_occurrences": 2
+  },
+  "cal-hold-022": {
+    "pathology": "P2",
+    "loudness": "loud",
+    "expected_occurrences": 2
+  },
+  "cal-hold-023": {
+    "pathology": "P6",
+    "loudness": "moderate",
+    "expected_occurrences": 1
+  },
+  "cal-hold-024": null,
+  "cal-hold-025": null,
+  "cal-hold-026": {
+    "pathology": "P4",
+    "loudness": "moderate",
+    "expected_occurrences": 2
+  },
+  "cal-hold-027": {
+    "pathology": "P4",
+    "loudness": "camouflaged",
+    "expected_occurrences": 2
+  },
+  "cal-hold-028": {
+    "pathology": "P6",
+    "loudness": "camouflaged",
+    "expected_occurrences": 1
+  },
+  "cal-hold-029": null,
+  "cal-hold-030": {
+    "pathology": "P3",
+    "loudness": "moderate",
+    "expected_occurrences": 1
+  },
+  "cal-hold-031": null,
+  "cal-hold-032": null,
+  "cal-hold-033": {
+    "pathology": "P2",
+    "loudness": "moderate",
+    "expected_occurrences": 1
+  },
+  "cal-hold-034": {
+    "pathology": "P3",
+    "loudness": "camouflaged",
+    "expected_occurrences": 1
+  },
+  "cal-hold-035": {
+    "pathology": "P4",
+    "loudness": "loud",
+    "expected_occurrences": 1
+  },
+  "cal-hold-036": null,
+  "cal-hold-037": {
+    "pathology": "P3",
+    "loudness": "loud",
+    "expected_occurrences": 1
+  },
+  "cal-hold-038": null,
+  "cal-hold-039": null,
+  "cal-hold-040": {
+    "pathology": "P4",
+    "loudness": "camouflaged",
+    "expected_occurrences": 1
+  },
+  "cal-hold-041": null,
+  "cal-hold-042": {
+    "pathology": "P5",
+    "loudness": "camouflaged",
+    "expected_occurrences": 1
+  },
+  "cal-hold-043": null,
+  "cal-hold-044": null,
+  "cal-hold-045": {
+    "pathology": "P2",
+    "loudness": "camouflaged",
+    "expected_occurrences": 3
+  },
+  "cal-hold-046": {
+    "pathology": "P6",
+    "loudness": "loud",
+    "expected_occurrences": 1
+  },
+  "cal-hold-047": {
+    "pathology": "P1",
+    "loudness": "moderate",
+    "expected_occurrences": 3
+  },
+  "cal-hold-048": {
+    "pathology": "P3",
+    "loudness": "moderate",
+    "expected_occurrences": 1
+  },
+  "cal-hold-049": null,
+  "cal-hold-050": null,
+  "cal-hold-051": {
+    "pathology": "P5",
+    "loudness": "moderate",
+    "expected_occurrences": 1
+  },
+  "cal-hold-052": null,
+  "cal-hold-053": null,
+  "cal-hold-054": null,
+  "cal-hold-055": null,
+  "cal-hold-056": null,
+  "cal-hold-057": {
+    "pathology": "P4",
+    "loudness": "loud",
+    "expected_occurrences": 2
+  },
+  "cal-hold-058": {
+    "pathology": "P1",
+    "loudness": "camouflaged",
+    "expected_occurrences": 2
+  },
+  "cal-hold-059": {
+    "pathology": "P1",
+    "loudness": "moderate",
+    "expected_occurrences": 1
+  }
+}

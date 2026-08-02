@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-041",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so I need a gut check on Northline. They approved 47 seats at $68 per user, annual, net 30, and they want the agreement extended through January 31, 2027."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "That lines up with the pricing sheet. Any services on it?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Just the standard onboarding package, $3,200 one-time. Go-live target is February 3. Their finance lead asked that the first invoice not go out until February 1."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay, that’s all normal. What’s the blocker?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "The blocker is getting the actual proposal out. To extend the agreement I have to put the same customer name, billing address, 47 seats, $68 rate, contract end date, invoice timing, and onboarding fee into the pricing sheet, then the quote tool, then the approval portal, then the billing tool, then the order form generator, and then the e-sign packet. None of them carry the fields over. I did the first pass yesterday afternoon, deal desk asked for the invoice date added, and now I’m retyping the same seven fields everywhere again. It’s like six hours across two days for a renewal that is already verbally approved."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Yeah, that’s painful. For Northline specifically, I can review the numbers before you send so we don’t get another bounce."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Please. I’ve got the order form showing $38,352 annual subscription, plus $3,200 onboarding, total $41,552 before tax."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "That math is right. Make sure the term says February 1, 2026 through January 31, 2027, not the go-live date."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep, good catch. Their procurement person is out Friday, so I’m trying to get it to them by 2 p.m. today."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Send me the draft when it’s ready. I’ll turn it in fifteen minutes."
+    }
+  ]
+}

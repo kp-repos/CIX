@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-055",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making the time. I wanted to walk through the updated quote for the calibration workflow package and make sure the seat count and start date line up with what your team needs."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that works. We’re still at 24 users total. Eighteen technicians, four supervisors, and two read-only seats for quality."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. The quote I sent has 22 full seats and 2 read-only seats, annual term, starting March 1st. Total is $38,640 for the year, with implementation at $4,500 one-time."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And implementation includes the asset import and the two admin training sessions, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. Asset import from your current spreadsheet, one sandbox review, and two 90-minute admin trainings. If we kick off the week of March 4th, go-live would be targeted for April 8th."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That timing is fine. Billing-wise, can you split the annual subscription and the implementation fee onto separate invoice lines? Same invoice is okay."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, same invoice with separate line items. Payment terms are net 30, and the renewal would be March 1st next year unless you give 30 days’ notice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send the order form over today and I’ll route it to procurement. They usually turn these around in three or four business days."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send it over with the quote attached and the April 8th go-live noted. Anything else you want changed before I do that?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that should cover it. Thanks."
+    }
+  ]
+}

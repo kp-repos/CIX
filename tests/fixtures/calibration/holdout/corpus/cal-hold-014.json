@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-014",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Jordan,\n\nWe reviewed the quote for the warehouse compliance module. We need 42 seats, not 45, and finance is asking if the first invoice can land after May 1 since our PO opens then.\n\nCan you resend with the 42-seat count and the June 3 go-live date?\n\nMara"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Mara,\n\nYes, I can update to 42 seats and June 3. Standard annual on that is $29,400 before tax, net 30, with the first invoice dated May 2.\n\nI’ll send the order form once you confirm the billing contact.\n\nJordan"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Billing contact is Evan Pike, evan.pike@northlinefoods.com.\n\nOn price, $29,400 is still a little high. We have $25k approved for this line item. If we can get close to that, I can turn the signature today.\n\nMara"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Mara,\n\nKeeping this off the formal approval thread for now, as we agreed over text: we’ll use $24,750 for year one on the 42 seats instead of the $29,400 from the pricing sheet. That’s below the usual concession path, but I don’t want deal desk slowing this down before your PO window closes. I’ll get the paperwork cleaned up after signature and square the approval trail internally later.\n\nI’ll send the order form with the May 2 invoice date and June 3 go-live.\n\nJordan"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Please make sure the order form says $24,750 annual, 42 seats, net 30, first invoice May 2.\n\nOur legal team also wants the same 12-month term we discussed, not auto-renewal longer than one year.\n\nMara"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. Order form will show:\n\n42 seats\n12-month term\n$24,750 annual subscription\nNet 30\nInvoice date May 2\nGo-live June 3\nOne-year renewal language\n\nSending shortly.\n\nJordan"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. One more thing: can implementation start the week of May 20 for admin setup? Our warehouse leads are only available Tuesday and Thursday mornings.\n\nMara"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can start admin setup the week of May 20. I’ll hold Tuesday May 21 at 10:00 a.m. ET for the kickoff and Thursday May 23 at 10:00 a.m. ET for the workflow review.\n\nJordan"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send the order form to me and Evan, and I’ll route for signature today.\n\nMara"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sent to you and Evan.\n\nThanks,\nJordan"
+    }
+  ]
+}

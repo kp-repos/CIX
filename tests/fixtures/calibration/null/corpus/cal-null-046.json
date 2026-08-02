@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-046",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making the time, Dana. Last we talked you were looking at 18 seats for the operations team, with a possible add-on for the two plant managers later. Is that still the shape of it?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. Eighteen now. If the first site goes clean, we'd probably add 6 more in June, but I don't want to buy those before people actually use it."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally fair. For 18 seats on the annual plan, the pricing sheet has you at $42 per user per month, billed annually. That puts the software at $9,072 for the year. Implementation is the standard $2,500 one-time, so first invoice would be $11,572 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Procurement will ask about terms. We usually do net 30, and we need the invoice to reference cost center 4702 and the P.O. once I have it."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, net 30 is fine. Send the P.O. when it's issued and the billing tool can include both the P.O. number and cost center 4702 on the invoice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. On timing, we want supervisors trained before March 18. Is that realistic if we sign by next Friday, February 16?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. If the order form is signed by February 16, we can schedule kickoff the week of February 26, admin setup that same week, and two supervisor training sessions on March 12 and 14. That leaves a few days before your March 18 go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. One question: if we add the six seats in June, are they co-termed to the same renewal date?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. They'd be prorated from the add date through February 15, 2025, so everything renews together. Same per-seat rate unless you cross into the 25-seat tier, and then we'd use that tier going forward."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Alright. Send me the order form with 18 seats, annual billing, net 30, implementation included, and the March training dates noted."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it this afternoon. It'll show start date February 16, go-live target March 18, 18 seats, and the $11,572 first-year total before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. If it matches that, I can route it today."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-031",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the final quote for the analytics workspace and make sure the seat count and timing still match what you need for May."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, sounds good. We’re still at 42 seats to start, with 6 of those as admin seats. If adoption looks good, we may add the customer success team in Q3."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay, perfect. The quote I have is 42 seats on an annual term, $31,920 total, with the standard onboarding package included. That’s two configuration sessions and one end-user training session."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches what I had. For billing, can you do net 30 and invoice us after signature? Our finance team prefers one annual invoice, not quarterly."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, annual invoice after signature, net 30. I’ll note that on the order form. Target go-live is still June 3rd, right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes. We’d like admin setup the week of May 13th, training the week of May 20th, and then we’ll use the last week of May for internal testing."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That timeline works. If we get the order form signed by next Friday, April 26th, implementation can hold those dates."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Legal had one question on the renewal language. It says it renews automatically for one year unless we give 30 days’ notice. That’s acceptable, we just need the notice period clearly stated."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It is stated in section 5.2, but I can also call it out in the email when I send the final documents so it’s easy for them to find."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it to me and copy Marcus in procurement. If everything looks the same, I should be able to route it for signature Monday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the final quote and order form this afternoon, with the 42 seats, annual billing, net 30, and June 3rd go-live listed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Thanks, Chris."
+    }
+  ]
+}

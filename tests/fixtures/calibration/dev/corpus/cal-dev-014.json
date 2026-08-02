@@ -1,0 +1,53 @@
+{
+  "id": "cal-dev-014",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Hey, quick gut check on the Osprey expansion quote. They asked for 24 more editor seats starting August 12, co-termed to their April 30 agreement. I have it at $38 per seat per month after the standard 12% discount."
+    },
+    {
+      "speaker": "Eli",
+      "ts": null,
+      "text": "Yeah, that matches the pricing sheet. Are they still keeping the 86 viewer seats, or did procurement try to swap any of those down?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "No swap. Same 86 viewers, plus the 24 editors. Their ops lead was pretty specific because they want the new plant managers live before the September training."
+    },
+    {
+      "speaker": "Eli",
+      "ts": null,
+      "text": "Okay. Then the only thing is billing frequency. Their current setup is annual upfront, so if they add mid-term, the invoice should just be the prorated amount through April 30."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Right, I got $6,716 for the prorated piece. While I was in the billing tool I saw the Halberg line only shows through tomorrow and the last customer thread I can find is from May, which, yeah, not great. Anyway, Osprey is clean."
+    },
+    {
+      "speaker": "Eli",
+      "ts": null,
+      "text": "Got it. For Osprey, make sure the order form says the added seats inherit the existing support terms. Deal desk kicked one back last week because that sentence was missing."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep, I put that in the notes section and the cover page. Legal language stays untouched. They asked if the invoice can reference PO 44718-A, so I added that too."
+    },
+    {
+      "speaker": "Eli",
+      "ts": null,
+      "text": "Perfect. Send it over as-is. If they sign by Friday, implementation can still hold the August 12 enablement slot."
+    }
+  ]
+}

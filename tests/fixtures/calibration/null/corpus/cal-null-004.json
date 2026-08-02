@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-004",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I pulled together the numbers for the 42 seats you mentioned, with the analytics add-on for the operations team. I wanted to walk through it before I send the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. The main thing is keeping this under the budget line we gave finance, which is about $68,000 for the year. We also need the start date to be October 1, not mid-month."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally. At 42 seats, annual term, October 1 start, the total comes to $66,780 before tax. That includes the onboarding package we discussed, two admin trainings, and standard support."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that’s in range. Is the onboarding a separate invoice, or all on the same one?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Same invoice unless you want it separated. Most customers keep it on the same invoice, net 30, and it’ll reference the October 1 through September 30 term."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Same invoice is fine. We do need a PO on our side. If you send the order form today, I can get that started."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I can send it after this call. One small thing: you had asked about adding five temporary seats for the warehouse supervisors during November and December. Do you still want those included?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, but only for those two months. They won’t need full-year access."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. I’ll include them as temporary seats from November 1 to December 31, priced separately at $95 per seat per month, so that adds $950 total."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. And go-live, we’re still targeting October 14 for the first team?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. If the order form is signed by September 20, onboarding can start the week of September 23, and October 14 is very realistic for the first 18 users."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Send it over with the 42 annual seats, five temporary seats for November and December, one invoice, net 30. I’ll route it for signature."
+    }
+  ]
+}

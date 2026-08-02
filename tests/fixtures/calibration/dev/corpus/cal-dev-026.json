@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-026",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the revised quote for the 42 seats and make sure the May 1 go-live still works on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, May 1 is still the target. We have the operations team ready for training the week before, assuming the contract is wrapped by April 12."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That should be fine. The quote is at $38,640 for the annual term, includes the 42 standard seats, the reporting add-on, and two admin training sessions."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the implementation fee, I think last time you said $4,500. Is that still in there?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It is. One-time $4,500, billed on the first invoice with the annual subscription. After that it’s just the renewal amount unless you add seats or change modules."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. Billing-wise, can you do net 45? Our finance team asked because the April close is a little tight."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, net 45 is approved for this quote. I’ll make sure that’s reflected in the order form, along with the April 15 invoice date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. On seats, we may add five more in Q3 for the second warehouse. Would those be prorated?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, any added seats are prorated through the end of the current term. So if you add them August 1, they’d be billed for the remaining eight months."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send over the order form today if you can, and I’ll route it to legal. I don’t expect major changes."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it this afternoon with the quote summary and the implementation timeline attached."
+    }
+  ]
+}

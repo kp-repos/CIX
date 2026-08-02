@@ -1,0 +1,58 @@
+{
+  "id": "cal-null-017",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I’ve got you at 42 seats today, and you were looking at adding the service desk group for a July 15 go-live. Is that still 18 additional users?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Close. It’s 16 for phase one. Two managers are read-only, so they don’t need full seats yet. We may add them in September if the queue reporting works the way we expect."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 16 full seats now, potential 2 later. For the 16, co-termed to your current agreement, that’s $14,080 through March 31, 2027. Billing would be net 30, one invoice, and access can be turned on the same business day after signature."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. The invoice needs to show the new cost center, 4810-ITSD, and reference PO 77264. Our AP team kicks stuff back if that’s missing."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I can include both on the order form and the invoice request. On timing, if we get the signed addendum by next Wednesday, June 26, your admins can start setting up those users on June 27."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. We have training penciled in for July 9 and 10. Is there any issue with them logging in before the formal go-live, just for training?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No issue. They can log in as soon as the seats are active. For training week, I’d suggest your admin assigns the standard service desk role, and then we can adjust permissions after the first two sessions if needed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Makes sense. Send me the addendum with the 16 seats and the co-term amount, and I’ll route it to procurement today. They usually turn these in two or three business days."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it over this afternoon with the PO and cost center called out. Once it’s signed, you’ll get the invoice separately, and I’ll confirm the activation date with your admin team."
+    }
+  ]
+}

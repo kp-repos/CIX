@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-033",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Hey Priya, quick check on the Northlake quote. They confirmed 42 seats, annual term, and they want the calibration data module included for the April 15 go-live."
+    },
+    {
+      "speaker": "Priya",
+      "ts": null,
+      "text": "Yeah, I saw the pricing sheet. With the module, they're at $38,640 for the year before tax, right?"
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Right. I used the mid-market tier and the 8% services discount we talked about. Implementation is 12 hours, flat $2,400."
+    },
+    {
+      "speaker": "Priya",
+      "ts": null,
+      "text": "Okay. Any issue with their net 45 ask?"
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "That's the one thing. I've nudged finance and deal desk a few times for the billing term sign-off, and the order form is basically sitting until that comes back."
+    },
+    {
+      "speaker": "Priya",
+      "ts": null,
+      "text": "Got it. If they approve net 45, no other redlines?"
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "No, their ops lead was fine with the standard contract. They just need the first invoice to hit after May 1 because their new cost center opens then."
+    },
+    {
+      "speaker": "Priya",
+      "ts": null,
+      "text": "Makes sense. Did they still want training split into two sessions?"
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Yeah, two 90-minute sessions. One for lab managers, one for the technicians. I penciled in April 8 and April 10, but told them we'd confirm after signature."
+    },
+    {
+      "speaker": "Priya",
+      "ts": null,
+      "text": "Okay, then once finance clears the term, send it. If they sign by Friday, April 15 is still realistic."
+    }
+  ]
+}

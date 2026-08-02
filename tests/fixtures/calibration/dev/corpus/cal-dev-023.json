@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-023",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Megan Lee, Customer",
+      "ts": null,
+      "text": "Hi Aaron,\n\nWe’re ready to move this along for the support analytics rollout. Scope is 34 seats, annual billing, go-live target August 12. Can you send the order form based on the quote we reviewed last week?\n\nMegan"
+    },
+    {
+      "speaker": "Aaron Patel, Rep",
+      "ts": null,
+      "text": "Hi Megan,\n\nYes. Last week’s quote was 34 seats at $145 per seat per month, paid annually, so $59,160 for the first year. Implementation is included if we have kickoff by July 29.\n\nI can send the order form today.\n\nAaron"
+    },
+    {
+      "speaker": "Megan Lee, Customer",
+      "ts": null,
+      "text": "Thanks. That number is a little above the $54k we have approved. We can probably get a small stretch, but not $59k.\n\nIf there’s any room, let me know. Otherwise I need to push this to September budget review.\n\nMegan"
+    },
+    {
+      "speaker": "Aaron Patel, Rep",
+      "ts": null,
+      "text": "Yeah, so between us, if you can get signature by Friday, I can do $52,800 for the year for the same 34 seats and included implementation. I’m not going to run that through deal desk right now because the concession approval will add a few days and likely reopen questions on the discount. Let’s just use this email thread as the agreement on the cheaper number, and I’ll sort the paperwork and approval trail after the order is in.\n\nAaron"
+    },
+    {
+      "speaker": "Megan Lee, Customer",
+      "ts": null,
+      "text": "That works on our side. We can sign by Friday if the order form shows $52,800, annual prepay, net 30 from invoice date.\n\nPlease include the August 12 go-live target and the standard data processing terms.\n\nMegan"
+    },
+    {
+      "speaker": "Aaron Patel, Rep",
+      "ts": null,
+      "text": "Attached is the order form for 34 seats, annual term 8/1/2026 through 7/31/2027, total $52,800, net 30. I also included the implementation line with no separate fee and the August 12 target date.\n\nData processing terms are linked in section 6.\n\nAaron"
+    },
+    {
+      "speaker": "Megan Lee, Customer",
+      "ts": null,
+      "text": "Legal is fine with section 6. One question from procurement: renewal needs to be at then-current list less the same discount percentage unless either party gives 60 days’ notice. Can you add that?\n\nMegan"
+    },
+    {
+      "speaker": "Aaron Patel, Rep",
+      "ts": null,
+      "text": "Yes, updated renewal language is in section 4. New copy attached.\n\nAaron"
+    },
+    {
+      "speaker": "Megan Lee, Customer",
+      "ts": null,
+      "text": "Signed copy attached. Please send the invoice to ap@northbayparts.com and copy me.\n\nMegan"
+    },
+    {
+      "speaker": "Aaron Patel, Rep",
+      "ts": null,
+      "text": "Received, thank you. Invoice will go out today, and I’ll have our implementation lead reach out with kickoff times for next week.\n\nAaron"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-040",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so on the Northstar Facilities renewal, are we still blocked on security’s exception language?"
+    },
+    {
+      "speaker": "Chris",
+      "ts": null,
+      "text": "We are. They’re ready to sign the 84-seat quote at $46,200 for a May 1 start, but procurement won’t release the PO until our security team signs off on their data retention addendum."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "I’ve nudged security, legal, and the privacy inbox every day since last Tuesday. I sent the exact clause, their redline, and the customer’s deadline. Nobody’s given me the yes or the alternate wording, so the deal is just sitting there."
+    },
+    {
+      "speaker": "Chris",
+      "ts": null,
+      "text": "That’s the whole stall, right? Not pricing, not term length?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Correct. Three-year term is approved, net 30 is fine, implementation has June 3 penciled in. Northstar’s VP emailed this morning asking if we want the business, which, yeah, not great."
+    },
+    {
+      "speaker": "Chris",
+      "ts": null,
+      "text": "Okay. Who owns the answer internally, security or legal?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Security owns the substance, legal said they’ll only bless it after security says the retention window is acceptable. So I’m in this loop where each side is waiting for the other to say something definitive."
+    },
+    {
+      "speaker": "Chris",
+      "ts": null,
+      "text": "Can we get your manager to pull it into the 2 p.m. approval huddle? Not as a blame thing, just force a decision."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yes, please. If we get a sign-off today, I can send the final order form before their AP cutoff tomorrow at noon."
+    },
+    {
+      "speaker": "Chris",
+      "ts": null,
+      "text": "I’ll ask Dana to put it first on the agenda and I’ll join. Bring the customer clause and the $46,200 quote so we can close it in one pass."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "cal-hold-012",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so quick check on Northline Packaging. They're at 64 seats, services add-on is $9,800, target start date is February 3rd."
+    },
+    {
+      "speaker": "Eli",
+      "ts": null,
+      "text": "Okay. Are they still good with the 24-month term and annual billing?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "They are. The only hangup is I’ve nudged legal a couple times on the indemnity edit, and their procurement team won’t issue the PO until that answer comes back."
+    },
+    {
+      "speaker": "Eli",
+      "ts": null,
+      "text": "Got it. Is the buyer pushing, or are they calm?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Pretty calm. Also, I’m waiting on security to sign off on the data retention response. I’ve been poking them since Monday, because Northline’s IT lead won’t book the admin training until they have it."
+    },
+    {
+      "speaker": "Eli",
+      "ts": null,
+      "text": "That makes sense. Pricing-wise, anything weird?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "No, standard discount, 11 percent. One more thing, deal desk has the order form held until finance confirms the split invoice language. I asked finance again this morning, since the customer wants the first invoice to land after February 1st."
+    },
+    {
+      "speaker": "Eli",
+      "ts": null,
+      "text": "Okay, sounds clean otherwise. Once those come back, send the order form and keep the close date at January 29th."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep, that’s the plan. I’ll keep the buyer warm with the implementation calendar and not overcomplicate it."
+    }
+  ]
+}

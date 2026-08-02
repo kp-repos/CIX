@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-049",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I had us down to talk through the seat count, go-live timing, and the billing terms for the analytics add-on."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, exactly. We’re still planning on 42 seats at launch. That’s 35 standard users and 7 managers, and we may add another 10 after the operations team finishes their pilot."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. For 42 seats on the annual plan, the pricing sheet shows $38,640 for the year before tax. If you add seats mid-term, we’d prorate them through the same renewal date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that works. On invoicing, can you do net 30 and send the invoice after our purchase order is issued? Our finance team is targeting PO release by June 14."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, net 30 is standard for this plan. If the PO comes through June 14, we can issue the invoice the same day or next business day. Your service start date would be July 1 unless you want earlier access."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "July 1 is good. We need admin access a little before that, though, for setup. Maybe June 24 for two admins?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, we can open admin access on June 24 for configuration and training, with the paid term starting July 1. I’ll make sure that’s reflected in the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Contract term is 12 months, right? We’re not ready for a two-year commitment."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, 12 months. Renewal would be July 1 next year, and the agreement includes 60 days’ notice if you don’t want to renew."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s fine. Send the order form to me and cc procurement. If it matches what we discussed, I can route it for signature this week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it over this afternoon with 42 seats, $38,640 annual, net 30, admin access June 24, and July 1 start date."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-048",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm we're still aiming for the May 15 go-live with 84 seats in phase one."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We'll add the other 20 customer support seats in June if the first group is clean."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Makes sense. The order form has the 84 seats at $71 per seat per month, billed annually, and the implementation package at $4,800."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Finance asked me to confirm the first invoice date. Is that still April 30?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, April 30, net 30. The billing tool will send it to ap@northlineparts.com and copy you."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. One thing, the calendar invite from your implementation lead says the first session on April 22 is user import and basic roles. We were expecting SSO setup first, since we need that before our security review."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Ah, yeah, sorry about that. Let me get the agenda adjusted. You'll get a revised invite today with SSO setup on April 22 and user import moved to April 25."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Our IT manager, Luis, can make the 22nd at 11 a.m. Eastern if that's still the slot."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I'll keep that time. I'll also send the SSO prerequisites over after this so Luis can have the certificate and domain info ready."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If the invoice and revised invite come through today, we're all set on our side."
+    }
+  ]
+}

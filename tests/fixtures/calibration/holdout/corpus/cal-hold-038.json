@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-038",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the proposal for the analytics workspace: 68 seats, annual term starting March 1, and the onboarding package we discussed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that matches. We have 52 current users and then the finance team adds 16 once we finish the quarter-end close."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. The pricing sheet has 68 seats at $54 per seat per month, billed annually, so the subscription is $44,064 for the year. The onboarding package is a one-time $4,800."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the invoice would come after signature, right? Our AP team needs a PO on it, but we can turn that around pretty fast."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Exactly. Once the order form is signed, billing sends the invoice with your PO number included. Payment terms are net 30, same as your current agreement."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. For go-live, we were aiming for March 18. Is that still reasonable if legal signs by next Friday, February 16?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so if signature is by the 16th, kickoff can be February 21. That gives us three working sessions before March 18: admin setup, data connection, and end-user training."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. I’ll need the training session recorded because our West Coast managers can’t all join at 10 a.m. Eastern."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No problem. We’ll record it and send the link the same day. We can also include the quick-start guide in the calendar invite."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send me the order form with the 68 seats and March 1 start date, and I’ll route it for signature today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it over this afternoon, and I’ll include the invoice estimate so AP has the totals ahead of time."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "cal-dev-030",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Marisa,\n\nWe are getting close on the analytics rollout. Can you send pricing for 52 seats, annual term, start date June 1? We need to have the PO in by May 20 if this is going to hit our go-live.\n\nTom"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Tom,\n\nYes. For 52 seats on an annual term starting June 1, the standard quote is $46,800 for the year. That includes the admin training session and the data import support we discussed.\n\nMarisa"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. That is higher than I expected. I have $40,000 approved, maybe $41,000 if I move a small services line around. Is there any flexibility if we sign before May 20?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, I can make $39,600 work for the first year if we keep it between us over email for the moment and do not run it through the normal concession approval path right now. If I send it to deal desk today, they are going to ask for the manager justification and probably push it back to the pricing sheet. So let’s just agree on $39,600 here, you send the PO against that, and I’ll clean up the discount approval and paper trail after the order is in. It is cleaner if procurement does not open a separate pricing review before we have the signature.\n\nMarisa"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Understood. I can work with $39,600. Procurement will need the order form with 52 seats, annual billing, and June 1 start date. Can you send that by tomorrow afternoon?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, I’ll send the order form tomorrow. It will show 52 seats, annual billing, June 1 start, and net 30 payment terms.\n\nMarisa"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Please also include the standard data processing addendum. Legal approved the last version in March, so as long as it is unchanged we should not need another redline cycle."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. Same addendum version as March. I’ll attach it with the order form and note the June 1 target for implementation.\n\nMarisa"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Once I have the packet, I’ll route it for signature and get you the PO number. Thanks."
+    }
+  ]
+}

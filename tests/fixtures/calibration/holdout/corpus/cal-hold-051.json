@@ -1,0 +1,58 @@
+{
+  "id": "cal-hold-051",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya Chen, Rep",
+      "ts": null,
+      "text": "Hi Daniel,\n\nAttached is the subscription overview for 74 seats of the platform plus onboarding. Target start date is July 15, with admin training the week of July 8.\n\nMaya"
+    },
+    {
+      "speaker": "Daniel Ortiz, Customer",
+      "ts": null,
+      "text": "Maya,\n\nThanks. I reviewed with finance this morning. We can do 74 seats, but we need the annual total to stay under $50,000 before tax or it gets kicked to the next approval tier.\n\nCan you confirm what the final number would be?\n\nDaniel"
+    },
+    {
+      "speaker": "Maya Chen, Rep",
+      "ts": null,
+      "text": "Daniel,\n\nThe $46,800 annual we landed on over text works. I’ll send the order form at that amount now and clean up the deal desk approval after so we don’t miss your June 28 PO cutoff.\n\nMaya"
+    },
+    {
+      "speaker": "Daniel Ortiz, Customer",
+      "ts": null,
+      "text": "Okay, that works.\n\nPlease make the bill-to:\nNorthbridge Components, Inc.\n1180 Larkin Road\nColumbus, OH 43215\n\nPayment terms should be net 30 if available.\n\nDaniel"
+    },
+    {
+      "speaker": "Maya Chen, Rep",
+      "ts": null,
+      "text": "Net 30 is included. I also added the billing address and set the initial term for July 15, 2026 through July 14, 2027.\n\nOrder form is attached for signature.\n\nMaya"
+    },
+    {
+      "speaker": "Daniel Ortiz, Customer",
+      "ts": null,
+      "text": "Received. One quick question: can we add 6 more seats mid-year at the same per-seat rate if the operations team expands?\n\nDaniel"
+    },
+    {
+      "speaker": "Maya Chen, Rep",
+      "ts": null,
+      "text": "Yes. Additional seats can be added during the term at the same prorated per-seat rate through the coterm date. No minimum for the add-on.\n\nMaya"
+    },
+    {
+      "speaker": "Daniel Ortiz, Customer",
+      "ts": null,
+      "text": "Great. Signed copy attached.\n\nPlease send the invoice to ap@northbridgecomponents.com and copy me.\n\nDaniel"
+    },
+    {
+      "speaker": "Maya Chen, Rep",
+      "ts": null,
+      "text": "Thanks, Daniel. Countersigned copy attached.\n\nInvoice will go to AP today, and I’ll introduce your implementation lead for the July 8 admin training.\n\nMaya"
+    }
+  ]
+}

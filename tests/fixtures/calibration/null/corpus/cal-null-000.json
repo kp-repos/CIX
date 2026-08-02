@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-000",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the order form for the 38 manager seats and 12 viewer seats, make sure the dates and billing match what you need."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep. The seat mix is right. We’re trying to have the team live by September 16, so access on September 9 would be ideal for setup."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. I have the subscription start as September 9, twelve-month term through September 8 next year, and onboarding starting the week of September 9 with two admin sessions included."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. On price, the annual total you sent was $28,740. Is that with the annual payment discount already in there?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It is. List comes out to $31,200 for that mix, and the pricing sheet gives us 8% for annual prepay, so $28,704. The extra $36 was the one-time sandbox fee, which I can remove because you’re not using it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good catch. So $28,704 flat, due net 30?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, net 30 from invoice date. The invoice can reference PO 44719, and I’ll set the bill-to as the Chicago office with the finance inbox you gave me."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. One more thing: our legal team asked for the data processing addendum to be attached, not just linked."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, it’s attached to the packet. No changes to the terms from what your team accepted in May, just included as a PDF with the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send the revised version without the sandbox fee and I can sign today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You’ll have it in the next few minutes, and once it’s signed I’ll send the kickoff invite for September 10 at 11 Eastern."
+    }
+  ]
+}

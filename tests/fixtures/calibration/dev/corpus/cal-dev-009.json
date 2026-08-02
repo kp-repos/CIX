@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-009",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the updated quote for 42 seats and the May 15 go-live, and make sure the service package matches what your team needs."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that works. We reviewed it internally. The 42 seats is right for phase one. We may add another 10 in Q4, but not on this order."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. So the initial subscription stays at 42 named users, annual term from May 15 through May 14 next year. The software line is $38,640, and implementation is a one-time $6,500."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. On implementation, is that still the four-week plan with two admin trainings and one reporting workshop?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. Two 90-minute admin sessions, one 60-minute reporting workshop, and configuration support through go-live. If you want a third admin session later, we can add it, but it is not required."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, two should be fine. For billing, we need the invoice dated after May 1. Our finance team won't process it before then."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That's fine. We can issue the invoice on May 2 with net 30 terms. Payment due would be June 1. Does that line up with your purchasing cycle?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes. And the contract term, there is no auto-renewal longer than one year, correct?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. It renews annually unless either side gives 30 days' notice. No multi-year commitment in this version."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send the final order form to me and copy procurement. If it matches what we discussed, I can sign by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the order form and the implementation outline today, and then we can hold May 15 as the target go-live once it's signed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks, Mark."
+    }
+  ]
+}

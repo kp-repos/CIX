@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-011",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Mark, thanks for calling back. I was starting to wonder if we missed each other on the renewal timing."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, sorry about that, Dana. Honestly my whole morning got swallowed by admin work. I had to type yesterday's notes into the pipeline software, clean up a bunch of account fields that were blocking the quote, and assemble the deal desk packet before they'd approve the pricing. It ate like four hours that I expected to spend on customer calls, including yours, which is not great."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. Well, we just need to know where the renewal lands. We have 42 seats today, and we're adding eight for the support team on September 1."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Right. So 50 seats total, annual term, September 1 through August 31 next year. With the 7% renewal uplift and the added seats prorated into the new term, the quote is $54,600 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Last year was $48,900, so that tracks. Can you keep net 30 on the invoice?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, net 30 stays the same. No change to the service terms, and your current support package carries over."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. We need the signed order form by August 16 so finance can cut the PO before month-end."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I can send the order form this afternoon. If you return it by Friday, we should have the invoice issued the following Tuesday."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send it to me and cc procurement@northlakeparts.com."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll include the seat count, the September 1 start date, and the $54,600 total in the email."
+    }
+  ]
+}

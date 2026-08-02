@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-058",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Dana",
+      "ts": null,
+      "text": "Hey Marcus, quick check on Riverbend. Are they still at 46 seats for the analytics package, $51,840 annual?"
+    },
+    {
+      "speaker": "Marcus",
+      "ts": null,
+      "text": "Yeah, 46 seats, annual prepay, start date November 18. Commercials are fine. The only blocker is the mutual indemnity redline. I've nudged legal Monday, yesterday, and again this morning for a yes or no, and until that sign-off comes back the deal is just sitting there. Their procurement lead will not countersign without it."
+    },
+    {
+      "speaker": "Dana",
+      "ts": null,
+      "text": "Okay. Is the redline weird, or is it the same carveout we approved for Northgate?"
+    },
+    {
+      "speaker": "Marcus",
+      "ts": null,
+      "text": "Pretty close to Northgate. Cap stays at twelve months of fees, no uncapped data stuff. I sent legal the comparison so it should be a quick read, but yeah, we're stuck until they answer."
+    },
+    {
+      "speaker": "Dana",
+      "ts": null,
+      "text": "Got it. Any risk on the go-live if this slips past Friday?"
+    },
+    {
+      "speaker": "Marcus",
+      "ts": null,
+      "text": "Some. They want provisioning by November 11 so their ops team can load users before training. Also, separate item, I've been chasing security for the answer on their questionnaire around data retention. I sent the exact customer question twice and pinged them again after lunch; Riverbend won't issue the PO until that security sign-off arrives, so the order is parked there too."
+    },
+    {
+      "speaker": "Dana",
+      "ts": null,
+      "text": "Yeah, so both are internal approvals, not customer hesitation."
+    },
+    {
+      "speaker": "Marcus",
+      "ts": null,
+      "text": "Exactly. Buyer is good, budget is approved, invoice needs to show the parent entity, Riverbend Manufacturing LLC, and net 30. If legal and security clear today, I can get signature tomorrow."
+    },
+    {
+      "speaker": "Dana",
+      "ts": null,
+      "text": "Alright. Send me the thread. I'll add context on the November 18 start date and the $51,840 booking, but keep the customer update simple."
+    },
+    {
+      "speaker": "Marcus",
+      "ts": null,
+      "text": "Will do. I'll tell them we're aligning the last contract and security responses and that the seat count and timeline are unchanged."
+    }
+  ]
+}

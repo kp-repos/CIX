@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-058",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making the 10:10 work. I’ve got a hard stop at 10:30 to get the approval packet lined up before noon, but I wanted to handle your seat count and invoice questions live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re at 86 users now, not 80. Finance wants the annual invoice to show 60 seats under operations and 26 under support, same contract, just two cost centers."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. At 86 seats, the annual subscription is $41,280 before tax. Splitting the invoice by cost center is fine, and it doesn’t change the terms or discount."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. We also need the start date to be October 15, but our team won’t really use it until the November 18 go-live. Is that a problem?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No, October 15 works as the contract start. We can schedule onboarding the week of November 4 and keep your go-live target for November 18. The first renewal would be October 15 next year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s fine. Payment terms are the other thing. Our standard is net 45. Your draft said net 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "For a 12-month term, net 45 needs a quick approval, but it’s usually okay at this size. If you’re comfortable with the $41,280 and 86 seats, I can get that cleared and send the updated version this afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, assuming the invoice split is clear. Legal had no redlines except the data processing exhibit, and I think you already accepted that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we accepted the exhibit as written. If I’m a little slow replying between one and three, I’m buried in getting the month-end entries cleaned up, but I’ll have your update out by 4:00."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Works for me. Send it to me and copy Nadia in finance. If it matches what we discussed, we can sign tomorrow."
+    }
+  ]
+}

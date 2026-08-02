@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-005",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the final quote for the analytics workspace, 42 seats, with the implementation package starting May 6."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that lines up. The main thing I wanted to confirm is the invoice timing. Our finance team needs the first invoice dated after April 15, not before."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally. We can set the contract start date to May 1 and have the first invoice generate on April 16 for the annual amount, $38,640, net 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And that includes the admin training and the two data connector sessions, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. The package includes one 90-minute admin training, two 60-minute connector sessions, and a go-live check-in during the week of May 27."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. We may add eight more seats in Q3 if the operations group comes on. Is that just prorated?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Exactly. Any added seats would be prorated through April 30 next year at the same per-seat rate, so no new tier or anything like that."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds straightforward. Send the order form to me and copy Ben in procurement. If the terms match what we discussed, we should be able to sign by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it over this afternoon with the May 1 start date, April 16 invoice date, 42 seats, and the implementation package listed separately."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Thanks, Alex."
+    }
+  ]
+}

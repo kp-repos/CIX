@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-044",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making the time. I had us down to talk through the 42-seat proposal and confirm the April 15 go-live target."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that's right. We have 38 users today, and finance approved moving to 42 because the operations team is adding four supervisors next month."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. The quote I sent has 42 standard seats at $68 per seat per month, annual term, so $34,272 before tax. It also includes the one-time implementation package at $4,500."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. On implementation, does that cover the two workflow templates we discussed, or is that separate services time?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That’s included. The package covers configuration, two workflow templates, admin training, and one launch readiness session. If you need additional templates after go-live, that would be scoped separately."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. Billing-wise, we need the invoice dated after March 25, because that’s when the new cost center opens."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No problem. We can set the order to start April 1 and have the invoice generated March 26 with net 30 terms."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Legal had one question on the renewal language. They’re okay with annual renewal, but they want 30 days' notice instead of 60 if we decide not to renew."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, we can accept 30 days' notice. I’ll update that in the order form and send the clean version this afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If we sign by Friday, are we still okay for April 15?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. If we have signature by March 22, we’ll schedule kickoff the week of March 25 and stay on track for April 15."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send the revised order form, and I’ll route it for signature."
+    }
+  ]
+}

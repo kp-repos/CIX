@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-024",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making the time, Dana. I wanted to walk through the renewal quote and the added seats for the support team, and then we can talk timing for the August go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. We’re at 42 seats today, and we need to add 8 more for the new regional managers. So 50 total starting August 15."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Right, 50 seats total. On the annual term, that puts the subscription at $38,400 for the year, and implementation support stays at the one-time $4,800 we discussed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the renewal date would still be September 1, or does adding the seats move that?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It stays September 1. We’d prorate the 8 added seats from August 15 through August 31, so that line is $410. Then everything rolls into the new annual term on September 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. Can you make the invoice split between software and services? Our finance team needs those as separate lines."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, no problem. The invoice will show subscription, prorated seats, and implementation support separately. Payment terms are net 30, same as your current agreement."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. For the services piece, are we still looking at two admin sessions and one end-user training?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. Two 60-minute admin sessions the week of August 5, and one 90-minute end-user training on August 13. We can record that one if helpful."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Please do. I’ll send you the attendee list by next Friday. If you send the updated order form today, I can get it routed for signature."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send the order form with 50 seats, the September 1 renewal date, and the itemized invoice language. You should have it in the next hour."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, thanks. Once it’s signed, we’ll introduce you to our IT lead for the setup call."
+    }
+  ]
+}

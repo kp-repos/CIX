@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-044",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, yeah, thanks for making time. I wanted to walk through the renewal and the small expansion you mentioned for the calibration team."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re at 18 seats today, and we want to add 7 more for the second shift before April 15."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. So 25 total named users, same calibration workflow module, same reporting package. The current term ends May 31, so we can either coterm the 7 seats through May or just start the new 12-month term a little early."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Let’s keep it clean and start the new term June 1. We can wait on access until then, that’s fine."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay. On the pricing sheet, 25 seats on an annual term comes to $31,250, and support stays included. The implementation services line is zero since you’re already live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches what I expected. Can the invoice split the software and the on-site gauge audit as separate lines?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. The audit is two days at $1,800 per day, so $3,600. I’ll show that as a separate services line with the June 18 target date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Payment terms stay net 30?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, net 30, same billing contact, same ship-to location for the audit. I’ll send the order form over this afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If I get it by 3, I can route it for signature today."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-030",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so based on what you shared, the team would start with 38 seats in Operations and Quality, plus 4 admin seats. The standard annual price on that tier is $46,800, and that includes onboarding."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. We had budgeted around $48,000, so that part is fine. My main question is timing. If we sign by February 14, can we be live before the March 10 audit prep meeting?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. With a signed order by the 14th, kickoff would be February 19, data import by February 26, and user training the week of March 4. You'd have the system in production by March 8."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. For billing, can the invoice reference PO 77194 and split the cost center as 60 percent Quality, 40 percent Operations?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that works. We can put PO 77194 on the invoice and show the cost-center split in the billing notes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Terms are net 30, right? Our finance group gets weird if it's due on receipt."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Net 30 is our standard for annual subscriptions. The service term would run February 15, 2026 through February 14, 2027."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "And no auto-renewal? Legal asked me to confirm that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, this order form uses a one-year term with renewal by mutual agreement. No automatic renewal language."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Alright. Send it over to me and Tara in procurement. If it matches what we discussed, I can route it for signature this afternoon."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the order form with 42 total seats, $46,800 annual, PO 77194, net 30, and the February 15 start date."
+    }
+  ]
+}

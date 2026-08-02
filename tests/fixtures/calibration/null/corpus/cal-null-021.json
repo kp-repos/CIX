@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-021",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making the time, Dana. I wanted to walk through the updated quote for 42 seats, annual term, starting April 1. It came out to $28,728 for the year, billed annually, net 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. That matches the seat count we talked about. Is that including the five read-only users for the regional managers, or are those separate?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Those are included. So 37 full users and 5 read-only, all under the same workspace. If you add more full users mid-term, they’re prorated at $57 per user per month through March 31."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. And implementation, you had said that was a flat fee?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, one-time implementation is $4,800. That covers the data import, two admin training sessions, and the go-live support window. Total first-year invoice would be $33,528."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Our finance team will ask if we can split that into two invoices, like half on signature and half after go-live."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that’s fine. We can do $16,764 at signature and $16,764 on April 30, assuming go-live on April 22 like we discussed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "April 22 is still the target. We need the admin training the week before, probably Tuesday and Thursday afternoon Central."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I have April 15 and April 17 at 2 p.m. Central available. I’ll put those on the implementation plan, and the kickoff would be April 3 at 11 a.m. Central."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send the order form with the two-payment schedule and the April dates in it. If legal doesn’t redline anything weird, I think we can sign by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the order form today with the annual term April 1 through March 31, 42 seats, and the payment schedule. Anything else you want reflected before I send it?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that’s it. Keep it clean and we should be good."
+    }
+  ]
+}

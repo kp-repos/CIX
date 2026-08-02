@@ -1,0 +1,63 @@
+{
+  "id": "cal-null-037",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so just to recap where we landed last week: you’re looking at calibration scheduling for the Austin plant only, 18 named users, about 240 instruments to start. Is that still the right scope?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s right. We may add Phoenix later, but not in this first contract. Austin maintenance, quality, and the two lab supervisors need access on day one."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. For 18 users, the annual subscription is $38,400, and onboarding is a one-time $4,800. That includes the asset import, two admin trainings, and the operator session recorded for your second shift."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. The price is fine. My main concern is timing. We have an internal audit November 12, and I need the reminders and certificates live before then."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. If we get the order completed by September 30, kickoff would be October 3. Asset import by October 10, admin training October 14, and go-live October 21. That gives you about three weeks before the audit."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. On invoicing, can you bill the subscription and onboarding on one invoice? Our AP team does not want separate lines coming in different months."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, one invoice, annual upfront, net 30. It’ll show the subscription and onboarding as separate line items on the same invoice for your PO matching."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Contract term is just 12 months, correct? We’re not ready for a multi-year until we see adoption."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, 12 months starting September 30 and ending September 29 next year. No auto-expansion for Phoenix or additional seats unless you add them in writing."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds clean. Send the order form to me and copy Dana in procurement. If the dates and pricing match what you just said, I can get the PO moving this week."
+    }
+  ]
+}

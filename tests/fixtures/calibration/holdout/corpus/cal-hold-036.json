@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-036",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the updated quote for 42 seats and make sure the April 15 go-live still works on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that date still works. We have 38 users confirmed now, but we'd like to keep 42 on the order so we have a little room for the operations team."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. The quote has 42 standard seats at $68 per seat per month, billed annually, so the subscription total is $34,272 for the year. Implementation is the one-time $4,500 package we discussed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I had. And the contract term is 12 months, right? No auto-renewal longer than that?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, 12-month initial term. It renews for another 12 months unless either side gives 30 days' notice before the renewal date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's fine. For invoicing, can you set the bill-to as Northlake Supply, attention accounts payable, and use the Elm Street address?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, I have Northlake Supply, 1840 Elm Street, Suite 300, Columbus, Ohio 43215. Invoice can go to ap at your domain, and I'll include PO 7716 on it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Our controller asked if payment terms can be net 30 instead of due on receipt."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, net 30 is already on the order form. Once it's signed, billing will issue the invoice within one business day, so if we wrap this by March 22, you should see it the following Monday."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Works for me. Send the final order form today, and I'll route it for signature. I expect to have it back by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I'll send it over in the next hour with the quote, order form, and implementation summary attached. After signature, we'll schedule the kickoff for the week of March 25."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Thanks, Mark."
+    }
+  ]
+}

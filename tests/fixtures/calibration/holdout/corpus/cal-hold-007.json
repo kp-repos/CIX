@@ -1,0 +1,53 @@
+{
+  "id": "cal-hold-007",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya Patel, Customer",
+      "ts": null,
+      "text": "Hi Aaron,\n\nWe’re ready to move ahead for 68 seats, go-live target March 18. Please send the order form for annual billing and net 30.\n\nMaya"
+    },
+    {
+      "speaker": "Aaron Lee, Rep",
+      "ts": null,
+      "text": "Hi Maya,\n\nGreat. I’ll draft it today with 68 seats, March 18 start, 12-month term, annual invoice, net 30.\n\nThe standard total from the pricing sheet is $81,600 before tax. I’ll send for signature once I have the final address and billing contact.\n\nAaron"
+    },
+    {
+      "speaker": "Maya Patel, Customer",
+      "ts": null,
+      "text": "Aaron,\n\nBilling contact is Greg Nunez, ap@northbayfoods.com. Address is 1440 Harbor Drive, Oakland, CA 94607.\n\nOne issue: $81,600 is higher than what we discussed. In your text Friday you said you could do $72,900 if we signed this week.\n\nMaya"
+    },
+    {
+      "speaker": "Aaron Lee, Rep",
+      "ts": null,
+      "text": "Maya,\n\nYes, that’s the number I gave you over text. To be direct, I can hold $72,900 for the 68 seats if you can sign by Friday. That discount normally has to go through deal desk because it’s below the pricing sheet, but I don’t want to slow this down. I’ll send the order form at $72,900 now and sort the approval paperwork afterward on my side.\n\nEverything else stays the same: annual billing, net 30, March 18 start.\n\nAaron"
+    },
+    {
+      "speaker": "Maya Patel, Customer",
+      "ts": null,
+      "text": "Okay, thanks for confirming.\n\nPlease make sure the order form shows $72,900 as the full-year subscription total, not a first-year credit or rebate. Finance will reject it if the invoice doesn’t match the signed amount.\n\nMaya"
+    },
+    {
+      "speaker": "Aaron Lee, Rep",
+      "ts": null,
+      "text": "Understood.\n\nI’ll list it as the annual subscription total for 68 seats: $72,900. No rebate language. I’ll also add the March 18 start date and net 30 terms.\n\nAaron"
+    },
+    {
+      "speaker": "Maya Patel, Customer",
+      "ts": null,
+      "text": "Good. Send it to me and copy Greg. We can sign by Thursday afternoon if the tax amount is included.\n\nMaya"
+    },
+    {
+      "speaker": "Aaron Lee, Rep",
+      "ts": null,
+      "text": "Attached.\n\nOrder form includes:\n- 68 seats\n- 12-month term starting March 18\n- Annual subscription total $72,900\n- Estimated tax $6,014.25\n- Net 30 invoice terms\n\nGreg is copied.\n\nAaron"
+    }
+  ]
+}

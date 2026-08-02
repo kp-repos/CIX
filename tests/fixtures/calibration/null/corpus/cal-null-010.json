@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-010",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so thanks for making time, Dana. I want to make sure I have the scope right: calibration management for the Greenville plant, 9 full users, about 72 instruments loaded before go-live, and you want the first due-date reminders running by November 4."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. It may be 75 instruments once maintenance finishes their list, but 72 is what I have today. The key thing is we need certificates attached for the pressure gauges and torque tools before the audit on November 18."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. The standard implementation includes one data import, certificate template setup, and two admin training sessions. For 9 seats, annual subscription is $18,900, and implementation is $3,200 one-time."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Is that billed all at once, or can the services be on the first invoice and the subscription start at go-live?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "We can do that. Services invoice on signature, subscription term starts November 1 and runs 12 months through October 31 next year. Annual subscription invoice would be dated November 1, net 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Our PO needs the Greenville address and the cost center, 6142. Also, legal asked that the contract say data stays in the US. Is that in your standard terms?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that's in the hosting section of the standard order form. I'll call it out in the cover note so it's easy for them to find."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. For users, I have names for seven people now. Can we add the last two after training without changing the contract?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. The agreement is for 9 seats, so you can assign those last two whenever you're ready. No extra charge unless you go above 9."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. If you send the order form today, I can route it tomorrow. Realistically signature is probably September 24."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That timing is fine. If signed by September 24, we can hold kickoff on September 30, get your instrument file by October 3, and still target November 4 for go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, send it over with the $18,900 annual, $3,200 implementation, 12-month term starting November 1, and net 30. I'll look for it this afternoon."
+    }
+  ]
+}

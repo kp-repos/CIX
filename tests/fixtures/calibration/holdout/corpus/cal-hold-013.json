@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-013",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making the time, Dana. Sorry again I had to move this from yesterday. To be direct, most of my afternoon got swallowed by typing records into the CRM and cleaning up pipeline fields for month-end. It ate the hours I normally use to talk with buyers like you, so I couldn't get back before five."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, I get it. We just need to keep this moving. Right now it's 42 seats total, 38 standard users and 4 manager seats, and we'd like to be live by October 7."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That matches what I have. For 42 seats, annual subscription is $31,920, and the implementation package is $4,800 one-time. Term would start October 1, invoice on signature, net 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. If two contractors roll off in January, are we stuck with all 42 until renewal, or can we drop them?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "You can remove seats at renewal. During the term you can reassign them, so if the contractors leave you can put those seats on new hires or managers. If you add seats mid-term, we prorate through September 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's fine. For onboarding, we need the data import and two admin trainings. Our operations lead is out the week of September 23, so earlier is better."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "We can do the kickoff September 17, import file due September 19, then admin trainings September 24 and October 2. That still leaves a few days before the October 7 go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Can you send the order form today? Finance wants the PO in by Friday, and legal only asked for the 12-month term and the mutual confidentiality language."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I can get it to you by 3:00. Candidly, this morning got eaten again by assembling internal approval paperwork and retyping the same account details into the pipeline software. That's the stuff crowding out actual buyer conversations, so I'm batching it now and then your order form is the next thing I send."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, 3:00 works. If it slips, just tell me, because our controller is pretty firm on the Friday cutoff."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. You'll have the order form, pricing sheet, and invoice instructions by 3:00 Eastern today, and I'll hold 10:00 tomorrow in case legal has one last question."
+    }
+  ]
+}

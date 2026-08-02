@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-033",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Mark, thanks for finding time. We’re trying to decide by May 17 whether to start with 42 seats or the full 58."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, absolutely. Sorry it took me a couple days to get this on the calendar. My mornings have been getting eaten by clerical work — typing call notes into the CRM, cleaning up account fields, and re-entering the same seat counts in the pipeline tool — and it’s honestly cutting into the time I’d normally spend talking with buyers like you."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. We just need to keep moving. If we start at 42 seats, can we add the other 16 in July without restarting the term?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. The 42-seat start would be $31,500 for the first year, and the extra 16 can be prorated from the date you add them. Same December 31 renewal date either way."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Our finance team also asked if the invoice can split implementation from subscription. Implementation is the $4,800 one-time fee, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, $4,800 one-time for onboarding, then the subscription separate. I can have the invoice show those as two lines."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. And go-live July 8 is still realistic if procurement finishes by May 24?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that works. We’d do kickoff the week of May 27, admin training mid-June, and end-user training the week before go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds fine. The only thing I’m worried about is responsiveness once we’re in contracting. We’ve had vendors disappear there."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Fair. I’ll be direct: that’s the squeeze on my side right now. Yesterday I lost almost the whole afternoon assembling internal deal desk forms, tidying database entries, and copying contract details between tools, so that’s time I wasn’t on customer calls. I’m not going to pretend it’s ideal, but for your agreement I’ll set a same-day response window and keep the steps simple."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, same-day response helps. Send the 42-seat version with the July add-on language, and I’ll circulate it."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the pricing summary today with the May 24 procurement date, July 8 go-live, and the prorated add-on terms."
+    }
+  ]
+}

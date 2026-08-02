@@ -1,4 +1,4 @@
-version: "1.0.0"
+version: "1.1.0"
 registers:
   T-ESC:
     frozen_at_gate: G2
@@ -26,4 +26,38 @@ registers:
     min_corpus_interactions: 20
     rule: "seeded half-split of interactions; per unit, compare item rank orders from persisted hits; a top-2 rank flip -> item status=demote; corpus < min -> insufficient_power"
     consequence: "demoted items are excluded from Highlights and marked in the distribution"
+    owner: PO
+  T-PARA:
+    frozen_at_gate: G3
+    sample_top_items: 2
+    sample_rare_items: 2
+    rare_max_count: 2
+    judgments_per_item: 6
+    min_sample_for_validity: 4
+    disagreement_floor: 0.2
+    rule: "risk-stratified item sample (top-count + rare); per sampled hit, paired re-judgment of identical interaction evidence under original vs paraphrased criterion; per-item disagreement rate > 0.20 -> status=not_a_measurement; n<4 -> insufficient_power"
+    consequence: "not_a_measurement items keep raw counts visible but are excluded from grid tie-breaks and Highlights, marked in the distribution"
+    owner: PO
+  T-CAL:
+    frozen_at_gate: G3
+    relative_error_max: 0.25
+    absolute_error_max: 2
+    mechanism_attribution_floor: 0.8
+    derivation: "a count off by more than a quarter flips leverage-grid tiers and rank order at hundreds-scale — the decision surface; the absolute term protects small planted counts where relative error is noise; conjunctive so neither term alone fails a pathology. Camouflaged plants yield a sensitivity row, never a gate (D 7.3: curve, not pass/fail)."
+    rule: "per pathology, loud+moderate plants pooled: relative count error > 0.25 AND absolute error > 2 -> fail; of planted interactions with any target-item hit, mapped-item attribution < 0.80 -> mechanism_fail; camouflaged detection reported separately, ungated"
+    consequence: "holdout fail after the T-ITER budget = abandon-trigger-1 input (PRD 8)"
+    owner: PO
+  T-NULL:
+    frozen_at_gate: G3
+    false_reports_per_100_max: 4
+    min_null_interactions: 40
+    rule: "false report = any planted-pathology item hit on a held-out null interaction; rate per 100 > 4 -> fail; n < 40 -> insufficient_power. The empirical noise floor is reported alongside, never the gate (absolute pre-registered floor, PRD 6)."
+    consequence: "fail = abandon-trigger-1 input"
+    owner: PO
+  T-ITER:
+    frozen_at_gate: G3
+    max_dev_cycles: 3
+    holdout_evaluations: 1
+    rule: "dev/holdout split per A7; revisions see dev only; every dev scoring appends cycles.json (register history); exactly one predeclared holdout evaluation, enforced by a one-shot marker; budget exhausted + holdout failing -> abandon trigger 1 fires"
+    consequence: "PO owns the stop/continue decision; the cycle log is the audit trail"
     owner: PO

@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-026",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the go-live plan for the 62 seats and make sure procurement is set before we start training."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. Overall we're good, but one thing was awkward on the onboarding call yesterday. They had SSO scheduled for June 3, and we had agreed May 15 because our internal access review is May 20."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "You’re right, we did agree to May 15. Sorry, that date didn’t make it over to the onboarding team. I’ll get that corrected today and confirm the engineer slot."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, thanks. The admin training can stay May 22, and the manager session on May 29 still works for us."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. For seats, I have 48 standard users, 10 managers, and 4 admins, all active at launch. Any contractors coming later or is that the full first wave?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s the first wave. We may add 8 more in July, but we’ll handle that as an add-on if the pilot team expands."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Also, the invoice that came in this morning was quarterly. We agreed on annual upfront, net 30, so our AP team kicked it back."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Ah, yeah, that should have been annual upfront. Billing must not have gotten the updated term. I’ll have them void that one and reissue it for $31,620 net 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If the corrected invoice is in by Friday, I can get it into the May 10 payment run."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I’ll send you the updated SSO confirmation and the corrected invoice link by end of day."
+    }
+  ]
+}

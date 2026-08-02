@@ -1,0 +1,63 @@
+{
+  "id": "cal-null-006",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so thanks for making time, Dana. I wanted to walk through the 18 additional seats for the operations team and confirm the March 18 go-live is still the target."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We have 42 people today, adding 18 gets us to 60. The only wrinkle is finance wants the invoice to land after April 1 if possible."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can set the order effective April 1 and still have the onboarding sessions in March. Billing would be $4,800 per month for the 60 seats, annual term through March 31 next year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And that includes the reporting module we talked about, not a separate line item?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Reporting is included at that tier. The only separate item is the one-time onboarding package at $2,250, and that covers two admin trainings plus the import review."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. Legal asked whether the renewal stays annual or if it flips to monthly after the term."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It stays annual unless either side gives 30 days' notice before the renewal date. That's the same language in your current agreement, just with the updated seat count and dates."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Fine. Can you send the order form today? I can route it to Marcus and Priya this afternoon."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, I'll send it over by 2:00 Pacific. It'll show 60 seats, April 1 start, March 31 end date, $4,800 monthly, and the $2,250 onboarding fee."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. If Marcus has questions on the invoice timing, I'll loop you in, but otherwise we should be able to sign by Friday."
+    }
+  ]
+}

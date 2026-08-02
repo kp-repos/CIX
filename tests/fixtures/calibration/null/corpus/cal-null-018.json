@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-018",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so for the calibration module you were looking at 38 technician seats and 6 manager seats, right? I want to make sure I'm using the same count you gave me last week."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We may add two more techs in July, but for the June 3 go-live it's 44 total users."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. At 44 users, the annual subscription is $31,680, and the implementation package is $4,200 one time. That includes the asset import for the 1,850 gauges and torque tools you mentioned."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the import includes our current calibration dates and intervals, not just the asset names?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Asset ID, location, owner, last calibration date, next due date, interval, and the certificate attachment if it's in the folder structure you showed us. If anything's missing, it'll show up in the import review before go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Finance asked whether the invoice can be dated May 15 with net 30 terms. Our budget opens then."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, May 15 invoice date and net 30 is fine. The service start date would still be June 3, so you're not paying for unused time in May."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. What about training? We need the lab supervisors trained the week before, probably May 28 or 29."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "We have May 29 at 10 a.m. Central open for the supervisor session, 90 minutes. Then a technician walk-through on June 4 after go-live, same time, if that fits."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, put those in the order. Send me the order form with the 44 seats, May 15 invoice, June 3 start, and those two training dates. I can sign by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it over this afternoon, and it'll match what we covered here: 12-month term, $31,680 subscription, $4,200 implementation, net 30, and the two training sessions."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-046",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so quick check on Northstar Foods. Support pinged me because their 42 seats show active through this Friday, August 15."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Friday? That's the end date on the current services agreement, right?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "It is. The order form was twelve months, ends 8/15, and I don't see any extension attached."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay, that's not great. Have we talked to Erin over there at all about carrying on after Friday?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "No. I checked my notes and the last real client conversation was the July 9 usage review. Nobody from our side has had the renewal or continuation conversation with them."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "So we're three days out, the agreement is basically expiring, and they may assume the warehouse team just keeps logging in on Monday."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, exactly. Their July invoice was paid, training is done, no open support issues. It's just the end date sitting there."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "I hate that timing. If procurement asks why no one brought it up before the 15th, we don't have a clean answer."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Right. I mentioned it because support is asking what happens to access, but I don't have anything else lined up on it today."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay. Leave the access question with support for the moment, and we'll get through the pipeline review first."
+    }
+  ]
+}

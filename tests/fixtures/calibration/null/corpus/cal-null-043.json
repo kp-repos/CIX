@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-043",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I had us down to talk through the 42-seat rollout for the operations team and make sure the May 6 go-live still works."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s right. We’re at 38 users today, but I want the agreement written for 42 so I’m not coming back in June for four more seats."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Makes sense. At 42 seats on the annual plan, it’s $31,080 for the year, and the standard onboarding package is $3,500 one-time. So first-year total is $34,580 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And payment terms are net 30? Our finance team cuts checks on the 15th and the last business day."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, net 30 is fine. If we get signature by April 19, the invoice would go out the next business day, so it should line up cleanly with your end-of-month run."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. The other thing is contract length. We don’t want auto-renew for more than a year. Legal is pretty firm on that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. We can do a one-year initial term with annual renewals, and a 30-day notice window if you don’t want to renew. That’s in our standard terms."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. For go-live, we need the admin training the week of April 29. Our warehouse supervisors are in town Tuesday through Thursday only."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay, then I’ll include admin training on April 30 at 11 a.m. Central and end-user enablement on May 2. That gives us a few days before May 6 for permissions and testing."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send me the order form with those dates and the 42 seats. I’ll route it to procurement today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it over this afternoon, and I’ll include the billing contact as finance@northlakeparts.com unless you want a different address."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that’s the right one. Thanks, Mark."
+    }
+  ]
+}

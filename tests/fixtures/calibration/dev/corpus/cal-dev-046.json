@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-046",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the quote for 42 seats and make sure the March 18 go-live still works on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, March 18 is still the target. We have 38 users confirmed today, but finance asked us to budget for 42 because we expect four more in Q2."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That makes sense. The pricing sheet has the 42-seat annual plan at $31,500, and implementation is a one-time $4,800. If you start with 38 active users, we can still contract for 42 and just provision the remaining seats when you're ready."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the invoice, would that be one invoice for the annual subscription plus implementation, or split out?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "We can do either. Standard is one invoice for $36,300 due net 30, but if your AP team wants services separated, I can have billing issue two invoices."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "One invoice is fine. Our only ask is that the PO number be included on the invoice. It'll be PO-41782."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, PO-41782. On contract terms, we're using the 12-month agreement starting March 18, with renewal notice at 60 days. Any redlines from legal, or are you comfortable with the current draft?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Legal reviewed it yesterday. They were fine with it as long as the data processing addendum stays attached. No other changes."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. For onboarding, we'd schedule the kickoff the week of February 26, then admin training on March 6 and end-user training on March 13. Does that line up with your team's availability?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, March 6 and March 13 both work. Please send the calendar holds to me and Marcus, he's our operations lead."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the final order form today with the 42 seats, $36,300 total, net 30, PO number included, and the March 18 start date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it over and I should be able to get signature by Friday."
+    }
+  ]
+}

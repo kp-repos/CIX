@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-027",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the revised package for Northlake: 42 seats, the analytics add-on, and the standard onboarding services for the May 20 go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That lines up. The only thing I want to confirm is whether those 42 seats include our three warehouse supervisors, or if we need to add them later."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "They’re included in the 42. If you add more after launch, the same per-seat rate applies and it just prorates on the next invoice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the number you sent yesterday was $38,640 for the year, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, $38,640 annually, net 30 billing, one-year term starting May 1. Onboarding is a separate $4,200 one-time line item."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Fine. Our finance team asked if the invoice can reference PO 7716 and split the subscription and onboarding into separate lines."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that’s standard. I’ll make sure the order form and invoice show PO 7716 and break those out clearly."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. For implementation, we’ve got their availability on May 6 and May 13 for training. Is that enough?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so two 90-minute sessions should be fine for your group. We’ll schedule admin training on May 6 and end-user training on May 13, both at 11 a.m. Central."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Works for us. Send the order form today and I’ll route it for signature."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You’ll have it this afternoon, and once it’s signed we’ll confirm the kickoff agenda and the training invites."
+    }
+  ]
+}

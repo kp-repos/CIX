@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-016",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, this is Mark with CalPro. Still a good time for the calibration tracking quote?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, I have about fifteen minutes. We reviewed it this morning. The main question is seats. You quoted 24 named users, and we think 28 is safer for the lab supervisors."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that works. At 28 seats the annual subscription is $31,920, and the onboarding stays the same at $4,800. So first-year total is $36,720 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And that includes the asset import, right? We have around 3,400 gauges and meters in the spreadsheet."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. One asset import from your spreadsheet, two admin training sessions, and the certificate template setup. If the count lands a little over 3,400, that's fine. We're not charging by asset in that tier."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Finance asked if you can invoice half on signature and half at go-live. Our target go-live is October 21st."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, net 30 on both invoices. First invoice on signature, second invoice on the go-live date, October 21st. I'll put that payment schedule in the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Term is still twelve months?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Twelve months starting September 16th, since that's when you'd get access for setup. It runs through September 15th next year. Renewal is annual unless either side gives 30 days' notice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's fine. Send the updated order form with 28 seats and the split billing. If it matches what we just said, I can route it for signature today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You'll have it in about an hour, and I'll include the implementation dates in the same email so your ops lead has the timeline."
+    }
+  ]
+}

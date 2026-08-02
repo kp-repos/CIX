@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-038",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hey Dana, thanks for making time. I saw your note about adding the maintenance team before the March rollout, so I wanted to walk through seat count and timing."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, so we have 42 users today. We need 16 more for the second plant, mostly technicians who will log calibration results and pull certificates."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. That puts you at 58 total seats. On the current pricing sheet, the 51-to-75 seat band is $74 per user per month, billed annually. Since your renewal is June 30, we can co-term the 16 seats from March 1 through June 30 for $4,736 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that number is workable. Can the invoice show the added seats separate from the base subscription? Finance asked for that because it hits a different cost center."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can list it as a separate line item: 16 additional technician seats, March 1 to June 30, cost center 4812 if that is still the right one."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "It is. And for go-live, we’re targeting March 4. We’ll need the users active the Friday before, February 28, for training."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No problem. I’ll set the start date as March 1 for billing, and we can enable access on February 28 for training at no charge. Training is the same two 90-minute sessions included in your package."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Do you need a new PO for the prorated amount, or can we use the existing blanket PO?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "The existing blanket PO has $9,200 remaining, so it covers the $4,736. I’ll reference PO 77341 on the order form and invoice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send me the order form today if you can. I can sign it by Wednesday morning."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the order form with the seat count, co-termed dates, separate line item, and PO reference. Once it’s signed, we’ll schedule the February 28 enablement and the two training sessions."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks, Mark."
+    }
+  ]
+}

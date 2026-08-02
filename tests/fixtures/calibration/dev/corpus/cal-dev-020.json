@@ -1,0 +1,58 @@
+{
+  "id": "cal-dev-020",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so Northstar is good with the 42 seats and the $68,400 annual. They want the order form today if we can still hit a February 12 go-live."
+    },
+    {
+      "speaker": "Colin",
+      "ts": null,
+      "text": "That works. Any issue with the payment terms?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "No, net 30 is fine. The only open bit is the auto-renew language. I dropped a short note on Lena's thread this morning because their procurement guy won't issue the PO with that sentence sitting there."
+    },
+    {
+      "speaker": "Colin",
+      "ts": null,
+      "text": "Okay. If legal cleans that up, I can get the customer version out pretty fast."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep. And on the 9% two-year discount, Noah had one comment in the pricing sheet. I replied with the signature date and tagged his team channel, since Karen at Northstar is asking whether she should hold the budget line through Friday."
+    },
+    {
+      "speaker": "Colin",
+      "ts": null,
+      "text": "That's within the usual range. I don't think deal desk will push back."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Agreed. Implementation is also pretty standard, 30-day onboarding, four admin trainings. I left Priya a voicemail too, just to confirm they can start the week of the 12th before I put that date in front of Northstar."
+    },
+    {
+      "speaker": "Colin",
+      "ts": null,
+      "text": "Makes sense. Send me the final when those pieces are green and I'll review the package before you send it."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Will do. Customer is ready otherwise. It's just those last fields, and then I can get Karen the PDF for signature."
+    }
+  ]
+}

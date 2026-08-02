@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-051",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the quote for the calibration management rollout and make sure the seat counts and dates are still right."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that works. We reviewed it internally yesterday. The 24 technician seats and 6 manager seats are correct for phase one."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Great. And the two lab locations are still Dayton and Fort Wayne, with Dayton going first?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Correct. Dayton on March 18, Fort Wayne about four weeks later. We do not need the mobile add-on for Fort Wayne yet."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. The proposal has the base subscription at $38,400 annually, implementation services at $9,750, and the one-time data import at $3,200. Any concerns there?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, those numbers match what we expected. Finance just asked if the annual subscription can be invoiced on April 1 instead of at signature."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, we can do that. The services invoice would still go out at signature, and the subscription invoice would be dated April 1 with net 30 terms."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That should be fine. Legal had one small question on the renewal language, but they said the standard 60-day notice period is acceptable."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay, good. I’ll send the updated order form with the April 1 billing date and the 24 plus 6 seat split. If you sign by Friday, we can keep the March 4 kickoff."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Friday is realistic. Send it over to me and copy our procurement inbox. I’ll route it for signature."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. Anything else you want covered before I send it?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that’s it. Thanks, Mark."
+    }
+  ]
+}

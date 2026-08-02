@@ -1,0 +1,58 @@
+{
+  "id": "cal-hold-042",
+  "source_type": "email",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Thanks for the call. Attached is the order form for 62 seats, annual term starting 9/1, implementation included, net 30. Total is $52,080."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We need 64 seats, not 62. Billing annual is fine. AP can issue a PO by Friday if the first invoice can be held until go-live on 10/7."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Updated to 64 seats. Invoice is generated at signature and due net 30, but we can align kickoff so your go-live stays 10/7. Revised total on the form is $53,760."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "I can get this approved today if the PO is for the $48,640 you sent over chat. The PDF still shows $53,760."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, use $48,640 on the PO. The form may lag until I can get the revised copy back, but I’ll make sure the countersigned version matches before it goes to billing."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "PO attached for $48,640, 64 seats, start date 9/1. Please confirm this is enough to start scheduling onboarding."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Confirmed. I’ll get the order moving and have our onboarding manager send kickoff options for next week."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thursday at 10:00 a.m. Eastern works. Please include finance@northlineparts.com on the invoice."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Done. Calendar invite sent for Thursday, and finance is added for invoicing."
+    }
+  ]
+}

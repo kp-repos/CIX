@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-013",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the revised scope for the analytics rollout and make sure the seat count and dates are right before I send the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We landed on 48 full users and 12 read-only users. The read-only folks are mostly plant managers, so they just need dashboards, not exports."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. So 48 standard seats at $72 per seat per month, and 12 view-only at $18 per seat per month. On a 12-month term, that puts software at $44,064. The one-time onboarding package is $4,800."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches what I have. Can you make the start date September 1st? We want the kickoff the week after Labor Day, but finance wants the subscription to line up with the month."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, September 1st start, August 31st end date next year. Kickoff target September 5th or 6th, depending on your team's availability."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "September 6th is better. Also, billing-wise, can you invoice the onboarding fee upfront and the subscription annually? Net 30 is fine."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that's standard. You'll see two line items on the invoice: $4,800 for onboarding and $44,064 for the annual subscription, both net 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Procurement asked about the data processing addendum. Is that included with the order form or separate?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It'll be attached with the order form. Same version your legal team reviewed in May, no changes. The order form will reference it directly."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and copy Marcus in procurement. If everything looks like this, I can sign by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it over this afternoon with the September 1st start, 60 total seats split as we discussed, annual billing, net 30, and kickoff targeted for September 6th."
+    }
+  ]
+}

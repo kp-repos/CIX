@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-050",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I had us down for 20 minutes to walk through the renewal and the added seats for the support team. Does that still work?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that works. We’re trying to get this wrapped up before August 15, because that’s when our current term ends."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. So the renewal would keep the same plan, same support package, and move you from 42 seats to 55 seats. The new annual total comes to $48,950 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I saw in the quote. Can you confirm the additional 13 seats are available on September 1? We don’t need them before then."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can set the expansion effective September 1. The base renewal starts August 16, and the added seats start September 1, so the invoice will show those as separate line items."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Our finance team asked for net 30 terms again. Nothing changed there, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Right, net 30 stays in place. Billing will send the invoice to ap@northlakeparts.com, and I have Casey Miller listed as the billing contact."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s correct. One more thing, the contract says auto-renewal with 60 days’ notice. Legal is fine with that as long as the term is 12 months, not 24."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, this is a 12-month term, August 16, 2026 through August 15, 2027. I’ll send the order form after this call, and once it’s signed we’ll schedule the September 1 seat activation."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send it over today if you can, and I’ll route it for signature."
+    }
+  ]
+}

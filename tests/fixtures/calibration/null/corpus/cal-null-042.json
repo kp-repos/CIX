@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-042",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so just to confirm where we landed: 62 named seats for the calibration platform, one production site in Dayton, and your target go-live is September 16. Is that still right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We may add the Columbus repair team later, but not in this first wave. For Dayton it's 48 technicians, 9 supervisors, and 5 quality folks."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. The quote I sent has 62 seats at $46,500 annually, plus the one-time implementation package at $7,200. That includes the gauge list import, two admin workshops, and the technician training session."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. On the gauge import, we have about 3,800 records. Some of them have missing last-cal dates. Is that going to change the services number?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No, not for that volume. If the file is in the template by August 23, the team can load it and flag the missing-date items during validation. You'd get the exception report before training."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Our finance person asked whether the invoice can show software and implementation as separate lines. Same PO, just separate lines."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that's standard. The order form will show the annual subscription and the implementation fee separately, both net 30, start date September 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "And the term is 24 months, correct? Legal didn't want a three-year initial."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, 24 months. The renewal is annual after that unless either side gives 60 days' notice. No auto uplift in year two; year two stays at $46,500."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches what I have. If I get you the signed order form by next Friday, August 9, are we still safe for September 16?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. With signature by August 9, kickoff would be the week of August 19, import by the 23rd, admin training September 5, and technician training September 12."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, send the final order form with those dates in it and I'll route it this afternoon."
+    }
+  ]
+}

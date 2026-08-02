@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-048",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Maya. I had you down as looking at the calibration scheduling module for the field team, plus maybe a few more coordinator seats. Is that still right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We have 42 technicians today, and we'd start with 8 office users. If the pilot goes clean, we'd add the western region in Q3, but I don't want to bake that in yet."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Makes sense. For 50 total seats on an annual term, the pricing sheet puts that at $31,200 for the software and $4,800 for implementation. That includes the import of your asset list and two admin trainings."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. On implementation, we're trying to be live by March 18. Our current process is, uh, it's a spreadsheet and a shared inbox, so we need some handholding, but not a huge consulting project."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so March 18 is workable if we kick off by February 19. We'd do discovery the first week, configure the workflows, import the asset and technician data, and then training the week of March 11."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. The only contract thing I need is net 45. Our AP team won't do net 30 on new vendors."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Net 45 is fine on the standard order form. I'll include that, along with annual billing, start date February 19, and the 50 seats."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Can you also show the optional Q3 expansion as a separate line? Not committed, just so I can show my VP what the second phase would cost if we add 30 more technicians."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. I'll put it in the notes as an optional add-on: 30 technician seats at the then-current volume tier, estimate of $15,600 annually if you added them today. It won't be part of the initial total."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send me the order form and the one-page implementation outline, and I'll route it for signature. If legal has no comments, we should be able to turn it around by next Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I'll send both this afternoon. If anything needs to change, just mark it up and we can review on a quick call."
+    }
+  ]
+}

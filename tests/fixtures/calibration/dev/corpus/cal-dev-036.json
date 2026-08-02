@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-036",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final scope before I send the order form over. I have 42 standard seats and 6 admin seats, annual term starting March 1, total at $48,600. Does that match what you have?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches. The only thing is we may add two more standard seats in April, but we don't want to hold up the March 1 go-live for that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally. We can start with the 42 and 6, and if you add those two later, it's just prorated through the same February 28 end date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, good. On billing, can you split the invoice by department? Finance asked for 70 percent to operations and 30 percent to customer support."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that's fine. It'll still be one contract, but the billing tool can generate two invoice lines with those allocations. Payment terms are net 30, same as the draft we reviewed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Net 30 works. And implementation is still the week of February 12?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Right. Kickoff on February 12, configuration sessions on the 14th and 15th, and then user training on February 22. That gives us a few business days before March 1 if anything needs adjusting."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Legal had one comment on auto-renewal. They want 60 days' notice instead of 90."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I saw that. Deal desk approved 60 days this morning, so I'll include that version in the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it to me and copy our controller, Miguel. If we get it today, I can route it for signature tomorrow."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the order form and the invoice allocation note in the same email, and I'll hold the March 1 start date on our side."
+    }
+  ]
+}

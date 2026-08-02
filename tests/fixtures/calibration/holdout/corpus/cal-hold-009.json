@@ -1,0 +1,53 @@
+{
+  "id": "cal-hold-009",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Hey Jordan, quick one on Northlake. They want the 38 seats live by May 6, but procurement is asking if we can split the first invoice 50 percent at signature and 50 percent on go-live."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Yeah, that should be fine if it's annual upfront in the contract and just a payment schedule change. Total is still $42,180, right?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Correct, $42,180 for the year, includes the implementation package. I don't want to create a weird billing exception if it's going to slow legal down."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "No, not weird. Put the two invoice dates in the order form notes and billing can handle it. Also, I noticed their current agreement ends April 30 and I don't think anyone's talked to them about continuing past that, which is a little uncomfortable, but separate from the invoice mechanics."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, okay. For this order form, do I need deal desk approval because the implementation fee is discounted from $6,000 to $4,500?"
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "If it's already on the pricing sheet, no. The seat rate is $82.50 per user per month, so the implementation discount is within the standard band."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Got it. And they asked for net 45. We usually give net 30, but their finance team said their check run is only twice a month."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Net 45 is fine for that size if manager approves. Send it to me before you send to legal, just so the dates and the payment language are clean."
+    }
+  ]
+}

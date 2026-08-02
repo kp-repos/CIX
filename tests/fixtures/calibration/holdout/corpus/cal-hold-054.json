@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-054",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout details for the support analytics package before we send the order form over."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re still at 42 seats for the first phase, right? That’s 36 agents, four team leads, and two admins."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, 42 seats total. The annual subscription comes to $31,080, and implementation is the one-time $4,500 services line."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And invoicing, can you do net 30 with the invoice dated March 1? Our finance team wants it in the March close."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, net 30 is standard for us. We can set the subscription start date to March 1 and invoice on that date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. For go-live, we’re targeting April 15. Is that still realistic if we sign by next Friday?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. If the signed order is back by February 23, we’ll schedule kickoff the week of March 4. That leaves about six weeks for setup, training, and the data validation session."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. One thing on the term, procurement asked if this can be a 12-month agreement with no auto-renewal, just renewal by written notice."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can do 12 months and remove auto-renewal. I’ll have that reflected in the terms section."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and copy Marcus in procurement. If it matches what we discussed, I can route it today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the order form and the services summary this afternoon, and I’ll include the March 1 start date, 42 seats, net 30, and April 15 go-live target."
+    }
+  ]
+}

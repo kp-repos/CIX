@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-054",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for jumping on, Dana. I wanted to clean up the two open items from the rollout plan for the calibration portal. We still have you at 48 seats, target go-live July 15."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Right, but the rollout plan is exactly why I'm calling. On June 18 we agreed the implementation team would load our gauge templates before training. Yesterday your implementation lead told my ops manager she had never heard about that, and nothing was queued. That agreement just did not make it to the people doing the work."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "You're right. I looked at the handoff this morning, and that template-load note was missing. That's on me. I told you we'd have those 312 templates staged by July 8, and the team that has to deliver it was surprised yesterday. I'm sorry for putting you in that spot."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "It wasn't a small surprise. We had three supervisors on the call ready to validate tolerances, and instead we spent 40 minutes explaining what we already covered with you."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. I spoke with implementation at 9:30 today. They can take the spreadsheet you sent on June 20 and load the templates by end of day Friday, July 5. Then we keep the July 9 validation session, same time."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. The second thing is billing. We agreed the first invoice would be split 60 percent to plant operations and 40 percent to quality, with the two PO numbers I gave you. Your billing team sent one $38,400 invoice to the generic AP inbox. They clearly never got the split-billing agreement either."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, I saw that too. The billing group did not receive the PO split or the two-cost-center instruction, even though we agreed to it on the pricing call. That's the same handoff miss, and I apologize. The incorrect invoice will be voided."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Please make sure it doesn't hit our system twice. AP gets pretty rigid once an invoice is in review."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. We'll void invoice 10472 today, reissue two invoices tomorrow: $23,040 to plant ops under PO 7816, and $15,360 to quality under PO 7817, both net 30. I'll send you confirmation once billing completes it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Fine. If the templates are loaded Friday and the corrected invoices are out tomorrow, we're still good for July 15. But I need the delivery teams actually working from what we agreed to."
+    }
+  ]
+}

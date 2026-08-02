@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-022",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, yeah, thanks for making the time. I wanted to confirm what changed on your side since last week: still looking at 48 seats for the operations team, or did the warehouse managers get added?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "They did get added. We’re at 54 total now. It’s 42 standard users and 12 manager seats. I want the managers live on February 3 with everyone else, if that’s realistic."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, February 3 is realistic. For 54 seats on an annual term, the subscription comes to $38,880 for the year. Implementation is the fixed $4,500 we discussed, so first-year total is $43,380 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And billing is one invoice up front, right? Our finance team asked if you can put the PO number on it. It’ll be PO-7716."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, one invoice up front, net 30. I’ll include PO-7716 on the order form and invoice request. If you sign by January 12, the invoice should land the same day or next business day."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Contract term is February 1 to January 31 next year?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, February 1, 2026 through January 31, 2027. Access can open a few days early for admin setup, but the paid term starts February 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. One other thing: we need two training sessions, one morning and one afternoon, because of shifts. Is that included or extra?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Included. The implementation package covers two live trainings up to 90 minutes each, plus the admin configuration workshop. We can pencil those for January 27 at 9:00 and 2:00 Central if that fits."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Those times are fine. Send the order form to me and copy Marcus in procurement. If the numbers match what you just walked through, I can get it signed this week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send it over this afternoon with the 54-seat breakdown, February 1 term start, PO number, and the two training sessions noted. Thanks, Dana."
+    }
+  ]
+}

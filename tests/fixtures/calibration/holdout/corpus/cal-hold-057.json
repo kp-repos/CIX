@@ -1,0 +1,58 @@
+{
+  "id": "cal-hold-057",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Jordan, yeah, thanks for making time. I saw your note about the kickoff yesterday and the first invoice. I want to get both sorted before your May 20 go-live moves any further."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good, because the kickoff was awkward. We agreed on the March 28 call that onboarding included importing 14 months of closed cases, back to January 1 last year, not just open cases. Your implementation lead came in saying she only had open cases in scope. That never reached her, and our support director was sitting there asking why we were re-scoping something we already bought."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "You’re right. That was agreed, and I’m sorry it did not get to the implementation team. The package is the $8,400 onboarding package, and the 14-month historical case import should have been in what they received. I’m not going to make you renegotiate that on a kickoff call."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, but we need a date. We have 42 support seats training on May 13, and they need to search the old cases in the sandbox before then."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. I spoke with delivery before this call; they can load the historical file by end of day May 9 if your team sends the export by May 6. Same field map we discussed: case ID, created date, closed date, owner, status, tags, and resolution notes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. The second issue is the invoice. We agreed the billing would be split: 80 seats to the Operations cost center and 35 seats to IT. Instead, billing sent one invoice for all 115 seats, $31,625, due April 30. When our AP manager called, your billing team said they had no note about the split. So again, something we agreed to just didn’t make it to the group doing the work."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, that’s on us too. I apologize. The split billing was part of the final order: 80 Ops seats and 35 IT seats, both under the same 12-month term. Billing should not have sent a single combined invoice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Can you have them void it and reissue today? Our month-end cutoff is tomorrow at 3 p.m. Eastern, and if it misses that, payment slips two weeks."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. I’ll get the single invoice voided and have two corrected invoices sent by noon Eastern today: Ops for $22,000 and IT for $9,625, same April 30 due date. I’ll also send you a short confirmation email with the import date and the two invoice amounts so your team has it in writing."
+    }
+  ]
+}

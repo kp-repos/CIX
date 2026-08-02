@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-030",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so Acme Facilities is ready to renew, but they want the proposal by Friday because their finance cutoff is May 28."
+    },
+    {
+      "speaker": "Chris",
+      "ts": null,
+      "text": "Okay. Same package as this year or did they add anything?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "They’re moving from 38 to 42 seats, keeping the standard support tier, and they asked for a 12-month term instead of 24. Total comes to $31,080 before tax."
+    },
+    {
+      "speaker": "Chris",
+      "ts": null,
+      "text": "That should be inside the normal discount band, right?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep, 8% discount, no special terms. The only slow part was getting the renewal built, because I had to enter the same seat count, dates, and discount in the CRM, the pricing sheet, the billing tool, and the contract portal, so that took most of yesterday afternoon and this morning."
+    },
+    {
+      "speaker": "Chris",
+      "ts": null,
+      "text": "Got it. Is the paper clean now?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah. Start date June 1, invoice net 30, procurement contact is Dana Reed. I’m sending the order form and the two-page proposal after this."
+    },
+    {
+      "speaker": "Chris",
+      "ts": null,
+      "text": "Cool. If they sign by Friday, can services still hold the June 10 go-live review?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "I checked with Sam. June 10 at 1 p.m. Eastern is fine, and they only need one admin on the customer side."
+    },
+    {
+      "speaker": "Chris",
+      "ts": null,
+      "text": "Perfect. Send it over, and cc me if Dana comes back on the term language."
+    }
+  ]
+}

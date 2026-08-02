@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-023",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so for the Westbridge rollout, they confirmed 48 seats for the first wave and another 17 after payroll closes on November 15."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Good. Did they push back on the services line or are we still at $6,400 for onboarding?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Still $6,400. The only change is they want the first invoice split, 70% on signature and 30% at go-live, which finance said is fine if the term stays annual prepaid."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Okay, that's clean. I can update the order form language this afternoon."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Thanks. Also, side note, I noticed the Northlake agreement ends on Friday and I don't think anyone's actually talked to them about carrying on yet, so that's sitting out there."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Yeah, not ideal. Anyway, for Westbridge, legal already accepted the mutual NDA reference, right?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "They did. They only asked to cap the data retention period at 60 days after termination, and our template is already 45, so no issue."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Perfect. If we get signature by the 6th, customer success can still hit the December 2 go-live."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep. I'll send them the clean copy once you adjust the invoice split. Nothing fancy in the pricing sheet, just 65 seats at $72 per seat monthly equivalent, billed annually."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Got it. I'll have it back to you before three."
+    }
+  ]
+}

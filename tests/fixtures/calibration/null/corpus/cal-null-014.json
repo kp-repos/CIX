@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-014",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I know you’ve got the warehouse supervisors in at 11, so I’ll keep this tight. You wanted to walk through the 38-seat rollout and invoice timing, right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, exactly. We’re still at 38 named users for phase one. That’s 24 operations folks, 9 finance, and 5 managers. I just need to make sure the numbers match what I can put in front of procurement."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep. For 38 seats on the annual plan, the subscription is $31,920 for the year. The implementation package we discussed is $4,800 one-time, so first-year total is $36,720 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches my notes. And the implementation piece still includes the data import from our two spreadsheets?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It does. Two source files, up to 15,000 rows combined, field mapping session, and one validation pass with your team. If the files are ready by May 17, we can keep the June 3 go-live date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That date is important. We have inventory count starting June 10, and I don’t want people learning a new workflow during that week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally. The plan would be admin training May 28, end-user training May 30, then go-live June 3. We’ll record both sessions so your night shift can watch them later."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. On payment terms, can you do net 30 from invoice date? Our standard run is Tuesdays, and if this lands weird it can miss the cycle."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Net 30 is fine. If you sign by May 10, invoice date would be May 13, due June 12. I’ll make sure the order form reflects that exactly."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. One more thing: the contract should be 12 months, not auto-renewing for three years or anything like that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, 12-month initial term, annual renewal after that with 60 days’ notice if you don’t want to continue. No multi-year commitment unless you ask for it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Send the order form to me and copy Marcus in procurement. If it matches what we just covered, I think we can turn it around this week."
+    }
+  ]
+}

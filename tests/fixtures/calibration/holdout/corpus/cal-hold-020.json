@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-020",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the renewal quote for the service team and make sure the seat count and start date are right before I send it over for signature."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re at 42 users today, and we need to add 6 for the new branch in Dayton. So 48 total starting April 1."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 48 seats effective April 1. The term would run April 1, 2026 through March 31, 2027. Same package you’re on now, with the standard support included."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. What does that put the annual total at?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "With the volume tier, it’s $31,680 for the year. That’s $55 per seat per month, billed annually. No implementation fee since you’re already live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. We do need the invoice to reference PO 41877, and accounts payable prefers net 30."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I can include PO 41877 on the order form and invoice. Net 30 is already in your current terms, so no change there."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. One other thing: if we end up hiring in Q3, can we add seats mid-term?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. Additional seats are prorated through March 31, and they’ll carry the same $55 rate. You can just email me the number and the effective date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send the order form to me and copy Marcus in finance. If we get it today, I can route it for signature tomorrow."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it over this afternoon with the April 1 start date, 48 seats, PO 41877, and net 30 terms."
+    }
+  ]
+}

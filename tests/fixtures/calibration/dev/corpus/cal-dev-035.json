@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-035",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the final pricing sheet for the operations analytics rollout and make sure the seat count and go-live dates still match what you need."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that works. We’re still at 38 full users and 12 read-only users. If the pilot group expands, it would be in Q2, not right away."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. So for year one, 38 full at $72 per user per month, and 12 read-only included. The implementation package is the fixed $8,500 we discussed, and that covers configuration, two admin trainings, and the data connector setup."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the start date on the subscription is February 1, correct? We don’t want billing to start in January if finance can avoid it."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, February 1 subscription start. We can schedule implementation kickoff the week of January 15, but the recurring fees won’t start until February. The invoice for implementation would be issued on signature, net 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s fine. Legal had one question on the term. It says 12 months with auto-renewal unless we give 45 days’ notice. They asked if 60 days is standard or if 45 is your normal language."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Forty-five is our standard for mid-market agreements. If your team prefers 60, that’s usually acceptable. I can send that through deal desk, but I don’t expect it to slow anything down."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Please change it to 60. Other than that, the agreement looked okay. We’re trying to get signature by December 22."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll update the renewal notice to 60 days and send the revised order form this afternoon. If you can turn it around by the 22nd, we’ll hold the January 16 kickoff slot."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send it to me and copy our contracts inbox. I’ll route it internally once it comes through."
+    }
+  ]
+}

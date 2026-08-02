@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-027",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so before the 2:00 with Benton, can I sanity check the rollout plan? They’re asking for 38 seats live on July 15, then the remaining 24 after training on August 5."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "That matches what I have. Billing starts July 15 for the first 38, and finance already confirmed the invoice can show the second group as a separate line."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Perfect. Also, one thing that’s been bugging me: HarborCrest’s agreement ends tomorrow, June 28, and I don’t think anyone from our side has talked to them about continuing. Like, at all."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Tomorrow? They’re the 52-seat account with the reporting add-on, right? No renewal conversation, no extension, nothing?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Nothing that I can find, and I asked Ben because he had the last touch. Their last actual conversation was May 16 about a support ticket. It’s just sitting there with the end date basically here, and nobody has said, hey, do you want to keep this going."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "That’s rough. If it rolls past Friday, we’re out of term with an active customer and they may think we just forgot about them, which, yeah, we kind of did."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "I know. It’s one of those things where you see the date and your stomach drops. Anyway, for Benton, I’ll keep the scope to the implementation timeline and not get pulled into custom reporting on the first call."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Good call. If they ask, just say the standard dashboards are included, and anything custom gets sized after go-live."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Got it. And the services fee is still $7,800, billed up front with net 30 terms?"
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Yep. Keep it simple: seats, timeline, services fee, and the August 5 second cohort. That should be a clean call."
+    }
+  ]
+}

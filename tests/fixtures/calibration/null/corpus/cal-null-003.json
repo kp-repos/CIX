@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-003",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so thanks for making time, Dana. I had you at 32 analyst seats and 6 manager seats for the inventory planning module, with a target go-live of March 18. Is that still the right shape?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Mostly, yeah. We need 34 analyst seats now. Two folks moved over from purchasing last week. Manager seats stay at 6."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 40 total users, 34 analyst and 6 manager. On the annual plan that puts the subscription at $46,800 for the year, and implementation is $4,500 one time. First invoice would be due net 30 from signature."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Can the invoice reference PO 73142 and our cost center, 220-OPS? Accounts payable kicks it back if that is missing."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can put both on the order form and the invoice. No issue. Do you want the invoice sent to ap@northlinefoods.com or to you first?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Send it to AP and copy me. Also, on timing, if we sign by February 9, are we still okay for March 18?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. The project plan is three weeks for data mapping, one week for testing, then admin training. If we have the product list and warehouse file by February 16, March 18 is comfortable."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Our ops lead can send those files. Contract term is 12 months, right? No multi-year commitment hidden in there?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, 12 months. It renews annually unless either side gives 60 days' notice, and the price increase at renewal is capped at 5 percent. That language is in section 4."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Send me the order form today if you can. I’ll route it to finance, and assuming no surprises, we can sign Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it over with the 34 analyst seats, 6 manager seats, PO 73142, cost center 220-OPS, annual invoice net 30, and March 18 go-live target."
+    }
+  ]
+}

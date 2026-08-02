@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-028",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I saw the note that your Fort Wayne lab is adding a second shift in March. Are you looking at more user seats, or is this more around the calibration due-date reporting?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Mostly seats. We have 18 people in there today, and we need 7 more by March 11. The reporting is fine, though I do want the supervisors to see overdue gauges without being full admins."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. So 25 total users, with those 7 as standard users, and then supervisor visibility through the manager role. That keeps permissions pretty clean. Your current plan is $42 per user per month, billed annually, so the 7 seats would add $3,528 for the remaining year if we line it up with your June 30 renewal."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that math works. Can you make the invoice hit in February? Our finance team is closing January already, and I don't want it bouncing around."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. I can set the service start date as March 11 and invoice date as February 12. Payment terms stay net 30, same as your main agreement."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. And no new implementation fee, right? They're already using the same procedures and assets, it's just more people logging in."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, no implementation fee. I do recommend one 45-minute enablement session for the second-shift supervisors. That's included; we'd just schedule it the week of March 4."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Let's do March 6 if you have it. Around 2:00 Eastern catches both shifts for us."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "March 6 at 2:00 Eastern works. I'll send the order form for the 7 additional seats, cotermed to June 30, with the February 12 invoice date and the enablement session noted."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and copy Marisol in finance. If the total is $3,528 plus tax, I can sign it this week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That's the total before applicable tax, yep. I'll have it over today, and once it's signed we'll add the seats so they're available before the March 11 go-live."
+    }
+  ]
+}

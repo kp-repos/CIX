@@ -1,0 +1,83 @@
+{
+  "id": "cal-dev-007",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I sent the revised quote at 11:12. Sorry it landed later than I said, I had to get the asset list and billing contact lined up in our system before it would generate clean."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No problem. I have it open. This is for 48 technician seats and 12 approver seats, right? We do not want the lab-only users counted."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Sixty named users total, $38,400 annual subscription, plus $7,200 one-time implementation. Lab-only certificate viewers are included at no charge up to 25 users."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the March 18 go-live is still realistic if we start in January?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. If kickoff is the week of January 27, we do asset import by February 7, workflow review by February 21, then user acceptance the first week of March. March 18 is workable."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "How are you billing it? Finance asked if we can avoid the whole subscription hitting in one invoice."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "The quote shows annual upfront. Quarterly is available with a 3 percent uplift, so subscription would be $9,888 per quarter. Services would be half at kickoff and half at go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. We also need net 45 and seven-year retention on calibration certificates. That was a sticking point in legal."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Net 45 is approved. Seven-year certificate retention is included in the standard plan, so we can put that in the order form notes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Can you walk our quality manager through the approval workflow tomorrow? She only has about 30 minutes."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I can do 8:10 or 4:35 Eastern. I've got a tight stretch getting the approval packet out before month-end close, so I can't hold a full hour tomorrow."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Let’s do 4:35. If that goes fine, I can get the PO routed Friday. Term is 12 months with renewal at the same rate?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Initial term is 12 months, renewal is 12 months, and we’ll hold the subscription rate for 24 months if signature is in by February 7. Any added seats are prorated to the same renewal date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Send the invite and the order form with net 45 in it. I’ll bring Marisol from quality and Nate from finance."
+    }
+  ]
+}

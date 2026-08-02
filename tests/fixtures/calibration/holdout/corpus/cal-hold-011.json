@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-011",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making the time. I’ve got you down for 38 seats to start, annual term, target go-live May 20. Does that still line up?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "It does. We may add four more in July, but procurement wants the initial order clean. The main thing is invoice timing and the support add-on."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally. The quote I sent was $42,180 for the 38 seats, plus $3,600 for standard onboarding. Support add-on is included at that tier, so no separate line item."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. I saw net 30 on the draft, but our finance team asked for net 45 if possible. Is that a deal breaker?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No, net 45 is workable. I’ll get that reflected in the agreement. And, just to be candid, if I’m a little slow turning the redline today, it’s not you. My calendar’s been getting swallowed by admin work lately, like typing call notes into the CRM, cleaning up duplicate account records, and building the internal approval packets for every discount. Yesterday I spent almost five hours on that stuff instead of actually talking to customers, which is, yeah, not ideal. I’ll still get yours moving before end of day."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Understood. We’re not looking for a big discount, so hopefully it’s simple. We just need the paper back by Thursday because our signer is out Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That helps. You’re at standard pricing with the onboarding fee, so it should be straightforward. I’ll update net 45, keep the May 20 go-live, and leave the seat count at 38."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Can you also include the billing contact as ap@northviewplastics.com? The invoice should reference PO 7146."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I’ll include that. Once the agreement is signed, the invoice will go out with PO 7146 and the first implementation call can be scheduled for the week of May 6."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it over when ready and I’ll route it internally."
+    }
+  ]
+}

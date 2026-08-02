@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-008",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, yeah, thanks for jumping on. I wanted to run through the onboarding plan for the calibration module and make sure March 4 still works on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "March 4 is still the target. I did want to ask about the kickoff invite, though. We had said Thursday, February 15, because our quality lead is at a supplier audit until then. The invite came over for Tuesday the 13th."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Ah, okay, yeah, sorry about that. Thursday the 15th at 10:00 Central is fine. I’ll have the implementation coordinator move the series today."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. The other thing is seats. The worksheet we got from your onboarding team shows 25 named users, but the order form has 32. We need all 32 for the first lab group."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, you’re right, 32 named users on the annual plan. I’ll get that corrected before they provision the tenant, so nobody is waiting on access."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. We’re assigning 18 technicians, 6 supervisors, and 8 read-only managers. Same split we discussed last week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That split works. The read-only managers won’t count against technician permissions, and the supervisors can approve calibration records and edit schedules."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Invoice timing is still February 28 net 30?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, $46,800 due March 29, and services are the separate $7,200 line. No change there."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If you can send the updated invite and seat confirmation by end of day, we’re set."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You’ll have both before 5:00 Eastern."
+    }
+  ]
+}

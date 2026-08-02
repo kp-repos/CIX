@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-040",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hey Dana, thanks for making time. I wanted to confirm the last two items before kickoff Monday: 38 seats, annual billing, and July 22 as the target go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, those are right. The only reason I grabbed you is the onboarding note I got this morning. It lists the import as customers and open invoices only."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay, yeah, I’m looking at the order now. For Harbor, it should be customers, open invoices, and the product catalog."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s what we agreed. The catalog is the big one. It’s 1,840 SKUs, and our ops team is counting on that being in before user testing starts July 8."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. I’ll have the onboarding agenda corrected today so Monday’s session covers the catalog file format and timing."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Appreciate it. I just don’t want to get on the kickoff and hear it’s phase two or an extra services item."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "No, it’s included at no charge in the first-year package. Same total: $48,600 for the year, net 30 from the invoice date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. And the invoice still goes to ap at harborwest dot com with the PO number in the header?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, PO 4172 in the header. I’ll send you the revised kickoff agenda by 3 Central."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. If that shows catalog import on it, we’re all set."
+    }
+  ]
+}

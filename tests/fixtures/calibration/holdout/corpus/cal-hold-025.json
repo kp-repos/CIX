@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-025",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making the time. I know we had thirty minutes, so I figured we could just confirm the seat count, timing, and any contract questions on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that works. We’re still looking at 42 seats to start, mostly account managers and the three regional directors. If adoption is good, we may add another 10 in Q2."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. For 42 seats on an annual term, you’d be at $31,500 for the year. That includes onboarding, the standard support plan, and the admin training session."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the onboarding, is that still a two-week window? We’re trying to have people live by February 12th."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. If we get the order form signed by January 19th, we can start kickoff on January 23rd and have the team ready for February 12th. The only dependency is getting your user list and the two admin names before kickoff."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s fine. Legal had one question on the renewal language. They prefer 30 days’ notice before renewal instead of 60. Is that something you can do?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, that’s within our standard fallback. I can set the notice period to 30 days in the order form and send that version over this afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Billing-wise, we need the invoice sent to ap at northlinebuild.com, and the PO number is NB-44816. Net 30 is okay."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Great, I’ll include the PO on the invoice request. Just to confirm, annual billing upfront, $31,500, 42 seats, start date January 23rd, initial term through January 22nd next year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that matches my notes. Send it over and I’ll route it for signature today."
+    }
+  ]
+}

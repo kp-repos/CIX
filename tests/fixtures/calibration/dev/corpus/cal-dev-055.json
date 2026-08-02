@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-055",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the updated quote for 42 seats and make sure the May 15 go-live still works on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that still works. We have 38 active users today, and I asked for 42 so we have a little room for the operations team in June."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Makes sense. The annual subscription comes to $31,080 before tax, and implementation is a one-time $4,500. That includes the admin training and the import of your last 18 months of data."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. On billing, can you split the invoice between the subscription and implementation? Our finance team codes those separately."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can do two line items on one invoice, or two separate invoices if that is cleaner."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "One invoice is fine as long as the line items are separated. Payment terms are net 30, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, net 30. The subscription term would run May 15, 2026 through May 14, 2027, with renewal notice 45 days before the end date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. The only other thing is the service language. Our legal team asked that the support response time be listed as one business day for standard issues."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, that is already in the order form under support terms. Critical issues are four business hours, standard is one business day."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send the final order form to me and copy Marisol in procurement. If it matches what we discussed, I can get signature by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it this afternoon with the quote, order form, and the implementation summary attached."
+    }
+  ]
+}

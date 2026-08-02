@@ -1,0 +1,68 @@
+{
+  "id": "cal-null-012",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making the time. I saw your note about adding the support team before the May 20 go-live, so I wanted to walk through seats and timing."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, exactly. We’re at 42 seats today, and we need to add 18. Ideally they’re live the same day as the operations group, not a week later."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That’s doable. The 18 additional seats would be prorated from May 20 through your current term end, December 31. That comes to $7,860 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And that would show as a separate line on the June invoice, or would you issue something right away?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "We can issue it right away if that helps purchasing. It’ll reference the existing agreement and show the prorated seat add-on as its own line item."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Please do that. Our AP team wants the PO tied to the add-on, and they need net 30, same as the original contract."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, same net 30 terms. I’ll send the order form today with 60 total seats, May 20 start for the added users, and December 31 coterm."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. For onboarding, do you need the list of names now, or can we send that after signature?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "After signature is fine. If you can send the user list by May 13, our onboarding lead can get the accounts staged and schedule the admin refresher on May 16."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send the order form to me and copy procurement@ourdomain. I’ll get it signed this week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send it over this afternoon and include the invoice timing, net 30 terms, and the May 13 user-list date in the email so everybody has the same details."
+    }
+  ]
+}

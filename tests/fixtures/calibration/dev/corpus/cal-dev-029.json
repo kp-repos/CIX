@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-029",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so on Northgate, they confirmed 42 seats for the analytics package, annual billing, and they want the services block split out as its own line. Start date is February 3rd."
+    },
+    {
+      "speaker": "Derek",
+      "ts": null,
+      "text": "Okay, that's clean. Same rates from the pricing sheet, or did deal desk approve the 8% services discount?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Deal desk approved 8%, only on the $12,000 onboarding block. Subscription stays at $54,600. Legal already accepted their redline on the notice period."
+    },
+    {
+      "speaker": "Derek",
+      "ts": null,
+      "text": "Perfect. I'll make sure the order form matches that. Wait, while I had the customer list open, Ridgeway's agreement ends this Friday, January 31st."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Ridgeway? We haven't talked to them about renewing, have we?"
+    },
+    {
+      "speaker": "Derek",
+      "ts": null,
+      "text": "No, that's why it caught my eye. The end date is basically here, and I don't think anyone from our side has had a continuation conversation at all. Not even a soft check-in."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Ugh. So it just runs out Friday and we're sitting here noticing it on Tuesday. That's not great. They had 18 seats and that small compliance add-on, right?"
+    },
+    {
+      "speaker": "Derek",
+      "ts": null,
+      "text": "Yeah, $19,800 all-in. It’s just kind of sitting there, which is uncomfortable, but I don't want to mix it into Northgate right now."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Agreed. For Northgate, invoice contact is ap at northgate dot com, net 30, and procurement asked for the PO number on the first page."
+    },
+    {
+      "speaker": "Derek",
+      "ts": null,
+      "text": "Got it. I'll send the clean order form over to you for one last look before it goes out."
+    }
+  ]
+}

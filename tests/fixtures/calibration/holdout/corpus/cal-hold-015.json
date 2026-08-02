@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-015",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so for Cedar Valley, I’m sending the 48-seat quote this afternoon. They asked for June 1 go-live, net 30, and the two-hour admin training bundled in."
+    },
+    {
+      "speaker": "Leo",
+      "ts": null,
+      "text": "That tracks. Did you keep the services line at $3,200? Their ops lead was fine with that as long as it’s on the first invoice, not split."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep, one invoice. Subscription is $28,560 annual, services $3,200, taxes separate. I used the standard order form language, no weird terms."
+    },
+    {
+      "speaker": "Leo",
+      "ts": null,
+      "text": "Good. Only thing, while I had the account list open, Harbor Mills is still showing through 10/31, and I don’t think we’ve had a customer thread since that AP question in August."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Mm, yeah. Okay. For Cedar, procurement wanted to know if support is 8 to 6 Central or their local time."
+    },
+    {
+      "speaker": "Leo",
+      "ts": null,
+      "text": "It’s 8 to 6 Central. I’d spell that out because they’ve got managers in Arizona and Ohio."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Will do. Also they want the billing contact as Dana Kim, not the original signer. Same legal entity, just different email for invoices."
+    },
+    {
+      "speaker": "Leo",
+      "ts": null,
+      "text": "Fine. If they sign by Friday, implementation can still hold the June 1 slot. After that it probably pushes to June 10."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "I’ll put that in the email, not as a threat, just plain. Anything else before I send?"
+    },
+    {
+      "speaker": "Leo",
+      "ts": null,
+      "text": "No, looks clean. Copy me and I’ll watch for the onboarding questions."
+    }
+  ]
+}

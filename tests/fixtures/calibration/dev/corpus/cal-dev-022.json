@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-022",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I know we had 30 minutes, so I wanted to confirm the seat count and the timing for the support analytics rollout."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that works. We’re looking at 42 seats to start, mostly support managers and team leads. If the pilot goes well, we may add another 15 in Q2."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 42 initial seats. And the go-live date you mentioned last week was February 12, is that still the target?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes. We’d like the system configured by February 5 so our team can do a week of testing before go-live."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That’s reasonable. Implementation for that scope is usually two weeks. We’d schedule kickoff for January 22, then configuration and training before February 5."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. On pricing, the quote had $31,920 for the year. Does that include onboarding?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, that includes the 42 annual seats and the standard onboarding package. The only separate line item is optional admin training, which was $1,800, but I left that out of the total for now."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. We probably don’t need the extra training. Our ops lead is comfortable handling admin setup after the first session."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. Contract term would be 12 months starting February 1, with invoicing annually upfront. Net 30 payment terms. Any issue with that?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, annual upfront is fine. Just make sure the invoice references purchase order 44817 and the billing contact is AP at our Denver office."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send the final order form today with the PO reference and the February 1 start date. If you can return it by Friday, we’ll hold the January 22 kickoff slot."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send it over and I’ll route it for signature this afternoon."
+    }
+  ]
+}

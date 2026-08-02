@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-059",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hey, Mark. I’ve got about 20 minutes. We looked at the revised quote for 62 seats and I wanted to confirm what changed from the last version."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time. And sorry I missed you yesterday; I got stuck most of the afternoon updating pipeline records and pulling the approval packet for deal desk, so my customer call window got pretty tight. The quote changed in two places: the seat count went from 55 to 62, and the implementation package moved to the standard tier."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. The annual total I’m seeing is $48,360, plus $6,500 for implementation. Is that right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That’s right. The subscription is $65 per seat per month, billed annually, and the $6,500 is one-time. We kept the 18% discount you had on the earlier draft."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Finance asked if the invoice can be dated March 1 instead of on signature. Our budget opens then."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can set the billing start date to March 1 as long as signature is in by February 23. Access can still be provisioned the week of February 26 for your admins."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That helps. For go-live, we’re aiming for April 15. Is four weeks enough for implementation?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "For 62 seats and the two data sources you listed, four weeks is fine. The only dependency is getting your sample export by March 11, then training would be the first week of April."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Contract term is still 12 months, no auto-renewal, correct?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Twelve months, and it renews only with written approval. I’ll send the clean order form today with the March 1 billing date and April 15 target go-live noted."
+    }
+  ]
+}

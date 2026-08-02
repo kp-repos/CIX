@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-035",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I had you down for 42 seats today, with the analytics add-on for the operations team. Is that still the right count for a June 3 go-live?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Close. We need 45 seats. Three are for supervisors who only need read-only, if that changes the number. And June 3 is still what we're aiming for."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. Read-only seats are priced the same in this package, so 45 total. On annual billing, that's $31,050 for the licenses, and the onboarding package is $4,800 one-time. So first-year total is $35,850 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Can the invoice be split, licenses to cost center 410 and onboarding to 425? Our AP team asked me to check before I send this upstairs."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can split those line items on the invoice. The contract will still be one order form, net 30 terms, annual subscription starting June 3, 2026 through June 2, 2027."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. The only other thing is termination language. Our legal team prefers 30 days written notice for non-renewal, not 60."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so our standard mid-market terms allow 30 days, that's not an exception. I’ll make sure the order form references the 30-day non-renewal notice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If you can send the order form today, I can get it to procurement tomorrow morning. They usually need two business days."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I’ll send it by 3:00 Eastern today with the 45 seats, split invoice note, June 3 start date, and net 30. Do you want the implementation kickoff held for June 4 or June 5?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "June 4, if you have it. Morning Pacific is best."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "We have 10:30 Pacific on June 4. I’ll include that in the email so your team can hold it while procurement reviews."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it over and I’ll keep an eye out."
+    }
+  ]
+}

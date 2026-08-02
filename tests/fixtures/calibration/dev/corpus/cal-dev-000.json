@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-000",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Hey Jordan, quick forecast check before the 2:00. I have Cedar Ridge at $42,600 for 38 seats, annual, legal redlines came back pretty clean."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Yeah, I saw that. The only thing I flagged was the payment term. They asked for net 60 and our standard on that package is net 30."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Right. I told procurement we can do net 45 if they sign by August 9. Deal desk said that's fine, no pricing change."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Good. And implementation still wants the September 3 kickoff?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep. They have their ops lead out the last week of August, so September 3 is the first clean date. It keeps them on track for October 1 go-live."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay. Anything else weird in your patch?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Um, just noticed Harbor Lane's services agreement ends tomorrow, and I don't think anyone on our side has talked to them about continuing yet. Anyway, not part of this commit number."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Got it. For Cedar Ridge, can you make sure the order form shows 38 seats, $42,600, net 45, and the September 3 kickoff note?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Already updated the draft. I'll send you the final language after legal drops in the limitation of liability change."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Perfect. If Cedar Ridge signs this week, that's in August closed-won, not September, correct?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Correct. Signature date drives it, billing starts on go-live unless finance changes something, but they were fine with the October 1 start."
+    }
+  ]
+}

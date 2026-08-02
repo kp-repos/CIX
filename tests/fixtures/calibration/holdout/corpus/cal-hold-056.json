@@ -1,0 +1,68 @@
+{
+  "id": "cal-hold-056",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the quote for the analytics workspace and make sure the seat count and start date line up with what you need."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We’re still at 42 seats to start, with five of those being admin seats. If onboarding goes well, we may add another 10 in Q2, but not on the initial order."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. The quote I sent is for 42 annual seats, March 1 start, 12-month term. It comes to $31,080 for the subscription, plus the one-time implementation package at $4,500."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches what I saw. Can you confirm billing is annual upfront? Finance asked if there was a quarterly option, but I think annual is easier if the total stays under $40,000."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, annual upfront is what’s on the order form. Total with implementation is $35,580 before tax. If you need quarterly, I can price it, but there’s a small uplift, so annual is the better fit if procurement is okay with it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Annual should be fine. The only date I want to double-check is go-live. Our team wants training the week of March 11, and then we’d like the dashboard live by March 22."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. We’d kick off March 4, do configuration that week, training on March 12 and 14, and target March 22 for go-live. I’ll put those milestones in the implementation summary."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. On contract terms, our legal team asked for the standard mutual confidentiality language and a 30-day notice window for non-renewal."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, the template already has mutual confidentiality, and I can set the non-renewal notice to 30 days. Renewal would be for another 12 months unless either side gives notice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Send the updated order form and implementation summary, and I’ll route it today. If purchasing doesn’t have comments, we should be able to sign by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I’ll send the clean version in the next hour, with March 1 as the subscription start and March 22 as the target go-live."
+    }
+  ]
+}

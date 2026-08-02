@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-037",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so quick sanity check on the Northstar renewal. They want 42 seats, twelve months, start date April 1, net 30, and the price is $61,740 after the 8% renewal discount."
+    },
+    {
+      "speaker": "Jon",
+      "ts": null,
+      "text": "That matches what I saw. Are they asking for any contract language changes, or is it just the extension order form?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Just the extension. The painful part is getting the proposal out. To do one clean renewal, I have to put those same details into the pricing sheet, then the CRM opportunity, then the quote tool, then the billing tool for tax and invoice timing, then the approval portal because it’s over 5% discount, and then finally the e-sign packet. Same legal name, same 42 seats, same dates, same discount, same billing contact, retyped every stop."
+    },
+    {
+      "speaker": "Jon",
+      "ts": null,
+      "text": "Yeah, that is a lot. How long did this one take you?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "I started it yesterday at 3:00 and I’m still not actually done. It’s not hard work, it’s just, like, every system wants it in a slightly different format. The pricing sheet wants monthly unit price, the quote tool wants annual total, billing wants the invoice split, approval wants list price plus discount rationale. If one number changes, I have to walk it back through the whole chain."
+    },
+    {
+      "speaker": "Jon",
+      "ts": null,
+      "text": "And Northstar needs it today, right?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "By noon Pacific. Their procurement team meets tomorrow morning, and if they don’t have the signed PDF, it slips to the April 15 batch. I can get it there, but I’m basically spending two days moving the same renewal facts between screens instead of calling the other accounts."
+    },
+    {
+      "speaker": "Jon",
+      "ts": null,
+      "text": "Do you want me to review the final math before you send it?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Please. Once the approval portal gives me the green check, I’ll export the order form and send you the PDF. Can you verify the $61,740 total, April 1 through March 31, and 42 seats?"
+    },
+    {
+      "speaker": "Jon",
+      "ts": null,
+      "text": "Yep. Send it over when it’s ready. If those three match, I’ll reply back and you can get it to Northstar before noon."
+    }
+  ]
+}

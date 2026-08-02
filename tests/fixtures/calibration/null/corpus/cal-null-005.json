@@ -1,0 +1,63 @@
+{
+  "id": "cal-null-005",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I saw your note about the lab team adding people in September. Are we talking about the calibration tracking seats or the read-only seats too?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Mostly calibration tracking. We have 14 technicians starting on September 3, and then 6 read-only seats for supervisors. Current plan is to have them live in the system by September 9."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay, so 14 full seats and 6 read-only, effective September 1, co-termed to your existing contract end date of June 30, 2026. Based on the pricing sheet, that comes to $18,480 prorated for the term, before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That sounds in the range. Can the invoice list the cost center as QA-410? Our AP team kicked back the last one because it just said operations."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I can include QA-410 on the order form and the invoice note. Payment terms stay net 30, same as the master agreement."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. One other thing, training. We do not need a big rollout, but I want one 90-minute admin refresher for Maria and Lee before the new techs start."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Makes sense. We include one admin refresher with this seat add, no extra charge. I have Tuesday, August 27 at 11 a.m. Eastern or Thursday, August 29 at 2 p.m. Eastern open."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Take the Thursday slot. Maria is out that Tuesday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send the order form for the 20 added seats today, with the September 1 effective date, QA-410 on the billing note, and the admin refresher booked for August 29 at 2 p.m. Eastern."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it to me and copy our procurement alias. If the total is $18,480 like you said, I can sign it this week."
+    }
+  ]
+}

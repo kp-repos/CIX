@@ -1,0 +1,30 @@
+{
+  "manifest_version": "1.0.0",
+  "corpus_hash": "885d5885b0a5019a66afaef94b4c9b8d4395d4e9454999d70e1545d48ed63206",
+  "canonical_hash": "80185a5de571cccecdb4725a29f4320a21f7292543afb17ef9993675729a63ce",
+  "index_version": "1.0.0",
+  "tag_vocab_version": "1.0.0",
+  "label_schema_version": "1.0.0",
+  "rubric_version": "1.1.0",
+  "catalogue_version": null,
+  "model_versions": {
+    "primary": "claude-opus-4-8"
+  },
+  "prompt_hashes": {
+    "labels": "575affe0f8cd9afc",
+    "hits": "6d9279ef980092b9",
+    "synthesis": "ad345dbdc1954e75",
+    "apply": "df0fc4e57b2af9e2"
+  },
+  "seeds": {
+    "run": 20260731
+  },
+  "thresholds_version": "1.1.0",
+  "privacy_gate": "synthetic-fixture",
+  "corpus_clearance": "synthetic calibration corpus (A7, null split, spec v1.1.1)",
+  "created_at": "2026-08-02T01:45:55.118878+00:00",
+  "artifacts": {
+    "labels": "be7f254318860c90",
+    "hits": "0034344ea9a1323b"
+  }
+}

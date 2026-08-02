@@ -1,0 +1,73 @@
+{
+  "id": "cal-hold-053",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the renewal quote for the analytics workspace and make sure the seat count and dates match what you need for Q2."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that works. We’re at 48 seats today, and we want to add 12 for the customer success team, so 60 total starting May 1."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 60 seats effective May 1. The current term ends April 30, so this would be a 12-month renewal through April 30 next year. The pricing sheet has that at $84 per seat per month, billed annually."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, so that’s $60,480 before tax, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Exactly. $84 times 60 seats times 12 months. Taxes will depend on the billing address, but the subtotal is $60,480."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches what I expected. Can you keep the payment terms at net 30? Our AP team is pretty standard on that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, net 30 is already on the quote. Same billing contact as last year, invoices at ap@northlakefoods.com?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, and please copy me on the first invoice. After that, AP can handle it."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. For the added seats, do you want them available right on May 1, or should we enable them a few days earlier for setup?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "May 1 is fine. We have training scheduled May 3 and May 4, so as long as the team can log in that morning, we’re good."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send the order form today with the 60 seats, May 1 start, April 30 end date, annual billing, and net 30 terms."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send it over, and I’ll route it for signature this afternoon."
+    }
+  ]
+}

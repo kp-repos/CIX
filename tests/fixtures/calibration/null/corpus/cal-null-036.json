@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-036",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Jordan. I had you down for 32 user seats, annual term, and a February 3 go-live for the service desk group. Is that still the shape of it?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We may add four managers later, but for launch it's 32. The main thing is getting the calibration dashboard live before our audit week on February 17."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Makes sense. For 32 seats, the annual software is $26,880, plus a one-time implementation package at $4,200. That includes the dashboard setup, two admin trainings, and the data import template review."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Is the invoice all due up front, or can we split it? Finance asked me to check because our January budget is tight."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Standard terms are net 30 from signature. If you sign by January 10, the invoice would be due February 9. We can also set the service start date as February 3 so you're not paying for January usage."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. On contract language, we need the mutual confidentiality section and the data processing addendum included. Nothing unusual, just our procurement checklist."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, those are both in the order packet. The term would run February 3, 2026 through February 2, 2027, with annual renewal unless either side gives 45 days' notice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. One more thing: if we add those four manager seats in March, are they prorated or do we pay a full year?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Prorated to the same end date. So if you added four seats on March 15, you'd only pay from March 15 through February 2, 2027."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send me the order form with those numbers and the February 3 start date. I can route it to procurement today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it over this afternoon with the 32 seats, $26,880 annual subscription, $4,200 implementation, net 30 terms, and the DPA attached."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If procurement doesn't have any redlines, we should be able to sign by Friday."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-017",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the updated quote for 48 seats and make sure the March 18 go-live still works on your side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that timing still works. We have 42 users confirmed now, and then six more in customer success probably by April. So 48 is the right number."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. The annual subscription comes to $38,400, and implementation is a one-time $4,500. That includes the admin training, data import, and two working sessions with your ops lead."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And payment terms are net 30, right? Our finance team asked because they cut checks on Thursdays."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, net 30 from invoice date. If we get signature by Friday, billing can issue the invoice on Monday, February 12, so it would be due March 13."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That should be fine. On the contract, I saw the renewal is one year after the start date. Is the start date March 18 or the signature date?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "March 18. The agreement can be signed earlier, but the service term starts on the go-live date, so renewal would be March 18 next year."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Last thing, can you confirm we can add seats mid-year at the same per-seat rate?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. Additional seats are prorated through the end of the current term at $800 per seat annually. I’ll make sure that language is in the order form."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send that version over and I’ll route it to legal today. I don’t expect much back, maybe just their standard notice address."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I’ll send the revised order form and the implementation outline in the next hour. If legal has redlines, just send them over and we’ll turn them quickly."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. Assuming no surprises, we should be able to sign by Friday."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "cal-null-034",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, hi Dana, thanks for making time. I had you down for adding the support analytics module for the east region team, starting with 28 seats. Is that still the right number?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Mostly, yeah. We counted again this morning and it is 31 users. Twenty-four agents, five supervisors, and two operations managers who just need standard access."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it, 31 total. For standard access, those two ops managers are the same seat type, so no weird split there. With the module added and co-termed to your current agreement through March 31, the prorated amount is $18,445."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And that would hit on one invoice? Finance asked if it can be billed net 30, same as the core platform."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, one invoice, net 30. If you sign by Friday, billing would issue it on February 3, and the service start date would be February 10."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "February 10 works. We are trying to have supervisors trained before the 19th. Is the admin session still included?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It is. One 90-minute admin training and one 60-minute supervisor session. We can do the admin one on February 11 or 12, depending on your team's calendar."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Let's pencil the 12th at 1 Pacific. I need to check with Marcus, but that should be fine."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sure. I’ll send the order form with 31 seats, module start February 10, term ending March 31, net 30, and the two training sessions listed. No change to your renewal date or the existing support terms."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it to me and copy ap@northlineparts.com, please. If the numbers match what you just walked through, I can sign tomorrow."
+    }
+  ]
+}

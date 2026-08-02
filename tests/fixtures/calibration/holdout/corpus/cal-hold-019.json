@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-019",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Hey, quick check on the Kenridge proposal. They asked for the 28-seat extension through April 30, 2027, right?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, 28 seats, same support tier, and procurement wants the quote at $54,600 before noon their time tomorrow."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay. Are you waiting on pricing approval or legal language?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Neither, which is the annoying part. Producing this one extension means I have to take the same account name, seat count, start date, end date, discount, billing contact, and PO note and retype it into the pricing sheet, then the quote tool, then the contract workspace, then the billing intake, and then deal desk asks for the same fields again in their form. If one date is off, the quote and agreement don't match, so I’m checking them side by side. I started yesterday after the customer call and I’m still not through the last approval screen. It’s like five separate apps for a no-change renewal."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Yeah, that tracks. For the discount, it’s the standard 12 percent off list, not anything special?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Correct. List is $62,040, net is $54,600 rounded, annual invoice, net 30. No services, no add-ons."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Good. If you send me the final PDF before you route it, I’ll sanity check the dates and dollars."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Appreciate it. The customer’s buyer, Renee, also asked that the invoice reference PO 41873 and ship-to stay as their Denver office."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Got it. And go-live doesn’t matter because they’re already live, just continuity from May 1?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Exactly. I’ll get you the draft by 4:30, assuming the last approval clears."
+    }
+  ]
+}

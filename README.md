@@ -23,7 +23,7 @@ Four independently versioned knowledge artifacts, all plain-language config: **i
 |---|---|
 | Design | Brainstorm output **rev 2.3** — ratified |
 | PRD | **v1.2 RATIFIED** 2026-07-31 (satisfies KR 5.1j-2) |
-| Build | **G2 complete.** End-to-end thin slice: `cix run` corpus→report (report.json + PDF), first model calls behind a `ModelClient` protocol (offline-tested; opt-in live run). 84 tests green + 1 opt-in live skip; AC-3b/4b/5/8/9/10/12/13/15. Next gate: G3 (calibration + sales rubric) |
+| Build | **G3 complete.** Calibration passed on a second-lab-generated corpus: **holdout T-CAL 6/6 pathologies pass**, **T-NULL 0/100** false reports (floor 4/100), 1 dev cycle of 3 (0 detector revisions). Sales rubric A8 v1.1.0 (10 items); thresholds frozen before results (R-VAL-6, auditable in git); F4 audit seat recused in code on every split. Next gate: G4 (service rubric + catalogue join + scrub) |
 | Stack | Python 3.12 · uv · pytest · pydantic v2 · PyYAML · SQLite |
 
 ## Documents
@@ -34,6 +34,8 @@ Four independently versioned knowledge artifacts, all plain-language config: **i
 | [`docs/CIX_BRAINSTORM_OUTPUT_2026-07-31.md`](docs/CIX_BRAINSTORM_OUTPUT_2026-07-31.md) | **Governing design record** (rev 2.3). Rationale and ratified rulings |
 | [`docs/superpowers/plans/2026-07-31-g1-deterministic-spine.md`](docs/superpowers/plans/2026-07-31-g1-deterministic-spine.md) | **G1 implementation plan** — 12 TDD tasks building the deterministic spine (no model calls) |
 | [`docs/superpowers/plans/2026-07-31-g2-thin-slice.md`](docs/superpowers/plans/2026-07-31-g2-thin-slice.md) | **G2 implementation plan** — 14 TDD tasks; first model calls, corpus→report in one command |
+| [`docs/superpowers/plans/2026-08-01-g3-calibration.md`](docs/superpowers/plans/2026-08-01-g3-calibration.md) | **G3 implementation plan** — 11 tasks; sales rubric (A8), calibration corpus (A7), threshold freeze, second-lab seat, calibration runs |
+| [`docs/G3_calibration_operations.md`](docs/G3_calibration_operations.md) | **Calibration operations guide** — decisions of record, the configuration surface (every knob + when to change it), and the re-run procedure for each build iteration |
 | [`docs/superpowers/plans/ROADMAP.md`](docs/superpowers/plans/ROADMAP.md) | **G3–G6 roadmap** — logic sketch of the remaining gates (calibration → assembly → real run → demo) |
 | [`docs/reference/`](docs/reference/) | Vendored planning record: baseline spec, PRD input pack, swap catalogue schema, opportunity library, and adversarial reviews (`reviews/`) |
 
@@ -46,4 +48,4 @@ Four independently versioned knowledge artifacts, all plain-language config: **i
 
 ## Next action
 
-G1 and G2 are complete. Next gate is **G3 — calibration**: write the G3 plan (its interfaces derive from G2's code — see [`docs/superpowers/plans/ROADMAP.md`](docs/superpowers/plans/ROADMAP.md)), then author the PO artifacts (sales rubric v1, A8 ≥8 items; calibration corpus spec, A7) and build the small harness (second-lab `ModelClient`, calibration scorer). Freeze T-CAL/T-NULL/T-PARA **before** the first calibration run. G0's human items (FS corpus phone call, second-lab provider account, cost-envelope acceptance) run in parallel.
+G1, G2, and G3 are complete — the instrument is calibrated (holdout 6/6 T-CAL, 0/100 T-NULL, thresholds frozen before results). Next gate is **G4 — assembly**: author the service rubric (A9), which reuses `load_rubric` + the persisted label artifact unchanged (AC-6 zero-code-swap proof) and grows `paraphrases_v1.yaml` under a `rubric_version` bump; wire the catalogue join / priced view; build the scrub pipeline for the real FS corpus. The calibration corpus is now permanent validation infrastructure (D§10) — re-run after any material detector change (see [`docs/G3_calibration_operations.md`](docs/G3_calibration_operations.md)); T-CAL/T-NULL values move only with a versioned register change and changelog entry (R-VAL-6). G0's FS-corpus items feed G4.

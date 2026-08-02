@@ -1,0 +1,58 @@
+{
+  "id": "cal-hold-048",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, so Quickline came back on the renewal. They want 62 seats for another 12 months, start date February 1, and they asked if we can hold the 6% uplift instead of 8%."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "That should be inside the band. What’s the annual coming out to?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "$78,360 before tax, same support tier. To get the extension ready, I had to enter the 62 seats, February 1 start date, uplift, PO requirement, and billing contact in the quote tool, contract workspace, approval portal, billing tool, and the proposal template; it took most of yesterday and this morning, but the packet is clean now."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay, good. Did legal change anything material in the extension?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "No, just updated the term dates and left the limitation language as-is. Their procurement person, Dana, was mostly looking for net 30 and the invoice split by department."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "And we can do the split, right, 40 seats under operations and 22 under customer care?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep. First invoice on February 3, then annual after that. I noted both cost centers in the order summary."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Great. Send it to Dana and copy their VP. If they sign by Friday, we’ll keep the February 1 go-live clean."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep, I’m sending it after this. I’ll also give them the direct support email so they don’t route setup questions back through us."
+    }
+  ]
+}

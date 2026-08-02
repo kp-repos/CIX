@@ -1,0 +1,63 @@
+{
+  "id": "cal-hold-052",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making time. I saw your note about expanding the analytics workspace from 48 to 65 seats before the finance team go-live on May 6."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that's right. We have 12 folks in FP&A and 5 in accounting who need access. Same permission level as the current managers, nothing custom."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. At your current tier, the additional 17 seats would be $38 per seat per month, co-termed to your renewal on November 30. That comes out to $4,262 for the remaining term."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I expected. Can we keep it on the same invoice as the main subscription? Our AP team doesn't want a separate vendor line if we can avoid it."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, same billing account and same PO. The billing tool will add it as a prorated line item on the April invoice, due net 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. And just confirming, if we sign by Friday, the seats can be active by Monday the 22nd?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. Once the order form is signed, provisioning is usually same day. I'd say Monday is safe, and your admin can assign the seats from the workspace settings."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send the order form to me and copy Marcus in procurement. If the amount is $4,262, I can approve it without a legal review."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it over this afternoon with the co-term dates and seat count noted clearly."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks, Alex."
+    }
+  ]
+}

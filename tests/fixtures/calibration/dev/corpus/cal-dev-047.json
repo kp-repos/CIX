@@ -1,0 +1,73 @@
+{
+  "id": "cal-dev-047",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the scope we talked through last week: 48 seats to start, the standard support plan, and a target go-live of March 18. Is that still right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that matches. We may add five or six more seats in Q2, but for the initial order, 48 is the number finance approved."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Okay, perfect. On pricing, the annual subscription comes to $42,240, and implementation is a one-time $6,500. So the first-year total is $48,740 before any applicable tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That lines up with what I have. Can you make sure the invoice is split with the subscription on one line and services on another? Our AP team asked for that."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, no issue. The billing tool can show those as separate line items. Payment terms would be net 30 from invoice date, unless you need something different."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Net 30 is fine. Contract term is 12 months, correct? We’re not ready to do a multi-year yet."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, 12 months, starting on the effective date. The renewal language is annual, with 60 days’ notice if you choose not to renew."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. For the services, can your onboarding team do the kickoff the week of February 26? We want a little buffer before March 18."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, that works. I checked availability this morning, and they have openings on Tuesday the 27th and Thursday the 29th. The kickoff is usually 60 minutes with your project lead and two admin users."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Let’s take Thursday the 29th at 11 Eastern. I’ll have Marcus and Priya join from our side."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Great. I’ll send the order form today with the 48 seats, net 30 terms, separate invoice lines, and that onboarding date noted. If you can get signature back by Friday, we’ll hold the kickoff slot."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That should be fine. Send it to me and copy procurement at the address I gave you. I’ll route it internally once it comes in."
+    }
+  ]
+}

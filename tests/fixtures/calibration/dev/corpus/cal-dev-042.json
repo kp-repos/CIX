@@ -1,0 +1,63 @@
+{
+  "id": "cal-dev-042",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, thanks for making the time. I’m sorry we didn’t connect yesterday; I got tied up for a couple hours entering pipeline updates and deal desk forms, and my call block got squeezed. Anyway, I’ve got the quote in front of me for 42 seats."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, no worries. The 42 is still right for launch. We may add another 8 in April, but procurement only approved the first group for now."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That works. The pricing sheet has 42 seats at $68 per user per month, annual term, billed upfront. That puts the year-one subscription at $34,272 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And implementation was the separate line item, right?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. One-time onboarding is $4,800. That includes the admin training, data import, and two workflow sessions. If we sign by March 14, we can still hold the April 8 go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "April 8 is what our ops VP wants. On payment terms, can you do net 45? Our finance team is pushing back on net 30 for anything over thirty thousand."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Net 45 is acceptable on the annual plan. I’ll put that in the order form, along with the 12-month term starting April 8 and the renewal notice at 60 days."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. One more thing: we need the invoice split between two cost centers, 70 percent operations and 30 percent customer success. Is that possible?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, we can issue two invoices with those allocations. The totals would be $27,350.40 and $11,721.60, assuming the subscription plus onboarding together."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send the order form today if you can. I’ll route it to legal, and if they don’t redline anything strange, we should be able to sign Friday."
+    }
+  ]
+}

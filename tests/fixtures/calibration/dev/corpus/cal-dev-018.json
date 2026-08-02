@@ -1,0 +1,68 @@
+{
+  "id": "cal-dev-018",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the scope we talked about: 42 user seats for the calibration management platform, plus the initial import of your gauge list from the two plants."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. It's 42 seats to start, and the gauge list is about 3,800 records. We may add the Ohio service team later, but not for this contract."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Got it. For the first year, that puts the subscription at $28,560, and the one-time implementation is $6,400. That includes the import, admin training, and two technician training sessions."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. And the invoice timing, can that be net 30 after signature? Our finance team is closing July pretty tight."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, net 30 after signature is fine. If you sign by August 9, the invoice would go out the same week, and payment would be due 30 days from invoice date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. On go-live, we're trying to be ready by September 23 because our internal audit starts October 7."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That timeline is reasonable. We'd schedule kickoff the week of August 12, target the data import review by September 6, and then training the week of September 16."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. One question on the contract term: it's a 12-month term, and then renewal at the same seat count unless we change it, correct?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct. Twelve months from the start date, with renewal pricing based on the seats you have at that time. Any added seats during the year are prorated to the renewal date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send me the order form with 42 seats and the September 23 go-live target, and I'll route it to procurement."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send it over this afternoon with the net 30 language and the implementation schedule attached."
+    }
+  ]
+}

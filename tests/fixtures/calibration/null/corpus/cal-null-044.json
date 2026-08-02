@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-044",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so thanks for making time, Dana. I had you at 42 current seats, and it sounds like finance wants to add the regional managers before the June close. Is that still the plan?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Mostly. We counted again yesterday and it is 47 total users, not 50. Twelve of those are read-only if that matters for pricing."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "It does. On the pricing sheet, full users are $86 per seat per month on annual, and read-only are $24. So 35 full and 12 read-only puts the annual at $39,816 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that is in the range. We need the invoice to hit after May 15, though. Our PO opens that week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, we can set the subscription start to June 1 and invoice on May 16. Payment terms stay net 30 unless procurement needs something different."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Net 30 is fine. One thing, implementation. We want the first team live by June 17. Is that realistic?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, if we do kickoff the week of June 3. The onboarding package includes two admin sessions and one end-user training. For 47 users, that is enough unless you want a second end-user session."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Let's add the second end-user session. The managers will be split across Central and Mountain time."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sure. That adds $750 one-time. I’ll include both sessions on the order form so services has the dates and time zones when they schedule it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Contract length is still 12 months?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, June 1, 2026 through May 31, 2027. Annual billing, net 30, 35 full seats, 12 read-only, and the extra training session."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Send it over today and I’ll route it with the PO request. If the total matches what you just said, I don’t expect drama."
+    }
+  ]
+}

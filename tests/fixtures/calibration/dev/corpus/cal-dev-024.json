@@ -1,0 +1,58 @@
+{
+  "id": "cal-dev-024",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "colleague"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Hey Jordan, quick sanity check on the Northlake add-on. They asked for 18 more seats for the field team, same package as the original 42, and they want it live by March 3."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Yeah, that tracks. Is this the group on annual billing with the June true-up, or are they asking for a separate invoice?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Separate invoice. Procurement said they need a clean PO match for $21,600, net 30, no changes to the main order form."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay, easy enough. Just make sure the service start date is March 1 so finance doesn't prorate weirdly for two days."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep. One thing I noticed, their support addendum actually ends this Friday and I don't think anyone has talked to them about carrying that forward, which is, uh, not ideal."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Oof. Yeah. For this add-on, though, keep it scoped to the seats only so we don't slow down the PO."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Agreed. Legal already said the standard seat expansion language is fine, no security review since it's the same workspace."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Good. Send me the final count and the billing contact, and I'll check the pricing sheet before you send it over."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Billing contact is Renee Patel, ap@northlakeindustrial.com. I'll send the draft in five minutes."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "cal-hold-004",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Hi Dana, yeah, thanks for making the time. I wanted to check in after the kickoff yesterday and make sure the May 6 go-live still feels realistic for your 84 users."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "It does, mostly. The one snag is your implementation lead said single sign-on was not included for our launch. That was, uh, something we agreed to on the pricing call in March."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, you're right. We agreed SSO would be included in the first setup at no extra charge. I’m sorry, that didn’t make it over to the implementation team the way it should have."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. I just don’t want this to turn into a change order, because our IT group has Friday blocked for the identity provider setup."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. No change order. The subscription stays at $3,780 a month for the 84 seats, and SSO is part of the launch work."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. If you can confirm that with them today, I think we're fine. Our internal training is scheduled for May 2 and May 3."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "I’ll confirm it today and have the implementation lead send the revised schedule by end of day. The only thing we may need from your IT team is the metadata file before noon Friday."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s fine. Send the request to me and I’ll loop in Nathan. Thanks for getting it cleaned up."
+    }
+  ]
+}

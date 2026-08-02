@@ -1,0 +1,73 @@
+{
+  "id": "cal-null-024",
+  "source_type": "transcript",
+  "participants": [
+    "rep",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yeah, so for the 42 technician seats and 8 manager seats, you're looking at $31,800 for the annual subscription, plus the one-time onboarding package at $4,500. That includes importing your existing asset list and two admin training sessions."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. The seat split is right. We may add three more technicians in May, but I don't want to buy those today if we don't have to."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Totally fine. The order form can start with 50 seats total, and then if you add the three in May, it's prorated through the same December 31 term. No new contract needed for that."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. And invoice timing, would that be due on signature or at go-live?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Our standard is invoice on signature, net 30. If you sign by February 16, the invoice would go out that week, and payment would be due March 18."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That should work. I need it coded to the quality systems cost center. Can that be on the invoice?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, I can include the cost center text on the billing details so it shows up cleanly. Just send me the exact wording you want."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Now go-live. We have an internal audit on April 22, so I need the calibration records searchable before then, not still being cleaned up."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Understood. If we kick off the week of February 26, the import review lands March 8, admin training March 14 and 15, and you would be live for users on April 1. That gives you about three weeks before the audit."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that timing is good. What do you need from us before kickoff?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "The asset export, your user list, and one primary admin. Nothing fancy. I’ll send a short checklist with the order form this afternoon."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Send it to me and copy Dana in procurement. If the terms are the standard annual with net 30, I think we can turn it by Friday."
+    }
+  ]
+}

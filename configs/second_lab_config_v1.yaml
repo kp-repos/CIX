@@ -1,0 +1,10 @@
+# OD-2 ruling as config (PO, 2026-08-01). The audit seat's sampling params live here
+# because the adjudication tier has no numbered threshold in §6 — its output is a
+# validation row, not a gate.
+version: "1.0.0"
+lab: openai
+model: gpt-5.5-2026-04-23   # pinned at Checkpoint B 2026-08-01 (newest dated stable gpt-5.x; catalog-verified)
+max_tokens: 8192        # completion budget includes reasoning tokens on this tier
+audit_sample_hits: 8
+agreement_floor: 0.8
+min_sample_for_validity: 5
