@@ -2,7 +2,7 @@
 # CX-1–4 spine from docs/reference/CIX_POC_B_Sniffer_Scope_v2.md — "zero call resolution":
 # an interaction the customer had to initiate is a service failure that wasn't anticipated.
 # swap_ref values resolve against configs/catalogue_v0_1.yaml.
-# PO-RATIFIED: pending   <- flip at Checkpoint A
+# PO-RATIFIED: 2026-08-02 (Checkpoint A)
 version: "1.0.0"
 requires:
   label_schema_version: "1.0.0"
@@ -69,7 +69,7 @@ items:
     polarity: negative
     unit_of_count: interaction
     prefilter: null
-    criterion: "The contact exists because of a provider-side failure or omission that could have been anticipated and prevented, making the interaction itself avoidable."
+    criterion: "The contact exists because of a provider-side failure or omission that could have been anticipated and prevented, making the interaction itself avoidable. Does not qualify if the contact is already captured by a more specific pattern — a repeat contact on an unresolved issue (repeat_contact_unresolved) or a billing/invoice defect (billing_defect_driver); this is the residual catch-all for anticipatable failures not covered by those."
     exemplars: ["Nobody told me the service would be down, so I had to call in."]
     swap_ref: null
   - id: first_contact_resolution                 # positive polarity of repeat_contact_unresolved

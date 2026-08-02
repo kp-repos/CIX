@@ -1,6 +1,6 @@
 # A5 — stand-in swap catalogue v0.1 (R-CAT-2). Pencilled bands; every unverified entry
 # marked inferred with source. Schema per docs/reference/CIX_Swap_Catalogue_v0.md §2.
-# PO-RATIFIED: pending   <- flip at Checkpoint A
+# PO-RATIFIED: 2026-08-02 (Checkpoint A)
 version: "0.1.0"
 # effort/outcome are ordinal band labels; the leverage grid ranks on them (R-CAT-4).
 effort_bands: [low, medium, high]
