@@ -14,6 +14,7 @@ class RubricItem(BaseModel):
     prefilter: dict | None = None
     criterion: str
     exemplars: list[str] = []
+    swap_ref: str | None = None      # R-RUB-1: nullable crosswalk into the swap catalogue
 
 class Rubric(BaseModel):
     version: str
