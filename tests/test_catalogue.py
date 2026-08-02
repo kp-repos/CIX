@@ -19,8 +19,7 @@ def test_unknown_id_returns_none():
 # ---------------------------------------------------------------------------
 # Task 6 — swap_ref join + unit-compat validation + leverage grid + shelf
 # ---------------------------------------------------------------------------
-from cix.catalogue import join_swaps, leverage_grid, UnitCompatError
-import pytest
+from cix.catalogue import join_swaps, leverage_grid
 
 # rollup-shaped input: item_id -> {unit, count, share, denominator}
 ROLL_ITEMS = {
@@ -39,12 +38,14 @@ def test_join_matches_and_shelves():
     assert matched == {"seller_admin_burden", "status_chasing"}
     assert [s["item_id"] for s in joined["shelf"]] == ["orphan_item"]  # no swap_ref -> shelf
 
-def test_unit_incompatibility_fails_join():
+def test_unit_incompatibility_drops_claim():
     cat = load_catalogue(CAT)
     bad = {"x": {"unit": "interaction", "count": 2, "share": None, "denominator": None}}
-    # SW-ADMIN-CAPTURE is unit_basis=occurrence; joining an interaction-unit item must fail
-    with pytest.raises(UnitCompatError):
-        join_swaps(bad, {"x": "SW-ADMIN-CAPTURE"}, cat)
+    # SW-ADMIN-CAPTURE is unit_basis=occurrence; the interaction-unit item drops as a claim
+    joined = join_swaps(bad, {"x": "SW-ADMIN-CAPTURE"}, cat)
+    assert joined["priced"] == []
+    assert [d["item_id"] for d in joined["dropped"]] == ["x"]
+    assert "unit" in joined["dropped"][0]["reason"]
 
 def test_leverage_grid_ranks_and_names_class_d():
     cat = load_catalogue(CAT)

@@ -51,17 +51,19 @@ def test_ac6_rubric_swap_reuses_labels_new_hit_artifact(tmp_path):
     assert ha_sales != ha_service                     # different rubric version -> new hit artifact
     rows = store.con.execute("SELECT COUNT(*) c FROM label_artifacts").fetchone()["c"]
     assert rows == 1                                  # AC-6: labels reused, not recomputed
+    # the service hit artifact is keyed off the REUSED label artifact, not a fresh one
+    row = store.con.execute("SELECT label_artifact_id FROM hit_artifacts WHERE id=?", (ha_service,)).fetchone()
+    assert row["label_artifact_id"] == la
 
 
 def test_ac7_catalogue_swap_changes_priced_view_only():
-    roll = {"repeat_contact_unresolved": {"unit": "interaction", "count": 6,
-                                          "share": None, "denominator": None}}
-    cross = {"repeat_contact_unresolved": "SW-REPEAT-DEFECT"}
+    roll = {"manual_after_call_work": {"unit": "occurrence", "count": 6,
+                                       "share": None, "denominator": None}}
+    cross = {"manual_after_call_work": "SW-ADMIN-CAPTURE"}      # Class A, occurrence — priced
     cat = load_catalogue(Path("configs/catalogue_v0_1.yaml"))
     view1 = priced_view(join_swaps(roll, cross, cat)["priced"])
-    # mutate only the per_unit_band on a deep copy — simulates a catalogue swap
     cat2 = cat.model_copy(deep=True)
-    cat2.by_id("SW-REPEAT-DEFECT").per_unit_band = [100, 200]
+    cat2.by_id("SW-ADMIN-CAPTURE").per_unit_band = [100, 200]
     view2 = priced_view(join_swaps(roll, cross, cat2)["priced"])
-    assert view1 != view2                              # priced view regenerated with new bands
-    assert roll["repeat_contact_unresolved"]["count"] == 6   # rollup untouched
+    assert view1 != view2                                       # priced view regenerated
+    assert roll["manual_after_call_work"]["count"] == 6         # rollup untouched

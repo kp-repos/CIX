@@ -19,7 +19,7 @@ from cix.manifest import build_manifest, write_manifest
 from cix.manifest import corpus_hash as manifest_corpus_hash
 from cix.model import AnthropicClient
 from cix.normalize import CorpusValidationError, load_corpus
-from cix.catalogue import load_catalogue, join_swaps, leverage_grid, UnitCompatError
+from cix.catalogue import load_catalogue, join_swaps, leverage_grid
 from cix.priced import priced_view
 from cix.report import render_report
 from cix.rubric import DependencyError, load_rubric
@@ -137,23 +137,26 @@ def _cmd_run(args) -> int:
         f["unit"], f["share"], f["denominator"] = row.get("unit"), row.get("share"), row.get("denominator")
 
     # Pass B — catalogue join + priced view (R-ARCH-2: never suppresses Pass A above).
+    # A unit-incompatible join drops that claim and is logged; the rest still price (R-CAT-3).
+    # swap_ref is single-valued today (1 remedy per item); multi-remedy alternatives is a G5+ path.
     cat_path = Path(args.catalogue) if getattr(args, "catalogue", None) else None
     catalogue_loaded = False
+    catalogue_version = None
     priced_section = {"plays": [], "note": "No catalogue loaded — no priced view in this run."}
     leverage_section = None
     if cat_path and cat_path.exists():
         cat = load_catalogue(cat_path)
+        catalogue_version = cat.version
         crosswalk = {i.id: i.swap_ref for i in rubric.items}
-        try:
-            joined = join_swaps(roll["items"], crosswalk, cat)
-            grid = leverage_grid(joined["priced"], cat)
-            priced_section = priced_view(joined["priced"])
-            leverage_section = {"grid": grid["cells"], "shelf": joined["shelf"],
-                                "class_d": grid["class_d"], "note": f"catalogue {cat.version}"}
-            catalogue_loaded = True
-        except UnitCompatError as e:
-            store.log_drop("priced-view", "unit-compatibility", str(e))
-            store.write_validation("PASS-B", None, "unit_incompat", str(e))
+        joined = join_swaps(roll["items"], crosswalk, cat)
+        for d in joined["dropped"]:
+            store.log_drop("priced-view", "unit-compatibility", d["reason"])
+            store.write_validation("PASS-B", d["item_id"], "unit_incompat", d["reason"])
+        grid = leverage_grid(joined["priced"], cat)
+        priced_section = priced_view(joined["priced"])
+        leverage_section = {"grid": grid["cells"], "shelf": joined["shelf"],
+                            "class_d": grid["class_d"], "note": f"catalogue {cat.version}"}
+        catalogue_loaded = True
 
     manifest = build_manifest(units, canonical_hash(db), vocab["version"],
                               privacy_gate=privacy["status"], corpus_clearance=args.clearance, salt=salt)
@@ -164,12 +167,13 @@ def _cmd_run(args) -> int:
                      "seeds": {"run": config.seed}, "thresholds_version": thresholds_version,
                      "artifacts": {"labels": la, "hits": ha}})
     manifest["privacy_scan"] = {"residual_scope": privacy["scan_scope"], "ner": privacy["ner"]}
-    manifest["catalogue_version"] = (load_catalogue(cat_path).version if catalogue_loaded else None)
+    manifest["catalogue_version"] = catalogue_version
     write_manifest(manifest, out)
     render_report({"findings": gated["findings"], "rollup": roll,
                    "validations": store.validations(),
                    "drop_summary": {k: gated[k] for k in ("candidate_claims", "quote_drops", "stat_drops")},
                    "manifest": manifest, "catalogue_loaded": catalogue_loaded,
+                   "drops": store.drops(),
                    "priced_plays": priced_section,
                    "leverage": leverage_section or {"grid": [], "shelf": [], "class_d": [], "note": ""}},
                   out)

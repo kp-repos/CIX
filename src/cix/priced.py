@@ -16,6 +16,10 @@ def priced_view(priced: list[dict]) -> dict:
     unit_of: dict[str, str] = {}
     count_of: dict[str, int] = {}
     for j in priced:
+        # Class D ("not ours") is named in the leverage grid's Class-D corner, never shown as a
+        # dollar band in the priced view (R-CAT-4/5). Skip it here.
+        if j["entry"].remedy_class == "D":
+            continue
         by_item[j["item_id"]].append(j["entry"])
         unit_of[j["item_id"]] = j["unit"]
         count_of[j["item_id"]] = j["count"]

@@ -34,13 +34,11 @@ def load_catalogue(path: Path) -> Catalogue:
     return Catalogue.model_validate(yaml.safe_load(Path(path).read_text(encoding="utf-8")))
 
 
-class UnitCompatError(Exception):
-    pass
-
-def join_swaps(roll_items: dict, crosswalk: dict[str, str | None], cat: Catalogue) -> dict:
-    """Join rollup items to catalogue entries by swap_ref. Unit-incompatible join is a hard
-    failure (R-CAT-3); items with no swap_ref go on the 'no known remedy yet' shelf (R-CAT-4)."""
-    priced, shelf = [], []
+def join_swaps(roll_items: dict, crosswalk: dict[str, str | None], cat: "Catalogue") -> dict:
+    """Join rollup items to catalogue entries by swap_ref. A unit-incompatible join drops
+    THAT claim (R-CAT-3) — recorded in `dropped`, the rest still price; items with no
+    swap_ref go on the 'no known remedy yet' shelf (R-CAT-4)."""
+    priced, shelf, dropped = [], [], []
     for item_id, row in sorted(roll_items.items()):
         swap_id = crosswalk.get(item_id)
         entry = cat.by_id(swap_id) if swap_id else None
@@ -48,11 +46,13 @@ def join_swaps(roll_items: dict, crosswalk: dict[str, str | None], cat: Catalogu
             shelf.append({"item_id": item_id, "count": row["count"], "unit": row["unit"]})
             continue
         if entry.unit_basis != row["unit"]:
-            raise UnitCompatError(
-                f"{item_id} unit '{row['unit']}' != swap {entry.id} basis '{entry.unit_basis}'")
+            dropped.append({"item_id": item_id, "swap_ref": entry.id, "unit": row["unit"],
+                            "swap_basis": entry.unit_basis,
+                            "reason": f"unit '{row['unit']}' != swap {entry.id} basis '{entry.unit_basis}'"})
+            continue
         priced.append({"item_id": item_id, "count": row["count"], "unit": row["unit"], "entry": entry})
     shelf.sort(key=lambda s: (-s["count"], s["item_id"]))
-    return {"priced": priced, "shelf": shelf}
+    return {"priced": priced, "shelf": shelf, "dropped": dropped}
 
 def leverage_grid(priced: list[dict], cat: Catalogue) -> dict:
     """Effort-band x outcome-band grid; count tie-break within tier; Class D named in its

@@ -27,6 +27,7 @@ def _sections(payload: dict) -> dict:
                          "residual_interactions": payload["rollup"]["residual_interactions"],
                          "eligible_interactions": payload["rollup"]["eligible_interactions"]},
         "method": {"validations": payload["validations"], "drop_summary": payload["drop_summary"],
+                   "drops": payload.get("drops", []),
                    "manifest": payload["manifest"]},
     }
 
@@ -52,7 +53,10 @@ def render_report(payload: dict, out_dir: Path) -> dict:
         text = json.dumps(doc["sections"][key], indent=1, ensure_ascii=False)
         # Core Helvetica supports latin-1 only; keep report.json unicode-clean and
         # substitute unsupported glyphs (e.g. em-dash) for the PDF text dump.
-        safe = text[:4000].encode("latin-1", "replace").decode("latin-1")
+        safe_full = text.encode("latin-1", "replace").decode("latin-1")
+        safe = safe_full[:4000]
+        if len(safe_full) > 4000:
+            safe += "\n... (truncated in PDF; see report.json for full content)"
         pdf.multi_cell(0, 4, safe)
     pdf.output(str(out_dir / "report.pdf"))
     return doc

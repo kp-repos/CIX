@@ -27,3 +27,14 @@ def test_multi_remedy_shown_as_alternatives():
     view = priced_view(priced)
     xs = [p for p in view["plays"] if p["item_id"] == "x"]
     assert len(xs) == 1 and len(xs[0]["alternatives"]) == 2         # collapsed to alternatives
+
+def test_class_d_named_in_grid_not_priced():
+    from cix.catalogue import leverage_grid
+    cat = load_catalogue(CAT)
+    roll = {"repeat_contact_unresolved": {"unit": "interaction", "count": 6, "share": None, "denominator": None}}
+    cross = {"repeat_contact_unresolved": "SW-REPEAT-DEFECT"}   # Class D, unit-compatible (interaction)
+    joined = join_swaps(roll, cross, cat)
+    assert joined["priced"]                                     # it joined
+    assert priced_view(joined["priced"])["plays"] == []        # ...but not priced as a $ band
+    grid = leverage_grid(joined["priced"], cat)
+    assert any(c["item_id"] == "repeat_contact_unresolved" for c in grid["class_d"])  # named in the corner
