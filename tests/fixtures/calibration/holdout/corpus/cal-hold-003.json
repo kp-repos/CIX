@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the scope for the renewal before I send it through deal desk. I have you at 42 seats today, moving to 55 seats on the team plan starting September 1."
+      "text": "Hi Dana, thanks for making the time. I had us down for a quick review of the 35-seat quote and the January rollout timing. Does that still work?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. We added the support managers and two analysts, so 55 is the number. We don't need the advanced reporting add-on for all of them, just the 12 managers."
+      "text": "Yeah, that works. We reviewed it internally, and the seat count is right for now. It would be 28 standard users and 7 managers."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 55 core seats and 12 advanced reporting seats. The pricing sheet puts that at $68,400 for the 12-month term, before tax. Same payment terms as last year, net 30, annual invoice?"
+      "text": "Perfect. The proposal I sent has 35 total seats at $62 per seat per month, billed annually, so $26,040 for the first year. Implementation is the fixed $4,800 package."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, annual invoice is fine. Can you make sure the invoice references PO 44718? Our AP team kicked it back last time because the PO wasn't on the first page."
+      "text": "Okay. Finance asked if the invoice can be dated January 2nd instead of December. Our budget opens then."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I'll add PO 44718 to the order form and billing notes. On timing, if we get signature by August 20, the billing tool will generate the invoice on August 22, and the new seats will be active September 1."
+      "text": "Yes, that's fine. We can set the contract effective date as January 2nd and target go-live for February 5th, assuming we get the signed order by December 18th."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. One thing, legal asked if the auto-renewal language is the same as the current agreement. They don't want a new review if nothing changed."
+      "text": "That timeline is reasonable. For implementation, is that three training sessions or two?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No changes there. It's the same 12-month renewal term with 60 days' notice for non-renewal. I'll point that out in the email and attach the current terms for reference."
+      "text": "It includes two admin sessions and three end-user sessions, all remote. If you need one extra manager session later, we can add it for $750, but most teams don't need it."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Also, can you list the implementation contact as Marcus Lee instead of me? He'll handle the user upload."
+      "text": "Got it. Legal had one note on the auto-renewal. They want 60 days' notice instead of 90."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Absolutely. I'll put Marcus Lee as the technical contact, keep you as the billing contact, and send the order form by end of day. If anything looks off, just reply and I'll fix it before it goes to signature."
+      "text": "Yeah, we can accept 60 days. I'll update that language and send the revised order form this afternoon."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Send it over, and I should be able to turn it around tomorrow."
+      "text": "Great. Send it to me and copy Martin in procurement. If everything matches, we should be able to sign next week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll include the pricing summary, the January 2nd invoice note, and the February 5th go-live plan in the email."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks, Alex."
     }
   ]
 }

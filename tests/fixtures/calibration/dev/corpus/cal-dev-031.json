@@ -12,57 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Karen. I pulled up the order form we discussed: 42 seats on the analytics package, annual term, starting March 1. I wanted to confirm the rollout dates and the billing contact before I send it over."
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the final scope for the analytics workspace rollout and make sure the seat count and dates still line up on your side."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That sounds right. We need 38 seats active at go-live and then 4 held for the finance team in April. Can the admin just assign those later, or do we need a separate amendment?"
+      "text": "Yeah, that sounds good. We’re still looking at 42 standard seats and 6 admin seats for the first phase. Finance may add a few later, but not before go-live."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No separate amendment. The 42 are included from day one, and your admin can assign them whenever. Billing is still for all 42 seats for the annual term, though."
+      "text": "Okay, 48 total for the initial order. The pricing sheet has that at $31,680 annually, billed upfront, with implementation at $4,500 one-time. Does that match what you had?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that’s fine. On the invoice, can you split the PO reference between operations and finance? Our AP team asked for cost center 7104 on 30 seats and 7109 on 12 seats."
+      "text": "Yes, that’s what I have. We need the invoice dated after March 1, though, because it has to hit the new cost center."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can put both cost centers in the billing notes. The invoice itself will be one invoice for $31,080 before tax, due net 30. If you need two separate invoices, that’s a different setup."
+      "text": "No problem. If we get signature by February 23, we can set the contract start for March 1 and have billing generate the invoice that day."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "One invoice is better. For timing, we want the kickoff the week of March 4, with training on March 12 if possible. Is that still open?"
+      "text": "Perfect. On timing, our team wants the kickoff the week of March 11 and go-live by April 8. Is that still realistic?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I checked with services this morning. March 12 at 1 p.m. Eastern is open for the main training, and they can do kickoff on March 5. The implementation package includes three working sessions, so that would be one of them."
+      "text": "Yes. With your data file and user list by March 8, implementation can support an April 8 go-live. Training would be two 60-minute sessions the week before."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Legal already reviewed the MSA. They only flagged auto-renewal. We need 60 days’ notice instead of 30."
+      "text": "That works. Please include the training sessions in the order form notes so I can point our operations lead to it."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, deal desk approved that change. The order form will show a 12-month initial term and 60-day non-renewal notice. No change to price."
+      "text": "Will do. The term is 12 months, auto-renewal with 60 days’ notice, and standard support included. Any redlines expected from legal?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send it to me and copy AP. If we can get the final order form today, I can route it for signature tomorrow."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. I’ll send the order form in the next hour with the PO field left blank, and once you have the PO, you can reply with it or add it during signature."
+      "text": "No, we already reviewed the template. Send the order form today, and I’ll route it for signature."
     }
   ]
 }

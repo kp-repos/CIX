@@ -12,52 +12,52 @@
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so quick gut check on Northstar Packaging before I send the pricing sheet to deal desk. They want to add 18 viewer seats and 6 editor seats for the plant managers."
+      "text": "Yeah, so for HarborPoint tomorrow, I want to keep it tight: invoice approval routing, the manager dashboard, and then the seat true-up question. They said they’re at 68 users now, likely 75 by June."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Colin",
       "ts": null,
-      "text": "Okay. Current package is 42 editors, right? And support is standard, not premium?"
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "Yep, 42 editors, 110 viewers, standard support. Usage is clean. The only weird thing is procurement asked whether the added seats can be cotermed on one invoice."
-    },
-    {
-      "speaker": "Evan",
-      "ts": null,
-      "text": "Billing tool shows their line running through 7/31, so after that it just has the overage tab, no recurring row. Have you put anything in front of Karen yet?"
+      "text": "Got it. Are they still asking for the two-level approval path, or did finance back off that?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Not yet. I was trying to get the seat math right first, and Karen's been out at the Ohio site. I can send her the two-option note today."
+      "text": "Two-level for anything over $2,500, one-level below that. Pretty standard. I put a sample workflow together with their cost centers, just Sales, Ops, and Field Service."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Colin",
       "ts": null,
-      "text": "Do that. For the 24 seats, list the prorated amount at $8,460 if it starts August 12, and the full annual at $31,920. Deal desk will ask for both anyway."
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "Okay. And if they push for monthly billing, do we care? Their last three invoices were net 30 and paid inside 20 days."
-    },
-    {
-      "speaker": "Evan",
-      "ts": null,
-      "text": "Monthly is fine if finance signs off, but don't lead with it. Also keep the services line separate: four admin training hours at $1,200, not bundled."
+      "text": "Okay. I can show that in about twelve minutes. On pricing, are you holding at the 75-seat tier?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Got it. I'll draft it as option A annual, option B monthly with finance approval, seat counts called out, and target go-live August 19."
+      "text": "Yeah, pricing sheet comes out cleaner that way. $18,900 annual subscription, $4,200 onboarding, net 30. If they push on onboarding I can split it across the first two invoices."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Colin",
       "ts": null,
-      "text": "Perfect. Send me the note before it goes out, just so we don't have pricing and the CRM saying different things."
+      "text": "Makes sense. Small wrinkle, their current workspace says access through April 30, and that’s tomorrow, so if the link acts strange in the session I’ll use my demo environment instead."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Okay, good call. Don’t let us get stuck on permissions. They care more about the approval emails looking readable on mobile."
+    },
+    {
+      "speaker": "Colin",
+      "ts": null,
+      "text": "Yep. Do they need the billing export in the first go-live, or can that wait?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "They want it by May 20 if possible, but I told them go-live on May 13 is just core routing and reporting. Export can be phase two as long as invoices aren’t manual for more than one cycle."
+    },
+    {
+      "speaker": "Colin",
+      "ts": null,
+      "text": "Cool. I’ll keep the demo focused and leave five minutes for contract term questions at the end."
     }
   ]
 }

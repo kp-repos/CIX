@@ -10,44 +10,49 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Derek Mills, Customer",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Maya,\n\nWe reviewed the 36-seat quote. The $58,320 annual is higher than we planned for the operations team.\n\nCan you confirm what it looks like if we start with 28 seats and add the rest in Q2? Target go-live is still May 12.\n\nDerek"
+      "text": "Hi Marisa,\n\nWe are getting close on the analytics rollout. Can you send pricing for 52 seats, annual term, start date June 1? We need to have the PO in by May 20 if this is going to hit our go-live.\n\nTom"
     },
     {
-      "speaker": "Maya Chen, Rep",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Derek,\n\nFor 28 seats, standard annual is $45,360 plus the $3,000 implementation package. Total first year would be $48,360 before tax.\n\nIf you want all 36 seats active on May 12, I can ask deal desk about a concession, but they usually need manager approval and a business reason attached in the CRM.\n\nMaya"
+      "text": "Hi Tom,\n\nYes. For 52 seats on an annual term starting June 1, the standard quote is $46,800 for the year. That includes the admin training session and the data import support we discussed.\n\nMarisa"
     },
     {
-      "speaker": "Derek Mills, Customer",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Thanks. We need all 36 active because the regional managers are included in the first training group.\n\nOur approved budget is $49,000 all-in for year one, including implementation. Net 30 is fine. We can sign by Friday if that number works.\n\nDerek"
+      "text": "Thanks. That is higher than I expected. I have $40,000 approved, maybe $41,000 if I move a small services line around. Is there any flexibility if we sign before May 20?"
     },
     {
-      "speaker": "Maya Chen, Rep",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Derek,\n\nAs we settled over text, let’s use $49,000 all-in for the 36 seats and implementation, even though the pricing sheet and the CRM quote still show $58,320 plus services. I’m going to bypass the normal deal desk approval for the concession so you have a number procurement can move on today. After you sign, I’ll clean up the paperwork and get the internal approvals matched to what we agreed in messages.\n\nFor planning: kickoff May 5, admin training May 8, end-user launch May 12.\n\nMaya"
+      "text": "Yeah, I can make $39,600 work for the first year if we keep it between us over email for the moment and do not run it through the normal concession approval path right now. If I send it to deal desk today, they are going to ask for the manager justification and probably push it back to the pricing sheet. So let’s just agree on $39,600 here, you send the PO against that, and I’ll clean up the discount approval and paper trail after the order is in. It is cleaner if procurement does not open a separate pricing review before we have the signature.\n\nMarisa"
     },
     {
-      "speaker": "Derek Mills, Customer",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Maya,\n\nUnderstood. Please send the order form today with:\n\n36 seats\nAnnual term: May 1, 2026-April 30, 2027\nImplementation included\nBilling contact: ap@northbaycomponents.com\nPO required on invoice\n\nDerek"
+      "text": "Understood. I can work with $39,600. Procurement will need the order form with 52 seats, annual billing, and June 1 start date. Can you send that by tomorrow afternoon?"
     },
     {
-      "speaker": "Maya Chen, Rep",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Derek,\n\nAttached is the order form with the term dates, 36 seats, and implementation included. Payment terms are net 30, PO required on invoice.\n\nOnce signed, I’ll have our onboarding lead send the kickoff invite for May 5.\n\nMaya"
+      "text": "Yes, I’ll send the order form tomorrow. It will show 52 seats, annual billing, June 1 start, and net 30 payment terms.\n\nMarisa"
     },
     {
-      "speaker": "Derek Mills, Customer",
+      "speaker": "Customer",
       "ts": null,
-      "text": "Signed and attached.\n\nPlease make sure the invoice references PO NBC-4172 and goes to AP only. I’ll send the admin user list by end of day Monday.\n\nDerek"
+      "text": "Please also include the standard data processing addendum. Legal approved the last version in March, so as long as it is unchanged we should not need another redline cycle."
     },
     {
-      "speaker": "Maya Chen, Rep",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Received, thank you.\n\nI’ve noted PO NBC-4172 for billing and added the May dates to the handoff. The onboarding lead will reach out this afternoon with the agenda and prep checklist.\n\nMaya"
+      "text": "Will do. Same addendum version as March. I’ll attach it with the order form and note the June 1 target for implementation.\n\nMarisa"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Once I have the packet, I’ll route it for signature and get you the PO number. Thanks."
     }
   ]
 }

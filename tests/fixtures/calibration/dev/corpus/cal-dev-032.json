@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I pulled up the quote we discussed: 42 user seats, the implementation package, and the standard support plan. Total comes to $38,760 for a 12-month term starting June 1."
+      "text": "Hi Dana, thanks for making time. I saw your note about adding the support team before the July renewal, so I figured we could just walk through seats and timing."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that matches what I had. The only thing I need to confirm is whether those 42 seats can be split across our operations and finance teams, or if they all need to sit under one admin."
+      "text": "Yeah, that’s right. We’re at 42 seats today, and we need to add 18 more for the Denver support group. Ideally they’re live by June 24."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "They can be split. You’ll have one primary admin, but we can set up department groups for operations and finance during onboarding. No extra cost for that."
+      "text": "That works. Your current term runs through July 31, so we can co-term the 18 seats for the remainder of the term, then roll all 60 into the renewal starting August 1."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, good. And for invoicing, can you do annual upfront, but send the invoice after May 20? Our current budget cycle closes that week."
+      "text": "Okay. What does that do to the invoice? Finance asked me to avoid a separate long contract if possible."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, that’s fine. I’ll note invoice to be issued May 21, net 30. So payment due June 20. Does that work with procurement?"
+      "text": "Totally. For the prorated add-on, it’s $4,860 before tax for June 24 through July 31. Then the renewal would be 60 seats at $68 per user per month, billed annually, so $48,960 for the year."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "It should. They may ask for the order form by this Friday, though, because legal only meets on Tuesdays."
+      "text": "That matches what I expected. Any change to our contract terms, or is it just the order form?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I can get the order form out today. The terms are our standard 12-month agreement, auto-renewal with 60 days’ notice, and the data processing addendum attached."
+      "text": "Just the order form. Same master agreement, same payment terms, net 30. I’ll include the prorated line and the renewal line so it’s clear for your AP team."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "On auto-renewal, can we make the notice period 45 days? That’s what our template usually allows."
+      "text": "Good. We’ll need the invoice sent to ap@northlineparts.com, and the PO number should be PO-4178."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, that’s a reasonable redline. I’ll send that through deal desk, but I don’t expect an issue. It may take a day to turn."
+      "text": "Got it. I’ll put PO-4178 on the order form and invoice. For enablement, do you want the 18 users provisioned on June 24, or should we open them a few days early for training?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Last thing, we’re targeting a July 8 go-live. Is that still realistic if we sign by May 31?"
+      "text": "Open them June 20 if that’s okay. Training is scheduled the morning of the 21st."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. With signature by May 31, kickoff the week of June 3, configuration and data import in June, July 8 is realistic. I’ll include that project timeline in the email."
+      "text": "Yep, no issue. I’ll set access for June 20, include the admin instructions, and send the order form later today."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send it over to me and copy Marcus from procurement. I’ll route it internally once it lands."
+      "text": "Perfect. Send it to me and copy Luis in procurement. If it looks like what we discussed, I can sign by Friday."
     }
   ]
 }

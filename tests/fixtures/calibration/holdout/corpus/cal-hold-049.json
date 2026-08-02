@@ -12,67 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making the time, Karen. I wanted to confirm the seat count and timing before I send the order form over. Last we had in the CRM was 42 standard seats and 6 admin seats for the operations team."
+      "text": "Hi Dana, thanks for making time. I had us down to talk through the seat count, go-live timing, and the billing terms for the analytics add-on."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. We actually need to add two more standard seats for the Denver supervisors, so 44 standard, 6 admin. Same go-live target, April 15, if we can keep it."
+      "text": "Yeah, exactly. We’re still planning on 42 seats at launch. That’s 35 standard users and 7 managers, and we may add another 10 after the operations team finishes their pilot."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, that should be fine. With 50 total seats, the annual subscription comes to $31,800, and the one-time implementation is $4,200. I checked the pricing sheet this morning and that includes the 8 percent multi-year discount if you do the 24-month term."
+      "text": "Got it. For 42 seats on the annual plan, the pricing sheet shows $38,640 for the year before tax. If you add seats mid-term, we’d prorate them through the same renewal date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And billing is annual upfront, correct? Our finance team asked if the implementation fee can be on the first invoice with the subscription."
+      "text": "Okay, that works. On invoicing, can you do net 30 and send the invoice after our purchase order is issued? Our finance team is targeting PO release by June 14."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, annual upfront. And yes, first invoice would include the $31,800 subscription plus the $4,200 implementation, so $36,000 even, due net 30. Renewal invoice next year would just be the subscription amount."
+      "text": "Yes, net 30 is standard for this plan. If the PO comes through June 14, we can issue the invoice the same day or next business day. Your service start date would be July 1 unless you want earlier access."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. On contract terms, procurement asked about the auto-renewal notice. Your draft said 45 days. We need 60 days if possible."
+      "text": "July 1 is good. We need admin access a little before that, though, for setup. Maybe June 24 for two admins?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, we can do 60. That's within standard, no deal desk approval needed. I'll update that before sending. Anything else from legal?"
+      "text": "Yeah, we can open admin access on June 24 for configuration and training, with the paid term starting July 1. I’ll make sure that’s reflected in the order form."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Just the data processing addendum. They want it attached as an exhibit, not a separate link."
+      "text": "Great. Contract term is 12 months, right? We’re not ready for a two-year commitment."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I'll attach the DPA as Exhibit B, order form as Exhibit A, and the master services terms as the main agreement. For implementation, we have a kickoff slot on March 18 at 11 a.m. Central. Does that still work for your project lead?"
+      "text": "Correct, 12 months. Renewal would be July 1 next year, and the agreement includes 60 days’ notice if you don’t want to renew."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, Miguel can do that. He'll have the location list ready by then. We have 12 sites to load initially, then probably 3 more in May."
+      "text": "That’s fine. Send the order form to me and cc procurement. If it matches what we discussed, I can route it for signature this week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I'll note 12 sites for launch and the 3 additional sites as post-go-live configuration, no extra fee unless scope changes materially. I'll send the updated order form today, and once it's signed, billing will generate the invoice."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Sounds good. Send it to me and copy procurement@, and I'll route it for signature. If we get it done by Friday, we're still okay for April 15?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Yes, if we have signature by March 8, we're good for April 15. I'll send it over in the next hour."
+      "text": "Will do. I’ll send it over this afternoon with 42 seats, $38,640 annual, net 30, admin access June 24, and July 1 start date."
     }
   ]
 }

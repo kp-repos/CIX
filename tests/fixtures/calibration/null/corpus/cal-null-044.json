@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I had us down to talk about the renewal for the analytics workspace and the 12 additional viewer seats for the finance team."
+      "text": "Yeah, so thanks for making time, Dana. I had you at 42 current seats, and it sounds like finance wants to add the regional managers before the June close. Is that still the plan?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that's right. Current term runs through March 31, and we'd like the added seats live by February 12 if the numbers work."
+      "text": "Mostly. We counted again yesterday and it is 47 total users, not 50. Twelve of those are read-only if that matters for pricing."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. You're at 48 seats today, 22 full users and 26 viewers. Adding 12 viewers brings the total to 60. On the annual plan, that puts the renewal at $54,600 before tax, including support."
+      "text": "It does. On the pricing sheet, full users are $86 per seat per month on annual, and read-only are $24. So 35 full and 12 read-only puts the annual at $39,816 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Is that based on a 12-month renewal starting April 1, or are you prorating the new seats from February?"
+      "text": "Okay, that is in the range. We need the invoice to hit after May 15, though. Our PO opens that week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Good question. The 12 viewer seats would be prorated from February 12 through March 31, that's $1,080. Then the 60-seat renewal starts April 1 for the full year at $54,600."
+      "text": "Yep, we can set the subscription start to June 1 and invoice on May 16. Payment terms stay net 30 unless procurement needs something different."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That lines up. Procurement will ask whether the payment terms stay net 30 and whether the data processing addendum is the same one we signed last year."
+      "text": "Net 30 is fine. One thing, implementation. We want the first team live by June 17. Is that realistic?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, net 30 stays the same. And the DPA is unchanged from the August version you already have on file. I'll include that reference in the order form so legal doesn't have to re-review the whole thing."
+      "text": "Yeah, if we do kickoff the week of June 3. The onboarding package includes two admin sessions and one end-user training. For 47 users, that is enough unless you want a second end-user session."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. One thing, our controller wants invoices split by department: 40 seats to corporate and 20 to finance. Can billing handle that?"
+      "text": "Let's add the second end-user session. The managers will be split across Central and Mountain time."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. We'll set the invoice split at 67% corporate and 33% finance, with the two PO numbers you send over. If you can get those to me by Friday, the February 12 go-live is fine."
+      "text": "Sure. That adds $750 one-time. I’ll include both sessions on the order form so services has the dates and time zones when they schedule it."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "I can do that. Send the order form today, and I'll route it for signature. Assuming no surprises, we should have it back by February 6."
+      "text": "Good. Contract length is still 12 months?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Correct, June 1, 2026 through May 31, 2027. Annual billing, net 30, 35 full seats, 12 read-only, and the extra training session."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Send it over today and I’ll route it with the PO request. If the total matches what you just said, I don’t expect drama."
     }
   ]
 }

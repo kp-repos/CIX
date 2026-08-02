@@ -12,52 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, hi Karen, thanks for making time. I wanted to confirm the expansion order for 38 additional seats and the May 20 go-live for the support team workspace."
+      "text": "Yeah, thanks for making time, Dana. I wanted to check on the kickoff for the 85-seat operations rollout and make sure the March 25 go-live still works on your side."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that's still the plan. We need the seats active by May 15 for training, then production on the 20th. Also, last time we talked about bringing over the archived customer notes from 2022 and 2023."
+      "text": "It does, mostly. One thing though, we had agreed to do SSO testing on March 11, but the onboarding invite came through for March 18 and it asked us to bring identity metadata like nobody had that context."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Right, and I need to apologize on that. I had that in my call notes, but it didn't make it into the services handoff, so the migration team scoped only active records. They can still add the archive pull, but it moves the test file delivery from May 6 to May 8."
+      "text": "Ah, yeah, I’m sorry. That note did not make it over to the onboarding team. I’ll get the invite corrected today for March 11 and make sure they have the metadata details we covered."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that's not ideal, but May 8 works if we still have time to validate. Is there any added cost?"
+      "text": "Okay, good. Our IT lead blocked two hours that morning, so I’d rather not move it if we don’t have to."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No added cost. The quote stays at $31,420 for the annual term, co-termed through March 31 next year. I'll send the revised project plan after this."
+      "text": "Totally. The rest is straightforward: 85 seats to start, admin training on March 14, manager training on March 19, and go-live the 25th. If you add the field team later, we can quote the extra 20 seats separately."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. On procurement, we need the invoice split: software on PO-4471 and services on PO-4472. Finance kicked back the last one because it was combined."
+      "text": "That matches. The other thing is the invoice. It came over as $42,300 due net 30, but we agreed to split it, 50% at signature and 50% on June 1 after rollout."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, I saw that come through this morning. Sorry, same issue there, I had agreed to split billing but the billing tool request went over as one invoice. I've asked billing to void INV-18309 and reissue two invoices today."
+      "text": "You’re right. Billing didn’t get the split-payment term from the final order form. I’ll have them void that invoice and reissue it as $21,150 due now and $21,150 due June 1."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Please do. Our month-end cutoff is Friday at 3 p.m. Central, so if those aren't in by then it slides to June."
+      "text": "Thanks. Our AP team can process the first half this week if the corrected invoice lands by tomorrow."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. I'll watch for the corrected invoices and email you the PDFs directly. For the order form, it's 38 seats, annual prepaid, net 30, no auto-renew change, and the added seats inherit the existing SLA."
+      "text": "I’ll push for that. You should see the updated invoice by end of day tomorrow, and I’ll send the corrected kickoff invite separately."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That matches. Send it over for signature and copy me on the invoice fix. Thanks."
+      "text": "Sounds good. If those two things are fixed, we’re on track."
     }
   ]
 }

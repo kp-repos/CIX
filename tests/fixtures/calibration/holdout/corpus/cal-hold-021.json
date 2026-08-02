@@ -10,54 +10,54 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya",
+      "speaker": "Dana",
       "ts": null,
-      "text": "Yeah, so for the 10 a.m. forecast, I’ve got Northlake at 44 seats, $51,480 annual, start date 8/1 if we keep the implementation package at the standard 20 hours."
+      "text": "Yeah, so Quicklane is good with the 42 seats and the February 1 start. They asked if we can keep the first-year total at $31,920 and invoice annually, net 30."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Luis",
       "ts": null,
-      "text": "Okay. Is the champion still asking for the invoice split, or did billing clean that up?"
+      "text": "That lines up with the quote we talked about. Any pushback on the services package?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Dana",
       "ts": null,
-      "text": "Billing fixed the split, two invoices, 70 percent on signature and 30 percent on go-live. I sent her the sample yesterday afternoon."
+      "text": "No, the $4,800 onboarding is fine. I dropped Mara in pricing a note after lunch, and when her okay shows up I'll send the order form over."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Luis",
       "ts": null,
-      "text": "Good. Anything weird on paper?"
+      "text": "Okay. Procurement on their side still saying they can turn it fast?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Dana",
       "ts": null,
-      "text": "Not really. I added a second comment on the security intake for the encryption-at-rest wording, because their IT guy won’t clear the vendor packet with that cell blank. Otherwise the MSA is fine."
+      "text": "Their controller said same day if it lands before Thursday noon. Otherwise it rolls to next week because she's out Friday."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Luis",
       "ts": null,
-      "text": "Got it. What about Mesa Tool, are we still calling that a July close?"
+      "text": "Got it. And the data addendum, are they using our standard one?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Dana",
       "ts": null,
-      "text": "I think so. They’re at 27 seats now, maybe 31 by October. I pinged deal desk again on the 18 percent exception, and once the quote status flips I can send the clean order form."
+      "text": "Mostly. They had one sentence on breach notice, pretty minor. I put it back in front of Ben this morning, so once he gives me the language I'll reply to their counsel."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Luis",
       "ts": null,
-      "text": "Okay, just keep the close date at 7/29 then. Did they ask for monthly billing?"
+      "text": "Makes sense. Just keep the close date realistic then. Is March expansion still part of the conversation?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Dana",
       "ts": null,
-      "text": "Quarterly. Net 30. Their controller was pretty firm on no auto-renew over twelve months, so I used the fallback language from the pricing sheet."
+      "text": "Yeah, they mentioned another 15 seats for the dispatch team after go-live, but they don't want it on this order. They're trying to keep this one clean for budget."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Luis",
       "ts": null,
-      "text": "Perfect. Put Northlake at 80 percent and Mesa at 70, and note the services hours so finance doesn’t ask me later."
+      "text": "Fair. Send me the final numbers before it goes out, just so I'm not surprised if they call me."
     }
   ]
 }

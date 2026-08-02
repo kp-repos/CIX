@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, thanks for making the time. I had us down for 30 minutes to walk through the 18 additional seats for the operations team and the March 4 go-live. Is that still the right agenda?"
+      "text": "Yeah, so thanks for making time, Dana. I want to make sure I have the scope right: calibration management for the Greenville plant, 9 full users, about 72 instruments loaded before go-live, and you want the first due-date reminders running by November 4."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, that's right. We have 42 seats today, and the request is to move to 60 total. The main thing is confirming the price and making sure the invoice can hit our April budget."
+      "text": "That's right. It may be 75 instruments once maintenance finishes their list, but 72 is what I have today. The key thing is we need certificates attached for the pressure gauges and torque tools before the audit on November 18."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep. Based on the pricing sheet, 60 seats on your current annual plan comes to $48,600 for the new term, before tax. Since your renewal starts April 1, the invoice would be dated April 1 with net 30 terms, same as today."
+      "text": "Understood. The standard implementation includes one data import, certificate template setup, and two admin training sessions. For 9 seats, annual subscription is $18,900, and implementation is $3,200 one-time."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And that includes the onboarding session for the new supervisors? We have 12 of them who need the admin view, not just basic access."
+      "text": "Okay. Is that billed all at once, or can the services be on the first invoice and the subscription start at go-live?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. I included two live training sessions, 60 minutes each, and admin permissions for those 12 supervisors. The rest would stay as standard users unless you tell us otherwise."
+      "text": "We can do that. Services invoice on signature, subscription term starts November 1 and runs 12 months through October 31 next year. Annual subscription invoice would be dated November 1, net 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. One thing, procurement asked whether the term can be 12 months exactly, April 1, 2026 through March 31, 2027. They don't want an odd end date."
+      "text": "That works. Our PO needs the Greenville address and the cost center, 6142. Also, legal asked that the contract say data stays in the US. Is that in your standard terms?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, totally fine. The order form will show April 1 through March 31, and the seat count will be 60 from day one. No mid-term prorate since we're aligning it to renewal."
+      "text": "Yes, that's in the hosting section of the standard order form. I'll call it out in the cover note so it's easy for them to find."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. On payment, can you keep the PO number field blank for now? We'll issue the PO after legal signs the order form, probably by next Friday."
+      "text": "Good. For users, I have names for seven people now. Can we add the last two after training without changing the contract?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can leave PO pending and reference it on the invoice once you send it over. I'll send the order form today with the 60 seats, $48,600 annual subscription, net 30, and the training detail in the notes."
+      "text": "Yep. The agreement is for 9 seats, so you can assign those last two whenever you're ready. No extra charge unless you go above 9."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. If you send it to me and copy Marcus in procurement, I'll route it internally. Assuming no surprises, we can sign by February 14."
+      "text": "Perfect. If you send the order form today, I can route it tomorrow. Realistically signature is probably September 24."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Sounds good. I'll have it in your inbox this afternoon, and I'll also send a short implementation timeline so your team can plan the March 4 kickoff."
+      "text": "That timing is fine. If signed by September 24, we can hold kickoff on September 30, get your instrument file by October 3, and still target November 4 for go-live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great, thanks. This is straightforward. Talk soon."
+      "text": "Okay, send it over with the $18,900 annual, $3,200 implementation, 12-month term starting November 1, and net 30. I'll look for it this afternoon."
     }
   ]
 }

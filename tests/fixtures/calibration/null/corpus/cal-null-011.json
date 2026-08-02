@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I had 28 current seats on the business analytics package, and you were looking at adding the operations team before the June 17 go-live. Is that still the right count?"
+      "text": "Yeah, thanks for making time, Priya. I had 30 minutes down to confirm the seat count and target go-live for the analytics workspace."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Close. We trimmed it a bit. It’s 24 additional seats, so 52 total. Finance wants the invoice to show the new seats separately for cost center 410."
+      "text": "Yep. We’re at 38 users for launch, with probably another 6 in September. I don’t want to buy 50 seats if we’re not using them yet."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 24 net-new, 52 total, and the invoice line called out for cost center 410. With the mid-year add, the prorated amount through your March 31 renewal is $18,720."
+      "text": "Totally fair. The cleanest setup is 40 seats on the initial order, then you can add seats mid-term at the same unit rate. For 40, it’s $29,600 annually, invoiced net 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Does that include the two admin workshops we talked about, or is that separate?"
+      "text": "Okay. And if we add 6 seats in September, is that prorated through the same end date?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Included. Two remote admin workshops, 90 minutes each, one the week of June 10 and one after launch. If you want a third session later, that would be $1,200, but it’s not in this order."
+      "text": "Correct. Same contract end date, June 30, 2027. The September add-on would just be prorated for the remaining months."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "No, two is fine. Contract term stays aligned to March 31, right? We don’t want a separate renewal date."
+      "text": "Good. Our finance team also asked whether implementation is separate or included."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Right, co-termed to March 31, 2027. Same payment terms as your current agreement, net 30. No change to the main terms."
+      "text": "For your package, the standard onboarding is included: two admin sessions, one end-user training, and the migration checklist. If you want us to do the historical import for you, that’s a one-time $3,200 services line."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. For go-live, we need the seats active by June 12 so we can test permissions before the 17th."
+      "text": "Let’s skip the import for now. We can handle the last twelve months ourselves. Go-live is still August 12, assuming we can get the order done this week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, that works. If you sign by Friday, June 6, we’ll activate the seats on June 11 and send the admin workshop times in the same confirmation."
+      "text": "That works. I’ll send the order form for 40 seats, annual billing, no paid services, start date July 15, and target go-live August 12."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Send the order form to me and copy Mark in finance. He’ll issue the PO once he sees the $18,720 and the cost center."
+      "text": "Perfect. Send it to me and copy Mark in procurement. If the invoice can reference PO 78441, that’ll keep it moving."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send it this afternoon with the seat count, co-term date, invoice note, and June 11 activation date. Anything else finance needs on there?"
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Just our billing address: 1840 North Carson, Suite 300, Reno. Otherwise that’s it."
+      "text": "Will do. I’ll include PO 78441 on the billing notes and send the signature link today."
     }
   ]
 }

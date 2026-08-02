@@ -12,52 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for jumping on, Dana. I wanted to tighten up the launch plan for the 84 seats and the July 1 go-live. We have the order form at $42,300 for the first year, net 45, and legal is fine with the renewal cap language you sent."
+      "text": "Yeah, thanks for jumping on, Dana. I wanted to clean up the two open items from the rollout plan for the calibration portal. We still have you at 48 seats, target go-live July 15."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. The commercial pieces look fine. My main concern is the admin training and the data load. Our ops lead is planning around seeing real ticket history before the June 18 training."
+      "text": "Right, but the rollout plan is exactly why I'm calling. On June 18 we agreed the implementation team would load our gauge templates before training. Yesterday your implementation lead told my ops manager she had never heard about that, and nothing was queued. That agreement just did not make it to the people doing the work."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Right, and I need to own something there. On the May 22 call we agreed we would load 18 months of ticket history into the sandbox by June 10. That never made it into the onboarding team's kickoff notes. They came in this morning scoped for the standard 90-day sample load, so they were surprised, and that's on me. I apologized to Priya already; the data team can still do the 18 months, but the sandbox date moves from June 10 to June 12."
+      "text": "You're right. I looked at the handoff this morning, and that template-load note was missing. That's on me. I told you we'd have those 312 templates staged by July 8, and the team that has to deliver it was surprised yesterday. I'm sorry for putting you in that spot."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's not ideal. We told our regional managers they'd be reviewing actual closed tickets on the 11th. If it's the 12th, I need a clean answer today so I'm not moving people twice."
+      "text": "It wasn't a small surprise. We had three supervisors on the call ready to validate tolerances, and instead we spent 40 minutes explaining what we already covered with you."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. Clean answer is June 12 by noon Central for the 18-month sandbox, and I'll put that in the project tracker while we're on the phone. The June 18 admin training stays as-is, 10 to noon Central, recorded, with the 12 admins you listed."
+      "text": "Understood. I spoke with implementation at 9:30 today. They can take the spreadsheet you sent on June 20 and load the templates by end of day Friday, July 5. Then we keep the July 9 validation session, same time."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Fine. And the invoice? Our finance team asked for the platform fee split between cost centers 410 and 422, 60/40. I saw a single invoice in the portal this morning."
+      "text": "Okay. The second thing is billing. We agreed the first invoice would be split 60 percent to plant operations and 40 percent to quality, with the two PO numbers I gave you. Your billing team sent one $38,400 invoice to the generic AP inbox. They clearly never got the split-billing agreement either."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, second miss from our side. We agreed in writing last Friday to split the annual invoice 60/40 across those two cost centers, and that instruction did not get to the billing team before they ran invoices. They issued one invoice for the full $42,300 at 8:14 this morning. I'm sorry, that's awkward and avoidable. Billing is voiding it and reissuing two invoices today: $25,380 to cost center 410 and $16,920 to 422, both net 45."
+      "text": "Yeah, I saw that too. The billing group did not receive the PO split or the two-cost-center instruction, even though we agreed to it on the pricing call. That's the same handoff miss, and I apologize. The incorrect invoice will be voided."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Please make sure the old invoice is actually voided. Our AP team will reject duplicates, but it creates noise."
+      "text": "Please make sure it doesn't hit our system twice. AP gets pretty rigid once an invoice is in review."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep. I'll send you the void confirmation and the two new invoice numbers by 3 pm Eastern. No change to contract dates, and the purchase order number 78126 will be on both invoices."
+      "text": "Yep. We'll void invoice 10472 today, reissue two invoices tomorrow: $23,040 to plant ops under PO 7816, and $15,360 to quality under PO 7817, both net 30. I'll send you confirmation once billing completes it."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. If I have the data-load confirmation and corrected invoices today, we're good to keep July 1. Send the notes after this call."
+      "text": "Fine. If the templates are loaded Friday and the corrected invoices are out tomorrow, we're still good for July 15. But I need the delivery teams actually working from what we agreed to."
     }
   ]
 }

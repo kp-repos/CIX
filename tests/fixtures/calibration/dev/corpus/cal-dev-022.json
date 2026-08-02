@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I just wanted to confirm the final seat count and the go-live window so I can get the order form cleaned up today."
+      "text": "Hi Dana, thanks for making time. I know we had 30 minutes, so I wanted to confirm the seat count and the timing for the support analytics rollout."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We’re at 48 users for launch, with 6 of those being admin seats. We may add another 10 in Q2, but not on this initial order."
+      "text": "Yeah, that works. We’re looking at 42 seats to start, mostly support managers and team leads. If the pilot goes well, we may add another 15 in Q2."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 48 total now, 6 admins. And for timing, you had mentioned March 18 as the target. Is that still the date your ops team wants to be live?"
+      "text": "Got it, 42 initial seats. And the go-live date you mentioned last week was February 12, is that still the target?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, March 18. We’d like training the week before, ideally March 12 or 13. The main thing is we need the invoice dated after February 1 for budget reasons."
+      "text": "Yes. We’d like the system configured by February 5 so our team can do a week of testing before go-live."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That’s fine. I’ll note billing start on March 18 and invoice issue date no earlier than February 1. Payment terms are net 30 per the draft, unless finance needs something else."
+      "text": "That’s reasonable. Implementation for that scope is usually two weeks. We’d schedule kickoff for January 22, then configuration and training before February 5."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Net 30 works. Can you also make sure the PO number is on the invoice? It’ll be PO-4176. Our AP team will kick it back if that’s missing."
+      "text": "Okay. On pricing, the quote had $31,920 for the year. Does that include onboarding?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, PO-4176 on the invoice. On pricing, the annual subscription is $38,400 for the 48 seats, and implementation is the one-time $4,500. No change from the quote I sent Tuesday."
+      "text": "Yes, that includes the 42 annual seats and the standard onboarding package. The only separate line item is optional admin training, which was $1,800, but I left that out of the total for now."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That matches what I have. Legal had one small request on the auto-renewal. They’re asking for 60 days’ notice instead of 30."
+      "text": "Good. We probably don’t need the extra training. Our ops lead is comfortable handling admin setup after the first session."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Okay, that’s usually acceptable. I’ll run it through deal desk and update the renewal notice language if approved. I don’t expect that to slow us down more than a day."
+      "text": "Perfect. Contract term would be 12 months starting February 1, with invoicing annually upfront. Net 30 payment terms. Any issue with that?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. If you can send the revised order form by tomorrow afternoon, I can route it for signature before month-end."
+      "text": "No, annual upfront is fine. Just make sure the invoice references purchase order 44817 and the billing contact is AP at our Denver office."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send the updated order form and the implementation schedule, and I’ll copy your finance alias for the invoice instructions."
+      "text": "Will do. I’ll send the final order form today with the PO reference and the February 1 start date. If you can return it by Friday, we’ll hold the January 22 kickoff slot."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send it over and I’ll route it for signature this afternoon."
     }
   ]
 }

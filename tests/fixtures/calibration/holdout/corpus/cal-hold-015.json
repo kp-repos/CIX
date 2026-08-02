@@ -10,49 +10,54 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Nina",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so for Ridgeway Plastics, I'm cleaning up the services handoff. They’re at 48 seats today, plus the two finance admins they asked about."
+      "text": "Yeah, so for Cedar Valley, I’m sending the 48-seat quote this afternoon. They asked for June 1 go-live, net 30, and the two-hour admin training bundled in."
     },
     {
-      "speaker": "Owen",
+      "speaker": "Leo",
       "ts": null,
-      "text": "Okay. Is that the same package as the May order form? Reporting, approvals, and the data sync?"
+      "text": "That tracks. Did you keep the services line at $3,200? Their ops lead was fine with that as long as it’s on the first invoice, not split."
     },
     {
-      "speaker": "Nina",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yep. Billing tool shows coverage through 7/31, and the last customer note in the CRM is the April 18 admin training. But support says they’re still sending files every Tuesday."
+      "text": "Yep, one invoice. Subscription is $28,560 annual, services $3,200, taxes separate. I used the standard order form language, no weird terms."
     },
     {
-      "speaker": "Owen",
+      "speaker": "Leo",
       "ts": null,
-      "text": "Got it. For the add-on seats, use the standard $72 per user per month. No discount needed unless they go over 60."
+      "text": "Good. Only thing, while I had the account list open, Harbor Mills is still showing through 10/31, and I don’t think we’ve had a customer thread since that AP question in August."
     },
     {
-      "speaker": "Nina",
+      "speaker": "Maya",
       "ts": null,
-      "text": "That’s what I had. They asked for the invoice to split cost centers, 410 for operations and 220 for finance."
+      "text": "Mm, yeah. Okay. For Cedar, procurement wanted to know if support is 8 to 6 Central or their local time."
     },
     {
-      "speaker": "Owen",
+      "speaker": "Leo",
       "ts": null,
-      "text": "Finance can do that if we put the PO number in both lines. Do you have it?"
+      "text": "It’s 8 to 6 Central. I’d spell that out because they’ve got managers in Arizona and Ohio."
     },
     {
-      "speaker": "Nina",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, PO-88419. Go-live for the approval workflow is still August 14, assuming they finish the sample import by Friday."
+      "text": "Will do. Also they want the billing contact as Dana Kim, not the original signer. Same legal entity, just different email for invoices."
     },
     {
-      "speaker": "Owen",
+      "speaker": "Leo",
       "ts": null,
-      "text": "Cool. I’ll update deal desk with the seat count and the split invoice note."
+      "text": "Fine. If they sign by Friday, implementation can still hold the June 1 slot. After that it probably pushes to June 10."
     },
     {
-      "speaker": "Nina",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Thanks. I’ll send implementation the clean version and keep the pricing sheet attached in case procurement asks."
+      "text": "I’ll put that in the email, not as a threat, just plain. Anything else before I send?"
+    },
+    {
+      "speaker": "Leo",
+      "ts": null,
+      "text": "No, looks clean. Copy me and I’ll watch for the onboarding questions."
     }
   ]
 }

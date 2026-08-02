@@ -10,59 +10,54 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so quick update on Northstar Packaging. They’re at 84 seats, annual, $72,600 net after the 12% discount. They want May 15 go-live, but we’re stuck."
+      "text": "Yeah, so on the Northstar Facilities renewal, are we still blocked on security’s exception language?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Chris",
       "ts": null,
-      "text": "Stuck on their side, or us?"
+      "text": "We are. They’re ready to sign the 84-seat quote at $46,200 for a May 1 start, but procurement won’t release the PO until our security team signs off on their data retention addendum."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Us. Legal has the data processing addendum redline and finance has the net-45 invoice exception. I’ve pinged legal Monday, Tuesday, and again this morning, and I nudged finance twice in the deal thread. No answer yet, and the customer won’t sign until both are cleared. The deal is just sitting in the CRM at contract review until somebody gives the sign-off."
+      "text": "I’ve nudged security, legal, and the privacy inbox every day since last Tuesday. I sent the exact clause, their redline, and the customer’s deadline. Nobody’s given me the yes or the alternate wording, so the deal is just sitting there."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Chris",
       "ts": null,
-      "text": "Okay, yeah, that’s not great. Is the redline heavy or just the usual insurance language?"
+      "text": "That’s the whole stall, right? Not pricing, not term length?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Mostly usual. They asked for 30 days notice on subprocessor changes instead of 15, and they added their Ohio entity name. Nothing weird. Finance is the bigger one because their AP cycle cuts on the 20th and they’re saying net-30 misses their June payment run."
+      "text": "Correct. Three-year term is approved, net 30 is fine, implementation has June 3 penciled in. Northstar’s VP emailed this morning asking if we want the business, which, yeah, not great."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Chris",
       "ts": null,
-      "text": "Could we offer annual upfront with the invoice dated May 16 and keep standard terms?"
+      "text": "Okay. Who owns the answer internally, security or legal?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "I tried. Their procurement lead said they can do annual upfront, but payment timing has to be net-45 on the first invoice. Renewals can go back to net-30, which I put in the notes and on the order form comments."
+      "text": "Security owns the substance, legal said they’ll only bless it after security says the retention window is acceptable. So I’m in this loop where each side is waiting for the other to say something definitive."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Chris",
       "ts": null,
-      "text": "Got it. Customer temperature?"
+      "text": "Can we get your manager to pull it into the 2 p.m. approval huddle? Not as a blame thing, just force a decision."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Still good. Dana asked for a clean copy by end of day Friday so she can route it to their VP Ops. I told her we’re targeting that, but I didn’t promise because, yeah, I don’t have the approvals."
+      "text": "Yes, please. If we get a sign-off today, I can send the final order form before their AP cutoff tomorrow at noon."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Chris",
       "ts": null,
-      "text": "Makes sense. I’ll mention it in the forecast call as commit with dependency. If legal comes back clean and finance approves the first invoice term, can you get signature next week?"
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Yes. Dana said Tuesday the 7th is their signature window. Implementation has May 15 tentatively held for onboarding, two admin trainings, and the warehouse supervisor group on the 17th."
+      "text": "I’ll ask Dana to put it first on the agenda and I’ll join. Bring the customer clause and the $46,200 quote so we can close it in one pass."
     }
   ]
 }

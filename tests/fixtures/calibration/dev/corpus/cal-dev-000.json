@@ -12,57 +12,57 @@
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Hey Jordan, quick one on Northline Parts. I’m cleaning up the forecast for April and the account is still sitting in commit for 62 seats, $31,800 annual."
+      "text": "Hey Jordan, quick forecast check before the 2:00. I have Cedar Ridge at $42,600 for 38 seats, annual, legal redlines came back pretty clean."
     },
     {
       "speaker": "Jordan",
       "ts": null,
-      "text": "Yeah, I saw that. They added the warehouse team in January, right? Ten extra viewer seats and two admin seats."
+      "text": "Yeah, I saw that. The only thing I flagged was the payment term. They asked for net 60 and our standard on that package is net 30."
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Correct. Billing tool shows the prorated invoice paid on January 18, so no issue there. The only thing is their current agreement ends March 31, and I don’t see any call notes or emails where we’ve talked to them about continuing."
+      "text": "Right. I told procurement we can do net 45 if they sign by August 9. Deal desk said that's fine, no pricing change."
     },
     {
       "speaker": "Jordan",
       "ts": null,
-      "text": "Okay. That’s not ideal, but fixable. Who’s the day-to-day over there now, still Priya in operations?"
+      "text": "Good. And implementation still wants the September 3 kickoff?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, Priya Singh. She was on the implementation wrap call. Their go-live for the Dallas site is April 15, and support has two open tickets, both pretty normal configuration stuff."
+      "text": "Yep. They have their ops lead out the last week of August, so September 3 is the first clean date. It keeps them on track for October 1 go-live."
     },
     {
       "speaker": "Jordan",
       "ts": null,
-      "text": "Got it. I’d keep the renewal simple then. Same 62 seats, same terms, maybe a 3% uplift if the pricing sheet supports it."
+      "text": "Okay. Anything else weird in your patch?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "It does. That puts them at $32,754 for twelve months. Net 30, auto-renewal language stays the same unless legal asks for changes."
+      "text": "Um, just noticed Harbor Lane's services agreement ends tomorrow, and I don't think anyone on our side has talked to them about continuing yet. Anyway, not part of this commit number."
     },
     {
       "speaker": "Jordan",
       "ts": null,
-      "text": "Can you send Priya a short note today and ask for a 20-minute check-in? Don’t make it a big procurement thing yet."
+      "text": "Got it. For Cedar Ridge, can you make sure the order form shows 38 seats, $42,600, net 45, and the September 3 kickoff note?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Yep. I’ll also update the CRM close date to April 5 and move it to best case until we hear back."
+      "text": "Already updated the draft. I'll send you the final language after legal drops in the limitation of liability change."
     },
     {
       "speaker": "Jordan",
       "ts": null,
-      "text": "Perfect. If she mentions needing a PO, loop in deal desk early. Their last PO took, what, nine business days?"
+      "text": "Perfect. If Cedar Ridge signs this week, that's in August closed-won, not September, correct?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Eight, I think. I’ll attach the prior invoice and the seat summary so they’re not hunting for it."
+      "text": "Correct. Signature date drives it, billing starts on go-live unless finance changes something, but they were fine with the October 1 start."
     }
   ]
 }

@@ -1,7 +1,7 @@
 gen_prompt_version: 1.0.0
 gen_prompts_hash: 21c006b142e04ff0
-generated_at: '2026-08-01T20:32:01.508019+00:00'
+generated_at: '2026-08-02T01:08:35.244803+00:00'
 generator_lab: openai
 generator_model: gpt-5.5-2026-04-23
-spec_version: 1.1.0
+spec_version: 1.1.1
 split: dev

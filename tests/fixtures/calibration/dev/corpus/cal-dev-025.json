@@ -12,52 +12,42 @@
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so quick sync on Northstar. They're at 38 seats for phase one, go-live targeted May 6, and they want the services line capped at $12,500."
+      "text": "Yeah, so quick update on Finch Manufacturing. They're at 68 seats, annual services bundle, $54,720 net, and they want a March 18 go-live."
     },
     {
-      "speaker": "Chris",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Okay. Is the quote still the annual plan with the 8% uplift in year two, or did they push back on term?"
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "They were fine with 24 months. I pinged legal again this morning on the redline; procurement won't countersign until we get the liability language back."
-    },
-    {
-      "speaker": "Chris",
-      "ts": null,
-      "text": "Got it. I also nudged security for the SOC 2 answer; their IT lead said the approval's parked until that response is in."
+      "text": "Okay, that all sounds normal. What's still open before they can get it done?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Yeah. The actual business owner is ready, which is nice. She asked if we can include two admin training sessions before launch, nothing too weird."
+      "text": "I've pinged legal twice on their indemnity redline; procurement said they won't countersign until that note comes back."
     },
     {
-      "speaker": "Chris",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "We can do that. Just make sure it's in the services notes, not buried in the email thread. Deal desk will ask."
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "For sure. And I sent finance another note on the invoice split sign-off, because deal desk has the quote on hold until they okay the 60/40 billing."
-    },
-    {
-      "speaker": "Chris",
-      "ts": null,
-      "text": "Makes sense. Once that's cleared, send me the pricing sheet and I'll sanity-check the totals before it goes out."
+      "text": "Got it. Any product or security questions still floating around?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Will do. Current net is $74,880 subscription, plus the $12,500 services, start date April 15. I'll update the CRM after this."
+      "text": "Just the retention table. I nudged the security team again this morning, because their IT lead is holding the PO until we answer the 18-month log question."
     },
     {
-      "speaker": "Chris",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Cool. If they ask about adding the second department in Q3, keep it as an expansion note, not in the initial order form."
+      "text": "Okay. And price-wise, are they okay with the seat minimum and the services line?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, price is fine. Only thing on commercial is deal desk hasn't approved the 24-month ramp; I asked them yesterday and again before this call, and I can't send the final quote until that sign-off lands."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Alright. Keep Finch warm with the March 18 plan and tell them we're cleaning up the last internal items. If you get answers by Friday morning, we can still close it this month."
     }
   ]
 }

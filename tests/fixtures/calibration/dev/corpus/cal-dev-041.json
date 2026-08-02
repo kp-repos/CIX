@@ -10,49 +10,54 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so quick check on Benton Parts. They want the proposal today for 74 seats, annual, go-live February 12, and procurement asked for net 45 instead of net 30."
+      "text": "Yeah, so I need a gut check on Northline. They approved 47 seats at $68 per user, annual, net 30, and they want the agreement extended through January 31, 2027."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Okay. Is that the same package we talked through, support plus the reporting add-on?"
+      "text": "That lines up with the pricing sheet. Any services on it?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yep, $48,600 for the year before tax. The annoying part is getting the actual proposal out. I had to update the account in the CRM, then put the same 74 seats and start date into the pricing sheet, then retype the discount and billing terms in the quote tool, then copy it again into the approval form for deal desk, and then the billing tool wants the legal name, address, PO contact, all of it again. It’s the same customer info at every stop, and if one field is off, it kicks back. I started it yesterday at 3:00, got one approval this morning, and I’m still waiting because the contract workspace doesn’t pull any of that over either."
+      "text": "Just the standard onboarding package, $3,200 one-time. Go-live target is February 3. Their finance lead asked that the first invoice not go out until February 1."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Ugh. For the discount, what did you put in front of deal desk?"
+      "text": "Okay, that’s all normal. What’s the blocker?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Twelve percent. List was $55,200. I noted they’re replacing two smaller tools and they’ll add the warehouse team in Q3 if rollout goes clean."
+      "text": "The blocker is getting the actual proposal out. To extend the agreement I have to put the same customer name, billing address, 47 seats, $68 rate, contract end date, invoice timing, and onboarding fee into the pricing sheet, then the quote tool, then the approval portal, then the billing tool, then the order form generator, and then the e-sign packet. None of them carry the fields over. I did the first pass yesterday afternoon, deal desk asked for the invoice date added, and now I’m retyping the same seven fields everywhere again. It’s like six hours across two days for a renewal that is already verbally approved."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "That should be fine. Did legal already approve the net 45, or is that still pending?"
+      "text": "Yeah, that’s painful. For Northline specifically, I can review the numbers before you send so we don’t get another bounce."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Still pending. I flagged it as customer paper only for the PO terms, not their full services agreement. Their buyer, Melissa, said they can sign our order form if finance sees the invoice language today."
+      "text": "Please. I’ve got the order form showing $38,352 annual subscription, plus $3,200 onboarding, total $41,552 before tax."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Okay, send me the draft before it goes out. I’ll sanity-check the seat count and the February 12 service date."
+      "text": "That math is right. Make sure the term says February 1, 2026 through January 31, 2027, not the go-live date."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Will do. If deal desk clears by 2:00, I’ll send it to Melissa and copy their ops lead. Otherwise I’ll give her a heads-up that it’s coming first thing tomorrow."
+      "text": "Yep, good catch. Their procurement person is out Friday, so I’m trying to get it to them by 2 p.m. today."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Send me the draft when it’s ready. I’ll turn it in fifteen minutes."
     }
   ]
 }

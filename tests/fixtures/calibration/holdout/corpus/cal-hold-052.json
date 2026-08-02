@@ -12,57 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout plan and the commercial piece for the 48 seats we discussed."
+      "text": "Hi Dana, thanks for making time. I saw your note about expanding the analytics workspace from 48 to 65 seats before the finance team go-live on May 6."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We’re still targeting May 6 for go-live. I just need the final quote to match 42 standard users and 6 admin users, not 50 total."
+      "text": "Yeah, that's right. We have 12 folks in FP&A and 5 in accounting who need access. Same permission level as the current managers, nothing custom."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I updated that in the CRM this morning. The annual total comes to $38,640 before tax, with the onboarding package at $4,200 one-time."
+      "text": "Got it. At your current tier, the additional 17 seats would be $38 per seat per month, co-termed to your renewal on November 30. That comes out to $4,262 for the remaining term."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that lines up. Can you also make sure billing starts June 1? Finance doesn’t want an invoice hitting before the new cost center opens."
+      "text": "Okay, that matches what I expected. Can we keep it on the same invoice as the main subscription? Our AP team doesn't want a separate vendor line if we can avoid it."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, so I’ll set the contract start date as June 1, but we can still start implementation the week of April 22 under the order form."
+      "text": "Yes, same billing account and same PO. The billing tool will add it as a prorated line item on the April invoice, due net 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. What are you assuming for onboarding hours?"
+      "text": "Perfect. And just confirming, if we sign by Friday, the seats can be active by Monday the 22nd?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It includes 12 hours: two admin sessions, one manager training, and configuration support for the usage reports. If you need more, it’s $175 an hour, but most teams your size stay within the package."
+      "text": "Yes. Once the order form is signed, provisioning is usually same day. I'd say Monday is safe, and your admin can assign the seats from the workspace settings."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Legal had one question on the renewal term. We need one-year renewal, not auto-renewing for two years."
+      "text": "Great. Send the order form to me and copy Marcus in procurement. If the amount is $4,262, I can approve it without a legal review."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No problem. I’ll mark it as annual renewal with 60 days’ notice. Deal desk already approved that, so it won’t slow anything down."
+      "text": "Will do. I'll send it over this afternoon with the co-term dates and seat count noted clearly."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send the revised order form today, and I’ll route it for signature. If procurement doesn’t have comments, we should be done by Friday."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Perfect. I’ll send it by 3 p.m. Eastern with the seat breakdown, June 1 billing date, and the one-year renewal language called out."
+      "text": "Sounds good. Thanks, Alex."
     }
   ]
 }

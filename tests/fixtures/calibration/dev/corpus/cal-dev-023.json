@@ -10,49 +10,54 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Megan Ortiz, Account Executive",
+      "speaker": "Megan Lee, Customer",
       "ts": null,
-      "text": "Hi Dan,\n\nAttached is the revised quote for 42 platform seats and 6 admin seats, annual term starting May 1. Total is $48,600, net 30, with onboarding at $3,200 one-time.\n\nIf this looks right, I can send the order form today.\n\nMegan"
+      "text": "Hi Aaron,\n\nWe’re ready to move this along for the support analytics rollout. Scope is 34 seats, annual billing, go-live target August 12. Can you send the order form based on the quote we reviewed last week?\n\nMegan"
     },
     {
-      "speaker": "Dan Keller, Director of Operations",
+      "speaker": "Aaron Patel, Rep",
       "ts": null,
-      "text": "Megan,\n\nThanks. The seat mix is right. We can do May 1, but the number is still high for us. Finance gave me $40k all-in for year one, excluding tax.\n\nCan you sharpen it?\n\nDan"
+      "text": "Hi Megan,\n\nYes. Last week’s quote was 34 seats at $145 per seat per month, paid annually, so $59,160 for the first year. Implementation is included if we have kickoff by July 29.\n\nI can send the order form today.\n\nAaron"
     },
     {
-      "speaker": "Megan Ortiz, Account Executive",
+      "speaker": "Megan Lee, Customer",
       "ts": null,
-      "text": "Yeah, understood. I checked the pricing sheet again. The cleanest official discount I can put through without review gets us to $45,900 plus the onboarding fee.\n\nIf you can move close to that, I can keep the May 1 start and hold the implementation slot for the week of May 6.\n\nMegan"
+      "text": "Thanks. That number is a little above the $54k we have approved. We can probably get a small stretch, but not $59k.\n\nIf there’s any room, let me know. Otherwise I need to push this to September budget review.\n\nMegan"
     },
     {
-      "speaker": "Dan Keller, Director of Operations",
+      "speaker": "Aaron Patel, Rep",
       "ts": null,
-      "text": "We are not going to get $45,900 approved. I could probably get a PO signed this week at $39,900 subscription and the $3,200 onboarding fee, but that is the ceiling.\n\nAlso need the invoice split 50% on signature, 50% on August 1.\n\nDan"
+      "text": "Yeah, so between us, if you can get signature by Friday, I can do $52,800 for the year for the same 34 seats and included implementation. I’m not going to run that through deal desk right now because the concession approval will add a few days and likely reopen questions on the discount. Let’s just use this email thread as the agreement on the cheaper number, and I’ll sort the paperwork and approval trail after the order is in.\n\nAaron"
     },
     {
-      "speaker": "Megan Ortiz, Account Executive",
+      "speaker": "Megan Lee, Customer",
       "ts": null,
-      "text": "Dan,\n\nPer our messages just now, let's use the $39,900 subscription number we settled on there. I know that is below the discount level that normally has to go through deal desk approval before anything is sent out. Rather than wait on the concession workflow and risk losing your budget window, I’ll put the cheaper number into the order form now and get you the signature packet today. I’ll clean up the internal discount request and paperwork after the fact so it matches what we agreed.\n\nFor billing, I’ll set 50% due on signature and 50% due August 1. Onboarding stays $3,200.\n\nMegan"
+      "text": "That works on our side. We can sign by Friday if the order form shows $52,800, annual prepay, net 30 from invoice date.\n\nPlease include the August 12 go-live target and the standard data processing terms.\n\nMegan"
     },
     {
-      "speaker": "Dan Keller, Director of Operations",
+      "speaker": "Aaron Patel, Rep",
       "ts": null,
-      "text": "Okay. Send it over and I’ll route to our controller. Please make sure the subscription line is separate from onboarding so they can code it correctly.\n\nDan"
+      "text": "Attached is the order form for 34 seats, annual term 8/1/2026 through 7/31/2027, total $52,800, net 30. I also included the implementation line with no separate fee and the August 12 target date.\n\nData processing terms are linked in section 6.\n\nAaron"
     },
     {
-      "speaker": "Megan Ortiz, Account Executive",
+      "speaker": "Megan Lee, Customer",
       "ts": null,
-      "text": "Attached is the order form.\n\nSummary:\n- 42 standard seats, 6 admin seats\n- Annual subscription: $39,900\n- Onboarding: $3,200\n- Term: May 1, 2026 to April 30, 2027\n- Billing: 50% on signature, 50% on August 1\n- Auto-renewal removed per your redline\n\nMegan"
+      "text": "Legal is fine with section 6. One question from procurement: renewal needs to be at then-current list less the same discount percentage unless either party gives 60 days’ notice. Can you add that?\n\nMegan"
     },
     {
-      "speaker": "Dan Keller, Director of Operations",
+      "speaker": "Aaron Patel, Rep",
       "ts": null,
-      "text": "Received. Legal is fine with the term and renewal language. Controller asked whether the August 1 invoice can reference PO 44718 on the face of the invoice.\n\nIf yes, we should be able to sign tomorrow.\n\nDan"
+      "text": "Yes, updated renewal language is in section 4. New copy attached.\n\nAaron"
     },
     {
-      "speaker": "Megan Ortiz, Account Executive",
+      "speaker": "Megan Lee, Customer",
       "ts": null,
-      "text": "Yes, we can include PO 44718 on both invoices. I added that note to the billing instructions.\n\nOnce signed, I’ll introduce your team to implementation and they’ll confirm the May 6 kickoff.\n\nMegan"
+      "text": "Signed copy attached. Please send the invoice to ap@northbayparts.com and copy me.\n\nMegan"
+    },
+    {
+      "speaker": "Aaron Patel, Rep",
+      "ts": null,
+      "text": "Received, thank you. Invoice will go out today, and I’ll have our implementation lead reach out with kickoff times for next week.\n\nAaron"
     }
   ]
 }

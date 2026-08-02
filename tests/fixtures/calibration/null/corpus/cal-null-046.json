@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making time. I’ve got the updated order in front of me: 42 seats, annual term starting March 1, and the services package for the data calibration work. Does that still match what you need for the rollout?"
+      "text": "Yeah, thanks for making the time, Dana. Last we talked you were looking at 18 seats for the operations team, with a possible add-on for the two plant managers later. Is that still the shape of it?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "It does. The only thing I wanted to confirm is billing. Finance wants one invoice for the software and services together, not split across two POs."
+      "text": "That's right. Eighteen now. If the first site goes clean, we'd probably add 6 more in June, but I don't want to buy those before people actually use it."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, we can do that. The quote shows one invoice for $38,760, net 30, tied to PO 4479. I’ll include that language in the order form so it’s clear."
+      "text": "Totally fair. For 18 seats on the annual plan, the pricing sheet has you at $42 per user per month, billed annually. That puts the software at $9,072 for the year. Implementation is the standard $2,500 one-time, so first invoice would be $11,572 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the go-live date is still April 15? Our plant managers are planning around that week."
+      "text": "Okay. Procurement will ask about terms. We usually do net 30, and we need the invoice to reference cost center 4702 and the P.O. once I have it."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. We have kickoff on March 6, data review by March 20, and user training on April 8 and 9. April 15 is the target go-live."
+      "text": "Yep, net 30 is fine. Send the P.O. when it's issued and the billing tool can include both the P.O. number and cost center 4702 on the invoice."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. On training, can we have two admin seats included for our quality team, or are those part of the 42?"
+      "text": "Good. On timing, we want supervisors trained before March 18. Is that realistic if we sign by next Friday, February 16?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "They’re included in the 42. The breakdown is 34 standard users, 6 managers, and 2 admins. If that changes before launch, just send me the final names by March 29."
+      "text": "Yes. If the order form is signed by February 16, we can schedule kickoff the week of February 26, admin setup that same week, and two supervisor training sessions on March 12 and 14. That leaves a few days before your March 18 go-live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Legal had one comment on the auto-renewal clause. They’re okay with renewal, but they want 60 days’ notice instead of 90."
+      "text": "That works. One question: if we add the six seats in June, are they co-termed to the same renewal date?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That’s fine. It’s within our standard terms, so I’ll send the order form with the 60-day notice language today."
+      "text": "Correct. They'd be prorated from the add date through February 15, 2025, so everything renews together. Same per-seat rate unless you cross into the 25-seat tier, and then we'd use that tier going forward."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. If you get that over by noon, I can route it for signature this afternoon."
+      "text": "Alright. Send me the order form with 18 seats, annual billing, net 30, implementation included, and the March training dates noted."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. You’ll have it before noon, and once it’s signed, I’ll send the kickoff invite with the project lead copied."
+      "text": "Will do. I'll send it this afternoon. It'll show start date February 16, go-live target March 18, 18 seats, and the $11,572 first-year total before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Thanks, Mark."
+      "text": "Perfect. If it matches that, I can route it today."
     }
   ]
 }

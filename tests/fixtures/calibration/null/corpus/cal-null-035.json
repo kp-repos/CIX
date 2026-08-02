@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the renewal and the 15 additional seats you mentioned for the Austin team, so we can keep the April 1 go-live clean."
+      "text": "Yeah, thanks for making time, Dana. I had you down for 42 seats today, with the analytics add-on for the operations team. Is that still the right count for a June 3 go-live?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We have 62 users today, and we want to move to 77 total. The main thing is keeping the invoice to one annual bill. Finance does not want a second mid-year invoice."
+      "text": "Close. We need 45 seats. Three are for supervisors who only need read-only, if that changes the number. And June 3 is still what we're aiming for."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Totally. I’ve got it structured as a 12-month renewal starting April 1, with the 77 seats included from day one. Annual total is $46,200, and payment terms stay net 30 like your current agreement."
+      "text": "Got it. Read-only seats are priced the same in this package, so 45 total. On annual billing, that's $31,050 for the licenses, and the onboarding package is $4,800 one-time. So first-year total is $35,850 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that matches what I expected. Is the admin training still included? We need two sessions in late March, preferably March 24 and March 26."
+      "text": "Okay. Can the invoice be split, licenses to cost center 410 and onboarding to 425? Our AP team asked me to check before I send this upstairs."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, two remote admin sessions are included, 90 minutes each. I’ll put March 24 and March 26 as the target dates on the order form, and our onboarding lead will confirm exact times after signature."
+      "text": "Yes, we can split those line items on the invoice. The contract will still be one order form, net 30 terms, annual subscription starting June 3, 2026 through June 2, 2027."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. One other thing, legal asked about the auto-renew language. Can we keep the 60-day notice period instead of moving to 90?"
+      "text": "That works. The only other thing is termination language. Our legal team prefers 30 days written notice for non-renewal, not 60."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, that’s fine. Your current contract has 60 days, and we can carry that forward. No change there."
+      "text": "Yeah, so our standard mid-market terms allow 30 days, that's not an exception. I’ll make sure the order form references the 30-day non-renewal notice."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. If you send the order form today, I can route it to procurement. They usually turn these in three or four business days."
+      "text": "Great. If you can send the order form today, I can get it to procurement tomorrow morning. They usually need two business days."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I’ll send it this afternoon. It’ll show 77 seats, April 1 through March 31, annual billing at $46,200, net 30, and the two March training sessions."
+      "text": "I’ll send it by 3:00 Eastern today with the 45 seats, split invoice note, June 3 start date, and net 30. Do you want the implementation kickoff held for June 4 or June 5?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send it to me and copy billing@northlakeparts.com. Once procurement signs, we’ll send the PO number back."
+      "text": "June 4, if you have it. Morning Pacific is best."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "We have 10:30 Pacific on June 4. I’ll include that in the email so your team can hold it while procurement reviews."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send it over and I’ll keep an eye out."
     }
   ]
 }

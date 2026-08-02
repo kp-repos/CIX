@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the revised quote for 48 seats, annual term, starting March 1. I sent it over this morning through the CRM, but I can walk through the changes."
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the updated quote for the calibration management rollout and make sure it matches what you need for the April go-live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, I have it open. The seat count looks right. We had 45 initially, then added three managers for reporting only, so 48 total is correct."
+      "text": "Yeah, thanks. We reviewed it with operations yesterday. The 38 full users and 22 read-only seats look right for phase one."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Great. And on pricing, the updated annual total is $31,680 before tax. That includes the implementation package at $4,200, same as we discussed last week."
+      "text": "Great. The quote has those 60 total seats, implementation support, and the data import for your existing gauge list. Annual subscription comes to $48,600, and services are $9,800 one-time."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. For billing, we need the invoice dated after February 15, because that's when our new budget code is active. Can your billing tool handle that?"
+      "text": "Okay, that lines up with what I saw. On implementation, are you still estimating six weeks?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can set the invoice date for February 16. Payment terms are net 30, so due March 17. I'll add the budget code field to the order form as well."
+      "text": "Yes. If we have the signed order by March 8, kickoff would be the week of March 11, configuration and import in March, admin training April 9, and go-live April 15."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. On the go-live, we're still aiming for March 18. Is that doable if we sign by next Friday?"
+      "text": "That works. Procurement asked about payment terms. We usually do net 45, not net 30."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, if we have signature by February 9, implementation can start the week of February 12. That gives us about five weeks for setup, data import, and admin training."
+      "text": "Net 45 is fine for your account. I’ll have that reflected in the final order form. The subscription term would run April 15, 2026 through April 14, 2027."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That should work. Our only constraint is IT availability. They can do SSO setup on February 21 or 22, not before."
+      "text": "Perfect. And the invoice, would that issue at signature or at go-live?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That's fine. I'll note February 21 as the target SSO date. The project plan has some cushion, so it shouldn't affect the March 18 go-live."
+      "text": "At subscription start, so April 15. The services portion would be invoiced at kickoff, week of March 11."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Send me the final order form with the invoice date and budget code note, and I'll route it to procurement today."
+      "text": "Got it. Send the final order form with net 45, and I’ll route it today. I don’t expect any redlines."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I'll send the updated order form in the next hour, and I'll include the implementation timeline in the same email."
+      "text": "Sounds good. I’ll send it over within the hour, and if anything comes up from procurement, just forward it to me."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Will do. Thanks, Mark."
     }
   ]
 }

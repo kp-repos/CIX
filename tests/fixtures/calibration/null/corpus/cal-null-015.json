@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the renewal quote and the added implementation hours for the reporting module, then make sure the dates line up with your April rollout."
+      "text": "Yeah, thanks for making the time, Dana. I have you at 44 paid users for the calibration scheduling module, plus two finance folks who only need invoice and certificate viewing. Is that still right?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep. We’re at 84 seats today, and I think we need to move to 110 by April 15. Finance also asked if the invoice can stay annual, same as last year."
+      "text": "That’s right. Thirty-eight field techs, six coordinators, and then finance just wants read-only access so they can pull certs when customers ask."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That works. The quote I sent this morning has 110 seats, annual billing, net 30 terms, and the subscription running May 1, 2026 through April 30, 2027. Total is $68,420, including the 12 services hours."
+      "text": "Perfect. On the standard annual plan, the 44 paid seats are $68 per user per month. The read-only users are included. So the subscription is $35,904 for the year, and implementation is a one-time $4,800."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, I saw that. The services hours are for dashboard setup and admin training, right? Not custom development."
+      "text": "Okay. I need the invoice to match those two lines exactly, subscription and implementation. Our AP team gets picky if it’s bundled together."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. It’s configuration, dashboard cleanup, and two admin training sessions. If you decide later you need custom work, we’d scope that separately before anyone starts."
+      "text": "Yep, no problem. It’ll show as two separate line items, total of $40,704, net 30. Term would run September 1, 2026 through August 31, 2027."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. One thing, procurement wants the PO to reference our department code, 4702-ITOPS, and the invoice should go to ap@northline.example."
+      "text": "Good. For timing, we want the system live for the October 5 calibration cycle. Is that realistic if we sign by next Friday, August 14?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I’ll include the department code on the order form and invoice instructions. The billing tool will use the AP email once the order is signed."
+      "text": "Yes. If we’re signed by August 14, kickoff can be the week of August 24, your equipment import would be due September 4, and training would land September 23 and 24. That gives you a little buffer before October 5."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Can you confirm the go-live support? We’re targeting April 15, but I don’t want training on the same day people are switching over."
+      "text": "That works. One other thing: if we add, say, five technicians in January, are they at the same $68 rate?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, agreed. I have training penciled for April 8 and April 10, both at 11 Eastern, and go-live support on April 15 from 9 to 1 Eastern. That’s reflected in the services notes."
+      "text": "They are. Additional paid seats are prorated at the same $68 per user per month through August 31, 2027. If you need to reduce seats, we’d true that down at renewal."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That should work. If I get legal to review today, can we sign by Friday?"
+      "text": "Okay. Send me the order form with those dates and the net 30 terms, and I’ll route it with the PO request."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. The order form is ready for signature, and the pricing is already within the standard pricing sheet for your seat band. If legal has redlines, send them over and I’ll respond same day where I can."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Sounds good. Send me the final PDF with the department code and I’ll route it with the PO request."
+      "text": "Will do. I’ll send it over today, and I’ll include the implementation schedule in the same note so your ops lead can review it."
     }
   ]
 }

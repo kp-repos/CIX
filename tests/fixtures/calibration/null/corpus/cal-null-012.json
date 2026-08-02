@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I pulled up the notes from last week's call. You're looking at 42 full seats for the operations team, plus 15 read-only seats for managers, correct?"
+      "text": "Hi Dana, thanks for making the time. I saw your note about adding the support team before the May 20 go-live, so I wanted to walk through seats and timing."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. We may add three more full seats in Q2, but for launch it's 42 and 15."
+      "text": "Yeah, exactly. We’re at 42 seats today, and we need to add 18. Ideally they’re live the same day as the operations group, not a week later."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. On pricing, the 42 full seats are $86 per seat per month, and the read-only seats are $18. With annual billing, the total comes to $47,376 before tax. That's using the standard annual prepay rate on the pricing sheet."
+      "text": "That’s doable. The 18 additional seats would be prorated from May 20 through your current term end, December 31. That comes to $7,860 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that's within the range we discussed. Can the invoice be split by cost center? Finance wants 70 percent billed to operations and 30 percent to customer support."
+      "text": "Okay. And that would show as a separate line on the June invoice, or would you issue something right away?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can do that on the first invoice. It'll still be one agreement, just two billing lines with the cost centers listed. I can include those codes if you send them over by Friday."
+      "text": "We can issue it right away if that helps purchasing. It’ll reference the existing agreement and show the prorated seat add-on as its own line item."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, I have them. Another thing: we need the go-live no later than March 18. Our current reporting process shuts down at the end of that week."
+      "text": "Please do that. Our AP team wants the PO tied to the add-on, and they need net 30, same as the original contract."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "March 18 works. The implementation plan would be kickoff on February 24, admin training March 5, user training March 12, and then go-live on the 18th. That assumes we get your user list by February 21."
+      "text": "Yep, same net 30 terms. I’ll send the order form today with 60 total seats, May 20 start for the added users, and December 31 coterm."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's fine. Legal had one comment on the renewal language. They want the auto-renewal notice period to be 60 days instead of 30."
+      "text": "Great. For onboarding, do you need the list of names now, or can we send that after signature?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, we can make it 60 days. That's in our standard fallback language, so I'll put that in the order form and the terms summary."
+      "text": "After signature is fine. If you can send the user list by May 13, our onboarding lead can get the accounts staged and schedule the admin refresher on May 16."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. If you send the order form today, I can route it for signature tomorrow morning."
+      "text": "That works. Send the order form to me and copy procurement@ourdomain. I’ll get it signed this week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I will send it by 3:00 Pacific today with the seat counts, annual total, March 18 go-live date, split invoice notes, and the 60-day renewal notice. Anything else you want called out?"
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "No, that's it. Send it to me and copy AP, please. The AP alias is on the email thread."
+      "text": "Perfect. I’ll send it over this afternoon and include the invoice timing, net 30 terms, and the May 13 user-list date in the email so everybody has the same details."
     }
   ]
 }

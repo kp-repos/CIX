@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I have you down for 38 users across the QA and maintenance teams, and about 1,240 gauges in the first import. Is that still the right count?"
+      "text": "Yeah, so for the calibration tracking rollout, I have you at 50 named users, right? Thirty-eight techs, eight supervisors, and four quality admins."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Pretty close. We added two techs in Fort Wayne, so call it 40 seats. Gauge count is 1,260 if we include the pressure transducers that live with facilities."
+      "text": "That's right. We may add two more techs in August, but for the initial PO, 50 is clean."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 40 seats and 1,260 assets. The subscription at that level is $31,800 for the year, and the onboarding package is the fixed $4,500. That includes the asset import, certificate template setup, and two admin training sessions."
+      "text": "Okay. The pricing sheet has 50 seats at $42,000 annually, plus a one-time implementation fee of $6,800. That includes the instrument import, two admin trainings, and the first workflow setup."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Finance will ask if the onboarding can be on the same invoice as the annual subscription. They hate two POs for one project."
+      "text": "Works for budget. On invoicing, can you split the implementation fee onto the first invoice and keep the subscription annual, net 30?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, one invoice is fine. We can reference PO 44719 if that is the one you are using, or leave it blank until purchasing issues it."
+      "text": "Yep, that's standard. First invoice would show $48,800 total, net 30, and then the renewal invoice next year would just be the subscription unless you add services."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Use 44719. Target go-live is still May 6. We need calibration reminders running before the June audits, so I don't want this sliding into late May."
+      "text": "Good. We need go-live by July 15 because our audit starts August 6. Is that realistic if we sign by June 14?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. If we have the signed order by April 12, we can start onboarding April 16, load the asset file that week, and do admin training on April 23 and April 25. That puts you live May 3, with a few days of buffer."
+      "text": "Yes. If signature and PO are in by June 14, kickoff the week of June 17, data import by June 28, user acceptance the week of July 8, and go-live July 15 is comfortable."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Contract term is one year, right? We are not ready for a three-year even with a discount."
+      "text": "Okay. Contract term, just twelve months? Our finance team doesn't want a three-year commitment yet."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, twelve months, May 1 through April 30 next year. Standard net 30, data export available at any time, and support included for named users."
+      "text": "Twelve months is fine. The order form will show a July 15 start date and a July 14 end date next year. No multi-year language."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Send the order form to me and copy Martin in purchasing. If the numbers match what you just said, I can sign tomorrow."
+      "text": "Perfect. Send the order form to me and copy Dana in procurement. If it matches what we discussed, I'll route the PO tomorrow."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I'll send it this afternoon with the 40 seats, $31,800 subscription, $4,500 onboarding, PO 44719, and the May 1 start date."
+      "text": "Will do. I'll send it this afternoon with the seat count, pricing, net 30 terms, and the July 15 implementation schedule called out."
     }
   ]
 }

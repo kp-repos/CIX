@@ -12,52 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the renewal quote and make sure the seat count and dates line up before I send it to procurement."
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the renewal and the 12 additional seats you mentioned for the field team, and make sure the dates line up for your July rollout."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We’re at 42 seats today, but we need to add 8 for the support team, so 50 total starting September 1."
+      "text": "Yeah, that works. We have 38 seats today, and we need to be at 50 by July 15. The current term ends August 31, right?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 50 seats effective September 1. The current term ends August 31, so we can just make the renewal a clean 12-month term, September 1 through August 31 next year."
+      "text": "Correct, August 31. What we can do is add the 12 seats now on a prorated basis through the end of the term, then renew all 50 seats for September 1 through August 31 next year."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Can you confirm the price? Finance asked me to keep it under $36,000 if possible."
+      "text": "Okay. What does that do to the invoice? Finance asked me for the actual number, not just the per-seat rate."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so with the volume tier on the pricing sheet, 50 seats comes to $58 per seat per month. Annualized, that’s $34,800 before tax."
+      "text": "The prorated add-on for July 15 through August 31 is $1,860. The annual renewal for 50 seats is $62,500, billed upfront on September 1. Same support package, same contract terms."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that should be fine. Will the invoice be one annual invoice, same as this year?"
+      "text": "That matches what I expected. We also need the training session before the new reps start using it. Can you do the week of July 8?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, one invoice, net 30. I’ll make sure the billing tool has the PO required flag on it. Do you have the new PO number yet?"
+      "text": "Yes. I have Tuesday, July 9 at 1:00 Eastern or Thursday, July 11 at 11:00 Eastern. It’s a 90-minute admin and end-user session, and we’ll record it."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Not yet. I should have it by Friday. You can send the order form without it, and I’ll route it once procurement adds the PO."
+      "text": "Let’s do July 9 at 1:00. Send me the quote with the prorated seats and the renewal together, and I’ll route it for signature."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I’ll send the order form this afternoon with the 50 seats, September 1 start, annual billing, net 30. No changes to the standard terms from last year."
+      "text": "Will do. I’ll send one order form showing the $1,860 add-on and the $62,500 renewal, with the July 15 and September 1 start dates called out."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. If you can copy Marcus from procurement, that’ll help keep it moving. We’re trying to have it signed by August 23."
+      "text": "Great. If I get it today, I can probably have it back by Friday."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll get it over this afternoon. Thanks, Dana."
     }
   ]
 }

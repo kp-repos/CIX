@@ -10,59 +10,54 @@
   "thread_id": null,
   "segments": [
     {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, so we’re still aiming for a February 10 go-live. I reviewed the kickoff note from your services team, and it lists CSV upload for users. We had landed on SCIM for the 180 seats, right?"
+    },
+    {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so thanks for making time, Dana. I wanted to close the loop on the subscription order and make sure legal's redlines were good on your side."
+      "text": "Right, SCIM is included for your plan. I’ll get that reflected on the kickoff agenda before Friday’s call."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Mostly good. Our counsel is fine with the 24-month term and the 60-day termination for non-appropriation. The only thing is operational: the kickoff invite we got from your services team shows a March 4 go-live. We had planned on February 20 because our March close starts the 24th."
+      "text": "Okay, good. Our IT lead blocked 30 minutes for that specifically, so I just didn’t want them joining and getting a generic import walkthrough."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Right, yeah, February 20 is what I have here. Sorry about that. I'll have the project plan updated today and make sure the kickoff on Thursday is working toward that date."
+      "text": "Totally fair. The implementation lead will cover SCIM setup, attribute mapping, and the test group first. That should fit in the 30 minutes."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. We can make Thursday at 11 Central. We’ll have payroll, IT, and two regional managers on it."
+      "text": "Perfect. One other thing: the invoice that came through this morning shows 200 seats at $34,800. The signed order was 180 seats for $31,320, with the extra 20 as optional in July."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. On seats, I have 76 active users for the initial order, with 8 more being added April 1 when the west region comes on. Annual contract value is $48,640, billed quarterly. Does that match your purchase request?"
+      "text": "Yep, I’m looking at the signed order now. I’ll have billing reissue it at 180 seats and keep the July expansion as optional."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That matches the purchase request, yeah. The invoice that came in this morning was for 84 seats upfront though, and it was one annual amount. AP bounced it back to me."
+      "text": "Thanks. Our finance team is pretty literal with POs, so if it doesn’t match, they’ll just kick it back."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Ah, okay, thanks for flagging. That's not what you should have received. I'll get a corrected quarterly invoice out for 76 seats, and then the April add-on can be its own prorated line."
+      "text": "Understood. I’ll send you the corrected invoice today, and the PO can reference the February 1 start date and the $31,320 annual amount."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. If you can send that by tomorrow morning, I can get it into the Friday check run. PO number is 41782, same as on the order form."
+      "text": "Great. If those two things are cleaned up, we’re good to keep Friday at 11 Eastern."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, PO 41782. I'll send the revised order packet, the corrected invoice, and the updated kickoff agenda all in one email by end of day."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Sounds good. Once we have those, we can sign. Just no surprises for the February date, please."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Understood. I'll keep it tight and I'll confirm after the kickoff that the timeline still holds."
+      "text": "Works for us. I’ll send the updated agenda and invoice, then we’ll see you Friday at 11."
     }
   ]
 }

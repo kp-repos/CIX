@@ -12,52 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the March 18 go-live is still good and make sure the seat count on the order form matches what finance is expecting."
+      "text": "Hey Dana, yeah, thanks for making time. I wanted to check in after the kickoff and make sure the July 15 go-live still feels good on your side."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "March 18 still works. We’re starting with 64 seats, not 70. Six of those managers won’t need access until Q3, so we don’t want them on the first invoice."
+      "text": "That's actually why I grabbed you. On the kickoff, the implementation lead had us down for July 29, and she said the invoice export was not in scope. We had agreed to July 15 with the export to our billing tool included."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 64 active seats at launch, with the option to add six later at the same $82 per seat monthly rate. I’ll update that in the CRM and send the revised order form today."
+      "text": "Yeah, you're right. I apologize, I didn't carry that over cleanly to the implementation team. I'll get that corrected today so they're working from the signed order and the notes from our final pricing call."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. One thing, though. On the kickoff yesterday, your onboarding lead said the data import was set up for 90 days of history. We had agreed to 18 months during contracting, because our renewal reports need the older tickets."
+      "text": "Okay. We can live with some compression, but finance needs that export tested before month-end close. It's 42 seats and three cost centers, so manual work is not great."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Ah, yeah, I’m sorry. That should have been in the handoff notes to the implementation team. I’ll get that corrected after this call and make sure they plan for the 18-month import."
+      "text": "Understood. The 42 seats are already on the order, and the export is the standard flat file, not a custom build. I’ll ask them to move the first configuration session to this Thursday, June 27, if your admin can make it."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Thanks. We just need to know if that changes the timeline, because our current tool renews April 1 and I’m trying not to pay for overlap."
+      "text": "Thursday works. Priya can do 1:00 Central. What do you need from us before then?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. Based on the file size you sent, I don’t think it changes March 18, but I’ll confirm with services by end of day. If there’s any risk, I’ll flag it before you sign the revised order."
+      "text": "Two things: a sample invoice file from the billing tool and the list of fields you want mapped. If you send those by end of day tomorrow, they can prep before the session."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Also, billing needs the first invoice dated March 1, net 30, with the PO number on it. PO is 48177."
+      "text": "Fine. And on billing, the first invoice should be net 30 starting at go-live, not contract signature. That was in the order form, right?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect, PO 48177, March 1 invoice date, net 30. The annual total with 64 seats and the standard support package comes to $62,976 before tax."
+      "text": "Correct. First invoice issues July 15, net 30, for $38,640 annual subscription plus the $4,200 implementation fee. No usage charges in year one."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that matches my sheet. Send it over and I’ll route for signature this afternoon."
+      "text": "Good. Send me a quick confirmation after you talk to implementation, and I'll forward the sample file."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You'll have that confirmation from me this afternoon, and I'll include the Thursday time and the two prep items."
     }
   ]
 }

@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Jordan. I wanted to confirm the seat count and the rollout timing so I can get the order form cleaned up today."
+      "text": "Hi Dana, thanks for making the time. I had us down to talk through the 42-seat proposal and confirm the April 15 go-live target."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We’re at 42 seats for the initial team, with 6 more likely in Q2. I’d rather not bake those in yet unless it changes the pricing."
+      "text": "Yeah, that's right. We have 38 users today, and finance approved moving to 42 because the operations team is adding four supervisors next month."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Totally. At 42 seats you’re still in the same tier we reviewed, so it’s $68 per seat per month on an annual term. The 6 later can be added at the same rate, prorated."
+      "text": "Perfect. The quote I sent has 42 standard seats at $68 per seat per month, annual term, so $34,272 before tax. It also includes the one-time implementation package at $4,500."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that works. On invoicing, can you do one annual invoice instead of monthly? Finance asked for that."
+      "text": "Okay. On implementation, does that cover the two workflow templates we discussed, or is that separate services time?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, annual upfront is standard. That would put the first invoice at $34,272 before tax, due net 30 from signature. I’ll make sure billing has the PO field included."
+      "text": "That’s included. The package covers configuration, two workflow templates, admin training, and one launch readiness session. If you need additional templates after go-live, that would be scoped separately."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. PO should be 4817-AC, and the billing contact is ap@northlinecomponents.com."
+      "text": "Got it. Billing-wise, we need the invoice dated after March 25, because that’s when the new cost center opens."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. For go-live, we had May 13 as the target. Is that still realistic if procurement signs by Friday?"
+      "text": "No problem. We can set the order to start April 1 and have the invoice generated March 26 with net 30 terms."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes. Our admin is available the week of May 6 for setup, and we want managers trained before May 13. The only blocker is legal finishing the DPA."
+      "text": "That works. Legal had one question on the renewal language. They’re okay with annual renewal, but they want 30 days' notice instead of 60 if we decide not to renew."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. Deal desk approved the standard DPA language yesterday, so I’ll resend the packet with that attached and the order form updated for 42 seats, annual billing, net 30."
+      "text": "Yeah, we can accept 30 days' notice. I’ll update that in the order form and send the clean version this afternoon."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send it to me and copy Priya in procurement. If it matches what we discussed, we should be able to turn it by April 26."
+      "text": "Great. If we sign by Friday, are we still okay for April 15?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes. If we have signature by March 22, we’ll schedule kickoff the week of March 25 and stay on track for April 15."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send the revised order form, and I’ll route it for signature."
     }
   ]
 }

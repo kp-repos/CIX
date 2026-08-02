@@ -12,52 +12,52 @@
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so I was in the CRM cleaning up the August renewals and Northstar Foods is sitting there with 46 seats, $18,720 annual, and the agreement end date is August 31."
+      "text": "Yeah, so on Northgate, they confirmed 42 seats for the analytics package, annual billing, and they want the services block split out as its own line. Start date is February 3rd."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Derek",
       "ts": null,
-      "text": "Wait, Northstar is this month? I thought that was in September with the packaging add-on."
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "No, that's the pilot add-on. The master order ends August 31, like in three business days, and nobody from our side has talked to them about carrying on. No renewal call, no email, nothing in the activity log since the May invoice question."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Oh wow. So the contract is basically about to slip past and they don't even know what we're asking them to sign?"
+      "text": "Okay, that's clean. Same rates from the pricing sheet, or did deal desk approve the 8% services discount?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Exactly. And they have 12 active users in daily this week, so it's not like they're gone quiet. We just, yeah, we never opened the conversation. If Monday hits, they're technically out of term and still using the workspace."
+      "text": "Deal desk approved 8%, only on the $12,000 onboarding block. Subscription stays at $54,600. Legal already accepted their redline on the notice period."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Derek",
       "ts": null,
-      "text": "Okay. Do we have pricing ready at least? Same 46 seats or did they add the warehouse team?"
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "Usage shows 51 named users, but only 46 contracted. I can pull the pricing sheet for 50 seats, keep the same $34 per seat monthly equivalent, and ask deal desk if we can honor the old rate through next August."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "I'd keep it simple. Send a note today, acknowledge the timing, propose a 12-month renewal starting September 1, and offer a 15-minute call tomorrow. Don't lead with the overage."
+      "text": "Perfect. I'll make sure the order form matches that. Wait, while I had the customer list open, Ridgeway's agreement ends this Friday, January 31st."
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, agreed. I'll draft it from me and copy Jordan since he owns success. Also their AP contact asked for invoices to go to billing at northstarfoods dot com, so I'll make sure the billing tool is updated before finance sends anything."
+      "text": "Ridgeway? We haven't talked to them about renewing, have we?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Derek",
       "ts": null,
-      "text": "Good. And put a task in the CRM for end-of-term outreach 90 days out this time. This one got too close."
+      "text": "No, that's why it caught my eye. The end date is basically here, and I don't think anyone from our side has had a continuation conversation at all. Not even a soft check-in."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Ugh. So it just runs out Friday and we're sitting here noticing it on Tuesday. That's not great. They had 18 seats and that small compliance add-on, right?"
+    },
+    {
+      "speaker": "Derek",
+      "ts": null,
+      "text": "Yeah, $19,800 all-in. It’s just kind of sitting there, which is uncomfortable, but I don't want to mix it into Northgate right now."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Agreed. For Northgate, invoice contact is ap at northgate dot com, net 30, and procurement asked for the PO number on the first page."
+    },
+    {
+      "speaker": "Derek",
+      "ts": null,
+      "text": "Got it. I'll send the clean order form over to you for one last look before it goes out."
     }
   ]
 }

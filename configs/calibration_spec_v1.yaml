@@ -5,8 +5,14 @@
 # v1.1.0 (2026-08-01): fresh seeds for the cycle-2 re-calibration after the cycle-1 T-NULL
 # breach — same structure (6 pathologies, 3 loudness, dev/holdout/null shape), NEW generation
 # seeds so the tightened rubric v1.1.0 is validated on unseen instances, not the null cases seen.
-# PO-RATIFIED: 1.0.0 at Checkpoint A; 1.1.0 re-ratified 2026-08-01
-version: "1.1.0"
+# v1.1.1 (2026-08-01): generation-side plant-purity fix (PO-directed). Dev cycle-1 showed the
+# generator lacing renewal-lapse (P6) plants with incidental CRM/admin busywork — a genuine
+# second pathology that tanked P6 attribution — and writing non-loud lapses as "noticed then
+# handled", which rubric v1.1.0 correctly excludes. Style guide now forbids off-target clerical
+# texture in single-pathology plants; P6 description now requires the lapse to stay unaddressed
+# in-conversation. Generation-side only (no detector change → no T-ITER cycle). Firewall intact.
+# PO-RATIFIED: 1.0.0 at Checkpoint A; 1.1.0 re-ratified 2026-08-01; 1.1.1 PO-directed 2026-08-01
+version: "1.1.1"
 loudness_levels: [loud, moderate, camouflaged]
 splits:
   dev:     {id_prefix: cal-dev,  seed: 20260811, instances_per_cell: 2, clean_interactions: 24}
@@ -21,6 +27,12 @@ style_guide: |
   concrete, mundane concerns: seat counts, invoices, go-live dates, contract terms.
   Numbers are specific ($ amounts, dates, quantities) but unremarkable. Nobody
   narrates the pathology or names it; it shows up the way it would in real work.
+  Purity: an interaction carries at most the single workplace problem it is built
+  around; everything else in it is competent and forgettable. Do not sprinkle in
+  off-target clerical or record-keeping busywork — punching entries into the CRM,
+  tidying stale records, assembling internal paperwork — as background color; note
+  such routine steps only glancingly, if at all, unless that clerical load is itself
+  the problem the interaction is meant to show.
 pathologies:
   - key: P1
     maps_to_item: seller_admin_burden
@@ -71,4 +83,7 @@ pathologies:
     participants: [rep, colleague]
     description: >
       An agreement's end date slips past, or is about to, while nobody from the selling
-      side has spoken with the client about carrying on.
+      side has spoken with the client about carrying on. Within this exchange the coming
+      or missed deadline is merely noticed or fretted over in passing; no participant
+      moves to price it, book a call, or otherwise pursue the buyer about continuing — it
+      simply sits, unworked, for now.

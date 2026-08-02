@@ -12,52 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the scope from last week: 42 user seats, the calibration workflow module, and the asset import service for your three labs. Is that still right?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the revised quote for the 42 seats and make sure the May 1 go-live still works on your side."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, that's right. We may add two more supervisors later, but for the initial order it's 42. The go-live target is still May 6."
+      "text": "Yep, May 1 is still the target. We have the operations team ready for training the week before, assuming the contract is wrapped by April 12."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Okay, May 6 works. On implementation, our services team has you down for a March 18 kickoff, then about six weeks for configuration, import, and validation. The asset file you sent had 3,860 records, so that fits the standard import package."
+      "text": "That should be fine. The quote is at $38,640 for the annual term, includes the 42 standard seats, the reporting add-on, and two admin training sessions."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. One question on invoices. Can you split the subscription and implementation fees? Finance wants the annual subscription on one invoice and the services on a separate PO."
+      "text": "Okay. And the implementation fee, I think last time you said $4,500. Is that still in there?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, we can do that. The subscription would be $31,920 for the year, and implementation is $8,400 one-time. I'll note separate POs in the CRM and have billing issue two invoices."
+      "text": "It is. One-time $4,500, billed on the first invoice with the annual subscription. After that it’s just the renewal amount unless you add seats or change modules."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. And the term is 12 months, not 36, correct?"
+      "text": "Got it. Billing-wise, can you do net 45? Our finance team asked because the April close is a little tight."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, 12 months. The order form starts April 1, 2026 and runs through March 31, 2027. Renewal language is annual, with 60 days notice if you don't want to renew."
+      "text": "Yeah, net 45 is approved for this quote. I’ll make sure that’s reflected in the order form, along with the April 15 invoice date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Legal had one redline on the data retention section. They want 45 days after termination instead of 30. Is that something deal desk needs to approve?"
+      "text": "Perfect. On seats, we may add five more in Q3 for the second warehouse. Would those be prorated?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It does, but that one's usually straightforward. I'll send it to deal desk this afternoon and get you an updated order form by tomorrow morning, assuming no issues."
+      "text": "Yes, any added seats are prorated through the end of the current term. So if you add them August 1, they’d be billed for the remaining eight months."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. If we have the revised order form tomorrow, I can route it for signature Friday. Then we should be clear for the March kickoff."
+      "text": "That works. Send over the order form today if you can, and I’ll route it to legal. I don’t expect major changes."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it this afternoon with the quote summary and the implementation timeline attached."
     }
   ]
 }

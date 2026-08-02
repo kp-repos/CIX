@@ -12,47 +12,47 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, quick check on Northstar Foods. They asked for the renewal proposal by end of day, 68 seats, same package, term starting December 15."
+      "text": "Yeah, so quick check on the Northstar renewal. They're staying at 64 seats, adding the analytics add-on, and they want the extension to run Feb 1, 2026 through Jan 31, 2027."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "Got it. Is that the one with the extra support hours, or was that separate?"
+      "text": "Same commercial terms or did they push on price?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Separate. For this one it’s just the standard 12 months, net 45, and they want invoices split quarterly because finance is tightening up Q1 spend."
+      "text": "Same list, 8% renewal uplift, then a 10% discount because they signed the expansion before year-end. Net is $71,420 for the year."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "Okay. Any discount change from last year?"
+      "text": "Okay. Procurement asked for anything weird in the terms?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Keeping the 8% renewal discount. I’m just making sure the 68 seats, December 15 start, net 45, and quarterly invoice notes all match in the CRM, the pricing sheet, the deal desk form, and the billing request before I send it over."
+      "text": "No, just annual invoice up front and the 30-day payment language they had last time. Legal already said we can leave the indemnity section as-is."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "Makes sense. If deal desk pushes back, tell them procurement already approved that structure last June."
+      "text": "Are you getting them the proposal today?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I’ve got the email from Erin on their side. Also, they asked if the signature date can be November 22, but service start stays December 15."
+      "text": "Yeah, before three. The quote file had Monday's 60-seat version, the draft had yesterday's Jan 31 end date, and billing setup still showed the old 52 seats, so I'm lining those up before I send the PDF."
     },
     {
       "speaker": "Colleague",
       "ts": null,
-      "text": "That’s fine. Just don’t let the proposal say immediate start."
+      "text": "Got it. If it lands today, are they signing this week?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, exactly. I’ll send you the PDF first for a sanity check, then I’ll get it to Erin before 4:30."
+      "text": "That's what Tara said. They need it for their Friday PO run, then go-live for the add-on is targeted for March 4."
     }
   ]
 }

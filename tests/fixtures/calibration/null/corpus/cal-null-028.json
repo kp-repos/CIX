@@ -12,52 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I have you down for 38 seats to start, with the option to add the warehouse team later. Is that still the right count for May 15 go-live?"
+      "text": "Yeah, thanks for making time, Dana. I saw the note that your Fort Wayne lab is adding a second shift in March. Are you looking at more user seats, or is this more around the calibration due-date reporting?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. Thirty-eight named users. If the pilot in Dallas goes well, we'd add 12 more in July, but I don't want those on the first invoice."
+      "text": "Mostly seats. We have 18 people in there today, and we need 7 more by March 11. The reporting is fine, though I do want the supervisors to see overdue gauges without being full admins."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Makes sense. The order form would show 38 seats at $82 per seat per month, billed annually, so $37,392 for the first year. The additional 12 can be added later at the same unit rate through a standard add-on."
+      "text": "Got it. So 25 total users, with those 7 as standard users, and then supervisor visibility through the manager role. That keeps permissions pretty clean. Your current plan is $42 per user per month, billed annually, so the 7 seats would add $3,528 for the remaining year if we line it up with your June 30 renewal."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Procurement asked about term length. We prefer a 12-month term, not 24, and net 30 on the invoice."
+      "text": "Okay, that math works. Can you make the invoice hit in February? Our finance team is closing January already, and I don't want it bouncing around."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, 12 months is fine, May 15, 2026 through May 14, 2027, net 30. No auto-renewal unless you choose to keep it, and I'll make sure the renewal notice language is clear in the agreement."
+      "text": "Yes. I can set the service start date as March 11 and invoice date as February 12. Payment terms stay net 30, same as your main agreement."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. On implementation, we need the admin training before Memorial Day. Our operations manager is out the week of May 26."
+      "text": "Good. And no new implementation fee, right? They're already using the same procedures and assets, it's just more people logging in."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I confirmed with our services lead this morning: kickoff on May 16, admin training May 21 at 1 p.m. Eastern, and end-user session May 23. Those dates will be listed in the implementation summary attached to the agreement."
+      "text": "Correct, no implementation fee. I do recommend one 45-minute enablement session for the second-shift supervisors. That's included; we'd just schedule it the week of March 4."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. The only other thing is billing. We need the invoice to reference PO 44718 and list our legal entity as Northstar Packaging, LLC."
+      "text": "Let's do March 6 if you have it. Around 2:00 Eastern catches both shifts for us."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No problem. The order form will use Northstar Packaging, LLC, PO 44718, and the billing contact as ap@northstarpackaging.com. I'll send it over today for signature, and once it's signed you'll get the kickoff calendar invite the same day."
+      "text": "March 6 at 2:00 Eastern works. I'll send the order form for the 7 additional seats, cotermed to June 30, with the February 12 invoice date and the enablement session noted."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Send it to me and copy Marcus in procurement. If the numbers match what you just said, we should be able to sign by Friday."
+      "text": "Perfect. Send it to me and copy Marisol in finance. If the total is $3,528 plus tax, I can sign it this week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "That's the total before applicable tax, yep. I'll have it over today, and once it's signed we'll add the seats so they're available before the March 11 go-live."
     }
   ]
 }

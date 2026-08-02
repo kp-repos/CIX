@@ -10,59 +10,64 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Yeah, so I talked with Northline this morning. They're good with the 48 seats, but they want the renewal to start February 1 instead of January 15."
+      "text": "Hey Maya, quick check on the Harborline renewal. They asked for the 18-month option, right?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Okay, that should be fine. Same package as current, or are they adding the reporting add-on?"
+      "text": "Yeah, 18 months starting November 15, 72 seats, same support tier. They want the added sandbox in there too."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Same package, plus 6 contractor seats for their ops team. Total comes to $38,400 for the year before tax."
+      "text": "Okay. Did they react to the increase?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Did they push on the uplift?"
+      "text": "A little. The first-year equivalent comes out to $18,900, and I gave them the volume break we talked about, so it’s about six percent over current. Alex in procurement said that’s workable if we hold payment to net 30."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "A little. I held at 4%, and they didn't fight it much. Their main thing is getting the invoice split quarterly, because finance doesn't want the full annual in February."
+      "text": "That’s fine. We can do net 30 on a renewal. Is the proposal already with them?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Quarterly billing needs approval if it's under 50 grand. Did you send it through deal desk?"
+      "text": "It went out at 10:40. Getting the extension packaged was kind of a slog, though — I had to put the same 72 seats, $18,900, November 15 start, and net 30 terms into the pricing sheet, the proposal builder, the contract tool, the billing tool, and the approval form, so it took most of yesterday afternoon and a chunk of this morning."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Yeah, I spent most of yesterday getting the renewal packet together. I had to enter the 48 seats, February 1 start, quarterly billing, and the $38,400 total in the CRM, then the billing tool, then the deal desk form, then again in the proposal template before legal would look at it."
+      "text": "Got it. At least it’s out. Any legal redlines expected?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Got it. If legal is only reviewing billing terms, that should come back today."
+      "text": "No, they said if we use last year’s paper with the updated term and order details, legal won’t reopen it. They mainly care that the sandbox is listed as included."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "That's what I'm hoping. Customer asked for signature by Friday, January 12, so they can keep the go-live for the contractor seats on February 5."
+      "text": "Good. If they sign by Friday, can services still hit the November 15 go-live?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Okay. Once legal clears it, send me the final PDF before you send to them. I just want to check the term dates and invoice language."
+      "text": "Yeah, I checked with Sam. They need five business days after signature, so Friday is the line. I told Harborline that plainly."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Will do. I'll ping you when it lands back in my queue."
+      "text": "Perfect. Keep me posted if procurement pushes on the payment date."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Will do. I’ve got a follow-up with Alex tomorrow at 2:30, so I should know then."
     }
   ]
 }

@@ -12,62 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making the time, Mark. Sorry we had to push from this morning; I was cleaning up the quote rows so billing had the three ship-to sites split correctly. But I’ve got the pricing sheet in front of me now."
+      "text": "Yeah, thanks for making the 10:10 work. I’ve got a hard stop at 10:30 to get the approval packet lined up before noon, but I wanted to handle your seat count and invoice questions live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "No worries. I only have about twenty minutes. We’re still looking at 48 seats to start, with maybe another 12 in September if the warehouse team likes it."
+      "text": "Sure. We’re at 86 users now, not 80. Finance wants the annual invoice to show 60 seats under operations and 26 under support, same contract, just two cost centers."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That works. For 48 seats on the annual plan, you’re at $31,680 for the first year. If you add the 12 later, they co-term to the June 30 renewal, so it’s a prorated add-on, not a new contract."
+      "text": "Got it. At 86 seats, the annual subscription is $41,280 before tax. Splitting the invoice by cost center is fine, and it doesn’t change the terms or discount."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Procurement asked whether the invoice can split 60 percent to operations and 40 percent to finance. Same PO, just two cost centers."
+      "text": "Okay. We also need the start date to be October 15, but our team won’t really use it until the November 18 go-live. Is that a problem?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can do that. I’ll note it on the order form, and the billing tool can show both cost centers on the invoice. First invoice would go out after signature, net 30."
+      "text": "No, October 15 works as the contract start. We can schedule onboarding the week of November 4 and keep your go-live target for November 18. The first renewal would be October 15 next year."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. On go-live, we have July 15 circled. Is that realistic if we sign by next Friday, June 21?"
+      "text": "That’s fine. Payment terms are the other thing. Our standard is net 45. Your draft said net 30."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, assuming we get the user list by June 25. Implementation would do kickoff the week of July 1, configuration that same week, then training on July 10 or 11. July 15 is fine."
+      "text": "For a 12-month term, net 45 needs a quick approval, but it’s usually okay at this size. If you’re comfortable with the $41,280 and 86 seats, I can get that cleared and send the updated version this afternoon."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "The only contract thing is termination for convenience. Our standard asks for 30 days. Your paper says no termination during the first year."
+      "text": "Yes, assuming the invoice split is clear. Legal had no redlines except the data processing exhibit, and I think you already accepted that."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Right, our standard is no termination for convenience in year one. What I can offer is a 60-day opt-out after the first 90 days if the uptime or support response times miss the SLA twice. I can get that language from legal."
+      "text": "Yep, we accepted the exhibit as written. If I’m a little slow replying between one and three, I’m buried in getting the month-end entries cleaned up, but I’ll have your update out by 4:00."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Send that over. If legal doesn’t hate it, I think we’re there."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. I’ve got a 2:30 block to get renewal notes copied into the CRM, but I’ll move that and get you the revised terms before 4 today."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. Send it to me and copy Jenna in procurement."
+      "text": "Works for me. Send it to me and copy Nadia in finance. If it matches what we discussed, we can sign tomorrow."
     }
   ]
 }

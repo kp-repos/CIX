@@ -12,62 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making time. I wanted to walk through the seat count and the March 15 go-live plan, then I can send the order form right after."
+      "text": "Yeah, thanks for making time, Karen. I had you down for 18 full users and 27 read-only users for the calibration program. Is that still the right count for the first site?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. We’re still at 84 users for launch. Finance asked if we can add 10 more in May without redoing the whole agreement."
+      "text": "Close. We need 20 full users now. Two supervisors asked to approve out-of-tolerance reports, so read-only won't work for them. The 27 read-only is fine."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep. The order form will show 84 seats at $72 per seat per month, annual term, and then any added seats co-term to the November 30 renewal date. So if you add 10 on May 1, billing just prorates those seven months."
+      "text": "Got it. With 20 full and 27 read-only, on the annual plan, you're at $38,640 for software and $6,500 for onboarding. That includes the instrument import, two admin trainings, and the technician session."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that’s clear. What’s the annual total on the 84?"
+      "text": "Okay. And the invoice can split onboarding from the subscription, right? Our finance team wants the services line hitting a different cost center."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It comes to $72,576 for the software, plus the one-time onboarding package at $4,800. Total first-year invoice would be $77,376, net 30."
+      "text": "Yes, we can put those as separate lines on the same invoice. Subscription starts July 1, onboarding billed on signing. Net 30 unless you need something different."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That matches what I had. Can the invoice be split, half at signature and half on July 1?"
+      "text": "Net 30 is fine. We are targeting go-live August 12. Is that realistic if we sign by June 21?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can do two invoices: $38,688 due at signature and $38,688 due July 1. The pricing sheet already reflects that payment schedule, so the order form will match."
+      "text": "Yeah, that works. The usual timeline is about six weeks. If we have your instrument export and the list of calibration procedures by July 3, August 12 is comfortable."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Legal had one small thing: they want auto-renewal removed, just a written renewal each year."
+      "text": "Good. Contract term is one year, no auto-renewal. We can revisit next spring once the second plant decides."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No issue. I’ll send it as a 12-month term ending November 30, 2026, no auto-renewal, and we’ll start renewal conversations at least 60 days before that."
+      "text": "Understood. One-year term, July 1 through June 30, no auto-renewal language. I'll send the order form with those dates and the seat counts today."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. If you send that today, I can route it for signature tomorrow morning."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. You’ll have the order form and implementation summary by 2 p.m. Eastern, and the kickoff is still held for March 3 at 11 a.m. with your admin team."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Thanks, Mark. That should get us there."
+      "text": "Perfect. Send it to me and copy Nate in finance. If the totals match what you just walked through, I can route it for signature tomorrow."
     }
   ]
 }

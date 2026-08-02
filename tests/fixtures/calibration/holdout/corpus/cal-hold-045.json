@@ -10,54 +10,64 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya",
+      "speaker": "Dana",
       "ts": null,
-      "text": "Yeah, so North Ridge is at 42 seats, annual, standard support, and they want the order form by Friday so procurement can cut it in their 8/30 batch."
+      "text": "Yeah, so Northstar Plastics is still good for 46 seats, annual, net 30. Total is $41,860 before tax, and they want the June 3 go-live called out in the order form."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Mark",
       "ts": null,
-      "text": "Okay. Is the number still $54,600 or did they take out the onboarding hours?"
+      "text": "Okay. Is the buyer changing anything, or are we just waiting on our side?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Dana",
       "ts": null,
-      "text": "Still $54,600. I added the note back to deal desk on the 18% year-one discount, so I’m not sending the order form until that field flips in the pricing sheet."
+      "text": "Buyer is fine. Procurement approved the 12-month term yesterday. Legal still owns the indemnity cap line; I put a fresh note in that thread after lunch, so the order form is staying as a draft for now."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Mark",
       "ts": null,
-      "text": "Got it. Term is twelve months from 9/15, right? No auto-renew change?"
+      "text": "Got it. The cap was two times fees, right?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Dana",
       "ts": null,
-      "text": "Right, 9/15 to 9/14 next year, net 30. They did ask for the mutual NDA attached to the DPA, so I dropped the redline comment in the legal thread again before lunch."
+      "text": "Right, and their paper asked for uncapped. We already got them down to two times in email, just need our yes on the wording."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Mark",
       "ts": null,
-      "text": "Their security guy also asked about data residency. Did we already send the standard response?"
+      "text": "Discount is within the pricing sheet at that seat count, so no issue there."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Dana",
       "ts": null,
-      "text": "Yep, I sent the help article and the SOC packet yesterday. He seemed fine with US-only hosting, no custom language there."
+      "text": "Yeah. The only pricing wrinkle is the co-term for the five add-on seats in September. Deal desk has my 9:30 comment with the math, and the e-sign packet is waiting on that final total."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Mark",
       "ts": null,
-      "text": "Cool. What about billing setup, since they’re using that reseller in Ohio?"
+      "text": "Makes sense. If they ask today, tell them we’re targeting signature by Friday?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Dana",
       "ts": null,
-      "text": "I put the reseller address and tax cert back on the billing ticket this morning; the invoice schedule in the CRM is empty until they pick the right tax treatment."
+      "text": "I already told Emily Friday is realistic if the final packet lands by tomorrow afternoon. Implementation can still hold the kickoff for May 28."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Mark",
       "ts": null,
-      "text": "Okay, then once those fields are clean, you can send PDF plus the checkout link. Customer sounds ready otherwise."
+      "text": "Any security items left from their questionnaire?"
+    },
+    {
+      "speaker": "Dana",
+      "ts": null,
+      "text": "One line. Encryption at rest for backups. Security has the draft answer with my note under it, and once they fill that in I can send the complete response back to Emily."
+    },
+    {
+      "speaker": "Mark",
+      "ts": null,
+      "text": "Okay, keep the customer warm with the timeline, but don’t send partials. Sounds close."
     }
   ]
 }

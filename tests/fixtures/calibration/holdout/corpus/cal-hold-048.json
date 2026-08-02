@@ -10,49 +10,49 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so I talked to Northline this morning. They're good with 42 seats to start, maybe 55 by Q3, and they want the services line split out so finance can code it separately."
+      "text": "Yeah, so Quickline came back on the renewal. They want 62 seats for another 12 months, start date February 1, and they asked if we can hold the 6% uplift instead of 8%."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Okay. Same term as the last draft, March 1 go-live and 12 months?"
+      "text": "That should be inside the band. What’s the annual coming out to?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yep, March 1. Annual up front. Software is $38,640 and onboarding is $6,500, no discount on services."
+      "text": "$78,360 before tax, same support tier. To get the extension ready, I had to enter the 62 seats, February 1 start date, uplift, PO requirement, and billing contact in the quote tool, contract workspace, approval portal, billing tool, and the proposal template; it took most of yesterday and this morning, but the packet is clean now."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Did legal push back on the auto-renewal language or is that still clean?"
+      "text": "Okay, good. Did legal change anything material in the extension?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Still clean. The only thing is getting the revised proposal out is kind of the usual loop: update the CRM, then retype the seat count and dates into the pricing sheet, then the proposal tool, then the billing tool setup request, and deal desk wants the same fields in their form before they'll approve it. It probably lands tomorrow morning if nothing kicks back."
+      "text": "No, just updated the term dates and left the limitation language as-is. Their procurement person, Dana, was mostly looking for net 30 and the invoice split by department."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Got it. For deal desk, call out that the 10% discount is only on the platform line, not onboarding, otherwise they'll flag margin."
+      "text": "And we can do the split, right, 40 seats under operations and 22 under customer care?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, I put that in the notes. Also customer asked if the first invoice can reference PO 4817 and show the Denver office address."
+      "text": "Yep. First invoice on February 3, then annual after that. I noted both cost centers in the order summary."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "That's fine. Just make sure the billing contact is Priya, not Mark. Mark signed, but Priya handles AP."
+      "text": "Great. Send it to Dana and copy their VP. If they sign by Friday, we’ll keep the February 1 go-live clean."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Right, Priya Patel, ap@northline, net 30. I'll send you the PDF before I send it over, just for a quick sanity check."
+      "text": "Yep, I’m sending it after this. I’ll also give them the direct support email so they don’t route setup questions back through us."
     }
   ]
 }

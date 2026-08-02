@@ -12,57 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making time. I wanted to walk through the revised quote for 42 seats and make sure the start date and billing terms line up with what you need."
+      "text": "Hi Dana, thanks for making time. I had us down for 20 minutes to walk through the renewal and the added seats for the support team. Does that still work?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that works. I have it open. The seat count is right for the initial rollout, but we may add the finance team later, maybe another 8 users in Q2."
+      "text": "Yeah, that works. We’re trying to get this wrapped up before August 15, because that’s when our current term ends."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. So the quote is for 42 seats at $68 per user per month, annual term, with a February 1 start date. If you add the 8 later, we would just co-term those to the same renewal date."
+      "text": "Perfect. So the renewal would keep the same plan, same support package, and move you from 42 seats to 55 seats. The new annual total comes to $48,950 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the invoice would be one annual invoice up front, correct?"
+      "text": "Okay, that matches what I saw in the quote. Can you confirm the additional 13 seats are available on September 1? We don’t need them before then."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. Total is $34,272 before tax for the year. I also included the implementation package at $4,500, one time, based on the two workflow templates and the admin training."
+      "text": "Yes, we can set the expansion effective September 1. The base renewal starts August 16, and the added seats start September 1, so the invoice will show those as separate line items."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That matches what we discussed. On implementation, can you still support a go-live by March 15? Our team wants to stop using the shared spreadsheets before month-end close."
+      "text": "Good. Our finance team asked for net 30 terms again. Nothing changed there, right?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, March 15 is reasonable if we can get the kickoff done the week of February 5. We’d need your field mapping file and sample exports from the billing tool by February 9."
+      "text": "Right, net 30 stays in place. Billing will send the invoice to ap@northlakeparts.com, and I have Casey Miller listed as the billing contact."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That should be fine. Legal had one question on the auto-renewal language. They’re asking for 30 days’ notice instead of 60."
+      "text": "That’s correct. One more thing, the contract says auto-renewal with 60 days’ notice. Legal is fine with that as long as the term is 12 months, not 24."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I can send that to deal desk today. We’ve approved 30 days on similar annual agreements, so I don’t expect that to be an issue."
+      "text": "Yep, this is a 12-month term, August 16, 2026 through August 15, 2027. I’ll send the order form after this call, and once it’s signed we’ll schedule the September 1 seat activation."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. If you can send the updated order form with that change, I’ll route it for signature. We’re trying to have it done by next Wednesday."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Perfect. I’ll update the terms, confirm the co-term language for future seats, and send the order form this afternoon."
+      "text": "Sounds good. Send it over today if you can, and I’ll route it for signature."
     }
   ]
 }

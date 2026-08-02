@@ -12,62 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, thanks for making time. I pulled up the account in the CRM, and I have you at 48 seats today, renewal on March 31st. You mentioned maybe adding the service team?"
+      "text": "Yeah, so thanks for making the time. I have the quote updated for 42 seats, annual term, starting March 1. It comes out to $31,920 for the year before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, that's right. We'd add 12 seats for service, so 60 total. We want them live by April 15th if we can, just because training starts that week."
+      "text": "Okay, that matches what I expected. The only thing I want to confirm is the services line. Is that still the one-time onboarding at $4,800?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That should be fine. On the pricing sheet, moving from 48 to 60 keeps you in the same tier, so it's $82 per seat per month. With the annual prepay discount, the total comes to $59,040 for the year."
+      "text": "Correct. That includes the kickoff, two admin training sessions, and import help for up to 18,000 contacts. If you go over that, we would just scope it before doing anything."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Is that net of the discount, or before?"
+      "text": "Got it. We are probably around 14,500 records, so that should be fine. For timing, if we sign this week, are we still looking at April 15 for go-live?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Net of the discount. List would be $59,040 at monthly, sorry, let me say that correctly. Annual prepay brings it down to $53,136, plus the $3,500 onboarding package for the service workflows."
+      "text": "Yes. If the order form is signed by Friday, we can start onboarding March 11 and target April 15. There is a little buffer in there for your sandbox review."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Got it. And can the invoice be split? Finance asked for software on one line and onboarding on a separate line."
+      "text": "Okay. On billing, can you split the annual invoice into two payments, March and September?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, that's easy. I'll note that for the billing tool: one line for subscription, one line for onboarding, both tied to PO 4472 if that's still the right PO."
+      "text": "Yeah, we can do semiannual billing. It would be $15,960 due at contract start and the same amount due September 1. The onboarding fee would be on the first invoice."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "It is. We just need the start date to be April 1st, even if the service team doesn't start until the 15th."
+      "text": "That works. Legal had one note on the renewal. They want 60 days' notice instead of 90 for non-renewal."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No problem. Term April 1st through March 31st next year, 60 seats, net 30 payment terms. Same MSA as last year, no changes to data processing or support."
+      "text": "That is within our standard fallback. I can have deal desk update the order form to 60 days and send a clean copy this afternoon."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Works for me. Send the order form over today and I'll route it for signature. Usually takes two or three business days."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Perfect. I'll send it by 3 p.m. Eastern, and once it's signed, I'll have our onboarding lead reach out to schedule the kickoff for April 3rd or 4th."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Sounds good. Thanks, Mark."
+      "text": "Perfect. Send it to me and copy procurement. If it looks right, I can route it for signature tomorrow."
     }
   ]
 }

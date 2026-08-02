@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I had us down to confirm the seat count, invoice timing, and the March go-live. Does that still match what you want to cover?"
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the quote for 42 seats and make sure the March 18 go-live still works on your side."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that's right. We’re at 42 users for launch, and then probably another 8 in June if the operations team likes it."
+      "text": "Yeah, March 18 is still the target. We have 38 users confirmed today, but finance asked us to budget for 42 because we expect four more in Q2."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Okay, so 42 seats on the initial order. The pricing sheet has you at $84 per user per month on annual terms, so that’s $42,336 for the year before tax. Does that line up with what procurement is expecting?"
+      "text": "That makes sense. The pricing sheet has the 42-seat annual plan at $31,500, and implementation is a one-time $4,800. If you start with 38 active users, we can still contract for 42 and just provision the remaining seats when you're ready."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "It does. They asked if the invoice can be dated February 15 but due net 30, because our budget opens that week."
+      "text": "Okay. And the invoice, would that be one invoice for the annual subscription plus implementation, or split out?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, we can do February 15 with net 30. I’ll note that in the CRM and have billing generate it after signature, not before."
+      "text": "We can do either. Standard is one invoice for $36,300 due net 30, but if your AP team wants services separated, I can have billing issue two invoices."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. On the agreement, we need the start date to be March 1, not the signature date. Legal flagged that in the draft."
+      "text": "One invoice is fine. Our only ask is that the PO number be included on the invoice. It'll be PO-41782."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. I’ll have deal desk update the service start date to March 1 and keep the term through February 28 next year. No change to the commercial terms."
+      "text": "Got it, PO-41782. On contract terms, we're using the 12-month agreement starting March 18, with renewal notice at 60 days. Any redlines from legal, or are you comfortable with the current draft?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. And implementation is still the week of March 4? We need admin training before the warehouse managers get access."
+      "text": "Legal reviewed it yesterday. They were fine with it as long as the data processing addendum stays attached. No other changes."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. We’ve got admin training penciled in for March 5 at 11 a.m. Eastern, then end-user sessions on March 7 and 8. If you send the user list by February 23, we’ll load everyone ahead of time."
+      "text": "Perfect. For onboarding, we'd schedule the kickoff the week of February 26, then admin training on March 6 and end-user training on March 13. Does that line up with your team's availability?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, I can get that over by then. Send me the revised order form today and I’ll route it for signature."
+      "text": "Yes, March 6 and March 13 both work. Please send the calendar holds to me and Marcus, he's our operations lead."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. You’ll have the updated order form and contract redline by end of day. Once it’s signed, I’ll introduce the implementation lead and confirm the kickoff invite."
+      "text": "Will do. I'll send the final order form today with the 42 seats, $36,300 total, net 30, PO number included, and the March 18 start date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it over and I should be able to get signature by Friday."
     }
   ]
 }

@@ -10,54 +10,54 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to review the renewal and the add-on seats before we send the order form. I have you at 68 seats now, moving to 82 on July 1, annual term, $46,740 net after the 12% discount."
-    },
-    {
       "speaker": "Customer",
       "ts": null,
-      "text": "That part looks right. My concern is the onboarding item from last week. We agreed the billing tool export had to be mapped to our cost center field before go-live, and your team on the kickoff yesterday had no idea what I was talking about."
+      "text": "Hey Mark, thanks for calling back. We had the kickoff with your implementation lead this morning, and she had us down for a standard rollout starting June 10. That is not what we agreed to."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so, I owe you an apology there. I agreed to that on the call with you on June 6, and I did not get it into the handoff notes for services. They went into the kickoff with the standard implementation scope, so when you asked about the cost center mapping, it was a surprise to them. That's on me."
+      "text": "Yeah, I saw your note. Can you tell me exactly what she said, just so I’m not guessing?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "It was awkward, honestly. Our controller was on that call, and she thought we were trying to sneak in extra scope. We were very clear this was a must-have for July 15."
+      "text": "She said the data import for our 18 branch locations was not included until after go-live, and that the team would only configure the first three locations before June 24. On our contract call, you said all 18 would be loaded before go-live. That was the whole reason we picked June 24 instead of July 8."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Totally understood. I went back through the email thread and the recording, and you're right. The mapping to the cost center field and the nightly export test by July 10 were agreed. I updated the services brief this morning and got confirmation from Maya on the implementation side that it's now in their work plan."
+      "text": "You’re right. We did agree that all 18 locations would be loaded before the June 24 go-live, along with the 64 user seats. I’m sorry, I did not get that agreement to the implementation group, so they were working off the default rollout plan."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Is there any added fee now, or are you honoring what we discussed?"
+      "text": "Okay, but now my ops managers are asking why they blocked two afternoons next week for testing if there’s nothing to test. It was a pretty awkward meeting."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "We're honoring it. No additional services fee. The order form will still show the $3,200 implementation line we already discussed, not a change order. I also added a note to the internal approval so deal desk doesn't kick it back."
+      "text": "I get it. That’s on me. I’m going to talk to the implementation lead right after this and confirm the full import is part of week one. We may need your final location spreadsheet by Friday at noon instead of Monday, but the June 24 date should still hold."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. On payment terms, we need net 45. Finance won't do net 30 this quarter because the invoice will hit before our July close."
+      "text": "We can get the spreadsheet over by Friday. No issue there. I just need confidence we’re not going to find out next week that this is a change order."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Net 45 is fine. I'll put first invoice dated July 1, due August 15. The subscription dates will be July 1, 2026 through June 30, 2027, and the go-live target stays July 15."
+      "text": "It is not a change order. The $38,400 annual subscription and the $4,200 implementation fee stay as signed. I’ll send you and the implementation lead a written confirmation today with the 18-location load listed before go-live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Send the revised order form today and copy me and Luis. If the implementation team is aligned now, we can sign by Friday."
+      "text": "Good. Also, the invoice timing is still July 1, right? Our finance team already set that up."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yes, invoice goes out July 1, net 30, same as the order form. I’ll follow up by 3:00 today with the corrected rollout notes."
     }
   ]
 }

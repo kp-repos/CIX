@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to review the renewal for the analytics workspace before the current term ends on June 30, and also talk through the five additional editor seats you mentioned."
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the revised package for Northlake: 42 seats, the analytics add-on, and the standard onboarding services for the May 20 go-live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that’s right. We’re at 42 users today, 18 editors and 24 viewers. Starting July we need 23 editors, same 24 viewers, so 47 total."
+      "text": "That lines up. The only thing I want to confirm is whether those 42 seats include our three warehouse supervisors, or if we need to add them later."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. On the annual plan, that puts the renewal at $38,760 for July 1 through June 30 next year. That includes the standard support tier and the usage cap you have now, 2 million tracked events per month."
+      "text": "They’re included in the 42. If you add more after launch, the same per-seat rate applies and it just prorates on the next invoice."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. The number is in the range I expected. Can you keep the billing annual, net 30? Finance really does not want quarterly invoices."
+      "text": "Okay. And the number you sent yesterday was $38,640 for the year, right?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, annual invoice, net 30. Invoice would go out July 1 for $38,760, payable by July 31. No change to your payment terms."
+      "text": "Correct, $38,640 annually, net 30 billing, one-year term starting May 1. Onboarding is a separate $4,200 one-time line item."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. One thing, our legal team asked last year about auto-renewal. We don’t want that added back in."
+      "text": "Fine. Our finance team asked if the invoice can reference PO 7716 and split the subscription and onboarding into separate lines."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. Same as the current agreement: no auto-renewal, fixed 12-month term, and we’ll reach out at least 60 days before the end date to discuss next year."
+      "text": "Yep, that’s standard. I’ll make sure the order form and invoice show PO 7716 and break those out clearly."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. For go-live on the extra seats, we need the managers added by July 8. Is that doable if I send the names this week?"
+      "text": "Good. For implementation, we’ve got their availability on May 6 and May 13 for training. Is that enough?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. If you send the five names by Friday, we can have the seats active on July 1, and your admin can assign roles anytime before the July 8 manager training."
+      "text": "Yeah, so two 90-minute sessions should be fine for your group. We’ll schedule admin training on May 6 and end-user training on May 13, both at 11 a.m. Central."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send me the order form with those terms and I’ll route it for signature. Our signer is Mark Ellis, VP of Operations."
+      "text": "Works for us. Send the order form today and I’ll route it for signature."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send it today with Mark as signer, 47 total users, annual billing, net 30, and the July 1 start date. Anything else you want reflected?"
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "No, that covers it. Thanks, Alex."
+      "text": "Will do. You’ll have it this afternoon, and once it’s signed we’ll confirm the kickoff agenda and the training invites."
     }
   ]
 }

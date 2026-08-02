@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I’ve got the quote in front of me for 48 seats, the calibration tracking module, and the onboarding package."
+      "text": "Yeah, thanks for making the time, Dana. Sorry again I had to move this from yesterday. To be direct, most of my afternoon got swallowed by typing records into the CRM and cleaning up pipeline fields for month-end. It ate the hours I normally use to talk with buyers like you, so I couldn't get back before five."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Main thing is we need this live before October 7. Our audit starts October 21, and I don't want the lab techs learning it that week."
+      "text": "Yeah, I get it. We just need to keep this moving. Right now it's 42 seats total, 38 standard users and 4 manager seats, and we'd like to be live by October 7."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Totally. And sorry the revised quote got to you late yesterday. My day kind of got swallowed by typing opportunity notes into the pipeline software, cleaning up duplicate company records in the database, and pulling together the internal approval packet for the discount. It was like four and a half hours of clerical stuff, so I had almost no time left to actually talk with buyers or work through your rollout questions until the end of the day."
+      "text": "That matches what I have. For 42 seats, annual subscription is $31,920, and the implementation package is $4,800 one-time. Term would start October 1, invoice on signature, net 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, I get it. Just, on our side, finance is asking whether the $18,600 implementation is one invoice or split."
+      "text": "Okay. If two contractors roll off in January, are we stuck with all 42 until renewal, or can we drop them?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "We can split it. The proposal has $9,300 due at signature and $9,300 on go-live. The subscription is $31,200 annually for the 48 named users, net 30, with a 12-month initial term."
+      "text": "You can remove seats at renewal. During the term you can reassign them, so if the contractors leave you can put those seats on new hires or managers. If you add seats mid-term, we prorate through September 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Named users is fine. We might add six QA supervisors in January, but not now. Is there a price hold for those?"
+      "text": "That's fine. For onboarding, we need the data import and two admin trainings. Our operations lead is out the week of September 23, so earlier is better."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, I can add a line that additional seats through March 31 are at $650 per seat per year, prorated to your renewal date. No minimum on that add-on."
+      "text": "We can do the kickoff September 17, import file due September 19, then admin trainings September 24 and October 2. That still leaves a few days before the October 7 go-live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. And the service levels, the support response says one business day. Can you make that four hours for severity one issues?"
+      "text": "Good. Can you send the order form today? Finance wants the PO in by Friday, and legal only asked for the 12-month term and the mutual confidentiality language."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "For severity one, yes. I’ll put four business hours in the order form. Just to be candid, if I don’t get it over right after this, it’ll be closer to 5:30 because I’m blocked again doing pipeline updates, fixing account fields, and assembling the deal desk paperwork for month-end. That admin work crowds out the actual buyer conversations, which is not great, but I want to get your terms right before I send it."
+      "text": "I can get it to you by 3:00. Candidly, this morning got eaten again by assembling internal approval paperwork and retyping the same account details into the pipeline software. That's the stuff crowding out actual buyer conversations, so I'm batching it now and then your order form is the next thing I send."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Understood. If you send it today, I can route it to procurement tomorrow morning. They’ll need the vendor tax form and insurance certificate too."
+      "text": "Okay, 3:00 works. If it slips, just tell me, because our controller is pretty firm on the Friday cutoff."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep. I’ll attach the tax form, insurance certificate, and the updated order form with the split implementation invoice, March 31 seat price hold, and four-hour severity one response."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. If procurement doesn’t redline the limitation of liability section, we should be able to sign by September 12."
+      "text": "Understood. You'll have the order form, pricing sheet, and invoice instructions by 3:00 Eastern today, and I'll hold 10:00 tomorrow in case legal has one last question."
     }
   ]
 }

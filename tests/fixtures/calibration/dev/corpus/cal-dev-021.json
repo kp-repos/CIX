@@ -10,54 +10,49 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Megan Lee, Account Executive",
+      "speaker": "Dana Lee, Customer",
       "ts": null,
-      "text": "Hi Aaron,\n\nThanks for the call. Recapping what I have:\n\n- 48 seats to start\n- Measurement package plus calibration services\n- Target go-live: May 6\n- One production workspace, two sandbox workspaces\n- Annual invoice, net 30\n\nI’ll send the order form once you confirm billing contact and PO requirement.\n\nMegan"
+      "text": "Hi Mark,\n\nCan you send pricing for 86 seats of the customer portal package? We’re targeting a September 16 go-live and would want the admin training included.\n\nThanks,\nDana"
     },
     {
-      "speaker": "Aaron Patel, Director of Operations",
+      "speaker": "Mark Rivera, Rep",
       "ts": null,
-      "text": "Hi Megan,\n\nThat matches. Billing contact is Dana Kim, dana.kim@northlineco.com. We do need a PO before payment, but legal can review without it.\n\nCan you make sure the order form shows the services as a separate line? Finance asked for that.\n\nAaron"
+      "text": "Hi Dana,\n\nFor 86 seats, annual term, the total is $48,360. That includes the portal package, standard support, and two admin training sessions. Implementation is a flat $4,500 one-time fee.\n\nMark"
     },
     {
-      "speaker": "Megan Lee, Account Executive",
+      "speaker": "Dana Lee, Customer",
       "ts": null,
-      "text": "Yeah, no problem. I’ll split subscription and services.\n\nOne question: do you want all 48 seats active on day one, or should I set the first 32 for May 6 and the remaining 16 for June 1? It affects the provisioning note but not much else.\n\nMegan"
+      "text": "Thanks. We’re approved for $44,000 on subscription this year. If we drop to 80 seats, does that get us there? Implementation is already covered in a separate budget."
     },
     {
-      "speaker": "Aaron Patel, Director of Operations",
+      "speaker": "Mark Rivera, Rep",
       "ts": null,
-      "text": "Let’s do all 48 on May 6. We may not have every manager trained that week, but we want access available.\n\nAlso please include the security addendum you mentioned. Our IT lead is asking for the data retention language.\n\nAaron"
+      "text": "At 80 seats the annual subscription comes to $44,800. Same support and training included. The 12-month term would run September 16, 2026 through September 15, 2027."
     },
     {
-      "speaker": "Megan Lee, Account Executive",
+      "speaker": "Dana Lee, Customer",
       "ts": null,
-      "text": "Got it. I’ll attach the security addendum and keep the retention language at 18 months.\n\nFor the commercial side, the list total is $58,400, but since you and I already landed on $51,200 over messages, I’m going to use that number on the order form and clean up the concession approval in deal desk afterward.\n\nMegan"
+      "text": "Understood. We really need to keep the 86 seats because our field managers are included now. Is there any room if we sign this week?"
     },
     {
-      "speaker": "Aaron Patel, Director of Operations",
+      "speaker": "Mark Rivera, Rep",
       "ts": null,
-      "text": "Thanks. $51,200 works on our side.\n\nCan you set the initial term to May 6, 2026 through May 5, 2027? Our contracts team gets picky about exact dates.\n\nAaron"
+      "text": "Dana,\n\nThe $43,200 for 86 seats we landed on over text works if you can sign by Friday. I haven’t run that concession through deal desk yet, but I’ll send the order form at that amount and sort the approval paperwork after.\n\nMark"
     },
     {
-      "speaker": "Megan Lee, Account Executive",
+      "speaker": "Dana Lee, Customer",
       "ts": null,
-      "text": "Yes, I’ll set those dates.\n\nI’m sending the packet now with:\n\n- Order form for 48 seats\n- Services line for $6,000 included in the total\n- Annual subscription line\n- Security addendum\n- MSA with net 30\n\nIf legal redlines today, I can turn comments by tomorrow afternoon.\n\nMegan"
+      "text": "Okay. Please send it with the September 16 start date, net 30 payment terms, and the implementation fee shown separately."
     },
     {
-      "speaker": "Aaron Patel, Director of Operations",
+      "speaker": "Mark Rivera, Rep",
       "ts": null,
-      "text": "Received. I forwarded it to legal and finance.\n\nOne small thing: the invoice should reference Cost Center 4107. If there’s a field for that, please add it before final signature.\n\nAaron"
+      "text": "Attached is the order form.\n\nSummary:\n86 seats\nSubscription: $43,200\nImplementation: $4,500\nStart date: September 16, 2026\nInitial term: 12 months\nPayment: net 30\n\nMark"
     },
     {
-      "speaker": "Megan Lee, Account Executive",
+      "speaker": "Dana Lee, Customer",
       "ts": null,
-      "text": "Added Cost Center 4107 in the billing notes and updated the PDF. Same commercial terms, just that field added.\n\nI’ll wait for legal comments.\n\nMegan"
-    },
-    {
-      "speaker": "Aaron Patel, Director of Operations",
-      "ts": null,
-      "text": "Legal is fine with the MSA as-is. Finance approved the PO request this morning.\n\nIf you send the final signature packet to me and Dana, I can sign today and she’ll attach PO-77294 afterward.\n\nAaron"
+      "text": "Received. Legal is fine with the standard terms. I’ll route for signature this afternoon and send back the completed copy."
     }
   ]
 }

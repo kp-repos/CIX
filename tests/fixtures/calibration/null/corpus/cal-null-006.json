@@ -12,62 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making the time. I wanted to walk through the renewal and the small expansion you mentioned for the operations team."
+      "text": "Yeah, so thanks for making time, Dana. I wanted to walk through the 18 additional seats for the operations team and confirm the March 18 go-live is still the target."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep. Current contract is 42 seats, and we need 18 more by February 3rd. Finance also asked me to confirm the invoice stays annual, not quarterly."
+      "text": "That's right. We have 42 people today, adding 18 gets us to 60. The only wrinkle is finance wants the invoice to land after April 1 if possible."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. The quote I sent this morning is for 60 seats total, annual billing, $54,600 for the 12-month term starting February 1st and ending January 31st next year."
+      "text": "Yep, we can set the order effective April 1 and still have the onboarding sessions in March. Billing would be $4,800 per month for the 60 seats, annual term through March 31 next year."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And that includes the reporting add-on? Last year that was a separate line."
+      "text": "Okay. And that includes the reporting module we talked about, not a separate line item?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It does. It’s listed as included on line two at no additional charge for this term. Same support level as today, standard business hours, two named admins."
+      "text": "Correct. Reporting is included at that tier. The only separate item is the one-time onboarding package at $2,250, and that covers two admin trainings plus the import review."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Our legal team only had one comment: they want the auto-renewal notice period to stay at 60 days, not move to 90."
+      "text": "Got it. Legal asked whether the renewal stays annual or if it flips to monthly after the term."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, that’s fine. The order form keeps the 60-day notice period from your current agreement. No change there."
+      "text": "It stays annual unless either side gives 30 days' notice before the renewal date. That's the same language in your current agreement, just with the updated seat count and dates."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. If we sign by Friday, can your team do the admin training on January 29th? We have three supervisors who need it before go-live."
+      "text": "Fine. Can you send the order form today? I can route it to Marcus and Priya this afternoon."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. I reserved January 29th at 11 a.m. Eastern for a 60-minute admin session. I also added the three supervisor names you sent over: Mark Ellis, Priya Shah, and Luis Romero."
+      "text": "Yes, I'll send it over by 2:00 Pacific. It'll show 60 seats, April 1 start, March 31 end date, $4,800 monthly, and the $2,250 onboarding fee."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send the final order form to me and copy AP at the billing inbox. PO number will be 44718."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. You’ll have the final order form today with PO 44718 referenced, annual invoice to the billing inbox, and the February 1st start date."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Sounds good. I’ll route it for signature once it lands."
+      "text": "Perfect. If Marcus has questions on the invoice timing, I'll loop you in, but otherwise we should be able to sign by Friday."
     }
   ]
 }

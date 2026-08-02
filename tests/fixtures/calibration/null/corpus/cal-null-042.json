@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the revised order for 42 seats of the asset calibration module and the onboarding package, just to make sure the numbers match what you need for the January go-live."
+      "text": "Yeah, so just to confirm where we landed: 62 named seats for the calibration platform, one production site in Dayton, and your target go-live is September 16. Is that still right?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. I have the quote in front of me. It shows $31,080 for the annual subscription and $4,800 for onboarding. Is that still based on 42 users, not 40?"
+      "text": "That's right. We may add the Columbus repair team later, but not in this first wave. For Dayton it's 48 technicians, 9 supervisors, and 5 quality folks."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, 42 named users. We kept the per-seat price at $740 annually, and onboarding is a fixed fee. The total before tax is $35,880, invoiced once at signature unless you want quarterly billing."
+      "text": "Perfect. The quote I sent has 62 seats at $46,500 annually, plus the one-time implementation package at $7,200. That includes the gauge list import, two admin workshops, and the technician training session."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Annual is fine. Our finance team just needs the invoice dated after December 15, because that's when the new cost center opens."
+      "text": "Okay. On the gauge import, we have about 3,800 records. Some of them have missing last-cal dates. Is that going to change the services number?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, we can set the invoice date for December 16. The service term would run January 1, 2027 through December 31, 2027, and your implementation kickoff would be January 6."
+      "text": "No, not for that volume. If the file is in the template by August 23, the team can load it and flag the missing-date items during validation. You'd get the exception report before training."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. The kickoff date works. For go-live, we told operations February 3. Is that realistic with the data import?"
+      "text": "Good. Our finance person asked whether the invoice can show software and implementation as separate lines. Same PO, just separate lines."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It is. Based on the sample file you sent, we’d do the equipment list import during the week of January 13, user training January 22 and 23, then a validation check on January 29. That gives you a few business days before February 3."
+      "text": "Yes, that's standard. The order form will show the annual subscription and the implementation fee separately, both net 30, start date September 1."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. One thing, the renewal language says 30 days' notice before the end of term. Our standard is 45 days. Can you change that?"
+      "text": "And the term is 24 months, correct? Legal didn't want a three-year initial."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, 45 days is within our standard terms. I’ll send the updated order form with that notice period and the December 16 invoice date today."
+      "text": "Correct, 24 months. The renewal is annual after that unless either side gives 60 days' notice. No auto uplift in year two; year two stays at $46,500."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. If you send it to me and copy purchasing, we can route it for signature tomorrow. No redlines expected beyond that renewal notice."
+      "text": "That matches what I have. If I get you the signed order form by next Friday, August 9, are we still safe for September 16?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I’ll send the clean version to you and purchasing by 2 p.m. Central, and once it’s signed, we’ll lock the January 6 kickoff slot."
+      "text": "Yes. With signature by August 9, kickoff would be the week of August 19, import by the 23rd, admin training September 5, and technician training September 12."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, send the final order form with those dates in it and I'll route it this afternoon."
     }
   ]
 }

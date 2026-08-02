@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making time. I wanted to confirm the renewal and the small expansion for Northpoint before we send the order form over."
+      "text": "Yeah, so thanks for making time, Dana. Last time you said the main thing was getting the safety team out of spreadsheets before the September audit. Are you still looking at 38 users, or did that change?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We’re at 42 seats today, and I think we need 50 starting February 1. Finance asked me to keep the invoice annual if possible."
+      "text": "It changed a little. We have 41 confirmed, and I want 5 extra seats for supervisors who only review reports. So 46 total."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, annual billing works. For 50 seats on the team plan, the total is $37,500 for the year, covering February 1, 2026 through January 31, 2027."
+      "text": "Got it, 46 seats. For the standard plan, that puts the annual subscription at $31,280, and implementation is a one-time $4,500. That includes the admin training and importing your last 18 months of inspection data."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Does that include the onboarding session for the eight new users?"
+      "text": "Okay. The subscription number is fine. On implementation, can we split that out as a separate line item? Finance wants services separated from software on the invoice."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It does. One 90-minute admin session and one end-user session, both remote. We can put those the week of February 3 if that lines up with your go-live."
+      "text": "Yep, that's normal. The order form will show subscription and implementation separately, and the invoice will match that. Payment terms would be net 30 unless you need something different."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s good. We’re targeting February 10 for everyone to be live. Also, can the PO number be on the first invoice? It’ll be PO-41872."
+      "text": "Net 30 works. What about timing? If we sign by August 9, when can we actually have people logging in?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, PO-41872 on the invoice. And just to verify, billing contact is still Martin Lee at invoices at northpoint dot com?"
+      "text": "If signed by August 9, kickoff would be August 13, data import the week of August 19, and your first admin training on August 22. Your team could start using it in production August 26."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Correct. Legal contact is me. No redlines expected unless you changed the data processing terms."
+      "text": "That works. We do need the contract to be 12 months, not 36. We may expand next year, but I can't commit beyond one year right now."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No changes there. Same terms as last year, plus the seat count update and the February 1 start date. I’ll send the order form this afternoon for signature."
+      "text": "Understood. I'll set it as a 12-month initial term, August 26, 2024 through August 25, 2025, with 46 seats. No auto-increase language, just standard renewal notice."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send it to me and copy Martin. If it matches what we discussed, I can sign by Friday."
+      "text": "Perfect. Send it to me and copy procurement. If the numbers match what we discussed, I can get it signed this week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. Once it’s signed, we’ll lock the February 4 admin training and February 6 user training. I’ll include those dates in the confirmation email."
+      "text": "Will do. I'll send the order form this afternoon with the two line items, net 30, and the August 26 go-live target. Anything else you want reflected before I send it?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Thanks, Mark."
+      "text": "No, that's it. Thanks, Mark."
     }
   ]
 }

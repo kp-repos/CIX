@@ -12,52 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the order form and make sure we’re clean for the March 18 go-live."
+      "text": "Hey Dana, thanks for making time. I wanted to confirm the last two items before kickoff Monday: 38 seats, annual billing, and July 22 as the target go-live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We’ve got 42 seats to start, with the option to add the support team in Q3. Finance just needs the invoice split quarterly, not annual upfront."
+      "text": "Yeah, those are right. The only reason I grabbed you is the onboarding note I got this morning. It lists the import as customers and open invoices only."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I have 42 named users, $38,640 annual subscription, billed $9,660 per quarter. Net 30. The billing tool should generate the first invoice on April 1."
+      "text": "Okay, yeah, I’m looking at the order now. For Harbor, it should be customers, open invoices, and the product catalog."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. One thing I noticed in the onboarding packet, it says data migration is 90 days of records. We had planned on bringing over everything back to January 2023."
+      "text": "That’s what we agreed. The catalog is the big one. It’s 1,840 SKUs, and our ops team is counting on that being in before user testing starts July 8."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Ah, yeah, I see what you mean. Let me clean that up before the kickoff. The scope should reflect January 2023 forward, not just the default 90 days."
+      "text": "Got it. I’ll have the onboarding agenda corrected today so Monday’s session covers the catalog file format and timing."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good, because ops is already pulling that export and it’s about 18,000 rows."
+      "text": "Appreciate it. I just don’t want to get on the kickoff and hear it’s phase two or an extra services item."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That’s fine. If it’s under 25,000 records, there’s no extra services fee. We’ll just need the file by March 7 so the team can validate fields."
+      "text": "No, it’s included at no charge in the first-year package. Same total: $48,600 for the year, net 30 from the invoice date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Works. For single sign-on, our IT lead is Marcus. He’s out next Friday but available the week of the 10th."
+      "text": "Perfect. And the invoice still goes to ap at harborwest dot com with the PO number in the header?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I’ll put Marcus on the technical checklist and send the calendar hold for March 11 at 1 p.m. Eastern."
+      "text": "Yes, PO 4172 in the header. I’ll send you the revised kickoff agenda by 3 Central."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Send me the revised packet and I’ll route it to procurement today."
+      "text": "Sounds good. If that shows catalog import on it, we’re all set."
     }
   ]
 }

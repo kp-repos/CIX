@@ -12,62 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout details and make sure the quote lines up before I send it back through deal desk."
+      "text": "Hi Dana, thanks for making the time. I wanted to walk through the updated quote for the calibration workflow package and make sure the seat count and start date line up with what your team needs."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We’re still at 48 seats for phase one, right? That’s 35 standard users and 13 manager seats."
+      "text": "Yeah, that works. We’re still at 24 users total. Eighteen technicians, four supervisors, and two read-only seats for quality."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. I have 48 total seats, annual term starting September 1st, with implementation kicking off the week of August 12th. The subscription is $54,720 for the year, and services are $6,500 one-time."
+      "text": "Got it. The quote I sent has 22 full seats and 2 read-only seats, annual term, starting March 1st. Total is $38,640 for the year, with implementation at $4,500 one-time."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. On the services, can that be invoiced separately? Our finance team wants the subscription on the software budget and implementation on the operations budget."
+      "text": "Okay. And implementation includes the asset import and the two admin training sessions, right?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, we can split that into two invoices. I’ll note that in the billing tool: subscription billed on contract signature, services billed at kickoff. Does that work?"
+      "text": "Yes. Asset import from your current spreadsheet, one sandbox review, and two 90-minute admin trainings. If we kick off the week of March 4th, go-live would be targeted for April 8th."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes. And payment terms were net 30? I saw net 15 on the first draft."
+      "text": "That timing is fine. Billing-wise, can you split the annual subscription and the implementation fee onto separate invoice lines? Same invoice is okay."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Good catch. Your approved terms are net 30. I’ll update the order form before sending the final version."
+      "text": "Yep, same invoice with separate line items. Payment terms are net 30, and the renewal would be March 1st next year unless you give 30 days’ notice."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. For go-live, we’re targeting October 7th. Is that still realistic if kickoff is August 13th?"
+      "text": "Sounds good. Send the order form over today and I’ll route it to procurement. They usually turn these around in three or four business days."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, that should be fine. It gives us about eight weeks. The only dependency is getting your user list and two sample workflows by August 20th."
+      "text": "Perfect. I’ll send it over with the quote attached and the April 8th go-live noted. Anything else you want changed before I do that?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s manageable. Send the final order form to me and copy procurement, and I’ll route it for signature."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. I’ll send it today by 3:00 p.m. Eastern, with the net 30 terms, split invoicing, and the October 7th go-live noted in the CRM."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. Thanks, Mark."
+      "text": "No, that should cover it. Thanks."
     }
   ]
 }

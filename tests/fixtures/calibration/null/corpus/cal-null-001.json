@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so just to make sure I have the shape right: 45 technician seats, 6 manager seats, and the calibration module for torque and pressure assets. You’re aiming for a June 3 go-live, correct?"
+      "text": "Yeah, so based on the 38 seats you outlined, the annual plan would be $41,952 for the year, and then a one-time onboarding package at $2,400. That includes the two admin trainings and the data import help."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s right. We have 51 users total. The big thing is we need the reminders running before our June audit, which starts June 17."
+      "text": "Okay. And the 38, that's 31 managers plus the seven regional admins. If we add field supervisors later, are we locked into a different rate?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Makes sense. For that seat count, the annual subscription is $38,400, and implementation is a one-time $6,200. That includes the data import for up to 8,000 instruments and two admin training sessions."
+      "text": "No, you can add seats mid-term at the same $92 per user per month rate, prorated through the March 31 end date. If you crossed 50 seats, the pricing sheet moves you to $86 for any new quote."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. We’ve got about 6,700 instruments today, so that fits. On billing, can you invoice the subscription now and the implementation after kickoff?"
+      "text": "Got it. For go-live, we were targeting September 16. Is that realistic if we sign this week?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can split it that way. Subscription invoice on signature, implementation invoice on the May 13 kickoff date. Net 30 on both, unless you need net 45 for AP."
+      "text": "Yes. If the order is signed by Friday, kickoff would be August 26, configuration the week after, and user training on September 10 and 12. September 16 is a normal timeline."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Net 30 is fine. Procurement will ask about the term. Is it a straight 12 months?"
+      "text": "Okay. Legal had one question on the contract term. It's a 12-month initial term, no auto-renew, right?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, 12 months, June 3, 2026 through June 2, 2027. Renewal is annual, and we’ll reach out 90 days before the end of term to review seats and usage."
+      "text": "Correct. It runs April 1 through March 31, and it does not auto-renew. We would send renewal pricing ahead of the end date and you decide from there."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. We may add the dimensional team later, maybe another 12 seats in Q4. Do we have to redo the whole agreement?"
+      "text": "Perfect. Billing wants the invoice split, software to cost center 410 and onboarding to 425. Can you do that?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No, you can add seats mid-term. They’d be prorated to the June 2 end date, same per-seat rate as this order."
+      "text": "Yes, that's fine. The invoice will show two lines, software at $41,952 to 410 and onboarding at $2,400 to 425, net 30. If you need a PO number on it, just send that over with the signed order."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Send me the order form and I’ll route it today. If legal doesn’t change anything, I think we can sign by Friday."
+      "text": "We will. I think we're good. Send the order form to me and Dana, and I'll route it for signature today."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I’ll send the order form with the pricing, billing split, June 3 start date, and the implementation scope in one packet this afternoon."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Great. Copy Jenna in procurement and Mark from quality, please. They’ll both want to see it."
+      "text": "Will do. I'll send it over in the next half hour with the dates and seat count exactly as we discussed."
     }
   ]
 }

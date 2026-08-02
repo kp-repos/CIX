@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the revised order for the facilities team: 42 user seats, asset tracking module, and the standard support plan, starting September 1."
+      "text": "Yeah, thanks for making the time, Dana. I wanted to walk through the updated quote for 42 seats, annual term, starting April 1. It came out to $28,728 for the year, billed annually, net 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That lines up. My main thing is invoice timing. We need the first invoice dated after August 20, otherwise it lands in the wrong budget month."
+      "text": "Okay. That matches the seat count we talked about. Is that including the five read-only users for the regional managers, or are those separate?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I can set the billing start to September 1 and note invoice issuance no earlier than August 21. Annual prepay is $31,920 before tax, based on the pricing sheet we reviewed."
+      "text": "Those are included. So 37 full users and 5 read-only, all under the same workspace. If you add more full users mid-term, they’re prorated at $57 per user per month through March 31."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the go-live date is still October 7? We have calibration reports due that week, so if setup drifts, it's a problem."
+      "text": "Got it. And implementation, you had said that was a flat fee?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "October 7 is still the target. The kickoff would be September 5, data import by September 18, and admin training the week of September 23. That gives us about two weeks of buffer before go-live."
+      "text": "Correct, one-time implementation is $4,800. That covers the data import, two admin training sessions, and the go-live support window. Total first-year invoice would be $33,528."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. We also need three admin seats included in the 42, not extra. Last quote had that right, I just want to say it out loud."
+      "text": "That works. Our finance team will ask if we can split that into two invoices, like half on signature and half after go-live."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, three admins and 39 standard users, all included in the 42. No separate admin fee."
+      "text": "Yes, that’s fine. We can do $16,764 at signature and $16,764 on April 30, assuming go-live on April 22 like we discussed."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Contract term is 12 months? Our legal team asked whether there’s an auto-renewal."
+      "text": "April 22 is still the target. We need the admin training the week before, probably Tuesday and Thursday afternoon Central."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Twelve months, September 1 through August 31 next year. It renews for another year unless either side gives 45 days’ notice. If you prefer 60 days, I can put that version in the order form."
+      "text": "Yep, I have April 15 and April 17 at 2 p.m. Central available. I’ll put those on the implementation plan, and the kickoff would be April 3 at 11 a.m. Central."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Forty-five is fine. Please send the order form today and copy Marcus in purchasing. If he’s good, I can sign tomorrow."
+      "text": "Perfect. Send the order form with the two-payment schedule and the April dates in it. If legal doesn’t redline anything weird, I think we can sign by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send the order form with the September 1 start, August 21 invoice note, 42 seats, and October 7 go-live. You’ll have it in your inbox by 2:00 Eastern."
+      "text": "Will do. I’ll send the order form today with the annual term April 1 through March 31, 42 seats, and the payment schedule. Anything else you want reflected before I send it?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that’s it. Keep it clean and we should be good."
     }
   ]
 }

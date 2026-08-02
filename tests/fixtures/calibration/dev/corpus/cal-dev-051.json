@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Karen. I wanted to confirm the scope before I send the order form back through deal desk. I have 48 full seats, 12 read-only seats, annual term starting April 1, and the implementation package at 40 hours. Is that still right?"
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the quote for the calibration management rollout and make sure the seat counts and dates are still right."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. We may add two more full seats in finance, but not for the initial go-live. For now keep it at 48 and 12 so procurement can match the budget line."
+      "text": "Yeah, that works. We reviewed it internally yesterday. The 24 technician seats and 6 manager seats are correct for phase one."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. On pricing, the full seats are at $72 per user per month, read-only at $18, billed annually. With the services line, total year-one comes to $49,824 before tax. I’ll attach the pricing sheet so it’s easy to compare."
+      "text": "Great. And the two lab locations are still Dayton and Fort Wayne, with Dayton going first?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. The invoice needs to split software and services into separate lines. Our AP team rejects it if implementation is bundled into the subscription."
+      "text": "Correct. Dayton on March 18, Fort Wayne about four weeks later. We do not need the mobile add-on for Fort Wayne yet."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, no problem. I’ll note that in the billing tool: two line items, same PO, payment terms net 30. Do you already have the PO number or should we leave that blank for now?"
+      "text": "Got it. The proposal has the base subscription at $38,400 annually, implementation services at $9,750, and the one-time data import at $3,200. Any concerns there?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Leave it blank for now. I should have the PO by Friday, March 15. Also, can you make sure the contract says auto-renewal is 30 days' notice, not 60?"
+      "text": "No, those numbers match what we expected. Finance just asked if the annual subscription can be invoiced on April 1 instead of at signature."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, I saw that in your redlines. Legal approved the 30-day notice this morning, so the order form and the master terms will match. No other changes came back from our side."
+      "text": "Yeah, we can do that. The services invoice would still go out at signature, and the subscription invoice would be dated April 1 with net 30 terms."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. For go-live, we're targeting May 6. Is that still realistic if we sign by March 20?"
+      "text": "That should be fine. Legal had one small question on the renewal language, but they said the standard 60-day notice period is acceptable."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It is. If signature is in by March 20, we can do kickoff the week of March 25, configuration in April, and user training the week of April 29. I’ll have our delivery lead hold those dates."
+      "text": "Okay, good. I’ll send the updated order form with the April 1 billing date and the 24 plus 6 seat split. If you sign by Friday, we can keep the March 4 kickoff."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send the updated order form today if you can. I’ll route it to procurement and loop you in if they ask anything."
+      "text": "Friday is realistic. Send it over to me and copy our procurement inbox. I’ll route it for signature."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send it by 3 p.m. Eastern with the pricing sheet, the services split, and the 30-day renewal language. Thanks, Karen."
+      "text": "Will do. Anything else you want covered before I send it?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that’s it. Thanks, Mark."
     }
   ]
 }

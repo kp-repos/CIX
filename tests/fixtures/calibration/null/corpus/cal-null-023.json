@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I sent over the revised quote this morning for 42 user seats and the two plant locations, Tulsa and Dayton. Annual subscription is $18,900, onboarding is $3,200 one time, and the term starts September 1."
+      "text": "Yeah, thanks for making time, Dana. I had us down to confirm the 42 technician seats, the three admin seats, and the June 17 go-live for the calibration module. Is that still the shape of it?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, I saw it. The seat count is right. My main question is invoice timing. We need the invoice dated after September 1, not in August, or AP will kick it back."
+      "text": "That's right. We did add two supervisors who only need read-only access, though. They need to see overdue gauges but not edit procedures."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, that's fine. The order form says billing on contract start, net 30, so the invoice would generate September 1 with payment due October 1."
+      "text": "Got it. Read-only seats are included in the team plan, so that does not change the $31,800 annual subscription. The only added line is the one-time data import for the 1,260 instruments, which is $4,200."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. And for go-live, we're still targeting September 16? We have the audit prep starting the week after, so I don't want to slide much."
+      "text": "Okay. And invoicing, can you split that? Subscription billed to operations, import billed to quality. Same company, just different cost centers."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "September 16 is still the date. The onboarding plan has the equipment import on September 4, admin training on September 9, and end-user training on September 12. Your calibration history file is listed as the one export from your maintenance system."
+      "text": "Yes, we can do two invoices on the same order. Operations would show $31,800, cost center 4802, and quality would show $4,200, cost center 4715."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Right, it's about 6,800 assets. Some of the pressure gauges have duplicate tag numbers, but our quality manager is cleaning those up this week."
+      "text": "Perfect. For the import, we can send the instrument list by May 24. Is that enough time for June 17?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. If you send the file by August 30, our team can flag any duplicates during import and send you the exception list the same day."
+      "text": "Yeah, so May 24 works. That gives the implementation team about three weeks to map the fields, load the assets, and run the exception report with you before training."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "On contract terms, procurement asked if the auto-renewal is required. They prefer a 60-day written notice window instead of 90."
+      "text": "Training is the other thing. We have day shift and second shift. Could we do two sessions on June 13, maybe 10 a.m. and 3 p.m. Central?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "We can do 60 days. I updated that in the order form already, and it's reflected in section 5. No change to price or start date."
+      "text": "That works. I’ll put both sessions in the order notes: June 13 at 10 and 3 Central, recorded, up to 30 attendees each. No extra charge."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Alright. If I sign today, can you add me and Priya as billing contacts? Priya needs the PO number on the invoice, PO-44718."
+      "text": "Great. Send the order form to me and copy Mark in purchasing. If it matches what we discussed, I can get it signed by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. I'll add both billing contacts and the PO number before it goes out. Once you sign, you'll get a countersigned copy, and the kickoff invite will come over for September 4."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Sounds good. I'll route it for signature now. You should have it back by end of day."
+      "text": "Will do. It’ll show a 12-month term starting June 17, net 30, two invoices by cost center, and the seat mix we covered. I’ll send it over this afternoon."
     }
   ]
 }

@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the 42-seat plan for your service team and make sure the April 15 go-live still works on your side."
+      "text": "Yeah, so thanks for making time, Dana. I have you down for the calibration tracking package for two plants, 38 active users, and the equipment import around 4,600 assets. Is that still the right scope?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, April 15 is still the date. We have 38 reps today, four managers, and then probably five seasonal seats in June. I need to know if those can be added mid-term."
+      "text": "That's right. It might land at 40 seats because our quality manager in Dayton wants two supervisors in there, but 38 is safe for the quote."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "They can. The base order would be 42 seats at $68 per seat per month, annual term starting April 1. Any seasonal seats can be added later at the same rate, prorated through March 31 next year."
+      "text": "Okay. The pricing sheet has the 40-seat tier at $31,200 annually, and the asset import is a one-time $4,800 services line. Support and the audit log module are included, so you're not adding another fee there."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And implementation, you had quoted $4,800 one-time, right? That includes the data import from our current system?"
+      "text": "Good. Our finance team will ask if the invoice can be split by plant, 60 percent Cleveland and 40 percent Dayton. Same purchase order, just two cost centers."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, $4,800 one-time. That includes the account import, two admin training sessions, and one workflow review. The only thing not included is custom reporting beyond the three standard dashboards."
+      "text": "Yep, that's standard. We can show those two cost centers on the invoice and keep it under one annual agreement. Payment terms would be net 30 from the invoice date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's fine. Procurement will ask about payment terms. Our standard is net 45, and we pay by ACH. Is that workable?"
+      "text": "Okay. Contract term, is it twelve months from go-live or from signature?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, net 45 and ACH are both on the quote. Total first-year subscription is $34,272, plus the $4,800 implementation, so $39,072 before tax."
+      "text": "From signature. If you sign by February 14, the term runs February 14, 2026 through February 13, 2027. We can still target March 3 for go-live; that gives us about two and a half weeks for the asset file cleanup and admin training."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. I also need the renewal language to say we get 60 days' notice before any price increase. Legal flagged that on another contract last quarter."
+      "text": "March 3 works. We have an internal audit on March 18, so I need at least the current calibration certificates and due dates in before then."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. The order form has 60-day written notice for price changes and a one-year initial term, April 1, 2026 through March 31, 2027. Renewal is annual unless either side gives 30 days' notice."
+      "text": "Understood. For that timeline, we'd need your asset export and certificate folder by February 17. We'll load the assets first, then certificates, and do a 90-minute admin session the week of February 24."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Send it over to me and copy Marcus in procurement. If it looks like what we discussed, I can get signature by Friday."
+      "text": "That's reasonable. Send the order form with the 40 seats and the split invoice language, and I'll route it to procurement today."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I'll send the quote and order form this afternoon, with Marcus copied, and I'll include the April 8 kickoff hold so your admins can plan around it."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. Thanks, yeah, that should keep us on track."
+      "text": "Will do. I'll include the $31,200 annual subscription, $4,800 import service, net 30 terms, and the March 3 implementation target. You should have it in your inbox in about an hour."
     }
   ]
 }

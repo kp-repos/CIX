@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I pulled up the order form from last week. We have 42 seats at $68 per seat per month, annual term starting February 1st, and the one-time onboarding fee at $2,400. Does that match what you were expecting?"
+      "text": "Hey Dana, thanks for making time. I had us down to review the revised quote for 42 seats and the May 15 go-live. Does that still line up on your side?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that lines up. The only thing I wanted to confirm is billing. Our finance team asked if the annual invoice can be issued on January 20th, but due net 30 from the February 1st start date."
+      "text": "Yeah, that still works. We confirmed 38 standard users and 4 admin users. The only thing I wanted to double-check was the first invoice timing."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so invoice dated January 20th with payment due March 3rd, since February is short. I can note that for billing. The system may show net 30 from invoice date, but we can have the billing tool override the due date on the actual invoice."
+      "text": "Sure. The order form has the annual subscription starting May 15, with the first invoice issued on signing. Net 30 terms, so if you sign this week, payment would be due around May 10."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that helps. And for seats, we may start with 38 active users and add the other 4 after training. Is there any issue with that?"
+      "text": "Okay, that’s fine. Finance asked whether implementation is on the same invoice or separate."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No issue. You’ll have 42 contracted seats available on day one, and your admin can assign them as needed. If you go above 42, it’ll prompt for approval and we can true up on a prorated basis."
+      "text": "It’s separate. Subscription is $48,720 for the year, and implementation is a one-time $6,500 services fee. Both are listed on the order form, but billing can issue two invoices if that’s easier."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Got it. On contract language, our legal team asked about auto-renewal. They’re okay with it, but they want 60 days’ notice instead of 30."
+      "text": "Separate would be better for us. And the implementation scope still includes the two data imports and the admin training session, right?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That’s pretty standard. I’ll send that to deal desk today. It usually comes back same day, and then I can generate the revised order form with the 60-day non-renewal notice."
+      "text": "Correct. Two historical data imports, one 90-minute admin training, and the go-live support window during the week of May 15. Anything beyond that would be handled as standard support unless you request more services."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Our target go-live is February 12th. Is that still workable if we sign by Friday?"
+      "text": "Got it. Legal was okay with the 12-month term and auto-renewal as long as the notice period is 60 days."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. If we have signature by January 17th, we can schedule kickoff the week of January 27th, get the data import done by February 5th, and leave a few days for admin review before the 12th."
+      "text": "Yep, the current draft says either party can opt out with 60 days’ written notice before renewal. I’ll resend the order form with the split-invoice note added."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Send the updated order form when you have it, and I’ll route it for signature."
+      "text": "Perfect. Send it over today and I’ll route it for signature. I think we can turn it around by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll update the CRM after this call, get the 60-day renewal change approved, and send the order form over this afternoon if there are no questions from deal desk."
+      "text": "Sounds good. I’ll send it in the next hour, and once it’s signed we’ll get the kickoff call scheduled for the week of April 29."
     }
   ]
 }

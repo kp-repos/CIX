@@ -12,47 +12,52 @@
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so I was cleaning up the August invoice exceptions and Northlake popped up. Billing tool has them at 54 seats, service-through 7/31, and the CRM activity tab is basically the May 9 admin training and nothing after."
+      "text": "Yeah, so on the Tremont Manufacturing account, can I sanity check the handoff before I send it to services?"
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Leo",
       "ts": null,
-      "text": "Okay. Is the exception because seat count doesn't match the quote, or because there's no quote attached?"
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "No quote attached. The last order form in the folder is the $38,880 one, net 30, paid by PO 4416. Finance just needs something to tie the next invoice to before they release it."
-    },
-    {
-      "speaker": "Jordan",
-      "ts": null,
-      "text": "Got it. Did they add those six operations seats I saw in the support notes, or are those still trial users?"
+      "text": "Yep. This is the 42-seat operations group, right? Three warehouse supervisors, rest are planners?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Still trial in the product admin screen. If they convert, pricing sheet puts them at $60 per seat per month, same tier. No discount approval needed unless they ask for the old 12%."
+      "text": "Right. They bought 42 seats, standard onboarding, and the data import is just items and vendors, no work orders. Go-live target is May 6."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Leo",
       "ts": null,
-      "text": "Let's not overcomplicate it. Build a clean quote for 54, then a second line item for the six optional seats, and send both to deal desk."
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "Yep. Do you want me to keep the payment terms at net 30? Their AP portal usually pays on day 28, no issues."
-    },
-    {
-      "speaker": "Jordan",
-      "ts": null,
-      "text": "Keep net 30, annual billing, standard terms. Put the target go-live for the extra seats as August 15 so implementation isn't guessing."
+      "text": "Okay. Any weird security requirements?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Okay, I'll package it. If deal desk turns it by three, finance can still get the invoice in tomorrow's batch."
+      "text": "Nothing heavy. SSO later, not in phase one. They just want the two admin accounts provisioned by April 22 so they can start cleaning the CSV."
+    },
+    {
+      "speaker": "Leo",
+      "ts": null,
+      "text": "Works. Invoice went out already?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, $18,480 on net 30. Billing tool shows the service line only lit through April 30, which is... close, but the services team mainly needs the import file this week."
+    },
+    {
+      "speaker": "Leo",
+      "ts": null,
+      "text": "Got it. I’ll keep the kickoff notes focused on the import and seat list, then."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Thanks. Also, Carl on their side asked whether training can be split into two 90-minute sessions instead of one three-hour block."
+    },
+    {
+      "speaker": "Leo",
+      "ts": null,
+      "text": "That’s fine. I’ll put Tuesdays or Thursdays as options and let delivery pick the exact slots."
     }
   ]
 }

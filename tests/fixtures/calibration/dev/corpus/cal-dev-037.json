@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for jumping on. I saw your note about adding the operations team before the June rollout, so I wanted to walk through seats, timing, and the order form."
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the updated quote for the 42 seats and make sure the May 20 go-live still works on your side."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that's right. We have 42 users today, and we'd like to add 18 more. Most of them are supervisors who just need standard access, not admin."
+      "text": "Yep, May 20 is still the target. We have 38 confirmed users today, but I asked for 42 because finance and two operations managers will need access by June."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. So 60 total seats, with your current two admins staying as is. Your renewal is September 30, so we can co-term the 18 added seats from June 15 through September 30."
+      "text": "That makes sense. The quote has 42 standard seats at $96 per seat per month, billed annually, so the subscription total is $48,384 for the year. Implementation is a one-time $6,500."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Can you remind me what that comes out to? Finance asked for the prorated amount and whether it's a separate invoice."
+      "text": "Okay. And that includes the two admin training sessions we talked about?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Sure. The prorated charge is $7,830 before tax. It would be a separate invoice issued once the add-on is signed, net 30 terms, same billing contact as the current account unless you want to change it."
+      "text": "It does. Two remote admin sessions, one end-user webinar, and configuration support for the first three workflows. If you add a fourth workflow before launch, that would be scoped separately."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Same contact is fine. The only thing is we need the users active by June 17. Is that realistic if we get the order form back this week?"
+      "text": "Fair. On the contract term, procurement asked whether we can do a 12-month initial term instead of 24. They don't want to commit past this budget cycle."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. If we have signature by Friday, June 7, provisioning can be done by Tuesday the 11th. Then your team has a few days for setup before the 17th."
+      "text": "Yeah, so I updated it to 12 months. The per-seat price stays the same at 42 seats. The only thing is the renewal language is annual after that, with 60 days' notice if you don't want to renew."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Do we need a new security review for the additional seats?"
+      "text": "That should be fine. For invoicing, can you split it into subscription and implementation as separate line items? Same invoice is okay, just separate lines."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No, not for a seat expansion under the same subscription. I can attach the original security packet again if procurement wants it, but deal desk won't require a new review."
+      "text": "Yes, that's already reflected. Billing would issue one invoice on signature, net 30, with the subscription and implementation broken out separately."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send me the order form and the quote summary, and I'll route it internally today."
+      "text": "Great. Send me the final order form and I'll route it today. If legal doesn't change anything, we should be able to sign by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I'll send the PDF and the pricing summary in the next hour. It'll show 18 standard seats, co-termed to September 30, $7,830 prorated, net 30."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. If I see any edits from legal, I'll send them back, but I don't expect much."
+      "text": "Perfect. I'll send the order form in the next hour, and I'll hold the kickoff slot for Tuesday, May 6, at 10 a.m. Eastern."
     }
   ]
 }

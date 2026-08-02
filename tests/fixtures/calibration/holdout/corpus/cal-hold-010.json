@@ -10,59 +10,49 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I just got off with Northstar Facilities. They’re good with 78 seats for year one, starting October 1, but they want the invoice dated after their September 18 board meeting."
+      "text": "Yeah, so I talked to Pine Ridge this morning. They want the renewal at 38 seats, same support tier, co-termed to September 30."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Okay. Same $42 per seat per month from the pricing sheet, or did you give them any services discount?"
+      "text": "Okay. Any price pushback?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Same seat price. I held services at $6,800 for onboarding, three remote sessions plus the admin setup. They asked if we could make payment net 45 instead of net 30."
+      "text": "A little. Their CFO asked if we can keep it under $34,500 for the year. The pricing sheet has it at $34,260 if we hold the 4% uplift."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Net 45 is probably fine if legal doesn’t kick it back. Any redlines on auto-renewal?"
+      "text": "That should be fine. Are they asking for any term changes?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "No, just a 30-day notice window instead of 60. Their ops director said that’s what procurement expects across all their software agreements."
+      "text": "Just net 45 instead of net 30. I told them I’d ask but didn’t promise it."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Got it. Are you trying to get this out today?"
+      "text": "Deal desk will probably allow it if they sign before August 16."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "I’m aiming for tomorrow noon. I blocked time in the morning to get the 78 seats, October 1 start, net 45, and the invoice note lined up in the CRM, the pricing sheet, the quote packet, and the billing request before deal desk takes a look."
+      "text": "Right. Once I get Lena’s okay, I’ll run the quote path this afternoon; the seat count, dollar amount, and September 30 date have to match in the pricing sheet, the contract request, and the billing tool before the PDF gets released."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Cool. If deal desk asks, tell them the go-live is October 14, right?"
+      "text": "Got it. Send me the PDF when it’s out and I’ll sanity-check the language."
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yep, October 14 for the first location, then the other four by November 7. They don’t need data migration, just user import and permission groups."
-    },
-    {
-      "speaker": "Jordan",
-      "ts": null,
-      "text": "Sounds clean. Send me the draft before you route it, and I’ll sanity-check the totals."
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "Will do. Total contract value should land at $46,112 before tax, assuming the seat count doesn’t move."
+      "text": "Will do. If we get it to Pine Ridge by tomorrow noon, I think they can turn signature by Friday."
     }
   ]
 }

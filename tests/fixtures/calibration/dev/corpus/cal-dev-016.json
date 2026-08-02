@@ -12,52 +12,52 @@
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, quick sanity check on Henderson Manufacturing. They want 72 seats, plus the audit logging add-on, go-live August 19. I quoted $48,600 annual, net 30, standard MSA."
+      "text": "Hey, do you have two minutes on the Northstar renewal proposal? They're asking for the 73-seat extension co-termed to March 31, and they want the paper by tomorrow morning."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Okay. Is this the one where procurement asked for the two-year option too?"
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "Yep. One-year at $48,600, two-year at $92,400 with the 5% uplift waived in year two. I’m trying to get the proposal out today because their CFO is only reviewing on Thursday."
-    },
-    {
-      "speaker": "Evan",
-      "ts": null,
-      "text": "Makes sense. Any approval needed from deal desk?"
+      "text": "Yeah, I saw the email. Price stayed at $62 per seat monthly, right? Plus the $4,800 enablement package?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "That’s the part that’s killing me. To produce one clean proposal, I have to enter the same customer name, seat count, billing contact, start date, discount, and SKU list in the CRM, then again in the pricing sheet, then again in the proposal builder, then again in the billing tool draft, and then deal desk wants it pasted into their intake form. If legal changes one term, I have to go back through all five places and retype it so the numbers match. I started this at 9:15, and it’s almost 1:00, and I still don’t have a PDF I can send. Last month the same thing stretched into two days for a renewal because the address was different in one system."
+      "text": "Right. The numbers are simple. What's killing me is getting the proposal out. I have to put the same 73 seats, March 31 end date, $54,312 annualized, net 30, and the enablement line into the pricing sheet, then retype it into the quote tool, then the contract generator, then the billing tool so finance can validate, and then the approval portal for deal desk. None of them pull from each other, and if I change one date I have to walk the whole chain again. Last quarter this exact kind of extension took me parts of three days, not because of negotiation, just because every screen wanted the same fields in a different format."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Ugh, yeah. For Henderson, use the Dallas billing address from the signed order form, not the headquarters address in the account notes. That mismatch caused the invoice kickback on Lakeside."
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "Good catch. Billing contact is Priya Nair, AP shared inbox copied, PO required over $25,000. They said PO can arrive after signature as long as it’s before first invoice."
-    },
-    {
-      "speaker": "Evan",
-      "ts": null,
-      "text": "Then I’d put the subscription start as September 1, even if go-live is August 19. Cleaner for invoicing."
+      "text": "Yeah, that's rough. For Northstar, don't change the discount once you start the packet. Their procurement team is pretty literal, so if one place says 12 months and another says through March 31, they'll kick it back."
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Agreed. I’ll send the one-year and two-year options in the same proposal and call out that implementation is included, not a separate line item."
+      "text": "That's what I'm trying to avoid. The customer doesn't care how we assemble it, they just want a clean order form and the two-page proposal before their budget meeting at 10 a.m. Central."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Perfect. If deal desk pushes back on the two-year discount, tell them it’s tied to signature by July 31. That usually gets it through."
+      "text": "Could you use the standard extension template and leave the services as a separate line? Deal desk approved that structure for Bayview last week."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, I can. I already checked the pricing sheet and it stays inside the floor, so it's not a discount exception. I just need your eyes on the co-term language before I send it."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Send me the draft language when you have it. I'd say, 'Subscription term ends March 31, 2026, aligned to existing agreement number 1847.' Keep the payment terms as net 30."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Perfect. If I can get through the tools without fat-fingering the seat count, I'll have it to you by 4:30."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Sounds good. I'll turn it fast so you can get it to Northstar tonight."
     }
   ]
 }

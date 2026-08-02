@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for moving this to 10:30. I was still untangling the parent account and the two plant locations on our side, but I’ve got the quote in front of me now."
+      "text": "Hi Dana, thanks for jumping on. I've got about 18 minutes before I need to finish the renewal packet for deal desk, so I want to use this for seat count, invoice split, and the July date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "No problem. We just need to confirm whether 42 seats gets us the onboarding package you mentioned, or if that starts at 50."
+      "text": "Yeah, works. We have 74 users today, and we're adding 12 support leads by May 6. Finance also wants the invoice split 60% headquarters and 40% Phoenix."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "At 42 seats, you’re at $18,900 annually, and I can include the standard onboarding: two admin sessions, one end-user webinar, and the data import checklist. The 50-seat tier adds the quarterly business review, but pricing goes to $21,600."
+      "text": "Got it. So 86 total seats, dashboard package included, and split billing. The quote I sent was $48 per seat per month on a 12-month term."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Our CFO asked if the invoice can split 60% to operations and 40% to finance. Same contract, just separate cost centers."
+      "text": "Can you hold the $48 through the end of April? Our VP is out until the 25th, but she already approved the budget."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, that’s fine. I’ll put the cost center split in the order form. I’ve got to get the approval packet over before lunch, so if you send the finance contact right after this, I can keep the March 18 start date."
+      "text": "Yes, I can hold it through April 30. And sorry I missed your call yesterday afternoon; I was heads down reconciling the import so the account wouldn't duplicate. That's fixed now."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "March 18 works if security review is done by the 12th. They’ll ask about data residency and SSO. Is that in the standard terms?"
+      "text": "No worries. Main thing is the go-live. We need July 1 because training starts the week after, July 8."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "SSO is included. Data residency is US-only by default, so that should be straightforward. The contract term would be 12 months, net 30, auto-renewal with 60 days’ notice unless you want that struck."
+      "text": "July 1 is fine if signature is in by April 26. We can waive the $1,200 onboarding fee and schedule admin training for June 24 or 25."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Legal usually pushes for 30 days’ notice. Can you send the redline language today?"
+      "text": "Okay. Legal will ask to remove auto-renewal. Is that going to slow things down?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I can send the base order form today, and I’ll ask deal desk on the 30-day notice. I’m boxed in from 3 to 4:30 getting the quarter-end entries cleaned up, but I can get you a clean version by 2:15."
+      "text": "They can strike auto-renewal if payment stays annual upfront, net 30. That's been accepted before, so it shouldn't be a big lift."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s fine. Send it to me and copy Dana in procurement. If the number stays under $19,000, we don’t need board approval."
+      "text": "Send the revised quote and I'll review it with procurement at 3:30."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it: 42 seats, $18,900, split invoice 60/40, March 18 go-live, and procurement copied. I’ll send the order form and the security summary before 2:15."
+      "text": "I can send it before lunch. For the review, 3:30 is tight; I'm blocked for end-of-month entries until four, but I can do 4:15 if that still works."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "4:15 is fine. If the numbers match what we discussed, we should be able to turn it by Friday."
     }
   ]
 }

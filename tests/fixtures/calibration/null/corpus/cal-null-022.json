@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so thanks for making time, Dana. I’ve got the quote in front of me for 42 seats on the team plan, plus the two-hour admin training block. Annual comes to $31,080, starting September 1."
+      "text": "Hi Dana, yeah, thanks for making the time. I wanted to confirm what changed on your side since last week: still looking at 48 seats for the operations team, or did the warehouse managers get added?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. That matches the seat count. We may add three more in October, but I don’t want to hold up the September go-live for that."
+      "text": "They did get added. We’re at 54 total now. It’s 42 standard users and 12 manager seats. I want the managers live on February 3 with everyone else, if that’s realistic."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Totally. We can start with 42, and if you add three later it just prorates through August 31 next year. No need to redo the main agreement."
+      "text": "Yep, February 3 is realistic. For 54 seats on an annual term, the subscription comes to $38,880 for the year. Implementation is the fixed $4,500 we discussed, so first-year total is $43,380 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. On billing, can you do net 30 and put the PO number on the invoice? It’s PO-7749."
+      "text": "Okay. And billing is one invoice up front, right? Our finance team asked if you can put the PO number on it. It’ll be PO-7716."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, net 30 is already on the order form, and I’ll include PO-7749 on the invoice request. First invoice would go out September 1 for the full annual amount."
+      "text": "Yes, one invoice up front, net 30. I’ll include PO-7716 on the order form and invoice request. If you sign by January 12, the invoice should land the same day or next business day."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. For implementation, we need our managers trained before the 18th. Is September 12 still available?"
+      "text": "That works. Contract term is February 1 to January 31 next year?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It is. I have September 12 from 1 to 3 Eastern held for your admin training, and then your end-user launch email would go out the morning of September 16 if you’re ready."
+      "text": "Correct, February 1, 2026 through January 31, 2027. Access can open a few days early for admin setup, but the paid term starts February 1."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, that timeline is fine. Legal had one question on the renewal language. It says it renews for one year unless we give 30 days’ notice. Can we make that 60 days?"
+      "text": "Good. One other thing: we need two training sessions, one morning and one afternoon, because of shifts. Is that included or extra?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, 60 days is within our standard terms. I’ll send the order form with that language reflected, along with the security exhibit you already reviewed."
+      "text": "Included. The implementation package covers two live trainings up to 90 minutes each, plus the admin configuration workshop. We can pencil those for January 27 at 9:00 and 2:00 Central if that fits."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send it to me and Marcus for signature. If we can get it by noon, I think we can turn it today."
+      "text": "Those times are fine. Send the order form to me and copy Marcus in procurement. If the numbers match what you just walked through, I can get it signed this week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "You’ll have it in about 20 minutes. It’ll show 42 seats, $31,080 annual, September 1 through August 31, net 30, PO-7749, and the September 12 training date."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Great. Thanks, Alex."
+      "text": "Perfect. I’ll send it over this afternoon with the 54-seat breakdown, February 1 term start, PO number, and the two training sessions noted. Thanks, Dana."
     }
   ]
 }

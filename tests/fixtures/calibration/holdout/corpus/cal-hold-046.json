@@ -12,52 +12,52 @@
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Hey, can you look at the renewal queue with me for North Ridge Plastics? I pulled it from the CRM and it looks odd."
+      "text": "Yeah, so quick check on Northstar Foods. Support pinged me because their 42 seats show active through this Friday, August 15."
     },
     {
-      "speaker": "Colin",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Yeah, one sec. That's the calibration tracking workspace, right? Twenty-eight seats and the gauge import add-on?"
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "Yep. Their agreement ended July 31, so we're already two weeks past it, and I don't see any call notes, emails, or tasks from us about carrying on. Like, nobody has talked to Dana or their plant ops team about renewing, extending, anything. The billing tool still shows them active because the invoice run is monthly, but contractually we're past the end date with no customer conversation."
-    },
-    {
-      "speaker": "Colin",
-      "ts": null,
-      "text": "Oh, that's not good. I see the same thing. Last activity was June 18, support ticket on certificate formatting, then nothing from sales. No renewal quote attached either."
+      "text": "Friday? That's the end date on the current services agreement, right?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Right, and they were supposed to add six seats for the second shift in September. If we go to them now, it can't sound like we forgot, but we need to be clear on access and dates."
+      "text": "It is. The order form was twelve months, ends 8/15, and I don't see any extension attached."
     },
     {
-      "speaker": "Colin",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Agreed. Do we have pricing locked from the old order form? It says $31,200 annual, net 30, auto-renew unchecked."
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "Pricing sheet has them at $93 per seat per month, plus $4,800 for the add-on. If we hold that and add six seats, new annual is $38,? wait, $38,016 before tax."
-    },
-    {
-      "speaker": "Colin",
-      "ts": null,
-      "text": "Deal desk will want a bridge note. Maybe propose a 12-month term from August 1 through July 31 next year, so there's no weird partial month."
+      "text": "Okay, that's not great. Have we talked to Erin over there at all about carrying on after Friday?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Yeah. I'll send Dana a short note asking for 20 minutes tomorrow, and I'll own that we need to align the renewal paperwork and added seats. No blame, no drama."
+      "text": "No. I checked my notes and the last real client conversation was the July 9 usage review. Nobody from our side has had the renewal or continuation conversation with them."
     },
     {
-      "speaker": "Colin",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Good. Attach the quote after she replies. Also check with finance on whether August usage should be invoiced under the renewal or as a separate catch-up line."
+      "text": "So we're three days out, the agreement is basically expiring, and they may assume the warehouse team just keeps logging in on Monday."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, exactly. Their July invoice was paid, training is done, no open support issues. It's just the end date sitting there."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "I hate that timing. If procurement asks why no one brought it up before the 15th, we don't have a clean answer."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Right. I mentioned it because support is asking what happens to access, but I don't have anything else lined up on it today."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Okay. Leave the access question with support for the moment, and we'll get through the pipeline review first."
     }
   ]
 }

@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making time. I wanted to review the 42-seat expansion for the support team and make sure the dates still line up for your March 18 go-live."
+      "text": "Hi Dana, yeah, thanks for making time. I had us down for thirty minutes to confirm the calibration program scope and, if it still looks right, talk through dates for the pilot."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that's still the date. We're adding 18 agents in Phoenix and 6 team leads, so 42 total seats is right. My main question is the invoice timing."
+      "text": "Yep, that works. We’ve got 1,840 instruments in the main plant, plus maybe 260 in the service depot. I don’t want to buy for the depot until we know the labels and recall notices work for our team."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Totally. The added seats would start billing on March 15, prorated through your current term, which ends November 30. That comes to $18,420 for the remainder of the term."
+      "text": "Totally. So for the pilot we’d set up the main plant only: 12 full users, 38 technician logins, and read-only access for QA managers. The pricing sheet puts that at $28,400 for the first year, including the import and two remote training sessions."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And that includes the analytics add-on we talked about, or is that separate?"
+      "text": "Okay. The seat count sounds right. On invoicing, can you split it so software is one line and the import service is another? Our controller asked for that."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Included. It's listed as one line for the 42 seats with analytics enabled. No separate platform fee, and the services package is the same $4,800 onboarding block we discussed."
+      "text": "Yes, we can do that on the order form. Same total, just two lines: $22,800 for the subscription and $5,600 for implementation. Payment terms would be net 30 unless you need something different."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Procurement will ask about payment terms. Our standard is net 45, not net 30."
+      "text": "Net 30 is fine. We’re trying to go live by April 15 because the auditors come in May. Is that realistic if we sign by March 8?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, net 45 is already supported on your account, so the order form will reflect that. We can keep the existing master terms and just add this as an amendment."
+      "text": "Yeah, that’s realistic. If we have signature by March 8, we can kick off March 12, get your asset file loaded that week, and use the last week of March for technician training. April 15 gives a little cushion."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. For rollout, can your team do admin training the week of March 4? We have managers out the following week."
+      "text": "Good. One thing: we need calibration certificates stored for seven years. Is that included, or is there an archive fee?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, I have March 5 or March 7 open for a 90-minute admin session. If you pick one, I'll include it in the kickoff notes so the implementation lead has the seat count, locations, and training date."
+      "text": "Included. The standard plan includes certificate storage and retrieval for the full subscription period, and the retention setting can be set to seven years. No separate archive fee."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Let's do March 7 at 1:00 Eastern. Send the order form to me and copy Luis in procurement."
+      "text": "Alright. Send the order form with the 12 full users, 38 techs, main plant only, one-year term starting March 12. I’ll route it to procurement this afternoon."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. You'll have the order form this afternoon with the $18,420 prorated subscription, $4,800 onboarding, net 45 terms, and March 7 training noted. If you sign by Friday, we're set for March 15 activation."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Sounds good. I'll watch for it and get Luis moving on the PO."
+      "text": "Will do. I’ll send it over in the next hour with the two invoice lines and the April 15 target go-live noted. If procurement has redlines, just send them back to me and we’ll work through them."
     }
   ]
 }

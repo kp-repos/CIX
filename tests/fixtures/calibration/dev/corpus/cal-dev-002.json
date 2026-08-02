@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making the time, Dana. I wanted to walk through the quote changes and make sure the seat count and start date line up before I send it to deal desk."
+      "text": "Hi Dana, yeah, thanks for making time. I wanted to walk through the updated quote for 38 seats and make sure the February 12 go-live still works on your side."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We confirmed 38 standard users and 6 admin users. The admins are mostly managers, so they’ll need the approval workflow and reporting access."
+      "text": "Yep, that date still works. We have 31 users ready at launch, and then the other 7 are managers who’ll come in after training."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. So 44 total seats, with 6 on the admin tier. I have the target go-live as October 14, with onboarding starting September 23. Does that still work on your side?"
+      "text": "Got it. So the subscription would start February 12 for all 38 seats, annual term, and the invoice would go out on signing. Total is $46,740 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, as long as we can get the data import template by the 16th. Our ops analyst is out the week after, so I don’t want that to slip."
+      "text": "Okay. And that includes the onboarding package we talked about, right? The two admin sessions and the end user webinar?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Makes sense. I’ll have customer success send the template right after signature, and I’ll note the September 16 target in the handoff. On pricing, the updated annual total is $41,280 before tax, billed annually."
+      "text": "Correct. Two 60-minute admin sessions, one 45-minute end user webinar, and the setup checklist. No extra services line item beyond what’s already in the quote."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And that includes the implementation fee we discussed?"
+      "text": "Great. Procurement asked about payment terms. Can you do net 30, or is it due on receipt?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "The $3,500 implementation fee is listed as a one-time line item. So year one is $44,780 before tax, and the renewal would just be the subscription unless you add seats or services."
+      "text": "Net 30 is fine. I’ll make sure that’s reflected in the order form. The standard contract term is 12 months, February 12 through February 11 next year."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That matches what I have. On contract terms, procurement asked if we can do a 30-day payment term instead of due on receipt."
+      "text": "That works. We also need the invoice to reference PO 78419. The PO should be approved by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, net 30 is fine. I’ll update the order form and run it through the billing tool. Anything else procurement flagged?"
+      "text": "Perfect. Once you send the PO over, I’ll attach it to the billing tool and issue the final order form for signature. Anything else procurement flagged?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Just the auto-renewal notice. They want 60 days’ notice, not 30."
+      "text": "No, that’s it. Send me the updated order form with net 30 and the seat count, and I’ll route it today."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "We can do 60 days. I’ll send the revised order form by end of day. If you can return it by Friday, we’ll hold the September 23 onboarding slot."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "That works. Send it over, and I’ll route it for signature this afternoon."
+      "text": "Will do. You’ll have it in the next hour, and I’ll hold the February 12 kickoff slot for your team."
     }
   ]
 }

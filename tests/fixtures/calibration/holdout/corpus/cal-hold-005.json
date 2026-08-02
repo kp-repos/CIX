@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I pulled up the quote in the CRM. Right now it shows 42 seats on the Professional plan, annual term, starting February 1st. Is that still the right count?"
+      "text": "Hi Dana, thanks for making time. I saw your note about starting with the operations team only, so I wanted to walk through seats, timing, and the first invoice before we send the order form."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, 42 is right for day one. We may add six more in Q2, but procurement asked us to keep the initial order to the active users only."
+      "text": "Yeah, that sounds good. We’re looking at 38 seats for launch, with maybe another 12 in Q2 if the rollout goes well."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That makes sense. The annual subscription comes to $31,080 before tax, and implementation is a one-time $4,500. I can note the possible Q2 expansion so we don't have to redo the whole approval path later."
+      "text": "Okay, 38 seats. On the annual plan that comes to $31,920 for the year, and implementation is the one-time $4,500 fee we discussed. Does that still line up with what finance approved?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. On implementation, we need to be live by March 15th. Is that realistic if legal finishes this week?"
+      "text": "It does. They approved up to $37,000 all-in for year one, so we’re inside that. They’ll want net 30 and the invoice dated after February 1."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, if we have signature by Friday the 19th, we can kick off the week of January 29th. The standard onboarding is four weeks, plus a buffer for your data import and UAT."
+      "text": "Yep, we can do net 30, and I’ll set the billing start date as February 1. For go-live, are you still targeting March 18?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Our finance team also asked if the invoice can be split: subscription on one line and services on another. Same PO, just separate lines."
+      "text": "March 18 is still the date. We’d need admin training the week of February 19, then manager training the first week of March."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, the billing tool can handle that. I’ll set it up with two line items under PO 78421, net 30 terms, and invoice sent to ap@northlakecomponents.com. Is that the right address?"
+      "text": "That works. We’ll include two admin sessions and one manager session in the implementation package. If you need a second manager session, it’s $750, but we can decide that later."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. Legal had one comment on auto-renewal. They want 60 days' notice instead of 30."
+      "text": "Okay. Contract term is 12 months, right? No auto-renewal longer than one year."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I saw that redline. I already checked with deal desk, and 60 days is approved. No pricing impact."
+      "text": "Correct, 12-month initial term, then it renews annually unless either side gives 30 days’ notice. I’ll make sure that’s clear in the order form."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send the updated order form and I'll route it for signature today."
+      "text": "Great. Send it to me and copy Marcus in procurement. If it matches what we covered, I can get signature by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I'll send the clean copy in about 20 minutes, with the February 1st start date, 42 seats, net 30, and the 60-day renewal notice."
+      "text": "Perfect. I’ll send it over this afternoon with the seat count, February 1 billing date, and March 18 go-live. Thanks, Dana."
     }
   ]
 }

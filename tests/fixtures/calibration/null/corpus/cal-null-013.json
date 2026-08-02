@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making the time, Karen. I wanted to walk through the 38-seat rollout for the support and field ops teams and make sure the June 17 go-live still works on your side."
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the revised scope for the analytics rollout and make sure the seat count and dates are right before I send the order form."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, June 17 is still the date. The only thing I want to confirm is billing. Finance asked whether the invoice can be split, 24 seats to support and 14 to field ops."
+      "text": "Sure. We landed on 48 full users and 12 read-only users. The read-only folks are mostly plant managers, so they just need dashboards, not exports."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can split that by cost center on the first invoice. Total annual is $42,180 before tax, and it would show as $26,640 for support and $15,540 for field ops."
+      "text": "Got it. So 48 standard seats at $72 per seat per month, and 12 view-only at $18 per seat per month. On a 12-month term, that puts software at $44,064. The one-time onboarding package is $4,800."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And that includes the onboarding package, right? The two admin trainings and the data import?"
+      "text": "That matches what I have. Can you make the start date September 1st? We want the kickoff the week after Labor Day, but finance wants the subscription to line up with the month."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. Two 90-minute admin trainings, import of the last 18 months of records, and the launch checklist session. I have that in the order summary as included services, no separate line item."
+      "text": "Yep, September 1st start, August 31st end date next year. Kickoff target September 5th or 6th, depending on your team's availability."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Legal was fine with the 12-month term, but they asked for net 45 instead of net 30 because our payment run is weird in July."
+      "text": "September 6th is better. Also, billing-wise, can you invoice the onboarding fee upfront and the subscription annually? Net 30 is fine."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That’s approved on our side. The order form will show net 45 for the initial invoice and then net 30 on any add-on seats after that."
+      "text": "Yes, that's standard. You'll see two line items on the invoice: $4,800 for onboarding and $44,064 for the annual subscription, both net 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. If we add five more seats in Q4, are they prorated to the same end date?"
+      "text": "Okay. Procurement asked about the data processing addendum. Is that included with the order form or separate?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Exactly. Any seats added before May 31, 2027 prorate to the June 16, 2027 renewal date at the same per-seat rate, $1,110 annually."
+      "text": "It'll be attached with the order form. Same version your legal team reviewed in May, no changes. The order form will reference it directly."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send the order form to me and copy Evan in finance. If it looks like what we discussed, I can sign by Friday."
+      "text": "Perfect. Send it to me and copy Marcus in procurement. If everything looks like this, I can sign by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. You’ll have it this afternoon, and I’ll include the implementation dates in the email: kickoff June 3, import file due June 6, admin training June 11 and June 13."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. That gives us enough time to notify the managers. Thanks, yeah, this is straightforward."
+      "text": "Will do. I'll send it over this afternoon with the September 1st start, 60 total seats split as we discussed, annual billing, net 30, and kickoff targeted for September 6th."
     }
   ]
 }

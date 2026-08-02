@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making time. I wanted to confirm the May 20 go-live and the seat count before I send the order form for signature."
+      "text": "Hey Dana, thanks for making the time. I saw your note about expanding the analytics workspace before the September planning cycle. Is the ask still 42 additional seats?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We’re at 46 full users and 12 read-only. Finance asked me to keep the first-year invoice under $38,000 if possible."
+      "text": "Yeah, 42 is right. We have 118 today, so that would put us at 160 total. The main thing is we need the new managers live by August 19."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. Based on the pricing sheet, 46 full users plus 12 read-only on the annual plan comes to $36,720 before tax. That includes standard onboarding and the two admin training sessions."
+      "text": "Okay, that date is workable. For the additional 42 seats, co-termed to your current agreement through May 31, the prorated amount is $18,480. That keeps the same per-seat rate you have now."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that should work. Is onboarding still the week of May 6? We need the billing team trained before they start entering June renewals."
+      "text": "Got it. And that can be invoiced as a separate line, not blended into the May renewal invoice?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. I have May 7 at 11 a.m. Central for admins, and May 9 at 2 p.m. Central for the billing team. If you want, we can add a 30-minute Q&A on May 14 at no charge."
+      "text": "Yes, separate invoice for the expansion. Net 30, same billing contact, accounts.payable at your company domain, unless you want that changed."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, let’s add the Q&A. Contract term is still 12 months, right? Our legal team doesn’t want auto-renewal longer than one year."
+      "text": "No, keep it there. Procurement will ask whether there is any implementation fee with this."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, 12-month initial term, then it renews annually unless either side gives 30 days’ notice. Payment terms are net 30, and the invoice can reference PO 4178."
+      "text": "No implementation fee for this seat add. We include one 60-minute admin refresh session, and then your customer success manager will send the manager onboarding guide after the order is signed."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send it to me and copy Marcus in procurement. If the totals match what you just said, I can sign by Friday."
+      "text": "Okay. We also need the seats assigned in two batches. First 25 on August 12, remaining 17 on August 19. Is that a problem?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send the order form with the $36,720 annual total, 46 full users, 12 read-only, May 20 go-live, and PO 4178 referenced."
+      "text": "No, that's fine. The order will show 42 seats effective August 12 for billing, and we can set the access rollout in those two batches."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Thanks, Sam."
+      "text": "Perfect. Send me the order form today if you can. I can route it for signature this afternoon."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I'll send the order form with the $18,480 total, May 31 co-term, separate invoice, and the two access dates called out. Anything else you need on it?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Just include our PO number, PO-44718. If that's on there, we should be good."
     }
   ]
 }

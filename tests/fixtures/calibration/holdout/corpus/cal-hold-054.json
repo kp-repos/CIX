@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Karen. I wanted to confirm the final scope before I send the order form over. I have 48 standard seats and 6 manager seats, with implementation starting February 12. Is that still right?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout details for the support analytics package before we send the order form over."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, that's right. We may add two more manager seats later, but for the initial contract it's 54 total users."
+      "text": "Sure. We’re still at 42 seats for the first phase, right? That’s 36 agents, four team leads, and two admins."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. And the annual subscription comes to $38,640, plus the one-time implementation fee of $4,500. Billing would be annual upfront, net 30, unless finance needs something different."
+      "text": "Correct, 42 seats total. The annual subscription comes to $31,080, and implementation is the one-time $4,500 services line."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Annual upfront is fine. Can you make sure the invoice references PO 7714? Our AP team will kick it back if that's missing."
+      "text": "Okay. And invoicing, can you do net 30 with the invoice dated March 1? Our finance team wants it in the March close."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I'll add PO 7714 in the billing notes and on the order form. For go-live, we had March 25 as the target. That gives us about six weeks for kickoff, configuration, and admin training."
+      "text": "Yep, net 30 is standard for us. We can set the subscription start date to March 1 and invoice on that date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. We have a team meeting on March 28, so we'd like the managers trained before then, even if the rest of the team is still ramping."
+      "text": "Good. For go-live, we’re targeting April 15. Is that still realistic if we sign by next Friday?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. We'll schedule manager training the week of March 18. The standard user session can be recorded and shared, or we can do it live the following week."
+      "text": "Yes. If the signed order is back by February 23, we’ll schedule kickoff the week of March 4. That leaves about six weeks for setup, training, and the data validation session."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Let's do live if we can. Also, on the contract term, this is a 12-month initial term with auto-renewal, correct?"
+      "text": "That works. One thing on the term, procurement asked if this can be a 12-month agreement with no auto-renewal, just renewal by written notice."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, 12 months, auto-renewal for another 12 unless either side gives 30 days notice before the renewal date. That's the standard language from legal."
+      "text": "Yes, we can do 12 months and remove auto-renewal. I’ll have that reflected in the terms section."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Send it over today if you can. I'll route it to procurement and try to get signature by Friday."
+      "text": "Perfect. Send it to me and copy Marcus in procurement. If it matches what we discussed, I can route it today."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I'll send the order form and the implementation outline in the next hour, and I'll copy your procurement alias as well."
+      "text": "Will do. I’ll send the order form and the services summary this afternoon, and I’ll include the March 1 start date, 42 seats, net 30, and April 15 go-live target."
     }
   ]
 }

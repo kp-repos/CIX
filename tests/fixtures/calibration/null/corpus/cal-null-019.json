@@ -12,52 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so thanks for making time, Dana. I have you at 42 support seats today, contract runs through May 31, and you mentioned adding the field service group before the June 17 go-live. Is that still 18 more users?"
+      "text": "Yeah, thanks for making time, Dana. I saw your note about expanding the analytics workspace from 32 to 45 seats before the October rollout. Is that still the count you want to plan around?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Close, it's 16 now. Two contractors rolled off. So 58 total seats, and we need access live by June 10 for training, not the 17th."
+      "text": "It is, yeah. We have 12 customer success managers starting October 14, plus one operations lead. So 45 total, but I want the invoice to reflect the increase starting November 1 if possible."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 58 total and training on June 10. On term, we can align the added seats to your current renewal and then move everything onto a fresh 12-month term starting June 1. That keeps one invoice."
+      "text": "That works. Your current term runs through March 31, and adding 13 seats on November 1 would prorate the remaining five months. On the pricing sheet, that comes to $7,475 for the add-on period."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "One invoice is important. Last year accounting asked why there were two lines, so if it's one annual invoice, payable net 30, that's clean."
+      "text": "Okay, that is about what I expected. Can you keep it on net 30? Our AP team gets picky if a mid-term add-on has different payment terms."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep. Based on the pricing sheet, 58 seats at the annual rate is $43,152 for the year. With the implementation package you already bought, there's no new setup fee. Taxes would show separately on the invoice."
+      "text": "Yep, same net 30 terms, same billing contact, and it will reference the existing agreement number. No change to the renewal date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Procurement will ask about the auto-renew language. We can accept 12 months, but we need 30 days' written notice to cancel before renewal."
+      "text": "Good. The only other thing is provisioning. We need the new users able to log in by October 10 so managers can build their dashboards before training."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That's standard for us. I'll put the 30-day notice language in the order form, and it'll reference the master agreement you signed in 2023. No change to data terms or support hours."
+      "text": "Understood. If we have the signed order by October 4, implementation can open the seats on October 8. That gives you a couple days of buffer before the 10th."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Can you send that today? Our approvals are Tuesday morning, and I need the PDF before then."
+      "text": "That timeline is fine. Send it to me and copy Marcus in procurement. He does not need a call, he just wants the order form and the tax breakdown."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, I'll send the order form this afternoon with 58 seats, June 1 start, June 10 training access, $43,152 annual, net 30, 30-day renewal notice. Who should be listed as signer, still Mark Feldman?"
+      "text": "Will do. I’ll send the order form today with 13 additional seats, November 1 billing start, net 30, and the $7,475 prorated total. Marcus will be copied."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, Mark signs. Copy me and ap@northbridgeequipment.com for the invoice copy. If it matches what we just covered, I can route it today."
+      "text": "Perfect. If it matches that, I can sign tomorrow morning."
     }
   ]
 }

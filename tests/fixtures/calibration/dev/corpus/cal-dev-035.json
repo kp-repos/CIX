@@ -12,52 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Megan. I wanted to confirm the package we discussed for the operations team: 42 standard seats, 6 manager seats, and the implementation support for the first 30 days. Is that still the right count?"
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the final pricing sheet for the operations analytics rollout and make sure the seat count and go-live dates still match what you need."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that's right. We may add two more managers in Q3, but for the initial order it's 48 total seats. Our finance team asked if the quote can show those as separate line items."
+      "text": "Yeah, that works. We’re still at 38 full users and 12 read-only users. If the pilot group expands, it would be in Q2, not right away."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Absolutely. I can split standard and manager seats on the quote. Based on the pricing sheet, that puts the annual subscription at $38,640, and implementation is a one-time $4,800. So total first-year is $43,440 before tax."
+      "text": "Got it. So for year one, 38 full at $72 per user per month, and 12 read-only included. The implementation package is the fixed $8,500 we discussed, and that covers configuration, two admin trainings, and the data connector setup."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that matches what I had. On billing, we need annual upfront, net 30, and the invoice has to reference PO 41782. Can your billing tool handle that?"
+      "text": "Okay. And the start date on the subscription is February 1, correct? We don’t want billing to start in January if finance can avoid it."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. I'll add the PO number in the billing notes and on the order form. Net 30 is fine. The invoice would go out after signature unless you want it delayed to the June 3 start date."
+      "text": "Correct, February 1 subscription start. We can schedule implementation kickoff the week of January 15, but the recurring fees won’t start until February. The invoice for implementation would be issued on signature, net 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "After signature is fine. We just need the subscription term to run June 3, 2026 through June 2, 2027. Our go-live target is June 17."
+      "text": "That’s fine. Legal had one question on the term. It says 12 months with auto-renewal unless we give 45 days’ notice. They asked if 60 days is standard or if 45 is your normal language."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I'll set the term dates that way. For go-live on June 17, we'd schedule kickoff the week of June 3, data import by June 10, and admin training on June 12 or 13. Does that work?"
+      "text": "Forty-five is our standard for mid-market agreements. If your team prefers 60, that’s usually acceptable. I can send that through deal desk, but I don’t expect it to slow anything down."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "June 12 is better. We have a team offsite on the 13th. Also, can you include one renewal cap in the contract? Legal asked for no more than 5% increase at renewal."
+      "text": "Great. Please change it to 60. Other than that, the agreement looked okay. We’re trying to get signature by December 22."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, a 5% renewal cap is within our standard terms. I don't need deal desk for that. I'll include it in the order form and send the updated version by end of day."
+      "text": "Perfect. I’ll update the renewal notice to 60 days and send the revised order form this afternoon. If you can turn it around by the 22nd, we’ll hold the January 16 kickoff slot."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send it to me and copy our contracts alias. If everything looks right, I can get signature routed tomorrow."
+      "text": "Sounds good. Send it to me and copy our contracts inbox. I’ll route it internally once it comes through."
     }
   ]
 }

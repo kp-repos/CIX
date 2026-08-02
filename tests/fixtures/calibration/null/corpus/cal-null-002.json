@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I’ve got the renewal and seat add in front of me. You’re at 40 seats today, and you wanted to move to 58 for the customer ops team, right?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the 85-seat plan and make sure the start date and billing line up before I send the order form."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s right. Forty active now, add 18 on March 1. We need everything co-termed to January 31, 2027, same as the current agreement."
+      "text": "Sure. We’re still at 85 seats for now. If adoption is good, we may add another 20 in Q2, but I don’t want those on this first invoice."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. On the pricing sheet, the added seats come in at $80 per seat per month. So total for 58 seats is $4,640 a month, invoiced quarterly. That’s $13,920 per invoice, net 30."
+      "text": "Makes sense. So the initial term would be January 15, 2026 through January 14, 2027, 85 seats, billed annually. The total on the pricing sheet is $41,820 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the first invoice would cover March through May, or does it prorate because the old term started in February?"
+      "text": "Okay. And that includes the onboarding package you mentioned, right? The two admin sessions and the import help?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "For the add-on, first invoice is March 1 through May 31. The renewal term itself runs February 1, 2026 through January 31, 2027. The order form shows those as separate line items so finance can see it clearly."
+      "text": "Correct. Two 60-minute admin trainings, one end-user enablement session, and up to 10 hours of data import support. If you want the end-user session recorded, we can include that at no extra charge."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. We also need the PO number on there, PO-44873. Our AP team kicked one back last quarter because it was missing."
+      "text": "Yes, please. Also, procurement asked about payment terms. Our standard is net 45. Your draft had net 30."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I’ll include PO-44873 on the billing section. Same billing contact, ap@northlakeindustrial.com?"
+      "text": "Net 45 is fine for this order. I’ll put that on the order form so the invoice matches what your AP team expects."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes. And can you confirm training? We’re targeting March 6 for the new supervisors."
+      "text": "Good. Go-live is the other thing. We need managers using it by February 9. Is that realistic if we sign by next Friday?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Included. Two admin trainings and one end-user session, all remote. I have March 6 at 10 a.m. Central held for the supervisor group, and we can record it."
+      "text": "Yes. If signature is in by December 13, we can do kickoff the week of January 6, data import by January 24, admin training the week after, and have managers live February 9."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send the order form over and I’ll route it today. If it’s clean, we can sign by Friday."
+      "text": "That timeline works. Send the order form to me and copy Malik in procurement. If the numbers match what we discussed, I can route it today."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Sounds good. I’ll send the order form and invoice schedule right after this. No changes to the MSA or support terms, just the renewal dates, seat count, and PO."
+      "text": "Will do. I’ll send the 85-seat annual order with net 45, January 15 start, and the onboarding items listed out. You’ll have it in about an hour."
     }
   ]
 }

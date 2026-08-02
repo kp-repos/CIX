@@ -12,52 +12,47 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hey Dana, yeah, thanks for making time. I saw your note about adding the Denver support team before the June 10 go-live. Are we still talking 18 additional seats?"
+      "text": "Yeah, thanks for making time, Dana. I’ve got you at 42 seats today, and you were looking at adding the service desk group for a July 15 go-live. Is that still 18 additional users?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right, 18 seats to start. Could become 22 later, but for budget I need the quote at 18 and the same July 1 renewal date as the main contract."
+      "text": "Close. It’s 16 for phase one. Two managers are read-only, so they don’t need full seats yet. We may add them in September if the queue reporting works the way we expect."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, co-termed to July 1. The pricing sheet has those at $74 per user per month on your current tier, so the prorated add-on from May 15 through June 30 comes to $1,998 before tax."
+      "text": "Got it, 16 full seats now, potential 2 later. For the 16, co-termed to your current agreement, that’s $14,080 through March 31, 2027. Billing would be net 30, one invoice, and access can be turned on the same business day after signature."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And then on the renewal invoice it just rolls into the annual total?"
+      "text": "Okay. The invoice needs to show the new cost center, 4810-ITSD, and reference PO 77264. Our AP team kicks stuff back if that’s missing."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Exactly. Your renewal would show 96 total seats at $85,248 for the year, plus the support package you already have at $7,200. No change to the payment terms, still net 30."
+      "text": "Yep, I can include both on the order form and the invoice request. On timing, if we get the signed addendum by next Wednesday, June 26, your admins can start setting up those users on June 27."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. One thing, procurement will ask if the Denver users get the same onboarding session. We don't want a separate SOW if it's just training."
+      "text": "That works. We have training penciled in for July 9 and 10. Is there any issue with them logging in before the formal go-live, just for training?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Totally. The admin training and one end-user session are included with the add-on. I can put that in the order form notes so it's clear for your procurement team."
+      "text": "No issue. They can log in as soon as the seats are active. For training week, I’d suggest your admin assigns the standard service desk role, and then we can adjust permissions after the first two sessions if needed."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Can you send it today? If I have it by 3 Pacific, I can get it into our Thursday approval packet."
+      "text": "Makes sense. Send me the addendum with the 16 seats and the co-term amount, and I’ll route it to procurement today. They usually turn these in two or three business days."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, I can send the order form and updated renewal summary by 2:30 Pacific. It will list the 18 seats, May 15 start, July 1 co-term, and the training note."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Great. Send it to me and copy Marcus in finance. If the invoice matches those numbers, we should be able to sign by May 9."
+      "text": "Will do. I’ll send it over this afternoon with the PO and cost center called out. Once it’s signed, you’ll get the invoice separately, and I’ll confirm the activation date with your admin team."
     }
   ]
 }

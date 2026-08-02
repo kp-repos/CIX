@@ -10,54 +10,54 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so quick check on the Hartley Foods renewal. They’re at 86 seats today, asking for 110 starting May 1, plus the support add-on. Current term ends April 30."
+      "text": "Yeah, so quick sanity check on the Northstar renewal. They want 42 seats, twelve months, start date April 1, net 30, and the price is $61,740 after the 8% renewal discount."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jon",
       "ts": null,
-      "text": "Okay. Are they staying annual upfront or trying to go quarterly again?"
+      "text": "That matches what I saw. Are they asking for any contract language changes, or is it just the extension order form?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Annual upfront. Finance there said invoice needs to hit by April 22 because their AP cutoff is the 25th. Total should be $64,900 before tax if we keep the 8% uplift."
+      "text": "Just the extension. The painful part is getting the proposal out. To do one clean renewal, I have to put those same details into the pricing sheet, then the CRM opportunity, then the quote tool, then the billing tool for tax and invoice timing, then the approval portal because it’s over 5% discount, and then finally the e-sign packet. Same legal name, same 42 seats, same dates, same discount, same billing contact, retyped every stop."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jon",
       "ts": null,
-      "text": "That matches the pricing sheet. Did you get approval for the extra 24 seats at the old discount?"
+      "text": "Yeah, that is a lot. How long did this one take you?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Not yet, and this is the annoying part. To extend the agreement I have to update the seat count and dates in the CRM, then retype the same 110 seats, May 1 start, April 30 end, $64,900 total into the pricing sheet, then again into deal desk for approval, then again into the billing tool so they can preview the invoice, and then again into the proposal template. If legal tweaks anything, I have to walk it back through all five places. Last time this took me like two afternoons for one quote."
+      "text": "I started it yesterday at 3:00 and I’m still not actually done. It’s not hard work, it’s just, like, every system wants it in a slightly different format. The pricing sheet wants monthly unit price, the quote tool wants annual total, billing wants the invoice split, approval wants list price plus discount rationale. If one number changes, I have to walk it back through the whole chain."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jon",
       "ts": null,
-      "text": "Ugh. For Hartley, deal desk should approve it if you attach the email from Dina confirming annual upfront. Keep the discount note simple, like renewal alignment."
+      "text": "And Northstar needs it today, right?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yep, I have Dina’s email. She also asked for the PO number to show on page one, PO-44718, and their entity is Hartley Foods Services LLC, not the parent."
+      "text": "By noon Pacific. Their procurement team meets tomorrow morning, and if they don’t have the signed PDF, it slips to the April 15 batch. I can get it there, but I’m basically spending two days moving the same renewal facts between screens instead of calling the other accounts."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jon",
       "ts": null,
-      "text": "Good catch. Put the LLC on the order form and the parent only in the account notes. Anything else blocking signature?"
+      "text": "Do you want me to review the final math before you send it?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Just the auto-renew language. They want 30 days’ notice instead of 60. Same thing we gave Northline last month, so I’m going to ask legal to approve that fallback."
+      "text": "Please. Once the approval portal gives me the green check, I’ll export the order form and send you the PDF. Can you verify the $61,740 total, April 1 through March 31, and 42 seats?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jon",
       "ts": null,
-      "text": "Sounds fine. If you send me the draft before 3, I’ll sanity check the amounts and dates."
+      "text": "Yep. Send it over when it’s ready. If those three match, I’ll reply back and you can get it to Northstar before noon."
     }
   ]
 }

@@ -10,54 +10,49 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so quick run-through on North Ridge. They're at 42 seats to start, services is the standard 20-hour onboarding block, and they want April 1 as the go-live."
+      "text": "Yeah, so for Northbay, they’re still at 62 seats, annual, start date April 1. Procurement asked if we can keep the invoice under $54,000 all-in."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jon",
       "ts": null,
-      "text": "Okay. Is the pricing still the $31,800 annual, paid upfront?"
+      "text": "Okay. Is that the same package with onboarding included, or did they move that to services?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yep, $31,800 for year one. I added the 8% uplift cap in the contract notes. I put a third comment on the finance ticket about the tax question, so the quote's just sitting in the CRM draft for now."
+      "text": "Same package. Two admin trainings and the data import. I gave deal desk another quick tap on the 18% exception, so the quote’s still sitting as draft for now."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jon",
       "ts": null,
-      "text": "Got it. Do they need anything customer-facing today?"
+      "text": "Got it. Once that’s clean, do you want me to review the order form before you send it?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "I told Erin we'd have the clean order form over by end of week. She mostly cares that the first invoice doesn't hit before their new PO opens on March 18."
+      "text": "Please. It’s pretty standard, net 30, one-year term, no auto-renew. They just want the signature packet by next Tuesday if we’re going to hold April 1."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jon",
       "ts": null,
-      "text": "Makes sense. What about the data processing language? Last I saw they had two small edits."
+      "text": "And Riverline, where did that land? I saw the email about 38 seats and quarterly billing."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, legal took the first one and pushed back on the second. I bumped that thread again this morning because the procurement checklist is otherwise green, and I don't want them losing the implementation slot."
+      "text": "They’re fine with the $312 per seat. Billing still has the tax-exempt question; I added one more note to the thread, so their PO walkthrough is just floating on Thursday’s calendar."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jon",
       "ts": null,
-      "text": "Fair. For kickoff, can services hold the week of April 8 if we close by next Friday?"
+      "text": "Okay, yeah. No need to push the close date yet if they’re still engaged."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "They said they can hold Tuesday and Thursday that week. If the paperwork lands, we can do admin setup on the 3rd, training on the 9th, and reporting on the 11th."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Cool. I'll update the forecast at 70% for March close and note the PO timing. Send me the final seat table when you have it."
+      "text": "Right. I’ll keep both close dates as March 22 unless something changes. Calls are good, champions are responsive, just need the final pieces to line up."
     }
   ]
 }

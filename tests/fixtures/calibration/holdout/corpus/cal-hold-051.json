@@ -10,44 +10,49 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya Chen, Account Executive",
+      "speaker": "Maya Chen, Rep",
       "ts": null,
-      "text": "Hi Jordan,\n\nAttached is the order form for 42 seats of the service desk package, plus the onboarding block we scoped last week.\n\nStart date: August 19, 2026\nTerm: 12 months\nTotal: $58,740\nBilling: annual upfront\n\nI left the invoice contact as ap@northbankmechanical.com. Let me know if that should be someone else.\n\nMaya"
+      "text": "Hi Daniel,\n\nAttached is the subscription overview for 74 seats of the platform plus onboarding. Target start date is July 15, with admin training the week of July 8.\n\nMaya"
     },
     {
-      "speaker": "Jordan Ellis, IT Operations Manager",
+      "speaker": "Daniel Ortiz, Customer",
       "ts": null,
-      "text": "Hi Maya,\n\nThanks. Two items:\n\n1. We only need 39 seats at go-live. The other 3 hires are not approved yet.\n2. Annual upfront is okay, but our controller needs the invoice dated after Sept 1.\n\nCan you revise?\n\nJordan"
+      "text": "Maya,\n\nThanks. I reviewed with finance this morning. We can do 74 seats, but we need the annual total to stay under $50,000 before tax or it gets kicked to the next approval tier.\n\nCan you confirm what the final number would be?\n\nDaniel"
     },
     {
-      "speaker": "Maya Chen, Account Executive",
+      "speaker": "Maya Chen, Rep",
       "ts": null,
-      "text": "Yeah, no problem.\n\nI updated to 39 seats and kept the same August 19 service start. Invoice can be generated Sept 2 with net 30 terms, so due Oct 2.\n\nRevised total is $54,405 including onboarding.\n\nMaya"
+      "text": "Daniel,\n\nThe $46,800 annual we landed on over text works. I’ll send the order form at that amount now and clean up the deal desk approval after so we don’t miss your June 28 PO cutoff.\n\nMaya"
     },
     {
-      "speaker": "Jordan Ellis, IT Operations Manager",
+      "speaker": "Daniel Ortiz, Customer",
       "ts": null,
-      "text": "Maya,\n\nWe are close, but the CFO asked me to keep this under $52k for the first year. If we cannot get there, I may need to push the go-live to Q4 and rebid the onboarding work.\n\nJordan"
+      "text": "Okay, that works.\n\nPlease make the bill-to:\nNorthbridge Components, Inc.\n1180 Larkin Road\nColumbus, OH 43215\n\nPayment terms should be net 30 if available.\n\nDaniel"
     },
     {
-      "speaker": "Maya Chen, Account Executive",
+      "speaker": "Maya Chen, Rep",
       "ts": null,
-      "text": "Jordan,\n\nUnderstood. As we covered in messages, I can get you to $51,900 for year one if you can sign by Friday; I'll clean up the deal desk paperwork after so the order form matches.\n\nEverything else stays the same: 39 seats, Aug 19 go-live, Sept 2 invoice, net 30.\n\nMaya"
+      "text": "Net 30 is included. I also added the billing address and set the initial term for July 15, 2026 through July 14, 2027.\n\nOrder form is attached for signature.\n\nMaya"
     },
     {
-      "speaker": "Jordan Ellis, IT Operations Manager",
+      "speaker": "Daniel Ortiz, Customer",
       "ts": null,
-      "text": "Okay, that works.\n\nPlease send the final order form at $51,900. Also confirm the renewal is based on list less the standard 8% discount, not this first-year number.\n\nJordan"
+      "text": "Received. One quick question: can we add 6 more seats mid-year at the same per-seat rate if the operations team expands?\n\nDaniel"
     },
     {
-      "speaker": "Maya Chen, Account Executive",
+      "speaker": "Maya Chen, Rep",
       "ts": null,
-      "text": "Correct. Renewal language will show year two pricing at then-current list less 8%, with a 5% annual cap on increases after that.\n\nI'll send the final PDF shortly for signature. The implementation manager can still hold the Aug 19 kickoff if we have signature by Aug 2.\n\nMaya"
+      "text": "Yes. Additional seats can be added during the term at the same prorated per-seat rate through the coterm date. No minimum for the add-on.\n\nMaya"
     },
     {
-      "speaker": "Jordan Ellis, IT Operations Manager",
+      "speaker": "Daniel Ortiz, Customer",
       "ts": null,
-      "text": "Sounds good.\n\nUse my signature and send a copy to Lisa Grant in finance. Her email is lgrant@northbankmechanical.com.\n\nJordan"
+      "text": "Great. Signed copy attached.\n\nPlease send the invoice to ap@northbridgecomponents.com and copy me.\n\nDaniel"
+    },
+    {
+      "speaker": "Maya Chen, Rep",
+      "ts": null,
+      "text": "Thanks, Daniel. Countersigned copy attached.\n\nInvoice will go to AP today, and I’ll introduce your implementation lead for the July 8 admin training.\n\nMaya"
     }
   ]
 }

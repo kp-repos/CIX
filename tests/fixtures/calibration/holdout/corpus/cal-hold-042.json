@@ -12,47 +12,47 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Maya,\n\nAttached is the order form for 65 seats of Workflow Plus, annual term 9/1/2026–8/31/2027. Total is $49,140 before tax, invoiced on signature. Implementation package is included for the Sept. 9 kickoff.\n\nThanks,\nEvan"
+      "text": "Thanks for the call. Attached is the order form for 62 seats, annual term starting 9/1, implementation included, net 30. Total is $52,080."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Evan,\n\nThanks. The seat count is right, but this is coming in a little high for our Q3 budget. We had $45k earmarked including implementation. Can you take another look?\n\nMaya"
+      "text": "We need 64 seats, not 62. Billing annual is fine. AP can issue a PO by Friday if the first invoice can be held until go-live on 10/7."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Maya,\n\nYeah, understood. Use the $44,700 number from my chat for your PO so you can keep approvals moving; the PDF will catch up once it comes out of the queue.\n\nEvan"
+      "text": "Updated to 64 seats. Invoice is generated at signature and due net 30, but we can align kickoff so your go-live stays 10/7. Revised total on the form is $53,760."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Ok, that works. Please keep the start date as Sept. 1 and the kickoff on Sept. 9. We need access for the first 20 users by Sept. 3.\n\nMaya"
+      "text": "I can get this approved today if the PO is for the $48,640 you sent over chat. The PDF still shows $53,760."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I’ll provision the first 20 seats on Sept. 3 once the signed order is back. Remaining 45 can be added before kickoff or in batches, whichever is easier for your team.\n\nEvan"
+      "text": "Yeah, use $48,640 on the PO. The form may lag until I can get the revised copy back, but I’ll make sure the countersigned version matches before it goes to billing."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Please set the invoice contact to ap@northlakeparts.com and include PO-78219 on the invoice. Net 30 is still in the terms, correct?\n\nMaya"
+      "text": "PO attached for $48,640, 64 seats, start date 9/1. Please confirm this is enough to start scheduling onboarding."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, net 30 is in there. Invoice will go to AP with PO-78219 referenced. Billing address I have is 1180 Kincaid Rd, Suite 400, Columbus, OH 43215.\n\nEvan"
+      "text": "Confirmed. I’ll get the order moving and have our onboarding manager send kickoff options for next week."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Address is correct. Send the final order form to me and Jordan Lee for signature when ready.\n\nMaya"
+      "text": "Thursday at 10:00 a.m. Eastern works. Please include finance@northlineparts.com on the invoice."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send it to both of you today. After signature, customer success will send the onboarding checklist and calendar invite for Sept. 9.\n\nEvan"
+      "text": "Done. Calendar invite sent for Thursday, and finance is added for invoicing."
     }
   ]
 }

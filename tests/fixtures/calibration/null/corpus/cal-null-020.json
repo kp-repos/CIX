@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so thanks for making time, Dana. I saw your note about adding the warehouse supervisors. You’re at 38 seats today, right, and looking to move to 52 by March 18?"
+      "text": "Yeah, so just to make sure I heard it right, you’re looking at 48 users for the operations team, annual term, and you want training completed before the October 7 go-live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s right. Fourteen more seats. Ten supervisors, three regional managers, and one shared admin login if that’s allowed."
+      "text": "That’s right. Forty-eight is the full count, but only 42 people need access on day one. The other six are supervisors starting later in Q4."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "We can do the fourteen named users, but the shared admin login is the one I’d steer away from. For audit history, it really needs to be named. If you want, we can make that fifteenth seat view-only at $39 a month instead of the full $96."
+      "text": "Totally fine. The order can start with 42 seats at $68 per user per month, billed annually. If you add the six later, they’ll be prorated and co-termed to the same June 30 end date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that’s fine. So total would be 52 full seats plus one view-only?"
+      "text": "Okay. And the implementation package you quoted was $4,800, correct? I need to know if that’s one invoice or separate."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Exactly. Your current annual is $43,776. With the add-on from March 18 through your existing term end on November 30, it comes to $12,824. The view-only seat is included in that number."
+      "text": "Correct, $4,800 one-time. We can put software and implementation on the same invoice, net 30, unless your AP team needs services broken out as a separate line."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Got it. Can you make the invoice net 45? Our AP team pays on the 15th and 30th, and net 30 gets awkward."
+      "text": "Same invoice is better. Our PO will be for the total first-year amount plus implementation, so I just need the tax estimate and the legal entity name."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, net 45 is available on your account. I’ll put that on the order form. Same billing contact, invoices at ap@northlinefoods.com?"
+      "text": "Yep. Pre-tax total for 42 seats is $34,272 for the year, plus the $4,800 implementation fee, so $39,072 before tax. The order form will show our legal entity and remit-to details."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes. And for go-live, we need the new users active by March 20 because training is March 21 at 9 a.m. Central."
+      "text": "Good. On the timeline, if we sign by September 12, are we still okay for admin training the week of the 23rd?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That works. Once the order form is signed, our onboarding coordinator will send the user upload template and training link. If you return the roster by March 15, the seats will be active the morning of March 18."
+      "text": "Yes. We’d do the kickoff on September 17, admin training September 24, and end-user training October 2. That leaves a few business days for your managers to review settings before launch."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Any change to the renewal date or terms?"
+      "text": "Works for me. Send the order form with those dates and the 42-seat start. I’ll route it with the PO request this afternoon."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No change. It co-terms to November 30, same service terms, same support package. At renewal we can true it up for the full year based on the seat count you want for 2027."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Okay, send it over today and I’ll route it to finance. If the number matches what you just said, I should be able to sign by Friday."
+      "text": "Will do. I’ll send it over today with the pricing, net 30 terms, and the implementation dates in the notes."
     }
   ]
 }

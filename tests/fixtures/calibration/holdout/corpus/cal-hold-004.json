@@ -12,57 +12,42 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the final order form for the service desk rollout and make sure we're clean on seats, dates, and billing before I send it to signature."
+      "text": "Hi Dana, yeah, thanks for making the time. I wanted to check in after the kickoff yesterday and make sure the May 6 go-live still feels realistic for your 84 users."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. We are still at 84 agent seats, right? Forty-six for support, 22 for operations, and then 16 shared admins."
+      "text": "It does, mostly. The one snag is your implementation lead said single sign-on was not included for our launch. That was, uh, something we agreed to on the pricing call in March."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, 84 paid agent seats. The read-only requester access is unlimited, so your 310 internal users won't count against that. Annual total is $58,380 after the 12% discount, billed up front."
+      "text": "Yeah, you're right. We agreed SSO would be included in the first setup at no extra charge. I’m sorry, that didn’t make it over to the implementation team the way it should have."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Finance asked if the invoice can show the cost center split, 70% support and 30% ops. They don't need two invoices, just the line note."
+      "text": "Okay. I just don’t want this to turn into a change order, because our IT group has Friday blocked for the identity provider setup."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I put that in the billing notes. Payment terms are net 30, start date June 1, and the initial term runs through May 31 next year."
+      "text": "Understood. No change order. The subscription stays at $3,780 a month for the 84 seats, and SSO is part of the launch work."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. What about the data import? We had May 10 on the calendar because our current tool renewal hits May 20."
+      "text": "Good. If you can confirm that with them today, I think we're fine. Our internal training is scheduled for May 2 and May 3."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I owe you an apology there. I confirmed May 10 with you, but it didn't make it into the implementation ticket, so the services team had you down for May 17. I talked to the manager this morning and they can still start the import May 10, but the validation call moves to May 14 at 2:00 Eastern."
+      "text": "I’ll confirm it today and have the implementation lead send the revised schedule by end of day. The only thing we may need from your IT team is the metadata file before noon Friday."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that's not ideal, but May 14 works. We just need the tickets and user history checked before our admin training."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Understood. Admin training is still May 16, two hours, remote, with up to 12 admins. I'll attach the agenda to the order form email and copy your project lead."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. Send the order form to me and Marcus in procurement. If the numbers match what you just said, we can turn it around by Friday."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. I'll send it today with the pricing sheet summary, the cost center note, and the updated implementation dates."
+      "text": "That’s fine. Send the request to me and I’ll loop in Nathan. Thanks for getting it cleaned up."
     }
   ]
 }

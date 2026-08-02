@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Karen. I saw your note about adding the field ops team. I pulled up the quote in the CRM, and right now you’re at 42 seats on the annual plan through March 31."
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the final quote for the analytics workspace and make sure the seat count and timing still match what you need for May."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s right. We need to add 18 more, but only 12 of those people need admin access. The other 6 are read-only for reports."
+      "text": "Yeah, sounds good. We’re still at 42 seats to start, with 6 of those as admin seats. If adoption looks good, we may add the customer success team in Q3."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. So 54 full seats total, 6 read-only. The pricing sheet has read-only at $18 per user per month and full seats at $74. Since you’re mid-term, billing would prorate from September 1 through March 31."
+      "text": "Okay, perfect. The quote I have is 42 seats on an annual term, $31,920 total, with the standard onboarding package included. That’s two configuration sessions and one end-user training session."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Can you send that as a separate invoice? Finance asked not to reopen the original PO if we can avoid it."
+      "text": "That matches what I had. For billing, can you do net 30 and invoice us after signature? Our finance team prefers one annual invoice, not quarterly."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, that’s doable. I’ll mark it as a net-new add-on order tied to the existing contract. Invoice would be $7,672 before tax, due net 30. I’ll double-check the math with deal desk before I send it."
+      "text": "Yep, annual invoice after signature, net 30. I’ll note that on the order form. Target go-live is still June 3rd, right?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. And we still need the September 9 go-live for those users. Is that realistic if we sign this week?"
+      "text": "Yes. We’d like admin setup the week of May 13th, training the week of May 20th, and then we’ll use the last week of May for internal testing."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. If we have signature by Thursday, August 22, our implementation team can load the users on September 3, run the permissions review on the 5th, and you’d be ready for the 9th."
+      "text": "That timeline works. If we get the order form signed by next Friday, April 26th, implementation can hold those dates."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. One thing, our legal team asked whether the add-on changes the renewal date."
+      "text": "Okay. Legal had one question on the renewal language. It says it renews automatically for one year unless we give 30 days’ notice. That’s acceptable, we just need the notice period clearly stated."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No, it stays co-termed to March 31, 2026. The order form will say no change to the master terms and no auto-renewal change."
+      "text": "It is stated in section 5.2, but I can also call it out in the email when I send the final documents so it’s easy for them to find."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send the revised quote to me and copy James in finance. I’ll route it for signature once he confirms the PO number."
+      "text": "Great. Send it to me and copy Marcus in procurement. If everything looks the same, I should be able to route it for signature Monday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send it by end of day with the seat breakdown, prorated amount, and the September 1 service start date."
+      "text": "Will do. I’ll send the final quote and order form this afternoon, with the 42 seats, annual billing, net 30, and June 3rd go-live listed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Thanks, Chris."
     }
   ]
 }

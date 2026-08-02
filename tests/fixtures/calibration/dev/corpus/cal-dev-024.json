@@ -10,54 +10,49 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Jordan",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Hey, can you look at the Northlake account with me for a sec? I'm cleaning up the forecast and the CRM is, uh, not super helpful."
-    },
-    {
-      "speaker": "Priya",
-      "ts": null,
-      "text": "Yeah, I have it open. Looks like 84 seats today, finance team added 12 back in March, and they're using the reporting add-on."
+      "text": "Hey Jordan, quick sanity check on the Northlake add-on. They asked for 18 more seats for the field team, same package as the original 42, and they want it live by March 3."
     },
     {
       "speaker": "Jordan",
       "ts": null,
-      "text": "Right. Their agreement ends next Friday, June 28, and I don't see any selling-side note that anyone has talked to them about continuing after that."
+      "text": "Yeah, that tracks. Is this the group on annual billing with the June true-up, or are they asking for a separate invoice?"
     },
     {
-      "speaker": "Priya",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Okay. The billing tool shows the last invoice was $18,450 for the quarter, paid on time May 3. No open tickets besides that SSO question."
-    },
-    {
-      "speaker": "Jordan",
-      "ts": null,
-      "text": "Good. I was thinking keep the seat count flat at 84 for the quote, one-year term, same package. Pricing sheet has them at $73 per seat monthly if we hold the discount."
-    },
-    {
-      "speaker": "Priya",
-      "ts": null,
-      "text": "Deal desk will ask why the discount is staying at 9 percent. Just put usage is steady and they're not expanding departments yet."
+      "text": "Separate invoice. Procurement said they need a clean PO match for $21,600, net 30, no changes to the main order form."
     },
     {
       "speaker": "Jordan",
       "ts": null,
-      "text": "Yep. And implementation notes say their HRIS sync go-live was April 15, so no services line needed unless they want admin training."
+      "text": "Okay, easy enough. Just make sure the service start date is March 1 so finance doesn't prorate weirdly for two days."
     },
     {
-      "speaker": "Priya",
+      "speaker": "Maya",
       "ts": null,
-      "text": "I'll update the CRM close date to June 27 and attach the draft order form. Can you send me the tax entity? I see Northlake Foods LLC and Northlake Shared Services."
+      "text": "Yep. One thing I noticed, their support addendum actually ends this Friday and I don't think anyone has talked to them about carrying that forward, which is, uh, not ideal."
     },
     {
       "speaker": "Jordan",
       "ts": null,
-      "text": "Use Shared Services. Their AP alias bounced the LLC invoice last time, so let's not repeat that."
+      "text": "Oof. Yeah. For this add-on, though, keep it scoped to the seats only so we don't slow down the PO."
     },
     {
-      "speaker": "Priya",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Got it. I'll have the draft ready in 20, and you can sanity check the totals before it goes out."
+      "text": "Agreed. Legal already said the standard seat expansion language is fine, no security review since it's the same workspace."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Good. Send me the final count and the billing contact, and I'll check the pricing sheet before you send it over."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Billing contact is Renee Patel, ap@northlakeindustrial.com. I'll send the draft in five minutes."
     }
   ]
 }

@@ -12,47 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to do a quick handoff check before your kickoff. I have you at 60 seats to start, go-live August 26, and the standard business-hours support plan."
+      "text": "Hi Dana, yeah, thanks for jumping on. I wanted to run through the onboarding plan for the calibration module and make sure March 4 still works on your side."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. Small thing, the calendar invite from your implementation manager says 52 seats. We added the eight ops users before signature, so I just don't want them blocked on day one."
+      "text": "March 4 is still the target. I did want to ask about the kickoff invite, though. We had said Thursday, February 15, because our quality lead is at a supplier audit until then. The invite came over for Tuesday the 13th."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, good catch. I'll get that cleaned up today so provisioning is set for 60. No issue on our side."
+      "text": "Ah, okay, yeah, sorry about that. Thursday the 15th at 10:00 Central is fine. I’ll have the implementation coordinator move the series today."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And for data import, we're sending the customer list and open tickets by Friday. Your team said CSV is fine, right?"
+      "text": "Thanks. The other thing is seats. The worksheet we got from your onboarding team shows 25 named users, but the order form has 32. We need all 32 for the first lab group."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "CSV is fine. If you can keep the fields to the template, they can usually turn it in two business days. Do you still want a dry run the week of August 12?"
+      "text": "Yep, you’re right, 32 named users on the annual plan. I’ll get that corrected before they provision the tenant, so nobody is waiting on access."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, August 14 if you have it. Also, the first invoice showed quarterly billing. Our PO is for annual upfront, $48,600, net 30. Finance kicked it back this morning."
+      "text": "Good. We’re assigning 18 technicians, 6 supervisors, and 8 read-only managers. Same split we discussed last week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Ah, sorry about that. I'll have billing reissue it as annual upfront and reference PO 4179. You should see the corrected copy by tomorrow."
+      "text": "That split works. The read-only managers won’t count against technician permissions, and the supervisors can approve calibration records and edit schedules."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Last thing, legal is asking whether the renewal notice is 60 days or 90 days."
+      "text": "Okay. Invoice timing is still February 28 net 30?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It's 60 days. I'll send the final order form and the updated kickoff details after this, and we'll keep August 26 as the target."
+      "text": "Correct, $46,800 due March 29, and services are the separate $7,200 line. No change there."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If you can send the updated invite and seat confirmation by end of day, we’re set."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You’ll have both before 5:00 Eastern."
     }
   ]
 }

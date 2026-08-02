@@ -12,52 +12,52 @@
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Hey Chris, do you have two minutes on the Northstar renewal? They're trying to get the order form today for a February 1 go-live on the extra teams."
+      "text": "Hey, do you have five on the Northstar renewal? They want to add 18 seats and push the services start to May 6."
     },
     {
-      "speaker": "Chris",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Yeah, I've got it open in the CRM. Current is 84 seats at $38,640 annually, and you're adding 36 seats, right?"
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "Correct, 120 total. They also want the reporting add-on for just the admin group, so 12 users. Pricing sheet shows $18 per admin per month."
-    },
-    {
-      "speaker": "Chris",
-      "ts": null,
-      "text": "Okay, so net new is 36 seats at the blended rate plus $2,592 for reporting. With the midterm co-term to October 31, the order form should land at $13,744. Does that match what you quoted?"
+      "text": "Yeah, so I looked at the quote. Current term ends April 30, right? If we co-term the new seats, it’s $14,760 net for the remainder."
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, I quoted $13,700-ish, so that's fine. The only issue is I've nudged legal and finance a few times on the billing clause they asked for, and the deal's basically sitting until that sign-off comes back."
+      "text": "That matches my math. Procurement asked if we can keep the same payment terms, net 30, annual invoice."
     },
     {
-      "speaker": "Chris",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Got it. Is that the clause about invoicing the expansion on March 15 instead of at signature?"
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "Exactly. Their AP team only runs vendor payments twice a month, and procurement won't approve if the invoice date says due on receipt."
-    },
-    {
-      "speaker": "Chris",
-      "ts": null,
-      "text": "Okay, I can draft the order form with the standard net 30 language and leave the invoice date field blank for now. Once they clear it, I can push it through deal desk."
+      "text": "That’s fine. No pricing issue from my side. Did they accept the 3% uplift on the base renewal?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "That works. Also, no discount beyond what they already have. VP asked, but they accepted the current 8% if we hold the October renewal date."
+      "text": "They did. The only thing holding it is the data processing language. I’ve nudged legal and the security team a few times for the sign-off, and Northstar won’t release the PO until that answer comes back."
     },
     {
-      "speaker": "Chris",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Perfect. Send me the email thread with procurement, and I'll update the billing tool notes so there isn't a mismatch when finance generates the invoice."
+      "text": "Okay. If it lands today, can they still sign by Friday?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yeah, their controller said Friday noon Eastern is their cutoff for the April invoice batch."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Good. For the services piece, keep the kickoff as May 6, but put the admin training on May 9. Their ops lead is out that first week."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Got it. I’ll send the updated order form with 126 total seats and the May dates once the language is cleared."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Perfect. And don’t discount the add-on any further. They’re already at 12% blended."
     }
   ]
 }

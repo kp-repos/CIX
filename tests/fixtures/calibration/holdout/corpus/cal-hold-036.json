@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the seat count and the timing so I can get the order form cleaned up. Last note I have is 48 standard seats and 6 admin seats for the June 17 go-live."
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the updated quote for 42 seats and make sure the April 15 go-live still works on your side."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. We may add two more admins later, but for the initial contract it's 54 total users, with 6 of those admins."
+      "text": "Yeah, that date still works. We have 38 users confirmed now, but we'd like to keep 42 on the order so we have a little room for the operations team."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. And on pricing, the quote is $38,880 annually before tax, billed up front. That includes onboarding at $3,200 as a one-time services line. Does that match what you saw?"
+      "text": "Perfect. The quote has 42 standard seats at $68 per seat per month, billed annually, so the subscription total is $34,272 for the year. Implementation is the one-time $4,500 package we discussed."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, that lines up. Finance just asked if the invoice can reference PO 4719 and break out the onboarding fee separately."
+      "text": "Okay, that matches what I had. And the contract term is 12 months, right? No auto-renewal longer than that?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, we can do that. I'll put the PO number in the billing notes and keep the subscription and services as separate lines on the invoice."
+      "text": "Correct, 12-month initial term. It renews for another 12 months unless either side gives 30 days' notice before the renewal date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. One other thing, legal had a small redline on auto-renewal. They want 60 days' notice instead of 90."
+      "text": "That's fine. For invoicing, can you set the bill-to as Northlake Supply, attention accounts payable, and use the Elm Street address?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I checked with deal desk this morning, and 60 days is fine for a 12-month term. I'll have the contract terms updated and send the revised version today."
+      "text": "Yes, I have Northlake Supply, 1840 Elm Street, Suite 300, Columbus, Ohio 43215. Invoice can go to ap at your domain, and I'll include PO 7716 on it."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. If we sign by Friday, are we still on track for the kickoff next Tuesday?"
+      "text": "Great. Our controller asked if payment terms can be net 30 instead of due on receipt."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. If signature is in by May 31, we can hold the June 4 kickoff. The implementation lead already has the project slot reserved, and we'd target admin training on June 11."
+      "text": "Yeah, net 30 is already on the order form. Once it's signed, billing will issue the invoice within one business day, so if we wrap this by March 22, you should see it the following Monday."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Send the updated order form to me and copy Marcus in procurement."
+      "text": "Works for me. Send the final order form today, and I'll route it for signature. I expect to have it back by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I'll send it over in the next hour, and once it's signed, the billing tool will generate the invoice with the PO reference."
+      "text": "Sounds good. I'll send it over in the next hour with the quote, order form, and implementation summary attached. After signature, we'll schedule the kickoff for the week of March 25."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Thanks, Alex."
+      "text": "Perfect. Thanks, Mark."
     }
   ]
 }

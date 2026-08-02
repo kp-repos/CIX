@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, thanks for making time. I wanted to walk through the quote for the 42 seats and make sure the June 17 go-live still lines up on your side."
+      "text": "Hi Dana, yeah, thanks for making time. I wanted to walk through the updated quote for the analytics workspace before I send it over for signature."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, that date still works. We have 38 users confirmed and then four managers who need reporting access, so 42 is the right number for launch."
+      "text": "Sure. I’ve got about fifteen minutes. We’re still looking at 42 seats total, right?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I have it in the CRM as 42 annual seats at $68 per seat per month, billed annually, so the subscription total is $34,272 before tax. Implementation is a one-time $4,500."
+      "text": "Correct, 42 standard seats. The annual subscription comes to $37,800, and then the one-time onboarding package is $4,500. That includes the admin setup session and two team trainings."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the implementation, that includes the data import from the two spreadsheets and the admin training, right?"
+      "text": "Okay, that matches what I had. The start date would be May 1?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, exactly. Two data import files, one 90-minute admin training, and one end-user session. If you need a third file later, we can add it, but based on what you sent Tuesday, two should cover it."
+      "text": "Yeah, May 1 contract start, with access turned on that morning. If we get signature by April 24, we can hold the kickoff for the week of May 6."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. On the invoice, can you split the implementation fee from the subscription line? Our finance team wants those coded separately."
+      "text": "That works. On billing, can the invoice be net 30 and sent to ap at our finance alias?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, no problem. I’ll note that for billing. The invoice will show the annual subscription as one line and implementation as a separate services line."
+      "text": "Yep, net 30 is already in the order form. I’ll add the finance alias as the billing contact before it goes out."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Contract term is 12 months, not 24, correct?"
+      "text": "Great. And the renewal term is twelve months, not auto-renewing for multiple years?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, 12 months starting June 17, 2026 through June 16, 2027. Renewal is annual after that, with 60 days notice if you don’t want to renew."
+      "text": "Right, initial term is twelve months. It renews annually unless either side gives 30 days’ notice. No multi-year commitment in this version."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Send the final order form today if you can. I can route it for signature tomorrow morning."
+      "text": "Perfect. Send it to me and our controller, Marcus Lee. If the numbers are the same, we should be able to sign this week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll get it through deal desk with the invoice note and send it over by 3:00 Eastern. Once it’s signed, we’ll schedule kickoff for the week of May 27."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Sounds good. Thanks, Mark."
+      "text": "Sounds good. I’ll send the order form and the service schedule today, and I’ll copy Marcus. Let me know if procurement wants any formatting changes."
     }
   ]
 }

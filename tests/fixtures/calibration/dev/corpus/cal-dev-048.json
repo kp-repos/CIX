@@ -12,42 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the final order details for the 82 seats and make sure we're still tracking to a March 18 go-live."
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm we're still aiming for the May 15 go-live with 84 seats in phase one."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that date still works. Finance approved the $48,600 annual, paid quarterly, as long as the first invoice lands after March 1."
+      "text": "That's right. We'll add the other 20 customer support seats in June if the first group is clean."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. The billing tool is set for a March 4 invoice date, net 30. The services line is still the one-time $6,200 for onboarding and admin training."
+      "text": "Makes sense. The order form has the 84 seats at $71 per seat per month, billed annually, and the implementation package at $4,800."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. One thing, though. The kickoff note I got this morning says our workspace is being set up in the US region. We had EU region in the redline, because our support team in Dublin is the first group going live."
+      "text": "Okay. Finance asked me to confirm the first invoice date. Is that still April 30?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Ah, yeah, I see what you're saying. Let me get that corrected before they send login links. It may move the sandbox access from Friday to Monday, but it shouldn't change March 18."
+      "text": "Yes, April 30, net 30. The billing tool will send it to ap@northlineparts.com and copy you."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Monday is fine. I just don't want to explain to legal why the first email says something different than the contract."
+      "text": "Good. One thing, the calendar invite from your implementation lead says the first session on April 22 is user import and basic roles. We were expecting SSO setup first, since we need that before our security review."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Totally fair. I'll send you a clean kickoff note by end of day with EU region, 82 seats, and the March 4 invoice timing called out."
+      "text": "Ah, yeah, sorry about that. Let me get the agenda adjusted. You'll get a revised invite today with SSO setup on April 22 and user import moved to April 25."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Once I have that, I'll countersign and send the procurement PO number over."
+      "text": "Perfect. Our IT manager, Luis, can make the 22nd at 11 a.m. Eastern if that's still the slot."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Yep, I'll keep that time. I'll also send the SSO prerequisites over after this so Luis can have the certificate and domain info ready."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If the invoice and revised invite come through today, we're all set on our side."
     }
   ]
 }

@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I pulled up the order form in the CRM. We have you at 42 seats today, renewing on October 1, and you had asked about moving to 55 seats for the operations team. Is that still the right count?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the rollout plan for the analytics workspace and make sure the quote matches what your team needs for June."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, 55 is right. We had 52 confirmed and I want 3 extra for new hires in November. I just need the invoice to show one annual line item if possible."
+      "text": "Sure. We’re still at 84 seats for phase one. That’s 62 standard users, 18 managers, and 4 admins. If adoption looks good, we’d add the operations group in Q4."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, we can do that. The pricing sheet has the 55-seat tier at $84 per seat per month, billed annually, so the subscription total is $55,440. Implementation support is already complete, so there is no services line this time."
+      "text": "Got it. The pricing sheet I sent Monday had 84 seats on an annual term starting June 24, with implementation services included as a one-time $7,500 line item. Does that still line up?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And payment terms are still net 30? Our finance team will ask because last year the invoice said due on receipt and it caused a little back and forth."
+      "text": "Yes. Finance asked if the subscription invoice can be dated July 1, even if we start setup the week of June 24. Our budget opens July 1."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Good catch. I’ll make sure the billing tool has net 30 on the invoice. Contract start October 1, end September 30 next year, total $55,440, net 30. No auto-renew language changes from last year."
+      "text": "Yeah, that’s workable. We can start implementation under the signed order form and set the first subscription invoice for July 1. The service fee would invoice on signature unless you need that moved too."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Can you send the order form today? Our VP can sign tomorrow if it’s clean."
+      "text": "No, services on signature is fine. The total annual subscription was $51,240, correct?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I can send it by 3 pm Central. I’ll route it through deal desk first because the seat increase is over 25 percent, but that’s usually a same-day approval."
+      "text": "Correct. That’s after the 10% annual prepay discount. So $51,240 for the software, plus $7,500 for implementation, total first-year amount of $58,740 before any applicable tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Also, we need access for the 13 new users on October 2, not October 1. We’re doing a short internal training that morning."
+      "text": "Okay. Legal had one comment on the renewal language. They want 60 days’ notice instead of 30 if either side is changing the renewal count."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. I’ll note October 2 as the enablement date for the new seats. Existing 42 users continue without interruption on October 1."
+      "text": "That should be fine. I’ll route that through deal desk and send back an updated order form today. No change to the commercial terms."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send it over and I’ll watch for it."
+      "text": "Great. If we can get the final version by end of day, I can put it in front of our controller tomorrow morning."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I’ll send the revised order form and the implementation timeline together. Target kickoff would be June 25, admin training July 9, and go-live July 22."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Send it over and I’ll reply if anything else comes up."
     }
   ]
 }

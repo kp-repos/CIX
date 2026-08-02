@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final scope before I send the order form over. I have 48 standard seats, 6 admin seats, and the reporting add-on for the operations team. Is that still right?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the quote for the calibration management rollout and make sure the seat count and dates line up before I send the final order form."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. We may add three more standard seats in Q2, but for the initial contract, keep it at 48 and 6. Finance asked me not to pad it upfront."
+      "text": "Sure. We’re at 42 users total: 31 technicians, 7 supervisors, and 4 people in quality who just need reporting access."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Totally fair. The pricing sheet has standard seats at $62 per user per month and admin seats at $95. With the reporting add-on, the annual total comes to $43,704 before tax. I can put the expansion language in so additional seats co-term at the same rate."
+      "text": "Got it. The quote I have is 38 full users and 4 reporting users. Based on what you just said, we should move that to 38 full users? Sorry, 31 techs plus 7 supervisors, and then 4 reporting-only."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that matches what you sent Friday. On billing, we need annual invoicing, net 30, and the PO number has to show on the invoice. The PO should be ready by March 18."
+      "text": "Exactly. The supervisors need to approve work orders and review overdue calibrations, so they need full access."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I'll note annual billing, net 30, PO required. If the PO lands March 18, we can set the contract start date as April 1. Are you still targeting May 6 for go-live?"
+      "text": "Perfect. For pricing, that puts the annual subscription at $46,800, with implementation at $8,500 one-time. That includes the asset import, two admin trainings, and three technician training sessions."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, May 6 is the target. We need implementation to start the week of April 8, though. Our data export from the old system is scheduled for April 10."
+      "text": "That matches what procurement expected. Can you set the contract start for April 1? We want the go-live on May 6 after we finish the gauge inventory."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That works. I'll have services reserve the April 8 kickoff slot. The implementation package included is 18 hours, and based on what we reviewed, that should cover setup, one data import, and two admin training sessions."
+      "text": "Yes, April 1 start and May 6 go-live. We’ll schedule the import file review the week of April 15, then training the week of April 29. Does that work for your team?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Legal only had one note on the renewal language. They want 60 days' notice instead of 90 for non-renewal. Is that going to be an issue?"
+      "text": "Yeah, that should work. We may need one of the technician sessions at 6:30 a.m. for first shift."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No, that one's standard enough. I'll route it through deal desk, but I don't expect pushback. I'll send the updated order form and terms this afternoon, and once signed, billing can generate the invoice against the PO."
+      "text": "No problem. I’ll note one early session. On billing, annual upfront to the headquarters address on the quote, net 30 terms, correct?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send it to me and copy Marcus in finance. If everything lines up, we should be able to sign by March 22."
+      "text": "Correct. Send it to invoices at our corporate domain, and copy me. Once I have the order form, I can get signature this week."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Great. I’ll send the updated order form today with 31 technician users, 7 supervisor users, 4 reporting users, April 1 start, and May 6 go-live."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks, Mark."
     }
   ]
 }

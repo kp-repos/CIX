@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I had us down to talk through the workspace analytics package for the Omaha team, 38 seats to start, and a May 20 go-live. Is that still the right shape?"
+      "text": "Yeah, so for the 42 users you have today plus the 12 warehouse leads, the pricing sheet puts you at 54 seats. That keeps you in the same tier, $38 per user per month, annual term."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. We may add five more people in June, but for launch it's 38. The main thing is I need the invoice to hit after June 1, not in May."
+      "text": "Okay. We were assuming 55 because one of the quality managers may need access too. Is there any issue if we start with 54 and add one in November?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, that's doable. The order form can be signed in May with billing start date June 1. First invoice would be for $1,748.00 monthly, plus the one-time onboarding at $2,400."
+      "text": "No issue. The extra seat would just prorate from the day you add it through the May 31 term end. For one seat, you're talking roughly $266 if it starts November 1."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the onboarding, that's two admin trainings and the data import, correct?"
+      "text": "That's fine. On billing, we need the invoice dated after July 1. Our new fiscal year starts then, and payables will kick it back if it's in June."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. Two 60-minute admin sessions, import of up to 24 months of CSV history, and we include the launch checklist. If you want end-user training, that's optional, $600 for a group session."
+      "text": "Yep, we can set the invoice date as July 2. The order form can be signed this week, but billing won't run until then."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Let's skip end-user training for now. Our supervisors can handle that. Contract term is 12 months?"
+      "text": "Good. And the go-live date is still August 19, right? We have the plant shutdown the week before, so we don't want training during that window."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, 12 months, June 1 through May 31. Seat additions are prorated for the rest of the term at the same $46 per seat per month. If you drop seats, that would happen at renewal."
+      "text": "Correct, August 19 for go-live. Training would be August 6 and 7, two ninety-minute sessions, recorded, with your supervisors invited."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's fine. I also need net 30 on invoices and the PO number on every invoice. PO is 44719."
+      "text": "Perfect. Contract term is one year, no auto-renewal, same data processing terms as the master agreement from last year?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, PO 44719 and net 30. The billing contact I have is ap@northlineparts.com, with you copied. Still right?"
+      "text": "That's right. One-year term, July 2 through July 1 next year, no auto-renewal, and the existing master terms carry over. The order form will just reference them."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes. Send the order form to me and Marcus for signature. If he signs by Friday, can we still hit May 20 for kickoff?"
+      "text": "Okay, send that over at 54 seats with the July invoice date. If it matches what we discussed, I can get it signed by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, Friday signature keeps May 20 open. I'll send the order form today with the June 1 billing start and 38 seats. Once it's signed, you'll get the kickoff invite for May 20 at 10 a.m. Central."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. Send it over and I'll push it to Marcus this afternoon."
+      "text": "Will do. I'll send the order form this afternoon: 54 seats, $24,624 annual subscription, July 2 invoice date, August 19 go-live, and the two training sessions listed."
     }
   ]
 }

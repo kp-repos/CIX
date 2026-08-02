@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Priya. I had you down for adding 18 service seats and moving the reporting package from standard to advanced for the July 15 go-live. Is that still the right scope?"
+      "text": "Yeah, so for Northline's calibration team, I have you at 28 technician seats to start, plus 6 manager seats, with the asset tracking and due-date alerts included. Does that match what you wanted for the March rollout?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s right. We’re at 42 seats today, and the support managers want 60 total. The only thing I need clear is the invoice timing, because our fiscal month closes July 31."
+      "text": "Mostly. We have 28 techs live in March, but another 12 in the second plant won't need access until May 6. I don't want to pay for those early if they're not using it."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Totally. The quote I sent this morning has the 18 added seats prorated from July 15 through your current term ending March 31, 2027. It’s $14,280 for the seat add and $9,600 for advanced reporting, so $23,880 before tax."
+      "text": "Totally fair. We can start with 34 seats on March 1, then add the 12 technician seats on May 6 and co-term them to the same February 28 end date. The May seats would be prorated for the remaining 10 months."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that matches what finance expected. Can you split it so the one-time onboarding for reporting is a separate line? It helps them code it."
+      "text": "Okay. What's the monthly equivalent on that? Finance keeps asking even though we'll pay annual."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, it’s already broken out as subscription and one-time services. The onboarding line is $2,400, and the subscription portion is $21,480. Same invoice, separate lines."
+      "text": "For the first 34 seats, it's $3,060 per month equivalent, billed annually at $36,720. The 12 added seats in May are $840 per month equivalent, so the prorated add-on is $8,400 for the rest of the term."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. On terms, procurement asked if the add-on follows our current master agreement, no new auto-renew language or anything."
+      "text": "And implementation is still the $4,800, right? That includes importing our gauge list?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. It’s a co-termed order form under the existing agreement, same payment terms, net 30, and no change to renewal language. I included that note in the order form under special terms."
+      "text": "Yes. One-time $4,800. That includes the import for up to 9,000 assets, your user setup, and two admin training sessions. You said your current file is about 7,600 rows, so you're inside that."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. If I sign by Friday, can your team still do the admin training the week of July 8?"
+      "text": "Good. One thing on invoices: can you split software and implementation into separate line items? Same invoice is fine, just separate lines for our coding."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. We reserved July 9 at 1 p.m. Central for the admin session and July 11 for the reporting workshop. Once the order form is signed, the kickoff invite goes out with those dates."
+      "text": "Yep, separate line items on the invoice. Annual subscription, prorated May add-on noted as a future order, and implementation as its own line."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send me the final PDF, and I’ll route it today. Assuming legal doesn’t redline the company address or something silly, we should have it back by Thursday."
+      "text": "Contract term is March 1, 2026 through February 28, 2027?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Sounds good. I’ll send the final PDF right after this call. Just to confirm, billing contact is still invoices at northlake-holdings dot com and the PO number is NH-4472?"
+      "text": "Correct. Payment terms net 30, auto-renewal off unless you choose to renew, and the go-live target is March 18 assuming we get the asset file by February 20."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, that’s the one. Thanks, Mark."
+      "text": "That works. Send it over at those numbers and I'll route it with the PO request this afternoon."
     }
   ]
 }

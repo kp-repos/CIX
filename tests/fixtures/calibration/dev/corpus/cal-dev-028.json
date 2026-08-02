@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final scope before I send the order form through deal desk. I have 42 standard seats, 6 admin seats, and the implementation package with two onsite days in May. Is that still right?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the final quote for the calibration management rollout and make sure the seat count and start date still match what your team needs."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that matches what we have. The only change is we want the admin seats all active on day one, but probably only 35 of the standard seats at go-live. The remaining 7 can be provisioned later."
+      "text": "Sure. We’re still at 42 standard users and 6 admin users. That covers the lab supervisors, quality, and the two folks in maintenance who need to close work orders."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. For billing, it’ll still show 48 total seats on the annual subscription, but we can note the phased provisioning in the onboarding notes. The start date we had was May 15, with go-live targeted for June 10. Does that still work on your side?"
+      "text": "Got it. The quote I have is for 48 total seats, annual term, starting September 1. Software is $38,400 for the year, and the implementation package is $7,500 one-time."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "June 10 is still the date. Our IT team asked if the kickoff can be the week of May 20 instead of May 16. They’re tied up with a network change that Thursday."
+      "text": "That matches what I had. For implementation, you had three remote sessions and the data import for about 1,800 instruments, right?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, no issue. I can put kickoff on May 21 at 1 p.m. Eastern. The two onsite days would then be June 4 and June 5, unless you want those closer to go-live."
+      "text": "Exactly. Three 90-minute training sessions, import of your active instrument list, and setup for the calibration intervals and reminder rules. We’ll use your spreadsheet as the source file."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "June 4 and 5 are fine. On the contract, procurement asked about the auto-renewal language. They’re okay with annual renewal, but they want 60 days’ notice instead of 30."
+      "text": "Okay. Our only timing thing is we want the system live before the October audit. If we sign by August 16, is September 23 still realistic?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That’s a standard fallback for us. I’ll mark 60 days in the order form and have legal confirm, but I don’t expect a problem. Pricing stays at $31,680 for the subscription and $7,500 for implementation, so $39,180 total before tax."
+      "text": "Yes, that’s realistic. If we have the signed order and the instrument file by August 16, we’d target configuration the week of August 26, training the week of September 9, and go-live on September 23."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And invoices, can those be split? We need the subscription invoiced on signature and the implementation invoiced after the kickoff."
+      "text": "Good. On billing, can the invoice be split between the software and implementation? Our finance team books those differently."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. I’ll set it up in the billing tool as two invoices: $31,680 on signature, then $7,500 on May 21. Payment terms are net 30 on both. Do you need a PO before we countersign?"
+      "text": "Yep, we can do two invoice lines on the same invoice: $38,400 subscription and $7,500 services. Payment terms are net 30, unless you need something else approved."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, we’ll issue a PO once we have the order form. Send it to me and copy Mark in procurement, and we should be able to turn it around by Friday."
+      "text": "Net 30 is fine. Send me the order form with those dates and the two invoice lines, and I’ll route it for signature this afternoon."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I’ll send the revised order form today by 3 p.m. Central, with the 60-day renewal notice, May 15 start date, and the invoice split. If anything changes on the seat list, just send me the spreadsheet before kickoff."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Sounds good. Thanks, Alex."
+      "text": "Will do. I’ll send it over in the next hour, and I’ll include the implementation timeline in the email so your quality manager has it handy."
     }
   ]
 }

@@ -10,54 +10,54 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya, Account Executive",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so I just got off with Northstar Manufacturing. They’re good with the 42 seats, one-year renewal, same start date of February 1."
+      "text": "Yeah, so Acme Facilities is ready to renew, but they want the proposal by Friday because their finance cutoff is May 28."
     },
     {
-      "speaker": "Chris, Sales Ops",
+      "speaker": "Chris",
       "ts": null,
-      "text": "Okay, and did they accept the 4% uplift or are they pushing back?"
+      "text": "Okay. Same package as this year or did they add anything?"
     },
     {
-      "speaker": "Maya, Account Executive",
+      "speaker": "Maya",
       "ts": null,
-      "text": "They accepted it. Total is $18,480 net, paid annually. Their only ask is to keep the invoice split by department like last year, 30 seats under operations and 12 under finance."
+      "text": "They’re moving from 38 to 42 seats, keeping the standard support tier, and they asked for a 12-month term instead of 24. Total comes to $31,080 before tax."
     },
     {
-      "speaker": "Chris, Sales Ops",
+      "speaker": "Chris",
       "ts": null,
-      "text": "That’s fine. We can set the invoice schedule that way. Do you need deal desk approval?"
+      "text": "That should be inside the normal discount band, right?"
     },
     {
-      "speaker": "Maya, Account Executive",
+      "speaker": "Maya",
       "ts": null,
-      "text": "I think no, because it’s inside the pricing sheet guardrails. The annoying part is I had to retype the same seat count, term dates, discount, and billing contact into the CRM, the pricing sheet, the contract workspace, and then the billing tool, and I’ve been touching it since Tuesday just to get the renewal packet out."
+      "text": "Yep, 8% discount, no special terms. The only slow part was getting the renewal built, because I had to enter the same seat count, dates, and discount in the CRM, the pricing sheet, the billing tool, and the contract portal, so that took most of yesterday afternoon and this morning."
     },
     {
-      "speaker": "Chris, Sales Ops",
+      "speaker": "Chris",
       "ts": null,
-      "text": "Yeah, that tracks. Send me the agreement ID and I’ll sanity check the billing lines before it goes to their AP team."
+      "text": "Got it. Is the paper clean now?"
     },
     {
-      "speaker": "Maya, Account Executive",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Agreement ID is 7146-R. Billing contact is Denise Alvarez, dalvarez at northstar-mfg.com. PO is not required, she said just reference cost center 4102."
+      "text": "Yeah. Start date June 1, invoice net 30, procurement contact is Dana Reed. I’m sending the order form and the two-page proposal after this."
     },
     {
-      "speaker": "Chris, Sales Ops",
+      "speaker": "Chris",
       "ts": null,
-      "text": "Got it. Any change to support tier or implementation services?"
+      "text": "Cool. If they sign by Friday, can services still hold the June 10 go-live review?"
     },
     {
-      "speaker": "Maya, Account Executive",
+      "speaker": "Maya",
       "ts": null,
-      "text": "No changes. They’re asking for the signed copy by January 19 so procurement can close it before their month-end freeze."
+      "text": "I checked with Sam. June 10 at 1 p.m. Eastern is fine, and they only need one admin on the customer side."
     },
     {
-      "speaker": "Chris, Sales Ops",
+      "speaker": "Chris",
       "ts": null,
-      "text": "Okay. I’ll review in the next 20 minutes. If the totals match, you can send it for signature today."
+      "text": "Perfect. Send it over, and cc me if Dana comes back on the term language."
     }
   ]
 }

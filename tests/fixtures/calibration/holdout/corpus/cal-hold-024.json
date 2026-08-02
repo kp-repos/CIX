@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the updated quote for 42 seats, confirm the July 15 go-live, and make sure the invoice setup matches what your finance team asked for."
+      "text": "Yeah, thanks for making the time, Dana. I wanted to walk through the renewal quote and the added seats for the support team, and then we can talk timing for the August go-live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that works. I reviewed the quote this morning. The seat count is right for phase one. We may add another 8 or 10 in October, but 42 is the number for now."
+      "text": "Sounds good. We’re at 42 seats today, and we need to add 8 more for the new regional managers. So 50 total starting August 15."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. So the annual subscription is $31,080, billed annually, and the implementation package is $4,500 one time. I also added the standard admin training, two sessions, no extra charge."
+      "text": "Right, 50 seats total. On the annual term, that puts the subscription at $38,400 for the year, and implementation support stays at the one-time $4,800 we discussed."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. On the implementation fee, can that be invoiced separately from the subscription? Our operations budget covers that, but the license fee comes from IT."
+      "text": "Okay. And the renewal date would still be September 1, or does adding the seats move that?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can split that into two invoices. I’ll note that in the billing tool: one invoice for $31,080 to IT, one for $4,500 to operations. Same PO, or do you need separate POs?"
+      "text": "It stays September 1. We’d prorate the 8 added seats from August 15 through August 31, so that line is $410. Then everything rolls into the new annual term on September 1."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Separate POs. I should have them by Friday. Also, we need net 30 terms, not due on receipt."
+      "text": "Got it. Can you make the invoice split between software and services? Our finance team needs those as separate lines."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. Net 30 is already in the order form, and I’ll make sure both invoices reflect that. Contract term is July 1, 2026 through June 30, 2027, with the platform live date targeted for July 15."
+      "text": "Yep, no problem. The invoice will show subscription, prorated seats, and implementation support separately. Payment terms are net 30, same as your current agreement."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That matches our timeline. Legal had one comment on the renewal language. They want 60 days notice instead of 30 for non-renewal."
+      "text": "That works. For the services piece, are we still looking at two admin sessions and one end-user training?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, that’s fine. I’ll send that to deal desk today, but that change is usually approved without issue. I should have the revised order form back to you tomorrow afternoon."
+      "text": "Yes. Two 60-minute admin sessions the week of August 5, and one 90-minute end-user training on August 13. We can record that one if helpful."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. If you send it by end of day tomorrow, I can route for signature Monday and keep the kickoff on June 24."
+      "text": "Please do. I’ll send you the attendee list by next Friday. If you send the updated order form today, I can get it routed for signature."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send the order form with 50 seats, the September 1 renewal date, and the itemized invoice language. You should have it in the next hour."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, thanks. Once it’s signed, we’ll introduce you to our IT lead for the setup call."
     }
   ]
 }

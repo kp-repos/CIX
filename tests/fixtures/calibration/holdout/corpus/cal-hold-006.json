@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Karen. I pulled up the order form draft. We have 42 seats, annual term starting July 15, and the services package for the initial setup. Does that line up with what you were expecting?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the final quote for the analytics workspace renewal and make sure the seat count and start date match what your team needs."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, mostly. We may need 45 seats instead of 42. Finance added three managers who want dashboard access, but they won’t be heavy users."
+      "text": "Sure. We’re at 42 users today, and we want to add 8 more for the operations team, so 50 total. We’d like the new term to start April 1 if that’s still available."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. For 45 seats, the subscription moves from $38,640 to $41,400 for the year. Same per-seat rate, no change to the services line. I can update that in the CRM after this call."
+      "text": "Yep, April 1 works. For 50 seats on the professional plan, the annual subscription comes to $38,500, and that includes the standard support package."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the services piece is still $6,500, right? That includes the two training sessions?"
+      "text": "Okay. And the implementation hours we discussed, is that still a separate line item?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. $6,500 flat. That covers the kickoff, configuration support, and two 90-minute trainings. If you want a third session later, it would be quoted separately, but most teams your size are fine with two."
+      "text": "It is. The onboarding services are 20 hours at $175 an hour, so $3,500. That covers the admin setup, two training sessions, and the dashboard migration review."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That should be fine. On invoicing, can you split it so the subscription is due at signature and the services are billed on August 1? Our implementation budget opens then."
+      "text": "That’s fine. We’ll need the invoice split between subscription and services, same purchase order, just two lines. Our finance team asked for that."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, we can do that. I’ll note subscription invoiced on signature, services invoiced August 1 with net 30 terms. Legal usually approves that without an issue."
+      "text": "No problem. The invoice can show the $38,500 subscription and $3,500 services separately, with a total of $42,000 before tax. Payment terms are net 30, same as last year."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. We’re targeting go-live on September 9. Is that realistic if we sign by July 12?"
+      "text": "Good. One other thing, the contract term is 12 months, right? April 1 through March 31 next year?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. If signature is in by July 12, we can schedule kickoff the week of July 22. That gives us about seven weeks, which is comfortable for your data volume and the three workflows you outlined."
+      "text": "Correct, April 1, 2026 through March 31, 2027. Auto-renew is included, with 30 days’ notice if you don’t want to renew."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Send the revised order form with 45 seats and the split invoicing language. I’ll route it to procurement today."
+      "text": "That works. Send me the order form today, and I can route it for signature. Our VP is available Thursday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send it by 2:00 p.m. Central. I’ll also include the implementation summary so procurement has the scope in one place."
+      "text": "Will do. I’ll send the order form and the services description after this call. If it’s signed by Thursday, we can schedule the kickoff for April 3 or April 4."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. If they have questions on the payment terms, I’ll loop you in. Thanks."
+      "text": "April 4 is better. Let’s pencil that in, and I’ll confirm once the signature is done."
     }
   ]
 }

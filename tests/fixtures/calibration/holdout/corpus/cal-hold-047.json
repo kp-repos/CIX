@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Priya. I’ve got about 25 minutes before I’m back in the CRM cleaning up quarter-end records, so I want to use this for your seat count and go-live questions."
+      "text": "Yeah, thanks for jumping on. I’ve got about twenty minutes; my morning got eaten by typing yesterday’s notes and next steps into the CRM, but I wanted to cover the 38-seat option before your budget meeting."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Works for me. We’re still at 84 seats for launch, but finance asked what happens if we add 12 more in November."
+      "text": "Twenty is fine. We’re comparing the 38 seats against 45 because support may add seven people in June. I mostly need to know if adding those later changes the unit price."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "For 84 seats, annual is $52,920. If you add 12 in November, we prorate through the February 28 renewal, so it’s about $3,150 extra, depending on the exact start date."
+      "text": "It doesn’t if we write the order for 38 now and keep the same tier through the first year. The pricing sheet has you at $112 per seat per month, annual contract, billed quarterly."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the invoice, can that be split by department? Our ops team takes 50 seats and support takes 34."
+      "text": "Okay. And go-live, if we sign by May 10, can your team still do May 28?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can do two invoice lines under the same contract. Sorry the pricing sheet came over late yesterday; I spent the morning re-keying account data in the billing tool, but the totals on that sheet are current."
+      "text": "Yes. May 28 works. The only dependency is getting your sample import by May 15, and I’ll send the template today after I clean up the duplicate account entries the billing tool is showing for your company."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "No problem. Legal had one note on the auto-renewal. They want 60 days’ notice instead of 30."
+      "text": "Got it. For invoicing, we need one invoice per quarter, purchase order listed, net 30. Our finance team is pretty strict on that."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That’s usually fine for a 12-month term. I’ll mark 60 days in the order form and send the redline back today."
+      "text": "That’s standard. I’ll put net 30 and quarterly billing in the order form. The PO number can be added before countersignature if they don’t have it today."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Our target go-live is September 16. Is onboarding still four weeks?"
+      "text": "One more thing, legal asked whether the renewal is automatic."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, if we have signature by August 12, we can start kickoff on August 19 and hit September 16. If we can wrap by 2:40, I need to assemble the approval packet for deal desk, then I’ll get you the final version."
+      "text": "It’s a 12-month initial term with a 60-day non-renewal notice. I can send that clause over, though deal desk wants an internal approval packet for the quarter-end discount, so my next real opening to walk through redlines is Friday at 11."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That timing works. Send the final order form with 84 seats, split invoice lines, 60-day notice, and the September 16 go-live called out."
+      "text": "Friday at 11 works. Send the clause and the 38-seat quote, and I’ll get it in front of legal and finance."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send it by end of day, and if finance needs the prorated add-on example in writing, I’ll include that as a note."
+      "text": "Will do. I’ll send the quote at $51,072 annually, quarterly invoices of $12,768, with May 28 as the target go-live."
     }
   ]
 }

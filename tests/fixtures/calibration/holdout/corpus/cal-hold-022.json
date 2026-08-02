@@ -10,54 +10,54 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Dana",
       "ts": null,
-      "text": "Yeah, so quick pipeline check before forecast. We’ve got Northstar Foods at 42 seats, renewal value is $31,680, starts March 1, and BrightPath Manufacturing is 58 seats plus the onboarding package, $48,900 total."
+      "text": "Yeah, so quick pipeline check. Hartley Manufacturing and Ridgeview Clinics are the two that can still close for February if we get the last pieces in."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Marcus",
       "ts": null,
-      "text": "Okay. Northstar was supposed to close Friday, right? What’s actually left on that one?"
+      "text": "Okay. Hartley first. That's the 57 seats, right, $46,800 annual?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Dana",
       "ts": null,
-      "text": "Northstar is still stalled until legal signs off on the 90-day termination language. I’ve nudged Maya in legal every morning since Tuesday, plus sent the redline thread again yesterday afternoon, and procurement won’t release the PO until that answer comes back. Like, the customer is ready, the invoice contact is set, but the deal is just sitting there waiting on that internal sign-off."
+      "text": "Right. Procurement is good with 57 seats, annual upfront, February 28 start. The only thing holding it is their auto-renewal redline. I’ve nudged legal every morning since last Wednesday, and again yesterday afternoon, for the answer or sign-off. The customer is ready, but the deal is stalled until legal sends that back."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Marcus",
       "ts": null,
-      "text": "Got it. If it comes back clean today, can billing still get the invoice out for March 1?"
+      "text": "Got it. If they approve the redline today, can Hartley sign today?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Dana",
       "ts": null,
-      "text": "Yeah, billing said if I submit the order by 3 p.m. Pacific they can issue it today. Seats are already updated in the CRM, and the pricing sheet matches the renewal quote."
+      "text": "Yes. Their director already said she can sign by 4 p.m. Central if the terms are final. No pricing issue, no seat issue."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Marcus",
       "ts": null,
-      "text": "Good. What about BrightPath? I saw the close date moved to February 28."
+      "text": "Okay. What about Ridgeview?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Dana",
       "ts": null,
-      "text": "BrightPath is also stuck waiting on another department. Their IT lead asked for our answer on data retention for deleted user records, and security has to approve the response before I send it. I’ve nudged the security queue twice, messaged Tom directly, and the buyer keeps asking if we can confirm by end of week. Until that sign-off lands, they won’t countersign or lock the April 8 go-live, so the deal is sitting stalled even though pricing and seats are done."
+      "text": "Ridgeview is 32 seats at $29,400, with a March 11 go-live. They asked whether we can include the basic onboarding package without changing the subscription line. I keep nudging services for that sign-off, twice Monday and once this morning, because the order form is sitting there and the deal is stalled until services confirms it."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Marcus",
       "ts": null,
-      "text": "Understood. For BrightPath, are they still at 58 seats or did they add the five operations managers?"
+      "text": "Understood. Do they need anything else from us besides that onboarding confirmation?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Dana",
       "ts": null,
-      "text": "Still 58 for the initial order. They may add the five in Q3, but I kept this order clean: 58 annual seats, standard support, and one remote admin training session."
+      "text": "No, the invoice timing is fine, net 30 is fine, and they accepted the 12-month term. Their CFO just doesn't want a surprise services line showing up later."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Marcus",
       "ts": null,
-      "text": "Okay, forecast Northstar as commit if legal comes back today, BrightPath as best case. Send me the order links after this so I can sanity check the dates."
+      "text": "Okay. Keep the customer warm on both, but don't change the numbers. If either approval comes in, send me the final language before it goes out."
     }
   ]
 }

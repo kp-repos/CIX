@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the renewal and the seat add before I send the order form. You’re currently at 42 seats through August 31, and you’d like 58 seats starting September 1, right?"
+      "text": "Yeah, so for the calibration module you were looking at 38 technician seats and 6 manager seats, right? I want to make sure I'm using the same count you gave me last week."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s right. Forty-two today, add 16 for the operations supervisors. We need them live for the September 9 training, so September 1 start is good."
+      "text": "That's right. We may add two more techs in July, but for the June 3 go-live it's 44 total users."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. The renewal would run September 1, 2026 through August 31, 2027. Pricing is $74 per seat per month for the 58 seats, billed annually. That totals $51,504 before tax."
+      "text": "Got it. At 44 users, the annual subscription is $31,680, and the implementation package is $4,200 one time. That includes the asset import for the 1,850 gauges and torque tools you mentioned."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that matches what I had from your note. Can you keep the invoice split by location? We need 31 seats billed to Portland and 27 to Boise."
+      "text": "Okay. And the import includes our current calibration dates and intervals, not just the asset names?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, we can do that. The billing tool will show two line items on one invoice: Portland at $27,528 and Boise at $23,976. Net 30 terms, same as this year."
+      "text": "Correct. Asset ID, location, owner, last calibration date, next due date, interval, and the certificate attachment if it's in the folder structure you showed us. If anything's missing, it'll show up in the import review before go-live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Legal already reviewed the standard terms last year, so no changes from us unless the data processing exhibit changed."
+      "text": "Good. Finance asked whether the invoice can be dated May 15 with net 30 terms. Our budget opens then."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No changes to that exhibit. I’ll attach the current copy with the order form just so procurement has the full packet."
+      "text": "Yes, May 15 invoice date and net 30 is fine. The service start date would still be June 3, so you're not paying for unused time in May."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. For onboarding those new supervisors, can we get the admin session on September 3, maybe 11 Central?"
+      "text": "That works. What about training? We need the lab supervisors trained the week before, probably May 28 or 29."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, September 3 at 11 Central works. I’ll include that in the kickoff notes, and you’ll get a calendar hold after signature."
+      "text": "We have May 29 at 10 a.m. Central open for the supervisor session, 90 minutes. Then a technician walk-through on June 4 after go-live, same time, if that fits."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Send the order form to me and copy Marcus in procurement. If it lands today, I can get signature by Friday."
+      "text": "Yeah, put those in the order. Send me the order form with the 44 seats, May 15 invoice, June 3 start, and those two training dates. I can sign by Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send it over this afternoon with the seat count, invoice split, and September 3 admin session included."
+      "text": "Will do. I'll send it over this afternoon, and it'll match what we covered here: 12-month term, $31,680 subscription, $4,200 implementation, net 30, and the two training sessions."
     }
   ]
 }

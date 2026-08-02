@@ -12,52 +12,47 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to check in on the 48-seat rollout and make sure we're still tracking to May 20 for go-live."
+      "text": "Hi Jordan, yeah, thanks for making time. I saw your note about the kickoff yesterday and the first invoice. I want to get both sorted before your May 20 go-live moves any further."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "We can still hit May 20, but we had a rough kickoff yesterday. We agreed during contracting that your team would load our last 18 months of calibration records from the spreadsheet export. The implementation consultant had no idea that was included and told my operations lead it was out of scope."
+      "text": "Good, because the kickoff was awkward. We agreed on the March 28 call that onboarding included importing 14 months of closed cases, back to January 1 last year, not just open cases. Your implementation lead came in saying she only had open cases in scope. That never reached her, and our support director was sitting there asking why we were re-scoping something we already bought."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "You're right, we did agree to that. I had it in my notes as included with the services package, and I did not get that detail over to the implementation team before kickoff. That's on me. I'm sorry you had to re-explain it, and I know it made it look like we changed the deal after signature."
+      "text": "You’re right. That was agreed, and I’m sorry it did not get to the implementation team. The package is the $8,400 onboarding package, and the 14-month historical case import should have been in what they received. I’m not going to make you renegotiate that on a kickoff call."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "It wasn't great. My lead had blocked two hours to walk through fields, and instead they spent half the meeting debating whether we had purchased migration at all."
+      "text": "Okay, but we need a date. We have 42 support seats training on May 13, and they need to search the old cases in the sandbox before then."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. I just updated the handoff notes while we're talking, and I'll send the consultant the exact scope: 18 months, roughly 11,500 records, one import pass, and validation on 25 sample assets. You'll get a revised project plan by 3 p.m. Eastern."
+      "text": "Understood. I spoke with delivery before this call; they can load the historical file by end of day May 9 if your team sends the export by May 6. Same field map we discussed: case ID, created date, closed date, owner, status, tags, and resolution notes."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. The other issue is the invoice. The contract says first-year subscription is $38,400 and services are $6,000, billed against PO 4472 and PO 4473 separately. Billing sent one invoice for $44,400 to the wrong cost center."
+      "text": "That works. The second issue is the invoice. We agreed the billing would be split: 80 seats to the Operations cost center and 35 seats to IT. Instead, billing sent one invoice for all 115 seats, $31,625, due April 30. When our AP manager called, your billing team said they had no note about the split. So again, something we agreed to just didn’t make it to the group doing the work."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, I see it. We agreed to split those at signature, and that never made it to the billing tool or the billing team. They generated the standard single invoice because I didn't pass along the PO split. Again, apologies — that's a real miss on our side, not an accounts payable issue on yours."
+      "text": "Yeah, that’s on us too. I apologize. The split billing was part of the final order: 80 Ops seats and 35 IT seats, both under the same 12-month term. Billing should not have sent a single combined invoice."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Please fix it today if you can. AP won't touch it as one invoice, and our month-end close is Friday."
+      "text": "Can you have them void it and reissue today? Our month-end cutoff is tomorrow at 3 p.m. Eastern, and if it misses that, payment slips two weeks."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "I can get that corrected today. I'll have the current invoice voided and two new ones issued: $38,400 to PO 4472 for subscription, $6,000 to PO 4473 for services, net 30 from the original April 22 date."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "That's fine. Send me the corrected invoices and the updated project plan, and we'll keep the May 20 date unless something else pops up."
+      "text": "Yes. I’ll get the single invoice voided and have two corrected invoices sent by noon Eastern today: Ops for $22,000 and IT for $9,625, same April 30 due date. I’ll also send you a short confirmation email with the import date and the two invoice amounts so your team has it in writing."
     }
   ]
 }

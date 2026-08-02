@@ -10,54 +10,49 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so on Northline, they confirmed 42 seats for the first year, with five admin users. Start date is still June 1 if we can get the order form out today."
+      "text": "Yeah, so Northstar is good with the 42 seats and the $68,400 annual. They want the order form today if we can still hit a February 12 go-live."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Colin",
       "ts": null,
-      "text": "Okay. Is that the $47,880 annual, net 30, one-year term?"
+      "text": "That works. Any issue with the payment terms?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yep. I put another note on deal desk's approval line this morning, because the quote is still sitting in the CRM draft until that discount field turns green."
+      "text": "No, net 30 is fine. The only open bit is the auto-renew language. I dropped a short note on Lena's thread this morning because their procurement guy won't issue the PO with that sentence sitting there."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Colin",
       "ts": null,
-      "text": "Got it. Did they ask for anything weird on terms?"
+      "text": "Okay. If legal cleans that up, I can get the customer version out pretty fast."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Nothing too odd. They want the SLA attached and the renewal cap at 5%. Legal has the redline from yesterday; I added the clean language in the doc again after lunch, and their procurement guy said he won't countersign while that indemnity sentence is open."
+      "text": "Yep. And on the 9% two-year discount, Noah had one comment in the pricing sheet. I replied with the signature date and tagged his team channel, since Karen at Northstar is asking whether she should hold the budget line through Friday."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Colin",
       "ts": null,
-      "text": "Makes sense. What about billing? I remember they wanted the implementation separate from subscription."
+      "text": "That's within the usual range. I don't think deal desk will push back."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Right, $6,500 services in June and then the subscription invoice July 1. I sent billing the example split again, since the customer is holding the PO until they see the two-line invoice plan match their system."
+      "text": "Agreed. Implementation is also pretty standard, 30-day onboarding, four admin trainings. I left Priya a voicemail too, just to confirm they can start the week of the 12th before I put that date in front of Northstar."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Colin",
       "ts": null,
-      "text": "Okay. If those come back today, can we still book it this month?"
+      "text": "Makes sense. Send me the final when those pieces are green and I'll review the package before you send it."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, close date is the 30th, and the buyer already confirmed budget. I'll refresh the close plan and keep the next step as order form review."
-    },
-    {
-      "speaker": "Colleague",
-      "ts": null,
-      "text": "Cool. Send me the pricing sheet when it's final and I'll check the seat math before it goes out."
+      "text": "Will do. Customer is ready otherwise. It's just those last fields, and then I can get Karen the PDF for signature."
     }
   ]
 }

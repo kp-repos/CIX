@@ -12,52 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to check in on the 85-seat rollout and make sure we're still tracking for June 3 go-live."
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the go-live plan for the 62 seats and make sure procurement is set before we start training."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Mostly, yes. The training sessions look fine. One issue though, we had agreed SSO needed to be turned on before invites went out, and yesterday my managers got standard password emails."
+      "text": "Sure. Overall we're good, but one thing was awkward on the onboarding call yesterday. They had SSO scheduled for June 3, and we had agreed May 15 because our internal access review is May 20."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "You're right, and I'm sorry about that. That note didn't make it over to the implementation queue, so they used the default invite sequence. I had them pause the rest this morning, and SSO is scheduled for tomorrow at 10 a.m. Eastern."
+      "text": "You’re right, we did agree to May 15. Sorry, that date didn’t make it over to the onboarding team. I’ll get that corrected today and confirm the engineer slot."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. As long as we don't confuse the rest of the users. We have about 52 people in the first wave, then the other 33 after payroll signs off."
+      "text": "Okay, thanks. The admin training can stay May 22, and the manager session on May 29 still works for us."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That works. I'll update the launch plan to show wave one on June 3 and wave two on June 17. The customer success manager will send the admin checklist today."
+      "text": "Perfect. For seats, I have 48 standard users, 10 managers, and 4 admins, all active at launch. Any contractors coming later or is that the full first wave?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Also, I got the invoice for the annual term, $61,200, but it came through as one line. We talked about splitting it between Operations and Finance with two POs."
+      "text": "That’s the first wave. We may add 8 more in July, but we’ll handle that as an add-on if the pilot team expands."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Also, the invoice that came in this morning was quarterly. We agreed on annual upfront, net 30, so our AP team kicked it back."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, sorry, that billing instruction didn't get to the billing team before they generated it. I'll have them void that one and reissue two invoices: $38,400 to PO 4471 and $22,800 to PO 4472."
+      "text": "Ah, yeah, that should have been annual upfront. Billing must not have gotten the updated term. I’ll have them void that one and reissue it for $31,620 net 30."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Please do. Our AP team is strict on that, and month-end closes Friday."
+      "text": "Great. If the corrected invoice is in by Friday, I can get it into the May 10 payment run."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. I'll mark it urgent and copy you when it's corrected. No change to the net-30 terms or the June 1 service start date."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. If the SSO test passes tomorrow and the invoices are corrected, we're good to proceed."
+      "text": "Sounds good. I’ll send you the updated SSO confirmation and the corrected invoice link by end of day."
     }
   ]
 }

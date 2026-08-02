@@ -10,64 +10,49 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Jordan",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Hey Maya, quick check on the Lakeside renewal. Did they confirm the seat count or are we still guessing?"
+      "text": "Yeah, so Peakline is good with the 36 additional seats if we can keep them at $72 per seat through their current term."
+    },
+    {
+      "speaker": "Evan",
+      "ts": null,
+      "text": "Okay, that coterms to October 31, right? No new paper past that date?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so they confirmed 64 standard seats and 8 admin seats. They want the extension to run February 1, 2026 through January 31, 2027, same support tier."
+      "text": "Right, October 31. They want the proposal today so their finance lead can put it on the Thursday approval list."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Evan",
       "ts": null,
-      "text": "Okay. Any pushback on the 6% uplift?"
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "A little. Their finance lead asked if we can keep it at 4% if they add the training day in March. I told them I’d check pricing but didn’t promise it."
-    },
-    {
-      "speaker": "Jordan",
-      "ts": null,
-      "text": "Can we get a proposal to them before their Friday budget meeting?"
+      "text": "Do we have services in there, or just licenses?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "I think so. I’ve got the 64 and 8 and the Feb 1 dates in the CRM now; I’ll put them in the pricing sheet this morning, then the order form after deal desk signs off, and billing wants the draft with their updated Billings, Montana address before they’ll preview invoices. If that all holds, tomorrow noon is realistic."
+      "text": "Just licenses. I had the 36 seats and $2,592 monthly in the pricing sheet yesterday, deal desk has the same end date this morning, and the order form screen is asking for the billing contact before I can send the package."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Evan",
       "ts": null,
-      "text": "Good. For the training day, use the standard $2,400 line item and then we can discount it if needed."
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "Makes sense. They asked for it onsite, but I’m steering them to remote because they only need two sessions for supervisors."
-    },
-    {
-      "speaker": "Jordan",
-      "ts": null,
-      "text": "Any legal changes?"
+      "text": "Billing contact is Nina Patel, accounts payable. invoice@peaklineindustrial.com. They asked for net 30, standard language."
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Just a mutual 30-day termination for convenience ask. I told them we usually don’t do that on annual renewals, but we can review their redline."
+      "text": "Perfect. No discount exception, then. Their rollout manager said June 10 is the target go-live for the added team."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Evan",
       "ts": null,
-      "text": "Okay, send me the draft before it goes out. If the total lands under $58,000 net, I can approve without pulling in finance."
+      "text": "Yep, and customer success is fine with that date. If you send by three Eastern, I’ll give Peakline a heads-up to watch for it."
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Yep, current net is $57,680 with the 4% uplift and training at list. I’ll send it once deal desk is done."
+      "text": "Sounds good. I’ll get it out before then and copy you."
     }
   ]
 }

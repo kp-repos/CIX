@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final scope before I send the order form over. We have 48 standard seats, 6 admin seats, and the implementation package targeting a May 13 go-live. Is that still right?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the final scope before I send the order form over. I have 42 standard seats and 6 admin seats, annual term starting March 1, total at $48,600. Does that match what you have?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that's right. The only change is we may add two more standard seats for the finance team, but not until June. So don't include those in the initial contract."
+      "text": "That matches. The only thing is we may add two more standard seats in April, but we don't want to hold up the March 1 go-live for that."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. So initial term starts May 1, 54 total seats, and any adds later would be prorated through the billing tool. The annual subscription comes to $38,880, and implementation is a one-time $4,500."
+      "text": "Totally. We can start with the 42 and 6, and if you add those two later, it's just prorated through the same February 28 end date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the invoice timing, can you make that net 30? Our AP team won't process anything due on receipt."
+      "text": "Okay, good. On billing, can you split the invoice by department? Finance asked for 70 percent to operations and 30 percent to customer support."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, net 30 is already approved. I checked with deal desk this morning. The invoice would go out on signature, but payment due 30 days after that."
+      "text": "Yes, that's fine. It'll still be one contract, but the billing tool can generate two invoice lines with those allocations. Payment terms are net 30, same as the draft we reviewed."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Contract term is 12 months, right? We don't want the 24-month version yet."
+      "text": "Net 30 works. And implementation is still the week of February 12?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, 12 months. Renewal language is annual, with 60 days' notice if you don't want to renew. No auto-uplift in year two, just whatever's agreed at renewal."
+      "text": "Right. Kickoff on February 12, configuration sessions on the 14th and 15th, and then user training on February 22. That gives us a few business days before March 1 if anything needs adjusting."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. For implementation, we need data import done by May 6 because our team is in training May 8 and 9."
+      "text": "Sounds good. Legal had one comment on auto-renewal. They want 60 days' notice instead of 90."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That works. I'll put the import deadline in the services notes. We'll need your user list and the export from your current system by April 29 to keep that schedule."
+      "text": "I saw that. Deal desk approved 60 days this morning, so I'll include that version in the order form."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, we can do April 29. Send the order form to me and copy Marcus in procurement. If legal doesn't have comments, we should be able to sign this week."
+      "text": "Great. Send it to me and copy our controller, Miguel. If we get it today, I can route it for signature tomorrow."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I'll send it today with the pricing sheet attached, and I'll include the seat breakdown so procurement doesn't have to ask again."
+      "text": "Will do. I'll send the order form and the invoice allocation note in the same email, and I'll hold the March 1 start date on our side."
     }
   ]
 }

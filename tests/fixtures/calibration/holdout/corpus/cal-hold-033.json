@@ -10,54 +10,54 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Yeah, so for Northpoint I’ve got them at 64 seats to start, annual, $42,880 net after the 12% discount. They want a May 1 go-live, so pretty standard."
+      "text": "Hey Priya, quick check on the Northlake quote. They confirmed 42 seats, annual term, and they want the calibration data module included for the April 15 go-live."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Priya",
       "ts": null,
-      "text": "Okay. Did procurement push back on the auto-renewal or is it just pricing?"
+      "text": "Yeah, I saw the pricing sheet. With the module, they're at $38,640 for the year before tax, right?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Mostly invoice timing. They need the first invoice dated May 3, net 30, because their April close is already locked. I put that note in the CRM and on the order form draft."
+      "text": "Right. I used the mid-market tier and the 8% services discount we talked about. Implementation is 12 hours, flat $2,400."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Priya",
       "ts": null,
-      "text": "Good. Any services attached?"
+      "text": "Okay. Any issue with their net 45 ask?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Eight hours onboarding, $1,600, not discounted. They asked if we could roll it into subscription, but I told them we need it as a separate line so finance can recognize it correctly."
+      "text": "That's the one thing. I've nudged finance and deal desk a few times for the billing term sign-off, and the order form is basically sitting until that comes back."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Priya",
       "ts": null,
-      "text": "Makes sense. What’s still open before signature?"
+      "text": "Got it. If they approve net 45, no other redlines?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Just the data processing addendum language. I’ve pinged legal and security twice since Tuesday for the redline approval, and the buyer basically has the deal parked until that comes back."
+      "text": "No, their ops lead was fine with the standard contract. They just need the first invoice to hit after May 1 because their new cost center opens then."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Priya",
       "ts": null,
-      "text": "Got it. If it’s still quiet by noon, I can ask Maya to look at the thread and see if it’s sitting with the right person."
+      "text": "Makes sense. Did they still want training split into two sessions?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "That’d help. The champion is ready, he even confirmed the admin list yesterday: 7 admins, 57 standard users, no contractors in phase one."
+      "text": "Yeah, two 90-minute sessions. One for lab managers, one for the technicians. I penciled in April 8 and April 10, but told them we'd confirm after signature."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Priya",
       "ts": null,
-      "text": "Okay. Once that approval hits, send the final through deal desk, and I’ll sanity-check the totals before you route it."
+      "text": "Okay, then once finance clears the term, send it. If they sign by Friday, April 15 is still realistic."
     }
   ]
 }

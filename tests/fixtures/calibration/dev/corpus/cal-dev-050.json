@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hey Dana, sorry I'm five minutes behind. I had the renewal screen open from the ops cleanup and lost track. You still good for a quick pricing pass?"
+      "text": "Yeah, thanks for taking 4:10. My 2:30 got swallowed by getting the approval packet into deal desk, so I appreciate you sliding."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yeah, ten minutes is fine. We’re looking at 72 seats to start, with maybe another 15 after the March hiring class."
+      "text": "No problem. I only have about twenty minutes, but we can cover the quote. We're looking at 42 seats now, not 38."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. For 72 seats, annual subscription is $38,880, and the one-time onboarding package is $6,500. If you add the 15 later, they’d prorate into the same term."
+      "text": "Got it, 42 seats. At that count you're at $54 per seat per month on an annual term, so $27,216 for the year before the onboarding fee."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Finance asked if we can do quarterly invoices instead of all upfront. Net 30, same as the pilot."
+      "text": "And onboarding was still $3,500? Finance asked if that can land on the first invoice or if it's separate."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, quarterly invoicing and net 30 both work. The term would run February 1 through January 31, unless you want the go-live date to drive it."
+      "text": "It can be on the first invoice. I'll send the revised quote after I get the 42-seat line and billing contact to match in the CRM, likely by 6:00."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "We’re targeting go-live on January 22. I don’t want to pay for three weeks where nobody’s using it."
+      "text": "Okay. Billing contact is Mara Chen, mchen at northlake dot com. PO will probably be issued July 18 if legal is done."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Totally fair. We can set the billing start at January 22. The only thing is your account has two billing addresses in the CRM, so I’m going to fix that before I generate the quote or the tax line can come out weird."
+      "text": "That lines up. If signature is in by July 19, we can hold an August 5 go-live. The services team wanted ten business days for setup."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Use the Omaha address. The Denver office is just a receiving site, no invoices there."
+      "text": "Can we get our ops director on for fifteen minutes tomorrow morning? He just wants to confirm the data import format."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. Standard 12-month term, quarterly invoices, 72 seats at launch, Omaha billing. I can get the order form over by 4:30; I just need to paste the approved discount into the internal cover sheet first so it routes cleanly."
+      "text": "Nine is the only one I can't do, I'm held in the ops cleanup block then. I can do 10:30 or 1:00 Eastern."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Send it to me and copy Marcus in procurement. If the numbers match what you said, we should be able to sign by Friday."
+      "text": "Let's do 10:30. Send the invite to me and Mara, and I'll forward it to him."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I'll send the invite, revised quote, and the invoice layout in one email tonight."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks."
     }
   ]
 }

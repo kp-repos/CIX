@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Karen. I wanted to walk through the updated quote for 62 seats and make sure it lines up with your May 20 go-live."
+      "text": "Hi Dana, thanks for making time. I wanted to confirm the quote for 42 seats of the analytics module and the June 3 go-live you mentioned last week."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. I saw the quote come through. The seat count is right for phase one, but I want to confirm we can add the service desk team later without redoing the whole contract."
+      "text": "Yeah, that's right. We have 38 users today, but finance wants four extra seats for the regional managers starting in Q3."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, exactly. The agreement has a co-termed add-on clause, so if you add, say, 18 more users in August, billing just prorates those through the same renewal date, which is June 30 next year."
+      "text": "Makes sense. The pricing sheet puts that at $18,480 annually for the module, co-termed to your main agreement ending April 30, 2026. That would be a net new charge of $15,400 for the partial term."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that helps. On the invoice, our finance team needs the implementation fee split out from the subscription. Is that how it will show?"
+      "text": "Okay. And implementation is still the two remote sessions, right? No onsite work."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It will. The subscription is $47,120 for the year, and implementation is a separate one-time line at $6,800. I already noted that in the billing tool, so the invoice should reflect it cleanly."
+      "text": "Correct. Two 90-minute sessions, included. We would schedule the admin session the week of May 20 and the end-user session the week of May 27, assuming signature by May 10."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. We also need net 45 payment terms. The draft says net 30."
+      "text": "That timeline works. On invoicing, can you keep it on the same billing account as our current subscription? AP doesn't want a separate vendor setup."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I caught that after sending. I checked with deal desk this morning, and net 45 is approved. I’ll send the revised order form after this call."
+      "text": "Yep, same billing account and same PO number if you want. The billing tool will show it as an add-on line item under the existing subscription."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. For onboarding, can we still start the admin training the week of May 6?"
+      "text": "Use PO 44719, please. Legal already reviewed the main terms, so we should only need the order form."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. We have two sessions held for you: May 7 at 11 Eastern and May 9 at 2 Eastern. The project lead will send the prep checklist once the order form is signed."
+      "text": "Great. I'll send the order form today with the 42-seat quantity, $15,400 net new, and June 3 target go-live. Anything else you need on there?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. If you send the corrected version today, I can route it for signature and probably get it back by Friday."
+      "text": "Just include the service contact as me and the billing contact as Luis Moreno. If that's in there, I can route it for signature this afternoon."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That works. I’ll send it in the next hour with the updated payment terms and the invoice note. Once it’s signed, we’ll open the implementation workspace and confirm the training invites."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Okay, thanks. That should be everything on my side."
+      "text": "Perfect. I'll get that over in the next hour."
     }
   ]
 }

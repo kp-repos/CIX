@@ -10,44 +10,54 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Yeah, so Quicklane is asking for the 18-month extension today if we can get it. They’re at 42 seats now, want to add 13 on March 1, and keep the support add-on. Renewal value is like $68,400 before the add-on discount."
+      "text": "Hey, quick check on the Kenridge proposal. They asked for the 28-seat extension through April 30, 2027, right?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Okay, that’s the one with the invoice issue from December, right? They said PO has to match the legal name exactly."
+      "text": "Yeah, 28 seats, same support tier, and procurement wants the quote at $54,600 before noon their time tomorrow."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Exactly. And this is where I’m losing my mind a little. To get them a clean proposal, I had to update the account name in the CRM, then type the same seat count and dates into the pricing sheet, then retype it into the quote form, then open the billing tool and enter the billing contact and PO notes again, then send the discount through deal desk with the same start date, end date, product lines, and totals. Deal desk kicked it back because the billing tool rounded the prorate two dollars different, so I had to go back through the whole thing. This was like three hours yesterday and another hour this morning for a pretty normal extension."
+      "text": "Okay. Are you waiting on pricing approval or legal language?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Ugh, yeah. For the two-dollar variance, just put a note in the approval that billing is source of truth. Who’s approving, Maya?"
+      "text": "Neither, which is the annoying part. Producing this one extension means I have to take the same account name, seat count, start date, end date, discount, billing contact, and PO note and retype it into the pricing sheet, then the quote tool, then the contract workspace, then the billing intake, and then deal desk asks for the same fields again in their form. If one date is off, the quote and agreement don't match, so I’m checking them side by side. I started yesterday after the customer call and I’m still not through the last approval screen. It’s like five separate apps for a no-change renewal."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Maya and legal, yeah. Discount is 8%, so not crazy. Legal only cares because they want net 30 to stay and no auto-renew language changed."
+      "text": "Yeah, that tracks. For the discount, it’s the standard 12 percent off list, not anything special?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Customer needs signature by when?"
+      "text": "Correct. List is $62,040, net is $54,600 rounded, annual invoice, net 30. No services, no add-ons."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Their ops lead said Friday, February 16, because their finance batch closes Monday. If we miss it, go-live for the 13 extra users slips to April 1, and they were pretty clear that’s bad for their warehouse rollout."
+      "text": "Good. If you send me the final PDF before you route it, I’ll sanity check the dates and dollars."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Okay. Send me the latest PDF and the approval note. I’ll sanity check the seat math and ping Maya if it’s still sitting after lunch."
+      "text": "Appreciate it. The customer’s buyer, Renee, also asked that the invoice reference PO 41873 and ship-to stay as their Denver office."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Got it. And go-live doesn’t matter because they’re already live, just continuity from May 1?"
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Exactly. I’ll get you the draft by 4:30, assuming the last approval clears."
     }
   ]
 }

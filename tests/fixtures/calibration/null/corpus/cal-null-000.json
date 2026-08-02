@@ -12,52 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making time. I wanted to confirm the expansion for the calibration management workspace: 38 technician seats, 6 manager seats, and the certificate import add-on, all starting March 1."
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the order form for the 38 manager seats and 12 viewer seats, make sure the dates and billing match what you need."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that matches my notes. We also need the two Anaheim lab supervisors included in the manager seats, not as techs."
+      "text": "Yep. The seat mix is right. We’re trying to have the team live by September 16, so access on September 9 would be ideal for setup."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I have them listed as managers. The annual total is $41,760 before tax, billed on invoice with net 30 terms. Same billing contact, ap@northlakeprecision.com?"
+      "text": "That works. I have the subscription start as September 9, twelve-month term through September 8 next year, and onboarding starting the week of September 9 with two admin sessions included."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Same contact. Can you split the invoice by location, though? Chicago is 24 techs and 4 managers, Anaheim is 14 techs and 2 managers."
+      "text": "Okay. On price, the annual total you sent was $28,740. Is that with the annual payment discount already in there?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can show that allocation on the invoice. It’ll still be one contract and one payment schedule, but the location breakdown will be on the billing detail."
+      "text": "It is. List comes out to $31,200 for that mix, and the pricing sheet gives us 8% for annual prepay, so $28,704. The extra $36 was the one-time sandbox fee, which I can remove because you’re not using it."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that works. For go-live, we’re aiming March 18. Is that realistic if we sign this week?"
+      "text": "Good catch. So $28,704 flat, due net 30?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. If we have signature by Friday, kickoff would be March 4, data import on March 7, admin training March 12, and tech training March 14. That gives you a few days to check the instrument records before the 18th."
+      "text": "Correct, net 30 from invoice date. The invoice can reference PO 44719, and I’ll set the bill-to as the Chicago office with the finance inbox you gave me."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. The only other thing is we need historical certs for 2023 and 2024 loaded, not just the open items."
+      "text": "Perfect. One more thing: our legal team asked for the data processing addendum to be attached, not just linked."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Included. I’ll put that in the order notes: import completed and archived calibration certificates from January 1, 2023 through current, for both locations."
+      "text": "Yep, it’s attached to the packet. No changes to the terms from what your team accepted in May, just included as a PDF with the order form."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Send the order form to me and Luis for signature. If it’s the $41,760 and those dates are in there, we should be able to turn it around tomorrow."
+      "text": "Great. Send the revised version without the sandbox fee and I can sign today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. You’ll have it in the next few minutes, and once it’s signed I’ll send the kickoff invite for September 10 at 11 Eastern."
     }
   ]
 }

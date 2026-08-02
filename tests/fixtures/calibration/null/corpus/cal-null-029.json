@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. Your current term runs through August 31, so I wanted to walk through the renewal and the seat change before your July budget lock."
+      "text": "Yeah, thanks for making the time, Dana. Last we talked, you were looking at calibration tracking for the two Ohio plants, about 210 instruments total. Is that still the right scope?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, good timing. We’re at 42 seats today. Finance approved moving to 55, but they want the invoice to hit after July 15, not before."
+      "text": "Pretty close. We counted again and it’s 236 active gauges, plus maybe 12 that are spares. Users would be 14 technicians and 5 supervisors, so 19 seats to start."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. For 55 seats on the business plan, annual term, the pricing sheet has it at $38 per seat per month. That comes to $25,080 for the year, starting September 1 through August 31 next year."
+      "text": "Okay, 19 named seats and up to 250 assets fits the standard team plan. That’s $18,600 annually, billed upfront, and implementation is a one-time $3,200. No charge for the spare gauges unless you want them on active schedules."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Is there any implementation fee for adding the 13 people, or is that just admin on our side?"
+      "text": "That works. Procurement will ask about payment terms. We usually do net 45, not net 30."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No implementation fee. We’ll include one 60-minute admin enablement session, and your users can be added any time after the order form is signed. If you want, we can target September 3 for the session."
+      "text": "Yeah, net 45 is fine for companies your size. I’ll put that on the order form. The subscription would start February 1, with a target go-live of March 4 if we get the asset export by February 9."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "September 3 works. One thing, legal asked if the auto-renew language can stay the same as this year, 30-day notice window."
+      "text": "March 4 is good. We have an audit the week of March 18, so I don’t want to be learning the system that week."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, same contract terms as your current agreement: annual term, net 30, 30-day notice before renewal. No change there."
+      "text": "Understood. The implementation schedule would be import on February 12, admin training February 20, technician training February 27, then a check-in after the first week live. Pretty standard."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Can you show the invoice as one annual line item? Our AP team gets picky if it’s split by department."
+      "text": "Can the invoice split the subscription and implementation as two lines? Same PO, just separate lines for accounting."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, one annual subscription line for 55 seats, $25,080, invoice dated July 16, service period September 1, 2026 through August 31, 2027."
+      "text": "Yes, no problem. One annual invoice, two line items: software subscription $18,600 and implementation $3,200, net 45. Total $21,800 before applicable tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send it to me and copy Marcus in finance. If it matches what we discussed, I can sign by Friday."
+      "text": "Okay. Send that over today and I’ll route it. If legal doesn’t change anything, I think we can sign by next Friday, January 19."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send the order form today with Marcus copied, and I’ll include the September 3 enablement date in the notes so the handoff is clean."
+      "text": "Sounds good. I’ll send the order form and the service terms after this call. Once it’s signed, we’ll schedule the kickoff for the week of February 5."
     }
   ]
 }

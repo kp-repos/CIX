@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I saw the note that you’re planning the services team rollout for September 9. I wanted to confirm seats and the billing setup before we send the order form."
+      "text": "Yeah, thanks for making time, Dana. I had us down to talk through the 42-seat rollout for the operations team and make sure the May 6 go-live still works."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that’s right. We’re starting with 42 seats, not 50. Twenty-eight are full users and 14 are view-only. If adoption is good, we may add the rest in Q4."
+      "text": "That’s right. We’re at 38 users today, but I want the agreement written for 42 so I’m not coming back in June for four more seats."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it, 42 total for the first order. On the current pricing sheet, that puts the annual subscription at $31,080, and implementation is the fixed $4,800 package we discussed. Does that line up with what you had budgeted?"
+      "text": "Makes sense. At 42 seats on the annual plan, it’s $31,080 for the year, and the standard onboarding package is $3,500 one-time. So first-year total is $34,580 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "It does. The only thing procurement asked is whether the invoice can show implementation as a separate line item, because it comes from a different cost center."
+      "text": "Okay. And payment terms are net 30? Our finance team cuts checks on the 15th and the last business day."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, that’s standard. The order form will show subscription and implementation separately, and billing can invoice them on the same invoice or split them. Which do you prefer?"
+      "text": "Yep, net 30 is fine. If we get signature by April 19, the invoice would go out the next business day, so it should line up cleanly with your end-of-month run."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "One invoice is fine, just two lines. And payment terms need to be net 30. Our default contract language says net 45, but for software this size net 30 is okay."
+      "text": "Good. The other thing is contract length. We don’t want auto-renew for more than a year. Legal is pretty firm on that."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Okay, net 30. Term would be September 1, 2026 through August 31, 2027, so you’ve got a few days before go-live for admin setup. We’ll schedule onboarding the week of September 2."
+      "text": "Understood. We can do a one-year initial term with annual renewals, and a 30-day notice window if you don’t want to renew. That’s in our standard terms."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. Can you also include the support hours? My VP keeps asking whether email support is included or if that’s extra."
+      "text": "Great. For go-live, we need the admin training the week of April 29. Our warehouse supervisors are in town Tuesday through Thursday only."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Included. Email support is unlimited for named admins, and the package includes two live training sessions. If you want a third session later, it’s $650, but I wouldn’t add it now unless you know you need it."
+      "text": "Okay, then I’ll include admin training on April 30 at 11 a.m. Central and end-user enablement on May 2. That gives us a few days before May 6 for permissions and testing."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Fair. Send the order form to me and copy Mark in procurement. If we get it today, I can probably get signature by Friday, August 16."
+      "text": "That works. Send me the order form with those dates and the 42 seats. I’ll route it to procurement today."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send it over this afternoon with the 42 seats, net 30, one invoice with two line items, and the September 1 start date. Anything else you want reflected before I finalize it?"
+      "text": "Will do. I’ll send it over this afternoon, and I’ll include the billing contact as finance@northlakeparts.com unless you want a different address."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "No, that covers it. Thanks, Alex."
+      "text": "No, that’s the right one. Thanks, Mark."
     }
   ]
 }

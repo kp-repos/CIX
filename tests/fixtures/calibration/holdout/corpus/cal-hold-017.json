@@ -10,54 +10,69 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Hey, can you sanity check Northline before I send the pricing sheet? They're at 82 seats today, want to add 18 for support ops, and finance asked for annual billing instead of quarterly."
+      "text": "Yeah, so quick rundown. Cedar Ridge is clean now: 64 seats, standard annual, invoice starts August 1, no redlines."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Yeah, pulling it up in the CRM. I see the expansion note. Is this the same account with the services go-live on March 10?"
+      "text": "Good. They stayed with net 30?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "That's them. Implementation is fine, SOW is signed. The weird part is the main subscription. Their agreement ends this Friday, February 28, and I don't see a renewal opp, no extension order form, nothing from deal desk. And as far as I can tell, nobody from our side has actually talked to them about continuing past Friday."
+      "text": "They did. Finance was fine with it because the first year is $38,400, paid upfront."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Wait, nobody has had the renewal conversation? Not customer success, not us? That's, yeah, that's not good. If their term ends Friday and we haven't asked whether they're carrying on, we can't just assume the 100 seats roll into the expansion."
+      "text": "Okay. Anything weird on the week?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Exactly. I checked call notes back to January 6. It's all go-live dates, invoice contacts, and the added seats. No one said, hey, your contract is expiring, do you want a new 12-month term or a short bridge. We're basically at the end date without client confirmation."
+      "text": "One thing that's making me a little twitchy: Harbor Brands' agreement ends this Friday, July 26, and I don't think anyone from our side has talked to them about carrying on. Like, the paper just stops."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Okay. First, don't send pricing like it's a normal add-on. Send a note to Angela and Priya asking for a 30-minute renewal call today or tomorrow. Keep it simple: current term ends February 28, expansion depends on active subscription, need direction on 12 months versus month-to-month bridge."
+      "text": "Wait, Harbor with the warehouse forecasting module?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I can hold the quote until they answer. For numbers, if they do 100 total seats at the current tier, annual is $72,000 before the 8% uplift. Services already billed at $9,500, invoice went out Monday."
+      "text": "Yeah. Twenty-two users, nine-month term, $24,750. Last actual customer conversation I can see was the June admin training. No renewal thread, no extension language, no, uh, even a casual check-in about whether they keep it on after Friday."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Good. And put the billing contact on there? Last time AP kicked back the PO because the ship-to address had the old Denver office."
+      "text": "That's uncomfortable. They're still logging in every day too, right?"
     },
     {
-      "speaker": "Maya",
+      "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I updated the billing tool with the Phoenix address and net 30. Legal terms are standard, no redlines expected unless they ask for the bridge."
+      "text": "Pretty much. Ops had six tickets this month, all normal stuff, but commercially it's just sitting there. If Monday rolls around, we're basically out of contract and nobody will have said anything to Mara about what happens next."
     },
     {
-      "speaker": "Evan",
+      "speaker": "Colleague",
       "ts": null,
-      "text": "Alright. Log the outreach in the CRM, tag me if they respond. If they want the 12-month renewal, I can turn the order form same day."
+      "text": "Yeah, not great. Okay. On the other items, did Maple Tooling approve the 15-seat bump?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "They did. Starts September 1, co-termed to their main agreement, $11,250 uplift. Deal desk already blessed the discount staying flat."
+    },
+    {
+      "speaker": "Colleague",
+      "ts": null,
+      "text": "Perfect. And Brightline?"
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Still targeting go-live August 12. They want the training split into two 90-minute sessions because their support team is on shifts, but otherwise it's straightforward."
     }
   ]
 }

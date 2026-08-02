@@ -10,54 +10,64 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Avery, Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the final scope for the calibration management subscription and make sure the start date and seat count are right before I send the order form."
+      "text": "Yeah, so thanks for making time, Dana. I had you at 38 users today and you’re looking to add the customer ops team before the September rollout. Is that still right?"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Dana, Customer",
       "ts": null,
-      "text": "Sure. We’re at 28 standard users and 4 admins. That covers quality, maintenance, and the two lab leads. We don’t need seats for operators yet."
+      "text": "Close. We counted again this morning. It’s 42 total seats, not 38. Thirty-two need full access, ten are managers who mostly need dashboards and exports."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Avery, Rep",
       "ts": null,
-      "text": "Got it, 32 total named users, with 4 admin permissions. The annual subscription is $38,400, and the one-time implementation package is $6,200. That includes the instrument import, two remote training sessions, and the calibration due-date workflow setup."
+      "text": "Got it. For your plan the seat type is the same, so 42 seats. At the annual rate we discussed, that’s $68 per seat per month, billed annually. Comes to $34,272 for the year."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Dana, Customer",
       "ts": null,
-      "text": "Okay. The price matches what we reviewed. Can you make the subscription start August 1? Our current process runs through July, and finance wants the invoice dated after the new budget opens."
+      "text": "Okay. And the implementation fee was separate, right?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Avery, Rep",
       "ts": null,
-      "text": "Yep, August 1 start, 12-month term through July 31 next year. Invoice issued August 1, net 30. And billing contact is still Marisol in AP, correct?"
+      "text": "Right, one-time $4,500 for onboarding. That includes the data import, two admin trainings, and one end-user webinar. No extra charge for the sandbox you asked about."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Dana, Customer",
       "ts": null,
-      "text": "Correct. marisol dot king at our company. Also, can you note that we need the asset upload template by July 10? We have about 1,180 gauges and meters to clean up."
+      "text": "That works. We need the invoice dated after August 15 if possible. Our fiscal approval is already in, but accounting won’t pay anything dated before then."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Avery, Rep",
       "ts": null,
-      "text": "Yes, asset template by July 10 is included. For go-live, we’re targeting September 3, with admin training the week of August 19 and user training the following week."
+      "text": "Yeah, that’s fine. I’ll set the subscription start date as September 1, invoice date August 16, net 30 terms. Your first training would be the week of August 26 if we get signatures by next Friday."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Dana, Customer",
       "ts": null,
-      "text": "That works. One thing, our VP asked whether the support coverage includes audit week. We have our ISO audit September 16 to 18."
+      "text": "Next Friday is August 9, yep. Our VP can sign electronically. The only contract item she asked me to confirm is the renewal language. It doesn’t auto-renew for three years or anything like that, correct?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Avery, Rep",
       "ts": null,
-      "text": "It does. Standard support is business hours, and implementation support will still be active then. I’ll list the audit dates in the kickoff notes so the services team knows to keep an eye on response times that week."
+      "text": "Correct. It’s a 12-month initial term, then it renews annually unless either side gives 30 days’ notice before the renewal date. No multi-year lock unless you choose one."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Dana, Customer",
       "ts": null,
-      "text": "Perfect. Send the order form to me and copy procurement. If it matches this, I can sign by Friday."
+      "text": "Okay. Send me the order form with 42 seats, the $4,500 onboarding, September 1 start, and August 16 invoice date. I’ll route it today."
+    },
+    {
+      "speaker": "Avery, Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it in the next hour, and I’ll include the implementation schedule and the security packet link in the same email so your VP has the full set."
+    },
+    {
+      "speaker": "Dana, Customer",
+      "ts": null,
+      "text": "Perfect. If it matches what we just covered, I don’t expect any issues."
     }
   ]
 }

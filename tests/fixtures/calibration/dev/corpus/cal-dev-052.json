@@ -10,49 +10,54 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so for Northlake Supply, they want the renewal proposal by Friday. Current term ends March 31, and they're asking for 74 seats, down from 81."
+      "text": "Hey Jordan, do you have two minutes on the Northgate renewal?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Okay. Same package, or did they add the reporting module back in?"
+      "text": "Yeah, so I’m between calls. What’s up?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Same package plus five viewer seats for ops. Discount stays at 12%, unless we can get approval for 15% because procurement is pushing on the invoice timing."
+      "text": "They’re good with the 24-month extension, 72 seats, same support level. They want the new term to start November 1 and they asked for annual invoicing instead of quarterly."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "What's the annual total at 12%?"
+      "text": "Okay. Discount still at 12%?"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "It lands at $48,620 for the year, billed quarterly. I'm going to move the seat count and dates from the CRM notes into the pricing sheet, then the deal desk request, and tomorrow I'll line up the billing intake so the proposal doesn't show the wrong start date."
+      "text": "Yep, comes to $38,400 a year before tax. I have the pricing sheet, the billing quote, and the contract request all showing 72 seats and November 1 now, but can you sanity check the numbers before I send the proposal? I was in and out of them yesterday and this morning."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Good catch. Their AP team was pretty specific last time, net 30 and the PO number on the first invoice."
+      "text": "Sure. Send me the draft PDF."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Yep, PO is NS-4472. They also asked if we can keep the same service language, no new security addendum unless legal requires it."
+      "text": "Just sent. The only customer-facing change from last year is the invoice cadence. No redlines to terms, no services add-on."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "I think that's fine. Put the 15% ask in as optional, but send them the 12% version if approval drags."
+      "text": "Looking now. Pricing matches: 72 seats at $44.44 per seat per month, 12% discount, annual total $38,400. Term says November 1, 2026 through October 31, 2028."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya",
       "ts": null,
-      "text": "Makes sense. I'll have a draft to you by end of day, and if deal desk clears it tomorrow, customer gets it Thursday morning."
+      "text": "Great. I’ll send it to Erin and cc procurement. She said if they have it by 3 today, they can get a PO issued this week."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Looks clean. I’d just mention the first invoice will cover the full first year so they’re not surprised."
     }
   ]
 }

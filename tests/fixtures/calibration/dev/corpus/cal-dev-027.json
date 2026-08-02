@@ -12,57 +12,52 @@
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so quick deal desk review before the 2:00. I cleaned up the DeltaForge renewal in the CRM, 84 seats, same support tier, and the pricing sheet has it at $18,900 for the year."
+      "text": "Yeah, so before the 2:00 with Benton, can I sanity check the rollout plan? They’re asking for 38 seats live on July 15, then the remaining 24 after training on August 5."
     },
     {
-      "speaker": "Chris",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Good. Did you fix the invoice contact? Last time billing had accounts payable and the controller both getting copies."
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "Yep, billing tool is updated to ap@deltaforge.com only, net 30, PO number 44718. Nothing weird there."
-    },
-    {
-      "speaker": "Chris",
-      "ts": null,
-      "text": "Okay. What else is on fire?"
+      "text": "That matches what I have. Billing starts July 15 for the first 38, and finance already confirmed the invoice can show the second group as a separate line."
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Northlake is the one I'm worried about. Their agreement ended July 31, and today is August 6. We have not talked to them about carrying on, at all. No renewal call, no heads-up email, nothing from me, nothing from the account team. They're still at 42 seats and they submitted two calibration batches yesterday, but from our side we've let the end date pass without any client conversation about continuing service, pricing, extension, anything. That's, uh, pretty bad."
+      "text": "Perfect. Also, one thing that’s been bugging me: HarborCrest’s agreement ends tomorrow, June 28, and I don’t think anyone from our side has talked to them about continuing. Like, at all."
     },
     {
-      "speaker": "Chris",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Yeah, not great. Let's not touch pricing until we know if they even have budget approved. Who owns the relationship day to day?"
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "Jenna on customer success. I can ask her for context, but I'll send the customer note myself so it's not three people jumping in."
-    },
-    {
-      "speaker": "Chris",
-      "ts": null,
-      "text": "Keep it simple. Ask for a 20-minute call this week, reference current usage, and say we want to align on next steps. Don't mention internal timing."
+      "text": "Tomorrow? They’re the 52-seat account with the reporting add-on, right? No renewal conversation, no extension, nothing?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Agreed. Also, their last invoice was $7,560 quarterly, paid on July 12, no balance due. So finance won't be the blocker."
+      "text": "Nothing that I can find, and I asked Ben because he had the last touch. Their last actual conversation was May 16 about a support ticket. It’s just sitting there with the end date basically here, and nobody has said, hey, do you want to keep this going."
     },
     {
-      "speaker": "Chris",
+      "speaker": "Jordan",
       "ts": null,
-      "text": "Okay. For the 2:00, bring DeltaForge and Northlake, leave the small trial conversions out unless someone asks."
+      "text": "That’s rough. If it rolls past Friday, we’re out of term with an active customer and they may think we just forgot about them, which, yeah, we kind of did."
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Will do. I'll update the CRM notes after I send the email, and I'll flag you if they push back on term length."
+      "text": "I know. It’s one of those things where you see the date and your stomach drops. Anyway, for Benton, I’ll keep the scope to the implementation timeline and not get pulled into custom reporting on the first call."
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Good call. If they ask, just say the standard dashboards are included, and anything custom gets sized after go-live."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Got it. And the services fee is still $7,800, billed up front with net 30 terms?"
+    },
+    {
+      "speaker": "Jordan",
+      "ts": null,
+      "text": "Yep. Keep it simple: seats, timeline, services fee, and the August 5 second cohort. That should be a clean call."
     }
   ]
 }

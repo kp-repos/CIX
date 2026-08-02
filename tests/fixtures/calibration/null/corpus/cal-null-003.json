@@ -12,67 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making time. I had us down to talk through the 38-seat expansion and the May 15 go-live for the support team."
+      "text": "Yeah, so thanks for making time, Dana. I had you at 32 analyst seats and 6 manager seats for the inventory planning module, with a target go-live of March 18. Is that still the right shape?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That's right. We have 27 users today, adding 11 more. The main thing is keeping the invoice clean because finance wants one line item for the subscription and one for onboarding."
+      "text": "Mostly, yeah. We need 34 analyst seats now. Two folks moved over from purchasing last week. Manager seats stay at 6."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, that works. The quote I sent this morning shows $42,180 annual subscription for 38 seats, plus $3,200 for onboarding. Net 30, same master terms you signed last year."
+      "text": "Got it, 40 total users, 34 analyst and 6 manager. On the annual plan that puts the subscription at $46,800 for the year, and implementation is $4,500 one time. First invoice would be due net 30 from signature."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And the added seats start billing June 1, not immediately, correct?"
+      "text": "Okay. Can the invoice reference PO 73142 and our cost center, 220-OPS? Accounts payable kicks it back if that is missing."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, June 1 start for billing. We can still open the seats on May 15 for configuration and training, no extra charge for that setup window."
+      "text": "Yes, we can put both on the order form and the invoice. No issue. Do you want the invoice sent to ap@northlinefoods.com or to you first?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Training-wise, we need two admin sessions and one end-user session. Can those happen the week of May 6?"
+      "text": "Send it to AP and copy me. Also, on timing, if we sign by February 9, are we still okay for March 18?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so implementation has May 7 at 1 p.m. Eastern and May 9 at 11 a.m. Eastern held for admins, and May 13 at 2 p.m. for the end users. Those are included in the onboarding line."
+      "text": "Yes. The project plan is three weeks for data mapping, one week for testing, then admin training. If we have the product list and warehouse file by February 16, March 18 is comfortable."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Legal asked one question: the renewal date stays February 28, 2026, even with this add-on?"
+      "text": "That works. Our ops lead can send those files. Contract term is 12 months, right? No multi-year commitment hidden in there?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Exactly. The add-on co-terms to February 28, 2026. The order form lists the prorated period from June 1 through February 28, then it rolls into the regular renewal."
+      "text": "Correct, 12 months. It renews annually unless either side gives 60 days' notice, and the price increase at renewal is capped at 5 percent. That language is in section 4."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Send me the final order form and I'll route it today. If it's under $50,000, our controller can sign without a second review."
+      "text": "Okay. Send me the order form today if you can. I’ll route it to finance, and assuming no surprises, we can sign Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Already attached to the email I just sent, order form OF-1846. Total due this term is $34,835 because of the proration, plus the $3,200 onboarding. Let me know if the invoice needs a PO number."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Use PO-7714. If you can put that on the first invoice, we're good."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. Once it's signed, you'll get the kickoff invite with the same May dates and the admin checklist. Nothing else needed from your side today."
+      "text": "Will do. I’ll send it over with the 34 analyst seats, 6 manager seats, PO 73142, cost center 220-OPS, annual invoice net 30, and March 18 go-live target."
     }
   ]
 }

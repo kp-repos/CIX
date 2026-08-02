@@ -12,62 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to quickly walk through the revised quote for 42 seats and the implementation timeline we discussed last week."
+      "text": "Hi Dana, thanks for making time. I had 2:00 to 2:30 for us to walk through the renewal and the additional services seats you mentioned."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sure. I have about 20 minutes. I did look at the quote, and the seat count is right for phase one. We may add five more in Q2, but not at go-live."
+      "text": "Yeah, that's right. We have 42 active seats today, and we're adding the support operations team, so I think we need 18 more by September 1."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. So the current order form is 42 standard seats at $68 per seat per month, billed annually. That puts the subscription at $34,272 for the year, plus the one-time onboarding package at $4,800."
+      "text": "Got it, so 60 total seats starting September 1. Your current term runs through January 31, and the current unit price is $74 per user per month. For the added 18, we'd prorate September through January."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that matches what I have. On the invoice, can the onboarding fee be listed separately? Our finance team needs to code that to a different cost center."
+      "text": "Okay. What does that put the invoice at?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, we can do that. I’ll note it for billing, separate line item for onboarding, cost center field included on the invoice. Do you need the PO number on there too?"
+      "text": "For the 18 added seats, September 1 through January 31 comes to $6,660 before tax. The renewal from February 1 to January 31 next year at 60 seats would be $53,280 annually, assuming the same package."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yes, PO 41792. And the billing address should be the Denver office, not our headquarters in Chicago."
+      "text": "That matches what I expected. We don't need the premium reporting add-on. Just the standard dashboards and the onboarding session for the new team."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. I’ll update that in the CRM and make sure it flows through to the billing tool. For timing, if we get signature by Friday, March 15, we can start kickoff on March 25 and target go-live for May 6."
+      "text": "Yep, standard dashboards are included. The one-time onboarding session is $1,200, and we can schedule it the week of August 26 if procurement is done by the 16th."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "May 6 is still fine. We have manager training the week of April 22, so as long as the sandbox is ready by then, we’re good."
+      "text": "The 28th would be best. We have a team meeting that morning, so afternoon Pacific time is ideal."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, that works. Our implementation lead has a sandbox handoff penciled in for April 18. I’ll include that milestone in the project notes and the welcome email."
+      "text": "I can hold August 28 at 1:00 Pacific. For contract terms, no change to the master agreement, just an order form for the added seats and then the renewal order form for February."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Last thing, the order form says auto-renewal at 12 months. Legal asked if we can have 60 days’ notice instead of 30."
+      "text": "Please send both. Billing should go to ap@northlinecomponents.com, and the PO number for the seat add is PO-4187."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That’s a standard change. I’ll send it to deal desk today and get the order form updated to 60 days’ notice. Should be back to you by tomorrow afternoon."
+      "text": "Perfect. I'll send the order forms today with the prorated seat add, the $1,200 onboarding line, and the renewal pricing for 60 seats. Anything else you want called out?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Send the updated version to me and copy finance, and I’ll route it for signature once legal confirms."
+      "text": "No, that's it. If you send it over today, I can route it for signature tomorrow."
     }
   ]
 }

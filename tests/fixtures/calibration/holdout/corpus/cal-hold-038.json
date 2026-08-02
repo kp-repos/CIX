@@ -12,52 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I wanted to recap where we are: 62 seats for the analytics workspace, annual term, target go-live of March 18. Is that still the right scope on your side?"
+      "text": "Yeah, thanks for making time, Dana. I wanted to walk through the proposal for the analytics workspace: 68 seats, annual term starting March 1, and the onboarding package we discussed."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, that's right. We may add five more seats after Q2, but I don't want to bake that into the first order. For March 18, we need admin training the week before."
+      "text": "Yep, that matches. We have 52 current users and then the finance team adds 16 once we finish the quarter-end close."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Makes sense. I checked the pricing sheet before the call. For 62 seats, you're at $38 per seat per month on an annual commit, so the software total is $28,272 for the year. Implementation is the one-time $4,500 package."
+      "text": "Got it. The pricing sheet has 68 seats at $54 per seat per month, billed annually, so the subscription is $44,064 for the year. The onboarding package is a one-time $4,800."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Finance asked if the invoice can split the subscription and implementation into separate line items. Same invoice is fine, just needs to be clear for coding."
+      "text": "Okay. And the invoice would come after signature, right? Our AP team needs a PO on it, but we can turn that around pretty fast."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, that's standard. I'll note that in the billing tool and on the order form. Payment terms are net 30 unless you need something else."
+      "text": "Exactly. Once the order form is signed, billing sends the invoice with your PO number included. Payment terms are net 30, same as your current agreement."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Net 30 works. Legal had one small thing on the renewal language. They want auto-renewal at 12 months with 30 days' notice, not 60."
+      "text": "Good. For go-live, we were aiming for March 18. Is that still reasonable if legal signs by next Friday, February 16?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. Our template is 60, but 30 is usually fine for mid-market. I'll send that to deal desk today and should have a clean version by tomorrow afternoon."
+      "text": "Yeah, so if signature is by the 16th, kickoff can be February 21. That gives us three working sessions before March 18: admin setup, data connection, and end-user training."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. Also, for go-live, we need your team to load the initial user list by March 12. We can send the CSV by March 7 if that helps."
+      "text": "That works. I’ll need the training session recorded because our West Coast managers can’t all join at 10 a.m. Eastern."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That works. I'll put March 7 for your CSV, March 12 for user load, admin training March 13, and go-live March 18. I'll include those milestones in the implementation notes."
+      "text": "No problem. We’ll record it and send the link the same day. We can also include the quick-start guide in the calendar invite."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send the updated order form when you have the 30-day notice language, and I'll route it for signature."
+      "text": "Perfect. Send me the order form with the 68 seats and March 1 start date, and I’ll route it for signature today."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Will do. I’ll send it over this afternoon, and I’ll include the invoice estimate so AP has the totals ahead of time."
     }
   ]
 }

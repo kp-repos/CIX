@@ -10,54 +10,54 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Dana",
       "ts": null,
-      "text": "Yeah, so quick pipeline check. The Northstar renewal is at 42 seats, $31,080 annual, target start date is March 1. The CRM is updated, quote is clean, and they’re fine with net 30."
+      "text": "Hey Marcus, quick check on Riverbend. Are they still at 46 seats for the analytics package, $51,840 annual?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Marcus",
       "ts": null,
-      "text": "Okay, that one sounds straightforward. Anything blocking it or are we just waiting for them to countersign?"
+      "text": "Yeah, 46 seats, annual prepay, start date November 18. Commercials are fine. The only blocker is the mutual indemnity redline. I've nudged legal Monday, yesterday, and again this morning for a yes or no, and until that sign-off comes back the deal is just sitting there. Their procurement lead will not countersign without it."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Dana",
       "ts": null,
-      "text": "It’s blocked on the finance approval for the two-month co-term credit. I’ve nudged finance on Monday, again yesterday, and then this morning in the billing channel. They haven’t answered whether the $4,180 credit can be applied on the first invoice, and the customer won’t sign until that answer comes back. So the deal is just sitting stalled even though procurement is ready."
+      "text": "Okay. Is the redline weird, or is it the same carveout we approved for Northgate?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Marcus",
       "ts": null,
-      "text": "Got it. Is the credit tied to unused seats from the old contract?"
+      "text": "Pretty close to Northgate. Cap stays at twelve months of fees, no uncapped data stuff. I sent legal the comparison so it should be a quick read, but yeah, we're stuck until they answer."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Dana",
       "ts": null,
-      "text": "Exactly, they dropped from 48 to 42 seats in October but the contract runs through February 28. The pricing sheet supports it, deal desk already said the math is fine, but finance still has to sign off on how it appears on the invoice."
+      "text": "Got it. Any risk on the go-live if this slips past Friday?"
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Marcus",
       "ts": null,
-      "text": "Okay. What about the Pinnacle expansion, the one with the April go-live?"
+      "text": "Some. They want provisioning by November 11 so their ops team can load users before training. Also, separate item, I've been chasing security for the answer on their questionnaire around data retention. I sent the exact customer question twice and pinged them again after lunch; Riverbend won't issue the PO until that security sign-off arrives, so the order is parked there too."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Dana",
       "ts": null,
-      "text": "That’s the other one I’m worried about. Pinnacle wants to add 25 seats, $18,750 annual, and they need the security addendum approved before their CIO will release the PO. I’ve been nudging legal every day since last Thursday for that sign-off, plus I forwarded the redline summary twice. Until legal answers, the customer is holding the PO and the deal is stalled. We’re basically parked on a signature page waiting for that one internal yes."
+      "text": "Yeah, so both are internal approvals, not customer hesitation."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Marcus",
       "ts": null,
-      "text": "Yeah, that’s frustrating. Commercial terms are otherwise okay?"
+      "text": "Exactly. Buyer is good, budget is approved, invoice needs to show the parent entity, Riverbend Manufacturing LLC, and net 30. If legal and security clear today, I can get signature tomorrow."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Dana",
       "ts": null,
-      "text": "Yep. One-year term, standard support, invoice on April 15, no special SLA. They accepted the implementation fee at $3,500 and the success manager has the onboarding dates penciled in for April 22 and 24."
+      "text": "Alright. Send me the thread. I'll add context on the November 18 start date and the $51,840 booking, but keep the customer update simple."
     },
     {
-      "speaker": "Colleague",
+      "speaker": "Marcus",
       "ts": null,
-      "text": "Alright. For forecast, keep Northstar in commit if the invoice treatment lands today, and Pinnacle in best case until that legal item clears."
+      "text": "Will do. I'll tell them we're aligning the last contract and security responses and that the seat count and timeline are unchanged."
     }
   ]
 }

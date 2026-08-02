@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for the time, Megan. I’ve got you down for the calibration tracking rollout at the Dayton and Findlay plants, 18 named users, and about 1,450 active instruments. Is that still the right scope?"
+      "text": "Hi Dana, this is Mark with CalPro. Still a good time for the calibration tracking quote?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That’s right. We may add the Columbus warehouse later, but not before Q3. For now it’s 18 users, mostly quality techs and two supervisors."
+      "text": "Yeah, I have about fifteen minutes. We reviewed it this morning. The main question is seats. You quoted 24 named users, and we think 28 is safer for the lab supervisors."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Perfect. The annual subscription for that is $31,200, and the onboarding package is $4,800 one-time. That includes importing your current asset list, setting up calibration intervals, and two admin training sessions."
+      "text": "Yep, that works. At 28 seats the annual subscription is $31,920, and the onboarding stays the same at $4,800. So first-year total is $36,720 before tax."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. On invoicing, can you do quarterly billing? Our finance team prefers four invoices instead of the full year up front."
+      "text": "Okay. And that includes the asset import, right? We have around 3,400 gauges and meters in the spreadsheet."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, quarterly is fine. It would be $7,800 per quarter for the subscription, net 30, and the $4,800 onboarding fee would be on the first invoice."
+      "text": "Correct. One asset import from your spreadsheet, two admin training sessions, and the certificate template setup. If the count lands a little over 3,400, that's fine. We're not charging by asset in that tier."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. We need the first invoice dated February 1 if possible. Our budget opens that week, and I don’t want it landing in January."
+      "text": "Good. Finance asked if you can invoice half on signature and half at go-live. Our target go-live is October 21st."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "No problem. If we get the order form signed by January 29, I’ll set the service start date as February 1 and the first invoice date as February 1."
+      "text": "Yes, net 30 on both invoices. First invoice on signature, second invoice on the go-live date, October 21st. I'll put that payment schedule in the order form."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. What’s realistic for go-live? We have an audit on April 22, so I’d like people using it before then, not the week of."
+      "text": "Term is still twelve months?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "For your size, six weeks is realistic. If kickoff is February 6, asset import can finish by February 20, training the week of March 4, and go-live March 18. That gives you about a month before the audit."
+      "text": "Twelve months starting September 16th, since that's when you'd get access for setup. It runs through September 15th next year. Renewal is annual unless either side gives 30 days' notice."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That timeline is fine. Please send the order form with those dates and quarterly billing. I’ll route it to procurement today."
+      "text": "That's fine. Send the updated order form with 28 seats and the split billing. If it matches what we just said, I can route it for signature today."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send it over this afternoon with the 12-month term, February 1 start, quarterly billing, and the March 18 go-live target. Anything else you want reflected?"
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Just include Columbus as optional expansion later, not part of this purchase. Otherwise we’re good."
+      "text": "Will do. You'll have it in about an hour, and I'll include the implementation dates in the same email so your ops lead has the timeline."
     }
   ]
 }

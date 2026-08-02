@@ -10,54 +10,44 @@
   "thread_id": null,
   "segments": [
     {
-      "speaker": "Rep",
+      "speaker": "Maya Patel, Customer",
       "ts": null,
-      "text": "Hi Dana,\n\nAttached is the updated summary for 38 seats, calibration scheduling, and the 2-hour admin training block. Target go-live is still March 18 if we have the asset list by March 6.\n\nThanks,\nMark"
+      "text": "Hi Jordan,\n\nCan you send the final quote for 42 seats of the platform plus implementation? Target go-live is September 16. We need annual billing, net 30, and the service dates should line up to start September 1 if possible.\n\nMaya"
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan Lee, Rep",
       "ts": null,
-      "text": "Thanks Mark.\n\nWe’re good on 38 seats for now. Please confirm the invoice can be split 50% on signature and 50% at go-live. Our AP team also needs net 30, not due on receipt.\n\nDana"
+      "text": "Hi Maya,\n\nFor 42 seats, annual subscription is $42,840. Standard implementation is $3,000, but I can include that at no charge if we keep the September 1 start date.\n\nTerm would be 12 months, September 1, 2026 through August 31, 2027. Annual invoice on signature, net 30.\n\nJordan"
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya Patel, Customer",
       "ts": null,
-      "text": "Yeah, that works. I noted 50/50 billing and net 30 in the billing notes.\n\nFor the PO, use the $44,850 from our texts; I’ll get the order form cleaned up after the paperwork catches up.\n\nMark"
+      "text": "Thanks. Finance is asking whether we can keep year one under $40,000 all-in. The business owner is good with the September 16 go-live, but I need a number they can approve before Thursday’s procurement cutoff."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan Lee, Rep",
       "ts": null,
-      "text": "Ok. PO will reference $44,850 and 38 users.\n\nOne more thing: we have 612 instruments in the first import. Is that covered, or do we need the larger onboarding package?"
+      "text": "Yeah, understood. I’m checking what room we have on the first-year subscription. No issue on the go-live date from our side as long as we have the user list by September 4."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya Patel, Customer",
       "ts": null,
-      "text": "612 is covered. The standard onboarding includes up to 750 active instruments and one historical import file.\n\nIf you want us to clean up duplicates before import, that would be extra, but if your team sends the final CSV in the template, no added fee."
+      "text": "The $39,200 you sent over chat works for us. If that is the number, I can get the PO started today. The order form link still shows $42,840, so send me the version we should attach when it catches up."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan Lee, Rep",
       "ts": null,
-      "text": "Got it. We’ll handle cleanup.\n\nCan you send the template again? The one I have has columns for site and department, but our quality lead asked about location and owner too."
+      "text": "Yes, use $39,200 for the PO amount. I’ll get the updated order form over after the system reflects it. Same terms: 42 seats, annual billing, net 30, September 1 start."
     },
     {
-      "speaker": "Rep",
+      "speaker": "Maya Patel, Customer",
       "ts": null,
-      "text": "Sure. Attached is the newer template.\n\nRequired columns are asset ID, description, interval, next due date, and owner. Site and location are optional but recommended. Department can be blank if you don’t use it."
+      "text": "Got it. Billing entity is Northlake Components, Inc., 1180 Summit Ave, Dayton, OH 45402. AP email is invoices@northlakecomponents.com.\n\nPlease list the cost center as OPS-214 on the invoice if there is a field for it."
     },
     {
-      "speaker": "Customer",
+      "speaker": "Jordan Lee, Rep",
       "ts": null,
-      "text": "Thanks. Legal is asking whether the initial term can end March 31, 2027 instead of March 17, 2027 so renewals line up with our fiscal calendar."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Yes, we can set the initial term through March 31, 2027. Renewal would then be annual starting April 1.\n\nNo change to the implementation timing or billing split."
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "Perfect. Send the final packet when ready and I’ll route for signature today.\n\nDana"
+      "text": "Thanks. I’ll include the billing details and cost center note. I’ll also send the implementation kickoff dates so your team can pick a slot the week of August 26."
     }
   ]
 }

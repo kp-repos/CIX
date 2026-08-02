@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Laura. I wanted to confirm the updated quote for the support analytics package: 42 seats, annual term, starting May 1, comes to $31,920 before tax."
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the updated quote for 48 seats and make sure the March 18 go-live still works on your side."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That matches what I had. The only thing I want to check is the implementation fee. Last version showed $4,500 and this one shows $3,750."
+      "text": "Yeah, that timing still works. We have 42 users confirmed now, and then six more in customer success probably by April. So 48 is the right number."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. We took out the custom dashboard workshop since your team said the standard reports are fine for phase one. So onboarding is still included, just not that extra session."
+      "text": "Perfect. The annual subscription comes to $38,400, and implementation is a one-time $4,500. That includes the admin training, data import, and two working sessions with your ops lead."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, good. And for billing, can you split the invoice by department? We need 28 seats under customer operations and 14 under account management."
+      "text": "Okay. And payment terms are net 30, right? Our finance team asked because they cut checks on Thursdays."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, we can do that in the billing tool. It'll still be one contract, but two invoice lines with those department labels. Net 30 terms, same as your current agreement."
+      "text": "Yep, net 30 from invoice date. If we get signature by Friday, billing can issue the invoice on Monday, February 12, so it would be due March 13."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Legal had one note on the renewal language. They want the auto-renew notice window to be 60 days instead of 30."
+      "text": "That should be fine. On the contract, I saw the renewal is one year after the start date. Is the start date March 18 or the signature date?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "That should be fine. I'll send it through deal desk, but it's a standard change for us. No change to pricing or the May 1 start date."
+      "text": "March 18. The agreement can be signed earlier, but the service term starts on the go-live date, so renewal would be March 18 next year."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. If you can get the revised order form over today, I can route it for signature tomorrow. Our cutover target is May 6, after payroll closes."
+      "text": "Good. Last thing, can you confirm we can add seats mid-year at the same per-seat rate?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Understood. I'll update the order form, attach the split-invoice note, and send it by 3 PM Eastern. Once signed, our onboarding manager will schedule the admin kickoff for the week of April 22."
+      "text": "Yes. Additional seats are prorated through the end of the current term at $800 per seat annually. I’ll make sure that language is in the order form."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sounds good. Send it to me and copy Evan in procurement. We'll turn it around as soon as we have the final version."
+      "text": "Great. Send that version over and I’ll route it to legal today. I don’t expect much back, maybe just their standard notice address."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Sounds good. I’ll send the revised order form and the implementation outline in the next hour. If legal has redlines, just send them over and we’ll turn them quickly."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. Assuming no surprises, we should be able to sign by Friday."
     }
   ]
 }

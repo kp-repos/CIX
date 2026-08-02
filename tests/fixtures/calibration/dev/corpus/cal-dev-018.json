@@ -12,57 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Karen. I pulled up the quote in the CRM. We’ve got 42 user seats, the implementation package, and the reporting add-on, with a target go-live of September 16."
+      "text": "Yeah, thanks for making time, Dana. I wanted to confirm the scope we talked about: 42 user seats for the calibration management platform, plus the initial import of your gauge list from the two plants."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That matches what I have. The only thing I wanted to double-check is the seat count. We may need 45, but three of those would be read-only managers."
+      "text": "That's right. It's 42 seats to start, and the gauge list is about 3,800 records. We may add the Ohio service team later, but not for this contract."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, so the pricing sheet has read-only seats at $18 per user per month, versus $64 for full users. If we change it to 42 full and 3 read-only, the annual total comes to $34,848 before tax."
+      "text": "Got it. For the first year, that puts the subscription at $28,560, and the one-time implementation is $6,400. That includes the import, admin training, and two technician training sessions."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that’s within the range finance approved. Can you also confirm the invoice timing? We need the first invoice after July 1, not before."
+      "text": "Okay. And the invoice timing, can that be net 30 after signature? Our finance team is closing July pretty tight."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Absolutely. I’ll set the billing start date as July 1 in the billing tool, net 30 terms. So the invoice would generate July 1 and be due July 31."
+      "text": "Yes, net 30 after signature is fine. If you sign by August 9, the invoice would go out the same week, and payment would be due 30 days from invoice date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. And implementation is still four weeks? Our ops team wants training done before Labor Day."
+      "text": "That works. On go-live, we're trying to be ready by September 23 because our internal audit starts October 7."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. If we get signature by June 21, kickoff would be June 26, configuration in July, user training the week of August 19, and then go-live September 16. There’s a little buffer in there."
+      "text": "That timeline is reasonable. We'd schedule kickoff the week of August 12, target the data import review by September 6, and then training the week of September 16."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. On the contract, our legal team asked for a one-year term with a 60-day renewal notice. Is that in the draft?"
+      "text": "Good. One question on the contract term: it's a 12-month term, and then renewal at the same seat count unless we change it, correct?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It is now. I updated the order form to a 12-month initial term and 60 days’ notice before renewal. I’ll send that through deal desk today for the standard review."
+      "text": "Correct. Twelve months from the start date, with renewal pricing based on the seats you have at that time. Any added seats during the year are prorated to the renewal date."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Perfect. Send me the revised quote and order form, and I’ll route it to procurement this afternoon."
+      "text": "Perfect. Send me the order form with 42 seats and the September 23 go-live target, and I'll route it to procurement."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. You’ll have the revised documents by 2:00 Eastern, and I’ll include the implementation timeline in the email so procurement has everything in one place."
+      "text": "Will do. I'll send it over this afternoon with the net 30 language and the implementation schedule attached."
     }
   ]
 }

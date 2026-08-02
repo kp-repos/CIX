@@ -12,57 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Dana. I had us down for 55 analyst seats, 8 admin seats, and a May 6 go-live for the new division. Is that still the shape of it?"
+      "text": "Yeah, thanks for making time, Jordan. I had you down for 32 user seats, annual term, and a February 3 go-live for the service desk group. Is that still the shape of it?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Mostly, yeah. We’re at 54 analysts now. One person moved teams yesterday, so I don’t want to buy a seat we won’t use."
+      "text": "That's right. We may add four managers later, but for launch it's 32. The main thing is getting the calibration dashboard live before our audit week on February 17."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Totally. So 54 analyst seats at $72 per seat per month, 8 admins included in the platform fee, and the annual platform fee is $18,600. That puts the 12-month total at $65,256 before tax."
+      "text": "Makes sense. For 32 seats, the annual software is $26,880, plus a one-time implementation package at $4,200. That includes the dashboard setup, two admin trainings, and the data import template review."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. And invoicing, can you split it 50% in April and 50% in October? Finance asked me to confirm that before I say yes."
+      "text": "Okay. Is the invoice all due up front, or can we split it? Finance asked me to check because our January budget is tight."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, that payment schedule is supported. First invoice would issue April 15 for $32,628, net 30. Second invoice October 15 for the same amount, also net 30."
+      "text": "Standard terms are net 30 from signature. If you sign by January 10, the invoice would be due February 9. We can also set the service start date as February 3 so you're not paying for January usage."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. The other thing is the contract language. We need the same auto-renew clause removed like last year. Just a fixed term, April 15, 2026 through April 14, 2027."
+      "text": "That works. On contract language, we need the mutual confidentiality section and the data processing addendum included. Nothing unusual, just our procurement checklist."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, fixed 12-month term, no auto-renew. I’ll send the order form with that language. The master terms stay the same as your current agreement."
+      "text": "Yep, those are both in the order packet. The term would run February 3, 2026 through February 2, 2027, with annual renewal unless either side gives 45 days' notice."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Great. On go-live, if we sign by Friday, are we still good for May 6? We’ve got training blocks already on the calendar."
+      "text": "Good. One more thing: if we add those four manager seats in March, are they prorated or do we pay a full year?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes. If signature is in by April 12, kickoff is April 18, admin training April 25, and end-user training May 2 and May 3. That supports May 6 without rushing it."
+      "text": "Prorated to the same end date. So if you added four seats on March 15, you'd only pay from March 15 through February 2, 2027."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, send it over to me and Marcus in procurement. If the numbers match what you just said, we should be able to turn it around this week."
+      "text": "Perfect. Send me the order form with those numbers and the February 3 start date. I can route it to procurement today."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. I’ll send the order form today with the 54 seats, split billing, fixed term, and the May 6 launch dates called out."
+      "text": "Will do. I'll send it over this afternoon with the 32 seats, $26,880 annual subscription, $4,200 implementation, net 30 terms, and the DPA attached."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. If procurement doesn't have any redlines, we should be able to sign by Friday."
     }
   ]
 }

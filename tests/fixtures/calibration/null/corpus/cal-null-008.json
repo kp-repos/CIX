@@ -12,62 +12,57 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Dana, yeah, thanks for making time. I saw your note about adding the Indianapolis team. Are we still talking 38 users total, or did that change?"
+      "text": "Yeah, so thanks for making time, Dana. I had you at 42 current seats, and you’re looking to add the operations supervisors before the September rollout. Is the target still 60 total seats?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "It changed a little. We have 34 full users and 6 read-only, mostly operations managers who just need dashboards."
+      "text": "That's right. Eighteen more seats. We want everyone trained by September 12, and go-live is September 16."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Okay, that maps cleanly. Full users are $82 per seat per month, read-only are $24. With the annual term starting September 1, the total comes to $36,864 before tax."
+      "text": "Okay, that works. At 60 seats on the annual plan, the pricing sheet shows $48 per seat per month, billed annually. That comes to $34,560 before tax for the year."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That matches what I expected. On invoicing, can you do one invoice for the year, net 30? Our finance team does not want monthly bills for this."
+      "text": "Got it. And that includes the standard onboarding sessions, right? We don't need custom work, just two admin trainings and the recorded user session."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yes, annual invoice, net 30 is standard. I can include PO number 4178 on the order form if that's still the right one."
+      "text": "Correct. Two live admin trainings, one recorded end-user session, and the launch checklist. If you want a third admin session, that's $750, but based on what you described I don't think you need it."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Yep, 4178. The other thing is go-live. We need the first calibration reports in there by October 14. Is that realistic?"
+      "text": "No, let's keep it standard. On invoicing, can you bill it against PO 7814 and set net 30? Finance is asking for that."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It is, assuming we get the equipment list by September 6. Onboarding would be two working sessions the week of September 9, then validation on the 23rd. You'd be live before October 14."
+      "text": "Yep. Net 30 is fine, and I'll put PO 7814 on the order form and invoice request. The service start date would be September 1 so your team has two weeks before go-live."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Contract term is just 12 months, right? No auto-renewal longer than that?"
+      "text": "That makes sense. Contract term is just 12 months? September 1 through August 31?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct, 12 months, September 1, 2026 through August 31, 2027. It renews for another 12 months unless either side gives 45 days' notice. I’ll put that plainly in the summary."
+      "text": "Exactly, September 1, 2026 through August 31, 2027. No auto-renew unless you choose it, same as your current terms."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. Send it over today if you can. If legal doesn't have comments, I can sign by Friday."
+      "text": "Okay. Send me the order form today if you can. I can sign once finance confirms the PO, probably tomorrow morning."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Will do. You’ll get the order form with the seat split, annual invoice terms, PO 4178, and the October 14 go-live target. Anything else you want included?"
-    },
-    {
-      "speaker": "Customer",
-      "ts": null,
-      "text": "No, that covers it. Thanks."
+      "text": "Will do. I'll send the order form with 60 seats, $34,560 annual total, net 30, PO 7814, and the September 1 start date. Once it's signed, we'll schedule the two admin trainings for the week of September 8."
     }
   ]
 }

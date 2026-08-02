@@ -12,52 +12,62 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, so I pulled up the order form we discussed. It has 42 seats at $68 per seat per month, annual term starting September 1, and the implementation package at $4,200 one-time."
+      "text": "Hi Dana, thanks for making time. I wanted to walk through the renewal quote for the analytics workspace and make sure the seat count and dates match what you need for Q2."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, that matches what I had. The only thing I want to confirm is the 42 seats includes the five read-only users from finance, right?"
+      "text": "Yeah, that works. We’re at 48 seats today, and we want to add 12 for the customer success team, so 60 total starting May 1."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Correct. Thirty-seven standard users and five read-only. I noted that in the CRM and it is on page two of the quote as well."
+      "text": "Got it, 60 seats effective May 1. The current term ends April 30, so this would be a 12-month renewal through April 30 next year. The pricing sheet has that at $84 per seat per month, billed annually."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. For billing, can you make sure the invoice goes to ap@northlineparts.com and includes our PO number? It should be PO-18477."
+      "text": "Okay, so that’s $60,480 before tax, right?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I can add PO-18477 before it goes to the billing tool. The invoice would be for $38,472 for the subscription plus the $4,200 services fee, so $42,672 before tax."
+      "text": "Exactly. $84 times 60 seats times 12 months. Taxes will depend on the billing address, but the subtotal is $60,480."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works. On timing, we want to start onboarding the week of August 19, but we don't want the subscription clock to start until September 1."
+      "text": "That matches what I expected. Can you keep the payment terms at net 30? Our AP team is pretty standard on that."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, that's fine. We can schedule kickoff for August 20 and keep September 1 as the contract start date. The services team has availability that Tuesday or Wednesday."
+      "text": "Yes, net 30 is already on the quote. Same billing contact as last year, invoices at ap@northlakefoods.com?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Let's hold August 20 at 10 Central. Also, procurement asked whether the renewal is automatic or if we get notice first."
+      "text": "Yep, and please copy me on the first invoice. After that, AP can handle it."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "It is annual auto-renewal, but the agreement has a 60-day notice window. You'll also get a reminder from us 90 days before renewal. If you want, I can highlight that section when I send it."
+      "text": "Will do. For the added seats, do you want them available right on May 1, or should we enable them a few days earlier for setup?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Please do. Send it over today and I can route for signature. Assuming legal doesn't have edits, we should have it back by Friday."
+      "text": "May 1 is fine. We have training scheduled May 3 and May 4, so as long as the team can log in that morning, we’re good."
+    },
+    {
+      "speaker": "Rep",
+      "ts": null,
+      "text": "Perfect. I’ll send the order form today with the 60 seats, May 1 start, April 30 end date, annual billing, and net 30 terms."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Send it over, and I’ll route it for signature this afternoon."
     }
   ]
 }

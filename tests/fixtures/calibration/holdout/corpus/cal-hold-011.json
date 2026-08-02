@@ -12,57 +12,52 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yeah, thanks for making time, Karen. I wanted to walk through the revised quote for the calibration tracking package: 42 technician seats, 6 manager seats, and the two-day onboarding block. It comes to $31,860 for the first year if we start May 1."
+      "text": "Yeah, thanks for making the time. I’ve got you down for 38 seats to start, annual term, target go-live May 20. Does that still line up?"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay. I have the sheet open. The seat count is right, but I need to understand the invoice timing. Finance asked if this all hits in May or if services can be separated."
+      "text": "It does. We may add four more in July, but procurement wants the initial order clean. The main thing is invoice timing and the support add-on."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "We can separate it. Subscription invoice on May 1 for $27,360, then onboarding services at $4,500 after the first session, likely the week of May 13. That keeps it cleaner for your cost center, I think."
+      "text": "Totally. The quote I sent was $42,180 for the 38 seats, plus $3,600 for standard onboarding. Support add-on is included at that tier, so no separate line item."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That helps. The other thing is the term. Your order form says auto-renewal at twelve months with 60 days notice. Our legal team usually asks for 30 days."
+      "text": "Okay. I saw net 30 on the draft, but our finance team asked for net 45 if possible. Is that a deal breaker?"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Yep, I saw that note. I can ask deal desk to switch the notice period to 30 days and keep the same pricing. Honestly, I should have had that back to you yesterday, but my day got eaten by clerical stuff: typing updates into the CRM, cleaning up duplicate account records, matching contacts to the right division, and assembling the internal approval packet. It was like six hours of database and paperwork instead of actually talking with buyers, including you, so apologies for the lag."
+      "text": "No, net 45 is workable. I’ll get that reflected in the agreement. And, just to be candid, if I’m a little slow turning the redline today, it’s not you. My calendar’s been getting swallowed by admin work lately, like typing call notes into the CRM, cleaning up duplicate account records, and building the internal approval packets for every discount. Yesterday I spent almost five hours on that stuff instead of actually talking to customers, which is, yeah, not ideal. I’ll still get yours moving before end of day."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "No worries. As long as we can get the redline by Friday, we're okay. Our implementation window is tight because the audit prep starts June 10."
+      "text": "Understood. We’re not looking for a big discount, so hopefully it’s simple. We just need the paper back by Thursday because our signer is out Friday."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Friday is fine. For go-live, if we have signature by April 26, we can do kickoff May 6, admin training May 14, and technician training May 21. That gives you about two weeks before the audit prep."
+      "text": "That helps. You’re at standard pricing with the onboarding fee, so it should be straightforward. I’ll update net 45, keep the May 20 go-live, and leave the seat count at 38."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Good. Do we need all 48 seats active on day one? We may only have 35 techs using it in May."
+      "text": "Great. Can you also include the billing contact as ap@northviewplastics.com? The invoice should reference PO 7146."
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "You can activate in phases. The contract would still cover 48 seats, but we can provision 35 at launch and add the remaining 13 when your second shift starts. No extra charge for that."
+      "text": "Yep, I’ll include that. Once the agreement is signed, the invoice will go out with PO 7146 and the first implementation call can be scheduled for the week of May 6."
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Okay, send the 30-day notice version and the split invoice language. If legal doesn't push back, I'll route it for signature Monday."
-    },
-    {
-      "speaker": "Rep",
-      "ts": null,
-      "text": "Will do. I'll send the updated order form and a one-page rollout timeline by end of day, and I'll include the subscription and services invoice dates in the email."
+      "text": "Perfect. Send it over when ready and I’ll route it internally."
     }
   ]
 }

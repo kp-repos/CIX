@@ -12,42 +12,42 @@
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Yeah, so quick one on Northstar. The billing tool has their May order form through 7/31, 42 seats, and support is asking whether those stay enabled for August. I don't see another order in the CRM; last customer note is the June 12 training recap."
+      "text": "Hey, quick gut check on the Osprey expansion quote. They asked for 24 more editor seats starting August 12, co-termed to their April 30 agreement. I have it at $38 per seat per month after the standard 12% discount."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Eli",
       "ts": null,
-      "text": "Okay. What's their usage look like? Are they actually in there or is this one of those shelfware accounts?"
-    },
-    {
-      "speaker": "Maya",
-      "ts": null,
-      "text": "Pretty active. Thirty-six of the 42 logged in last week, and they ran 18 exports from the analytics module. Main admin is Priya Shah, finance ops."
-    },
-    {
-      "speaker": "Jordan",
-      "ts": null,
-      "text": "Got it. Any invoice noise?"
+      "text": "Yeah, that matches the pricing sheet. Are they still keeping the 86 viewer seats, or did procurement try to swap any of those down?"
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Nothing open. They paid the $18,900 invoice on June 28, terms were net 30. There was a question about the PO number, but AR fixed it."
+      "text": "No swap. Same 86 viewers, plus the 24 editors. Their ops lead was pretty specific because they want the new plant managers live before the September training."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Eli",
       "ts": null,
-      "text": "Alright. If support needs an answer, tell them keep it normal for now. Can you pull the current pricing sheet for 42 and 50 seats, just in case they ask about adding the AP team?"
+      "text": "Okay. Then the only thing is billing frequency. Their current setup is annual upfront, so if they add mid-term, the invoice should just be the prorated amount through April 30."
     },
     {
       "speaker": "Maya",
       "ts": null,
-      "text": "Yep. List is $54 per seat monthly, but their current rate is $45. If we hold that, 50 seats is $27,000 annually before tax."
+      "text": "Right, I got $6,716 for the prorated piece. While I was in the billing tool I saw the Halberg line only shows through tomorrow and the last customer thread I can find is from May, which, yeah, not great. Anyway, Osprey is clean."
     },
     {
-      "speaker": "Jordan",
+      "speaker": "Eli",
       "ts": null,
-      "text": "Cool. Put that in the account notes and ping deal desk if they need paper today. I'll check the territory calendar after my 2:30."
+      "text": "Got it. For Osprey, make sure the order form says the added seats inherit the existing support terms. Deal desk kicked one back last week because that sentence was missing."
+    },
+    {
+      "speaker": "Maya",
+      "ts": null,
+      "text": "Yep, I put that in the notes section and the cover page. Legal language stays untouched. They asked if the invoice can reference PO 44718-A, so I added that too."
+    },
+    {
+      "speaker": "Eli",
+      "ts": null,
+      "text": "Perfect. Send it over as-is. If they sign by Friday, implementation can still hold the August 12 enablement slot."
     }
   ]
 }

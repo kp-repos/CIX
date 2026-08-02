@@ -12,47 +12,47 @@
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Hi Mara,\n\nAttached is the order form for 24 Growth seats, 2 admin seats, and the onboarding package. Start date is 6/1, annual term, net 30. Total shows $41,760.\n\nSam"
+      "text": "Hi Dana,\n\nAttached is the renewal outline for 42 seats, 12-month term starting May 1. It keeps the current support tier and adds the reporting module.\n\nTotal is $31,752 annually, invoiced on signature with net 30 terms.\n\nMark"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Sam,\n\nThanks. We’re good on 24 Growth seats but only need 1 admin seat. Also confirm the onboarding sessions can be done before our 6/17 sales kickoff.\n\nMara"
+      "text": "Mark,\n\nThanks. We’re good on the 42 seats and May 1 start. The annual total is a little high for what I have approved. I’m at $29k even for the year.\n\nDana"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Mara,\n\nYes on the 6/17 timing. We can do discovery 6/4, config review 6/10, and manager training 6/14.\n\nWith 1 admin seat, the total on the standard sheet comes to $40,320.\n\nSam"
+      "text": "Dana,\n\nUnderstood. If we keep the reporting module but move the admin training to a recorded session, I can get close.\n\nWould $29,484 work? Same 42 seats, same May 1 start, annual invoice.\n\nMark"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "That works schedule-wise. Procurement is asking for the final amount today so they can open the PO. Are we using the $38,880 you sent over chat, or should I wait for the revised PDF?"
+      "text": "That should work. Can you confirm there’s no change to data retention or the standard support response time?\n\nDana"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Use $38,880 for the PO so they can keep moving. I’ll get the order form cleaned up to match after the pricing queue turns it.\n\nSam"
+      "text": "Correct, no change there. Retention stays at 24 months and support stays next-business-day for standard tickets, four-hour target for urgent.\n\nMark"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Ok. PO will be for $38,880, annual subscription plus onboarding, net 30. Please make sure the invoice references PO-44719 or it will bounce.\n\nMara"
+      "text": "Okay. Procurement will ask why the order form still shows $31,752. The number you sent me separately is fine for approval on our side if you can get the final doc lined up after.\n\nDana"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Got it. I added PO-44719 to the billing notes and flagged net 30. Once you sign, I’ll send the kickoff checklist and the data import template.\n\nSam"
+      "text": "Yes, that’s fine. Use $29,484 for the approval packet. I’ll send the cleaned-up order form before you route for signature.\n\nMark"
     },
     {
       "speaker": "Customer",
       "ts": null,
-      "text": "Signed on our side. Legal didn’t change anything. Please send the checklist to me and Daniel in sales ops.\n\nMara"
+      "text": "Sounds good. Please make the billing contact ap@northlakefoods.com and list the PO as required. We should have the PO by April 24.\n\nDana"
     },
     {
       "speaker": "Rep",
       "ts": null,
-      "text": "Received, thank you. Checklist is attached, and I copied Daniel. We’ll hold 6/4 at 11:00 ET for discovery unless you want a different slot.\n\nSam"
+      "text": "Will do. I’ll include the billing contact and PO-required language. Once the PO is in, we can target May 1 go-live without any gap in access.\n\nMark"
     }
   ]
 }
