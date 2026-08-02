@@ -12,7 +12,9 @@
 |---|---|---|
 | **OD-2** — second lab = **OpenAI (GPT-5.x)**; roles: calibration-corpus **generator** + sampled **audit seat**; **F4** = the seat recuses in code on corpora its sibling generated | 2026-08-01 | PRD §13, `configs/second_lab_config_v1.yaml` |
 | **Checkpoint A** — A8 sales rubric v1 (10 items) + A7 calibration spec ratified as authored | 2026-08-01 | `PO-RATIFIED` headers in `configs/sales_rubric_v1.yaml`, `configs/calibration_spec_v1.yaml`, `docs/A7_calibration_corpus_spec.md` |
-| **Checkpoint B** — T-CAL / T-NULL / T-PARA / T-ITER values frozen; exact second-lab model snapshot pinned | _pending — see §4 Phase 2_ | `configs/thresholds_v1.yaml`, `configs/second_lab_config_v1.yaml` |
+| **Checkpoint B** — T-CAL / T-NULL / T-PARA / T-ITER values frozen; models pinned (second-lab snapshot + primary detector) | 2026-08-01 (`fb6b67c`) | `configs/thresholds_v1.yaml` (v1.1.0), `configs/second_lab_config_v1.yaml`, `configs/run_config_v1.yaml` |
+
+**G3 exit (2026-08-01):** holdout **T-CAL 6/6 pass** · **T-NULL 0/100** (floor 4) · 1 dev cycle of 3, 0 detector revisions. Full record in the PRD changelog. The calibration corpus is now permanent validation infrastructure (D§10) — re-run per §4 after any material detector change; T-CAL/T-NULL values move only with a versioned register change + changelog entry (R-VAL-6).
 
 Two limitations accepted at ratification (both intended, neither a defect):
 1. **T-NULL scope** — the null gate counts false reports only for the six *planted* pathology items; the two unplanted negative items (`unowned_follow_up`, `missited_work_allocation`) are not exercised by T-NULL.
@@ -27,17 +29,17 @@ Every tunable input to calibration and what it controls. **Current value** colum
 ### Detector side (what the instrument hunts)
 | File | Knob | Current | Change means |
 |---|---|---|---|
-| `configs/sales_rubric_v1.yaml` (A8) | 10 items · criteria · prefilters · units | v1.0.0 | **Detector change.** Bump `version` (e.g. 1.0.1). Consumes a **T-ITER dev cycle**. Re-run the rubric-hit pass + re-calibrate. |
-| `configs/paraphrases_v1.yaml` | one paraphrase per item (T-PARA instrument) | v1.0.0, `rubric_version: 1.0.0` | Keep `rubric_version` in lockstep with the rubric. A paraphrase must stay meaning-equivalent but lexically distinct. |
+| `configs/sales_rubric_v1.yaml` (A8) | 10 items · criteria · prefilters · units | v1.1.0 | **Detector change.** Bump `version` (e.g. 1.1.1). Consumes a **T-ITER dev cycle**. Re-run the rubric-hit pass + re-calibrate. |
+| `configs/paraphrases_v1.yaml` | one paraphrase per item (T-PARA instrument) | v1.1.0, `rubric_version: 1.1.0` | Keep `rubric_version` in lockstep with the rubric. A paraphrase must stay meaning-equivalent but lexically distinct. |
 | `configs/label_schema_v1.yaml` (A2) | core label fields | v1.0.0 | Upstream artifact; rarely changes at G3. A change re-runs the label pass and invalidates persisted labels. |
 | `configs/tag_vocabulary_v1.yaml` (A1) | lexical/structural tags (prefilter targets) | v1.0.0 | Changing a prefilter tag ripples into the rubric's `requires` + re-index. |
 
 ### Generation side (the known-truth corpus)
 | File | Knob | Current | Change means |
 |---|---|---|---|
-| `configs/calibration_spec_v1.yaml` (A7) | `style_guide`, plant `description` wording | — | **Generation-side only.** Regenerate the corpus. Does **NOT** consume a T-ITER cycle (it is not a detector change). Wording must stay 5-token-disjoint from rubric text (firewall — `tests/test_calspec.py`). |
+| `configs/calibration_spec_v1.yaml` (A7) | `style_guide`, plant `description` wording | v1.1.1 | **Generation-side only.** Regenerate the corpus. Does **NOT** consume a T-ITER cycle (it is not a detector change). Wording must stay 5-token-disjoint from rubric text (firewall — `tests/test_calspec.py`). |
 | " | `pathologies` (keys, `maps_to_item` crosswalk, `embeds_per_interaction`, `source_type`) | 6 pathologies P1–P6 | New corpus + new truth registry. Crosswalk targets must be real rubric item ids. |
-| " | `splits` (`instances_per_cell`, `clean_interactions`, `interactions`, `seed`) | dev 60 / holdout 60 / null 50; seeds 20260801/02/03 | Changes corpus size/composition. Different seed → different (still deterministic) corpus. |
+| " | `splits` (`instances_per_cell`, `clean_interactions`, `interactions`, `seed`) | dev 60 / holdout 60 / null 50; seeds 20260811/12/13 | Changes corpus size/composition. Different seed → different (still deterministic) corpus. |
 
 ### Gates (the numbers that can kill the project)
 | File | Knob | Current | Change means |
@@ -50,8 +52,8 @@ Every tunable input to calibration and what it controls. **Current value** colum
 ### Models
 | File | Knob | Current | Change means |
 |---|---|---|---|
-| `configs/second_lab_config_v1.yaml` | `model` (exact snapshot), `audit_sample_hits`, `agreement_floor` | `gpt-5.2` (pin exact), 8, 0.8 | **Model change → re-run.** Calibration is per model snapshot. Pin the exact dated id at Checkpoint B. |
-| `configs/run_config_v1.yaml` | primary `model`, `temperature`, `seed` | `claude-fable-5`, 0, seed 20260731 | Primary-detector model change → re-calibrate. Seed governs all sampling reproducibility. |
+| `configs/second_lab_config_v1.yaml` | `model` (exact snapshot), `audit_sample_hits`, `agreement_floor` | `gpt-5.5-2026-04-23`, 8, 0.8 | **Model change → re-run.** Calibration is per model snapshot. Pinned at Checkpoint B. |
+| `configs/run_config_v1.yaml` | primary `model`, `temperature`, `seed` | `claude-opus-4-8`, 0, seed 20260731 | Primary-detector model change → re-calibrate. Seed governs all sampling reproducibility. |
 
 ---
 

@@ -1,6 +1,8 @@
 # CIX Build Roadmap — G3–G6 Logic Sketch
 
-**Status:** high-level overview, not an implementation plan. The G1 and G2 plans in this directory are executable; G3–G5 plans get written **after G2 lands** — their interfaces derive from G2's code, their contents from G0 corpus facts and PO-authored artifacts (rubrics, calibration spec). This document records the *logic* of each remaining gate so the shape of the whole build is visible now.
+**Status:** high-level overview, not an implementation plan. The G1/G2/G3 plans in this directory are executable; G4–G5 plans get written as each prior gate lands — their interfaces derive from the shipped code, their contents from G0 corpus facts and PO-authored artifacts (rubrics, calibration spec). This document records the *logic* of each remaining gate so the shape of the whole build is visible now.
+
+**Progress:** ✅ G1 (deterministic spine) · ✅ G2 (thin end-to-end slice) · ✅ **G3 (calibration — holdout 6/6 T-CAL, 0/100 T-NULL, 2026-08-01)** · ▶ **G4 next** (assembly). The G3 section below is retained as the gate's logic of record; executed detail lives in `2026-08-01-g3-calibration.md`, `docs/G3_calibration_operations.md`, and the PRD changelog.
 
 **Source of truth:** `docs/CIX_PRD_v1_2026-07-31.md` (v1.2, ratified) — gate table §5, thresholds §6, self-test §7, triggers §8. This sketch adds nothing normative.
 
