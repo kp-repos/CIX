@@ -1,11 +1,11 @@
 {
   "manifest_version": "1.0.0",
-  "corpus_hash": "c337883b9f7b99d3591dabe8a41f8610d246c54546f5d238814c0034130c8bb1",
-  "canonical_hash": "cfda22d2281f011412ffda56920ac7492b329fb876d8f79d26d64f1e86437ec4",
+  "corpus_hash": "8d5d1eee5c7018b223e0e91f1f1421a455ec34fe22f5e72647a6dd9d0aa39c3b",
+  "canonical_hash": "74e42b46f31f00a8dad2f6de5835c33dfc2488084e604c275ff912f11b97c6aa",
   "index_version": "1.0.0",
   "tag_vocab_version": "1.0.0",
   "label_schema_version": "1.0.0",
-  "rubric_version": "1.0.0",
+  "rubric_version": "1.1.0",
   "catalogue_version": null,
   "model_versions": {
     "primary": "claude-opus-4-8"
@@ -21,10 +21,10 @@
   },
   "thresholds_version": "1.1.0",
   "privacy_gate": "synthetic-fixture",
-  "corpus_clearance": "synthetic calibration corpus (A7)",
-  "created_at": "2026-08-01T19:25:46.099360+00:00",
+  "corpus_clearance": "synthetic calibration corpus (A7, dev split, spec v1.1.0)",
+  "created_at": "2026-08-01T21:05:57.149019+00:00",
   "artifacts": {
-    "labels": "37608b5b5354f26f",
-    "hits": "89c6d760a6fb0ed7"
+    "labels": "8c0c47a59cbb0dfc",
+    "hits": "7bce94d22fa57c7a"
   }
 }
