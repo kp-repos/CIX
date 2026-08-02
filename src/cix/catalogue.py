@@ -32,3 +32,39 @@ class Catalogue(BaseModel):
 
 def load_catalogue(path: Path) -> Catalogue:
     return Catalogue.model_validate(yaml.safe_load(Path(path).read_text(encoding="utf-8")))
+
+
+class UnitCompatError(Exception):
+    pass
+
+def join_swaps(roll_items: dict, crosswalk: dict[str, str | None], cat: Catalogue) -> dict:
+    """Join rollup items to catalogue entries by swap_ref. Unit-incompatible join is a hard
+    failure (R-CAT-3); items with no swap_ref go on the 'no known remedy yet' shelf (R-CAT-4)."""
+    priced, shelf = [], []
+    for item_id, row in sorted(roll_items.items()):
+        swap_id = crosswalk.get(item_id)
+        entry = cat.by_id(swap_id) if swap_id else None
+        if entry is None:
+            shelf.append({"item_id": item_id, "count": row["count"], "unit": row["unit"]})
+            continue
+        if entry.unit_basis != row["unit"]:
+            raise UnitCompatError(
+                f"{item_id} unit '{row['unit']}' != swap {entry.id} basis '{entry.unit_basis}'")
+        priced.append({"item_id": item_id, "count": row["count"], "unit": row["unit"], "entry": entry})
+    shelf.sort(key=lambda s: (-s["count"], s["item_id"]))
+    return {"priced": priced, "shelf": shelf}
+
+def leverage_grid(priced: list[dict], cat: Catalogue) -> dict:
+    """Effort-band x outcome-band grid; count tie-break within tier; Class D named in its
+    corner; remedy-less items are on the shelf, not here (R-CAT-4)."""
+    eff_rank = {b: i for i, b in enumerate(cat.effort_bands)}          # low=0 best
+    out_rank = {b: i for i, b in enumerate(cat.outcome_bands)}         # large=highest
+    def score(j):
+        e = j["entry"]
+        # higher outcome and lower effort rank first; count breaks ties
+        return (-out_rank[e.outcome], eff_rank[e.effort], -j["count"], j["item_id"])
+    ordered = sorted(priced, key=score)
+    cells = [{"item_id": j["item_id"], "effort": j["entry"].effort, "outcome": j["entry"].outcome,
+              "count": j["count"], "remedy_class": j["entry"].remedy_class} for j in ordered]
+    class_d = [c for c in cells if c["remedy_class"] == "D"]
+    return {"cells": cells, "class_d": class_d}
