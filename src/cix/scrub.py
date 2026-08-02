@@ -83,3 +83,13 @@ def residual_scan(units: list[InteractionUnit]) -> list[dict]:
             if any(EMAIL_RE.search(f) or PHONE_RE.search(f) for f in fields):
                 hits.append({"interaction_id": u.id, "seq": n})
     return hits
+
+def audit_privacy_gate(units: list[InteractionUnit], proto: PrivacyProtocol) -> dict:
+    """Automated residual re-scan (100%) + seeded sample marker for human review.
+    Returns the manifest privacy_gate status (R-PII-1)."""
+    residual = residual_scan(units)
+    total_snippets = sum(len(u.segments) for u in units)
+    sample_size = min(int(proto.audit["sample_size"]), total_snippets)
+    status = "fail" if len(residual) > int(proto.audit["residual_fail_threshold"]) else "pass"
+    return {"status": status, "residual_hits": len(residual), "residual": residual,
+            "sample_size": sample_size, "sample_seed": int(proto.audit["seed"])}

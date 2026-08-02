@@ -27,3 +27,12 @@ def test_created_at_not_in_hashes():
     units = load_corpus(FIXTURES)
     m = build_manifest(units, "x", "1.0.0", "synthetic-fixture", "n/a")
     assert "created_at" in m and m["created_at"] not in (m["corpus_hash"], m["canonical_hash"])
+
+def test_manifest_carries_privacy_gate_and_salt():
+    from cix.manifest import build_manifest
+    from cix.contracts import InteractionUnit
+    u = InteractionUnit.model_validate({"id": "i1", "source_type": "note",
+                                        "participants": [], "segments": [{"text": "hi"}]})
+    m = build_manifest([u], "abc", "1.0.0", privacy_gate="pass", corpus_clearance="cleared", salt="s1")
+    assert m["privacy_gate"] == "pass"
+    assert m["scrub_salt"] == "s1"

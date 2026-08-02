@@ -22,6 +22,7 @@ from cix.normalize import CorpusValidationError, load_corpus
 from cix.report import render_report
 from cix.rubric import DependencyError, load_rubric
 from cix.runconfig import load_run_config, load_thresholds
+from cix.scrub import load_privacy_protocol, scrub_corpus, audit_privacy_gate
 from cix.store import build_store, open_store
 from cix.synthesize import prompts_hash as synth_ph
 from cix.synthesize import synthesize_findings
@@ -60,6 +61,16 @@ def _cmd_run(args) -> int:
     thresholds = load_thresholds(Path("configs/thresholds_v1.yaml"))
     thresholds_version = yaml.safe_load(Path("configs/thresholds_v1.yaml").read_text())["version"]
     client = make_client(config)
+
+    # Scrub at ingest — nothing unscrubbed reaches the store (R-PII-1). Runs on cleared/synthetic
+    # data too (R-PII-4). Salt is per-run, derived from the run seed for reproducibility.
+    proto = load_privacy_protocol(Path("configs/privacy_protocol_v1.yaml"))
+    salt = f"cix-{config.seed}"
+    units, scrub_report = scrub_corpus(units, proto, salt=salt)
+    privacy = audit_privacy_gate(units, proto)
+    if privacy["status"] == "fail":
+        print(f"privacy gate FAIL: {privacy['residual_hits']} residual PII hits", file=sys.stderr)
+        return 2
 
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
@@ -124,7 +135,7 @@ def _cmd_run(args) -> int:
         f["unit"], f["share"], f["denominator"] = row.get("unit"), row.get("share"), row.get("denominator")
 
     manifest = build_manifest(units, canonical_hash(db), vocab["version"],
-                              privacy_gate="synthetic-fixture", corpus_clearance=args.clearance)
+                              privacy_gate=privacy["status"], corpus_clearance=args.clearance, salt=salt)
     manifest.update({"label_schema_version": schema_version, "rubric_version": rubric.version,
                      "model_versions": {"primary": config.model},
                      "prompt_hashes": {"labels": labels_ph(), "hits": hits_ph(), "synthesis": synth_ph(),

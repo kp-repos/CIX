@@ -77,3 +77,21 @@ def test_capitalized_role_word_not_pseudonymized():
     scrubbed, _ = scrub_corpus([u], proto, salt="s")
     assert "Agent" in scrubbed[0].segments[0].text                 # I-2: role word kept as-is
     assert not (scrubbed[0].segments[0].speaker or "").startswith("PERSON-")
+
+from cix.scrub import audit_privacy_gate
+
+def test_audit_gate_pass_on_clean_corpus():
+    proto = load_privacy_protocol(PROTO)
+    scrubbed, _ = scrub_corpus([_unit(f"i{i}") for i in range(5)], proto, salt="s")
+    res = audit_privacy_gate(scrubbed, proto)
+    assert res["status"] == "pass" and res["residual_hits"] == 0
+    assert res["sample_size"] <= 20
+
+def test_audit_gate_fail_on_residual():
+    proto = load_privacy_protocol(PROTO)
+    leaky = InteractionUnit.model_validate({
+        "id": "x", "source_type": "note", "participants": ["customer"],
+        "segments": [{"speaker": None, "text": "call me at 555-000-1111"}]})
+    # bypass scrub to simulate a residual, then audit
+    res = audit_privacy_gate([leaky], proto)
+    assert res["status"] == "fail" and res["residual_hits"] >= 1
