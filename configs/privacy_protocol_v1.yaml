@@ -1,6 +1,6 @@
 # A11 (machine-readable half) — privacy threat model + scrub-audit protocol.
 # Narrative + rationale in docs/A11_privacy_protocol.md.
-# PO-RATIFIED: pending   <- flip to the ratification date at Checkpoint P
+# PO-RATIFIED: 2026-08-02 (Checkpoint P)
 version: "1.0.0"
 # Entity classes the scrub stage removes or pseudonymizes. `pseudonymize: true` means
 # a salted-hash stable token replaces the value (linkage survives, identity doesn't,
