@@ -15,10 +15,12 @@ def _sections(payload: dict) -> dict:
             for f in findings
         ],
         "whats_working": [{"item_id": f["item_id"], "narrative": f["body"]["narrative"]} for f in positives],
-        "leverage": {"grid": [], "shelf": [{"item_id": f["item_id"], "count": f["body"]["claimed_count"],
-                                            "unit": f.get("unit")} for f in findings],
-                     "note": "No catalogue loaded: all findings on the 'no known remedy yet' shelf."},
-        "priced_plays": {"plays": [], "note": "No catalogue loaded — no priced view in this run."},
+        "leverage": (payload["leverage"] if payload.get("catalogue_loaded")
+                     else {"grid": [], "shelf": [{"item_id": f["item_id"], "count": f["body"]["claimed_count"],
+                                                  "unit": f.get("unit")} for f in findings],
+                           "note": "No catalogue loaded: all findings on the 'no known remedy yet' shelf."}),
+        "priced_plays": (payload["priced_plays"] if payload.get("catalogue_loaded")
+                         else {"plays": [], "note": "No catalogue loaded — no priced view in this run."}),
         "distribution": {"items": payload["rollup"]["items"],
                          "rank_by_unit": payload["rollup"]["rank_by_unit"],
                          "interaction_coverage": payload["rollup"]["interaction_coverage"],

@@ -40,3 +40,19 @@ def test_render_makes_no_model_calls(tmp_path):
     import inspect
     from cix.report import render_report as rr
     assert "client" not in inspect.signature(rr).parameters
+
+def test_report_renders_priced_and_grid_when_catalogue_loaded(tmp_path):
+    from cix.report import render_report
+    payload = {
+        "findings": [], "rollup": {"items": {}, "rank_by_unit": {}, "interaction_coverage": None,
+                                   "residual_interactions": 0, "eligible_interactions": 0},
+        "validations": [], "drop_summary": {"candidate_claims": 0, "quote_drops": 0, "stat_drops": 0},
+        "manifest": {"manifest_version": "1.0.0"},
+        "catalogue_loaded": True,
+        "priced_plays": {"plays": [{"item_id": "x", "band": {"low": 1, "high": 2}}], "note": None},
+        "leverage": {"grid": [{"item_id": "x"}], "shelf": [], "class_d": [],
+                     "note": "catalogue loaded"},
+    }
+    doc = render_report(payload, tmp_path)
+    assert doc["sections"]["priced_plays"]["plays"][0]["item_id"] == "x"
+    assert doc["sections"]["leverage"]["grid"][0]["item_id"] == "x"
