@@ -1,5 +1,7 @@
 # G3 Calibration Implementation Plan
 
+> **✅ FULLY EXECUTED — G3 exited 2026-08-01.** All tasks complete and merged to `main` (PR #2). Calibration result: holdout **T-CAL 6/6 pass** · **T-NULL 0/100** (floor 4) · 1 dev cycle of 3 (0 detector revisions); rubric A8 v1.1.0, corpus A7 v1.1.1, thresholds frozen before results (Checkpoint B `fb6b67c`). Live-runbook detail and the calibration story (cycle-1 T-NULL breach → precision fix; P6 plant-purity fix) are in the PRD changelog and `docs/G3_calibration_operations.md`. The unchecked boxes below are the original authoring artifact, retained as the task-by-task record. Next gate: G4.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 > **Prerequisite:** the G2 plan (`2026-07-31-g2-thin-slice.md`) is fully executed and merged — `cix run` works end-to-end, 86 tests green.
 
