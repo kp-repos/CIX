@@ -1,0 +1,90 @@
+# A9 — CIX FS service rubric v1 (R-RUB-6: authored second, runs first on the real corpus).
+# CX-1–4 spine from docs/reference/CIX_POC_B_Sniffer_Scope_v2.md — "zero call resolution":
+# an interaction the customer had to initiate is a service failure that wasn't anticipated.
+# swap_ref values resolve against configs/catalogue_v0_1.yaml.
+# PO-RATIFIED: pending   <- flip at Checkpoint A
+version: "1.0.0"
+requires:
+  label_schema_version: "1.0.0"
+  tag_vocab_version: "1.0.0"
+items:
+  - id: repeat_contact_unresolved                # CX-1 zero-call-resolution core
+    description: "Customer re-contacts about an issue already raised and not resolved"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "The customer indicates they are contacting again about a problem that was raised before and not resolved — a repeat contact the first interaction should have prevented."
+    exemplars: ["This is the third time I've called about the same charge."]
+    swap_ref: SW-REPEAT-DEFECT
+  - id: billing_defect_driver                    # CX-2 upstream defect
+    description: "Contact driven by a billing or invoice defect"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "The reason for the contact is a billing, invoice, or charge error the customer should not have had to call about."
+    exemplars: ["My invoice shows a plan I never signed up for."]
+    swap_ref: SW-REPEAT-DEFECT
+  - id: deterministic_request                    # CX-3 the password-reset archetype
+    description: "A fully deterministic request handled by a live agent"
+    polarity: negative
+    unit_of_count: occurrence
+    prefilter: null
+    criterion: "The customer's request is fully deterministic — a password reset, address change, balance check — that a self-service path could resolve without an agent."
+    exemplars: ["I just need to reset my password."]
+    swap_ref: SW-STATUS-SELFSERVE
+  - id: manual_after_call_work                   # CX-4 admin capture
+    description: "Agent performs manual after-the-fact record entry"
+    polarity: negative
+    unit_of_count: occurrence
+    prefilter: null
+    criterion: "The agent describes doing manual record-keeping or data entry after the interaction that a capture-at-source step could remove."
+    exemplars: ["Let me just log all this in the system after we hang up."]
+    swap_ref: SW-ADMIN-CAPTURE
+  - id: avoidable_transfer                       # transfer/escalation event
+    description: "Contact transferred or escalated for want of first-line capability"
+    polarity: negative
+    unit_of_count: occurrence
+    prefilter: null
+    criterion: "The interaction is transferred or escalated because the first person could not resolve something that a better-equipped first line would have."
+    exemplars: ["I'll have to pass you to another department for that."]
+    swap_ref: SW-STATUS-SELFSERVE
+  - id: knowledge_inconsistency                  # process-discipline (Class C)
+    description: "The same question answered inconsistently across contacts"
+    polarity: negative
+    unit_of_count: occurrence
+    prefilter: null
+    criterion: "The customer reports, or the agent reveals, that a prior contact gave different or contradictory information about the same question."
+    exemplars: ["The last person told me something completely different."]
+    swap_ref: null
+  - id: status_chase_inbound                     # inbound status chase
+    description: "Customer contacts solely to chase the status of an open item"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "The sole purpose of the contact is to ask for the status of something already in progress — a status the customer should have been able to see."
+    exemplars: ["I'm just calling to find out where my refund is."]
+    swap_ref: SW-STATUS-SELFSERVE
+  - id: unanticipated_failure                    # zero-call-resolution framing
+    description: "Contact caused by a failure the provider could have anticipated"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "The contact exists because of a provider-side failure or omission that could have been anticipated and prevented, making the interaction itself avoidable."
+    exemplars: ["Nobody told me the service would be down, so I had to call in."]
+    swap_ref: null
+  - id: first_contact_resolution                 # positive polarity of repeat_contact_unresolved
+    description: "The issue is fully resolved within this single contact"
+    polarity: positive
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "The customer's issue is fully resolved within this one interaction, with no need for a follow-up contact — the healthy counter-pattern."
+    exemplars: ["Great, that's sorted — thanks, nothing else needed."]
+    swap_ref: null
+  - id: clean_self_service_deflection            # positive polarity of deterministic_request
+    description: "A deterministic need is met without needing an agent"
+    polarity: positive
+    unit_of_count: occurrence
+    prefilter: null
+    criterion: "A deterministic customer need is satisfied through self-service or automation within the interaction, without consuming agent handling time."
+    exemplars: ["I did it myself through the app in a minute — just confirming it went through."]
+    swap_ref: null
