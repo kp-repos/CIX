@@ -22,5 +22,13 @@ decision-relevant distribution, ranking, opportunity bands, and highlighted acti
    difference) · `no-material-advantage` (evaluable, sample reproduced all decision-relevant
    outputs) · `not-evaluable`.
 
+## G4 scope
+
+The G4 harness implements the **top-k rank** comparison — the layer that drives the leverage
+grid ordering and highlighted actions — as the decision-relevant mechanism proof. The other
+three §7 layers (distribution distance, opportunity-band movement, highlighted-action
+difference) are reported but not gated at G4; they become gated comparisons at G5 on the real
+run. `self_test(...)` returns `layers_compared` so the output never overclaims which layers ran.
+
 `no-material-advantage` on an evaluable **real** run is an abandon-trigger-2 input (§8) — at G4
 the harness only runs on synthetic data (mechanism proof).

@@ -21,3 +21,13 @@ def test_thresholds_register_loads_g3_rows():
     assert reg["T-ITER"]["max_dev_cycles"] == 3
     for tid in ("T-PARA", "T-CAL", "T-NULL", "T-ITER"):
         assert reg[tid]["frozen_at_gate"] == "G3"
+
+def test_thresholds_register_loads_g4_rows():
+    from pathlib import Path
+    from cix.runconfig import load_thresholds
+    reg = load_thresholds(Path("configs/thresholds_v1.yaml"))
+    assert set(reg.keys()) >= {"T-SST", "T-DIFF"}
+    assert reg["T-DIFF"]["tolerance"] == 0.20
+    assert reg["T-SST"]["material_seed_fraction"] == 0.4
+    for tid in ("T-SST", "T-DIFF"):
+        assert reg[tid]["frozen_at_gate"] == "G4"

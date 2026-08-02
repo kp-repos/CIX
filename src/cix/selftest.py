@@ -41,7 +41,9 @@ def self_test(all_ids: list[str], hits: list[dict], spec: SelfTestSpec) -> dict:
     n = len(all_ids)
     if n < spec.min_evaluable_interactions:
         return {"state": "not-evaluable", "reason": f"{n} < {spec.min_evaluable_interactions}",
-                "material_fraction": None, "per_seed": []}
+                "material_fraction": None, "per_seed": [], "layers_compared": []}
+    # G4 gates on the top-k rank layer (drives the leverage grid + highlights); the other three
+    # §7 layers (distribution, band movement, highlight diff) are G5 additions.
     full = rollup(hits, eligible_interactions=n)
     full_top = _topk(full, spec.topk)
     per_seed = []
@@ -55,4 +57,4 @@ def self_test(all_ids: list[str], hits: list[dict], spec: SelfTestSpec) -> dict:
     frac = sum(1 for s in per_seed if s["material"]) / len(per_seed)
     state = "material-advantage" if frac >= spec.material_seed_fraction else "no-material-advantage"
     return {"state": state, "material_fraction": round(frac, 3), "per_seed": per_seed,
-            "full_topk": full_top}
+            "full_topk": full_top, "layers_compared": ["rank_topk"]}
