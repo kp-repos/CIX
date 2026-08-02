@@ -25,12 +25,22 @@ deleted so chain/account-unit items remain computable (R-PII-2).
 
 ## Audit (R-PII-1)
 
-Two layers. **Automated residual re-scan** runs on 100% of scrubbed snippets: any leftover
-email/phone pattern is a residual hit. **Sampled human audit** draws a seeded sample of
-scrubbed snippets for a reviewer to confirm no residual identity. The manifest `privacy_gate`
-is `pass` (zero residual hits in the sample), `audit-pending` (sample drawn, human sign-off
-outstanding), or `fail` (residual hits) — a `fail` is a release gate (PRD §8), stopping the
-run, not the thesis.
+Two layers. **Automated residual re-scan** runs on 100% of scrubbed snippets (text and
+speaker fields): any leftover email/phone pattern is a residual hit. **Sampled human audit**
+draws a seeded sample of scrubbed snippets for a reviewer to confirm no residual identity.
+
+The manifest `privacy_gate` status:
+- `pass` — zero automated residual hits (email/phone scan). At G4 this is automated clearance
+  only; the human-sample layer is defined here but its sign-off is recorded out-of-band.
+- `audit-pending` — a human sample has been drawn but sign-off is outstanding (used once human
+  review is operational on real data).
+- `fail` — one or more automated residual hits. A `fail` is a release gate (PRD §8), stopping
+  the run, not the thesis.
+
+The `privacy_gate` value is deliberately narrow: the automated scan covers email/phone patterns
+only, and name/linkage scrubbing relies on the rules pass. The manifest therefore also records
+`privacy_scan: {residual_scope: "email+phone", ner: "rules-only"}` so a `pass` is never mistaken
+for a full-PII clearance.
 
 ## Known limitations of the rules pass (accepted for G4 synthetic scope)
 
@@ -39,6 +49,10 @@ two participants sharing a first name can cross-link, and lowercase re-mentions 
 are missed (`str.replace` is case-sensitive). These bite only on real name populations;
 G4 runs on synthetic/cleared data. The model-backed NER pass (opt-in) is the answer for
 the post-G4 real-data scrub, where it supplements the rules pass.
+Two real-data follow-on notes: the per-run salt is currently derived from the run seed (fine for
+synthetic data, but on real data the salt must be a per-run secret not stored beside the tokens,
+with a longer token); and exact dates are kept as measurable signal but are a re-identification
+vector on real data. Both are addressed in the post-G4 real-data scrub, not here.
 
 ## Honesty
 

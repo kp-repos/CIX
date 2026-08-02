@@ -5,7 +5,7 @@ import hashlib
 import re
 from pathlib import Path
 import yaml
-from pydantic import BaseModel
+from pydantic import BaseModel, model_validator
 from cix.contracts import InteractionUnit, Segment
 
 EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
@@ -28,6 +28,22 @@ class PrivacyProtocol(BaseModel):
     version: str
     entity_classes: list[EntityClass]
     audit: dict
+
+    @model_validator(mode="after")
+    def _validate_classes(self):
+        by_name = {c.name for c in self.entity_classes}
+        required = {"email", "phone", "person", "account", "thread"}
+        missing = required - by_name
+        if missing:
+            raise ValueError(f"privacy protocol missing entity classes: {sorted(missing)}")
+        for c in self.entity_classes:
+            if c.strategy not in ("redact", "pseudonymize"):
+                raise ValueError(f"entity class '{c.name}' has unknown strategy '{c.strategy}'")
+            if c.strategy == "redact" and not c.token:
+                raise ValueError(f"redact class '{c.name}' requires a token")
+            if c.strategy == "pseudonymize" and not c.prefix:
+                raise ValueError(f"pseudonymize class '{c.name}' requires a prefix")
+        return self
 
 def load_privacy_protocol(path: Path) -> PrivacyProtocol:
     return PrivacyProtocol.model_validate(yaml.safe_load(Path(path).read_text(encoding="utf-8")))
@@ -61,11 +77,19 @@ def scrub_corpus(units: list[InteractionUnit], proto: PrivacyProtocol, salt: str
             text = EMAIL_RE.sub(cls["email"].token, text)
             counts["phone"] += len(PHONE_RE.findall(text))
             text = PHONE_RE.sub(cls["phone"].token, text)
+            # Word-boundary, longest-first replacement: never corrupt substrings of other
+            # words/names, and consume "Samantha" before "Sam".
+            needles = []
             for name, token in name_map.items():
                 for needle in (name, name.split()[0]):
-                    if needle and needle in text:
-                        counts["person"] += text.count(needle)
-                        text = text.replace(needle, token)
+                    if needle:
+                        needles.append((needle, token))
+            for needle, token in sorted(needles, key=lambda nt: len(nt[0]), reverse=True):
+                pat = re.compile(r"\b" + re.escape(needle) + r"\b")
+                found = pat.findall(text)
+                if found:
+                    counts["person"] += len(found)
+                    text = pat.sub(token, text)
             speaker = name_map.get(seg.speaker, seg.speaker)
             new_segs.append(Segment(speaker=speaker, ts=seg.ts, text=text))
         new_parts = [name_map.get(p, p) for p in u.participants]
@@ -92,4 +116,5 @@ def audit_privacy_gate(units: list[InteractionUnit], proto: PrivacyProtocol) -> 
     sample_size = min(int(proto.audit["sample_size"]), total_snippets)
     status = "fail" if len(residual) > int(proto.audit["residual_fail_threshold"]) else "pass"
     return {"status": status, "residual_hits": len(residual), "residual": residual,
-            "sample_size": sample_size, "sample_seed": int(proto.audit["seed"])}
+            "sample_size": sample_size, "sample_seed": int(proto.audit["seed"]),
+            "scan_scope": "email+phone", "ner": "rules-only"}

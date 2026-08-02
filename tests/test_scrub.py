@@ -95,3 +95,43 @@ def test_audit_gate_fail_on_residual():
     # bypass scrub to simulate a residual, then audit
     res = audit_privacy_gate([leaky], proto)
     assert res["status"] == "fail" and res["residual_hits"] >= 1
+
+def test_no_substring_corruption_of_common_words():
+    proto = load_privacy_protocol(PROTO)
+    u = InteractionUnit.model_validate({
+        "id": "i5", "source_type": "note", "participants": ["Al Green"],
+        "segments": [{"speaker": None, "text": "Also, Al Green called. Alsace was fine."}]})
+    scrubbed, _ = scrub_corpus([u], proto, salt="s")
+    t = scrubbed[0].segments[0].text
+    assert "Also," in t and "Alsace" in t          # common words untouched
+    assert "Al Green" not in t
+
+def test_shared_prefix_names_not_partially_leaked():
+    proto = load_privacy_protocol(PROTO)
+    u = InteractionUnit.model_validate({
+        "id": "i6", "source_type": "note", "participants": ["Sam Ray", "Samantha Cole"],
+        "segments": [{"speaker": None, "text": "Samantha Cole and Sam Ray spoke."}]})
+    scrubbed, _ = scrub_corpus([u], proto, salt="s")
+    t = scrubbed[0].segments[0].text
+    assert "Samantha" not in t and "antha" not in t   # no partial residue
+    assert "Sam Ray" not in t
+
+def test_malformed_protocol_rejected(tmp_path):
+    import yaml, pytest
+    doc = {"version": "1", "entity_classes": [{"name": "email", "strategy": "redact", "token": "[E]"}],
+           "audit": {"sample_size": 1, "seed": 1, "residual_fail_threshold": 0}}
+    p = tmp_path / "bad.yaml"; p.write_text(yaml.safe_dump(doc), encoding="utf-8")
+    with pytest.raises(Exception):
+        load_privacy_protocol(p)              # missing phone/person/account/thread
+
+def test_store_contains_no_unscrubbed_pii(tmp_path):
+    from cix.store import build_store, open_store
+    proto = load_privacy_protocol(PROTO)
+    scrubbed, _ = scrub_corpus([_unit("i9")], proto, salt="s")
+    db = tmp_path / "run.db"
+    build_store(scrubbed, Path("configs/tag_vocabulary_v1.yaml"), db)
+    store = open_store(db)
+    blob = " ".join(r["text"] for r in store.con.execute("SELECT text FROM snippets"))
+    assert "dana@acme.com" not in blob and "555-123-4567" not in blob and "Dana" not in blob
+    parts = " ".join(r["participants"] for r in store.con.execute("SELECT participants FROM interactions"))
+    assert "Dana" not in parts
