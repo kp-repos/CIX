@@ -24,7 +24,7 @@ from cix.normalize import CorpusValidationError, load_corpus
 from cix.catalogue import load_catalogue, join_swaps, leverage_grid
 from cix.priced import priced_view
 from cix.report import render_report
-from cix.rubric import DependencyError, load_rubric
+from cix.rubric import DependencyError, load_paraphrase_set, load_rubric
 from cix.runconfig import load_run_config, load_thresholds
 from cix.scrub import load_privacy_protocol, scrub_corpus, audit_privacy_gate
 from cix.selftest import load_selftest_spec, self_test
@@ -105,13 +105,9 @@ def _cmd_run(args) -> int:
         store.write_validation("NULL-CONTROL", None, "dev_only",
                                "development fixture - excluded from threshold-setting and acceptance")
 
-    # T-PARA (stability tier) — honest not_run when no paraphrase set covers this rubric
-    para_path = Path("configs/paraphrases_v1.yaml")
-    paras = {}
-    if para_path.exists():
-        pdoc = yaml.safe_load(para_path.read_text(encoding="utf-8"))
-        if pdoc.get("rubric_version") == rubric.version:
-            paras = pdoc["paraphrases"]
+    # T-PARA (stability tier) — pick the frozen paraphrase set bound to this rubric;
+    # honest not_run when none covers it (see rubric.load_paraphrase_set).
+    paras = load_paraphrase_set(Path(args.rubric), rubric.version)
     if paras:
         for r in paraphrase_audit(store, units, rubric, paras, ha, client,
                                   thresholds["T-PARA"], seed=config.seed):
