@@ -1,6 +1,6 @@
 # G4 — Assembly: Design Spec
 
-**Status:** design, pending PO review · **Date:** 2026-08-02 · **Owner:** PO
+**Status:** ✅ implemented — merged to `main` (PR #4), 2026-08-02 · **Date:** 2026-08-02 · **Owner:** PO
 **Gate:** G4 (assembly) · **Source of truth:** `docs/CIX_PRD_v1_2026-07-31.md` v1.2 — §5 gate row, §6 freeze points (T-DIFF/T-SST), §7 self-test, §8 abandon/release gates, R-CAT/R-PRC/R-PII/R-VAL families, AC-6/AC-7/AC-16.
 **Prior gate:** ✅ G3 (calibration) exited 2026-08-01 — holdout T-CAL 6/6, T-NULL 0/100.
 **Roadmap logic of record:** `docs/superpowers/plans/ROADMAP.md` §G4.
