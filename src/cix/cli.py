@@ -19,9 +19,12 @@ from cix.manifest import build_manifest, write_manifest
 from cix.manifest import corpus_hash as manifest_corpus_hash
 from cix.model import AnthropicClient
 from cix.normalize import CorpusValidationError, load_corpus
+from cix.catalogue import load_catalogue, join_swaps, leverage_grid
+from cix.priced import priced_view
 from cix.report import render_report
 from cix.rubric import DependencyError, load_rubric
 from cix.runconfig import load_run_config, load_thresholds
+from cix.scrub import load_privacy_protocol, scrub_corpus, audit_privacy_gate
 from cix.store import build_store, open_store
 from cix.synthesize import prompts_hash as synth_ph
 from cix.synthesize import synthesize_findings
@@ -60,6 +63,16 @@ def _cmd_run(args) -> int:
     thresholds = load_thresholds(Path("configs/thresholds_v1.yaml"))
     thresholds_version = yaml.safe_load(Path("configs/thresholds_v1.yaml").read_text())["version"]
     client = make_client(config)
+
+    # Scrub at ingest — nothing unscrubbed reaches the store (R-PII-1). Runs on cleared/synthetic
+    # data too (R-PII-4). Salt is per-run, derived from the run seed for reproducibility.
+    proto = load_privacy_protocol(Path("configs/privacy_protocol_v1.yaml"))
+    salt = f"cix-{config.seed}"
+    units, scrub_report = scrub_corpus(units, proto, salt=salt)
+    privacy = audit_privacy_gate(units, proto)
+    if privacy["status"] == "fail":
+        print(f"privacy gate FAIL: {privacy['residual_hits']} residual PII hits", file=sys.stderr)
+        return 2
 
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
@@ -123,19 +136,47 @@ def _cmd_run(args) -> int:
         f["polarity"] = polarity.get(f["item_id"])
         f["unit"], f["share"], f["denominator"] = row.get("unit"), row.get("share"), row.get("denominator")
 
+    # Pass B — catalogue join + priced view (R-ARCH-2: never suppresses Pass A above).
+    # A unit-incompatible join drops that claim and is logged; the rest still price (R-CAT-3).
+    # swap_ref is single-valued today (1 remedy per item); multi-remedy alternatives is a G5+ path.
+    cat_path = Path(args.catalogue) if getattr(args, "catalogue", None) else None
+    catalogue_loaded = False
+    catalogue_version = None
+    priced_section = {"plays": [], "note": "No catalogue loaded — no priced view in this run."}
+    leverage_section = None
+    if cat_path and cat_path.exists():
+        cat = load_catalogue(cat_path)
+        catalogue_version = cat.version
+        crosswalk = {i.id: i.swap_ref for i in rubric.items}
+        joined = join_swaps(roll["items"], crosswalk, cat)
+        for d in joined["dropped"]:
+            store.log_drop("priced-view", "unit-compatibility", d["reason"])
+            store.write_validation("PASS-B", d["item_id"], "unit_incompat", d["reason"])
+        grid = leverage_grid(joined["priced"], cat)
+        priced_section = priced_view(joined["priced"])
+        leverage_section = {"grid": grid["cells"], "shelf": joined["shelf"],
+                            "class_d": grid["class_d"], "note": f"catalogue {cat.version}"}
+        catalogue_loaded = True
+
     manifest = build_manifest(units, canonical_hash(db), vocab["version"],
-                              privacy_gate="synthetic-fixture", corpus_clearance=args.clearance)
+                              privacy_gate=privacy["status"], corpus_clearance=args.clearance, salt=salt)
     manifest.update({"label_schema_version": schema_version, "rubric_version": rubric.version,
                      "model_versions": {"primary": config.model},
                      "prompt_hashes": {"labels": labels_ph(), "hits": hits_ph(), "synthesis": synth_ph(),
                                        "apply": apply_prompts_hash()},
                      "seeds": {"run": config.seed}, "thresholds_version": thresholds_version,
                      "artifacts": {"labels": la, "hits": ha}})
+    manifest["privacy_scan"] = {"residual_scope": privacy["scan_scope"], "ner": privacy["ner"]}
+    manifest["catalogue_version"] = catalogue_version
     write_manifest(manifest, out)
     render_report({"findings": gated["findings"], "rollup": roll,
                    "validations": store.validations(),
                    "drop_summary": {k: gated[k] for k in ("candidate_claims", "quote_drops", "stat_drops")},
-                   "manifest": manifest, "catalogue_loaded": False}, out)
+                   "manifest": manifest, "catalogue_loaded": catalogue_loaded,
+                   "drops": store.drops(),
+                   "priced_plays": priced_section,
+                   "leverage": leverage_section or {"grid": [], "shelf": [], "class_d": [], "note": ""}},
+                  out)
     print(json.dumps({"run": str(out), "interactions": len(units),
                       "findings": len(gated["findings"]), "drops": gated["quote_drops"] + gated["stat_drops"],
                       "validations": len(store.validations())}))
@@ -263,6 +304,7 @@ def main(argv: list[str] | None = None) -> int:
     p_run.add_argument("--clearance", default="n/a: synthetic fixtures")
     p_run.add_argument("--dev-null-control", action="store_true")
     p_run.add_argument("--no-audit-seat", action="store_true")
+    p_run.add_argument("--catalogue", default=None, help="path to swap catalogue (A5); enables Pass B")
     p_run.set_defaults(fn=_cmd_run)
     p_gen = sub.add_parser("generate-calibration", help="generate a calibration split via the second lab (live)")
     p_gen.add_argument("--spec", required=True)

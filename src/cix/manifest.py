@@ -14,7 +14,7 @@ def corpus_hash(units: list[InteractionUnit]) -> str:
     return h.hexdigest()
 
 def build_manifest(units, canonical_hash: str, tag_vocab_version: str,
-                   privacy_gate: str, corpus_clearance: str) -> dict:
+                   privacy_gate: str, corpus_clearance: str, salt: str | None = None) -> dict:
     return {
         "manifest_version": MANIFEST_VERSION,
         "corpus_hash": corpus_hash(units),
@@ -29,6 +29,7 @@ def build_manifest(units, canonical_hash: str, tag_vocab_version: str,
         "seeds": {},
         "thresholds_version": None,
         "privacy_gate": privacy_gate,
+        "scrub_salt": salt,
         "corpus_clearance": corpus_clearance,
         "created_at": datetime.now(timezone.utc).isoformat(),
     }

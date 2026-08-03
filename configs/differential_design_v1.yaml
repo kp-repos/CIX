@@ -1,0 +1,21 @@
+# Differential variant design (R-VAL-7). Predeclares the perturbations, expected deltas, and
+# per-variant tolerances. Variants are CONSTRUCTED from the scrubbed FS corpus at G5 (follow-on);
+# this design + T-DIFF freeze at G4 before any variant run.
+# PO-RATIFIED: 2026-08-02 (Checkpoint B — T-DIFF frozen)
+version: "1.0.0"
+variants:
+  - id: V1-delete
+    perturbation: delete_subset
+    target: "a known-labeled subset of repeat_contact_unresolved interactions"
+    expected_delta: "the repeat_contact_unresolved count drops by the deleted magnitude"
+    tolerance: 0.20
+  - id: V2-duplicate
+    perturbation: duplicate_chains
+    target: "an identified repeat-contact thread"
+    expected_delta: "chain/interaction counts for that thread rise by the duplicated magnitude"
+    tolerance: 0.20
+  - id: V3-splice
+    perturbation: splice_instances
+    target: "N donor deterministic_request interactions"
+    expected_delta: "the deterministic_request count rises by N"
+    tolerance: 0.20

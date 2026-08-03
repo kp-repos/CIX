@@ -1,4 +1,4 @@
-version: "1.1.0"
+version: "1.2.0"
 registers:
   T-ESC:
     frozen_at_gate: G2
@@ -60,4 +60,25 @@ registers:
     holdout_evaluations: 1
     rule: "dev/holdout split per A7; revisions see dev only; every dev scoring appends cycles.json (register history); exactly one predeclared holdout evaluation, enforced by a one-shot marker; budget exhausted + holdout failing -> abandon trigger 1 fires"
     consequence: "PO owns the stop/continue decision; the cycle log is the audit trail"
+    owner: PO
+  T-SST:
+    frozen_at_gate: G4
+    sample_fraction: 0.10
+    seeds: [11, 22, 33, 44, 55]
+    min_evaluable_interactions: 40
+    material_seed_fraction: 0.4
+    topk: 3
+    layers_gated: [distribution, rank_topk, highlight_diff, band_movement]
+    distribution_tv_max: 0.25
+    derivation: "the four §7 layers each capture a decision-relevant way corpus access could change the output: distribution distance (magnitude of distributional shift, TV > 0.25), top-k rank (leverage-grid ordering), highlighted-action set membership, and opportunity-band movement (priced ranking). A seed counts as material if ANY layer differs; a difference on >= 40% of predeclared seeds is a material advantage (§7.6 fraction-of-seeds). Below 40 evaluable interactions the comparison is underpowered -> not-evaluable. band_movement is compared only when a catalogue is loaded (the real run has one)."
+    rule: "per §7: freeze eligibility/rubric/catalogue/thresholds/metrics; for each seed draw a 10% sample, regenerate from sample records only; compare all four layers (distribution TV, top-k rank, highlight-set membership, priced-ranking top-k); a seed is material if any layer differs; state = material-advantage if the material-seed fraction >= 0.40, else no-material-advantage; n < 40 -> not-evaluable"
+    consequence: "governs R-VAL-5 states; no-material-advantage on an evaluable real run = abandon-trigger-2 input (§8)"
+    owner: PO
+  T-DIFF:
+    frozen_at_gate: G4
+    tolerance: 0.20
+    variants: 3
+    derivation: "a differential reading that misses its injected delta by more than a fifth cannot be trusted to track magnitude on real language; conjunction with per-variant predeclared deltas isolates which perturbation failed. Three variants (delete/duplicate/splice) exercise removal, chain growth, and additive signal."
+    rule: "per variant, predeclared expected delta vs instrument reading: relative error > 0.20 -> fail; any variant fail = abandon-trigger-1 input (magnitude invalid on real language, §8)"
+    consequence: "breach after construction on the real corpus = abandon-trigger-1 input (§8)"
     owner: PO

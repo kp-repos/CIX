@@ -1,0 +1,50 @@
+# A5 — stand-in swap catalogue v0.1 (R-CAT-2). Pencilled bands; every unverified entry
+# marked inferred with source. Schema per docs/reference/CIX_Swap_Catalogue_v0.md §2.
+# PO-RATIFIED: 2026-08-02 (Checkpoint A)
+version: "0.1.0"
+# effort/outcome are ordinal band labels; the leverage grid ranks on them (R-CAT-4).
+effort_bands: [low, medium, high]
+outcome_bands: [small, medium, large]
+entries:
+  - id: SW-ADMIN-CAPTURE
+    labour_unit: "Manual after-the-fact data entry into CRM/pipeline systems"
+    signal: "seller describes typing records instead of selling"
+    substitute: "Capture at the interaction -> structured extraction"
+    remedy_class: A
+    effort: low
+    outcome: large
+    unit_basis: occurrence
+    currency: USD
+    horizon: "per year"
+    per_unit_band: [40, 120]
+    evidence_tier: candidate
+    inferred: true
+    source: "Swap Catalogue v0 seed 2; inferred, not operator-confirmed"
+  - id: SW-STATUS-SELFSERVE
+    labour_unit: "Chasing another team for a blocking status/approval"
+    signal: "repeated nudges for a sign-off"
+    substitute: "Self-service status + automated routing"
+    remedy_class: A
+    effort: medium
+    outcome: medium
+    unit_basis: occurrence
+    currency: USD
+    horizon: "per year"
+    per_unit_band: [20, 60]
+    evidence_tier: candidate
+    inferred: true
+    source: "inferred"
+  - id: SW-REPEAT-DEFECT
+    labour_unit: "Repeat contact on an already-raised issue"
+    signal: "customer re-raises the same problem"
+    substitute: "Fix the upstream defect (often another department's)"
+    remedy_class: D
+    effort: high
+    outcome: large
+    unit_basis: interaction
+    currency: USD
+    horizon: "per year"
+    per_unit_band: [0, 0]
+    evidence_tier: none
+    inferred: true
+    source: "Class D by design — naming is the value, fixing isn't ours"
