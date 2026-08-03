@@ -26,6 +26,7 @@ from cix.report import render_report
 from cix.rubric import DependencyError, load_rubric
 from cix.runconfig import load_run_config, load_thresholds
 from cix.scrub import load_privacy_protocol, scrub_corpus, audit_privacy_gate
+from cix.selftest import load_selftest_spec, self_test
 from cix.store import build_store, open_store
 from cix.synthesize import prompts_hash as synth_ph
 from cix.synthesize import synthesize_findings
@@ -297,6 +298,38 @@ def _cmd_calibrate(args) -> int:
                       "failing": len(failing)}))
     return 0
 
+def _cmd_selftest(args) -> int:
+    run_dir = Path(args.run)
+    manifest_path = run_dir / "manifest.json"
+    if not manifest_path.exists():
+        print(f"error: no manifest.json in {run_dir} (is this a cix run output dir?)", file=sys.stderr)
+        return 2
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    if "artifacts" not in manifest:
+        print("error: run manifest has no 'artifacts' key — re-run with the current cix version", file=sys.stderr)
+        return 2
+    spec = load_selftest_spec(Path(args.spec))
+    store = open_store(run_dir / "run.db")
+    hits = store.hits_for(manifest["artifacts"]["hits"])
+    all_ids = store.labeled_interactions(manifest["artifacts"]["labels"])
+    catalogue = crosswalk = None
+    if args.catalogue and args.rubric:
+        catalogue = load_catalogue(Path(args.catalogue))
+        rubric = load_rubric(Path(args.rubric), manifest["label_schema_version"],
+                             manifest["tag_vocab_version"])
+        crosswalk = {i.id: i.swap_ref for i in rubric.items}
+    res = self_test(all_ids, hits, spec, catalogue=catalogue, crosswalk=crosswalk)
+    store.write_validation("T-SST", None, res["state"],
+                           f"material_fraction={res['material_fraction']} "
+                           f"layers={','.join(res['layers_compared'])} spec={spec.version} "
+                           "outcome_level=O1-synthetic-until-real-corpus")
+    report = {"spec_version": spec.version, **res}
+    (run_dir / "selftest_report.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
+    print(json.dumps({"state": res["state"], "material_fraction": res["material_fraction"],
+                      "layers_compared": res["layers_compared"],
+                      "report": str(run_dir / "selftest_report.json")}))
+    return 0
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="cix")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -339,6 +372,12 @@ def main(argv: list[str] | None = None) -> int:
     p_cal.add_argument("--rubric", default="configs/sales_rubric_v1.yaml")
     p_cal.add_argument("--final", action="store_true")
     p_cal.set_defaults(fn=_cmd_calibrate)
+    p_st = sub.add_parser("self-test", help="full-vs-10% self-test (§7, R-VAL-5) over a completed run")
+    p_st.add_argument("run")
+    p_st.add_argument("--spec", default="configs/selftest_spec_v1.yaml")
+    p_st.add_argument("--catalogue", default=None, help="enables the band_movement layer (with --rubric)")
+    p_st.add_argument("--rubric", default=None, help="supplies the swap_ref crosswalk for band_movement")
+    p_st.set_defaults(fn=_cmd_selftest)
     args = p.parse_args(argv)
     return args.fn(args)
 
