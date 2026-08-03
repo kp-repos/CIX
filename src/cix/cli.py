@@ -6,6 +6,7 @@ import yaml
 from cix.aggregate import rollup
 from cix.audits import apply_prompts_hash, drop_rate_check, escape_audit, label_self_agreement, paraphrase_audit, second_lab_audit, split_half
 from cix.calgen import generate_corpus, load_cal_spec
+from cix.servicegen import generate_service_corpus, load_service_spec
 from cix.calscore import HoldoutError, guard_holdout, log_cycle, record_holdout, score_calibration, score_null
 from cix.second_lab import OpenAIClient, load_second_lab_config
 from cix.canonical import canonical_hash
@@ -227,6 +228,15 @@ def _cmd_generate_calibration(args) -> int:
                       "planted": sum(1 for t in truth.values() if t)}))
     return 0
 
+def _cmd_generate_service(args) -> int:
+    spec = load_service_spec(Path(args.spec))
+    slc = load_second_lab_config(Path("configs/second_lab_config_v1.yaml"))
+    truth = generate_service_corpus(spec, make_second_client(slc), Path(args.out),
+                                    model_name=slc.model, lab=slc.lab)
+    print(json.dumps({"out": str(args.out), "interactions": len(truth),
+                      "planted": sum(1 for t in truth.values() if t)}))
+    return 0
+
 def _cmd_calibrate(args) -> int:
     run_dir, cal_dir = Path(args.run), Path(args.calibration)
     manifest_path = run_dir / "manifest.json"
@@ -311,6 +321,11 @@ def main(argv: list[str] | None = None) -> int:
     p_gen.add_argument("--split", required=True, choices=["dev", "holdout", "null"])
     p_gen.add_argument("--out", required=True)
     p_gen.set_defaults(fn=_cmd_generate_calibration)
+    p_svc = sub.add_parser("generate-service-corpus",
+                           help="generate the synthetic FS-shaped service corpus via the second lab (O1-only)")
+    p_svc.add_argument("--spec", required=True)
+    p_svc.add_argument("--out", required=True)
+    p_svc.set_defaults(fn=_cmd_generate_service)
     p_cal = sub.add_parser("calibrate", help="score a run against a calibration truth registry")
     p_cal.add_argument("run")
     p_cal.add_argument("--calibration", required=True, help="split dir containing truth.json")
