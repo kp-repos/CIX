@@ -1,0 +1,63 @@
+{
+  "id": "svc-032",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Marissa from Northlake Dental Group. We need three more user seats added for our operations team, ideally today."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I can help with that. I have Northlake Dental Group pulled up in the admin console. Can you confirm the workspace ID ends in 4182?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, 4182. We’re currently at 42 seats and need to go to 45."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m seeing 42 active seats on the Professional plan at $38 per seat per month. Adding three seats will prorate at $71.61 total for the rest of the billing period ending September 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That sounds right. Can you go ahead and add them?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Done. The account now has 45 seats available. You can invite the three users from Admin, then Users, then Add user."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Will the receipt go to billing at northlakedental dot com?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes, the billing tool is set to send it there. You should see the receipt in a few minutes, and the prorated amount will also show on invoice 90817."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, that’s all I needed. Thanks for the quick help."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. Ticket 62431 is noted and closed out."
+    }
+  ]
+}

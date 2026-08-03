@@ -1,0 +1,68 @@
+{
+  "id": "svc-006",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, so this is Dan at Northlake Fixtures. Email is dan.rosen@northlakefixtures.com. I just need to add three user seats for our operations team."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’ve got Northlake Fixtures pulled up in the admin console. You’re currently on the Team plan with 42 seats, billing monthly on the 18th. You want to move that to 45 seats, right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Correct. The new users are starting Monday, August 12, so if the seats can be available today that’d be ideal."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, no issue. I’m updating the seat count now. The prorated charge through August 17 is $86.40, and then your monthly amount goes from $1,176.00 to $1,260.00 starting August 18."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches what I expected. Go ahead."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "All set. The account now has 45 seats available. The billing tool generated invoice 48291 for the prorated amount, and it’ll go to ap@northlakefixtures.com in the next few minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do I invite the new folks the same way as usual?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. In the admin console, go to Users, Invite users, and enter their work emails. They’ll receive the setup link immediately. I also added a note on ticket 317624 with the seat change and invoice number."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, that’s all I needed. Thanks, Maya."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. Have a good rest of your day."
+    }
+  ]
+}

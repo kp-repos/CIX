@@ -1,0 +1,73 @@
+{
+  "id": "svc-052",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Maya, yeah, this is Dan with Northview Logistics. I need to add 6 seats to our account for the operations team, ideally today."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. Can I confirm the account is Northview Logistics on the Growth plan, billing admin email dan.reed@northviewlogistics.com?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that’s me. We’re at 42 seats right now and need to go to 48."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m in the billing tool now. The additional 6 seats will be prorated through your current term ending September 30, and the prorated charge is $684.12 before tax. Is it okay to apply that to the card ending in 4418?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that’s fine. And the users can be provisioned right away once the seats are added?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. Once I submit this, the seat count updates immediately in the admin console. Your admins can invite the new users after that."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Go ahead."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "All set. Your account now shows 48 seats, and I’ve generated invoice 28764 for the prorated amount. You should receive the receipt by email in a few minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, I see the seats in the admin console already. That’s all I needed."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Glad to hear it. I’ll close ticket 514209 as resolved. Thanks for calling, Dan."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks, Maya. Have a good one."
+    }
+  ]
+}

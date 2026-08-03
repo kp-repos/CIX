@@ -1,0 +1,73 @@
+{
+  "id": "svc-024",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the billing contact email?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Dan with Lakeside Field Services. Billing email is ap@lakesidefield.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I have the account up in the billing tool. What can I help with today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Our March statement, invoice 43892, shows a $620 implementation add-on, but we finished implementation last November and it wasn't on the February invoice."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I see invoice 43892 dated March 1 for $3,870 total. Let me check the line history and the account notes, one second."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We just need to close our month-end by Friday, so I wanted to catch it before payment runs."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, so I found the note. That add-on was attached to the account by mistake when your renewal quote was copied on February 26. Your active subscription is 42 seats on the Growth plan, monthly billing, no implementation items."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I expected."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "I’m removing that line and issuing a corrected invoice now. The revised total will be $3,250, same due date of March 15. You’ll get the PDF at ap@lakesidefield.com in about five minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Can you put a note on the ticket for our records?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Already done. Ticket 72184 has the correction note and the old invoice is marked superseded in the billing tool."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, thanks. That’s all I needed."
+    }
+  ]
+}

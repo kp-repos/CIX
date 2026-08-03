@@ -1,0 +1,63 @@
+{
+  "id": "svc-034",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Megan from Northstar Clinics. I’m calling about ticket 482713, the user import for our West Region team."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, hi Megan. Let me pull that up in the ticketing system. Okay, I see the import file for 84 users was received on July 29."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Right. I’m just checking where it stands because we hadn’t heard anything since Marcus uploaded the corrected CSV."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Understood. I’m looking at the notes now. The import passed validation this morning at 9:18 Eastern, and it’s currently queued to run in the admin console batch window tonight."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, so no action needed from our side?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Correct. The email field and department codes all look good. The only thing flagged was three duplicate inactive accounts, and our team already mapped those to the existing profiles."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. We have managers expecting access tomorrow. Is that still realistic?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. The batch should complete by 11:00 p.m. Eastern, and the accounts should be available before business hours tomorrow, July 31. I’ll add you and Marcus to the ticket update."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, thanks. That’s all I needed."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No problem. I’ll leave the ticket open until the completion note posts in the morning."
+    }
+  ]
+}

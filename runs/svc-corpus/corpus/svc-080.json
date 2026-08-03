@@ -1,0 +1,68 @@
+{
+  "id": "svc-080",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and either your account email or ticket number?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, hi Maya. This is Kevin at Northstar Fabrication. I opened ticket 482917 this morning from kevin.ross@northstarfab.com. We need three more seats added before our training tomorrow."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m pulling that up in the ticketing system now. Okay, I see your current plan has 42 seats, billed annually, renewal on October 31. You want to move that to 45 seats, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s right. Just three standard users, no admin access. If it prorates, that’s fine, I just need them available today."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, we can do that. I’m in the billing tool now, and the prorated charge for the three seats through October 31 is $186.75. It’ll be added to your card ending in 1142 unless you need a different payment method."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that card is fine. Please go ahead."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "All set. Your seat count is now 45. In the admin console, you can go to Users, then Invite Users, and add the three emails. They should be able to accept right away."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Can you send me a quick confirmation for the charge and the new seat count?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Already sending it to you and billing@northstarfab.com. It includes ticket 482917, the $186.75 prorated amount, and the updated 45-seat total."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it, I see the email. Thanks, that takes care of it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. I’ll mark the ticket resolved, and if anything comes up with the invites, just reply to that email."
+    }
+  ]
+}

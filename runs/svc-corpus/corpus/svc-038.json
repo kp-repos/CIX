@@ -1,0 +1,58 @@
+{
+  "id": "svc-038",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, hi Maya. This is Brent with Northline Foods. I need to add five user seats to our account before our training session on Monday, if possible."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. I have your account pulled up under Northline Foods. You're currently on 42 seats, billed annually through October 31. Do you want to go to 47 seats starting today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. Same plan, no other changes. We just need the extra users provisioned for the warehouse supervisors."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. The prorated charge for the five additional seats through October 31 is $612.50 before tax. It'll be added to your next invoice, invoice cycle date is August 15. Is that okay to apply?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that's fine. Please go ahead."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "All set. The account now shows 47 seats available. Your admins can add the new users in the admin console right away, and I also sent a confirmation to billing at northlinefoods.com. Ticket number is 483729."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. That's all I needed. Thanks for taking care of it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You're welcome, Brent. Have a good rest of your day."
+    }
+  ]
+}

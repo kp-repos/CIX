@@ -1,0 +1,63 @@
+{
+  "id": "svc-056",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": "acct-TH2",
+  "thread_id": "svc-TH2",
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Dana at Northstar Benefits. Our employee import has been sitting at 4,812 of 7,650 rows since about 9:20 this morning. It just says processing in the admin console."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I can take a look. Can you confirm the workspace name and the import file name?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Workspace is Northstar Benefits - Production, and the file was employees_2026_01_15.csv. We uploaded it around 8:45 Central."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. One moment while I check the admin console and the job log. Okay, I see the run here, job ending in 7714. It processed the first batch and then stopped on the contacts step. No error surfaced to you, which is not great."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Right, we didn't get an email or anything. We just need it to finish before we send manager invites this afternoon."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Understood. I’m going to open a ticket and have our support queue restart that import from the last completed checkpoint. It should not create duplicates for the 4,812 rows already in, but I want the team to restart it from the back end rather than having you upload the file again."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Is there anything wrong with the file? We can fix it if there’s a bad row."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "I don’t see a row-level validation error in the log. It looks like the worker just stopped responding partway through. I’m attaching the run details now. Your ticket number is 284963."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. What kind of timing are we looking at?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "I’m marking it as time-sensitive and asking for the restart within the next hour. I’ll email you on ticket 284963 once the job is moving again, and I’ll include the final row count after it completes."
+    }
+  ]
+}

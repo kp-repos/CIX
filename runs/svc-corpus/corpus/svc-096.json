@@ -1,0 +1,63 @@
+{
+  "id": "svc-096",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, yeah, this is Megan from Northstar Dental Group. We need to add 6 seats to our account before Monday, and I wanted to make sure the pricing lines up with our current annual plan."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. Can I confirm the account is Northstar Dental Group on the annual Growth plan, renewal date November 30, 2026?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We currently have 42 users, and we need to move to 48. Same access level as the rest of the operations team."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m checking the billing tool now. The prorated charge for 6 additional seats through November 30 comes to $1,284.00 before tax. The ongoing renewal would reflect 48 seats at your current contracted rate."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I expected. Can you add them today and send the receipt to ap@northstardental.com?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. I’ve added the 6 seats in the admin console, and the billing tool is generating the charge now. You should see invoice 41872 sent to ap@northstardental.com in the next few minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do I need to do anything to assign those seats, or will they show up for our admin?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "They’ll show up right away for your admin users. If you go to Admin, then Users, you should see 6 available seats. You can invite the new users from there."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, I see the available seats now. Thanks for turning that around."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. I’ll note ticket 236119 as completed, and the invoice copy is on its way."
+    }
+  ]
+}

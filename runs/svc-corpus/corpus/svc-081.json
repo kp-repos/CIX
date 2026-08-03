@@ -1,0 +1,58 @@
+{
+  "id": "svc-081",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on your admin profile?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Jordan at Northline Fabrication. Email is jordan.mills@northlinefab.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Great, I have your account up. How can I help today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We need to add five more user seats for the ops team. We're at 42 right now, and we'd like to go to 47 starting today if possible."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure. I’m in the admin console now. Your current plan supports that, and billing is monthly on the 12th. The prorated amount for the five seats through March 11 is $186.25, then your monthly total goes from $1,554.00 to $1,739.00. Is that okay to apply?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that matches what I expected. Please use the card already on file."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Done. The account now has 47 seats available, and I’ve sent the receipt to billing@northlinefab.com. You can invite the five users from Admin, then Users, then Add user. They’ll get the setup email right away."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. I see the seat count updated on my side. That's all I needed, thanks."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Happy to help. I also added a note in ticket 482917 with the seat change and billing amount, so you have a record of it."
+    }
+  ]
+}

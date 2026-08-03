@@ -1,0 +1,63 @@
+{
+  "id": "svc-072",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Maya from Brookline Manufacturing. I'm calling about our renewal quote, ticket 18427. It shows 86 seats, but we only need 72 for the April 1 term."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I have that pulled up. I see the current annual quote is $41,280 for 86 standard seats. You want that revised to 72 seats starting April 1, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Correct. And please keep the same billing contact, invoices at brooklinemfg dot com. The PO number is changing to PO-77419."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. With 72 seats, the annual total comes to $34,560 before tax. No change to your admin users or service level, just the seat count and PO."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that's fine. Can you get the updated quote out today? Our finance team closes approvals on Friday."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "I can. Once we hang up, I’ll retype the seat change and PO into the billing tool, copy the notes from the ticketing system into the renewal form, and finish the internal paperwork, so you should have the revised quote by 3 p.m. Eastern."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, great. Send it to me and cc Daniel Ruiz, same domain."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Will do. Maya Chen and Daniel Ruiz on the email, 72 seats, PO-77419, April 1 start. You’ll get the confirmation on ticket 18427."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, thanks."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks, Maya. Have a good one."
+    }
+  ]
+}

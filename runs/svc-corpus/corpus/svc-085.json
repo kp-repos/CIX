@@ -1,0 +1,73 @@
+{
+  "id": "svc-085",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Maya, yeah, this is Dan from Northstar Benefit Group. We need to add three seats to our account before our go-live on Monday, June 24. I’m not seeing where to do that in the admin console."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. Can I get the account ID or the primary admin email?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, account ID is NBG-4172, and the admin email is ops@northstarbenefit.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’ve pulled up the account. You’re currently on 42 seats, with 39 assigned. You want to move to 45 total, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s right. The new users are joining the implementation team, so we just need the extra capacity today."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No problem. I’m updating that in the billing tool now. The prorated charge for the rest of the term is $318.45, and it’ll appear on your July 1 invoice. Is that okay to proceed?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that’s fine."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "All set. Your seat count is now 45, and the admin console should reflect it within about two minutes. You can invite the three new users from Users, then Add user."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "I refreshed and I see 45 now. Great, thanks for taking care of that."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. I also added a note to ticket 284913 with the change and the prorated amount. Anything else I can help with?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Nope, that’s it. Thanks."
+    }
+  ]
+}

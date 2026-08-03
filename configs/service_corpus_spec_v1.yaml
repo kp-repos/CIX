@@ -1,0 +1,90 @@
+# Service corpus spec v1 — synthetic FS-shaped rehearsal corpus (G5 rehearsal spec §3.1).
+# FIREWALL: pathology descriptions are the ONLY pathology text the generator sees; they map
+# to A9 item IDs, never item text (R-VAL-2 discipline; enforced by tests/test_service_spec.py).
+# O1-ONLY by construction (PRD §2.3): this corpus is synthetic and is never presented as O2/O3.
+# Coverage minimums (spec §3.1): >=6 repeat_contact plants, >=2 threads, >=3 deterministic.
+version: "1.0.0"
+id_prefix: svc
+seed: 20260803
+style_guide: |
+  Register: North American B2B software/services customer support, mid-market. Transcripts
+  are lightly imperfect speech-to-text: occasional false starts, fillers ("yeah, so"),
+  interruptions marked with a dash, no stage directions. Emails are terse, subject implied,
+  sign-offs minimal. Agents reference tools generically (the ticketing system, the billing
+  tool, the knowledge base, the admin console) — never real vendor names. Customers have
+  concrete, mundane concerns: invoices, logins, user provisioning, data imports, go-live
+  dates, plan changes. Numbers are specific ($ amounts, dates, ticket numbers, seat counts)
+  but unremarkable. Nobody narrates the problem category or names it; it shows up the way
+  it would in real work. Purity: an interaction carries at most the single workplace
+  problem it is built around; everything else in it is competent and forgettable.
+threads:
+  # Repeat-contact chains: contact 1 raises the issue (unresolved at end, no plant);
+  # contacts 2..n each plant the thread pathology. Repeat plants: 3 + 2 + 2 = 7.
+  - key: TH1
+    pathology: SP1
+    interactions: 4
+    issue: "a monthly subscription invoice that keeps showing one seat bundle twice"
+  - key: TH2
+    pathology: SP1
+    interactions: 3
+    issue: "a data import job that stalls partway and has to be restarted by support"
+  - key: TH3
+    pathology: SP1
+    interactions: 3
+    issue: "an admin account that keeps locking out every few days for no clear reason"
+singles:
+  - {pathology: SP1, count: 1}    # a standalone repeat-contact mention; total repeat = 8
+  - {pathology: SP2, count: 8}
+  - {pathology: SP3, count: 6}    # deterministic_request donors for V3
+  - {pathology: SP4, count: 6}
+  - {pathology: SP5, count: 5}
+  - {pathology: SP6, count: 4}
+  - {pathology: SP7, count: 5}
+  - {pathology: SP8, count: 4}
+clean_interactions: 51            # 10 thread + 39 singles + 51 clean = 100
+pathologies:
+  - key: SP1
+    maps_to_item: repeat_contact_unresolved
+    description: >
+      Someone reaches out yet again because an earlier issue never actually got fixed;
+      each fresh touchpoint is the same old complaint resurfacing, and the person makes
+      clear this is not their first attempt.
+  - key: SP2
+    maps_to_item: billing_defect_driver
+    description: >
+      The whole reason this person got in touch is something wrong on an invoice or
+      statement — a figure that does not add up, an unexpected line entry, money taken
+      that should not have been.
+  - key: SP3
+    maps_to_item: deterministic_request
+    description: >
+      The person wants one tiny routine thing done — a credential reset, a mailing
+      detail changed, a toggle flipped — a fixed-script chore needing zero judgment,
+      yet a human still has to do it for them.
+  - key: SP4
+    maps_to_item: manual_after_call_work
+    description: >
+      Once the customer is gone, the agent grinds through by-hand record keeping:
+      retyping what happened into internal systems, copying details between tools,
+      finishing paperwork the conversation created.
+  - key: SP5
+    maps_to_item: avoidable_transfer
+    description: >
+      The caller gets bounced to another person or queue for something the person who
+      first answered could plausibly have handled themselves.
+  - key: SP6
+    maps_to_item: knowledge_inconsistency
+    description: >
+      Two people at the company give conflicting explanations of the same policy or
+      procedure, and the customer notices the contradiction and has to push for a
+      straight answer.
+  - key: SP7
+    maps_to_item: status_chase_inbound
+    description: >
+      The person's only purpose in reaching out is to ask where things stand on
+      something already underway, because nobody told them proactively.
+  - key: SP8
+    maps_to_item: unanticipated_failure
+    description: >
+      The customer had to be the one to notice and report a breakage the company's
+      own systems could have caught and flagged first.

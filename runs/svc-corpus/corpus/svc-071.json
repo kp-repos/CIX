@@ -1,0 +1,78 @@
+{
+  "id": "svc-071",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": "acct-TH3",
+  "thread_id": "svc-TH3",
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Daniel at Northstar Facilities. The account is admin@northstarfacilities.com. It keeps getting locked out every few days and we cannot figure out why."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I have Northstar pulled up in the admin console. Just to confirm, this is your main admin login, not one of the regular user seats?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Correct. We have 38 seats, but that admin account is the one we use for provisioning and monthly exports. It locked yesterday morning, and then again today around 9:15 Eastern."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m checking the ticketing system and I’m not seeing a prior case for this. In the admin console I do see the account is locked right now. I can unlock it, but I want to look at the sign-in history first."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We reset the password last Thursday, so it should not be an old password thing, unless someone has it saved somewhere."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, so I’m seeing several failed attempts before each lock. The source details are pretty limited here, just timestamps and that it’s coming through the standard login page. I don’t see a successful login in between those attempts."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s the weird part. Only three of us know that login, and nobody is trying it that often. Is there any integration that would hit that account?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "From what I can see in the admin console, there are no active tokens under that admin user, and no scheduled import tied to it. I’m going to unlock it now so you can get back in today."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, I’m at the login screen. Yeah, it let me in. But I’m worried we’ll be back here Monday."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Understood. I’m opening case 482716 and I’m going to send this to our account access team to pull the fuller authentication logs for the dates you mentioned, March 18 and today, March 19. I’ll include that the password was reset on March 14 and that the admin account has no active tokens showing."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Please send updates to daniel.ross@northstarfacilities.com. We need that account available for new hire setup next week."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Will do. You’ll get the case confirmation in a few minutes, and I’ll follow up once the access team reviews the logs. For now the account is unlocked and active."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "svc-074",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the last four digits of your account ID?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Daniel at Northbridge Materials. Last four are 4187."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it, thanks. I have the account up in the admin console. What can I help with today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We need to add three user seats for our operations team. Ideally today, if that's simple. We're currently at 42 seats and need to go to 45."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, that’s straightforward. I’m checking the billing tool now. You’re on annual billing through March 31, 2026, so the prorated charge for three seats through the end of the term is $1,128.60 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I expected. Can you add them and send the updated invoice to billing@northbridgematerials.com?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. I’ve added the three seats, so your limit is now 45. The updated invoice is generated as INV-208944, due September 2, for $1,128.60 plus applicable tax. I’m sending it to that billing address now."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do I need to do anything else for the users to show up?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No, you’re all set. Your account admin can invite them from Users, then Add user. The new seats are available immediately."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, thanks for the quick help."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. I’ll also note this on ticket 784216. Have a good one."
+    }
+  ]
+}

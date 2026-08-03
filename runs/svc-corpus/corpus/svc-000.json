@@ -1,0 +1,63 @@
+{
+  "id": "svc-000",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Maya, yeah, this is Eric from Northstar Fabrication. I need to add 8 user seats to our account today. We have a training group starting Monday, August 12."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. I have your account pulled up. You're currently on 42 seats at $38 per seat per month, billed monthly. Do you want the 8 seats active immediately?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, active today if possible. The admin is already set up to invite them, we just hit the seat limit."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I'll update that to 50 seats. The billing tool shows a prorated charge of $122.58 for the remainder of the August billing period, and then your September 1 invoice will reflect 50 seats at $1,900 before tax. Does that look okay?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that matches what I expected. Please go ahead."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, that's updated. Your admin console should show 50 available seats now. I also generated confirmation under ticket 483217, and the prorated charge will appear on invoice INV-10488."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "I see it now, yeah, available seats says 8 remaining. Perfect."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Great. Is there anything else you need today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that's it. Thanks for the quick help."
+    }
+  ]
+}

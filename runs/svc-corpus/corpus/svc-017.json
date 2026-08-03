@@ -1,0 +1,73 @@
+{
+  "id": "svc-017",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on your admin account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Ben with Northline Supply. Admin email is ben.carter@northlinesupply.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks, Ben. I have Northline Supply pulled up in the admin console. What can I help with today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We need to add five more users for the operations team. We’re at 42 seats now, and I want to move it to 47 if that’s something you can do from your side."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, I can take care of that. Your current plan is the Standard annual plan at $38 per seat per month, billed through November 30. Adding five seats today will create a prorated charge for the remainder of the term. I’m seeing that as $1,216.67 before tax. Does that look okay to approve?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s fine. Same card on file, please."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m updating the seat count now. Okay, the account is set to 47 seats, and the billing tool shows the prorated invoice as INV-38472. It should email to you and accounting@northlinesupply.com in the next few minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do I need to do anything special to invite them, or is it the usual admin page?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Usual process. Go to Admin, then Users, then Invite Users. You’ll have five available seats showing there. You can paste the five email addresses in at once and assign roles before sending."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, I see 47 total now. Yeah, that’s all I needed."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Glad it’s showing correctly. I’ll note this on ticket 618904 and close it out. Anything else before we wrap?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Nope, we’re good. Thanks."
+    }
+  ]
+}

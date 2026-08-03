@@ -1,0 +1,63 @@
+{
+  "id": "svc-040",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Daniel at Northstar Components. Email is daniel.cho@northstarcomp.com. I’m just looking for a copy of invoice 48291 from July, the $3,840 one."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I see the account. One second. Yeah, I’m going to put you over to the billing queue for invoice copies."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Oh, okay. I mean, I just need the PDF emailed over, but sure."
+    },
+    {
+      "speaker": "Billing Agent",
+      "ts": null,
+      "text": "Hi, this is Renee in billing. I have Daniel from Northstar Components?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s me."
+    },
+    {
+      "speaker": "Billing Agent",
+      "ts": null,
+      "text": "Great. I found invoice 48291, dated July 3, for $3,840. Do you want it sent to the email on file, daniel.cho@northstarcomp.com?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, please. If you can also copy ap@northstarcomp.com, that’d help."
+    },
+    {
+      "speaker": "Billing Agent",
+      "ts": null,
+      "text": "Done. The PDF should land in the next two or three minutes. I also added AP as a billing contact in the admin console so they receive future invoices."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, thanks. That’s all I needed."
+    }
+  ]
+}

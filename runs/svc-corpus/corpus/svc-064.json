@@ -1,0 +1,53 @@
+{
+  "id": "svc-064",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Mark from Linton Foods. We need the SFTP password reset for our nightly import user, linton_import. It’s for account 41872."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I can take care of that. For verification, can you confirm the last invoice amount on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure, the July invoice was $3,240.00, paid on July 18."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks, that matches what I see in the billing tool. I’m opening ticket 286914 and checking the admin console now."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. We have the file job scheduled at 9:15 Eastern, so just hoping to update it before then."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Understood. I’ve reset the password for linton_import. The temporary credential is available in the admin console under Integrations, SFTP Access. It will expire in 24 hours if it’s not changed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it, I see it. I’ll have our ops lead update the job and rotate it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Perfect. I’ll mark ticket 286914 as resolved, and you’ll get the confirmation email in a minute."
+    }
+  ]
+}

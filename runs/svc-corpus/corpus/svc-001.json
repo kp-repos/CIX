@@ -1,0 +1,68 @@
+{
+  "id": "svc-001",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the last four digits of the billing contact phone number?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Jordan with Northlake Packaging, and the last four should be 4182."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Perfect, I have the account up. What can I help with today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We need to add four seats for our operations team before Monday. We're on the Standard annual plan right now, 36 users, and I just want to confirm what the prorated charge will be."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure. I’m checking the billing tool now. Your renewal date is September 30, 2026, so adding four Standard seats today would prorate through that date. The total added charge is $1,186.40, and it would be on invoice 88471, due net 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I expected. Can you go ahead and add them? The users are already in our directory sync group."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep. I’m applying the seat increase in the admin console. Okay, you’re now at 40 seats. Since they’re in the synced group, the four users should be able to log in within about 10 minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Will the invoice go to accounts payable, same as usual?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes, it’ll go to ap@northlakepackaging.com, and I’ll also send a confirmation to you. Ticket number is 327914."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, that’s all I needed. Thanks for the quick help."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No problem. You should have the confirmation in a minute or two. Have a good one."
+    }
+  ]
+}

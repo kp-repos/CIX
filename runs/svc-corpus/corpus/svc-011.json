@@ -1,0 +1,63 @@
+{
+  "id": "svc-011",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Mia. Can I get your company name and the email on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, so it’s Northstar Facilities, and I’m calling under daniel.cho@northstarfac.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. One second while I pull you up in the ticketing system. Okay, I see Northstar Facilities, 84 active seats, support PIN ending in 2146. How can I help?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "I just need the credential reset for our data import service account, the one named import-northstar. Nothing else changed, we just lost the current password after a staff handoff."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can do that. I’m going to verify you’re listed as an account admin first. Okay, you are. I’ll reset it in the admin console and generate a temporary password."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. If you can send it to me, that’s all we need today."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Done. The temporary credential was sent to daniel.cho@northstarfac.com, and it expires on February 6 at 5:00 p.m. Eastern. I also logged this under ticket 482917."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, thanks. That should get us through the import tonight."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No problem. You’ll be prompted to set a new password on first use. Anything else I can help with?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Nope, we’re good. Thanks, Mia."
+    }
+  ]
+}

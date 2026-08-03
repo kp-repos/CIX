@@ -1,0 +1,63 @@
+{
+  "id": "svc-062",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on your admin account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Ben with Northstar Packaging. Email is ben.keller@northstarpackaging.com. I just need to add five seats to our account for the operations team."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. I’m pulling up the account in the admin console now. Okay, I see you’re on the Business plan with 42 active seats, billed monthly. You want to go to 47 seats today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s right. Ideally effective today, April 18. We’ve got a training session at 2:00, so I’m trying to get the invites out before then."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No problem. The prorated charge for the five seats through the end of your current billing period, May 1, is $86.30. It’ll appear on invoice 48219, and then your regular monthly total will update to $1,410 starting May 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I expected. Go ahead and add them."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Done. Your seat limit is now 47. You can invite the users from Admin, Users, then Add user. I’m also sending a confirmation to your billing contact and your admin email."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. I see the limit updated on my side already. Thanks for the quick help."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. I’ve logged this under ticket 317842 in case you need the record. Anything else I can help with today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Nope, that’s it. Thanks."
+    }
+  ]
+}

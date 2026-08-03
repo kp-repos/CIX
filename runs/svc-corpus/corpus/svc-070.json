@@ -1,0 +1,63 @@
+{
+  "id": "svc-070",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the ticket number if you have one?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, hi, this is Daniel with Northstar Facilities. Ticket is 184276. I'm looking at invoice 77143 for August, and there's a $420 onboarding support line that shouldn't be there. We finished onboarding back in May."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. Let me pull that up in the billing tool. One moment. Okay, I see invoice 77143 dated August 1, total $3,180, and the $420 line you mentioned."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Right, our normal monthly is $2,760 for 46 seats, so it just jumped out."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, that makes sense. I'm checking the notes in the ticketing system now. It looks like that charge was carried over from an older setup order and wasn't cleared after the May closeout."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. We just need the corrected copy before our AP run on Friday, August 9."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "I can take care of that. I'll remove the line and reissue the invoice today. You should receive the revised PDF by email within about 30 minutes, and the balance will show as $2,760."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Will the invoice number stay the same?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes, same invoice number, with a revised timestamp. I'll also add a note on ticket 184276 that the duplicate onboarding line was removed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, that's all I needed. Thanks."
+    }
+  ]
+}

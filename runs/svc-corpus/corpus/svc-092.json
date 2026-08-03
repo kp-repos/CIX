@@ -1,0 +1,58 @@
+{
+  "id": "svc-092",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Maya, this is Jordan at Northline Supply. I just need a copy of our March invoice and, yeah, if you can confirm the amount that was charged on April 2."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. Can I get your account name and the last four digits of the billing contact phone number?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Account is Northline Supply, and the last four are 1842."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Great, thank you. I’m pulling that up in the billing tool now. Okay, I see the March invoice, number 43891, for $2,760.00. It was paid by card on April 2."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Can you send the PDF to billing@northlinesupply.com? That should be on the account."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, I see that address listed as the billing email. I’m sending the invoice PDF now, and you should have it within a minute or two."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it already. That’s all I needed, thanks."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Glad it came through. I’ll note the ticket as completed. Have a good one."
+    }
+  ]
+}

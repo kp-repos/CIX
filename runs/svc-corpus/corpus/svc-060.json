@@ -1,0 +1,68 @@
+{
+  "id": "svc-060",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Maya, this is Ben at Northlake Packaging. We need to add 8 seats to our account before Monday, if possible. We're at 42 today and want to go to 50."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I can help with that. Can you confirm the billing contact email and the last four digits on the payment method?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. Billing contact is ap@northlakepackaging.com, and the card ends in 1842."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Perfect, thanks. I have the account pulled up in the admin console and billing tool. You're on the annual Business plan through March 31, 2026. Adding 8 seats today will prorate at $1,248.00 before tax for the rest of the term. Is that approved?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that's approved. Please go ahead."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, the 8 seats are added. Your account now shows 50 total seats, and I see 8 available to assign. The prorated invoice, INV-47291, was sent to ap@northlakepackaging.com just now."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Do I need to do anything special to assign them?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No, same process as usual. Go to Users, click Add user, and assign the role. If you're uploading a CSV, the template in the knowledge base is current. The new seats are available immediately."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, that's all I needed. Thanks for the quick help."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You're welcome. I also added a note to ticket 318744 confirming the seat increase and invoice number. Have a good one."
+    }
+  ]
+}

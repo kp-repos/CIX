@@ -1,0 +1,68 @@
+{
+  "id": "svc-004",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the admin email on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, it’s Northstar Dental Partners, and the admin email is jared.mills@northstardp.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Perfect, thanks. I’ve got the account open in the admin console. What can I help with today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We need to add five more seats for our operations team before Monday. We’re at 42 today and need to go to 47."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can take care of that. Your current plan is billed annually at $38 per user per month, and your renewal date is November 1st. The five added seats will be prorated from today through October 31st. I’m seeing a prorated total of $1,064.22 before tax. Does that look okay?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, that’s fine. Same payment method, please."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’ve added the five seats and processed the prorated charge to the card ending in 4182. The billing tool generated invoice 77841, and I’m emailing it to the billing contact now."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Do I need to do anything else, or will the seats show up right away?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "They’re available now. You can invite the new users from Admin, then Users, then Add user. I also sent you a quick knowledge base link with the steps, just in case."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, that’s all I needed. Thanks."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. I’ll close ticket 263917 as resolved. Have a good one."
+    }
+  ]
+}

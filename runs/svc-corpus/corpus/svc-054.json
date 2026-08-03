@@ -1,0 +1,63 @@
+{
+  "id": "svc-054",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Jordan at Northstar Benefits. Email is jordan.lee@northstarbenefits.com. I just need a copy of our March invoice sent over with the PO number on it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure. Let me pull that up in the billing tool. Okay, I have Northstar Benefits here. Are you looking for invoice 43892 for $2,460 dated March 1?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's the one. Our accounting team needs PO 7716 added before they can file it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No problem. I can add that PO number to the invoice memo and regenerate the PDF. It won't change the amount or due date, just the reference field."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that's perfect."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, it's updated now. I’m sending the revised PDF to jordan.lee@northstarbenefits.com and billing@northstarbenefits.com. You should see it in a minute or two."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it already. Looks good, PO is there. Thanks for the quick help."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You're welcome. I also noted it on the account so future monthly invoices include PO 7716 unless you ask us to change it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, that's all I needed."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "svc-018",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": "acct-TH1",
+  "thread_id": "svc-TH1",
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, yeah, this is Dana from Northstar Training. I'm reaching out again about invoice 104872 for July, because the 25-seat bundle is still showing twice, and this is the fourth time we've contacted you about the same thing not actually getting fixed."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Hi Dana, I can help pull that up. Give me just a second in the billing tool. Is this for account NST-4421?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. The invoice total is $3,180, but it should be $2,240. The extra line is the Standard Users 25-pack for $940."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I see invoice 104872 dated July 1. There are two Standard Users 25-pack lines, both at $940, and then the platform fee and tax look normal."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Right. The last person said they removed the duplicate from the subscription setup after ticket 78216, but then the July invoice generated with it again."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "I see the note on 78216. It looks like a credit was applied to the June invoice, but the underlying subscription record still has a second bundle attached with a renewal date of August 1. So that would explain why it came back."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, but we can't keep doing manual credits every month. Finance is asking me why this is still open."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Understood. For today, I can submit a correction for the $940 duplicate on invoice 104872 and route the subscription cleanup to our billing operations queue. I'm adding the prior ticket references so they can see the pattern."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Can you confirm it will be fixed before the August invoice runs?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "I can't honestly confirm that yet. I can mark it urgent and set the requested completion date for July 25, but billing operations has to remove that second bundle from the active subscription record."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Please do that, and send me the ticket number. We need something to show internally."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Absolutely. The new ticket is 79344. You'll get an email in a few minutes with the invoice correction request and the subscription cleanup request noted. I'll also set a follow-up for July 24 to check status before the next billing cycle."
+    }
+  ]
+}

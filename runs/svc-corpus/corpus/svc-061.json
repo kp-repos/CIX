@@ -1,0 +1,73 @@
+{
+  "id": "svc-061",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the last four digits on the account ID?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Ben from Northlake Supply. Account ID ends in 1842. I’m looking at invoice 72941 for $3,486.20, and it looks like the five seats we added last week are charged through the end of the term."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. Give me a second to pull that up in the billing tool. Okay, I see your plan renews on November 30, and the five seats were added July 18. The charge is prorated from July 18 through November 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s where I’m confused. On Monday, your onboarding specialist told our admin that added seats don’t bill until the next renewal. Then yesterday someone in billing emailed me that they bill immediately. Those can’t both be true, so I need the straight answer before I approve this invoice."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re right to ask. The straight answer is: added seats are billed immediately on a prorated basis for the remainder of the current term. I’m checking the knowledge base now, and that is the current policy for annual plans."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Was Monday just wrong then?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes, it looks like that guidance was incorrect. I’ll note that on ticket 458217 and flag it back to the onboarding team so they can correct their follow-up. The invoice amount itself matches the policy."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Can you send me something in writing that says that? Just so I can attach it to the approval."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Absolutely. I’ll email you a summary with the invoice number, the five seats added on July 18, and the prorated amount through November 30. You should have it in about five minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Send it to ben.miller@northlakesupply.com and copy ap@northlakesupply.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Will do. I’ll also keep ticket 458217 open until you confirm AP has what they need."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks, Maya."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "svc-094",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": "acct-TH3",
+  "thread_id": "svc-TH3",
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, yeah, I’m calling back about ticket 48291. Our admin account, admin@northlakeprint.com, locked again this morning, same as last week. This is the second time I’ve reached out on this and the earlier reset didn’t actually fix it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m sorry you’re dealing with it again. Let me pull up 48291 in the ticketing system. One moment."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We were able to get in after the password reset on Tuesday, then it was fine for maybe three days, and today at 8:17 a.m. Central it started saying too many attempts again."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I see the prior notes. The account was unlocked on July 23, and there was a note to monitor failed sign-ins. I’m checking the admin console now for the recent lockout entries."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, and just to be clear, nobody here is trying the wrong password over and over. It’s just me and Dana who use that login for provisioning, and we’ve been careful."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Understood. I’m seeing multiple failed auth attempts against that admin address overnight, starting around 2:06 a.m. Central, but the source details are not fully populated in this view. I can unlock the account again right now so you’re not blocked."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Please do. We have six new hires starting Monday and I need to finish setting up their users today."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, the account is unlocked. Can you try signing in while we’re on the line?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, one sec. Okay, I’m in now."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Good. For the longer fix, I’m going to add the overnight auth pattern to the ticket and send it to our access team. I don’t want to call it resolved yet since it has come back after the last unlock."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s fine, but we need something more than another reset. If it locks again over the weekend, we’re stuck."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "I hear you. I’ll mark it as recurring and request review today. You’ll get an update on ticket 48291 by 3 p.m. Pacific, even if the answer is still in progress."
+    }
+  ]
+}

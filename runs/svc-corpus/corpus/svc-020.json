@@ -1,0 +1,63 @@
+{
+  "id": "svc-020",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, yeah, this is Dana at Northline Supply. We need to add 6 seats to our account before training tomorrow. Our current count is 42, and we'd like to move to 48."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. Can you confirm the account email or account ID for Northline?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, account ID is NL-1847, and the admin email is dana.mills@northlinesupply.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks. I have the account up in the admin console. You're on the annual business plan through March 31, 2026. Adding 6 seats today will create a prorated charge of $1,134.00 for the rest of the term. Is that okay to process?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that's fine. Same payment method and just send the receipt to billing@northlinesupply.com, please."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I'm applying the seat increase now. Okay, you're now at 48 seats, and the billing tool generated invoice 78241 for $1,134.00. It was sent to billing@northlinesupply.com."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Do I need to do anything else for the new users?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No, you're all set. As an admin, you can invite them from Users in the admin console. The seats are available immediately."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, thanks for making that quick."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You're welcome. Ticket 41628 is updated and closed. Have a good one."
+    }
+  ]
+}

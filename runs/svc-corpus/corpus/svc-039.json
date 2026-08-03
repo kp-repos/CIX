@@ -1,0 +1,68 @@
+{
+  "id": "svc-039",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Maya, this is Grant at Northfield Supply. We need to add 8 seats to our account before our training next Wednesday. Just want to make sure they show up today and we know the prorated charge."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I can take care of that. Can you confirm the workspace name and the billing email on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Workspace is Northfield Operations, and billing email is ap@northfieldsupply.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Perfect, I have it pulled up in the admin console. You're currently on 42 seats at $36 per seat monthly, renewing on September 1. Adding 8 seats today brings you to 50 seats, and the prorated charge for the rest of the cycle is $76.80 before tax. Does that look okay?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that's fine. Go ahead."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, the seats are added. The billing tool generated invoice 48219 for $81.41 with tax, and it'll go to the card ending in 2246 on file. You should also get a receipt at ap@northfieldsupply.com in a few minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. And our admin can invite the new users right away?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes, right away. I also refreshed the seat count in the admin console, so when your admin goes to Users, they'll see 8 available invitations."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, that's all I needed. Thanks."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You're welcome. I'll note this under ticket 317684. Have a good one."
+    }
+  ]
+}

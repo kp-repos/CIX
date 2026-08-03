@@ -1,0 +1,73 @@
+{
+  "id": "svc-086",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": "acct-TH3",
+  "thread_id": "svc-TH3",
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Dana at North Ridge Packaging. I'm reaching out again because this still wasn't actually fixed; this is my third time contacting you about the same admin account lockout."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I see the prior tickets here, 48219 and 48602. This is for the admin login dana.admin@northridgepack.com, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Correct. It locked again this morning around 8:10 Central. We reset the password Monday, and it was fine for two days, then same thing."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay. I'm checking the admin console now. I can see the account is currently locked after multiple failed attempts, but the source is not showing clearly in the basic view."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Right, and that's what we were told last time. Nobody here is typing it in wrong every few days. It's our main admin account, so when it locks, I can't provision new users."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Understood. I’m going to unlock it now so you can get back in, and then I’ll add the timestamp and account details to the existing escalation."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, but unlocking it is what happened Friday. I need it to stop locking."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "I agree. The unlock is just immediate access. For the underlying cause, I’m adding the last lockout time, the user ID, and the prior reset history to ticket 48602 and moving it back to our platform team with priority updated."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Can you also note that our go-live user setup is due by August 9? We have 18 warehouse supervisors to add this week."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes, I’ll include that context. The account is unlocked now, and you should be able to sign in with the current password. Can you try once while I’m on the line?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, one second. Okay, I’m in."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Good. I’ll send the update on the ticket in the next few minutes. I don’t want to promise it’s resolved yet, but the escalation will stay open until we identify why it keeps locking."
+    }
+  ]
+}

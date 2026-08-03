@@ -1,0 +1,68 @@
+{
+  "id": "svc-029",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Jordan at Northline Packaging. Email is jordan.ellis@northlinepkg.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I have Northline Packaging pulled up in the admin console. How can I help?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We need to add three more seats for the operations team. We’re at 42 now, and we need 45 total before Monday, August 12."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure. You’re on the annual Business plan, billed through March 31, 2025. The prorated amount for three seats through the end of the term is $486.75. Do you want those added today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, please. Same billing contact and same purchase order, PO-1847."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I’ve added the three seats. You should now see 45 available seats in the admin console. The billing tool generated invoice 77138 for $486.75 against PO-1847."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do I need to assign them, or are they just available?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "They’re available now. An admin can go to Users, then Invite users, and send the three invitations. Your admins are you, Priya Shah, and Miguel Torres."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that’s right. I see 45 seats now. Thanks, that was it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No problem. I’ll close this out under ticket 528416, and you’ll get a confirmation email in a minute."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "svc-005",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Dana. Can I get your company name and the last four digits on the account ID?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Mark at Halden Supply. Account ID ends in 4187."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I have Halden Supply, 38 seats on the Standard plan. What can I help with today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "I just need the mailing address for invoices changed from 1440 West Armitage, Suite 210, to 221 South Wacker Drive, Suite 905, Chicago 60606, effective today."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure. For verification, can you confirm the primary billing email on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "It’s ap@haldensupply.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Perfect. I’m in the billing tool now. Okay, that’s updated on account 4187. Future invoice PDFs will use the new details starting with the August 31 invoice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, that’s all I needed."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No problem. I’ll note ticket 72914 as completed and send a confirmation to the billing email."
+    }
+  ]
+}

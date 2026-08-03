@@ -1,0 +1,63 @@
+{
+  "id": "svc-035",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Dana at Northstar Packaging. We need to add 8 seats to our account before Monday. We're at 42 now, so moving to 50 total."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I can help with that. I have Northstar Packaging pulled up in the admin console. Just to confirm, this is for the Operations workspace on the annual plan, renewal date November 30, 2026?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. Same workspace, same plan. We just hired a few coordinators and want their logins ready for training."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. The 8 additional seats will be prorated through November 30. The billing tool is showing $1,146.72 plus applicable tax for the remainder of the term. Is it okay to apply that to the card ending in 1842?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that's fine. Can you also send the receipt to ap@northstarpackaging.com?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Absolutely. I added the 8 seats, so your seat limit is now 50. The charge went through, and I sent the receipt to ap@northstarpackaging.com. You should also see invoice INV-43871 in the billing section."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Do I need to do anything special to invite the new users?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No, you can invite them the usual way from Admin, then Users, then Invite users. Since the seats are active now, they can accept right away. If you upload a CSV, the knowledge base template is linked on that page."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. I see the new seat count now. Thanks for getting that done."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You're welcome. I also noted ticket 247918 that the seats were added and the receipt was sent. You're all set."
+    }
+  ]
+}

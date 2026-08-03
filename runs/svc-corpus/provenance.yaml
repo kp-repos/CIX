@@ -1,0 +1,7 @@
+corpus_kind: service-rehearsal-synthetic-O1
+gen_prompt_version: 1.0.0
+gen_prompts_hash: 7dcf79dcecab4f31
+generated_at: '2026-08-03T21:39:16.848073+00:00'
+generator_lab: openai
+generator_model: gpt-5.5-2026-04-23
+spec_version: 1.0.0

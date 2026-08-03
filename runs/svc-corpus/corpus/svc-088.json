@@ -1,0 +1,73 @@
+{
+  "id": "svc-088",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, so this is Grant from Northlake Supply. Email is grant.miller@northlakesupply.com. I'm just trying to get invoice 48372 reissued with PO 7719 on it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I see Northlake Supply. For verification, can you confirm the billing ZIP?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "55416."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Great, thanks. I have the account up. Since this is an invoice edit, I'm going to move you over to the billing queue. They can add the PO and resend it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, sure, if that's the right spot."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for holding, this is Leo in billing. I understand you need invoice 48372 updated with PO 7719, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. The amount is 2,840 dollars for the 40 seats, but AP won't process it without the PO showing."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, I see it. I'm adding PO 7719 in the billing tool now and regenerating the PDF. It'll keep the same due date, March 15, and the amount stays $2,840.00."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, sent to grant.miller@northlakesupply.com and billing@northlakesupply.com. You should see it in a minute or two. Ticket 219684 is noted in case you need to reference it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it, thanks. That's all I needed."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "svc-079",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, it’s Daniel at Northstar Fabrication. Email is daniel.cho@northstarfab.com. I’m trying to add a few user seats before our training on Monday."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’ve got Northstar Fabrication pulled up in the admin console. You’re currently on 42 seats, renewal date is October 31, 2026. How many would you like to add?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Five, please. So 47 total. And I just want to make sure billing doesn’t get weird, like it’s prorated for the current term?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, exactly. I’m checking the billing tool now. Five additional seats at your current rate comes to $318.75 prorated through October 31. That will appear on invoice 78144, generated today."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that works. Can you go ahead and add them?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Done. Your seat count is now 47. I also refreshed the license allocation, so your admin should be able to invite those users right away."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Is there anything I need to do for the invoice, or will it go to accounting?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "It’ll go to billing@northstarfab.com, same as your prior invoices. I’m also sending you a copy of the receipt and the seat change confirmation. Ticket number is 246913."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, that’s all I needed. Thanks for the quick help."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. Have a good one."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "svc-010",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Maya, this is Evan with Northbridge Analytics. Yeah, so we need to add 12 seats for our operations team starting May 1. I just want to make sure it lines up with our current renewal."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. Can I confirm the account admin email on file?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, it should be admin@northbridgeanalytics.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m in the billing tool now. You’re currently on 48 seats, annual term through November 30, 2026, billed at $74 per seat per month. Adding 12 seats would bring you to 60, and the prorated amount from May 1 through November 30 is $6,216 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches what I had. Can you make those seats available today, but have billing start May 1?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. I’ll provision the 12 seats in the admin console now and set the billing effective date to May 1. The invoice will be generated on May 2 and sent to billing@northbridgeanalytics.com."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do I need to sign anything for that count?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No signature needed for this quantity. I’ve added it under ticket 284917, and the admin console now shows 60 available seats. You should be able to assign them right away."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "I see them. That’s all I needed, thanks."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. I’ll send a short confirmation email with the prorated amount and ticket number. Have a good one."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "svc-037",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the last four digits on the account ID?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Ben at Northlake Fixtures. Account ID ends in 4186. I’m trying to add five seats before our training on Monday."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I see you’re on the Business plan with 42 active seats. You want to move that to 47, effective today, July 18?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Correct. And can you confirm what the prorated charge will be? Finance asked me before they approve it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, one second. The billing tool shows $38 per seat per month. For the remaining 13 days in the cycle, five seats comes to $79.68 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that’s fine. Can you send the invoice to ap@northlakefixtures.com instead of my email?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep. I updated the billing contact to ap@northlakefixtures.com and left you as the admin contact. The seats are available now in the admin console."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. So I can just invite the five supervisors from our side?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Exactly. Go to Users, Invite Users, and assign the Standard role. If any invite bounces, reply to ticket 284913 and we’ll take a look."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, that covers it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Great. After we hang up, I’ll retype the call notes into the ticketing system, copy the new seat count into the billing tool, and finish the change form on our side. You should see the invoice email within about 10 minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Thanks, Maya."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "svc-041",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on your account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, so it’s Northlake Dental Group, and my email is jared.mills@northlakedental.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I have your account pulled up. How can I help today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We need to add three more seats for the front desk team before Monday. We’re at 42 right now and need to get to 45."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can take care of that. I’m seeing you’re on the annual Standard plan at $38 per seat per month, billed through March 31, 2026. Adding three seats today will prorate to $1,026.00 for the remaining term. Does that sound okay?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that matches what finance approved. Can you also send the receipt to ap@northlakedental.com?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Absolutely. I’m adding the seats in the billing tool now, and I’ll add that AP address for the receipt. Okay, the account now shows 45 seats available."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Do I need to do anything else to assign them?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Just go into the admin console, Users, then Invite users. You’ll see three available seats. The receipt should hit ap@northlakedental.com in the next few minutes, and I’ve noted this under ticket 482917."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, that’s all I needed. Thanks."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. Have a good one."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "svc-066",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, hi, this is Ben from Northstar Labs. I just need a copy of our July invoice and to make sure the PO number is on it before I send it to accounting."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. Can I get the account name and either the invoice number or billing email?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Account is Northstar Labs, billing email is ap@northstarlabs.com. I think the invoice is INV-48219, for July 1 through July 31."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. Give me just a second in the billing tool. Okay, I have invoice INV-48219 here, total is $2,340 for 18 seats. What PO number should be listed?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "PO-7746. It may already be on the account, but the PDF I have doesn't show it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I see it was added after the invoice generated. I’m going to refresh the invoice PDF with PO-7746 included. One moment."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, thanks."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "All set. I emailed the updated PDF to ap@northstarlabs.com and copied you at ben.harris@northstarlabs.com. You should see it in a minute or two."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, just came through. Looks good."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Great. I also noted ticket 318742 with the invoice number and PO update, so if accounting asks, they can reference that."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s all I needed. Thanks, Maya."
+    }
+  ]
+}

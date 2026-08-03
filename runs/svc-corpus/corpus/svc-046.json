@@ -1,0 +1,63 @@
+{
+  "id": "svc-046",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the last four digits on the account phone number?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, so this is Daniel at Brookstone Facilities Group, phone ends in 4187."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I have Brookstone Facilities Group pulled up. What can I help with today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "I just need the invoice delivery email changed from ap@brookstonefg.com to invoices@brookstonefg.com. We missed the July 1 invoice because it went to the old shared mailbox."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure. I see account 78422, monthly plan, 64 seats, next invoice scheduled for August 1 for $3,840 before tax. I’m updating the billing tool now."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Nothing else changes, same billing address and PO number, PO-1196."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, I’m leaving those as-is. Okay, the invoice email is now invoices@brookstonefg.com. I also sent a copy of invoice 2026-07113 to that address."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, that’s all I needed."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No problem. Ticket 462918 is closed out with the email update noted. Have a good one."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks, you too."
+    }
+  ]
+}

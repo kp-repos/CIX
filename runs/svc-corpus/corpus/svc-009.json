@@ -1,0 +1,73 @@
+{
+  "id": "svc-009",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on your account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, so this is Daniel from North Ridge Logistics. Email is daniel.cho@northridgelogistics.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks, Daniel. I have North Ridge pulled up. What can I help with today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We just need a copy of the May invoice for accounting. I think it was paid on June 3, but I can't find the PDF in the admin console."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure. Let me check the billing tool. Was that for the monthly subscription, 42 seats?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that's the one. Should be around two thousand something."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "I found it. Invoice 10487, dated May 31, total was $2,184.00, and it shows paid on June 3 by ACH."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Can you send it to me and copy ap@northridgelogistics.com?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. I just sent the PDF to your email and copied that AP address. You should see it in a minute or two."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it already. That’s all we needed."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Great. I’ll note the ticket as resolved. Your reference number is 58231 if you need it later."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks, Maya. Have a good one."
+    }
+  ]
+}

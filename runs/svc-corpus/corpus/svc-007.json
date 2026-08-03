@@ -1,0 +1,68 @@
+{
+  "id": "svc-007",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and ticket number?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Daniel at Northstar Fixtures. Ticket 48219. We need to add three seats to our account before Monday, if possible."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I have Northstar Fixtures up in the admin console. You’re currently on the Standard annual plan with 24 seats, renewal on November 30. You want to move to 27 seats, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Correct. The new users are jlee, rpatel, and mhughes at northstarfixtures dot com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I’m adding those now. The prorated amount for the rest of the term is $1,146.75 before tax, and it’ll show on invoice 77138."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s fine. Use PO 450092 if you need one."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Perfect, I added the PO. The three invites are queued, and they should get them within about five minutes. If they don’t, have them check spam first, then reply to the ticket."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. That’s all I needed. Thanks."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No problem. I’ll send the confirmation email now. Have a good one."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "You too, bye."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, they’re off. I’m retyping the seat change into the ticketing system, copying the PO and invoice notes into the billing tool, and finishing the internal change form."
+    }
+  ]
+}

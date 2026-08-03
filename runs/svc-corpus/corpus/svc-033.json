@@ -1,0 +1,78 @@
+{
+  "id": "svc-033",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on your admin account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, so it's Northgate Planning, and my email is daniel.cho@northgateplanning.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks, Daniel. I have your account pulled up. What can I help with today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We need to add five user seats for the operations team. We're currently at 42, and we'd like to go to 47 starting today if possible."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can take care of that. You're on the Business plan billed annually, renewal on March 31, 2027. The prorated amount for five seats from today through renewal is $1,184.75 before tax. Does that work?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that's fine. Can you use the payment method already on file?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. I'll add the seats now and charge the card ending in 2846. One moment."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "All set. Your seat count is now 47, and I generated invoice 68134 for $1,184.75 plus applicable tax. The billing contact, invoices@northgateplanning.com, should receive it in a few minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Do I need to do anything else before inviting the new users?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No, you're good. In the admin console, go to Users, then Invite users. The five additional seats are available immediately."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, thanks for the quick help."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You're welcome. Have a good rest of your day."
+    }
+  ]
+}

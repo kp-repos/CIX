@@ -1,0 +1,58 @@
+{
+  "id": "svc-043",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling customer support, this is Maya. Can I get your company name or account ID?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, hi, this is Daniel at Ridgeview Analytics. Account ID is 41782. I need the March invoice resent to our AP alias, and the PO number is missing on it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I’ve got Ridgeview up in the ticketing system. For invoice resend and PO changes, I’m going to transfer you to the billing queue. They can take care of that."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Uh, okay. I’m just trying to get it paid today, so hopefully quick."
+    },
+    {
+      "speaker": "Billing Specialist",
+      "ts": null,
+      "text": "This is Colin in billing. I have the account pulled up from Maya. You need invoice 23891 resent with a PO added, is that right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, exactly. The PO should be RV-6044, and please send it to ap@ridgeviewanalytics.com. The amount should still be $2,430 for 18 seats."
+    },
+    {
+      "speaker": "Billing Specialist",
+      "ts": null,
+      "text": "Yep, I see $2,430 on the March 1 invoice. I added PO RV-6044 in the billing tool and resent the PDF to that AP address. You should see it in a minute or two."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it, it just came through. Looks correct. Thanks."
+    },
+    {
+      "speaker": "Billing Specialist",
+      "ts": null,
+      "text": "No problem. I’ll note ticket 586214 as completed."
+    }
+  ]
+}

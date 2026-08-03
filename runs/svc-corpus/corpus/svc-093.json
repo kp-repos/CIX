@@ -1,0 +1,73 @@
+{
+  "id": "svc-093",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling, this is Marisa. I have your account pulled up for Northlake Analytics. How can I help?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, so we need to drop from 48 seats to 42 before the September invoice runs. Our finance team wants the amount cleaned up before the 8th."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I can check that in the billing tool. I see your current term runs May 1 through April 30, invoice amount is $3,840 monthly. Are the six users already deactivated in the admin console?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "They are, as of yesterday. The reason I'm calling is Camila told me by email that seat decreases can be done effective the next invoice, but Eric on chat this morning said decreases only happen at renewal. Those can't both be right, so I need the actual rule."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, understood. Let me verify the policy in the knowledge base and your contract notes, one moment."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, the straight answer is: for your plan, seat decreases can take effect on the next monthly invoice as long as the users are deactivated before the billing cutoff, which is two business days before invoice generation. Eric's answer would apply to annual-prepaid accounts, not your monthly-billed term."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "All right, that's what I needed. Since the invoice runs September 8, are we inside the cutoff or not?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You're okay. Cutoff is end of day September 4, and the deactivations show August 29 at 3:16 p.m. Central. I'll submit the change for 42 seats, and the new monthly amount should be $3,360 before taxes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Good. Can you send me confirmation for the ticket?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep. Ticket 184672 is updated, and you'll get an email in a minute showing the 42-seat count and effective September 8 invoice date."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, thanks."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You're welcome. Have a good one."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "svc-048",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, hi Maya. It's Northline Supply, and the email is dana.miller@northlinesupply.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I have Northline Supply pulled up in the admin console. How can I help today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We need to add four seats for the operations team. We're at 28 now, need to go to 32, ideally today if that's possible."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, that's straightforward. Your current plan is $42 per seat per month, billed monthly, and adding four seats today will prorate $96.80 for the rest of the April billing period. Is that okay to apply?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that's fine. And can you send the receipt to me and copy ap@northlinesupply.com?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Absolutely. I'm updating the seat count now. Okay, you're at 32 seats, effective immediately. The billing tool generated invoice 48173 for $96.80, and I sent it to you with AP copied."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do I need to do anything else before I invite the new users?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No, you're all set. You can invite them from Users, then Add user in the admin console. If they don't see the invite within a minute or two, have them check spam, but it usually lands right away."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, thanks. That's all I needed."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Happy to help. Have a good one."
+    }
+  ]
+}

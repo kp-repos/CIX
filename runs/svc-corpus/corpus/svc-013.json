@@ -1,0 +1,68 @@
+{
+  "id": "svc-013",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and ticket number?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, it’s Brightline Parts, and the ticket is 48217. I’m just trying to see where the user import stands. We sent the final CSV over Tuesday and I hadn’t heard anything back."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. Give me one second to pull that up in the ticketing system. Okay, I see the file received on July 23 at 9:14 a.m. and it’s tied to your go-live prep for August 5."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Right, exactly. It’s 126 users, mostly sales and ops."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, that matches what I’m seeing. The import passed validation yesterday afternoon. It’s currently queued with our operations team for the production load, and the target completion noted here is today by 5 p.m. Central."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that’s really all I needed. Will we get confirmation when it’s done?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. The ticket will send an email to you and Dana Mills when the load completes. I’ll also add a note asking the team to include the count of created accounts and any skipped rows, if there are any."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. And there’s nothing you need from us right now?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Nothing at the moment. The file is clean and the admin console settings are already in place for the standard role assignment."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, thanks for checking."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No problem. You should see that update later today."
+    }
+  ]
+}

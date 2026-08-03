@@ -1,0 +1,63 @@
+{
+  "id": "svc-095",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Dana from North Ridge. We opened ticket 48219 this morning because last night’s user import only brought over 86 of 124 employees for our April 1 go-live."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I’m looking at that now. I see the import file uploaded at 7:12 p.m. Central, and the first 86 rows processed. Let me check the admin console for the remaining rows."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. The missing users are all in the Minneapolis office, if that helps. I’m a little surprised we had to catch this ourselves; it seems like the system could have flagged that only part of the file loaded."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Understood. I see what happened: row 87 has a department value with an extra comma, so the parser stopped there instead of continuing. I can correct the delimiter issue and rerun the same file on my side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Please don’t send welcome emails yet. We’re holding those until Thursday morning."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, I’ll keep invitations off. I’m rerunning the import now with notifications disabled, and I’ll verify the count against 124 before I update the ticket."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. We also need their manager assignments to come through, not just the profiles."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "They’re included in the file. The rerun just finished: 124 active users, 124 manager assignments, zero invitations sent. I’m adding the import summary to ticket 48219."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. Can you leave the corrected file attached there too? Our HR coordinator will want to compare it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Done. I attached it as north-ridge-users-corrected-0329.csv and noted the original row that caused the stop. You should be set for Thursday."
+    }
+  ]
+}

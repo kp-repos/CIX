@@ -1,0 +1,73 @@
+{
+  "id": "svc-047",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Alex. Can I get your company name and the last four of the invoice number?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, it’s Northline Parts, and the invoice ends in 4482. I’m calling about removing seats before our March renewal."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I have Northline Parts pulled up in the billing tool. You’re currently at 84 seats, renewal date March 15, and invoice 4482 is for $7,140. Are you looking to reduce the seat count for the next term?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Exactly. We only need 72 seats now. The issue is Jordan told me unused seats are credited automatically on the next invoice, but Maya emailed this morning saying credits only happen if we remove them before the renewal date. Those can’t both be right, so I need a straight answer before I approve anything."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, understood. Let me check the account note and the policy in the knowledge base so I’m not guessing here. One moment."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, thanks for waiting. The correct policy is: seat reductions take effect at the next renewal if requested before the renewal date. We do not issue an automatic mid-term credit for unused seats. So if we set you to 72 seats now, your March 15 renewal will bill at 72 seats."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "All right. So Maya’s version was the accurate one, and Jordan was wrong about the automatic credit?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes, that’s correct. I’ll add a note on the ticket so there’s no ambiguity, and I can process the reduction to 72 seats effective March 15 if you want."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Please do. And send me confirmation with the new estimated renewal amount."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Done. I updated the admin console and the ticketing system. Your new renewal estimate is $6,120 for 72 seats, before any taxes. You’ll get the confirmation email in a few minutes under ticket 318746."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. Thanks for clearing that up."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "svc-031",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Maya, yeah, this is Daniel at North Ridge Supply. I just need a copy of our June invoice and to make sure the billing contact is changed to our new AP inbox."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. Can you confirm the account name and the last four digits of the payment method on file?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Account is North Ridge Supply, and the card ends in 4429."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Perfect, thank you. I’m pulling it up in the billing tool now. I see invoice 31874 for June, total is $2,184.00, issued June 3rd. Is that the one you need?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that’s the one. And the new email should be ap@northridgesupply.com. The old one was going to Melissa, and she moved teams."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’ve updated the billing contact to ap@northridgesupply.com and sent invoice 31874 to that address. You should see it in a couple minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Can you also keep Melissa as an admin in the product, just not on billing?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes, no change to her admin access. I’m only updating the billing contact in the billing tool. Product users stay as they are."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, that’s all I needed."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "All set. I’ll also note this on ticket 74216 in case your team asks later. Thanks for calling."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks, have a good one."
+    }
+  ]
+}
