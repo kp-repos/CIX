@@ -1,0 +1,63 @@
+{
+  "id": "svc-002",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": "acct-TH2",
+  "thread_id": "svc-TH2",
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Dana at Northstar Benefits. I'm calling about ticket 184732, the employee data import for the June 1 go-live. This is the third time we've contacted you on the same thing; it stalls around 62% and support restarts it, but the earlier issue never actually got fixed."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I see the ticket here. The file is employees_2026-05-28.csv, about 18,400 rows, and the last run stopped at 11:42 a.m. Central. Let me check the import log in the admin console."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's the one. We need the users provisioned before payroll review tomorrow morning, so restarting it again is okay, but I need to know what happens if it stops overnight."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Understood. The log shows the job paused on the dependent field mapping step after row 11,376. I don't see bad data in that row, so I'm going to restart the worker from our side and keep the same import ID, not ask you to re-upload."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, please do. Last time it ran after the restart and then hung again the next day when we tried the delta file."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Right, I see that note from May 24. I'm starting it now. You may see the progress bar jump back to 58% for a minute while it rechecks the completed rows."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "I see it moving, it's at 64% now. Are you escalating this, though? We can't have someone call in every time we load a file."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. I've added the current log bundle and the prior run IDs to the existing ticket and flagged it for the import team. For today, I'll monitor this run until it completes or stalls again, and if it stalls I can restart it without you opening a new ticket."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "All right. Please send an email update to me and Priya when you know whether it finished. Same addresses on the ticket."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Will do. The job is at 71% now. I'll keep the ticket open, send the update by 3:30 p.m. Central, and note that the underlying stall is still pending review, not resolved."
+    }
+  ]
+}

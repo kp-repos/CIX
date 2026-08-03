@@ -1,0 +1,535 @@
+{
+  "sections": {
+    "highlights": [
+      {
+        "item_id": "avoidable_transfer",
+        "narrative": "The rubric item avoidable_transfer was flagged as an occurrence, but no evidence snippets were provided in the transcript record to substantiate specific instances. Without underlying quotes, the count cannot be tied to particular interactions or a determinable mechanism.",
+        "count": 9,
+        "share": null,
+        "denominator": null,
+        "unit": "occurrence",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      },
+      {
+        "item_id": "billing_defect_driver",
+        "narrative": "The billing_defect_driver rubric item was identified in nineteen eligible interactions. No evidence snippets were provided, so the specific billing defects driving these interactions cannot be characterized or attributed to a mechanism.",
+        "count": 19,
+        "share": 0.19,
+        "denominator": "100 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      },
+      {
+        "item_id": "deterministic_request",
+        "narrative": "The rubric item \"deterministic_request\" was flagged as an occurrence-based finding. No evidence snippets were provided with this finding, so no supporting quotes, mechanism, or share of total interactions can be substantiated from the available data.",
+        "count": 19,
+        "share": null,
+        "denominator": null,
+        "unit": "occurrence",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      },
+      {
+        "item_id": "first_contact_resolution",
+        "narrative": "The first_contact_resolution rubric item was claimed for eighty-two eligible interactions. However, no evidence snippets were provided in the transcript record to substantiate this count, so the claim cannot be verified against source material.",
+        "count": 82,
+        "share": 0.82,
+        "denominator": "100 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      },
+      {
+        "item_id": "knowledge_inconsistency",
+        "narrative": "Agents provided inconsistent information across interactions on the same knowledge_inconsistency dimension. No evidence snippets were supplied, so the specific instances and their content cannot be quoted or characterized. The reported count reflects the tally provided rather than any independently verifiable detail.",
+        "count": 6,
+        "share": null,
+        "denominator": null,
+        "unit": "occurrence",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      },
+      {
+        "item_id": "manual_after_call_work",
+        "narrative": "The rubric item for manual after-call work was flagged as an occurrence-level finding. No evidence snippets were provided in this report, so the count cannot be tied to specific interactions.",
+        "count": 87,
+        "share": null,
+        "denominator": null,
+        "unit": "occurrence",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      },
+      {
+        "item_id": "repeat_contact_unresolved",
+        "narrative": "The rubric item repeat_contact_unresolved was flagged in eight interactions. However, no evidence snippets were provided in the input, so the specific customer statements or agent notes supporting this classification cannot be quoted or examined. As a result, the underlying mechanism driving these repeat contacts cannot be determined from the available material.",
+        "count": 8,
+        "share": 0.08,
+        "denominator": "100 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      },
+      {
+        "item_id": "status_chase_inbound",
+        "narrative": "The rubric item status_chase_inbound was flagged in six interactions. No evidence snippets were provided in this dataset, so the finding rests solely on the reported count without supporting verbatim quotes.",
+        "count": 6,
+        "share": 0.06,
+        "denominator": "100 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      },
+      {
+        "item_id": "unanticipated_failure",
+        "narrative": "The rubric item 'unanticipated_failure' was flagged in eleven eligible interactions. No evidence snippets were provided with this finding, so the specific nature of the failures cannot be characterized or quoted. The count is recorded as reported, but it cannot be substantiated against source text.",
+        "count": 11,
+        "share": 0.11,
+        "denominator": "100 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": []
+      }
+    ],
+    "whats_working": [
+      {
+        "item_id": "first_contact_resolution",
+        "narrative": "The first_contact_resolution rubric item was claimed for eighty-two eligible interactions. However, no evidence snippets were provided in the transcript record to substantiate this count, so the claim cannot be verified against source material."
+      }
+    ],
+    "leverage": {
+      "grid": [
+        {
+          "item_id": "manual_after_call_work",
+          "effort": "low",
+          "outcome": "large",
+          "count": 87,
+          "remedy_class": "A"
+        },
+        {
+          "item_id": "billing_defect_driver",
+          "effort": "high",
+          "outcome": "large",
+          "count": 19,
+          "remedy_class": "D"
+        },
+        {
+          "item_id": "repeat_contact_unresolved",
+          "effort": "high",
+          "outcome": "large",
+          "count": 8,
+          "remedy_class": "D"
+        },
+        {
+          "item_id": "deterministic_request",
+          "effort": "medium",
+          "outcome": "medium",
+          "count": 19,
+          "remedy_class": "A"
+        },
+        {
+          "item_id": "avoidable_transfer",
+          "effort": "medium",
+          "outcome": "medium",
+          "count": 9,
+          "remedy_class": "A"
+        }
+      ],
+      "shelf": [
+        {
+          "item_id": "first_contact_resolution",
+          "count": 82,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "unanticipated_failure",
+          "count": 11,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "knowledge_inconsistency",
+          "count": 6,
+          "unit": "occurrence"
+        },
+        {
+          "item_id": "status_chase_inbound",
+          "count": 6,
+          "unit": "interaction"
+        }
+      ],
+      "class_d": [
+        {
+          "item_id": "billing_defect_driver",
+          "effort": "high",
+          "outcome": "large",
+          "count": 19,
+          "remedy_class": "D"
+        },
+        {
+          "item_id": "repeat_contact_unresolved",
+          "effort": "high",
+          "outcome": "large",
+          "count": 8,
+          "remedy_class": "D"
+        }
+      ],
+      "note": "catalogue 0.1.0"
+    },
+    "priced_plays": {
+      "plays": [
+        {
+          "item_id": "avoidable_transfer",
+          "unit": "occurrence",
+          "count": 9,
+          "band": {
+            "low": 180.0,
+            "high": 540.0
+          },
+          "currency": "USD",
+          "horizon": "per year",
+          "evidence_tier": "candidate",
+          "inferred": true,
+          "source": "inferred",
+          "alternatives": [
+            {
+              "swap_ref": "SW-STATUS-SELFSERVE",
+              "substitute": "Self-service status + automated routing",
+              "remedy_class": "A",
+              "band": {
+                "low": 180.0,
+                "high": 540.0
+              },
+              "currency": "USD",
+              "horizon": "per year",
+              "per_unit_band": [
+                20.0,
+                60.0
+              ],
+              "evidence_tier": "candidate",
+              "inferred": true,
+              "source": "inferred"
+            }
+          ]
+        },
+        {
+          "item_id": "deterministic_request",
+          "unit": "occurrence",
+          "count": 19,
+          "band": {
+            "low": 380.0,
+            "high": 1140.0
+          },
+          "currency": "USD",
+          "horizon": "per year",
+          "evidence_tier": "candidate",
+          "inferred": true,
+          "source": "inferred",
+          "alternatives": [
+            {
+              "swap_ref": "SW-STATUS-SELFSERVE",
+              "substitute": "Self-service status + automated routing",
+              "remedy_class": "A",
+              "band": {
+                "low": 380.0,
+                "high": 1140.0
+              },
+              "currency": "USD",
+              "horizon": "per year",
+              "per_unit_band": [
+                20.0,
+                60.0
+              ],
+              "evidence_tier": "candidate",
+              "inferred": true,
+              "source": "inferred"
+            }
+          ]
+        },
+        {
+          "item_id": "manual_after_call_work",
+          "unit": "occurrence",
+          "count": 87,
+          "band": {
+            "low": 3480.0,
+            "high": 10440.0
+          },
+          "currency": "USD",
+          "horizon": "per year",
+          "evidence_tier": "candidate",
+          "inferred": true,
+          "source": "Swap Catalogue v0 seed 2; inferred, not operator-confirmed",
+          "alternatives": [
+            {
+              "swap_ref": "SW-ADMIN-CAPTURE",
+              "substitute": "Capture at the interaction -> structured extraction",
+              "remedy_class": "A",
+              "band": {
+                "low": 3480.0,
+                "high": 10440.0
+              },
+              "currency": "USD",
+              "horizon": "per year",
+              "per_unit_band": [
+                40.0,
+                120.0
+              ],
+              "evidence_tier": "candidate",
+              "inferred": true,
+              "source": "Swap Catalogue v0 seed 2; inferred, not operator-confirmed"
+            }
+          ]
+        }
+      ],
+      "note": null
+    },
+    "distribution": {
+      "items": {
+        "avoidable_transfer": {
+          "unit": "occurrence",
+          "count": 9,
+          "share": null,
+          "denominator": null
+        },
+        "billing_defect_driver": {
+          "unit": "interaction",
+          "count": 19,
+          "share": 0.19,
+          "denominator": "100 eligible interactions"
+        },
+        "deterministic_request": {
+          "unit": "occurrence",
+          "count": 19,
+          "share": null,
+          "denominator": null
+        },
+        "first_contact_resolution": {
+          "unit": "interaction",
+          "count": 82,
+          "share": 0.82,
+          "denominator": "100 eligible interactions"
+        },
+        "knowledge_inconsistency": {
+          "unit": "occurrence",
+          "count": 6,
+          "share": null,
+          "denominator": null
+        },
+        "manual_after_call_work": {
+          "unit": "occurrence",
+          "count": 87,
+          "share": null,
+          "denominator": null
+        },
+        "repeat_contact_unresolved": {
+          "unit": "interaction",
+          "count": 8,
+          "share": 0.08,
+          "denominator": "100 eligible interactions"
+        },
+        "status_chase_inbound": {
+          "unit": "interaction",
+          "count": 6,
+          "share": 0.06,
+          "denominator": "100 eligible interactions"
+        },
+        "unanticipated_failure": {
+          "unit": "interaction",
+          "count": 11,
+          "share": 0.11,
+          "denominator": "100 eligible interactions"
+        }
+      },
+      "rank_by_unit": {
+        "occurrence": [
+          [
+            "manual_after_call_work",
+            87
+          ],
+          [
+            "deterministic_request",
+            19
+          ],
+          [
+            "avoidable_transfer",
+            9
+          ],
+          [
+            "knowledge_inconsistency",
+            6
+          ]
+        ],
+        "interaction": [
+          [
+            "first_contact_resolution",
+            82
+          ],
+          [
+            "billing_defect_driver",
+            19
+          ],
+          [
+            "unanticipated_failure",
+            11
+          ],
+          [
+            "repeat_contact_unresolved",
+            8
+          ],
+          [
+            "status_chase_inbound",
+            6
+          ]
+        ]
+      },
+      "interaction_coverage": 1.0,
+      "residual_interactions": 0,
+      "eligible_interactions": 100
+    },
+    "method": {
+      "validations": [
+        {
+          "n": 1,
+          "check": "T-AGR",
+          "item_id": "motion",
+          "status": "agree",
+          "detail": "agreement 1.00 on n=6"
+        },
+        {
+          "n": 2,
+          "check": "T-AGR",
+          "item_id": "driver_origin",
+          "status": "agree",
+          "detail": "agreement 1.00 on n=6"
+        },
+        {
+          "n": 3,
+          "check": "T-AGR",
+          "item_id": "automatability",
+          "status": "agree",
+          "detail": "agreement 1.00 on n=6"
+        },
+        {
+          "n": 4,
+          "check": "T-AGR",
+          "item_id": "outcome",
+          "status": "agree",
+          "detail": "agreement 1.00 on n=6"
+        },
+        {
+          "n": 5,
+          "check": "T-SPLIT",
+          "item_id": null,
+          "status": "stable",
+          "detail": "top-2 ranks agree across halves"
+        },
+        {
+          "n": 6,
+          "check": "T-PARA",
+          "item_id": null,
+          "status": "not_run",
+          "detail": "no paraphrase set for rubric 1.0.0"
+        },
+        {
+          "n": 7,
+          "check": "SECOND-LAB-SEAT",
+          "item_id": null,
+          "status": "recused_f4",
+          "detail": "audit seat (openai) recused: corpus generated by its sibling (openai)"
+        },
+        {
+          "n": 8,
+          "check": "T-DROP",
+          "item_id": null,
+          "status": "pass",
+          "detail": "drop rate 0.000 over 9 candidate claims"
+        }
+      ],
+      "drop_summary": {
+        "candidate_claims": 9,
+        "quote_drops": 0,
+        "stat_drops": 0
+      },
+      "drops": [],
+      "manifest": {
+        "manifest_version": "1.0.0",
+        "corpus_hash": "2c8cf0b8515dca04bf6484351b350a0af4cacbf09127ca66b9d5010bc8f2505f",
+        "canonical_hash": "142d2dcbfa7732cb67249e1cdd4a1ebb89c5652c27b435b94fc10c7b8c7266cb",
+        "index_version": "1.0.0",
+        "tag_vocab_version": "1.0.0",
+        "label_schema_version": "1.0.0",
+        "rubric_version": "1.0.0",
+        "catalogue_version": "0.1.0",
+        "model_versions": {
+          "primary": "claude-opus-4-8"
+        },
+        "prompt_hashes": {
+          "labels": "575affe0f8cd9afc",
+          "hits": "6d9279ef980092b9",
+          "synthesis": "ad345dbdc1954e75",
+          "apply": "df0fc4e57b2af9e2"
+        },
+        "seeds": {
+          "run": 20260731
+        },
+        "thresholds_version": "1.2.0",
+        "privacy_gate": "pass",
+        "scrub_salt": "cix-20260731",
+        "corpus_clearance": "synthetic service rehearsal corpus — O1 only, never O2/O3 (PRD §2.3)",
+        "created_at": "2026-08-03T21:56:29.891494+00:00",
+        "artifacts": {
+          "labels": "acda7ee76041c9d0",
+          "hits": "2fd635ee3934e3a3"
+        },
+        "privacy_scan": {
+          "residual_scope": "email+phone",
+          "ner": "rules-only"
+        }
+      }
+    }
+  },
+  "manifest": {
+    "manifest_version": "1.0.0",
+    "corpus_hash": "2c8cf0b8515dca04bf6484351b350a0af4cacbf09127ca66b9d5010bc8f2505f",
+    "canonical_hash": "142d2dcbfa7732cb67249e1cdd4a1ebb89c5652c27b435b94fc10c7b8c7266cb",
+    "index_version": "1.0.0",
+    "tag_vocab_version": "1.0.0",
+    "label_schema_version": "1.0.0",
+    "rubric_version": "1.0.0",
+    "catalogue_version": "0.1.0",
+    "model_versions": {
+      "primary": "claude-opus-4-8"
+    },
+    "prompt_hashes": {
+      "labels": "575affe0f8cd9afc",
+      "hits": "6d9279ef980092b9",
+      "synthesis": "ad345dbdc1954e75",
+      "apply": "df0fc4e57b2af9e2"
+    },
+    "seeds": {
+      "run": 20260731
+    },
+    "thresholds_version": "1.2.0",
+    "privacy_gate": "pass",
+    "scrub_salt": "cix-20260731",
+    "corpus_clearance": "synthetic service rehearsal corpus — O1 only, never O2/O3 (PRD §2.3)",
+    "created_at": "2026-08-03T21:56:29.891494+00:00",
+    "artifacts": {
+      "labels": "acda7ee76041c9d0",
+      "hits": "2fd635ee3934e3a3"
+    },
+    "privacy_scan": {
+      "residual_scope": "email+phone",
+      "ner": "rules-only"
+    }
+  }
+}

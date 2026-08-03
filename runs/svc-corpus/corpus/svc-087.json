@@ -1,0 +1,53 @@
+{
+  "id": "svc-087",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Dana at Northbridge Supply. I’m calling on ticket 48217. We just need the SFTP password reset for our nightly export user, nb-export@northbridge, before our 9 p.m. job."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I can help with that. Let me pull up the ticketing system and your account in the admin console. Can you confirm the last four digits on your customer ID?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure, it’s 1148. Account name is Northbridge Supply, Chicago office."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I see you listed as an authorized admin, and the export user is active. I’m going to reset the credential now and send the temporary password to the secure contact email we have on file, ops-it@northbridge.com."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, that’s the right inbox. And yeah, we’ll rotate it on our side once we log in."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, it’s done. The email should arrive in the next two or three minutes. The temporary password expires on August 6 at 5 p.m. Central if it’s not used."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "All right, I see it just came through. That should cover us."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Great. I’ll mark ticket 48217 as resolved with the reset timestamp. If anything fails on the 9 p.m. export, just reply to that ticket and we can reopen it."
+    }
+  ]
+}

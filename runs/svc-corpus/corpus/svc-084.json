@@ -1,0 +1,73 @@
+{
+  "id": "svc-084",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, yeah, this is Dana from Northline Foods. I'm calling about invoice 18472 for August. It shows 42 seats at $28, but we dropped to 38 seats on July 15."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can look that up. Can you confirm the account email or the billing contact on file?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "It's ap@northlinefoods.com, and the billing contact is me, Dana Price."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks. Okay, I have the account. I see the plan change request on ticket 69314, effective July 15. The billing tool still picked up 42 seats for the full month, so you're right, that's off."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. We just need the corrected amount before our AP close on Friday."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, understood. The overage is 4 seats for half the month, so the credit is $56. I'll issue a credit memo against invoice 18472 and send the updated balance to ap@northlinefoods.com."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Does the portal show the new total right away?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "It should update within about 20 minutes. After we hang up, I'll retype the call notes into the ticketing system, copy the invoice and credit details into the billing tool, and finish the adjustment paperwork."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. Can you include ticket 69314 in the email so my controller can match it?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Absolutely. You'll get the email today, and the revised amount due will be $1,008. Anything else on this account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that's it. Thanks for the quick help."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You're welcome, Dana. Have a good one."
+    }
+  ]
+}

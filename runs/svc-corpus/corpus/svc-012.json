@@ -1,0 +1,63 @@
+{
+  "id": "svc-012",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the ticket number if you have one?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Ben at Lakeside Freight. Ticket is 184327. We caught it this morning when three new hires couldn't sign in; the admin console still showed provisioning as successful, so I don't think your side flagged it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it, thanks. I have the ticket open. I see the users are Nora Patel, Chris Wynn, and Mateo Ruiz, all added yesterday around 4:40 p.m. Central. Are they getting the standard login page or an error after SSO?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "After SSO. It says their account isn't active. Everyone else in the Operations group is fine."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay. I'm checking the admin console and the provisioning log now. Their accounts were created, but the active status didn't carry over from the directory group. I'm going to run a resync for just those three users first."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's fine. We need them in before the 2 p.m. training, so as long as it's not a full directory sync."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No, this is targeted. It should take under two minutes. Okay, I see all three changed to active. Can you have one of them try again in a fresh browser window?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "One sec. Yeah, Nora just got in. Chris too. Waiting on Mateo. Okay, he's in now."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Great. I added the notes to ticket 184327 and I'll leave it open until end of day in case any other users from that batch have the same issue."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sounds good. If anything else comes up I'll reply on the ticket. Thanks."
+    }
+  ]
+}

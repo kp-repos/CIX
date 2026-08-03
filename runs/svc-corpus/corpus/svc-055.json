@@ -1,0 +1,78 @@
+{
+  "id": "svc-055",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the ticket number if you have one?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Ben with Northstar Components. Ticket is 482917. I’m calling about our July statement."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it, one moment while I pull that up in the ticketing system. Okay, I see your account. What are you seeing on the statement?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "The total is showing $3,420, but our plan is 38 seats at $75, so it should be $2,850 before tax. There’s an extra line for $570 labeled additional seats, and we did not add any seats in July."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I’m checking the billing tool now. Yeah, so I can see the July 1 invoice and the separate line you mentioned. Let me compare it against the admin console seat count history."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. We just need the corrected invoice for our AP run by Friday, August 9."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Understood. The admin console shows 38 active users the whole billing period, no increases. It looks like that extra line was generated during the renewal update, but it should not have billed. I can submit a correction today."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, will that issue a credit or a new invoice?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Since the invoice has not been paid yet, we’ll void the current one and reissue it at $2,850 plus the same tax calculation. I’ll note that AP needs it by August 9."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Can you email me when it’s ready?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. I’ll update ticket 482917 with the correction request and send the revised PDF to the billing contact on file, which is ap@northstarcomponents.com. Is that still correct?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that’s correct. Thanks."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. You should see an update by end of day tomorrow, and I’ll keep the ticket open until the revised invoice is attached."
+    }
+  ]
+}

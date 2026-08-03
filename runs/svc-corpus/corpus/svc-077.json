@@ -1,0 +1,68 @@
+{
+  "id": "svc-077",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Maya, yeah, this is Colin at Redbrook Analytics. We need to add 12 user seats to our account before our training on May 14."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. Can I confirm your account domain is redbrookanalytics.com?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that's right. We're currently at 48 seats, I think, and we need to go to 60."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "I’m checking the admin console now. Yeah, I see 48 active seats on the Business plan, billed annually through February 28, 2027. Do you want the 12 added under the same billing terms?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, same terms. If there’s a prorated charge, that’s fine. The PO is RB-4117."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m adding the seats now and attaching PO RB-4117 in the billing tool. The prorated amount for the 12 seats is $3,240. It’ll appear on invoice 78241, due June 1."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, perfect. Will our admin be able to invite people right away?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. The seat count is updated to 60 now. Your admin, Dana Mills, can send invites immediately from the Users page."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, that’s all I needed. Thanks for making it quick."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No problem. I also added a note to ticket 146928 with the seat change and invoice details. Have a good one."
+    }
+  ]
+}

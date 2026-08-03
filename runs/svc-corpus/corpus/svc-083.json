@@ -1,0 +1,73 @@
+{
+  "id": "svc-083",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Megan at Westbrook Supply. I need to add three users to our account before our training tomorrow morning."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I can help with that. Can you confirm the account name and the admin email you're using?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure, account is Westbrook Supply Group, and the admin email is megan.cho@westbrooksupply.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks. I found the account in the admin console. You currently have 42 active seats and your plan includes up to 50, so adding three won't change billing. What are the new users' names and emails?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "It's Daniel Price, daniel.price@westbrooksupply.com; Priya Shah, priya.shah@westbrooksupply.com; and Luis Romero, luis.romero@westbrooksupply.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. Should they have the standard user role, same as your operations team?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, standard user is fine. They just need access to the order dashboard and reports."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I've added all three and assigned them to the Operations group, which includes those permissions. Invitation emails are going out now."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do those invites expire?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "They expire after seven days, so through July 15. If anyone misses it, you can resend from Users in the admin console, or just reply to ticket 184732 and we can resend them."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, that covers it. Thanks for the quick help."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You're welcome. I'll close this out with a note that the three seats were added and no billing change was needed."
+    }
+  ]
+}

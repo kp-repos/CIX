@@ -1,0 +1,63 @@
+{
+  "id": "svc-089",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Dana from Northstar Dental Group. I'm just checking where things stand on our user import ticket, 18427, since I haven't seen an update since Monday."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, let me pull that up in the ticketing system. One moment."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I see the file you sent on July 29 with 126 users. The import passed validation yesterday afternoon, and it's queued for the production run tonight after 8 p.m. Eastern."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. So assuming it runs tonight, when would we be able to see the users in the admin console?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "They should show by 9 a.m. Eastern tomorrow. The seats are already available on your account, so no billing change is needed for this import."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that's all I needed. Can you add me to the ticket updates?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes, I've added dana.morris@northstardental.com as a watcher on ticket 18427. You'll get the completion note tomorrow morning."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, thanks."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You're welcome. Have a good one."
+    }
+  ]
+}

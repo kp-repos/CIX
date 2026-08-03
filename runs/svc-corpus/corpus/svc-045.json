@@ -1,0 +1,63 @@
+{
+  "id": "svc-045",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Dana at Northstar Claims. We're renewing on August 1, and I need to drop our account from 48 seats to 42 before the invoice goes out."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I can help with that. I have Northstar Claims pulled up in the admin console. Can you confirm the billing contact email and the last four digits on the customer ID?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Billing is ap@northstarclaims.com, and the customer ID ends in 7719."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Perfect, thanks. I see your current plan at 48 standard seats, annual term, renewal date August 1, 2026. Dropping to 42 seats would bring the renewal invoice to $18,900 before tax, down from $21,600."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That matches what I expected. We just had six contractors roll off, so no other plan changes."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I'll set the seat count to 42 effective at renewal, leave the plan as-is, and generate a revised renewal quote. After we hang up, I'll manually update the ticketing system, copy the new seat count into the billing tool, and attach the quote approval so the invoice team has the same details."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Can you send the revised quote to me and copy ap@northstarclaims.com?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. I'll send it to dana.lee@northstarclaims.com and copy AP. You'll see ticket 184726 on the email, and the billing tool should pick it up before the July 15 invoice batch."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, that's all I needed."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No problem. You'll have the revised quote later today."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "svc-021",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the last four digits on the account phone number?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Daniel at Northstar Controls. Last four should be 4182."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it, thanks. I have Northstar Controls pulled up in the admin console. What can I help with today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We received invoice 104782 for March, and there’s a $375 training line on it that shouldn’t be there. We didn’t request training this month, so I’m trying to get that corrected before our AP run on Friday."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I see the invoice in the billing tool. Give me just a second to check the order notes and the ticketing system."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, so I found the note. That line was attached from an older implementation package and shouldn’t have carried forward. I’m going to open a billing correction ticket and route it to finance for approval today."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Do you know if we should hold payment or pay the rest?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Paying the undisputed balance is fine. The remaining amount is $2,640. I’ll note that in ticket 583219, and finance will either reissue the invoice or apply a credit memo, usually within one business day."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, please send that to billing@northstarcontrols.com and copy me."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Will do. I’ll send the ticket confirmation in the next few minutes, and you’ll see the update from finance by end of day tomorrow."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, thanks for handling it."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "svc-008",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, yeah, this is Priya at Northline Foods. We need to add 6 more user seats to our workspace before our March 18 go-live. Can you help with that?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Absolutely. I can take care of that. I’m pulling up your account in the admin console now. Is this for Northline Foods, account ending in 4821?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that’s the one. We’re currently at 34 seats and need to be at 40."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I see 34 active seats on the Business plan. Adding 6 seats will prorate for the current billing period, March 1 through March 31. The prorated amount is $174.20, and then your monthly total will be $1,160 starting April 1. Does that look okay?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that’s fine. Same card on file, please."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I’ve added the 6 seats and charged the prorated amount to the card ending in 9094. The receipt is generated under invoice 118734, and it’ll also be emailed to billing@northlinefoods.com."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do I need to do anything before inviting the new users?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Nope, you’re all set. The admin console now shows 40 seats available, with 34 assigned and 6 open. You can invite them whenever you’re ready."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, thanks for the quick help."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. I’ll close ticket 462918 as completed. Have a good one."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "svc-068",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": "acct-TH2",
+  "thread_id": "svc-TH2",
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, yeah, I'm reaching out again because this never actually got fixed after my last ticket, 184273. The customer import for North Ridge Supply is stalled at 62% just like before."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m pulling up the ticketing system and the admin console now. Can you confirm this is the CSV import uploaded today at 9:12 a.m. Eastern, file name nr-supply-users-0716.csv?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that’s the one. It’s 4,820 rows, and the admin page has been showing 2,988 processed for about forty minutes."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I see the same status here. No validation errors are showing in the import summary, and the file passed the header check. I’m going to kick the worker from our side and restart the job from the last completed batch."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "All right. We have their go-live review at 2:00, so I need to know if this is going to finish or if I should tell our implementation lead to hold off."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Understood. I restarted it at 10:26 a.m. Eastern. The counter is moving now, 3,120 processed, 3,240. I’m going to keep watching it for a few minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, I see it moving too. Is there anything wrong with the file that we should change, or is this on the platform side?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "From what I can see, the file itself looks clean. The batch is pausing in the import worker, not at row validation. I’m adding the job ID, IMP-77841, to the internal note and flagging it for the backend team."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "So for today, if it stalls again, do we just call in and have someone restart it?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "For today, yes, that’s the safest path. I’ll leave this ticket open and set a monitor on the job. If it stops moving for more than ten minutes, we’ll restart it from our side and update you in the ticket."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Please keep the ticket open, because I don’t want this marked resolved while it’s only moving because somebody nudged it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Agreed. I’m not closing it. Current count is 3,760 processed, and I’ll post the next update on ticket 184273 by 11:00 a.m. Eastern."
+    }
+  ]
+}

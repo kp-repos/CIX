@@ -1,0 +1,58 @@
+{
+  "id": "svc-026",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, hi, this is Daniel from Northstar Linen. I just need a copy of our February invoice sent over. Our AP team can't find it in the shared mailbox."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. Can you confirm the account name and the last four digits of the billing contact phone number?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Account is Northstar Linen Services, and the phone ends in 4428."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Perfect, thank you. I'm pulling it up in the billing tool now. Looks like the February invoice is INV-184672, dated February 3, 2026, for $3,480.00."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That sounds right. Can you send it to ap@northstarlinen.com and copy me at daniel.ross@northstarlinen.com?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, one moment. Okay, I sent the PDF to both addresses, and I also added a note in the ticketing system under ticket 318924."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it already. That's all I needed, thanks."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Glad to help. Have a good rest of your day."
+    }
+  ]
+}

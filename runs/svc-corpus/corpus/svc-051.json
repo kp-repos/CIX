@@ -1,0 +1,63 @@
+{
+  "id": "svc-051",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the ticket number if you have it?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Dan at Northstar Benefits. Ticket is 48172. Our user import from Friday night only brought in 126 employees, but the CSV had 148, so we’re missing 22 logins for Monday training."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m pulling that up in the ticketing system now. Okay, I see the scheduled import for July 12 at 11:30 p.m. Eastern. Let me check the admin console for the import log."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. And just to say it, I’m surprised I had to be the one to notice and report this, because your system could have caught the failed rows and flagged them first."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, understood. Looking at the log, the import completed but skipped rows where the department field had more than 40 characters. I’m going to upload the skipped-row file to the ticket and fix the field mapping so it truncates instead of skipping."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that makes sense. The long department names are probably from our HR export. Can you rerun it today?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. I’ve updated the mapping rule, and I’m rerunning the same file now. It should take about two minutes. After that, the 22 users will be created with standard employee access, no welcome email yet."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Please keep the welcome emails off. We want to send those after the 9 a.m. session."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Done. The rerun finished, and I’m seeing 148 active users in the account. I’ll add the skipped-row details and the mapping change to ticket 48172."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, that covers it. Thanks for the quick fix."
+    }
+  ]
+}

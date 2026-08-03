@@ -1,0 +1,73 @@
+{
+  "id": "svc-023",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Megan at Northline Parts. I'm calling about ticket 18427, the customer list import. I just wanted to see where it stands since I hadn't heard anything back since Monday."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, let me pull that up in the ticketing system. One moment."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I have it here. The file you sent on August 1st with 12,486 customer records was loaded into the staging area yesterday afternoon. The team is doing validation on the billing contact fields now."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, good. Is there anything missing from our side?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No, nothing needed from you right now. The only note I see is that 37 rows had blank state values, but those were left blank in the source file, so they're not blocking the import."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. We're trying to keep the August 9th go-live clean, so I just need a realistic ETA."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Totally. Current ETA is end of day tomorrow, August 4th, for the production import. Once it's done, you'll get the import summary with the final counts."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Can you add me and Daniel Ross to that update?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, I added you both on ticket 18427. Daniel's email is dross at northlineparts dot com, right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "All set. If anything changes on the validation, we'll update the ticket, but right now it's on track for tomorrow."
+    }
+  ]
+}

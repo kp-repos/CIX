@@ -1,0 +1,83 @@
+{
+  "id": "svc-099",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, yeah, I'm calling about invoice 48291 from July 31. It shows 74 seats at $18, but we only have 68 active seats in the admin console, so the total is $108 higher than we expected."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. Let me pull that up in the billing tool. Can I confirm the account name is Northlake Components and you're calling from the finance team?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. This is Dana Mills. We usually pay by ACH, but I paused this one until we understood it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Totally fine. I have the account open. I see the July invoice and the current seat count. Give me one second to check the usage snapshot tied to billing, because that's what drives the final count."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, yeah, I see what happened. Six deactivated users were still marked billable during the July 28 snapshot. They show inactive now, but the billing status didn't update at the same time."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that makes sense. Can you correct it, or do we need to wait for a credit next month?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "I can submit an adjustment from here. It'll generate a revised invoice with the same invoice number and a -$108 line, usually within about 30 minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. We need to close month-end by Friday, so today would be helpful."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, I'll mark it priority. I'm also opening ticket 317642 so you have a reference. You'll get an email when the revised PDF is ready."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do I need to unpause the ACH after that, or will it retry automatically?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You'll need to approve it manually in the billing portal once the revised balance posts. The due date stays August 15, so there's no late fee risk right now."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, thanks. I'll watch for the email."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You're welcome. I'll send the ticket confirmation now."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "svc-022",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the last four digits on the account phone number?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Daniel at Northpoint Supply, and the phone number ends in 4182."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Perfect, thanks. I have Northpoint Supply pulled up. How can I help today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We need to add three more seats for the operations team before our Monday onboarding. We're currently at 42 seats, and I want to make sure the new users can be invited today."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can handle that. Your current plan supports additional seats at $38 per user per month, prorated through the end of the billing cycle on August 31. Adding three seats today would add $52.06 to the current period. Is that okay to apply?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that's fine. The names are Priya Shah, Marcus Lee, and Evan Romero, but I can send the invites myself if the seats are just available."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, no problem. I’ve updated the account from 42 to 45 seats in the billing tool, and the admin console is showing the new seat count now. You should be able to invite them right away."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Will the receipt go to our billing inbox?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes, it’ll go to billing@northpointsupply.com within a few minutes. I also added a note on ticket 284917 in case your finance team asks. Anything else I can check while I have the account open?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that's all. I see 45 seats now on my side too. Thanks for the quick help."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Glad to hear it. Have a good rest of your day."
+    }
+  ]
+}

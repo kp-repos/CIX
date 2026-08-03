@@ -1,0 +1,63 @@
+{
+  "id": "svc-042",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, yeah, this is Megan at Hartley Foods. We need to add 4 seats to our workspace for the operations team, ideally today. Current account is under hartleyfoods.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Hi Megan, I can help with that. I pulled up the account in the admin console. I’m seeing you’re on the Business plan with 38 active seats and billing through June 30. Do you want the 4 new seats on the same plan and renewal date?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, same plan, same renewal date. The users are Alex Kim, Priya Shah, Ben Torres, and Danielle Reed. Their emails are first initial last name at hartleyfoods.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. So akim, pshah, btorres, and dreed at hartleyfoods.com. I’m adding the seats now. The prorated amount for the remainder of the term is $312.64 before tax, and it’ll appear on invoice 10487."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s fine. Can you send the invites to them directly? We don’t need anything custom."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, invites are queued and should arrive within a couple of minutes. I also updated the seat count from 38 to 42 in the billing tool, and the invoice copy will go to billing@hartleyfoods.com."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Is there anything they need from our side to get in, or just accept the email?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Just accept the email and set their password. They’ll land in the default Operations group, which has the standard dashboard and reporting access. If you need different permissions later, your admins can change that in the admin console."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, that covers it. Thanks for moving quickly."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. I’ll leave ticket 58241 closed with the details and the invoice number noted."
+    }
+  ]
+}

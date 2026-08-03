@@ -1,0 +1,63 @@
+{
+  "id": "svc-082",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Daniel at Northstar Compliance. Email is daniel.cho@northstarcompliance.com. I just need to add a few seats before our team training tomorrow."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I found the account. You're currently on 42 seats with 40 assigned, billing on the annual plan through November 30. How many seats do you want added?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Three seats, please. So 45 total. We have two new analysts starting Monday and one manager who needs access today."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay. I can add three seats now. The billing tool shows a prorated charge of $486.75 for the remainder of the term, and it will appear on invoice 11874. Is that approved?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that's fine. Same payment method, same billing contact."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Perfect. The seats are added. You should see 45 available in the admin console now. Do you want me to stay on while you assign the manager?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, one sec. Okay, I see it. Assigned to priya.menon@northstarcompliance.com. Looks good."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Great. I also emailed the updated seat summary to you and billing@northstarcompliance.com. Ticket 47291 is closed out on my side."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, thanks. That's all I needed."
+    }
+  ]
+}

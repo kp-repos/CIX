@@ -1,0 +1,63 @@
+{
+  "id": "svc-050",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, hi, this is Daniel at Northlake Clinics. I'm looking for our July invoice. AP says they never got it, and I need the billing email changed to ap@northlakeclinics.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can look that up. Can I get the account ID or the main admin email?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Account ID is 41782, admin email is mrojas@northlakeclinics.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks. I see the account in the billing tool. The July invoice is INV-48319 for $2,148.00, due August 15. I'm going to send you over to the billing queue so they can resend the PDF and update that AP contact."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that's fine."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Hi Daniel, I have the account pulled up. I updated the billing contact to ap@northlakeclinics.com and resent INV-48319 to that address."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Can you also send a copy to me at daniel.cho@northlakeclinics.com just so I can confirm it landed?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, just sent it to you as well. It should arrive in the next minute or two from our billing address."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "I see it now. The amount and due date look right. Thanks."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You're welcome. I added a note on the account that AP is the billing contact going forward."
+    }
+  ]
+}

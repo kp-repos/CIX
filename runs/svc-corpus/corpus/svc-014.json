@@ -1,0 +1,63 @@
+{
+  "id": "svc-014",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Megan from Northstar Dental Group. I'm calling about invoice 48219 for $3,240.00. The billing address is still showing our old Denver office."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, thanks Megan. I can pull that up. Can you confirm the account ID or the primary domain?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure, account ID is 11876, and the domain is northstardental.com. I'm reaching out again because we asked to fix this on the last two tickets, 73944 and 74210, and the new invoice still came out wrong."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I see the account now. The service address was updated, but the billing profile in the billing tool still has 1800 Blake Street. What should it be?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "It should be 5250 South Quebec Street, Suite 210, Greenwood Village, Colorado 80111."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I updated the billing profile and refreshed the open invoice record. Give me a second to generate the corrected PDF."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No problem."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "All set. The corrected invoice 48219 is now showing the Greenwood Village address. I emailed it to billing@northstardental.com and copied you. No change to the amount or due date, still $3,240.00 due August 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, I just received it. The address looks right now."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Perfect. I also added a note on the account so future invoices use that billing profile. Ticket 74682 is your reference."
+    }
+  ]
+}

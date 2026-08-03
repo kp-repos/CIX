@@ -1,0 +1,73 @@
+{
+  "id": "svc-015",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Priya. Can I get your company name and the last four digits of the account ID?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, it’s Northline Parts, account ending 4418. I’m calling about reducing our seats from 42 to 35 before the September 1 renewal."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m pulling that up in the billing tool now. Okay, I see your workspace and the current annual plan. You want 35 seats starting September 1, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Correct. The issue is Marcus in billing told me by email yesterday that seat reductions only apply at renewal, but Jenna on chat this morning said you can process it immediately and issue a prorated credit. Those can’t both be right, so I need the straight answer before I send this to finance."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I understand. Let me check the account notes and the policy in the knowledge base so I’m not guessing here."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for holding. For annual subscriptions, seat reductions take effect at the next renewal. So for you, September 1. We can remove the unused users from access now, but the billing change and the lower seat count start on the renewal invoice. No prorated credit for the current term."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "All right, that’s what I needed. Can you set it to 35 for September 1 and send me something in writing?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. I’m entering the scheduled change now. Your renewal estimate will show 35 seats at $28 per seat per month, billed annually, so $11,760 before taxes. The ticket number is 287614."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Send that to billing@northlineparts.com and copy me, danielle.ross@northlineparts.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Done. You should have the confirmation in a minute or two. Anything else on the account today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that covers it. Thanks."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "svc-091",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Mark from Lenton Supply. Our customer import from the SFTP folder didn’t run last night, and this morning’s new accounts are missing from the admin console."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I can take a look. Can you confirm the file name and about how many records you expected?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure, file was customers_2026-08-02.csv, uploaded at 11:18 p.m. Eastern. It should have been 438 records. We had to notice it in our onboarding report this morning; it seems like your system could have caught and flagged that the job didn’t run."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Understood. I’m checking the ticketing system and the import logs now. I see the file landed, but the scheduled job skipped because the header row had an extra trailing column after billing_contact_email."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that column was added by our export team yesterday. Is there a quick way to run it without us changing the file today?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. I can update the import mapping in the admin console to ignore that extra column, then rerun the file. It should take about 10 minutes, and it won’t duplicate existing customer IDs."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. We need the accounts in before our 2 p.m. training session."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’ve updated the mapping and started the rerun. Ticket 184732 is open for tracking. I’ll stay on it and email you once the 438 records are loaded."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. Please send the summary to me and ops@lentonsupply.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Will do. The job just completed with 438 processed, zero errors. You should see the new accounts in the admin console within a minute or two."
+    }
+  ]
+}

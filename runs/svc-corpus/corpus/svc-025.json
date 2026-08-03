@@ -1,0 +1,68 @@
+{
+  "id": "svc-025",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, hi Maya. This is Ben from Northstar Clinic Group. I just need a copy of our March invoice sent to a different billing email, if possible."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. Can I get the account name and either the invoice number or the last four digits of the payment method?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Account is Northstar Clinic Group, and the invoice number is INV-48291. I don't have the card in front of me."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "That's fine. I found it in the billing tool. March invoice, issued March 3rd for $1,284.00, covering 42 seats. Is that the one?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that's it. Can you send it to ap@northstarclinic.com? The old billing alias is getting retired."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Absolutely. I've sent the PDF to ap@northstarclinic.com, and I also updated that as the billing contact going forward. You'll still keep your admin contact the same, Rachel Kim at northstarclinic.com."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Will April's invoice go there automatically then?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. The next invoice on April 3rd will go to the new AP address. I also added a note on ticket 318744 in case anyone asks later."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, that's all I needed. Thanks for making it quick."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You're welcome, Ben. Have a good one."
+    }
+  ]
+}

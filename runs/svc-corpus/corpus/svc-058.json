@@ -1,0 +1,73 @@
+{
+  "id": "svc-058",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Megan from Northstar Payroll. I'm looking at invoice 78142 for August, and the total is $4,860, but it should be $4,320 based on our 72 seats at $60. There's a $540 line for 'additional users' that I don't recognize."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I can take a look. Can you confirm the billing email on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure, it's ap@northstarpayroll.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks. I'm in the billing tool now. I see invoice 78142 dated August 1, net 30. Give me one second to check the seat count history."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Alright, I see what happened. The system picked up 81 seats during the July 29 billing snapshot, but the admin console shows 72 active seats as of July 28. I'm going to open a ticket and send this to billing for adjustment."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it. Do you need anything from me?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No, I have what I need. The ticket number is 246918. Billing usually turns these around within one business day, and you'll get a revised invoice by email."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. The current due date is August 31, so that's fine."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, plenty of time. I'll note that you asked us to hold payment until the corrected invoice is issued."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks, appreciate it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You're welcome. We'll follow up on ticket 246918 as soon as the adjustment is posted."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "svc-053",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Maya, this is Jordan at Brightline Safety. Yeah, so we need to add 12 seats to our account before a training session on Monday, and I just want to confirm what the prorated cost will be."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. Can I get your account number or the billing email on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, account number is 48217, and billing email is ap@brightlinesafety.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m looking in the billing tool now. You currently have 48 seats on the Professional annual plan, renewal date September 30, 2026. Adding 12 seats today would bring you to 60 seats, and the prorated charge through the renewal date is $1,164.00 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I expected. Can you go ahead and add them? Same payment method on file is fine."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Absolutely. I’m processing that now. Okay, the 12 seats have been added, and the invoice is generated as INV-73984 for $1,164.00 before tax. You should see it at ap@brightlinesafety.com in a couple minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do I need to do anything in the admin console to assign those, or are they available right away?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "They’re available right away. In the admin console, go to Users, then Invite users, and you’ll see 12 open seats available. If you upload a CSV, the knowledge base template is still the same one from March."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, yeah, we have that template. Thanks for the quick help."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No problem. I also added a note to ticket 318642 with the seat change and invoice number. Have a good one."
+    }
+  ]
+}

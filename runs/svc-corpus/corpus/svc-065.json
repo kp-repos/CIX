@@ -1,0 +1,63 @@
+{
+  "id": "svc-065",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Maya, this is Kevin at Northstar Foods. Yeah, so we need to add 12 seats to our account before our training on August 12th."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. Can I confirm the account is Northstar Foods, account ID 48219, on the Standard annual plan?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that's right. We have 48 seats today and want to go to 60."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m in the billing tool now. The prorated amount for the 12 additional seats through your renewal on February 28th is $1,836.00 before tax. Is it okay to apply that to the card ending in 4412?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that's fine. And can you make them available right away?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Absolutely. I’ve added the seats and refreshed the admin console. You should now see 12 available seats under Users."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Let me check. Yeah, I see 12 available. Perfect."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Great. I also emailed the receipt to billing@northstarfoods.com and opened ticket 318742 for the change record. Anything else I can help with?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that's all. Thanks for the quick help."
+    }
+  ]
+}

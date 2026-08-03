@@ -1,0 +1,68 @@
+{
+  "id": "svc-049",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on your admin profile?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Daniel from Northstar Labeling, email is daniel.cho@northstarlabeling.com. I just need to add five user seats for our operations team before Monday."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure. I have Northstar Labeling pulled up. You’re currently on the Team annual plan with 42 seats, renewal date November 18, 2026. Are you looking to move that to 47 seats today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Exactly. And if you can confirm what the prorated amount is, that’d be helpful for our PO."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, one moment while I check the billing tool. Okay, adding five seats today through your renewal comes to $1,184.25 before tax. It’ll appear on invoice INV-43891, generated today, with net 30 terms."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Can you go ahead and apply it?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Done. Your account now shows 47 seats. I also refreshed the admin console, so you should be able to invite those users right away under Users, then Invite users."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do I need to do anything on the contract side, or is the invoice enough?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "For this plan, the invoice is enough. I’ve added a note in ticket 126744 that you approved the five-seat increase and the prorated charge. You’ll get the invoice and ticket summary by email in a minute or two."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, that’s all I needed. Thanks, Maya."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. Have a good rest of your day."
+    }
+  ]
+}

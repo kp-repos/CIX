@@ -1,0 +1,73 @@
+{
+  "id": "svc-078",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": "acct-TH1",
+  "thread_id": "svc-TH1",
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the invoice number you're looking at?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Daniel at Northstar Field Services. Invoice is INV-40872, dated March 1. I'm reaching out again because this still wasn't actually fixed; this is my third time contacting you about the same duplicate seat bundle."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "I understand. Let me pull that up in the billing tool. Okay, I see the account, and I see 48 Pro seats active. The invoice is showing the 25-seat bundle twice at $1,250 each, plus the 23 extra seats at $1,035."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Right, and it should only have one 25-seat bundle. The total should be $2,285 before tax, not $3,535 before tax. We already paid the corrected amount last month after ticket 184633."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I see that prior credit memo for February, $1,250. I also see a note from our billing team saying the subscription line was adjusted, but the March renewal still generated with both bundle lines. Sorry about that."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, but our AP team is not going to keep short-paying these without something in writing. The invoice is due March 15, and it’s already in our approval queue."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "That makes sense. What I can do right now is open a follow-up on the existing billing case and request a revised invoice for INV-40872. I’ll also add a temporary credit request for $1,250 so your AP team has a reference while billing reviews it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Can you email me that today? I don't need a long explanation, just that the duplicate 25-seat bundle is under review and we shouldn't pay the extra $1,250."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. I’ll send that to daniel.reed@northstarfield.com within the next few minutes, and copy billing@northstarfield.com if that’s still the AP address on file."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that's fine. Is there any chance this is fixed before April? Because the last time I was told it was fixed."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "I don’t want to promise that yet. I’m marking the case as needing a subscription-line correction, not just a one-time credit, and I’ll ask billing to confirm after they update it in the admin console. Your follow-up case number is 187944."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "All right. Send the email and I’ll watch for the revised invoice. Thanks."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "svc-063",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on your admin account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, so this is Daniel at Northstar Commercial Interiors. Admin email is daniel.cho@northstarci.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks, Daniel. I have your account pulled up. What can I help with today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We need to add three users for the operations team before Monday. I wasn't sure if we had seats available or if we need to add them to the plan."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can check that in the admin console. Looks like you're on the Business plan with 48 seats purchased and 45 assigned, so you have exactly three open seats."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. The emails are marisa.patel@northstarci.com, kevin.ross@northstarci.com, and tina.owens@northstarci.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I'm adding them now with standard user access. Do they need to be in the Chicago project workspace, or just the main company workspace?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Just main company for now. We'll move them into projects after training."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, all three users are created and invitation emails have been sent. They should see those within a minute or two. No billing change since you already had the open seats."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, that's all I needed. Can you send me the ticket number for our records?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Absolutely. Ticket number is 184726. You'll also get a confirmation email with the three user emails listed."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Excellent. Thanks, Maya."
+    }
+  ]
+}

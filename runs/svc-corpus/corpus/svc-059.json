@@ -1,0 +1,63 @@
+{
+  "id": "svc-059",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, yeah, I’m just checking where we are on the employee roster import, ticket 48217. I hadn’t heard anything since Tuesday."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can look that up. Give me a second in the ticketing system. Is this for the 312-user CSV import for the May 6 go-live?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that’s the one. North Ridge account, admin is Carla Nguyen."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. The import ran last night at 9:40 p.m. Eastern, and the validation report shows 309 users created and 3 rows skipped for missing department codes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that sounds manageable. Do we need to send a corrected file for those three?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You can, or your admin can add those three manually in the admin console. The skipped rows are employee IDs 1184, 1199, and 1226."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Manual is fine. Are the welcome emails still held?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes, they’re still suppressed. Nothing will go out until Carla toggles invitations on, or we can do it for you when you confirm."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. Can you add those details to the ticket so I can forward it internally?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Already updating it now. You’ll get the note in a minute, and I’ll mark the import step complete with the three manual adds pending."
+    }
+  ]
+}

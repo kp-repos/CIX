@@ -1,0 +1,68 @@
+{
+  "id": "svc-075",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Maya, yeah, this is Ben with Northline Foods. I need to add 12 user seats to our account for the warehouse team before Monday."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. Can I confirm the company name is Northline Foods, account ending in 4821, and you're on the Business plan?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. We currently have 48 seats, and we need to go to 60."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m pulling it up in the billing tool now. The 12 additional seats will be prorated for the current term through October 31. The prorated amount is $1,248.00 before tax. Is that okay to apply to the card on file ending in 7734?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that's fine. Please use that card."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, all set. Your seat count is now 60, and the admin console should reflect that within a minute or two. I also sent the updated receipt to billing@northlinefoods.com."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do I need to do anything else for the users to show up?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No, you're good. Your admins can invite the 12 new users from the Users page whenever they're ready. If you use CSV upload, the current template in the knowledge base is still the right one."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, thanks for the quick help."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You're welcome. Ticket 418276 is noted as completed. Have a good one."
+    }
+  ]
+}

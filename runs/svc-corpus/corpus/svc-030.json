@@ -1,0 +1,63 @@
+{
+  "id": "svc-030",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Megan at Northstar Clinics. I'm looking at our June statement, invoice 48291, and there’s a $1,260 professional services line on there that we didn’t approve or schedule."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I can take a look. Can you confirm the billing email or the last four digits of the account ID?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure, billing is ap@northstarclinics.com, account ID ends in 7714."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks. I’ve got the account open in the billing tool. Give me just a second to check the activity tied to that invoice."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No problem. We’re trying to close the month by Friday, so I just need to know if we should hold payment."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Understood. I’m seeing your regular 84 seats and the standard support package. The extra charge was added from a service task, but I don’t see the matching approval note in the ticketing system."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what I thought. We had a short call with your onboarding team, but nothing billable was discussed."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m going to open a billing review and pause collection on this invoice while it’s checked. The case number is 318746, and you’ll get an email confirmation in a few minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks. Do you need anything else from me?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Not right now. If finance needs backup, they’ll reply on the case, but I added your note and the timing. You can wait on payment until the corrected invoice or confirmation comes through."
+    }
+  ]
+}

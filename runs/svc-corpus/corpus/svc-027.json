@@ -1,0 +1,73 @@
+{
+  "id": "svc-027",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on your account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, it’s Northstar Fabrication, and the email is daniel.cho@northstarfab.com. I’m just looking for a copy of our February invoice, if that’s something you can send over."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. For verification, can you confirm the last four digits of the payment method on file?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, 1842."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Perfect. I’m in the billing tool now. I see invoice 78241 for February 1 through February 29, total was $1,860 for 62 seats. Is that the one you need?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That sounds right. Our controller asked for the PDF before noon, so if you can email it to me that’d be great."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No problem. I’m sending it to daniel.cho@northstarfab.com now, and I’ll include the billing contact we have on file, marisa.lee@northstarfab.com. Okay to copy her?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, please copy Marisa."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Done. You should have the email in a minute or two. The subject line will include invoice 78241, and I also added the payment receipt as a second attachment."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Got it, it just came through. Both attachments are there. Thanks, that’s all I needed."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Glad to help. I’ll close out ticket 146233 as resolved. Have a good one."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "You too, thanks."
+    }
+  ]
+}

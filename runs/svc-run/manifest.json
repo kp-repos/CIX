@@ -1,0 +1,35 @@
+{
+  "manifest_version": "1.0.0",
+  "corpus_hash": "2c8cf0b8515dca04bf6484351b350a0af4cacbf09127ca66b9d5010bc8f2505f",
+  "canonical_hash": "142d2dcbfa7732cb67249e1cdd4a1ebb89c5652c27b435b94fc10c7b8c7266cb",
+  "index_version": "1.0.0",
+  "tag_vocab_version": "1.0.0",
+  "label_schema_version": "1.0.0",
+  "rubric_version": "1.0.0",
+  "catalogue_version": "0.1.0",
+  "model_versions": {
+    "primary": "claude-opus-4-8"
+  },
+  "prompt_hashes": {
+    "labels": "575affe0f8cd9afc",
+    "hits": "6d9279ef980092b9",
+    "synthesis": "ad345dbdc1954e75",
+    "apply": "df0fc4e57b2af9e2"
+  },
+  "seeds": {
+    "run": 20260731
+  },
+  "thresholds_version": "1.2.0",
+  "privacy_gate": "pass",
+  "scrub_salt": "cix-20260731",
+  "corpus_clearance": "synthetic service rehearsal corpus — O1 only, never O2/O3 (PRD §2.3)",
+  "created_at": "2026-08-03T21:56:29.891494+00:00",
+  "artifacts": {
+    "labels": "acda7ee76041c9d0",
+    "hits": "2fd635ee3934e3a3"
+  },
+  "privacy_scan": {
+    "residual_scope": "email+phone",
+    "ner": "rules-only"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "svc-003",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Megan at Northstar Dental Group. We’re setting up the April billing file, and I need the weekly export toggle turned on for our account. I don’t see it in our admin view."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I can help with that. Can you confirm the account ID and the workspace name you’re in?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure. Account ID is 48219, workspace is Northstar-Operations. We’re on the Standard plan, 38 seats."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks. I’m pulling it up in the admin console now. And just to verify, you want the weekly export enabled for Fridays, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, Fridays. The file goes to our finance inbox after close, usually around 6 p.m. Eastern."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’ve flipped that on. The first export will run Friday, April 12, and then every Friday after that unless you turn it off or ask us to change it."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do I need to update anything on our side?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No, you’re all set. I added a note on ticket 317642 in case anyone from your team asks about it later."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, thanks for the quick help."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. Have a good one."
+    }
+  ]
+}

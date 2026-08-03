@@ -1,0 +1,74 @@
+{
+  "spec_version": "1.0.0",
+  "state": "material-advantage",
+  "material_fraction": 1.0,
+  "per_seed": [
+    {
+      "seed": 11,
+      "material": true,
+      "layers": {
+        "distribution": false,
+        "rank_topk": true,
+        "highlight_diff": false,
+        "band_movement": true
+      }
+    },
+    {
+      "seed": 22,
+      "material": true,
+      "layers": {
+        "distribution": false,
+        "rank_topk": true,
+        "highlight_diff": true,
+        "band_movement": true
+      }
+    },
+    {
+      "seed": 33,
+      "material": true,
+      "layers": {
+        "distribution": false,
+        "rank_topk": true,
+        "highlight_diff": false,
+        "band_movement": true
+      }
+    },
+    {
+      "seed": 44,
+      "material": true,
+      "layers": {
+        "distribution": false,
+        "rank_topk": true,
+        "highlight_diff": false,
+        "band_movement": true
+      }
+    },
+    {
+      "seed": 55,
+      "material": true,
+      "layers": {
+        "distribution": false,
+        "rank_topk": true,
+        "highlight_diff": true,
+        "band_movement": false
+      }
+    }
+  ],
+  "per_layer_fraction": {
+    "distribution": 0.0,
+    "rank_topk": 1.0,
+    "highlight_diff": 0.4,
+    "band_movement": 0.8
+  },
+  "layers_compared": [
+    "distribution",
+    "rank_topk",
+    "highlight_diff",
+    "band_movement"
+  ],
+  "full_topk": [
+    "first_contact_resolution",
+    "billing_defect_driver",
+    "unanticipated_failure"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "svc-069",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Maya, this is Kevin from Northstar Analytics. Yeah, so we need to add 12 seats to our account before our training on May 14. Can you help with that?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Absolutely. I can take care of that. I’m pulling up your account in the admin console now. Can you confirm the billing email on file?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure, it’s ap@northstaranalytics.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I see you currently have 38 seats on the Business plan, billed annually, renewal date October 1. Adding 12 seats brings you to 50. The prorated charge through renewal is $1,824 before tax. Does that look right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that’s what I expected. Please go ahead."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Done. The 12 seats are active now, and I sent the updated invoice to ap@northstaranalytics.com. Invoice number is 48291."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do I need to do anything special for the new users?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No, you’re all set. Your account admin can invite them from Users in the admin console. They’ll count against the new seat total right away."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, thanks. That was easy."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Happy to help, Kevin. Have a good one."
+    }
+  ]
+}

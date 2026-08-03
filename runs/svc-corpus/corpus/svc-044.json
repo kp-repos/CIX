@@ -1,0 +1,73 @@
+{
+  "id": "svc-044",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, yeah, this is Dana from Northstar Fabrication. I need to add 12 user seats to our account for the operations team, ideally today."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. Can you confirm the account name is Northstar Fabrication and the billing contact email is ap@northstarfab.com?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, that's right. We're currently at 48 seats, and we need to go to 60."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m in the admin console now. Your current plan is annual, renewal on November 30, 2026. Adding 12 seats today will prorate through that date. The prorated amount is $1,860.00 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That sounds fine. Can you apply it to the same payment terms as the current contract?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. I’m updating it in the billing tool now. The seats will be available immediately, and the invoice will go to ap@northstarfab.com with net 30 terms."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do I need to do anything to assign them?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No change to your setup. Once I save this, your admins can invite or activate up to 60 total users from the admin console under Users."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, great."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "All set. Your seat count is now 60. The invoice is number INV-48291 for $1,860.00 before applicable tax, and I’ve added a note to ticket 317284."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks, that’s all I needed."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. Have a good one."
+    }
+  ]
+}

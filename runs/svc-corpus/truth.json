@@ -1,0 +1,286 @@
+{
+  "svc-000": null,
+  "svc-001": null,
+  "svc-002": {
+    "pathology": "SP1",
+    "thread": "TH2",
+    "expected_occurrences": 1
+  },
+  "svc-003": {
+    "pathology": "SP3",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-004": null,
+  "svc-005": {
+    "pathology": "SP3",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-006": null,
+  "svc-007": {
+    "pathology": "SP4",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-008": null,
+  "svc-009": null,
+  "svc-010": null,
+  "svc-011": {
+    "pathology": "SP3",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-012": {
+    "pathology": "SP8",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-013": {
+    "pathology": "SP7",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-014": {
+    "pathology": "SP1",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-015": {
+    "pathology": "SP6",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-016": null,
+  "svc-017": null,
+  "svc-018": {
+    "pathology": "SP1",
+    "thread": "TH1",
+    "expected_occurrences": 1
+  },
+  "svc-019": {
+    "pathology": "SP5",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-020": null,
+  "svc-021": {
+    "pathology": "SP2",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-022": null,
+  "svc-023": {
+    "pathology": "SP7",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-024": {
+    "pathology": "SP2",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-025": null,
+  "svc-026": null,
+  "svc-027": null,
+  "svc-028": {
+    "pathology": "SP1",
+    "thread": "TH1",
+    "expected_occurrences": 1
+  },
+  "svc-029": null,
+  "svc-030": {
+    "pathology": "SP2",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-031": null,
+  "svc-032": null,
+  "svc-033": null,
+  "svc-034": {
+    "pathology": "SP7",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-035": null,
+  "svc-036": null,
+  "svc-037": {
+    "pathology": "SP4",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-038": null,
+  "svc-039": null,
+  "svc-040": {
+    "pathology": "SP5",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-041": null,
+  "svc-042": null,
+  "svc-043": {
+    "pathology": "SP5",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-044": null,
+  "svc-045": {
+    "pathology": "SP4",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-046": {
+    "pathology": "SP3",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-047": {
+    "pathology": "SP6",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-048": null,
+  "svc-049": null,
+  "svc-050": {
+    "pathology": "SP5",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-051": {
+    "pathology": "SP8",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-052": null,
+  "svc-053": null,
+  "svc-054": null,
+  "svc-055": {
+    "pathology": "SP2",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-056": null,
+  "svc-057": null,
+  "svc-058": {
+    "pathology": "SP2",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-059": {
+    "pathology": "SP7",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-060": null,
+  "svc-061": {
+    "pathology": "SP6",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-062": null,
+  "svc-063": null,
+  "svc-064": {
+    "pathology": "SP3",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-065": null,
+  "svc-066": null,
+  "svc-067": null,
+  "svc-068": {
+    "pathology": "SP1",
+    "thread": "TH2",
+    "expected_occurrences": 1
+  },
+  "svc-069": null,
+  "svc-070": {
+    "pathology": "SP2",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-071": null,
+  "svc-072": {
+    "pathology": "SP4",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-073": null,
+  "svc-074": null,
+  "svc-075": null,
+  "svc-076": {
+    "pathology": "SP2",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-077": null,
+  "svc-078": {
+    "pathology": "SP1",
+    "thread": "TH1",
+    "expected_occurrences": 1
+  },
+  "svc-079": null,
+  "svc-080": null,
+  "svc-081": null,
+  "svc-082": null,
+  "svc-083": null,
+  "svc-084": {
+    "pathology": "SP4",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-085": null,
+  "svc-086": {
+    "pathology": "SP1",
+    "thread": "TH3",
+    "expected_occurrences": 1
+  },
+  "svc-087": {
+    "pathology": "SP3",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-088": {
+    "pathology": "SP5",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-089": {
+    "pathology": "SP7",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-090": null,
+  "svc-091": {
+    "pathology": "SP8",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-092": null,
+  "svc-093": {
+    "pathology": "SP6",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-094": {
+    "pathology": "SP1",
+    "thread": "TH3",
+    "expected_occurrences": 1
+  },
+  "svc-095": {
+    "pathology": "SP8",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-096": null,
+  "svc-097": null,
+  "svc-098": {
+    "pathology": "SP4",
+    "thread": null,
+    "expected_occurrences": 1
+  },
+  "svc-099": {
+    "pathology": "SP2",
+    "thread": null,
+    "expected_occurrences": 1
+  }
+}

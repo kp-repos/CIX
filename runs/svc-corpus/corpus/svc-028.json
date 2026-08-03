@@ -1,0 +1,78 @@
+{
+  "id": "svc-028",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": "acct-TH1",
+  "thread_id": "svc-TH1",
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the last four digits on the invoice number?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Daniel at Northline Facilities, and the invoice is INV-33984, last four is 3984. I'm reaching out again because ticket 52718 did not actually fix this; the August monthly subscription invoice still shows the 30-seat field team bundle twice, and this is my second attempt on the same issue."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. Let me pull that up in the billing tool. Okay, I see Northline Facilities, billing date August 1, total showing $4,860. You expected it to be $3,240, correct?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Correct. We have 30 seats on the field team bundle at $1,620, plus the core platform at $1,620. The extra field team line is the problem."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I can see two identical line items here: field team bundle, 30 seats, both dated August 1 through August 31. There is a note on ticket 52718 that a credit memo was applied for July, but I do not see the subscription setup changed in the admin console."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that explains why it came back. We need to pay by the 15th, but accounting will not approve it with the duplicate line sitting there."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Understood. I’m going to place a billing hold on this invoice so it won’t trigger a late notice while we review it. I can also attach the prior ticket and the current invoice screenshot to a billing operations task."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Can you send me something I can forward to accounting today?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. I’ll send a short email confirming the invoice is under review, the expected amount is $3,240 before taxes, and no late fee will apply while the billing hold is active. Give me about five minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Fine. Do you know when the actual subscription record gets corrected?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "I don’t want to promise it’s corrected until billing operations removes the duplicated bundle from the subscription record. I’m marking it priority and asking for confirmation before the September 1 run, but at this moment it is not changed in the system."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. Please include the new task number in the email."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Will do. The task number is BILL-68412, and I’ll reference ticket 52718 and invoice INV-33984 in the email."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "svc-097",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on your account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Daniel at Northstar Controls. Email is daniel.ross@northstarcontrols.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’ve got Northstar Controls pulled up in the admin console. How can I help today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We need to add six seats for the operations team before Monday. We’re at 42 today, and I want to take it to 48. Same plan, no other changes."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure. I’m checking the billing tool now. Your renewal is September 30, so these would be prorated from today through then. The added amount is $318.42 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that’s fine. Will it hit the card on file, or do we get an invoice?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re set to invoice billing with net 30 terms. I can add the six seats now and the invoice will generate within about 10 minutes. It’ll go to ap@northstarcontrols.com."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Can you also make sure I’m still the admin who can assign them?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep, I see you and Priya Shah as account admins. You’ll be able to assign the new seats as soon as I save the change."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, please go ahead."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "All set. Your seat count is now 48. I also created ticket 184732 as a record of the change, and you’ll get the invoice shortly."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "I see the seats in the admin console now. That’s all I needed, thanks."
+    }
+  ]
+}

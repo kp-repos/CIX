@@ -1,0 +1,63 @@
+{
+  "id": "svc-067",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Ben with Northlake Design Group. Email is ben.morris@northlakedg.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks, Ben. I found the account. What can I help with today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "We need to add 4 seats before Monday. We have 28 now, and I want to bring it to 32. Same plan, same billing contact."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m in the admin console now. The account is on the Business plan, billed monthly, renewal on the 12th. Adding 4 seats will prorate for the current cycle at $86.40 total before tax. Does that look okay?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that’s fine. Can you make them available right away?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. I’ve added the 4 seats, so you should see 32 total seats now. The billing tool generated invoice 41872 for the prorated amount, and it’ll go to ap@northlakedg.com."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. I’m refreshing, yeah, I see 32. That’s all I needed."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Great. I’ll note ticket 263914 as completed. You’re all set."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Thanks, Maya."
+    }
+  ]
+}

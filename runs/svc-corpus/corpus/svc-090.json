@@ -1,0 +1,73 @@
+{
+  "id": "svc-090",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Megan at Northstar Packaging. We need to add 8 user seats to our account before our warehouse team training on May 14."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I can help with that. I’m pulling up the account in the billing tool now. Can you confirm the workspace name or account number?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure, workspace is Northstar Ops, and I think the account number is 48291."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it, I see Northstar Ops on the Standard annual plan with 42 active seats today. You’re adding 8 seats, so that would bring you to 50 total."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s right."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "The prorated charge for the 8 additional seats through your renewal date of November 30 is $1,248. It’ll be billed to the card ending in 6114 unless you want a different payment method."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "No, that card is fine. Can you also email the receipt to ap@northstarpackaging.com?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yep. I’ve added the 8 seats and sent the receipt to that AP address. You should also see the new seat count in the admin console in about a minute."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do I need to invite the users one by one?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You can, but for 8 people I’d use the CSV invite option under Admin, Users, Invite users. The knowledge base template is linked right there in the panel."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, yeah, I see it now. Thanks for the quick help."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. I’ll close ticket 736284 with the seat increase confirmed."
+    }
+  ]
+}

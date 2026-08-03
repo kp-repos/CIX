@@ -1,0 +1,58 @@
+{
+  "id": "svc-057",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the email on the account?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, hi, this is Jordan at Northline Packaging. Email is jordan.reed@northlinepkg.com. I just need to add three seats to our account for new operations coordinators."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I have Northline Packaging pulled up in the admin console. You’re currently on the Team plan with 42 active seats, billing monthly on the 18th. Do you want the three new seats available today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yes, today if possible. Names are Priya Shah, Evan Miller, and Carlos Nguyen. They’ll all use the standard user role."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Perfect. I’m adding three standard seats now. Just to confirm, the prorated charge for the remainder of this billing period is $96.75, and then your monthly total will increase by $225 starting August 18."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s fine. Same card on file and same billing contact, please."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Done. The account now shows 45 seats, and I sent invites to priya.shah@northlinepkg.com, evan.miller@northlinepkg.com, and carlos.nguyen@northlinepkg.com. You’ll also get the receipt from the billing tool in a couple minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, I see one of the invites already. That covers it, thanks."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. I’ll note the update on ticket 48291 and close it out. Have a good one."
+    }
+  ]
+}

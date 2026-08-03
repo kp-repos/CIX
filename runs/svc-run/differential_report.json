@@ -1,0 +1,32 @@
+{
+  "design_version": "1.0.1",
+  "variants": [
+    {
+      "id": "V1-delete",
+      "status": "pass",
+      "expected": 3,
+      "observed": 3,
+      "rel_error": 0.0,
+      "tolerance": 0.2,
+      "detail": "repeat_contact_unresolved base=8 variant=5 expected_delta=3 rel_err=0.0 direction_ok=True outcome_level=O1-synthetic"
+    },
+    {
+      "id": "V2-duplicate",
+      "status": "pass",
+      "expected": 3,
+      "observed": 3,
+      "rel_error": 0.0,
+      "tolerance": 0.2,
+      "detail": "repeat_contact_unresolved base=8 variant=11 expected_delta=3 rel_err=0.0 direction_ok=True outcome_level=O1-synthetic"
+    },
+    {
+      "id": "V3-splice",
+      "status": "pass",
+      "expected": 5,
+      "observed": 6,
+      "rel_error": 0.2,
+      "tolerance": 0.2,
+      "detail": "deterministic_request base=19 variant=25 expected_delta=5 rel_err=0.2 direction_ok=True outcome_level=O1-synthetic"
+    }
+  ]
+}

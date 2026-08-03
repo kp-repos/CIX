@@ -1,0 +1,68 @@
+{
+  "id": "svc-016",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. How can I help today?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, hi, this is Daniel from Northstar Fabrication. We need to add 8 user seats to our account before Monday. Our team lead is onboarding a new estimating group."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Sure, I can help with that. Can I confirm the workspace name and the billing contact email?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Workspace is Northstar Fab, and billing contact is ap@northstarfab.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I’m in the admin console now. You currently have 42 active seats on the Business plan, billed monthly, next renewal on March 1. Adding 8 seats brings you to 50. The prorated charge through the end of February is $312.40 before tax. Does that look okay to proceed?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, that’s fine. And those seats will be available right away, correct?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. I just applied the seat increase. The new limit is 50, and your admins can invite users immediately. The billing tool will generate the prorated invoice today and email it to ap@northstarfab.com."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Do you have a ticket number for this?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes, ticket 184927. I’ll add a note that the 8 seats were added on February 12 with approval from Daniel Reyes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, that’s all I needed. Thanks."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re welcome. Have a good one."
+    }
+  ]
+}

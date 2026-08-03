@@ -1,0 +1,73 @@
+{
+  "id": "svc-036",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": "acct-TH1",
+  "thread_id": "svc-TH1",
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Who do I have on the line?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi Maya, this is Kevin Roth at Parkline Manufacturing. I’m calling about our June invoice. It looks like one of the seat bundles is on there twice."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, yeah, I can take a look. Do you have the invoice number handy?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yep, invoice 784216, dated June 1. The total is showing $3,840, but it should be $2,880. The 25-seat operations bundle at $960 is listed two times."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. Give me just a second while I pull that up in the billing tool. Okay, I see your account, Parkline Manufacturing, monthly subscription, 75 total seats. And yeah, I’m seeing two line items both labeled operations bundle, 25 seats, June 1 through June 30."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Right, and we didn’t add seats. We’ve had the same 75 since March. Our AP team is asking if they should short-pay it or wait for a corrected invoice."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "I wouldn’t recommend short-paying yet. I’m checking the account record in the admin console, and it does show only three 25-seat bundles active, not four. So the subscription setup looks normal, but the invoice picked up an extra line."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay. We need to close this by Friday if possible. Payment run is on June 7."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Understood. I’m going to open a billing review ticket and attach the invoice detail. The ticket number is 319842. I’ll ask our billing team to confirm whether they can void and reissue the invoice or issue a credit for the duplicate $960."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Can you email me that ticket number and the plan? I just need something to send back to AP."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Absolutely. I’ll send that to the email we have for you, kevin.roth@parklinemfg.com, in the next few minutes. I don’t want to promise the corrected invoice while we’re on the call, but I’ll follow up as soon as billing confirms the next step."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That works. Thanks, Maya."
+    }
+  ]
+}

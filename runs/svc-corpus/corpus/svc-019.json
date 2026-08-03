@@ -1,0 +1,73 @@
+{
+  "id": "svc-019",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, this is Dana at Northlake Dental Group. I’m trying to get a copy of our March invoice, invoice 48291 I think, for $1,248.00. It didn’t hit our ap inbox."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, I can take a look. Can I get the account email or workspace ID?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure, workspace is NLD-2047, and the email is billing@northlakedental.com."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I see the account. March 1 invoice, due March 15, $1,248.00 for 24 seats. For invoice copies I’m going to send you over to our billing queue, they can resend that from the billing tool."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Oh, okay. I thought support could just email it, but yeah, that’s fine."
+    },
+    {
+      "speaker": "Billing Agent",
+      "ts": null,
+      "text": "Hi Dana, this is Marcus. I have the account pulled up. You need invoice 48291 sent to billing@northlakedental.com, right?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That’s right. If you can also cc dana.lee@northlakedental.com, that would help."
+    },
+    {
+      "speaker": "Billing Agent",
+      "ts": null,
+      "text": "Yep, done. I resent the PDF and the payment link to both addresses. It should arrive in the next couple minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great. And just confirming there’s no late fee on that yet?"
+    },
+    {
+      "speaker": "Billing Agent",
+      "ts": null,
+      "text": "Correct, no late fee. It’s marked net 15, and you’re still within the grace period through March 20."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect, thanks for the help."
+    },
+    {
+      "speaker": "Billing Agent",
+      "ts": null,
+      "text": "No problem. I’ll note ticket 73618 that the invoice was resent and copied to you."
+    }
+  ]
+}

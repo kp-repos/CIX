@@ -1,0 +1,68 @@
+{
+  "id": "svc-098",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks for calling support, this is Maya. Can I get your company name and the last four digits on the billing contact phone?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Yeah, this is Nolan at Crestview Analytics. Last four are 2481. I’m trying to confirm our seat reduction for next month’s invoice."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Got it. I see Crestview Analytics, account ending in 773. You’re currently at 42 seats on the Business plan, billed monthly at $1,890. Are you looking to reduce to 35 seats for the September 1 billing cycle?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Exactly. We removed seven inactive users yesterday, but the admin console still shows the old total in the subscription area."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, so the user list updated, but the subscription quantity needs to be synced from our side. I can set the quantity to 35 effective September 1. Your September invoice should drop to $1,575 before tax."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, that matches what finance expected. Will there be any credit for August?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No credit for August since the change is scheduled for the next cycle, not mid-cycle. I’m adding that to ticket 48126 so there’s a record."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Can you send the confirmation to billing@crestviewanalytics.com too?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yes. After we disconnect, I’ll retype the change summary into the billing tool, copy the ticket details into the admin console notes, and attach the confirmation for that billing alias."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, appreciate it."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "You’re all set. You should see the subscription total show 35 seats within about an hour."
+    }
+  ]
+}

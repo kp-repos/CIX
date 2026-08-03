@@ -1,0 +1,73 @@
+{
+  "id": "svc-076",
+  "source_type": "transcript",
+  "participants": [
+    "agent",
+    "customer"
+  ],
+  "date": null,
+  "account_id": null,
+  "thread_id": null,
+  "segments": [
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Hi, yeah, this is Dana with Northlake Foods. I'm calling about invoice 48291 for our June renewal. There's a $640 onboarding services line on there, and we didn't request or use anything like that this month."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Thanks, Dana. Let me pull that up in the billing tool. Can I confirm the account email is billing@northlakefoods.com?"
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "That's right. The invoice came to that shared inbox yesterday, due July 15."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Okay, I have it. I see your standard 38 seats at $29 each and the support plan, and then that services line you mentioned. Give me just a second to check the notes in the ticketing system."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Sure."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Yeah, so I found the issue. That line was tied to a setup request for a different Northlake account in the admin console. It should not have been added to yours."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Okay, good. We just need the corrected copy before our AP run on Friday."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Understood. I'm removing that charge now and generating a revised invoice. The new total will be $1,302.00, and you'll get the PDF by email in about five minutes."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Perfect. Same invoice number or a new one?"
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "Same invoice number with a revision date of July 3. I'll also add a note on the account so it doesn't get re-applied next cycle."
+    },
+    {
+      "speaker": "Customer",
+      "ts": null,
+      "text": "Great, thanks for the quick help."
+    },
+    {
+      "speaker": "Agent",
+      "ts": null,
+      "text": "No problem. Your reference is ticket 317844 if you need to follow up."
+    }
+  ]
+}
