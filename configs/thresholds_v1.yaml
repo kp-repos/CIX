@@ -68,10 +68,10 @@ registers:
     min_evaluable_interactions: 40
     material_seed_fraction: 0.4
     topk: 3
-    layers_gated: [rank_topk]
-    layers_reported_ungated: [distribution, band_movement, highlight_diff]
-    derivation: "top-k rank is the layer that drives leverage-grid ordering and highlights; a difference in >= 40% of predeclared seeds is a material advantage (§7.6 fraction-of-seeds, not any-seed). Below 40 evaluable interactions the rank comparison is underpowered -> not-evaluable. G4 gates the rank layer as the mechanism proof; the full four-layer §7 comparison lands with the real run at G5."
-    rule: "per §7: freeze eligibility/rubric/catalogue/thresholds/metrics; for each seed draw a 10% sample, regenerate from sample records only; the GATED comparison at G4 is the top-k rank layer; state = material-advantage if top-k rank differs on >= 0.40 of predeclared seeds, else no-material-advantage; n < 40 -> not-evaluable. Distribution distance, opportunity-band movement, and highlighted-action difference are reported at G4 and become gated at G5."
+    layers_gated: [distribution, rank_topk, highlight_diff, band_movement]
+    distribution_tv_max: 0.25
+    derivation: "the four §7 layers each capture a decision-relevant way corpus access could change the output: distribution distance (magnitude of distributional shift, TV > 0.25), top-k rank (leverage-grid ordering), highlighted-action set membership, and opportunity-band movement (priced ranking). A seed counts as material if ANY layer differs; a difference on >= 40% of predeclared seeds is a material advantage (§7.6 fraction-of-seeds). Below 40 evaluable interactions the comparison is underpowered -> not-evaluable. band_movement is compared only when a catalogue is loaded (the real run has one)."
+    rule: "per §7: freeze eligibility/rubric/catalogue/thresholds/metrics; for each seed draw a 10% sample, regenerate from sample records only; compare all four layers (distribution TV, top-k rank, highlight-set membership, priced-ranking top-k); a seed is material if any layer differs; state = material-advantage if the material-seed fraction >= 0.40, else no-material-advantage; n < 40 -> not-evaluable"
     consequence: "governs R-VAL-5 states; no-material-advantage on an evaluable real run = abandon-trigger-2 input (§8)"
     owner: PO
   T-DIFF:

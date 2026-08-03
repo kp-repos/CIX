@@ -44,3 +44,28 @@ def test_rare_driver_flips_to_material_advantage():
     res = self_test(ids, hits, SPEC)
     assert res["state"] in ("material-advantage", "no-material-advantage")
     assert "per_seed" in res and len(res["per_seed"]) == len(SPEC.seeds)
+
+def test_layers_exclude_band_without_catalogue():
+    ids = [f"i{i:03d}" for i in range(100)]
+    hits = [{"item_id": "a", "interaction_id": u, "unit": "interaction", "snippet_ids": f"{u}:0000"}
+            for u in ids]
+    res = self_test(ids, hits, SPEC)
+    assert res["layers_compared"] == ["distribution", "rank_topk", "highlight_diff"]
+    assert "band_movement" not in res["per_layer_fraction"]
+    assert set(res["per_layer_fraction"]) == set(res["layers_compared"])
+
+def test_band_layer_present_with_catalogue():
+    from cix.catalogue import load_catalogue
+    ids = [f"i{i:03d}" for i in range(100)]
+    hits = [{"item_id": "manual_after_call_work", "interaction_id": u, "unit": "occurrence",
+             "snippet_ids": f"{u}:0000"} for u in ids]
+    cat = load_catalogue(Path("configs/catalogue_v0_1.yaml"))
+    res = self_test(ids, hits, SPEC, catalogue=cat, crosswalk={"manual_after_call_work": "SW-ADMIN-CAPTURE"})
+    assert "band_movement" in res["layers_compared"]
+    assert set(res["per_layer_fraction"]) == set(res["layers_compared"])
+
+def test_tv_distance_helper():
+    from cix.selftest import _tv_distance
+    assert _tv_distance({"a": 1.0}, {"a": 1.0}) == 0.0
+    assert _tv_distance({"a": 1.0}, {"b": 1.0}) == 1.0
+    assert abs(_tv_distance({"a": 0.5, "b": 0.5}, {"a": 1.0}) - 0.5) < 1e-9
