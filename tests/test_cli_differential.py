@@ -105,3 +105,18 @@ def test_differential_refuses_on_corpus_mismatch(tmp_path, monkeypatch, capsys):
                "--rubric", "configs/service_rubric_v1.yaml"])
     assert rc == 2
     assert "corpus_hash mismatch" in capsys.readouterr().err
+
+def test_differential_refuses_when_already_run(tmp_path, monkeypatch, capsys):
+    """Fail fast on re-run: a stale differential/ dir would crash build_store mid-loop
+    and duplicate T-DIFF rows, so refuse up front rather than leave incoherent state."""
+    import cix.cli as cli
+    monkeypatch.setattr(cli, "make_client", lambda cfg: DetectorClient())
+    corpus = _write_corpus(tmp_path)
+    run = _base_run(tmp_path, corpus)
+    argv = ["differential", str(run), "--corpus", str(corpus),
+            "--rubric", "configs/service_rubric_v1.yaml"]
+    assert main(argv) == 0
+    capsys.readouterr()                                  # drain the first run's stdout
+    rc = main(argv)                                      # second run over the now-existing dir
+    assert rc == 2
+    assert "already exists" in capsys.readouterr().err

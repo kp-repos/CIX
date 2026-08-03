@@ -360,6 +360,13 @@ def _cmd_differential(args) -> int:
     if manifest_corpus_hash(units) != manifest["corpus_hash"]:
         print("refused: corpus_hash mismatch — --corpus is not the corpus the base run saw", file=sys.stderr)
         return 2
+    # Fail fast before any variant work: per-variant stores are built under differential/,
+    # and build_store refuses an existing path — a re-run over a stale dir would crash mid-loop
+    # and leave duplicated T-DIFF rows. Match the _cmd_index guard: refuse up front.
+    diff_dir = run_dir / "differential"
+    if diff_dir.exists():
+        print(f"error: {diff_dir} already exists — delete it to re-run differential", file=sys.stderr)
+        return 2
     store = open_store(run_dir / "run.db")
     base_hits = store.hits_for(manifest["artifacts"]["hits"])
     design = yaml.safe_load(Path(args.design).read_text(encoding="utf-8"))
