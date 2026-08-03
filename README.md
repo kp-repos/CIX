@@ -2,7 +2,7 @@
 
 CIX ingests an organisation's customer-facing interaction record (call transcripts, email, chat, field notes) and produces an **auditable, reproducible decision artifact**: what's working, where it's failing (counted), where the greatest leverage sits (effort × outcome), and what it's worth (per-play indicative opportunity bands). The unproven claim — measured by every run — is that whole-corpus analysis yields decision-relevant completeness, frequency, and rank that a sampled read cannot.
 
-**Private repo. MVP in a controlled environment, pre-build.**
+**Private repo. MVP in a controlled environment — build in progress (G1–G4 complete, G5 next).**
 
 ## Pipeline
 
