@@ -2,20 +2,30 @@
 # per-variant tolerances. Variants are CONSTRUCTED from the scrubbed FS corpus at G5 (follow-on);
 # this design + T-DIFF freeze at G4 before any variant run.
 # PO-RATIFIED: 2026-08-02 (Checkpoint B — T-DIFF frozen)
-version: "1.0.0"
+# v1.0.1 (2026-08-03, G5-rehearsal): MACHINE-READABILITY AMENDMENT ONLY (R-VAL-6 versioned
+# register change). Adds target_item + selection params per variant so `cix differential`
+# constructs variants without interpreting prose. Tolerances, perturbations, and
+# expected-delta semantics are UNCHANGED from the 1.0.0 freeze. PO-RATIFIED: 2026-08-03.
+version: "1.0.1"
 variants:
   - id: V1-delete
     perturbation: delete_subset
     target: "a known-labeled subset of repeat_contact_unresolved interactions"
+    target_item: repeat_contact_unresolved
+    delete_count: 3                  # up to 3 known-labeled interactions (fewer if fewer flagged)
     expected_delta: "the repeat_contact_unresolved count drops by the deleted magnitude"
     tolerance: 0.20
   - id: V2-duplicate
     perturbation: duplicate_chains
     target: "an identified repeat-contact thread"
+    target_item: repeat_contact_unresolved
+    thread_selection: most_target_hits   # the thread contributing the most target-item count
     expected_delta: "chain/interaction counts for that thread rise by the duplicated magnitude"
     tolerance: 0.20
   - id: V3-splice
     perturbation: splice_instances
     target: "N donor deterministic_request interactions"
+    target_item: deterministic_request
+    splice_copies: 5
     expected_delta: "the deterministic_request count rises by N"
     tolerance: 0.20
