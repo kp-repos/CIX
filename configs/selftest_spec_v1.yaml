@@ -1,6 +1,6 @@
 # A10 (machine-readable half) — full-vs-10% self-test parameters (§7). Resolves OD-10.
 # Narrative in docs/A10_selftest_spec.md. NOT frozen here — T-SST freezes at Checkpoint B.
-# PO-RATIFIED: pending   <- flip at Checkpoint B
+# PO-RATIFIED: 2026-08-02 (Checkpoint B — T-SST frozen)
 version: "1.0.0"
 sample_fraction: 0.10
 seeds: [11, 22, 33, 44, 55]          # 5 predeclared seeds (§7.3 working hypothesis)
