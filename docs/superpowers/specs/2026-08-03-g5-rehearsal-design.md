@@ -1,6 +1,6 @@
 # G5 Rehearsal — Synthetic FS Corpus + CLI Glue: Design Spec
 
-**Status:** 📝 designed — not yet implemented · **Date:** 2026-08-03 · **Owner:** PO
+**Status:** ✅ implemented — G5 rehearsal executed (O1), 2026-08-03 · **Date:** 2026-08-03 · **Owner:** PO
 **Scope:** the thin post-G4 follow-on, run *ahead of* the real FS corpus · **Source of truth:** `docs/CIX_PRD_v1_2026-07-31.md` v1.2 — §2.1/§2.3 (outcome levels, synthetic = O1), §5 (G5 row + fallback), §6 (T-SST/T-DIFF already frozen), §7 (self-test), R-VAL-5/R-VAL-7, AC-16.
 **Prior gate:** ✅ G4 (assembly) exited 2026-08-02 — scrub, catalogue/priced, A9 rubric, swap proofs, self-test + differential tooling all proven on synthetic data; **T-SST + T-DIFF frozen.**
 **Roadmap logic of record:** `docs/superpowers/plans/ROADMAP.md` §G4 (the named "thin scrub+ingest / differential-construction follow-on") and §G5.
