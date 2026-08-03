@@ -3,6 +3,7 @@ import json
 import sys
 from pathlib import Path
 import yaml
+from cix.differential import delete_subset, duplicate_chains, splice_instances, score_delta
 from cix.aggregate import rollup
 from cix.audits import apply_prompts_hash, drop_rate_check, escape_audit, label_self_agreement, paraphrase_audit, second_lab_audit, split_half
 from cix.calgen import generate_corpus, load_cal_spec
@@ -330,6 +331,112 @@ def _cmd_selftest(args) -> int:
                       "report": str(run_dir / "selftest_report.json")}))
     return 0
 
+def _target_contribution(t_hits: list[dict], unit_basis: str, interaction_ids: set[str]) -> int:
+    """Count the target-item contribution of a set of interactions, respecting the item's
+    unit_of_count (interaction: distinct flagged interactions; occurrence: hit rows)."""
+    if unit_basis == "interaction":
+        return len({h["interaction_id"] for h in t_hits} & interaction_ids)
+    return sum(1 for h in t_hits if h["interaction_id"] in interaction_ids)
+
+def _cmd_differential(args) -> int:
+    run_dir = Path(args.run)
+    manifest_path = run_dir / "manifest.json"
+    if not manifest_path.exists():
+        print(f"error: no manifest.json in {run_dir} (is this a cix run output dir?)", file=sys.stderr)
+        return 2
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    if "artifacts" not in manifest:
+        print("error: run manifest has no 'artifacts' key — re-run with the current cix version", file=sys.stderr)
+        return 2
+    try:
+        units = load_corpus(Path(args.corpus))
+    except CorpusValidationError as e:
+        print(f"corpus validation failed: {e}", file=sys.stderr)
+        return 2
+    # Reload + integrity check (rehearsal spec §3.3 step 0): re-scrub with the persisted
+    # salt, refuse unless the recomputed hash matches the base run's manifest.
+    proto = load_privacy_protocol(Path("configs/privacy_protocol_v1.yaml"))
+    units, _ = scrub_corpus(units, proto, salt=manifest["scrub_salt"])
+    if manifest_corpus_hash(units) != manifest["corpus_hash"]:
+        print("refused: corpus_hash mismatch — --corpus is not the corpus the base run saw", file=sys.stderr)
+        return 2
+    store = open_store(run_dir / "run.db")
+    base_hits = store.hits_for(manifest["artifacts"]["hits"])
+    design = yaml.safe_load(Path(args.design).read_text(encoding="utf-8"))
+    rubric = load_rubric(Path(args.rubric), manifest["label_schema_version"],
+                         manifest["tag_vocab_version"])
+    unit_basis_of = {i.id: i.unit_of_count for i in rubric.items}
+    config = load_run_config(Path("configs/run_config_v1.yaml"))
+    client = make_client(config)
+    base_roll = rollup(base_hits, eligible_interactions=len(units))
+    rows = []
+    for v in design["variants"]:
+        item = v["target_item"]
+        unit_basis = unit_basis_of[item]
+        base_count = base_roll["items"].get(item, {}).get("count", 0)
+        t_hits = [h for h in base_hits if h["item_id"] == item]
+        flagged = sorted({h["interaction_id"] for h in t_hits})
+        if not flagged:
+            store.write_validation("T-DIFF", v["id"], "not_run",
+                                   f"no {item} hits in the base run — variant not constructible")
+            rows.append({"id": v["id"], "status": "not_run", "expected": None, "observed": None})
+            continue
+        if v["perturbation"] == "delete_subset":
+            ids = set(flagged[:v["delete_count"]])
+            variant_units, _meta = delete_subset(units, ids)
+            expected = _target_contribution(t_hits, unit_basis, ids)      # count drops by this
+        elif v["perturbation"] == "duplicate_chains":
+            tid_of = {u.id: u.thread_id for u in units}
+            per_thread: dict[str, set[str]] = {}
+            for h in t_hits:
+                tid = tid_of.get(h["interaction_id"])
+                if tid:
+                    per_thread.setdefault(tid, set()).add(h["interaction_id"])
+            if not per_thread:
+                store.write_validation("T-DIFF", v["id"], "not_run",
+                                       f"no {item} hits inside any thread — variant not constructible")
+                rows.append({"id": v["id"], "status": "not_run", "expected": None, "observed": None})
+                continue
+            thread_id = max(sorted(per_thread), key=lambda t: len(per_thread[t]))
+            member_ids = {u.id for u in units if u.thread_id == thread_id}
+            variant_units, _meta = duplicate_chains(units, thread_id)
+            expected = _target_contribution(t_hits, unit_basis, member_ids)  # count rises by this
+        elif v["perturbation"] == "splice_instances":
+            per_donor = {uid: _target_contribution(t_hits, unit_basis, {uid}) for uid in flagged}
+            donor_id = max(sorted(per_donor), key=lambda u: per_donor[u])
+            donor = next(u for u in units if u.id == donor_id)
+            variant_units, _meta = splice_instances(units, donor, v["splice_copies"])
+            expected = per_donor[donor_id] * v["splice_copies"]           # count rises by this
+        else:
+            print(f"error: unknown perturbation {v['perturbation']!r} in design", file=sys.stderr)
+            return 2
+        vdir = run_dir / "differential" / v["id"]
+        vdir.mkdir(parents=True, exist_ok=True)
+        build_store(variant_units, VOCAB_PATH, vdir / "run.db")
+        vstore = open_store(vdir / "run.db")
+        chash_v = manifest_corpus_hash(variant_units)
+        _la, _ha, _vhits, vroll = _detect(vstore, variant_units, rubric, client,
+                                          chash_v, manifest["label_schema_version"], config.model)
+        variant_count = vroll["items"].get(item, {}).get("count", 0)
+        observed = abs(variant_count - base_count)
+        direction_ok = (variant_count < base_count) if v["perturbation"] == "delete_subset" \
+            else (variant_count > base_count) if expected else (variant_count == base_count)
+        res = score_delta({"count": expected}, {"count": observed}, v["tolerance"])
+        if not direction_ok:
+            res["status"] = "fail"
+        detail = (f"{item} base={base_count} variant={variant_count} expected_delta={expected} "
+                  f"rel_err={res['rel_error']} direction_ok={direction_ok} outcome_level=O1-synthetic")
+        store.write_validation("T-DIFF", v["id"], res["status"], detail)
+        rows.append({"id": v["id"], "status": res["status"], "expected": expected,
+                     "observed": observed, "rel_error": res["rel_error"],
+                     "tolerance": v["tolerance"], "detail": detail})
+    report = {"design_version": design["version"], "variants": rows}
+    (run_dir / "differential_report.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
+    failing = sum(1 for r in rows if r["status"] == "fail")
+    print(json.dumps({"variants": len(rows), "failing": failing,
+                      "report": str(run_dir / "differential_report.json")}))
+    return 1 if failing else 0
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="cix")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -378,6 +485,13 @@ def main(argv: list[str] | None = None) -> int:
     p_st.add_argument("--catalogue", default=None, help="enables the band_movement layer (with --rubric)")
     p_st.add_argument("--rubric", default=None, help="supplies the swap_ref crosswalk for band_movement")
     p_st.set_defaults(fn=_cmd_selftest)
+    p_diff = sub.add_parser("differential",
+                            help="construct the predeclared variants, re-run detection, score vs T-DIFF (R-VAL-7)")
+    p_diff.add_argument("run", help="base run dir (output of cix run)")
+    p_diff.add_argument("--corpus", required=True, help="the corpus dir the base run ingested")
+    p_diff.add_argument("--design", default="configs/differential_design_v1.yaml")
+    p_diff.add_argument("--rubric", required=True)
+    p_diff.set_defaults(fn=_cmd_differential)
     args = p.parse_args(argv)
     return args.fn(args)
 
