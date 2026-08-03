@@ -47,6 +47,14 @@ def _find_provenance(corpus_dir: Path) -> dict | None:
             return yaml.safe_load(cand.read_text(encoding="utf-8"))
     return None
 
+def _detect(store, units, rubric, client, chash, schema_version, model):
+    """Pass-A detection (labels -> rubric hits -> rollup). The ONE detection code path,
+    shared by `cix run` and `cix differential` (G5 rehearsal spec §2.3)."""
+    la = label_corpus(store, units, client, chash, schema_version, model)
+    ha = run_rubric(store, units, rubric, la, client, model)
+    hits = store.hits_for(ha)
+    return la, ha, hits, rollup(hits, eligible_interactions=len(units))
+
 def _cmd_run(args) -> int:
     try:
         units = load_corpus(Path(args.corpus))
@@ -82,10 +90,7 @@ def _cmd_run(args) -> int:
     store = open_store(db)
     chash = manifest_corpus_hash(units)
 
-    la = label_corpus(store, units, client, chash, schema_version, config.model)
-    ha = run_rubric(store, units, rubric, la, client, config.model)
-    hits = store.hits_for(ha)
-    roll = rollup(hits, eligible_interactions=len(units))
+    la, ha, hits, roll = _detect(store, units, rubric, client, chash, schema_version, config.model)
 
     for r in escape_audit(store, units, rubric, client, thresholds["T-ESC"], seed=config.seed):
         store.write_validation("T-ESC", r["item_id"], r["status"], r["detail"])
