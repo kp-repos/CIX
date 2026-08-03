@@ -11,6 +11,8 @@ def delete_subset(units: list[InteractionUnit], drop_ids: set[str]) -> tuple[lis
                   "dropped": sorted(drop_ids)}
 
 def duplicate_chains(units: list[InteractionUnit], thread_id: str) -> tuple[list[InteractionUnit], dict]:
+    """Duplicate every member of one thread (chain) once, giving copies fresh `-dup` ids.
+    Apply once per thread per variant — re-applying to the same thread would collide `-dup` ids."""
     members = [u for u in units if u.thread_id == thread_id]
     dupes = [u.model_copy(update={"id": f"{u.id}-dup"}) for u in members]
     return units + dupes, {"perturbation": "duplicate_chains", "thread_id": thread_id,

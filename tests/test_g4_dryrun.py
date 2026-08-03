@@ -42,14 +42,26 @@ def test_selftest_all_four_layers_with_catalogue():
         assert set(res["per_layer_fraction"]) == set(res["layers_compared"])
 
 def test_differential_ac16_tracks_delta():
+    from cix.aggregate import rollup
     base = [InteractionUnit.model_validate(
         {"id": f"i{i:03d}", "source_type": "transcript", "participants": ["a", "customer"],
-         "segments": [{"speaker": "a", "text": "x"}]}) for i in range(40)]
+         "segments": [{"speaker": "a", "text": "routine check-in, nothing unusual"}]}) for i in range(40)]
     donor = InteractionUnit.model_validate(
         {"id": "donor", "source_type": "transcript", "participants": ["a", "customer"],
-         "segments": [{"speaker": "customer", "text": "third time calling about this"}]})
+         "segments": [{"speaker": "customer", "text": "I just need to reset my password"}]})
     variant, expected = splice_instances(base, donor=donor, copies=10)
-    observed = {"count": expected["interactions_delta"]}     # synthetic: instrument reads the injected signal exactly
+
+    def _read(units):
+        # deterministic synthetic detector: a 'reset my password' contact is a deterministic_request.
+        # the observed delta is DERIVED through rollup, not assigned — a genuine reading-side proof.
+        hits = [{"item_id": "deterministic_request", "interaction_id": u.id, "unit": "occurrence",
+                 "snippet_ids": f"{u.id}:0000"}
+                for u in units if "reset my password" in " ".join(s.text for s in u.segments).lower()]
+        return rollup(hits, eligible_interactions=len(units))["items"].get(
+            "deterministic_request", {}).get("count", 0)
+
+    observed = {"count": _read(variant) - _read(base)}
     res = score_delta({"count": expected["interactions_delta"]}, observed, tolerance=0.20)
-    assert res["status"] == "pass"                            # AC-16 mechanism: reading tracks the delta
+    assert observed["count"] == 10                          # instrument read the injected 10 via rollup
+    assert res["status"] == "pass"                          # AC-16: the reading tracks the delta
     assert len(variant) == len(base) + 10

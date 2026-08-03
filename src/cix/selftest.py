@@ -78,6 +78,9 @@ def self_test(all_ids: list[str], hits: list[dict], spec: SelfTestSpec,
                 "material_fraction": None, "per_seed": [], "per_layer_fraction": {},
                 "layers_compared": []}
     has_band = catalogue is not None and crosswalk is not None
+    # The gated layer set is defined here (and recorded in the frozen T-SST.layers_gated); the
+    # descriptive `spec.layers` field is not read — band_movement is included only when a
+    # catalogue+crosswalk are supplied.
     layers = ["distribution", "rank_topk", "highlight_diff"] + (["band_movement"] if has_band else [])
     full = rollup(hits, eligible_interactions=n)
     full_shares = _shares(full)

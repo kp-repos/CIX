@@ -44,7 +44,7 @@ G4 adds **five new source modules** and touches **four existing ones**, slotting
 ### 2.2 Touched existing modules
 
 - **`rubric.py`** — add optional `swap_ref: str | None = None` to `RubricItem` (R-RUB-1). Backward-compatible: the G3 sales rubric omits it and still loads. **This is the only schema change.** It does not break AC-6, because the loader already accepts arbitrary item content; the swap proof is about a *new config* loading with zero code changes, and this field is added once, before either rubric uses it.
-- **`cli.py`** — insert `scrub` between `load_corpus` and `build_store` (scrub at ingest, R-PII-1); wire the `swap_ref` join + priced view into `_cmd_run` (flip the existing `catalogue_loaded` flag `render_report` already accepts); add `cix self-test` and `cix differential` subcommands.
+- **`cli.py`** — insert `scrub` between `load_corpus` and `build_store` (scrub at ingest, R-PII-1); wire the `swap_ref` join + priced view into `_cmd_run` (flip the existing `catalogue_loaded` flag `render_report` already accepts). (`cix self-test` and `cix differential` subcommand wiring is deferred to G5.)
 - **`report.py`** — populate the priced-play section from `priced.py` when a catalogue is loaded (the section already exists; today it renders the honest "no remedy loaded" shelf).
 - **`manifest.py`** — replace the `privacy_gate="synthetic-fixture"` placeholder with the real scrub-audit status; add catalogue version to the four-artifact block.
 
@@ -54,7 +54,7 @@ The current flow is `load_corpus → build_store → label_corpus → run_rubric
 
 - **Scrub** between `load_corpus` and `build_store` — nothing unscrubbed ever reaches the store (R-PII-1). Sets `privacy_gate` for the manifest.
 - **Catalogue join + priced view** after `rollup`/findings, before `render_report` — flips `catalogue_loaded` and supplies the priced section.
-- **Self-test** and **differential** as *separate subcommands* (`cix self-test`, `cix differential`), not inline in `_cmd_run` — they orchestrate re-runs of the existing aggregate/rank/synthesize path over samples/variants.
+- **Self-test** and **differential** ship as **library modules** at G4 (`selftest.py`, `differential.py`), invoked programmatically and proven via tests. Their thin CLI execution glue (`cix self-test`, `cix differential`) is deferred to G5, where they run against the real corpus — the harness logic (the part that can fail) is proven here; wiring an already-tested function to a subparser is trivial glue, not a logic first-time.
 
 ### 2.4 Design invariant carried from G3
 
@@ -188,7 +188,7 @@ CIX/
 │   ├── selftest.py                   # NEW — full-vs-10% harness
 │   ├── differential.py               # NEW — perturbation ops + delta scorer
 │   ├── rubric.py                     # (modify) add swap_ref? to RubricItem
-│   ├── cli.py                        # (modify) scrub wiring + priced view + 2 subcommands
+│   ├── cli.py                        # (modify) scrub wiring + priced view (subcommand wiring deferred to G5)
 │   ├── report.py                     # (modify) priced-play section
 │   └── manifest.py                   # (modify) real privacy_gate + catalogue version
 └── tests/
