@@ -2,7 +2,7 @@
 
 **Status:** high-level overview, not an implementation plan. The G1/G2/G3 plans in this directory are executable; G4–G5 plans get written as each prior gate lands — their interfaces derive from the shipped code, their contents from G0 corpus facts and PO-authored artifacts (rubrics, calibration spec). This document records the *logic* of each remaining gate so the shape of the whole build is visible now.
 
-**Progress:** ✅ G1 (deterministic spine) · ✅ G2 (thin end-to-end slice) · ✅ **G3 (calibration — holdout 6/6 T-CAL, 0/100 T-NULL, 2026-08-01)** · ✅ **G4 (assembly — capability subset, 2026-08-02; scrub + A11, catalogue/priced + A5, A9 service rubric, swap proofs AC-6/AC-7, four-layer self-test + A10, differential tooling; T-SST + T-DIFF frozen)** · ✅ **G5 rehearsal (2026-08-03; servicegen synthetic service corpus, cix self-test / cix differential CLI, end-to-end O1 dress run — the G4 follow-on's tooling half)** · ▶ **G5 next** (first real run), now gated ONLY on the FS corpus (OD-1). Executed detail lives in `2026-08-02-g4-assembly.md`, `2026-08-03-g5-rehearsal-design.md`, and the PRD changelog.
+**Progress:** ✅ G1 (deterministic spine) · ✅ G2 (thin end-to-end slice) · ✅ **G3 (calibration — holdout 6/6 T-CAL, 0/100 T-NULL, 2026-08-01)** · ✅ **G4 (assembly — capability subset, 2026-08-02; scrub + A11, catalogue/priced + A5, A9 service rubric, swap proofs AC-6/AC-7, four-layer self-test + A10, differential tooling; T-SST + T-DIFF frozen)** · ✅ **G5 rehearsal (2026-08-03; servicegen synthetic service corpus, cix self-test / cix differential CLI, end-to-end O1 dress run — the G4 follow-on's tooling half)** · ✅ **G6 demo tooling (2026-08-03; `cix query` live evidence resolution, method page, demo runbook — pipeline is O1 demo-ready; a demo-prep pass also fixed a real evidence-sampling defect where synthesis received no snippet ranges)** · ▶ **G5 next** (first real run), now gated ONLY on the FS corpus (OD-1). Executed detail lives in `2026-08-02-g4-assembly.md`, `2026-08-03-g5-rehearsal-design.md`, and the PRD changelog.
 
 **Source of truth:** `docs/CIX_PRD_v1_2026-07-31.md` (v1.2, ratified) — gate table §5, thresholds §6, self-test §7, triggers §8. This sketch adds nothing normative.
 
@@ -51,9 +51,16 @@
 
 **Also produced, unused:** the sponsor decision-log template (A14) — the decision test is post-MVP by ruling. Est. spend ~$120–370 (run + differentials).
 
-## G6 — Demo pack (thin; likely a checklist, not a plan)
+## G6 — Demo pack (thin; tooling landed 2026-08-03, ahead of G5)
 
-Demo narrative + rehearsal, audience named (OD-6), PDF + live store query as the falsifiability demo, and the honesty rule enforced one last time: the artifact **labels its own outcome level** — if the FS corpus fell through and the demo runs on the calibration corpus, it says O1-only, out loud.
+**Tooling shipped early** because it needs no real corpus — it works on the O1 rehearsal artifact (`runs/svc-run/`):
+- **`cix query`** — the live falsifiability surface (R-OUT-2): `--item` resolves a finding's count to the source interactions behind it; `--quote` matches a pasted line to its snippet or fails closed. Read-only (`mode=ro`), so it can never mutate the run.
+- **`docs/method.md`** — the one-page "how it works and why you can trust it" narrative, every claim cited.
+- **`docs/demo_runbook.md`** — the exact walkthrough + honest O1 script.
+
+The honesty rule is enforced one last time: the artifact **labels its own outcome level** — `runs/svc-run/` is O1-only in its manifest, out loud, and the runbook names its two honest footnotes (T-PARA `not_run`, and pre-fix findings with no quote-evidence — see the 2026-08-03 changelog entry).
+
+**Still open for the full demo:** audience named (OD-6), a rehearsal on the *real* O2/O3 artifact once G5 runs (the current pack demos count→source on synthetic; quote-level resolution is built and tested, lit up by the next real `cix run`).
 
 ---
 

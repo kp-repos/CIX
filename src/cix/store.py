@@ -62,8 +62,13 @@ def build_store(units: list[InteractionUnit], vocab_path: Path, db_path: Path) -
         con.close()
 
 class Store:
-    def __init__(self, db_path: Path):
-        self.con = sqlite3.connect(db_path)
+    def __init__(self, db_path: Path, read_only: bool = False):
+        # read_only opens via the sqlite URI mode=ro so any write raises at the
+        # driver, not merely by convention — the guarantee is structural (cix query).
+        if read_only:
+            self.con = sqlite3.connect(f"file:{Path(db_path).as_posix()}?mode=ro", uri=True)
+        else:
+            self.con = sqlite3.connect(db_path)
         self.con.execute("PRAGMA foreign_keys = ON")  # per-connection; enforce declared FKs
         self.con.row_factory = sqlite3.Row
 
@@ -75,6 +80,29 @@ class Store:
         rows = self.con.execute(
             "SELECT * FROM snippets WHERE interaction_id=? AND seq BETWEEN ? AND ? ORDER BY seq",
             (interaction_id, start, end),
+        ).fetchall()
+        return [dict(r) for r in rows]
+
+    def snippets_for_ref(self, ref: str) -> list[dict]:
+        """Resolve a hits-table snippet_ids value ("id" or "id-id" range) to snippet rows.
+        Snippet ids themselves contain no '-', but interaction ids do (e.g. int-001:0000),
+        so a range is split on the first '-' whose two sides are both real snippets in the
+        same interaction. Unresolvable refs return [] (fail closed)."""
+        one = self.snippet(ref)
+        if one:
+            return [one]
+        for i, ch in enumerate(ref):
+            if ch == "-":
+                a, b = self.snippet(ref[:i]), self.snippet(ref[i + 1:])
+                if a and b and a["interaction_id"] == b["interaction_id"]:
+                    return self.span(a["interaction_id"], a["seq"], b["seq"])
+        return []
+
+    def snippets_matching(self, text: str) -> list[dict]:
+        """Snippets whose stored (scrubbed) text equals `text` exactly — verbatim only,
+        matching the _quote_ok strictness. Powers the cix query reverse lookup."""
+        rows = self.con.execute(
+            "SELECT * FROM snippets WHERE text=? ORDER BY interaction_id, seq", (text,)
         ).fetchall()
         return [dict(r) for r in rows]
 
@@ -169,5 +197,5 @@ class Store:
         return [dict(r) for r in self.con.execute(
             "SELECT * FROM synthesis WHERE artifact_id=? ORDER BY item_id", (artifact_id,))]
 
-def open_store(db_path: Path) -> Store:
-    return Store(db_path)
+def open_store(db_path: Path, read_only: bool = False) -> Store:
+    return Store(db_path, read_only=read_only)

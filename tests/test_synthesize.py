@@ -53,6 +53,26 @@ def test_evidence_sample_is_seeded_and_stable(tmp_path):
         synthesize_findings(store, ROLLUP, hits, Spy(CANNED), model="m", seed=7)
     assert prompts_a == prompts_b  # same seed -> identical evidence samples in prompts
 
+def test_evidence_text_reaches_the_prompt(tmp_path):
+    # Regression: snippet_ids of the shape "int-001:0000" (and ranges "id-id")
+    # must resolve to real snippet text in the synthesis prompt. The old
+    # split("-")[0] yielded "int" -> store.snippet(None) -> no evidence ever sent,
+    # so every finding honestly came back with zero quotes.
+    store, _ = _setup(tmp_path)
+    captured = []
+    class Spy(ScriptedClient):
+        def complete(self, prompt):
+            captured.append(prompt)
+            return super().complete(prompt)
+    hits = [{"item_id": "billing_defect_driver", "interaction_id": "int-001", "unit": "interaction",
+             "snippet_ids": "int-001:0000"},
+            {"item_id": "billing_defect_driver", "interaction_id": "int-001", "unit": "interaction",
+             "snippet_ids": "int-001:0001-int-001:0002"}]
+    synthesize_findings(store, ROLLUP, hits, Spy(CANNED), model="m", seed=7)
+    prompt = "\n".join(captured)
+    assert "My card was charged twice for the same order." in prompt          # single id
+    assert "I can help with that. Let me check the billing record." in prompt  # first snippet of range
+
 def test_missing_synthesis_field_raises_cleanly(tmp_path):
     # A live response that is valid JSON but omits a required field (e.g. the
     # mechanism block) must fail cleanly at synthesis, not crash later at the

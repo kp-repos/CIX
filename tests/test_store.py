@@ -54,3 +54,23 @@ def test_foreign_keys_enforced(tmp_path):
     store = _built(tmp_path)
     with pytest.raises(sqlite3.IntegrityError):  # orphan tag row rejected — declared FKs are live
         store.con.execute("INSERT INTO snippet_tags VALUES ('does-not-exist:9999', 'x', '1')")
+
+def test_snippets_for_ref_single_id(tmp_path):
+    store = _built(tmp_path)
+    rows = store.snippets_for_ref("int-001:0000")
+    assert len(rows) == 1 and rows[0]["text"] == "My card was charged twice for the same order."
+
+def test_snippets_for_ref_range_is_ordered_span(tmp_path):
+    # A hits-table range "id-id" must expand to the contiguous span, in seq order —
+    # the ':NNNN'-then-'-' shape is exactly what the old split('-')[0] mangled.
+    store = _built(tmp_path)
+    rows = store.snippets_for_ref("int-001:0000-int-001:0002")
+    assert [r["seq"] for r in rows] == [0, 1, 2]
+    assert rows[0]["id"] == "int-001:0000" and rows[-1]["id"] == "int-001:0002"
+
+def test_snippets_for_ref_fails_closed(tmp_path):
+    store = _built(tmp_path)
+    assert store.snippets_for_ref("int-999:0000") == []          # absent single id
+    assert store.snippets_for_ref("svc") == []                   # the old bug's bogus token
+    assert store.snippets_for_ref("nope-nope") == []             # both endpoints absent
+    assert store.snippets_for_ref("int-001:0000-int-002:0000") == []  # cross-interaction range

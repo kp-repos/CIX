@@ -28,6 +28,7 @@ from cix.rubric import DependencyError, load_paraphrase_set, load_rubric
 from cix.runconfig import load_run_config, load_thresholds
 from cix.scrub import load_privacy_protocol, scrub_corpus, audit_privacy_gate
 from cix.selftest import load_selftest_spec, self_test
+from cix.query import find_quote, resolve_item
 from cix.store import build_store, open_store
 from cix.synthesize import prompts_hash as synth_ph
 from cix.synthesize import synthesize_findings
@@ -221,6 +222,37 @@ def _cmd_verify(args) -> int:
     print(json.dumps({"passed": {"quotes": len(result["quotes"]), "stats": len(result["stats"])},
                       "dropped": dropped}))
     return 1 if dropped else 0
+
+def _cmd_query(args) -> int:
+    """Live evidence resolution for the demo (R-OUT-2). Read-only over the run store:
+    resolve a finding's count to its source interactions, or a pasted quote to its snippet."""
+    run = Path(args.run)
+    store = open_store(run / "run.db", read_only=True)  # writes impossible, not merely avoided
+    if args.quote is not None:
+        matches = find_quote(store, args.quote)
+        if not matches:
+            print(f'quote does NOT resolve to any stored source:\n  "{args.quote}"')
+            return 1
+        print(f'quote resolves to {len(matches)} snippet(s):')
+        for s in matches:
+            print(f"  {s['id']}  (interaction {s['interaction_id']}, seq {s['seq']})")
+        return 0
+    report = json.loads((run / "report.json").read_text(encoding="utf-8"))
+    manifest = json.loads((run / "manifest.json").read_text(encoding="utf-8"))
+    res = resolve_item(store, report, manifest, args.item)
+    if not res["found"]:
+        print(f'finding "{args.item}" does NOT resolve — no such item in this run\'s highlights')
+        return 1
+    print(f"{res['item_id']}: count {res['count']} (share {res['share']})")
+    print(f"  {res['narrative']}")
+    for h in res["hits"]:
+        print(f"  hit {h['snippet_ids']}:")
+        for s in h["snippets"]:
+            print(f"    [{s['id']}] {s['text']}")
+    for q in res["quotes"]:
+        mark = "verbatim OK" if q["verbatim"] else "does NOT resolve"
+        print(f"  quote ({mark}): \"{q['text']}\"")
+    return 0
 
 def _cmd_generate_calibration(args) -> int:
     spec = load_cal_spec(Path(args.spec))
@@ -455,6 +487,12 @@ def main(argv: list[str] | None = None) -> int:
     p_verify.add_argument("run")
     p_verify.add_argument("--claims", required=True)
     p_verify.set_defaults(fn=_cmd_verify)
+    p_query = sub.add_parser("query", help="resolve a finding's count or a pasted quote to its scrubbed source (read-only)")
+    p_query.add_argument("run")
+    q_grp = p_query.add_mutually_exclusive_group(required=True)
+    q_grp.add_argument("--item", help="rubric item_id: show every source snippet behind the finding's count")
+    q_grp.add_argument("--quote", help="reverse lookup: which stored snippet(s) match this text verbatim")
+    p_query.set_defaults(fn=_cmd_query)
     p_run = sub.add_parser("run", help="full corpus -> report run")
     p_run.add_argument("corpus")
     p_run.add_argument("--rubric", required=True)
