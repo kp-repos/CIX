@@ -1,14 +1,10 @@
-import re
 from pathlib import Path
 import yaml
 from cix.calgen import build_slots, load_cal_spec
 from cix.rubric import load_rubric
+from textcheck import ngrams
 
 SPEC = Path("configs/calibration_spec_v1.yaml")
-
-def _ngrams(text: str, n: int = 5) -> set[str]:
-    toks = re.findall(r"[a-z']+", text.lower())
-    return {" ".join(toks[i:i + n]) for i in range(len(toks) - n + 1)}
 
 def test_spec_loads_and_crosswalk_targets_real_items():
     spec = load_cal_spec(SPEC)
@@ -30,7 +26,7 @@ def test_vocabulary_disjointness():
         + list(paras.values())
     )
     for p in spec.pathologies:
-        overlap = _ngrams(p.description) & _ngrams(rubric_text)
+        overlap = ngrams(p.description) & ngrams(rubric_text)
         assert not overlap, f"{p.key} shares wording with rubric text: {overlap}"
 
 def test_split_shapes():

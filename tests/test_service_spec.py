@@ -1,13 +1,11 @@
-import re
 from pathlib import Path
+import yaml
 from cix.servicegen import build_service_slots, load_service_spec
 from cix.rubric import load_rubric
+from textcheck import ngrams
 
 SPEC = Path("configs/service_corpus_spec_v1.yaml")
-
-def _ngrams(text: str, n: int = 5) -> set[str]:
-    toks = re.findall(r"[a-z']+", text.lower())
-    return {" ".join(toks[i:i + n]) for i in range(len(toks) - n + 1)}
+PARAS = Path("configs/paraphrases_service_v1.yaml")
 
 def test_spec_loads_and_crosswalk_targets_real_a9_items():
     spec = load_service_spec(SPEC)
@@ -18,16 +16,19 @@ def test_spec_loads_and_crosswalk_targets_real_a9_items():
 
 def test_vocabulary_disjointness_against_a9():
     """R-VAL-2 discipline: the plant author sees pathology descriptions, never rubric text.
-    No description (or thread issue) shares a 5-token n-gram with any A9 criterion/exemplar."""
+    No description (or thread issue) shares a 5-token n-gram with any A9 criterion,
+    exemplar, or paraphrase (the paraphrase is rubric-side text the judge sees)."""
     spec = load_service_spec(SPEC)
     rubric = load_rubric(Path("configs/service_rubric_v1.yaml"), "1.0.0", "1.0.0")
+    paras = yaml.safe_load(PARAS.read_text(encoding="utf-8"))["paraphrases"]
     rubric_text = " ".join([i.criterion for i in rubric.items]
-                           + [e for i in rubric.items for e in i.exemplars])
+                           + [e for i in rubric.items for e in i.exemplars]
+                           + list(paras.values()))
     for p in spec.pathologies:
-        overlap = _ngrams(p.description) & _ngrams(rubric_text)
+        overlap = ngrams(p.description) & ngrams(rubric_text)
         assert not overlap, f"{p.key} shares wording with A9 text: {overlap}"
     for t in spec.threads:
-        overlap = _ngrams(t.issue) & _ngrams(rubric_text)
+        overlap = ngrams(t.issue) & ngrams(rubric_text)
         assert not overlap, f"thread {t.key} issue shares wording with A9 text: {overlap}"
 
 def test_differential_target_coverage_minimums():

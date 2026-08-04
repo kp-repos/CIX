@@ -1,0 +1,20 @@
+# T-PARA instrument for A9 (service rubric): one fixed paraphrase per rubric item —
+# semantically equivalent, lexically distinct. Frozen with the rubric it targets before
+# the first real G5 run (R-VAL-6). A paraphrase generated at audit time would be an
+# unfrozen instrument. `rubric_file` binds this set to its rubric by identity, not just
+# by a version string two rubrics could share (see rubric.load_paraphrase_set).
+# PO-RATIFIED: 2026-08-03 (Checkpoint A, service) — frozen before the first real G5 run (R-VAL-6)
+version: "1.0.0"
+rubric_version: "1.0.0"
+rubric_file: service_rubric_v1.yaml
+paraphrases:
+  repeat_contact_unresolved: "The person is in touch once more over a concern flagged previously that was left unfixed, so this fresh outreach should never have been needed."
+  billing_defect_driver: "What prompted the outreach is a mistake in how the account was charged or itemized — an error the customer ought never to have needed to raise."
+  deterministic_request: "The ask is entirely rule-bound — restoring login credentials, updating a mailing detail, checking a figure — and an automated route could settle it with nobody staffing the exchange."
+  manual_after_call_work: "The representative mentions keying notes or updating files once the exchange ends — clerical follow-up that recording details at the moment would make unnecessary."
+  avoidable_transfer: "The exchange gets handed onward or bumped up a level because whoever answered lacked the means to close a matter a properly enabled front line could have."
+  knowledge_inconsistency: "It emerges — from either party — that an earlier exchange supplied conflicting or clashing guidance on this very query."
+  status_chase_inbound: "The one and only reason for reaching out is to learn how far along an in-flight item stands — visibility the person ought to have had on their own."
+  unanticipated_failure: "The outreach happens only because of a lapse on the company's side that foresight could have headed off, rendering the whole exchange needless; it applies solely when no narrower category — an unresolved-issue re-contact or a charge mistake — already accounts for it."
+  first_contact_resolution: "Everything the person needed is settled completely inside this single exchange, leaving no reason to reach back out — the desirable opposite case."
+  clean_self_service_deflection: "A rule-bound need is met by the person themselves via automated tooling during the exchange, drawing on none of a staffer's working minutes."
