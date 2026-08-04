@@ -78,6 +78,21 @@ class Store:
         ).fetchall()
         return [dict(r) for r in rows]
 
+    def snippets_for_ref(self, ref: str) -> list[dict]:
+        """Resolve a hits-table snippet_ids value ("id" or "id-id" range) to snippet rows.
+        Snippet ids themselves contain no '-', but interaction ids do (e.g. int-001:0000),
+        so a range is split on the first '-' whose two sides are both real snippets in the
+        same interaction. Unresolvable refs return [] (fail closed)."""
+        one = self.snippet(ref)
+        if one:
+            return [one]
+        for i, ch in enumerate(ref):
+            if ch == "-":
+                a, b = self.snippet(ref[:i]), self.snippet(ref[i + 1:])
+                if a and b and a["interaction_id"] == b["interaction_id"]:
+                    return self.span(a["interaction_id"], a["seq"], b["seq"])
+        return []
+
     def snippets_with_tag(self, tag: str, value: str | None = None) -> list[str]:
         if value is None:
             rows = self.con.execute("SELECT snippet_id FROM snippet_tags WHERE tag=? ORDER BY snippet_id", (tag,))

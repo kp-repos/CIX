@@ -40,9 +40,9 @@ def synthesize_findings(store: Store, rollup: dict, hits: list[dict], client: Mo
         sample = item_hits if len(item_hits) <= max_evidence else rng.sample(item_hits, max_evidence)
         evidence_lines = []
         for h in sorted(sample, key=lambda h: h["snippet_ids"]):
-            first_sid = h["snippet_ids"].split("-")[0]
-            snip = store.snippet(first_sid)
-            if snip:
+            snips = store.snippets_for_ref(h["snippet_ids"])
+            if snips:
+                snip = snips[0]  # first snippet of the hit's range, as before
                 evidence_lines.append(f"[{snip['id']}] {snip['text']}")
         out = complete_json(client, _PROMPT.format(
             item_id=item_id, count=row["count"], unit=row["unit"],
