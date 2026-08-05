@@ -239,8 +239,11 @@ def render_briefing_html(b: dict) -> str:
     t = b["trust"]
     out.append("<h2>Why you can trust these numbers</h2>")
     cov = t["coverage"]
+    ds = t['drop_summary']
+    drops_txt = (f"{ds.get('candidate_claims', 0)} candidate claims, "
+                 f"{ds.get('quote_drops', 0)} quote drops, {ds.get('stat_drops', 0)} stat drops")
     out.append(f"<p class='muted'>{round((cov['interaction_coverage'] or 0)*100)}% of {cov['eligible_interactions']} eligible interactions read "
-               f"({cov['residual_interactions']} residual). Drops: {t['drop_summary']}.</p>")
+               f"({cov['residual_interactions']} residual). Drops: {drops_txt}.</p>")
     if t["evidence_note"]:
         out.append(f"<p class='muted'>{_esc(t['evidence_note'])}</p>")
     out.append("</body></html>")
