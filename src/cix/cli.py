@@ -28,7 +28,8 @@ from cix.rubric import DependencyError, load_paraphrase_set, load_rubric
 from cix.runconfig import load_run_config, load_thresholds
 from cix.scrub import load_privacy_protocol, scrub_corpus, audit_privacy_gate
 from cix.selftest import load_selftest_spec, self_test
-from cix.query import find_quote, resolve_item
+from cix.query import find_quote, resolve_item, resolve_metric
+from cix.briefing import load_presentation
 from cix.store import build_store, open_store
 from cix.synthesize import prompts_hash as synth_ph
 from cix.synthesize import synthesize_findings
@@ -236,6 +237,20 @@ def _cmd_query(args) -> int:
         print(f'quote resolves to {len(matches)} snippet(s):')
         for s in matches:
             print(f"  {s['id']}  (interaction {s['interaction_id']}, seq {s['seq']})")
+        return 0
+    if getattr(args, "metric", None) is not None:
+        report = json.loads((run / "report.json").read_text(encoding="utf-8"))
+        manifest = json.loads((run / "manifest.json").read_text(encoding="utf-8"))
+        eligible = report["sections"]["distribution"]["eligible_interactions"]
+        presentation = load_presentation(Path(args.presentation))
+        res = resolve_metric(store, manifest, presentation, args.metric, eligible)
+        if not res["found"]:
+            print(f'metric "{args.metric}" does NOT resolve — unknown headline metric')
+            return 1
+        print(f"{res['metric']}: {res['value']} / {res['denominator']} "
+              f"(members: {', '.join(res['members'])})")
+        for iid in res["interaction_ids"]:
+            print(f"  {iid}")
         return 0
     report = json.loads((run / "report.json").read_text(encoding="utf-8"))
     manifest = json.loads((run / "manifest.json").read_text(encoding="utf-8"))
@@ -492,6 +507,9 @@ def main(argv: list[str] | None = None) -> int:
     q_grp = p_query.add_mutually_exclusive_group(required=True)
     q_grp.add_argument("--item", help="rubric item_id: show every source snippet behind the finding's count")
     q_grp.add_argument("--quote", help="reverse lookup: which stored snippet(s) match this text verbatim")
+    q_grp.add_argument("--metric", help="headline metric name: list the interaction set behind it")
+    p_query.add_argument("--presentation", default="configs/briefing_presentation_v1.yaml",
+                         help="presentation config used by --metric (declares metric membership)")
     p_query.set_defaults(fn=_cmd_query)
     p_run = sub.add_parser("run", help="full corpus -> report run")
     p_run.add_argument("corpus")
