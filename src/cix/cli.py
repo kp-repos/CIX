@@ -20,7 +20,7 @@ from cix.labels import prompts_hash as labels_ph
 from cix.manifest import build_manifest, write_manifest
 from cix.manifest import corpus_hash as manifest_corpus_hash
 from cix.model import AnthropicClient
-from cix.normalize import CorpusValidationError, load_corpus
+from cix.normalize import CorpusValidationError, load_corpus, load_corpus_properties
 from cix.catalogue import load_catalogue, join_swaps, leverage_grid
 from cix.priced import priced_view
 from cix.report import render_report
@@ -65,6 +65,7 @@ def _cmd_run(args) -> int:
     except CorpusValidationError as e:
         print(f"corpus validation failed: {e}", file=sys.stderr)
         return 2
+    corpus_props = load_corpus_properties(Path(args.corpus))
     vocab = load_vocabulary(VOCAB_PATH)
     schema_version = yaml.safe_load(Path("configs/label_schema_v1.yaml").read_text())["version"]
     try:
@@ -171,6 +172,9 @@ def _cmd_run(args) -> int:
                      "prompt_hashes": {"labels": labels_ph(), "hits": hits_ph(), "synthesis": synth_ph(),
                                        "apply": apply_prompts_hash()},
                      "seeds": {"run": config.seed}, "thresholds_version": thresholds_version,
+                     "corpus_properties": corpus_props,
+                     # promoted mirror of corpus_properties.substrate_class for downstream gating
+                     "substrate_class": corpus_props["substrate_class"],
                      "artifacts": {"labels": la, "hits": ha}})
     manifest["privacy_scan"] = {"residual_scope": privacy["scan_scope"], "ner": privacy["ner"]}
     manifest["catalogue_version"] = catalogue_version
