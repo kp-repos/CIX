@@ -1,7 +1,11 @@
 import csv
+import json
 from pathlib import Path
 import pytest
-from cix.cfpb import (parse_received, read_filtered, dedup_rows, sample_stratified)
+import yaml
+from cix.cfpb import (parse_received, read_filtered, dedup_rows, sample_stratified,
+                      write_corpus)
+from cix.normalize import load_corpus, load_corpus_properties
 
 def test_parse_received_handles_both_formats():
     assert parse_received("2025-07-15T12:57:20.000Z") == "2025-07-15"
@@ -69,3 +73,46 @@ def test_sample_stratified_is_deterministic_and_month_proportional():
 def test_sample_stratified_returns_all_when_n_exceeds_population():
     rows = [{"complaint_id": "1", "date": "2024-01-15", "narrative": "x"}]
     assert len(sample_stratified(rows, n=10, seed=1)) == 1
+
+def _sample_rows():
+    return [
+        {"complaint_id": "101", "date": "2024-03-01", "narrative": "Charged twice, refund refused.",
+         "product": "Money transfer", "issue": "Fraud or scam",
+         "outcome": "Closed with monetary relief"},
+        {"complaint_id": "102", "date": "2024-04-02", "narrative": "Account frozen for weeks.",
+         "product": "Checking account", "issue": "Managing an account",
+         "outcome": "Closed with explanation"},
+    ]
+
+def test_write_corpus_layout_and_units_validate(tmp_path):
+    out = tmp_path / "corpus"
+    write_corpus(_sample_rows(), out, company="Block, Inc.", since="2024-01-01",
+                 seed=42, source_csv="cfpb_narratives_filtered.csv")
+    units = load_corpus(out / "units")                 # validates the corpus contract
+    assert [u.id for u in units] == ["cfpb-101", "cfpb-102"]
+    assert units[0].source_type == "note"
+    assert units[0].segments[0].text == "Charged twice, refund refused."
+    assert units[0].date == "2024-03-01"
+
+def test_write_corpus_withholds_outcome_label(tmp_path):
+    out = tmp_path / "corpus"
+    write_corpus(_sample_rows(), out, company="Block, Inc.", since="2024-01-01",
+                 seed=42, source_csv="x.csv")
+    for p in (out / "units").glob("*.json"):
+        text = p.read_text(encoding="utf-8")
+        assert "monetary relief" not in text            # label never in a unit file
+        assert "Company response" not in text
+    labels = json.loads((out / "holdout_labels.json").read_text(encoding="utf-8"))
+    assert labels["cfpb-101"] == "Closed with monetary relief"
+    assert labels["cfpb-102"] == "Closed with explanation"
+
+def test_write_corpus_writes_s2_properties(tmp_path):
+    out = tmp_path / "corpus"
+    write_corpus(_sample_rows(), out, company="Block, Inc.", since="2024-01-01",
+                 seed=42, source_csv="x.csv")
+    props = load_corpus_properties(out / "units")       # parent lookup
+    assert props["substrate_class"] == "S2"
+    assert props["licence_tier"] == "public-domain"
+    assert props["speaker_attribution"] == "none"
+    raw = yaml.safe_load((out / "corpus_properties.yaml").read_text(encoding="utf-8"))
+    assert raw["sampling"]["seed"] == 42 and raw["sampling"]["company"] == "Block, Inc."

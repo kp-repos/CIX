@@ -19,6 +19,14 @@ import yaml
 _ISO_TS = re.compile(r"^(\d{4}-\d{2}-\d{2})T\d{2}:\d{2}:\d{2}")
 _BARE = re.compile(r"^(\d{4}-\d{2}-\d{2})$")
 
+# Intrinsic §2.3-S properties of the CFPB dataset (public-domain complaint narratives:
+# real customer language, monologue so no speakers, dollar figures survive redaction).
+_CFPB_CORPUS_PROPERTIES = {
+    "substrate_class": "S2", "licence_tier": "public-domain",
+    "speaker_attribution": "none", "economic_signal": "present",
+    "ivr_structure": "absent",
+}
+
 def parse_received(s: str) -> str:
     for rx in (_ISO_TS, _BARE):
         m = rx.match(s or "")
@@ -87,3 +95,34 @@ def sample_stratified(rows: list[dict], n: int, seed: int) -> list[dict]:
         pool = sorted(strata[m], key=lambda r: r["complaint_id"])
         out.extend(rng.sample(pool, min(alloc[m], len(pool))))
     return sorted(out, key=lambda r: r["complaint_id"])
+
+def write_corpus(rows: list[dict], out_dir: Path, company: str, since: str,
+                 seed: int, source_csv: str) -> dict:
+    """Write the standard corpus layout:
+        <out>/units/cfpb-<id>.json      InteractionUnit files (the ONLY thing the pipeline reads)
+        <out>/holdout_labels.json       withheld outcome label, sealed sidecar (§3.2)
+        <out>/corpus_properties.yaml    §2.3-S record + sampling provenance
+    The units dir holds nothing but unit JSON — load_corpus globs *.json in that dir."""
+    units_dir = Path(out_dir) / "units"
+    units_dir.mkdir(parents=True, exist_ok=False)   # refuse to clobber an existing corpus
+    labels = {}
+    for r in rows:
+        uid = f"cfpb-{r['complaint_id']}"
+        labels[uid] = r["outcome"]
+        # WITHHOLDING BOUNDARY (§3.2): build the unit from a fixed key set — never spread
+        # `r`, or `outcome`/`product`/`issue` would leak into what the pipeline & models read.
+        unit = {"id": uid, "source_type": "note", "participants": [],
+                "date": r["date"], "account_id": None, "thread_id": None,
+                "segments": [{"speaker": None, "ts": None, "text": r["narrative"]}]}
+        (units_dir / f"{uid}.json").write_text(
+            json.dumps(unit, indent=2, ensure_ascii=False), encoding="utf-8")
+    (Path(out_dir) / "holdout_labels.json").write_text(
+        json.dumps(labels, indent=2, sort_keys=True), encoding="utf-8")
+    props = {**_CFPB_CORPUS_PROPERTIES,
+             "source": {"dataset": "CFPB Consumer Complaint Database (filtered)",
+                        "csv": source_csv},
+             "sampling": {"company": company, "since": since, "seed": seed,
+                          "n": len(rows)}}
+    (Path(out_dir) / "corpus_properties.yaml").write_text(
+        yaml.safe_dump(props, sort_keys=False), encoding="utf-8")
+    return {"units": len(rows), "out": str(out_dir)}
