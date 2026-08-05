@@ -346,6 +346,60 @@ def _cmd_briefing(args) -> int:
     print(json.dumps({"run": str(run), "headline": metrics, "pdf": (not args.no_pdf)}))
     return 0
 
+def _cmd_compare(args) -> int:
+    """Comparative briefing over two persisted runs (model-free, read-only). Emits
+    compare.json + compare.html (+ compare.pdf unless --no-pdf) into --out."""
+    from cix.compare import build_compare, reveal_block, render_compare_html
+    from cix.briefing import render_briefing_pdf
+    sides = []
+    for run_arg, name in ((args.run_a, args.name_a), (args.run_b, args.name_b)):
+        run = Path(run_arg)
+        for req in ("run.db", "report.json", "manifest.json"):
+            if not (run / req).exists():
+                print(f"compare failed closed: missing persisted artifact {run / req}")
+                return 1
+        sides.append({"name": name, "run": run,
+                      "store": open_store(run / "run.db", read_only=True)})
+    cfg = load_presentation(Path(args.presentation))
+    labels = []
+    if not args.no_reveal:
+        for s in sides:
+            lp = s["run"] / "holdout_labels.json"
+            if not lp.exists():
+                print(f"compare failed closed: reveal expected but {lp} is absent — "
+                      "copy the corpus sidecar into the run dir, or pass --no-reveal")
+                return 1
+            labels.append(json.loads(lp.read_text(encoding="utf-8")))
+    try:
+        for s in sides:
+            s["report"] = json.loads((s["run"] / "report.json").read_text(encoding="utf-8"))
+            s["manifest"] = json.loads((s["run"] / "manifest.json").read_text(encoding="utf-8"))
+        comparison = build_compare(sides[0], sides[1], cfg)
+        if labels:
+            comparison["reveal"] = reveal_block(labels[0], labels[1])
+    except (ValueError, KeyError) as e:
+        print(f"compare failed closed: {e}")
+        return 1
+    out = Path(args.out)
+    out.mkdir(parents=True, exist_ok=True)
+    (out / "compare.json").write_text(json.dumps(comparison, indent=2, ensure_ascii=False),
+                                      encoding="utf-8")
+    html = render_compare_html(comparison)
+    (out / "compare.html").write_text(html, encoding="utf-8")
+    if not args.no_pdf:
+        try:
+            render_briefing_pdf(html, out / "compare.pdf")
+        except (OSError, ImportError) as e:
+            print(f"compare failed closed: PDF render unavailable ({e}); "
+                  "compare.json + compare.html written — re-run with --no-pdf")
+            return 1
+    print(json.dumps({"out": str(out),
+                      "reveal": bool(labels),
+                      "headline": {k: {"a": v["a"]["value"], "b": v["b"]["value"],
+                                       "ratio": v["ratio"]}
+                                   for k, v in comparison["headline"].items()}}))
+    return 0
+
 def _cmd_generate_calibration(args) -> int:
     spec = load_cal_spec(Path(args.spec))
     slc = load_second_lab_config(Path("configs/second_lab_config_v1.yaml"))
@@ -605,6 +659,18 @@ def main(argv: list[str] | None = None) -> int:
     p_brief.add_argument("--presentation", default="configs/briefing_presentation_v1.yaml")
     p_brief.add_argument("--no-pdf", action="store_true", help="skip the PDF (no WeasyPrint needed)")
     p_brief.set_defaults(fn=_cmd_briefing)
+    p_cmp = sub.add_parser("compare",
+                           help="comparative briefing over two persisted runs (read-only)")
+    p_cmp.add_argument("run_a")
+    p_cmp.add_argument("run_b")
+    p_cmp.add_argument("--presentation", required=True)
+    p_cmp.add_argument("--name-a", required=True, help="display name for run A's operation")
+    p_cmp.add_argument("--name-b", required=True, help="display name for run B's operation")
+    p_cmp.add_argument("--out", required=True)
+    p_cmp.add_argument("--no-reveal", action="store_true",
+                       help="skip the withheld-label reveal (no sidecar needed)")
+    p_cmp.add_argument("--no-pdf", action="store_true")
+    p_cmp.set_defaults(fn=_cmd_compare)
     p_run = sub.add_parser("run", help="full corpus -> report run")
     p_run.add_argument("corpus")
     p_run.add_argument("--rubric", required=True)

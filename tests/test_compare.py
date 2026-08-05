@@ -133,3 +133,35 @@ def test_ratio_none_on_zero_share_and_reveal_n_zero():
     rev = reveal_block({}, {})
     assert rev["a"]["monetary_relief_rate"] is None and rev["a"]["n"] == 0
     assert rev["b"]["monetary_relief_rate"] is None and rev["b"]["n"] == 0
+
+import json as _json
+import sqlite3
+from pathlib import Path
+from cix.cli import main as cli_main
+
+def test_compare_cli_on_committed_run_no_reveal(tmp_path, capsys):
+    # runs/svc-run compared with itself: versions trivially match; --no-reveal because
+    # no sidecar exists; --no-pdf keeps it WeasyPrint-free. Read-only guarantee checked
+    # via the drop_log row count.
+    db = Path("runs/svc-run/run.db")
+    before = sqlite3.connect(db).execute("select count(*) from drop_log").fetchone()[0]
+    out = tmp_path / "cmp"
+    rc = cli_main(["compare", "runs/svc-run", "runs/svc-run",
+                   "--presentation", "configs/briefing_presentation_v1.yaml",
+                   "--name-a", "Op A", "--name-b", "Op B",
+                   "--out", str(out), "--no-reveal", "--no-pdf"])
+    assert rc == 0
+    after = sqlite3.connect(db).execute("select count(*) from drop_log").fetchone()[0]
+    assert before == after
+    c = _json.loads((out / "compare.json").read_text(encoding="utf-8"))
+    assert c["meta"]["a"]["name"] == "Op A"
+    html = (out / "compare.html").read_text(encoding="utf-8")
+    assert "Op A" in html and "reveal not run" in html.lower()
+
+def test_compare_cli_fails_closed_without_sidecar_when_reveal_expected(tmp_path, capsys):
+    rc = cli_main(["compare", "runs/svc-run", "runs/svc-run",
+                   "--presentation", "configs/briefing_presentation_v1.yaml",
+                   "--name-a", "A", "--name-b", "B",
+                   "--out", str(tmp_path / "cmp2"), "--no-pdf"])
+    assert rc == 1
+    assert "holdout_labels.json" in capsys.readouterr().out
