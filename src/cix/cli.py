@@ -24,7 +24,7 @@ from cix.normalize import CorpusValidationError, load_corpus, load_corpus_proper
 from cix.catalogue import load_catalogue, join_swaps, leverage_grid
 from cix.priced import priced_view
 from cix.report import render_report
-from cix.rubric import DependencyError, load_paraphrase_set, load_rubric
+from cix.rubric import DependencyError, load_paraphrase_set, load_rubric, split_by_corpus_fit
 from cix.runconfig import load_run_config, load_thresholds
 from cix.scrub import load_privacy_protocol, scrub_corpus, audit_privacy_gate
 from cix.selftest import load_selftest_spec, self_test
@@ -73,6 +73,10 @@ def _cmd_run(args) -> int:
     except DependencyError as e:
         print(f"dependency refusal: {e}", file=sys.stderr)
         return 2
+    # R-SPK-3 / §2.3-S: gate the rubric on corpus properties BEFORE any model call, so
+    # speaker-dependent items on a speakerless corpus never reach detection (they are
+    # skipped-and-reported below, once the store exists, and excluded from denominators).
+    rubric, skipped_items = split_by_corpus_fit(rubric, corpus_props)
     config = load_run_config(Path("configs/run_config_v1.yaml"))
     thresholds = load_thresholds(Path("configs/thresholds_v1.yaml"))
     thresholds_version = yaml.safe_load(Path("configs/thresholds_v1.yaml").read_text())["version"]
@@ -93,6 +97,11 @@ def _cmd_run(args) -> int:
     db = out / "run.db"
     build_store(units, VOCAB_PATH, db)
     store = open_store(db)
+    for it in skipped_items:
+        store.write_validation("CORPUS-FIT", it.id, "skipped",
+                               f"requires_speaker=true but corpus speaker_attribution="
+                               f"{corpus_props.get('speaker_attribution')} — skipped per §2.3-S, "
+                               "excluded from coverage denominators")
     chash = manifest_corpus_hash(units)
 
     la, ha, hits, roll = _detect(store, units, rubric, client, chash, schema_version, config.model)
@@ -175,6 +184,7 @@ def _cmd_run(args) -> int:
                      "corpus_properties": corpus_props,
                      # promoted mirror of corpus_properties.substrate_class for downstream gating
                      "substrate_class": corpus_props["substrate_class"],
+                     "skipped_items": [i.id for i in skipped_items],
                      "artifacts": {"labels": la, "hits": ha}})
     manifest["privacy_scan"] = {"residual_scope": privacy["scan_scope"], "ner": privacy["ner"]}
     manifest["catalogue_version"] = catalogue_version

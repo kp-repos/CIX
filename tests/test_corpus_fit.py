@@ -8,6 +8,7 @@ import yaml
 from cix.cli import main
 from cix.model import ScriptedClient
 from cix.normalize import DEFAULT_CORPUS_PROPERTIES, load_corpus_properties
+from cix.rubric import Rubric, RubricItem, split_by_corpus_fit
 
 FIX = Path(__file__).parent / "fixtures"
 sys.path.insert(0, str(FIX / "scripted"))
@@ -70,3 +71,29 @@ def test_run_records_substrate_in_manifest(tmp_path, monkeypatch, capsys):
     manifest = json.loads((out / "manifest.json").read_text())
     assert manifest["substrate_class"] == "S2"
     assert manifest["corpus_properties"]["licence_tier"] == "public-domain"
+
+
+def _item(iid, requires_speaker=False):
+    return RubricItem(id=iid, description="d", polarity="negative",
+                      unit_of_count="interaction", criterion="c",
+                      requires_speaker=requires_speaker)
+
+
+def test_requires_speaker_defaults_false():
+    assert _item("a").requires_speaker is False
+
+
+def test_split_by_corpus_fit_skips_speaker_items_on_speakerless_corpus():
+    r = Rubric(version="1.0.0", requires={}, items=[
+        _item("plain"), _item("needs_spk", requires_speaker=True)])
+    active, skipped = split_by_corpus_fit(r, {"speaker_attribution": "none"})
+    assert [i.id for i in active.items] == ["plain"]
+    assert [i.id for i in skipped] == ["needs_spk"]
+    assert active.version == "1.0.0"
+
+
+def test_split_by_corpus_fit_keeps_all_when_speakers_native():
+    r = Rubric(version="1.0.0", requires={}, items=[
+        _item("plain"), _item("needs_spk", requires_speaker=True)])
+    active, skipped = split_by_corpus_fit(r, {"speaker_attribution": "native"})
+    assert len(active.items) == 2 and skipped == []

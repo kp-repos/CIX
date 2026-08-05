@@ -18,11 +18,22 @@ class RubricItem(BaseModel):
     criterion: str
     exemplars: list[str] = []
     swap_ref: str | None = None      # R-RUB-1: nullable crosswalk into the swap catalogue
+    requires_speaker: bool = False   # R-SPK-3: skipped (and reported) on speakerless corpora
 
 class Rubric(BaseModel):
     version: str
     requires: dict
     items: list[RubricItem]
+
+def split_by_corpus_fit(rubric: Rubric, corpus_props: dict) -> tuple[Rubric, list[RubricItem]]:
+    """R-SPK-3 / §2.3-S corpus-property gate: items whose declared dependencies the corpus
+    lacks are skipped and reported — never evaluated against absent data. Coverage
+    denominators exclude skipped items (they simply never reach detection)."""
+    if corpus_props.get("speaker_attribution") != "none":
+        return rubric, []
+    active = [i for i in rubric.items if not i.requires_speaker]
+    skipped = [i for i in rubric.items if i.requires_speaker]
+    return Rubric(version=rubric.version, requires=rubric.requires, items=active), skipped
 
 def load_rubric(path: Path, label_schema_version: str, tag_vocab_version: str) -> Rubric:
     r = Rubric.model_validate(yaml.safe_load(Path(path).read_text(encoding="utf-8")))
