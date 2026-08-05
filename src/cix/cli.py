@@ -225,6 +225,30 @@ def _cmd_index(args) -> int:
     print(json.dumps({"run": str(out), "interactions": len(units), "canonical_hash": chash}))
     return 0
 
+def _cmd_cfpb_ingest(args) -> int:
+    """CFPB CSV -> corpus adapter (spec 2026-08-05 §3). Writes <out>/units + sealed
+    holdout_labels.json + corpus_properties.yaml. The outcome label never enters units."""
+    from cix.cfpb import read_filtered, dedup_rows, sample_stratified, write_corpus, parse_received
+    try:
+        since = parse_received(args.since)
+    except ValueError:
+        print(f"ingest aborted: --since must be YYYY-MM-DD, got {args.since!r}", file=sys.stderr)
+        return 2
+    rows, drops = read_filtered(Path(args.csv), company=args.company, since=since)
+    rows, n_dupes = dedup_rows(rows)
+    picked = sample_stratified(rows, n=args.n, seed=args.seed)
+    try:
+        res = write_corpus(picked, Path(args.out), company=args.company,
+                           since=since, seed=args.seed, source_csv=str(args.csv))
+    except FileExistsError:
+        print(f"ingest aborted: {args.out} already contains a corpus (use a fresh --out)",
+              file=sys.stderr)
+        return 3
+    print(json.dumps({"written": res["units"], "eligible": len(rows),
+                      "duplicates_collapsed": n_dupes, "drops": drops,
+                      "out": res["out"]}))
+    return 0
+
 def _cmd_hash(args) -> int:
     print(json.dumps({"canonical_hash": canonical_hash(Path(args.run) / "run.db")}))
     return 0
@@ -549,6 +573,15 @@ def main(argv: list[str] | None = None) -> int:
     p_index.add_argument("--out", required=True)
     p_index.add_argument("--clearance", default="n/a: synthetic fixtures")
     p_index.set_defaults(fn=_cmd_index)
+    p_cfpb = sub.add_parser("cfpb-ingest",
+                            help="CFPB filtered CSV -> corpus dir (units/ + sealed labels + S2 properties)")
+    p_cfpb.add_argument("csv")
+    p_cfpb.add_argument("--company", required=True, help='exact CSV value, e.g. "Block, Inc."')
+    p_cfpb.add_argument("--since", required=True, help="YYYY-MM-DD window start")
+    p_cfpb.add_argument("--n", type=int, required=True, help="sample size")
+    p_cfpb.add_argument("--seed", type=int, required=True)
+    p_cfpb.add_argument("--out", required=True)
+    p_cfpb.set_defaults(fn=_cmd_cfpb_ingest)
     p_hash = sub.add_parser("hash", help="print the canonical hash of a run")
     p_hash.add_argument("run")
     p_hash.set_defaults(fn=_cmd_hash)

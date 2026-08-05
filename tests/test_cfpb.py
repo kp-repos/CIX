@@ -6,6 +6,8 @@ import yaml
 from cix.cfpb import (parse_received, read_filtered, dedup_rows, sample_stratified,
                       write_corpus)
 from cix.normalize import load_corpus, load_corpus_properties
+from cix.cli import main as cli_main
+from cix.store import build_store
 
 def test_parse_received_handles_both_formats():
     assert parse_received("2025-07-15T12:57:20.000Z") == "2025-07-15"
@@ -116,3 +118,37 @@ def test_write_corpus_writes_s2_properties(tmp_path):
     assert props["speaker_attribution"] == "none"
     raw = yaml.safe_load((out / "corpus_properties.yaml").read_text(encoding="utf-8"))
     assert raw["sampling"]["seed"] == 42 and raw["sampling"]["company"] == "Block, Inc."
+
+def test_cfpb_ingest_cli_end_to_end(tmp_path, capsys):
+    p = tmp_path / "c.csv"
+    _write_csv(p, [_row(str(i) + ".0", narrative=f"Complaint number {i} about a fee.")
+                   for i in range(1, 8)])
+    out = tmp_path / "corpus"
+    rc = cli_main(["cfpb-ingest", str(p), "--company", "Block, Inc.",
+                   "--since", "2024-01-01", "--n", "5", "--seed", "7",
+                   "--out", str(out)])
+    assert rc == 0
+    summary = json.loads(capsys.readouterr().out.strip().splitlines()[-1])
+    assert summary["written"] == 5
+    assert summary["drops"] == {}                      # every fixture row is eligible
+    assert len(list((out / "units").glob("*.json"))) == 5
+
+def test_cfpb_ingest_rejects_bad_since(tmp_path, capsys):
+    p = tmp_path / "c.csv"
+    _write_csv(p, [_row("1.0")])
+    rc = cli_main(["cfpb-ingest", str(p), "--company", "Block, Inc.",
+                   "--since", "01/2024", "--n", "5", "--seed", "7",
+                   "--out", str(tmp_path / "corpus")])
+    assert rc == 2
+    assert "since" in capsys.readouterr().err.lower()
+
+def test_outcome_label_never_reaches_the_store(tmp_path):
+    out = tmp_path / "corpus"
+    write_corpus(_sample_rows(), out, company="Block, Inc.", since="2024-01-01",
+                 seed=42, source_csv="x.csv")
+    units = load_corpus(out / "units")
+    db = tmp_path / "run.db"
+    build_store(units, Path("configs/tag_vocabulary_v1.yaml"), db)
+    blob = db.read_bytes()
+    assert b"monetary relief" not in blob
+    assert b"Closed with explanation" not in blob
