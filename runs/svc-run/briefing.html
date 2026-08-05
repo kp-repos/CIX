@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html><head><meta charset='utf-8'>
+<style>
+body{font-family:Helvetica,Arial,sans-serif;color:#1a1a1a;max-width:820px;margin:2rem auto;line-height:1.5}
+h1{font-size:1.6rem;margin-bottom:.2rem}.banner{background:#fef3c7;border:1px solid #f59e0b;padding:.5rem .8rem;border-radius:6px;font-size:.85rem;margin:.6rem 0}
+h2{font-size:1.15rem;border-bottom:2px solid #e5e7eb;padding-bottom:.2rem;margin-top:1.6rem}
+.headline{background:#f0f9ff;border:1px solid #bae6fd;padding:.8rem 1rem;border-radius:8px;margin:.8rem 0}
+.big{font-size:1.4rem;font-weight:700}table{border-collapse:collapse;width:100%;font-size:.9rem;margin:.6rem 0}
+th,td{text-align:left;padding:.4rem .5rem;border-bottom:1px solid #e5e7eb;vertical-align:top}
+.muted{color:#6b7280;font-size:.85rem}.tag{display:inline-block;background:#f3f4f6;border-radius:4px;padding:0 .35rem;font-size:.8rem}
+</style></head><body>
+<h1>Customer Interaction Review</h1>
+<div class='banner'>synthetic service rehearsal corpus — O1 only, never O2/O3 (PRD §2.3)</div>
+<h2>The one thing to know</h2>
+<div class='headline'>
+<div class='big'>33 / 100 contacts matched at least one avoidable pattern</div>
+<div class='muted'>distinct interactions matching &gt;=1 member pattern (union over hits), interaction-unit only · resolve with <span class='tag'>cix query &lt;run_dir&gt; --metric avoidable_contact_rate</span></div>
+<div class='big'>$4,040&ndash;$12,120 / yr indicative automatable opportunity</div>
+<div class='muted'>indicative and inferred, not operator-confirmed; value is additive across distinct occurrences; remedies shared across plays: SW-STATUS-SELFSERVE (implementation effort is shared)</div>
+</div>
+<h2>What's working</h2><ul>
+<li><b>Issues resolved on first contact</b> — 82 (82% of eligible). The healthy counter-pattern — resolved in one interaction, no follow-up needed.</li>
+</ul>
+<h2>Where the leverage is</h2><table>
+<tr><th>#</th><th>What's happening</th><th>How often</th><th>Effort / payoff</th><th>Est. value / yr</th><th>Monday action</th></tr>
+<tr><td>1</td><td><b>Manual after-call admin</b><br><span class='muted'>Agents doing record-keeping by hand after the call that a capture-at-source step removes.</span></td><td>87 occurrence</td><td>low / large</td><td>$3,480&ndash;$10,440</td><td>Capture at the interaction -&gt; structured extraction <span class='tag'>SW-ADMIN-CAPTURE</span></td></tr>
+<tr><td>2</td><td><b>Rote requests a person handled</b><br><span class='muted'>Fully deterministic asks (resets, address changes) a self-service path resolves without an agent.</span></td><td>19 occurrence</td><td>medium / medium</td><td>$380&ndash;$1,140</td><td>Self-service status + automated routing <span class='tag'>SW-STATUS-SELFSERVE</span></td></tr>
+<tr><td>3</td><td><b>Avoidable transfers</b><br><span class='muted'>Contacts transferred or escalated for want of first-line capability.</span></td><td>9 occurrence</td><td>medium / medium</td><td>$180&ndash;$540</td><td>Self-service status + automated routing <span class='tag'>SW-STATUS-SELFSERVE</span></td></tr>
+</table>
+<h2>Upstream problems worth fixing</h2><ul>
+<li><b>Contacts caused by billing errors</b> — 19 (19% of contacts). Calls driven by a billing, invoice, or charge error the customer should not have had to make.</li>
+<li><b>Repeat contacts on unresolved issues</b> — 8 (8% of contacts). Customers coming back because the first contact did not resolve the problem.</li>
+</ul>
+<h2>Watch list — real, no off-the-shelf remedy yet</h2><ul>
+<li><b>Avoidable provider-side failures</b> — 11 interaction. Contacts that exist because of a provider-side failure that could have been anticipated.</li>
+<li><b>Inconsistent answers across contacts</b> — 6 occurrence. The same question answered differently on different contacts.</li>
+<li><b>Status-chase calls</b> — 6 interaction. Contacts whose sole purpose is to chase the status of something already in progress.</li>
+</ul>
+<h2>Why you can trust these numbers</h2>
+<p class='muted'>100% of 100 eligible interactions read (0 residual). Drops: 9 candidate claims, 0 quote drops, 0 stat drops.</p>
+<p class='muted'>Quote-level evidence pending (next run) — findings currently carry counts only.</p>
+</body></html>

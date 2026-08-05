@@ -37,6 +37,19 @@ cannot alter the run.
 
 Backup item if you want a second one: `--item manual_after_call_work` (count 87).
 
+## 2b. The business briefing — same run, commercial view
+
+```
+uv run cix briefing runs/svc-run
+```
+
+Opens `runs/svc-run/briefing.html` (and `briefing.pdf`): one headline number — **33 of 100
+contacts matched at least one avoidable pattern** (a distinct-interaction union, resolvable
+with `cix query runs/svc-run --metric avoidable_contact_rate`), the three low-effort automatable
+plays with an indicative **$4,040–$12,120/yr** band (inferred, not operator-confirmed), and the
+same O1 honesty banner. The technical `report.pdf` remains the audit deliverable; this is the
+first-engagement view rendered from the same persisted run.
+
 ## 3. The gate is real — a bad quote fails closed
 
 ```

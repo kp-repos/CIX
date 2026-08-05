@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "corpus_clearance": "synthetic service rehearsal corpus — O1 only, never O2/O3 (PRD §2.3)",
+    "rubric_version": "1.0.0",
+    "catalogue_version": "0.1.0",
+    "corpus_hash": "2c8cf0b8515dca04bf6484351b350a0af4cacbf09127ca66b9d5010bc8f2505f"
+  },
+  "headline": {
+    "avoidable_contact_rate": {
+      "value": 33,
+      "denominator": 100,
+      "share": 0.33,
+      "members": [
+        "repeat_contact_unresolved",
+        "billing_defect_driver",
+        "status_chase_inbound",
+        "unanticipated_failure"
+      ],
+      "interaction_ids": [
+        "svc-002",
+        "svc-012",
+        "svc-013",
+        "svc-014",
+        "svc-018",
+        "svc-021",
+        "svc-023",
+        "svc-024",
+        "svc-028",
+        "svc-030",
+        "svc-034",
+        "svc-036",
+        "svc-043",
+        "svc-050",
+        "svc-051",
+        "svc-055",
+        "svc-056",
+        "svc-058",
+        "svc-059",
+        "svc-061",
+        "svc-066",
+        "svc-068",
+        "svc-070",
+        "svc-076",
+        "svc-078",
+        "svc-084",
+        "svc-086",
+        "svc-088",
+        "svc-089",
+        "svc-091",
+        "svc-094",
+        "svc-095",
+        "svc-099"
+      ],
+      "method": "distinct interactions matching >=1 member pattern (union over hits), interaction-unit only",
+      "query": "cix query <run_dir> --metric avoidable_contact_rate",
+      "honesty": "synthetic service rehearsal corpus — O1 only, never O2/O3 (PRD §2.3)"
+    },
+    "automatable_opportunity": {
+      "band": {
+        "low": 4040.0,
+        "high": 12120.0
+      },
+      "currency": "USD",
+      "horizon": "per year",
+      "members": [
+        "manual_after_call_work",
+        "deterministic_request",
+        "avoidable_transfer"
+      ],
+      "method": "sum of Class-A priced bands (dollar, additive across distinct occurrences)",
+      "evidence_tier": "candidate",
+      "inferred": true,
+      "shared_remedy_note": "indicative and inferred, not operator-confirmed; value is additive across distinct occurrences; remedies shared across plays: SW-STATUS-SELFSERVE (implementation effort is shared)"
+    }
+  },
+  "whats_working": [
+    {
+      "item_id": "first_contact_resolution",
+      "label": "Issues resolved on first contact",
+      "gloss": "The healthy counter-pattern — resolved in one interaction, no follow-up needed.",
+      "count": 82,
+      "share": 0.82,
+      "narrative": "The first_contact_resolution rubric item was claimed for eighty-two eligible interactions. However, no evidence snippets were provided in the transcript record to substantiate this count, so the claim cannot be verified against source material."
+    }
+  ],
+  "plays": [
+    {
+      "rank": 1,
+      "item_id": "manual_after_call_work",
+      "label": "Manual after-call admin",
+      "gloss": "Agents doing record-keeping by hand after the call that a capture-at-source step removes.",
+      "count": 87,
+      "unit": "occurrence",
+      "effort": "low",
+      "outcome": "large",
+      "band": {
+        "low": 3480.0,
+        "high": 10440.0
+      },
+      "monday_action": "Capture at the interaction -> structured extraction",
+      "swap_ref": "SW-ADMIN-CAPTURE"
+    },
+    {
+      "rank": 2,
+      "item_id": "deterministic_request",
+      "label": "Rote requests a person handled",
+      "gloss": "Fully deterministic asks (resets, address changes) a self-service path resolves without an agent.",
+      "count": 19,
+      "unit": "occurrence",
+      "effort": "medium",
+      "outcome": "medium",
+      "band": {
+        "low": 380.0,
+        "high": 1140.0
+      },
+      "monday_action": "Self-service status + automated routing",
+      "swap_ref": "SW-STATUS-SELFSERVE"
+    },
+    {
+      "rank": 3,
+      "item_id": "avoidable_transfer",
+      "label": "Avoidable transfers",
+      "gloss": "Contacts transferred or escalated for want of first-line capability.",
+      "count": 9,
+      "unit": "occurrence",
+      "effort": "medium",
+      "outcome": "medium",
+      "band": {
+        "low": 180.0,
+        "high": 540.0
+      },
+      "monday_action": "Self-service status + automated routing",
+      "swap_ref": "SW-STATUS-SELFSERVE"
+    }
+  ],
+  "upstream": [
+    {
+      "item_id": "billing_defect_driver",
+      "label": "Contacts caused by billing errors",
+      "gloss": "Calls driven by a billing, invoice, or charge error the customer should not have had to make.",
+      "count": 19,
+      "unit": "interaction",
+      "share": 0.19
+    },
+    {
+      "item_id": "repeat_contact_unresolved",
+      "label": "Repeat contacts on unresolved issues",
+      "gloss": "Customers coming back because the first contact did not resolve the problem.",
+      "count": 8,
+      "unit": "interaction",
+      "share": 0.08
+    }
+  ],
+  "watch_list": [
+    {
+      "item_id": "unanticipated_failure",
+      "label": "Avoidable provider-side failures",
+      "gloss": "Contacts that exist because of a provider-side failure that could have been anticipated.",
+      "count": 11,
+      "unit": "interaction",
+      "share": 0.11
+    },
+    {
+      "item_id": "knowledge_inconsistency",
+      "label": "Inconsistent answers across contacts",
+      "gloss": "The same question answered differently on different contacts.",
+      "count": 6,
+      "unit": "occurrence",
+      "share": null
+    },
+    {
+      "item_id": "status_chase_inbound",
+      "label": "Status-chase calls",
+      "gloss": "Contacts whose sole purpose is to chase the status of something already in progress.",
+      "count": 6,
+      "unit": "interaction",
+      "share": 0.06
+    }
+  ],
+  "trust": {
+    "coverage": {
+      "interaction_coverage": 1.0,
+      "eligible_interactions": 100,
+      "residual_interactions": 0
+    },
+    "validations": [
+      {
+        "check": "T-AGR",
+        "status": "agree"
+      },
+      {
+        "check": "T-AGR",
+        "status": "agree"
+      },
+      {
+        "check": "T-AGR",
+        "status": "agree"
+      },
+      {
+        "check": "T-AGR",
+        "status": "agree"
+      },
+      {
+        "check": "T-SPLIT",
+        "status": "stable"
+      },
+      {
+        "check": "T-PARA",
+        "status": "not_run"
+      },
+      {
+        "check": "SECOND-LAB-SEAT",
+        "status": "recused_f4"
+      },
+      {
+        "check": "T-DROP",
+        "status": "pass"
+      }
+    ],
+    "drop_summary": {
+      "candidate_claims": 9,
+      "quote_drops": 0,
+      "stat_drops": 0
+    },
+    "evidence_note": "Quote-level evidence pending (next run) — findings currently carry counts only.",
+    "honesty_ladder": "synthetic service rehearsal corpus — O1 only, never O2/O3 (PRD §2.3)",
+    "manifest_ref": {
+      "corpus_hash": "2c8cf0b8515dca04bf6484351b350a0af4cacbf09127ca66b9d5010bc8f2505f",
+      "rubric_version": "1.0.0",
+      "catalogue_version": "0.1.0"
+    }
+  }
+}
