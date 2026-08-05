@@ -1,7 +1,9 @@
 import json
+import sqlite3
 from pathlib import Path
 import pytest
 from cix.briefing import load_presentation, avoidable_contact_rate, automatable_opportunity, build_briefing, render_briefing_html, render_briefing_pdf
+from cix.cli import main
 
 PRESENTATION = Path("configs/briefing_presentation_v1.yaml")
 
@@ -212,3 +214,46 @@ def test_render_pdf_writes_a_pdf_file(tmp_path):
         import pytest
         pytest.skip(f"weasyprint/system libs unavailable: {e}")
     assert out.exists() and out.read_bytes()[:5] == b"%PDF-"
+
+
+def test_cli_briefing_on_svc_run_golden(tmp_path):
+    # Copy the persisted svc-run into a temp dir so we don't write into the repo fixture.
+    import shutil
+    src = Path("runs/svc-run")
+    run = tmp_path / "svc-run"
+    shutil.copytree(src, run)
+    drops_before = sqlite3.connect(f"file:{run/'run.db'}?mode=ro", uri=True).execute(
+        "SELECT count(*) FROM drop_log").fetchone()[0]
+
+    rc = main(["briefing", str(run), "--no-pdf"])
+    assert rc == 0
+
+    briefing = json.loads((run / "briefing.json").read_text(encoding="utf-8"))
+    assert briefing["headline"]["avoidable_contact_rate"]["value"] == 33
+    assert briefing["headline"]["automatable_opportunity"]["band"] == {"low": 4040.0, "high": 12120.0}
+    assert [p["item_id"] for p in briefing["plays"]] == [
+        "manual_after_call_work", "deterministic_request", "avoidable_transfer"]
+    assert "O1" in briefing["meta"]["corpus_clearance"]
+
+    html = (run / "briefing.html").read_text(encoding="utf-8")
+    assert "Manual after-call admin" in html and "33 / 100" in html
+
+    # Read-only guarantee: drop_log unchanged.
+    drops_after = sqlite3.connect(f"file:{run/'run.db'}?mode=ro", uri=True).execute(
+        "SELECT count(*) FROM drop_log").fetchone()[0]
+    assert drops_after == drops_before
+
+
+def test_cli_briefing_no_pdf_skips_pdf(tmp_path):
+    import shutil
+    run = tmp_path / "svc-run"
+    shutil.copytree(Path("runs/svc-run"), run)
+    assert main(["briefing", str(run), "--no-pdf"]) == 0
+    assert not (run / "briefing.pdf").exists()
+
+
+def test_cli_briefing_missing_artifacts_fail_closed(tmp_path):
+    # Spec §3.3: a dir without persisted artifacts fails closed with a message, no traceback.
+    empty = tmp_path / "not-a-run"
+    empty.mkdir()
+    assert main(["briefing", str(empty), "--no-pdf"]) == 1

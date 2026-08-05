@@ -269,6 +269,33 @@ def _cmd_query(args) -> int:
         print(f"  quote ({mark}): \"{q['text']}\"")
     return 0
 
+def _cmd_briefing(args) -> int:
+    """Business briefing (model-free presentation layer). Read-only over a persisted run:
+    build briefing.json + briefing.html (+ briefing.pdf unless --no-pdf)."""
+    from cix.briefing import build_briefing, render_briefing_html, render_briefing_pdf
+    run = Path(args.run)
+    for req in ("run.db", "report.json", "manifest.json"):
+        if not (run / req).exists():
+            print(f"briefing failed closed: missing persisted artifact {run / req}")
+            return 1
+    store = open_store(run / "run.db", read_only=True)  # writes impossible, not merely avoided
+    report = json.loads((run / "report.json").read_text(encoding="utf-8"))
+    manifest = json.loads((run / "manifest.json").read_text(encoding="utf-8"))
+    cfg = load_presentation(Path(args.presentation))
+    try:
+        briefing = build_briefing(report, manifest, cfg, store)
+    except ValueError as e:
+        print(f"briefing failed closed: {e}")
+        return 1
+    (run / "briefing.json").write_text(json.dumps(briefing, indent=2, ensure_ascii=False), encoding="utf-8")
+    html = render_briefing_html(briefing)
+    (run / "briefing.html").write_text(html, encoding="utf-8")
+    if not args.no_pdf:
+        render_briefing_pdf(html, run / "briefing.pdf")
+    print(json.dumps({"run": str(run), "avoidable_contact_rate": briefing["headline"]["avoidable_contact_rate"]["value"],
+                      "pdf": (not args.no_pdf)}))
+    return 0
+
 def _cmd_generate_calibration(args) -> int:
     spec = load_cal_spec(Path(args.spec))
     slc = load_second_lab_config(Path("configs/second_lab_config_v1.yaml"))
@@ -511,6 +538,11 @@ def main(argv: list[str] | None = None) -> int:
     p_query.add_argument("--presentation", default="configs/briefing_presentation_v1.yaml",
                          help="presentation config used by --metric (declares metric membership)")
     p_query.set_defaults(fn=_cmd_query)
+    p_brief = sub.add_parser("briefing", help="render a business-facing briefing from a persisted run (read-only)")
+    p_brief.add_argument("run")
+    p_brief.add_argument("--presentation", default="configs/briefing_presentation_v1.yaml")
+    p_brief.add_argument("--no-pdf", action="store_true", help="skip the PDF (no WeasyPrint needed)")
+    p_brief.set_defaults(fn=_cmd_briefing)
     p_run = sub.add_parser("run", help="full corpus -> report run")
     p_run.add_argument("corpus")
     p_run.add_argument("--rubric", required=True)
