@@ -10,6 +10,9 @@ class CorpusValidationError(Exception):
 def load_corpus(corpus_dir: Path) -> list[InteractionUnit]:
     units: list[InteractionUnit] = []
     for path in sorted(Path(corpus_dir).glob("*.json")):
+        if path.name.startswith("._"):
+            continue   # R-IDX-8: AppleDouble shadow files (macOS zip cruft) carry .json
+                       # extensions but are not corpus units; a naive glob would double the index.
         try:
             data = json.loads(path.read_text(encoding="utf-8"))
             units.append(InteractionUnit.model_validate(data))

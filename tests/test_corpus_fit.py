@@ -7,7 +7,7 @@ import yaml
 
 from cix.cli import main
 from cix.model import ScriptedClient
-from cix.normalize import DEFAULT_CORPUS_PROPERTIES, load_corpus_properties
+from cix.normalize import DEFAULT_CORPUS_PROPERTIES, load_corpus, load_corpus_properties
 from cix.rubric import Rubric, RubricItem, split_by_corpus_fit
 
 FIX = Path(__file__).parent / "fixtures"
@@ -71,6 +71,20 @@ def test_run_records_substrate_in_manifest(tmp_path, monkeypatch, capsys):
     manifest = json.loads((out / "manifest.json").read_text())
     assert manifest["substrate_class"] == "S2"
     assert manifest["corpus_properties"]["licence_tier"] == "public-domain"
+
+
+def test_load_corpus_excludes_appledouble_shadow_files(tmp_path):
+    # A real corpus unit...
+    (tmp_path / "cfpb-1.json").write_text(json.dumps({
+        "id": "cfpb-1", "source_type": "note", "participants": [],
+        "date": "2024-01-01", "account_id": None, "thread_id": None,
+        "segments": [{"speaker": None, "ts": None, "text": "a complaint"}]}), encoding="utf-8")
+    # ...and an AppleDouble shadow file that also ends in .json (macOS zip cruft).
+    # It is NOT a valid InteractionUnit; a naive glob would try to validate it and crash,
+    # or (if it happened to parse) would double the index. R-IDX-8: it must be skipped.
+    (tmp_path / "._cfpb-1.json").write_text("\x00\x05\x16\x07 AppleDouble binary junk", encoding="utf-8")
+    units = load_corpus(tmp_path)
+    assert [u.id for u in units] == ["cfpb-1"]   # shadow file excluded, not validated
 
 
 def _item(iid, requires_speaker=False):
