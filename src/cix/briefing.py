@@ -143,27 +143,43 @@ def build_briefing(report: dict, manifest: dict, cfg: dict, store) -> dict:
     actual = manifest.get("rubric_version")
     if required != actual:
         raise ValueError(f"presentation config rubric version {required!r} != run rubric version {actual!r}")
+    # Version strings alone cannot distinguish two rubrics that both say "1.0.0" — bind by
+    # filename too when both sides declare it (same precedent as load_paraphrase_set).
+    bound = cfg.get("requires", {}).get("rubric_file")
+    run_file = manifest.get("rubric_file")
+    if bound is not None and run_file is not None and bound != run_file:
+        raise ValueError(f"presentation config is bound to rubric_file {bound!r} "
+                         f"but the run used {run_file!r}")
     sections = report["sections"]
     dist_items = sections["distribution"]["items"]
-    members = cfg["headline_metrics"]["avoidable_contact_rate"]["members"]
-    # Honesty rule: the avoidable-contact rate is interaction-unit only. Guard against a member
-    # whose unit is anything else so counts can never cross units.
-    for m in members:
-        unit = dist_items.get(m, {}).get("unit")
-        # absent distribution entry (unit is None) = member not classified in this run; skip the guard
-        if unit is not None and unit != "interaction":
-            raise ValueError(f"avoidable_contact_rate member {m!r} is not interaction-unit ({unit})")
     eligible = sections["distribution"]["eligible_interactions"]
     hits_artifact = manifest["artifacts"]["hits"]
-    rate = avoidable_contact_rate(store, hits_artifact, members, eligible)
-    rate["honesty"] = manifest.get("corpus_clearance")
-    opportunity = automatable_opportunity(sections["leverage"]["grid"], sections["priced_plays"])
+    # Compute every configured headline metric. All are interaction-union metrics; the
+    # unit-safety guard keeps counts from ever crossing units (spec §5.1).
+    headline = {}
+    for name, spec in cfg["headline_metrics"].items():
+        members = spec["members"]
+        for m in members:
+            unit = dist_items.get(m, {}).get("unit")
+            # absent distribution entry (unit is None) = member not classified in this run; skip the guard
+            if unit is not None and unit != "interaction":
+                raise ValueError(f"{name} member {m!r} is not interaction-unit ({unit})")
+        rate = interaction_union_metric(store, hits_artifact, members, eligible)
+        # `method` is intentionally shared across all interaction-union metrics (it's accurate
+        # for any such metric); only query/statement are per-metric.
+        rate["query"] = f"cix query <run_dir> --metric {name}"
+        rate["statement"] = spec.get("statement",
+                                     "contacts matched at least one avoidable pattern")
+        rate["honesty"] = manifest.get("corpus_clearance")
+        headline[name] = rate
+    headline["automatable_opportunity"] = automatable_opportunity(
+        sections["leverage"]["grid"], sections["priced_plays"])
     return {
         "meta": {"corpus_clearance": manifest.get("corpus_clearance"),
                  "rubric_version": manifest.get("rubric_version"),
                  "catalogue_version": manifest.get("catalogue_version"),
                  "corpus_hash": manifest.get("corpus_hash")},
-        "headline": {"avoidable_contact_rate": rate, "automatable_opportunity": opportunity},
+        "headline": headline,
         "whats_working": _whats_working(sections, cfg),
         "plays": _plays(sections, cfg),
         "upstream": _upstream(sections, cfg),
@@ -191,8 +207,7 @@ th,td{text-align:left;padding:.4rem .5rem;border-bottom:1px solid #e5e7eb;vertic
 
 def render_briefing_html(b: dict) -> str:
     """One self-contained HTML string (inline CSS, no external assets)."""
-    rate = b["headline"]["avoidable_contact_rate"]
-    opp = b["headline"]["automatable_opportunity"]
+    opp = b["headline"].get("automatable_opportunity")
     out = ["<!DOCTYPE html>", "<html><head><meta charset='utf-8'>",
            f"<style>{_CSS}</style></head><body>"]
     out.append("<h1>Customer Interaction Review</h1>")
@@ -200,8 +215,13 @@ def render_briefing_html(b: dict) -> str:
     # Headline
     out.append("<h2>The one thing to know</h2>")
     out.append("<div class='headline'>")
-    out.append(f"<div class='big'>{rate['value']} / {rate['denominator']} contacts matched at least one avoidable pattern</div>")
-    out.append(f"<div class='muted'>{_esc(rate['method'])} · resolve with <span class='tag'>{_esc(rate['query'])}</span></div>")
+    for name, rate in b["headline"].items():
+        if name == "automatable_opportunity":
+            continue
+        out.append(f"<div class='big'>{rate['value']} / {rate['denominator']} "
+                   f"{_esc(rate['statement'])}</div>")
+        out.append(f"<div class='muted'>{_esc(rate['method'])} · resolve with "
+                   f"<span class='tag'>{_esc(rate['query'])}</span></div>")
     if opp:
         out.append(f"<div class='big'>${_money(opp['band']['low'])}&ndash;${_money(opp['band']['high'])} / yr indicative automatable opportunity</div>")
         out.append(f"<div class='muted'>{_esc(opp['shared_remedy_note'])}</div>")
@@ -269,10 +289,12 @@ def render_briefing_pdf(html: str, out_path) -> None:
     HTML(string=html).write_pdf(str(out_path))
 
 
-def avoidable_contact_rate(store, hits_artifact: str, members: list[str], eligible: int) -> dict:
-    """Distinct interactions matching >=1 negative interaction-unit member, as a UNION
-    over the hits table (never a sum — overlapping interactions must not double-count).
-    Occurrence-unit rows are structurally excluded (spec §5.1): counts never cross units."""
+def interaction_union_metric(store, hits_artifact: str, members: list[str], eligible: int) -> dict:
+    """Compute any headline metric as a distinct-interaction union over the hits table.
+    Counts the distinct interactions matching >=1 member of the metric's member set,
+    as a UNION (never a sum — overlapping interactions must not double-count). This is the
+    reusable computation behind every headline metric. Occurrence-unit rows are structurally
+    excluded (spec §5.1): counts stay interaction-unit only and never cross units."""
     member_set = set(members)
     ids = {h["interaction_id"] for h in store.hits_for(hits_artifact)
            if h["item_id"] in member_set and h.get("unit") == "interaction"}
@@ -285,5 +307,4 @@ def avoidable_contact_rate(store, hits_artifact: str, members: list[str], eligib
         "interaction_ids": sorted(ids),
         "method": ("distinct interactions matching >=1 member pattern "
                    "(union over hits), interaction-unit only"),
-        "query": "cix query <run_dir> --metric avoidable_contact_rate",
     }

@@ -177,6 +177,7 @@ def _cmd_run(args) -> int:
     manifest = build_manifest(units, canonical_hash(db), vocab["version"],
                               privacy_gate=privacy["status"], corpus_clearance=args.clearance, salt=salt)
     manifest.update({"label_schema_version": schema_version, "rubric_version": rubric.version,
+                     "rubric_file": Path(args.rubric).name,
                      "model_versions": {"primary": config.model},
                      "prompt_hashes": {"labels": labels_ph(), "hits": hits_ph(), "synthesis": synth_ph(),
                                        "apply": apply_prompts_hash()},
@@ -340,8 +341,9 @@ def _cmd_briefing(args) -> int:
             print(f"briefing failed closed: PDF render unavailable ({e}); "
                   "briefing.json + briefing.html written — re-run with --no-pdf to skip the PDF")
             return 1
-    print(json.dumps({"run": str(run), "avoidable_contact_rate": briefing["headline"]["avoidable_contact_rate"]["value"],
-                      "pdf": (not args.no_pdf)}))
+    metrics = {k: v["value"] for k, v in briefing["headline"].items()
+               if isinstance(v, dict) and "value" in v and k != "automatable_opportunity"}
+    print(json.dumps({"run": str(run), "headline": metrics, "pdf": (not args.no_pdf)}))
     return 0
 
 def _cmd_generate_calibration(args) -> int:

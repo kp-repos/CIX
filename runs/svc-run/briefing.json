@@ -53,6 +53,7 @@
       ],
       "method": "distinct interactions matching >=1 member pattern (union over hits), interaction-unit only",
       "query": "cix query <run_dir> --metric avoidable_contact_rate",
+      "statement": "contacts matched at least one avoidable pattern",
       "honesty": "synthetic service rehearsal corpus — O1 only, never O2/O3 (PRD §2.3)"
     },
     "automatable_opportunity": {
