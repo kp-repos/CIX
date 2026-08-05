@@ -14,7 +14,7 @@
 
 ## File Structure
 
-- **Create** `configs/briefing_presentation_v1.yaml` — versioned presentation config: `item_id → {business_label, gloss}` for the 10 service-rubric items + `headline_metrics.avoidable_contact_rate.members`.
+- **Create** `configs/briefing_presentation_v1.yaml` — versioned presentation config: `item_id → {business_label, gloss, polarity}` for the 10 service-rubric items + `headline_metrics.avoidable_contact_rate.members`.
 - **Create** `src/cix/briefing.py` — `load_presentation`, `build_briefing` (+ private block builders and the two metric helpers), `render_briefing_html`, `render_briefing_pdf`.
 - **Modify** `src/cix/query.py` — add `resolve_metric(store, manifest, presentation, metric_name, eligible)`.
 - **Modify** `src/cix/cli.py` — add `_cmd_briefing` + subparser; extend `_cmd_query` + query subparser with `--metric`.
@@ -45,37 +45,48 @@ Create `configs/briefing_presentation_v1.yaml`:
 version: "1.0.0"
 requires:
   rubric_version: "1.0.0"
+# polarity mirrors the rubric so watch-list routing never depends on synthesis output.
 items:
   repeat_contact_unresolved:
     business_label: "Repeat contacts on unresolved issues"
     gloss: "Customers coming back because the first contact did not resolve the problem."
+    polarity: negative
   billing_defect_driver:
     business_label: "Contacts caused by billing errors"
     gloss: "Calls driven by a billing, invoice, or charge error the customer should not have had to make."
+    polarity: negative
   deterministic_request:
     business_label: "Rote requests a person handled"
     gloss: "Fully deterministic asks (resets, address changes) a self-service path resolves without an agent."
+    polarity: negative
   manual_after_call_work:
     business_label: "Manual after-call admin"
     gloss: "Agents doing record-keeping by hand after the call that a capture-at-source step removes."
+    polarity: negative
   avoidable_transfer:
     business_label: "Avoidable transfers"
     gloss: "Contacts transferred or escalated for want of first-line capability."
+    polarity: negative
   knowledge_inconsistency:
     business_label: "Inconsistent answers across contacts"
     gloss: "The same question answered differently on different contacts."
+    polarity: negative
   status_chase_inbound:
     business_label: "Status-chase calls"
     gloss: "Contacts whose sole purpose is to chase the status of something already in progress."
+    polarity: negative
   unanticipated_failure:
     business_label: "Avoidable provider-side failures"
     gloss: "Contacts that exist because of a provider-side failure that could have been anticipated."
+    polarity: negative
   first_contact_resolution:
     business_label: "Issues resolved on first contact"
     gloss: "The healthy counter-pattern — resolved in one interaction, no follow-up needed."
+    polarity: positive
   clean_self_service_deflection:
     business_label: "Clean self-service deflection"
     gloss: "A deterministic need met through self-service without consuming agent time."
+    polarity: positive
 headline_metrics:
   avoidable_contact_rate:
     members:
@@ -102,6 +113,8 @@ def test_load_presentation_has_versions_items_and_metric_members():
     assert cfg["version"] == "1.0.0"
     assert cfg["requires"]["rubric_version"] == "1.0.0"
     assert cfg["items"]["manual_after_call_work"]["business_label"] == "Manual after-call admin"
+    assert cfg["items"]["manual_after_call_work"]["polarity"] == "negative"
+    assert cfg["items"]["first_contact_resolution"]["polarity"] == "positive"
     assert cfg["headline_metrics"]["avoidable_contact_rate"]["members"] == [
         "repeat_contact_unresolved", "billing_defect_driver",
         "status_chase_inbound", "unanticipated_failure",
@@ -160,16 +173,16 @@ Add to `tests/test_briefing.py` (top imports become `from cix.briefing import lo
 class _FakeStore:
     """Minimal stand-in for cix.store.Store.hits_for."""
     def __init__(self, rows):
-        self._rows = rows  # list of {"item_id":..., "interaction_id":...}
+        self._rows = rows  # list of {"item_id":..., "interaction_id":..., "unit":...}
     def hits_for(self, artifact_id):
         return list(self._rows)
 
 def test_avoidable_contact_rate_is_a_distinct_union_not_a_sum():
     # Overlap: int-1 matches TWO members; naive sum=3, distinct union=2.
     rows = [
-        {"item_id": "billing_defect_driver", "interaction_id": "int-1"},
-        {"item_id": "status_chase_inbound", "interaction_id": "int-1"},
-        {"item_id": "repeat_contact_unresolved", "interaction_id": "int-2"},
+        {"item_id": "billing_defect_driver", "interaction_id": "int-1", "unit": "interaction"},
+        {"item_id": "status_chase_inbound", "interaction_id": "int-1", "unit": "interaction"},
+        {"item_id": "repeat_contact_unresolved", "interaction_id": "int-2", "unit": "interaction"},
     ]
     members = ["repeat_contact_unresolved", "billing_defect_driver",
                "status_chase_inbound", "unanticipated_failure"]
@@ -179,10 +192,11 @@ def test_avoidable_contact_rate_is_a_distinct_union_not_a_sum():
     assert m["share"] == 0.02
     assert m["members"] == members
 
-def test_avoidable_contact_rate_ignores_non_member_hits():
+def test_avoidable_contact_rate_ignores_non_member_and_non_interaction_hits():
     rows = [
-        {"item_id": "billing_defect_driver", "interaction_id": "int-1"},
-        {"item_id": "manual_after_call_work", "interaction_id": "int-9"},  # occurrence item, not a member
+        {"item_id": "billing_defect_driver", "interaction_id": "int-1", "unit": "interaction"},
+        {"item_id": "manual_after_call_work", "interaction_id": "int-9", "unit": "occurrence"},   # not a member
+        {"item_id": "unanticipated_failure", "interaction_id": "int-3", "unit": "occurrence"},    # member but occurrence-unit row -> structurally excluded
     ]
     members = ["repeat_contact_unresolved", "billing_defect_driver",
                "status_chase_inbound", "unanticipated_failure"]
@@ -203,10 +217,11 @@ Add to `src/cix/briefing.py`:
 ```python
 def avoidable_contact_rate(store, hits_artifact: str, members: list[str], eligible: int) -> dict:
     """Distinct interactions matching >=1 negative interaction-unit member, as a UNION
-    over the hits table (never a sum — overlapping interactions must not double-count)."""
+    over the hits table (never a sum — overlapping interactions must not double-count).
+    Occurrence-unit rows are structurally excluded (spec §5.1): counts never cross units."""
     member_set = set(members)
     ids = {h["interaction_id"] for h in store.hits_for(hits_artifact)
-           if h["item_id"] in member_set}
+           if h["item_id"] in member_set and h.get("unit") == "interaction"}
     value = len(ids)
     return {
         "value": value,
@@ -389,9 +404,9 @@ def _manifest():
 
 def _hits_rows():
     return [
-        {"item_id": "billing_defect_driver", "interaction_id": "int-1"},
-        {"item_id": "status_chase_inbound", "interaction_id": "int-1"},
-        {"item_id": "unanticipated_failure", "interaction_id": "int-2"},
+        {"item_id": "billing_defect_driver", "interaction_id": "int-1", "unit": "interaction"},
+        {"item_id": "status_chase_inbound", "interaction_id": "int-1", "unit": "interaction"},
+        {"item_id": "unanticipated_failure", "interaction_id": "int-2", "unit": "interaction"},
     ]
 
 def test_build_briefing_blocks_route_correctly():
@@ -410,7 +425,7 @@ def test_build_briefing_blocks_route_correctly():
     assert b["plays"][0]["monday_action"] == "Capture at the interaction -> structured extraction"
     # upstream: class-D
     assert [u["item_id"] for u in b["upstream"]] == ["billing_defect_driver"]
-    # watch_list: negative shelf only — positive first_contact_resolution excluded
+    # watch_list: negative-polarity shelf only (config polarity) — positive first_contact_resolution excluded
     watch_ids = [w["item_id"] for w in b["watch_list"]]
     assert "first_contact_resolution" not in watch_ids
     assert set(watch_ids) == {"unanticipated_failure", "status_chase_inbound"}
@@ -426,6 +441,15 @@ def test_build_briefing_unit_safety_guard_rejects_occurrence_member():
     # Corrupt a member to an occurrence unit -> the interaction-only rate must refuse.
     sections["distribution"]["items"]["billing_defect_driver"]["unit"] = "occurrence"
     with pytest.raises(ValueError, match="interaction-unit"):
+        build_briefing({"sections": sections}, _manifest(), cfg, _FakeStore(_hits_rows()))
+
+def test_build_briefing_fails_closed_on_missing_swap_ref():
+    cfg = load_presentation(PRESENTATION)
+    sections = _sections()
+    # A priced class-A play with no catalogue alternative -> the briefing must refuse,
+    # not render a play without a Monday action (spec §3.3: missing swap fails closed).
+    sections["priced_plays"]["plays"][0]["alternatives"] = []
+    with pytest.raises(ValueError, match="swap"):
         build_briefing({"sections": sections}, _manifest(), cfg, _FakeStore(_hits_rows()))
 ```
 
@@ -453,12 +477,17 @@ def _plays(sections: dict, cfg: dict) -> list[dict]:
     dist = sections["distribution"]["items"]
     priced = {p["item_id"]: p for p in sections["priced_plays"].get("plays", [])}
     cells = [c for c in grid if c.get("remedy_class") == "A"]
-    cells.sort(key=lambda c: (_EFFORT_ORDER.get(c["effort"], 9), _OUTCOME_ORDER.get(c["outcome"], 9)))
+    # Tie-break on count (desc) then item_id so the ranking never depends on grid order.
+    cells.sort(key=lambda c: (_EFFORT_ORDER.get(c["effort"], 9), _OUTCOME_ORDER.get(c["outcome"], 9),
+                              -c.get("count", 0), c["item_id"]))
     rows = []
     for rank, c in enumerate(cells, start=1):
         pid = c["item_id"]
         play = priced.get(pid)
         alt = (play.get("alternatives") or [{}])[0] if play else {}
+        if play is not None and not alt.get("substitute"):
+            raise ValueError(f"class-A play {pid!r} is priced but has no swap in the catalogue "
+                             "(missing alternatives/substitute)")
         rows.append({
             "rank": rank, "item_id": pid, "label": _label(cfg, pid), "gloss": _gloss(cfg, pid),
             "count": c["count"], "unit": dist.get(pid, {}).get("unit"),
@@ -478,12 +507,14 @@ def _upstream(sections: dict, cfg: dict) -> list[dict]:
                      "count": c["count"], "unit": d.get("unit"), "share": d.get("share")})
     return rows
 
-def _watch_list(sections: dict, cfg: dict, positive_ids: set[str]) -> list[dict]:
+def _watch_list(sections: dict, cfg: dict) -> list[dict]:
     dist = sections["distribution"]["items"]
     rows = []
     for s in sections["leverage"].get("shelf", []):
         pid = s["item_id"]
-        if pid in positive_ids:
+        # Route by config polarity (spec §4): positives always go to whats_working,
+        # never the watch list — independent of what synthesis emitted.
+        if cfg["items"].get(pid, {}).get("polarity") == "positive":
             continue
         d = dist.get(pid, {})
         rows.append({"item_id": pid, "label": _label(cfg, pid), "gloss": _gloss(cfg, pid),
@@ -538,7 +569,6 @@ def build_briefing(report: dict, manifest: dict, cfg: dict, store) -> dict:
     rate = avoidable_contact_rate(store, hits_artifact, members, eligible)
     rate["honesty"] = manifest.get("corpus_clearance")
     opportunity = automatable_opportunity(sections["leverage"]["grid"], sections["priced_plays"])
-    positive_ids = {f["item_id"] for f in sections.get("whats_working", [])}
     return {
         "meta": {"corpus_clearance": manifest.get("corpus_clearance"),
                  "rubric_version": manifest.get("rubric_version"),
@@ -548,7 +578,7 @@ def build_briefing(report: dict, manifest: dict, cfg: dict, store) -> dict:
         "whats_working": _whats_working(sections, cfg),
         "plays": _plays(sections, cfg),
         "upstream": _upstream(sections, cfg),
-        "watch_list": _watch_list(sections, cfg, positive_ids),
+        "watch_list": _watch_list(sections, cfg),
         "trust": _trust(sections, manifest),
     }
 ```
@@ -556,7 +586,7 @@ def build_briefing(report: dict, manifest: dict, cfg: dict, store) -> dict:
 - [ ] **Step 4: Run test to verify it passes**
 
 Run: `uv run pytest tests/test_briefing.py -k build_briefing -v`
-Expected: PASS (2 tests)
+Expected: PASS (3 tests)
 
 - [ ] **Step 5: Commit**
 
@@ -689,7 +719,7 @@ def render_briefing_html(b: dict) -> str:
     if b["whats_working"]:
         out.append("<h2>What's working</h2><ul>")
         for w in b["whats_working"]:
-            share = f" ({int(w['share']*100)}% of eligible)" if w.get("share") else ""
+            share = f" ({round(w['share']*100)}% of eligible)" if w.get("share") else ""
             out.append(f"<li><b>{_esc(w['label'])}</b> — {w.get('count')}{share}. {_esc(w['gloss'])}</li>")
         out.append("</ul>")
     # Plays
@@ -705,7 +735,7 @@ def render_briefing_html(b: dict) -> str:
     if b["upstream"]:
         out.append("<h2>Upstream problems worth fixing</h2><ul>")
         for u in b["upstream"]:
-            share = f" ({int(u['share']*100)}% of contacts)" if u.get("share") else ""
+            share = f" ({round(u['share']*100)}% of contacts)" if u.get("share") else ""
             out.append(f"<li><b>{_esc(u['label'])}</b> — {u['count']}{share}. {_esc(u['gloss'])}</li>")
         out.append("</ul>")
     # Watch list
@@ -718,7 +748,7 @@ def render_briefing_html(b: dict) -> str:
     t = b["trust"]
     out.append("<h2>Why you can trust these numbers</h2>")
     cov = t["coverage"]
-    out.append(f"<p class='muted'>{int((cov['interaction_coverage'] or 0)*100)}% of {cov['eligible_interactions']} eligible interactions read "
+    out.append(f"<p class='muted'>{round((cov['interaction_coverage'] or 0)*100)}% of {cov['eligible_interactions']} eligible interactions read "
                f"({cov['residual_interactions']} residual). Drops: {t['drop_summary']}.</p>")
     if t["evidence_note"]:
         out.append(f"<p class='muted'>{_esc(t['evidence_note'])}</p>")
@@ -873,7 +903,9 @@ def resolve_metric(store: Store, manifest: dict, presentation: dict, metric_name
         return {"found": False, "metric": metric_name}
     members = set(spec["members"])
     ha = manifest["artifacts"]["hits"]
-    ids = sorted({h["interaction_id"] for h in store.hits_for(ha) if h["item_id"] in members})
+    # Same union as briefing.avoidable_contact_rate: interaction-unit rows only.
+    ids = sorted({h["interaction_id"] for h in store.hits_for(ha)
+                  if h["item_id"] in members and h.get("unit") == "interaction"})
     return {"found": True, "metric": metric_name, "value": len(ids),
             "denominator": eligible, "interaction_ids": ids, "members": spec["members"]}
 ```
@@ -899,7 +931,7 @@ In `_cmd_query` (`src/cix/cli.py:226`), add this branch immediately after the `i
         report = json.loads((run / "report.json").read_text(encoding="utf-8"))
         manifest = json.loads((run / "manifest.json").read_text(encoding="utf-8"))
         eligible = report["sections"]["distribution"]["eligible_interactions"]
-        presentation = load_presentation(Path("configs/briefing_presentation_v1.yaml"))
+        presentation = load_presentation(Path(args.presentation))
         res = resolve_metric(store, manifest, presentation, args.metric, eligible)
         if not res["found"]:
             print(f'metric "{args.metric}" does NOT resolve — unknown headline metric')
@@ -911,10 +943,12 @@ In `_cmd_query` (`src/cix/cli.py:226`), add this branch immediately after the `i
         return 0
 ```
 
-In the query subparser (`src/cix/cli.py:490-495`), add a `--metric` option to the mutually-exclusive group `q_grp`:
+In the query subparser (`src/cix/cli.py:490-495`), add a `--metric` option to the mutually-exclusive group `q_grp`, plus a `--presentation` option on `p_query` itself (not in the group) so `--metric` works outside the repo root:
 
 ```python
     q_grp.add_argument("--metric", help="headline metric name: list the interaction set behind it")
+    p_query.add_argument("--presentation", default="configs/briefing_presentation_v1.yaml",
+                         help="presentation config used by --metric (declares metric membership)")
 ```
 
 - [ ] **Step 6: Run the CLI end-to-end**
@@ -975,6 +1009,12 @@ def test_cli_briefing_no_pdf_skips_pdf(tmp_path):
     shutil.copytree(Path("runs/svc-run"), run)
     assert main(["briefing", str(run), "--no-pdf"]) == 0
     assert not (run / "briefing.pdf").exists()
+
+def test_cli_briefing_missing_artifacts_fail_closed(tmp_path):
+    # Spec §3.3: a dir without persisted artifacts fails closed with a message, no traceback.
+    empty = tmp_path / "not-a-run"
+    empty.mkdir()
+    assert main(["briefing", str(empty), "--no-pdf"]) == 1
 ```
 
 - [ ] **Step 2: Run test to verify it fails**
@@ -992,6 +1032,10 @@ def _cmd_briefing(args) -> int:
     build briefing.json + briefing.html (+ briefing.pdf unless --no-pdf)."""
     from cix.briefing import build_briefing, render_briefing_html, render_briefing_pdf
     run = Path(args.run)
+    for req in ("run.db", "report.json", "manifest.json"):
+        if not (run / req).exists():
+            print(f"briefing failed closed: missing persisted artifact {run / req}")
+            return 1
     store = open_store(run / "run.db", read_only=True)  # writes impossible, not merely avoided
     report = json.loads((run / "report.json").read_text(encoding="utf-8"))
     manifest = json.loads((run / "manifest.json").read_text(encoding="utf-8"))
@@ -1026,7 +1070,7 @@ In `main` (`src/cix/cli.py`), add after the `p_query` block (line ~495):
 - [ ] **Step 5: Run test to verify it passes**
 
 Run: `uv run pytest tests/test_briefing.py -k cli_briefing -v`
-Expected: PASS (2 tests)
+Expected: PASS (3 tests)
 
 - [ ] **Step 6: Run the full suite + a live PDF render**
 
@@ -1080,21 +1124,25 @@ In `README.md`, add a bullet to the Pipeline/Status area noting the new delivera
 
 - [ ] **Step 3: Verify the runbook command block is accurate**
 
-Run: `uv run cix briefing runs/svc-run --no-pdf && uv run cix query runs/svc-run --metric avoidable_contact_rate | head -1`
-Expected: briefing writes; the metric line reads `avoidable_contact_rate: 33 / 100 (...)`.
+Run: `uv run cix briefing runs/svc-run && uv run cix query runs/svc-run --metric avoidable_contact_rate | head -1`
+Expected: briefing writes (append `--no-pdf` if WeasyPrint's system libs are absent); the metric line reads `avoidable_contact_rate: 33 / 100 (...)`.
+
+`runs/svc-run` is a git-tracked fixture, so the generated `briefing.*` files are committed as demo assets in Step 4 (the runbook links `briefing.html` directly) rather than left untracked.
 
 - [ ] **Step 4: Commit**
 
 ```bash
-git add README.md docs/demo_runbook.md
-git commit -m "docs(briefing): add cix briefing to README + demo runbook"
+git add README.md docs/demo_runbook.md runs/svc-run/briefing.*
+git commit -m "docs(briefing): add cix briefing to README + runbook; commit demo briefing artifacts"
 ```
 
 ---
 
 ## Self-Review notes (for the implementer)
 
-- **Spec coverage:** config artifact (T1) · metric ① union (T2) · metric ② gated dollar (T3) · block assembly + honesty rules + unit-safety (T4) · version fail-closed (T5) · HTML (T6) · PDF-from-HTML + optional dep + `--no-pdf` (T7) · `cix query --metric` (T8) · `cix briefing` CLI + golden + read-only guarantee (T9) · docs (T10). Every spec §4–§9 item maps to a task.
-- **Honesty rules (spec §6):** no cross-sum → interaction-only guard in T4 + occurrence items structurally excluded from the metric (T2); union-not-sum → T2; formula+query handle on every headline number → T2/T3 fields + T8; O-level banner → T4/T6; honest empty state → T3 (no catalogue) ; evidence-gap note → T4/T6.
+- **Spec coverage:** config artifact incl. polarity (T1) · metric ① union, unit-filtered (T2) · metric ② gated dollar (T3) · block assembly + honesty rules + unit-safety + missing-swap-ref fail-closed (T4) · version fail-closed (T5) · HTML (T6) · PDF-from-HTML + optional dep + `--no-pdf` (T7) · `cix query --metric` (T8) · `cix briefing` CLI + golden + read-only + missing-artifact fail-closed (T9) · docs + committed demo artifacts (T10). Every spec §4–§9 item maps to a task.
+- **Honesty rules (spec §6):** no cross-sum → `unit == "interaction"` filter inside the union itself (T2) + config-level member guard (T4); union-not-sum → T2; formula+query handle on every headline number → T2/T3 fields + T8; O-level banner → T4/T6; honest empty state → T3 (no catalogue); evidence-gap note → T4/T6. §6.5's all-zero-member omission is consciously deferred: the v1 config always declares four members, and a zero-valued union renders honestly as `0 / N` with its formula and query handle.
+- **Polarity routing:** the watch list excludes positives via the config's `polarity` field (T1/T4), never via `whats_working` membership — presentation does not depend on synthesis output.
+- **`--metric` read-only (spec §9.6):** guaranteed structurally — `_cmd_query` opens the store `mode=ro`, so any write raises; no separate drop_log test needed.
 - **Type consistency:** `avoidable_contact_rate(store, hits_artifact, members, eligible)`, `automatable_opportunity(leverage_grid, priced_plays)`, `build_briefing(report, manifest, cfg, store)`, `render_briefing_html(briefing)`, `render_briefing_pdf(html, out_path)`, `resolve_metric(store, manifest, presentation, metric_name, eligible)` — signatures are stable across the tasks that call them.
 - **Frozen instrument:** no task touches synthesis, aggregation, the evidence gate, thresholds, or `report.*` rendering. `report.json`/`report.pdf` are read, never rewritten.
