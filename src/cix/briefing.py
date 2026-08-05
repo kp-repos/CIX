@@ -172,6 +172,81 @@ def build_briefing(report: dict, manifest: dict, cfg: dict, store) -> dict:
     }
 
 
+def _money(n) -> str:
+    return f"{n:,.0f}"
+
+def _esc(s) -> str:
+    s = "" if s is None else str(s)
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+_CSS = """
+body{font-family:Helvetica,Arial,sans-serif;color:#1a1a1a;max-width:820px;margin:2rem auto;line-height:1.5}
+h1{font-size:1.6rem;margin-bottom:.2rem}.banner{background:#fef3c7;border:1px solid #f59e0b;padding:.5rem .8rem;border-radius:6px;font-size:.85rem;margin:.6rem 0}
+h2{font-size:1.15rem;border-bottom:2px solid #e5e7eb;padding-bottom:.2rem;margin-top:1.6rem}
+.headline{background:#f0f9ff;border:1px solid #bae6fd;padding:.8rem 1rem;border-radius:8px;margin:.8rem 0}
+.big{font-size:1.4rem;font-weight:700}table{border-collapse:collapse;width:100%;font-size:.9rem;margin:.6rem 0}
+th,td{text-align:left;padding:.4rem .5rem;border-bottom:1px solid #e5e7eb;vertical-align:top}
+.muted{color:#6b7280;font-size:.85rem}.tag{display:inline-block;background:#f3f4f6;border-radius:4px;padding:0 .35rem;font-size:.8rem}
+"""
+
+def render_briefing_html(b: dict) -> str:
+    """One self-contained HTML string (inline CSS, no external assets)."""
+    rate = b["headline"]["avoidable_contact_rate"]
+    opp = b["headline"]["automatable_opportunity"]
+    out = ["<!DOCTYPE html>", "<html><head><meta charset='utf-8'>",
+           f"<style>{_CSS}</style></head><body>"]
+    out.append("<h1>Customer Interaction Review</h1>")
+    out.append(f"<div class='banner'>{_esc(b['meta']['corpus_clearance'])}</div>")
+    # Headline
+    out.append("<h2>The one thing to know</h2>")
+    out.append("<div class='headline'>")
+    out.append(f"<div class='big'>{rate['value']} / {rate['denominator']} contacts matched at least one avoidable pattern</div>")
+    out.append(f"<div class='muted'>{_esc(rate['method'])} · resolve with <span class='tag'>{_esc(rate['query'])}</span></div>")
+    if opp:
+        out.append(f"<div class='big'>${_money(opp['band']['low'])}&ndash;${_money(opp['band']['high'])} / yr indicative automatable opportunity</div>")
+        out.append(f"<div class='muted'>{_esc(opp['shared_remedy_note'])}</div>")
+    out.append("</div>")
+    # What's working
+    if b["whats_working"]:
+        out.append("<h2>What's working</h2><ul>")
+        for w in b["whats_working"]:
+            share = f" ({round(w['share']*100)}% of eligible)" if w.get("share") else ""
+            out.append(f"<li><b>{_esc(w['label'])}</b> — {w.get('count')}{share}. {_esc(w['gloss'])}</li>")
+        out.append("</ul>")
+    # Plays
+    out.append("<h2>Where the leverage is</h2><table>")
+    out.append("<tr><th>#</th><th>What's happening</th><th>How often</th><th>Effort / payoff</th><th>Est. value / yr</th><th>Monday action</th></tr>")
+    for p in b["plays"]:
+        band = f"${_money(p['band']['low'])}&ndash;${_money(p['band']['high'])}" if p.get("band") else "&mdash;"
+        out.append(f"<tr><td>{p['rank']}</td><td><b>{_esc(p['label'])}</b><br><span class='muted'>{_esc(p['gloss'])}</span></td>"
+                   f"<td>{p['count']} {_esc(p['unit'])}</td><td>{_esc(p['effort'])} / {_esc(p['outcome'])}</td>"
+                   f"<td>{band}</td><td>{_esc(p.get('monday_action'))} <span class='tag'>{_esc(p.get('swap_ref'))}</span></td></tr>")
+    out.append("</table>")
+    # Upstream
+    if b["upstream"]:
+        out.append("<h2>Upstream problems worth fixing</h2><ul>")
+        for u in b["upstream"]:
+            share = f" ({round(u['share']*100)}% of contacts)" if u.get("share") else ""
+            out.append(f"<li><b>{_esc(u['label'])}</b> — {u['count']}{share}. {_esc(u['gloss'])}</li>")
+        out.append("</ul>")
+    # Watch list
+    if b["watch_list"]:
+        out.append("<h2>Watch list — real, no off-the-shelf remedy yet</h2><ul>")
+        for w in b["watch_list"]:
+            out.append(f"<li><b>{_esc(w['label'])}</b> — {w['count']} {_esc(w.get('unit'))}. {_esc(w['gloss'])}</li>")
+        out.append("</ul>")
+    # Trust
+    t = b["trust"]
+    out.append("<h2>Why you can trust these numbers</h2>")
+    cov = t["coverage"]
+    out.append(f"<p class='muted'>{round((cov['interaction_coverage'] or 0)*100)}% of {cov['eligible_interactions']} eligible interactions read "
+               f"({cov['residual_interactions']} residual). Drops: {t['drop_summary']}.</p>")
+    if t["evidence_note"]:
+        out.append(f"<p class='muted'>{_esc(t['evidence_note'])}</p>")
+    out.append("</body></html>")
+    return "\n".join(out)
+
+
 def avoidable_contact_rate(store, hits_artifact: str, members: list[str], eligible: int) -> dict:
     """Distinct interactions matching >=1 negative interaction-unit member, as a UNION
     over the hits table (never a sum — overlapping interactions must not double-count).

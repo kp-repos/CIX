@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 import pytest
-from cix.briefing import load_presentation, avoidable_contact_rate, automatable_opportunity, build_briefing
+from cix.briefing import load_presentation, avoidable_contact_rate, automatable_opportunity, build_briefing, render_briefing_html
 
 PRESENTATION = Path("configs/briefing_presentation_v1.yaml")
 
@@ -183,3 +183,17 @@ def test_build_briefing_rejects_rubric_version_mismatch():
     manifest["rubric_version"] = "2.0.0"  # config requires 1.0.0
     with pytest.raises(ValueError, match="rubric version"):
         build_briefing({"sections": _sections()}, manifest, cfg, _FakeStore(_hits_rows()))
+
+
+def test_render_html_is_self_contained_and_shows_key_facts():
+    cfg = load_presentation(PRESENTATION)
+    b = build_briefing({"sections": _sections()}, _manifest(), cfg, _FakeStore(_hits_rows()))
+    html = render_briefing_html(b)
+    assert html.lstrip().startswith("<!DOCTYPE html>")
+    assert "<style>" in html and "http://" not in html and "https://" not in html  # self-contained, no external assets
+    assert "O1" in html                                   # honesty banner
+    assert "Manual after-call admin" in html              # business label
+    assert "Capture at the interaction" in html           # Monday action
+    assert "2 / 100" in html or "2/100" in html           # avoidable-contact rate value
+    assert "4,040" in html and "12,120" in html           # opportunity band, formatted
+    assert "pending" in html.lower()                      # evidence-gap note
