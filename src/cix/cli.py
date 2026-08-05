@@ -414,10 +414,13 @@ def _cmd_selftest(args) -> int:
                              manifest["tag_vocab_version"])
         crosswalk = {i.id: i.swap_ref for i in rubric.items}
     res = self_test(all_ids, hits, spec, catalogue=catalogue, crosswalk=crosswalk)
+    outcome_level = {"S1": "O3-eligible",
+                     "S2": "O3-corpus-level-items-only"}.get(
+        manifest.get("substrate_class"), "O1-synthetic")
     store.write_validation("T-SST", None, res["state"],
                            f"material_fraction={res['material_fraction']} "
                            f"layers={','.join(res['layers_compared'])} spec={spec.version} "
-                           "outcome_level=O1-synthetic-until-real-corpus")
+                           f"outcome_level={outcome_level}")
     report = {"spec_version": spec.version, **res}
     (run_dir / "selftest_report.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
     print(json.dumps({"state": res["state"], "material_fraction": res["material_fraction"],
