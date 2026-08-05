@@ -767,19 +767,24 @@ Add to `tests/test_briefing.py` (import `render_briefing_pdf`):
 
 ```python
 def test_render_pdf_writes_a_pdf_file(tmp_path):
-    weasyprint = pytest.importorskip("weasyprint")  # skip where system libs absent
     cfg = load_presentation(PRESENTATION)
     b = build_briefing({"sections": _sections()}, _manifest(), cfg, _FakeStore(_hits_rows()))
     html = render_briefing_html(b)
     out = tmp_path / "briefing.pdf"
-    render_briefing_pdf(html, out)
+    try:
+        # render_briefing_pdf sets the macOS DYLD shim itself before importing weasyprint,
+        # so this genuinely renders where the libs exist; skip only on true absence.
+        render_briefing_pdf(html, out)
+    except (OSError, ImportError) as e:
+        import pytest
+        pytest.skip(f"weasyprint/system libs unavailable: {e}")
     assert out.exists() and out.read_bytes()[:5] == b"%PDF-"
 ```
 
 - [ ] **Step 3: Run test to verify it fails**
 
 Run: `uv run pytest tests/test_briefing.py -k render_pdf -v`
-Expected: FAIL with `ImportError: cannot import name 'render_briefing_pdf'` (or SKIP if weasyprint unavailable — in that case the function still must exist, so add it anyway in Step 4)
+Expected: collection/import error `cannot import name 'render_briefing_pdf'` (the function doesn't exist yet)
 
 - [ ] **Step 4: Write minimal implementation**
 
@@ -788,7 +793,19 @@ Add to `src/cix/briefing.py`:
 ```python
 def render_briefing_pdf(html: str, out_path) -> None:
     """Print the same HTML/CSS to PDF (a faithful 'screenshot-type' view). Imports
-    WeasyPrint lazily so core cix installs and runs without it (see --no-pdf)."""
+    WeasyPrint lazily so core cix installs and runs without it (see --no-pdf).
+
+    macOS: WeasyPrint's cffi dlopen cannot find Homebrew's gobject/pango/cairo unless
+    DYLD_FALLBACK_LIBRARY_PATH includes the Homebrew lib dir. find_library re-reads the
+    env at call time, so setting it in-process here (before the import) is honored and the
+    user needs no env-var wrapper."""
+    import os, sys
+    if sys.platform == "darwin":
+        for libdir in ("/opt/homebrew/lib", "/usr/local/lib"):
+            if os.path.isdir(libdir):
+                cur = os.environ.get("DYLD_FALLBACK_LIBRARY_PATH", "")
+                if libdir not in cur.split(":"):
+                    os.environ["DYLD_FALLBACK_LIBRARY_PATH"] = (cur + ":" + libdir).lstrip(":")
     from weasyprint import HTML
     HTML(string=html).write_pdf(str(out_path))
 ```
@@ -796,7 +813,7 @@ def render_briefing_pdf(html: str, out_path) -> None:
 - [ ] **Step 5: Run test to verify it passes**
 
 Run: `uv run pytest tests/test_briefing.py -k render_pdf -v`
-Expected: PASS (or SKIP if weasyprint/system-libs unavailable)
+Expected: PASS on this machine (Homebrew pango/cairo/gdk-pixbuf present; the DYLD shim finds them). SKIP only where the system libs are genuinely absent.
 
 - [ ] **Step 6: Commit**
 
