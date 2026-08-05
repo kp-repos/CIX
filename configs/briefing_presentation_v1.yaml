@@ -1,0 +1,56 @@
+# Business Briefing presentation layer v1 — maps A9 service-rubric item IDs to
+# business language and declares headline-metric membership. Model-free, versioned,
+# reviewable (peer to the rubric). Monday-action text is NOT here — it comes from the
+# swap catalogue via report.json priced_plays[].alternatives[].substitute.
+version: "1.0.0"
+requires:
+  rubric_version: "1.0.0"
+# polarity mirrors the rubric so watch-list routing never depends on synthesis output.
+items:
+  repeat_contact_unresolved:
+    business_label: "Repeat contacts on unresolved issues"
+    gloss: "Customers coming back because the first contact did not resolve the problem."
+    polarity: negative
+  billing_defect_driver:
+    business_label: "Contacts caused by billing errors"
+    gloss: "Calls driven by a billing, invoice, or charge error the customer should not have had to make."
+    polarity: negative
+  deterministic_request:
+    business_label: "Rote requests a person handled"
+    gloss: "Fully deterministic asks (resets, address changes) a self-service path resolves without an agent."
+    polarity: negative
+  manual_after_call_work:
+    business_label: "Manual after-call admin"
+    gloss: "Agents doing record-keeping by hand after the call that a capture-at-source step removes."
+    polarity: negative
+  avoidable_transfer:
+    business_label: "Avoidable transfers"
+    gloss: "Contacts transferred or escalated for want of first-line capability."
+    polarity: negative
+  knowledge_inconsistency:
+    business_label: "Inconsistent answers across contacts"
+    gloss: "The same question answered differently on different contacts."
+    polarity: negative
+  status_chase_inbound:
+    business_label: "Status-chase calls"
+    gloss: "Contacts whose sole purpose is to chase the status of something already in progress."
+    polarity: negative
+  unanticipated_failure:
+    business_label: "Avoidable provider-side failures"
+    gloss: "Contacts that exist because of a provider-side failure that could have been anticipated."
+    polarity: negative
+  first_contact_resolution:
+    business_label: "Issues resolved on first contact"
+    gloss: "The healthy counter-pattern — resolved in one interaction, no follow-up needed."
+    polarity: positive
+  clean_self_service_deflection:
+    business_label: "Clean self-service deflection"
+    gloss: "A deterministic need met through self-service without consuming agent time."
+    polarity: positive
+headline_metrics:
+  avoidable_contact_rate:
+    members:
+      - repeat_contact_unresolved
+      - billing_defect_driver
+      - status_chase_inbound
+      - unanticipated_failure
