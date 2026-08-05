@@ -260,3 +260,31 @@ def test_cli_briefing_missing_artifacts_fail_closed(tmp_path):
     empty = tmp_path / "not-a-run"
     empty.mkdir()
     assert main(["briefing", str(empty), "--no-pdf"]) == 1
+
+
+def test_cli_briefing_value_error_fails_closed(tmp_path):
+    # The other documented fail-closed trigger: build_briefing raising ValueError (here a
+    # config/rubric version mismatch). Must return 1 and write no briefing.json — no traceback.
+    import shutil
+    run = tmp_path / "svc-run"
+    shutil.copytree(Path("runs/svc-run"), run)
+    (run / "briefing.json").unlink(missing_ok=True)  # clear committed demo artifact
+    manifest = json.loads((run / "manifest.json").read_text(encoding="utf-8"))
+    manifest["rubric_version"] = "9.9.9"  # config requires 1.0.0
+    (run / "manifest.json").write_text(json.dumps(manifest), encoding="utf-8")
+    assert main(["briefing", str(run), "--no-pdf"]) == 1
+    assert not (run / "briefing.json").exists()
+
+
+def test_cli_briefing_pdf_unavailable_fails_closed(tmp_path, monkeypatch):
+    # Default (PDF) command on a machine without WeasyPrint's system libs must fail closed
+    # with a message, not crash — briefing.html is still written.
+    import shutil
+    from cix import briefing as briefing_mod
+    run = tmp_path / "svc-run"
+    shutil.copytree(Path("runs/svc-run"), run)
+    def _boom(html, out_path):
+        raise OSError("cannot load library 'libgobject-2.0-0'")
+    monkeypatch.setattr(briefing_mod, "render_briefing_pdf", _boom)
+    assert main(["briefing", str(run)]) == 1
+    assert (run / "briefing.html").exists()

@@ -279,19 +279,29 @@ def _cmd_briefing(args) -> int:
             print(f"briefing failed closed: missing persisted artifact {run / req}")
             return 1
     store = open_store(run / "run.db", read_only=True)  # writes impossible, not merely avoided
-    report = json.loads((run / "report.json").read_text(encoding="utf-8"))
-    manifest = json.loads((run / "manifest.json").read_text(encoding="utf-8"))
     cfg = load_presentation(Path(args.presentation))
     try:
+        # A present-but-corrupt/incompatible artifact (bad JSON -> ValueError, missing
+        # structure -> KeyError, honesty-rule violation -> ValueError) fails closed with a
+        # message, not a traceback (spec §3.3). JSONDecodeError is a ValueError subclass.
+        report = json.loads((run / "report.json").read_text(encoding="utf-8"))
+        manifest = json.loads((run / "manifest.json").read_text(encoding="utf-8"))
         briefing = build_briefing(report, manifest, cfg, store)
-    except ValueError as e:
+    except (ValueError, KeyError) as e:
         print(f"briefing failed closed: {e}")
         return 1
     (run / "briefing.json").write_text(json.dumps(briefing, indent=2, ensure_ascii=False), encoding="utf-8")
     html = render_briefing_html(briefing)
     (run / "briefing.html").write_text(html, encoding="utf-8")
     if not args.no_pdf:
-        render_briefing_pdf(html, run / "briefing.pdf")
+        try:
+            render_briefing_pdf(html, run / "briefing.pdf")
+        except (OSError, ImportError) as e:
+            # briefing.json + briefing.html are already written and valid; only the PDF needs
+            # WeasyPrint's system libraries. Fail closed with a hint instead of crashing.
+            print(f"briefing failed closed: PDF render unavailable ({e}); "
+                  "briefing.json + briefing.html written — re-run with --no-pdf to skip the PDF")
+            return 1
     print(json.dumps({"run": str(run), "avoidable_contact_rate": briefing["headline"]["avoidable_contact_rate"]["value"],
                       "pdf": (not args.no_pdf)}))
     return 0
