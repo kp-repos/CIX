@@ -139,6 +139,10 @@ def _trust(sections: dict, manifest: dict) -> dict:
 def build_briefing(report: dict, manifest: dict, cfg: dict, store) -> dict:
     """Assemble the business briefing from persisted report sections + manifest + read-only store.
     Model-free; enforces the honesty rules in the spec (§6)."""
+    required = cfg.get("requires", {}).get("rubric_version")
+    actual = manifest.get("rubric_version")
+    if required != actual:
+        raise ValueError(f"presentation config rubric version {required!r} != run rubric version {actual!r}")
     sections = report["sections"]
     dist_items = sections["distribution"]["items"]
     members = cfg["headline_metrics"]["avoidable_contact_rate"]["members"]

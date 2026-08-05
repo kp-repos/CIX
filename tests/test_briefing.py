@@ -176,3 +176,10 @@ def test_build_briefing_fails_closed_on_missing_swap_ref():
     sections["priced_plays"]["plays"][0]["alternatives"] = []
     with pytest.raises(ValueError, match="swap"):
         build_briefing({"sections": sections}, _manifest(), cfg, _FakeStore(_hits_rows()))
+
+def test_build_briefing_rejects_rubric_version_mismatch():
+    cfg = load_presentation(PRESENTATION)
+    manifest = _manifest()
+    manifest["rubric_version"] = "2.0.0"  # config requires 1.0.0
+    with pytest.raises(ValueError, match="rubric version"):
+        build_briefing({"sections": _sections()}, manifest, cfg, _FakeStore(_hits_rows()))
