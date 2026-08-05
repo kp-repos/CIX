@@ -63,3 +63,11 @@ Interpretation is human. The hoped-for hit: Block's rank order is dominated by
 loss-without-remedy patterns and the ratio in `unremediated_loss_rate` points the same
 direction as the withheld 270× relief-rate gap. A miss is a finding too — it feeds the
 calibration pass that gates the full 63K pair run.
+
+    # Resolve a headline metric to its interaction set (note the complaint presentation config):
+    uv run cix query runs/cfpb-block-pilot --metric unremediated_loss_rate \
+      --presentation configs/briefing_presentation_complaint_v1.yaml
+
+`cix query --metric`'s `--presentation` defaults to the SERVICE config, which does not
+declare `unremediated_loss_rate` — omit the flag and the resolve reports "unknown headline
+metric". Pass the complaint presentation config to walk the metric back to its source.
