@@ -248,6 +248,9 @@ def test_cli_briefing_no_pdf_skips_pdf(tmp_path):
     import shutil
     run = tmp_path / "svc-run"
     shutil.copytree(Path("runs/svc-run"), run)
+    # svc-run ships a committed demo briefing.pdf; clear it so we test that --no-pdf
+    # does not *produce* a PDF, not merely that the fixture lacks one.
+    (run / "briefing.pdf").unlink(missing_ok=True)
     assert main(["briefing", str(run), "--no-pdf"]) == 0
     assert not (run / "briefing.pdf").exists()
 
