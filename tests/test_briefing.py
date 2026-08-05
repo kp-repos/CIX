@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 import pytest
-from cix.briefing import load_presentation, avoidable_contact_rate
+from cix.briefing import load_presentation, avoidable_contact_rate, automatable_opportunity
 
 PRESENTATION = Path("configs/briefing_presentation_v1.yaml")
 
@@ -50,3 +50,36 @@ def test_load_presentation_has_versions_items_and_metric_members():
         "repeat_contact_unresolved", "billing_defect_driver",
         "status_chase_inbound", "unanticipated_failure",
     ]
+
+
+def _leverage_grid():
+    return [
+        {"item_id": "manual_after_call_work", "effort": "low", "outcome": "large", "count": 87, "remedy_class": "A"},
+        {"item_id": "deterministic_request", "effort": "medium", "outcome": "medium", "count": 19, "remedy_class": "A"},
+        {"item_id": "avoidable_transfer", "effort": "medium", "outcome": "medium", "count": 9, "remedy_class": "A"},
+        {"item_id": "billing_defect_driver", "effort": "high", "outcome": "large", "count": 19, "remedy_class": "D"},
+    ]
+
+def _priced_plays():
+    return {"plays": [
+        {"item_id": "manual_after_call_work", "band": {"low": 3480.0, "high": 10440.0},
+         "alternatives": [{"swap_ref": "SW-ADMIN-CAPTURE",
+                           "substitute": "Capture at the interaction -> structured extraction"}]},
+        {"item_id": "deterministic_request", "band": {"low": 380.0, "high": 1140.0},
+         "alternatives": [{"swap_ref": "SW-STATUS-SELFSERVE",
+                           "substitute": "Self-service status + automated routing"}]},
+        {"item_id": "avoidable_transfer", "band": {"low": 180.0, "high": 540.0},
+         "alternatives": [{"swap_ref": "SW-STATUS-SELFSERVE",
+                           "substitute": "Self-service status + automated routing"}]},
+    ]}
+
+def test_automatable_opportunity_sums_class_a_bands_with_caveats():
+    m = automatable_opportunity(_leverage_grid(), _priced_plays())
+    assert m["band"] == {"low": 4040.0, "high": 12120.0}
+    assert m["inferred"] is True
+    assert m["evidence_tier"] == "candidate"
+    # Two class-A plays share SW-STATUS-SELFSERVE -> shared-remedy note present.
+    assert "SW-STATUS-SELFSERVE" in m["shared_remedy_note"]
+
+def test_automatable_opportunity_absent_without_catalogue():
+    assert automatable_opportunity(_leverage_grid(), {"plays": []}) is None
