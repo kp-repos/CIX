@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 import pytest
-from cix.briefing import load_presentation, avoidable_contact_rate, automatable_opportunity, build_briefing, render_briefing_html
+from cix.briefing import load_presentation, avoidable_contact_rate, automatable_opportunity, build_briefing, render_briefing_html, render_briefing_pdf
 
 PRESENTATION = Path("configs/briefing_presentation_v1.yaml")
 
@@ -197,3 +197,18 @@ def test_render_html_is_self_contained_and_shows_key_facts():
     assert "2 / 100" in html or "2/100" in html           # avoidable-contact rate value
     assert "4,040" in html and "12,120" in html           # opportunity band, formatted
     assert "pending" in html.lower()                      # evidence-gap note
+
+
+def test_render_pdf_writes_a_pdf_file(tmp_path):
+    cfg = load_presentation(PRESENTATION)
+    b = build_briefing({"sections": _sections()}, _manifest(), cfg, _FakeStore(_hits_rows()))
+    html = render_briefing_html(b)
+    out = tmp_path / "briefing.pdf"
+    try:
+        # render_briefing_pdf sets the macOS DYLD shim itself before importing weasyprint,
+        # so this genuinely renders where the libs exist; skip only on true absence.
+        render_briefing_pdf(html, out)
+    except (OSError, ImportError) as e:
+        import pytest
+        pytest.skip(f"weasyprint/system libs unavailable: {e}")
+    assert out.exists() and out.read_bytes()[:5] == b"%PDF-"
