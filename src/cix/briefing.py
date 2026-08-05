@@ -50,8 +50,10 @@ _OUTCOME_ORDER = {"large": 0, "medium": 1, "small": 2}
 def _label(cfg: dict, item_id: str) -> str:
     return cfg["items"].get(item_id, {}).get("business_label", item_id)
 
+
 def _gloss(cfg: dict, item_id: str) -> str:
     return cfg["items"].get(item_id, {}).get("gloss", "")
+
 
 def _plays(sections: dict, cfg: dict) -> list[dict]:
     grid = sections["leverage"]["grid"]
@@ -95,6 +97,7 @@ def _watch_list(sections: dict, cfg: dict) -> list[dict]:
         pid = s["item_id"]
         # Route by config polarity (spec §4): positives always go to whats_working,
         # never the watch list — independent of what synthesis emitted.
+        # items absent from cfg fall through here (label falls back to item_id)
         if cfg["items"].get(pid, {}).get("polarity") == "positive":
             continue
         d = dist.get(pid, {})
@@ -143,6 +146,7 @@ def build_briefing(report: dict, manifest: dict, cfg: dict, store) -> dict:
     # whose unit is anything else so counts can never cross units.
     for m in members:
         unit = dist_items.get(m, {}).get("unit")
+        # absent distribution entry (unit is None) = member not classified in this run; skip the guard
         if unit is not None and unit != "interaction":
             raise ValueError(f"avoidable_contact_rate member {m!r} is not interaction-unit ({unit})")
     eligible = sections["distribution"]["eligible_interactions"]
