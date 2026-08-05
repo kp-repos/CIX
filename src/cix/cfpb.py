@@ -1,0 +1,89 @@
+"""CFPB Consumer Complaints -> CIX corpus adapter (spec 2026-08-05 §3).
+
+Converts filtered-CSV rows into the standard corpus contract (a directory of
+InteractionUnit JSON files) so the calibrated pipeline stays untouched. The outcome
+label `Company response to consumer` is semi-ground-truth: it is diverted to a sealed
+sidecar at ingest and never enters any unit file, store, or model context (§3.2).
+"""
+import csv
+import hashlib
+import json
+import random
+import re
+from collections import Counter
+from pathlib import Path
+import yaml
+
+# Full ISO-8601 timestamp on recent rows, bare date on older ones (memo §4): both are
+# accepted explicitly; anything else is a counted drop, never a silent NaT (R-IDX class).
+_ISO_TS = re.compile(r"^(\d{4}-\d{2}-\d{2})T\d{2}:\d{2}:\d{2}")
+_BARE = re.compile(r"^(\d{4}-\d{2}-\d{2})$")
+
+def parse_received(s: str) -> str:
+    for rx in (_ISO_TS, _BARE):
+        m = rx.match(s or "")
+        if m:
+            return m.group(1)
+    raise ValueError(f"unparseable Date received: {s!r}")
+
+def _norm_id(cid: str) -> str:
+    return cid[:-2] if cid.endswith(".0") else cid   # float-artifact IDs like '21890776.0'
+
+def read_filtered(csv_path: Path, company: str, since: str) -> tuple[list[dict], dict]:
+    """Rows for one company from `since` (YYYY-MM-DD), with per-reason drop counts."""
+    rows, drops = [], Counter()
+    with open(csv_path, newline="", encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            if r["Company"] != company:
+                drops["wrong_company"] += 1
+                continue
+            narrative = (r["Consumer complaint narrative"] or "").strip()
+            if not narrative:
+                drops["empty_narrative"] += 1
+                continue
+            try:
+                date = parse_received(r["Date received"])
+            except ValueError:
+                drops["bad_date"] += 1
+                continue
+            if date < since:
+                drops["before_window"] += 1
+                continue
+            rows.append({"complaint_id": _norm_id(r["Complaint ID"]), "date": date,
+                         "narrative": narrative, "product": r.get("Product", ""),
+                         "issue": r.get("Issue", ""),
+                         "outcome": r["Company response to consumer"]})
+    rows.sort(key=lambda r: r["complaint_id"])
+    return rows, dict(drops)
+
+def dedup_rows(rows: list[dict]) -> tuple[list[dict], int]:
+    """R-IDX-9: content-hash dedup before anything counts. First complaint_id wins."""
+    seen, kept = set(), []
+    for r in sorted(rows, key=lambda r: r["complaint_id"]):
+        h = hashlib.sha256(r["narrative"].encode("utf-8")).hexdigest()
+        if h in seen:
+            continue
+        seen.add(h)
+        kept.append(r)
+    return kept, len(rows) - len(kept)
+
+def sample_stratified(rows: list[dict], n: int, seed: int) -> list[dict]:
+    """Deterministic month-stratified sample: proportional allocation (largest remainder),
+    seeded draw within each stratum, output sorted by complaint_id."""
+    if n >= len(rows):
+        return sorted(rows, key=lambda r: r["complaint_id"])
+    strata: dict[str, list[dict]] = {}
+    for r in rows:
+        strata.setdefault(r["date"][:7], []).append(r)
+    total = len(rows)
+    quotas = {m: (n * len(v)) / total for m, v in strata.items()}
+    alloc = {m: int(q) for m, q in quotas.items()}
+    remainder = n - sum(alloc.values())
+    for m in sorted(strata, key=lambda m: (-(quotas[m] - alloc[m]), m))[:remainder]:
+        alloc[m] += 1
+    rng = random.Random(seed)
+    out = []
+    for m in sorted(strata):
+        pool = sorted(strata[m], key=lambda r: r["complaint_id"])
+        out.extend(rng.sample(pool, min(alloc[m], len(pool))))
+    return sorted(out, key=lambda r: r["complaint_id"])
