@@ -5,7 +5,7 @@ import pytest
 from cix.cli import main
 from cix.normalize import load_corpus
 from cix.store import build_store, open_store
-from cix.query import resolve_item, find_quote
+from cix.query import resolve_item, find_quote, resolve_metric
 
 FIXTURES = Path(__file__).parent / "fixtures" / "corpus"
 VOCAB = Path("configs/tag_vocabulary_v1.yaml")
@@ -99,3 +99,21 @@ def test_cli_query_leaves_drop_log_untouched(tmp_path, capsys):
     main(["query", str(run), "--item", "billing_defect_driver"])
     main(["query", str(run), "--quote", "nope"])
     assert len(open_store(run / "run.db").drops()) == before == 0
+
+def test_resolve_metric_lists_union_interactions(tmp_path):
+    run, store, report, manifest = _run_dir(tmp_path)
+    # Add a second member hit on a different interaction so the union is 2.
+    ha = manifest["artifacts"]["hits"]
+    store.write_hit(ha, "status_chase_inbound", "int-002", "interaction", "int-002:0000")
+    presentation = {"headline_metrics": {"avoidable_contact_rate":
+                    {"members": ["billing_defect_driver", "status_chase_inbound",
+                                 "repeat_contact_unresolved", "unanticipated_failure"]}}}
+    res = resolve_metric(store, manifest, presentation, "avoidable_contact_rate", eligible=100)
+    assert res["found"] is True
+    assert res["value"] == 2
+    assert sorted(res["interaction_ids"]) == ["int-001", "int-002"]
+
+def test_resolve_metric_unknown_name_fails_closed(tmp_path):
+    run, store, report, manifest = _run_dir(tmp_path)
+    presentation = {"headline_metrics": {}}
+    assert resolve_metric(store, manifest, presentation, "no_such_metric", eligible=100)["found"] is False
