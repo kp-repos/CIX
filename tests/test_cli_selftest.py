@@ -57,3 +57,29 @@ def test_selftest_refuses_without_manifest(tmp_path, capsys):
     (tmp_path / "empty").mkdir()
     rc = main(["self-test", str(tmp_path / "empty")])
     assert rc == 2
+
+def _tsst_detail(run: Path) -> str:
+    store = open_store(run / "run.db")
+    rows = [v for v in store.validations() if v["check"] == "T-SST"]
+    assert len(rows) == 1
+    return rows[0]["detail"]
+
+def test_selftest_outcome_level_defaults_o1_without_substrate_class(tmp_path, capsys):
+    run = _fake_run(tmp_path)                                # manifest has no substrate_class
+    rc = main(["self-test", str(run)])
+    assert rc == 0
+    detail = _tsst_detail(run)
+    assert "outcome_level=O1-synthetic" in detail
+    assert "outcome_level=O3" not in detail
+
+def test_selftest_outcome_level_s2_is_o3_corpus_level(tmp_path, capsys):
+    run = _fake_run(tmp_path)
+    manifest_path = run / "manifest.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    manifest["substrate_class"] = "S2"
+    manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+    rc = main(["self-test", str(run)])
+    assert rc == 0
+    detail = _tsst_detail(run)
+    assert "outcome_level=O3-corpus-level-items-only" in detail
+    assert "O1-synthetic" not in detail

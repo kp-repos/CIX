@@ -1,0 +1,55 @@
+{
+  "manifest_version": "1.0.0",
+  "corpus_hash": "b859ff9877d89708276f4ed6b1a0c59caf141b24a9e5e4811cb0b1534c490b64",
+  "canonical_hash": "1ec738d3e814fafa283f74e9239701c0c1a46fad17b37bfc63857830600303ad",
+  "index_version": "1.0.0",
+  "tag_vocab_version": "1.0.0",
+  "label_schema_version": "1.0.0",
+  "rubric_version": "1.0.0",
+  "catalogue_version": null,
+  "model_versions": {
+    "primary": "claude-opus-4-8"
+  },
+  "prompt_hashes": {
+    "labels": "575affe0f8cd9afc",
+    "hits": "6d9279ef980092b9",
+    "synthesis": "ad345dbdc1954e75",
+    "apply": "df0fc4e57b2af9e2"
+  },
+  "seeds": {
+    "run": 20260731
+  },
+  "thresholds_version": "1.2.0",
+  "privacy_gate": "pass",
+  "scrub_salt": "cix-20260731",
+  "corpus_clearance": "CFPB public domain — internal O2 track; substrate S2; complaint rubric calibration PENDING (pilot = shakedown)",
+  "created_at": "2026-08-06T21:14:25.047267+00:00",
+  "rubric_file": "complaint_rubric_v1.yaml",
+  "corpus_properties": {
+    "substrate_class": "S2",
+    "licence_tier": "public-domain",
+    "speaker_attribution": "none",
+    "economic_signal": "present",
+    "ivr_structure": "absent",
+    "source": {
+      "dataset": "CFPB Consumer Complaint Database (filtered)",
+      "csv": "/Users/vajrapani/corpora/open/cfpb/cfpb_narratives_filtered.csv"
+    },
+    "sampling": {
+      "company": "BANK OF AMERICA, NATIONAL ASSOCIATION",
+      "since": "2024-01-01",
+      "seed": 20260805,
+      "n": 2500
+    }
+  },
+  "substrate_class": "S2",
+  "skipped_items": [],
+  "artifacts": {
+    "labels": "1a3990f3a35e431b",
+    "hits": "41da5179ac774dd0"
+  },
+  "privacy_scan": {
+    "residual_scope": "email+phone",
+    "ner": "rules-only"
+  }
+}

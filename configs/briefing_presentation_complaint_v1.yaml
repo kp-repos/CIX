@@ -1,0 +1,52 @@
+# Complaint-corpus presentation layer v1 — maps complaint_rubric_v1 items to business
+# language. Bound to the rubric by BOTH version and filename (rubric_file) so a
+# same-version service rubric can never satisfy this config (fail-closed integrity).
+version: "1.0.0"
+requires:
+  rubric_version: "1.0.0"
+  rubric_file: complaint_rubric_v1.yaml
+items:
+  remediation_denied:
+    business_label: "Refunds refused"
+    gloss: "Customers who asked for their money back for a concrete loss and did not get it."
+    polarity: negative
+  funds_frozen_or_held:
+    business_label: "Frozen funds and blocked accounts"
+    gloss: "Customers cut off from their own money by a provider-side freeze or hold."
+    polarity: negative
+  account_lockout:
+    business_label: "Lockouts with no recovery path"
+    gloss: "Customers locked out of the account and unable to get back in through the provider's own process."
+    polarity: negative
+  fraud_victim_redirected:
+    business_label: "Fraud victims turned away"
+    gloss: "Scam and fraud victims whose claims were denied or redirected instead of resolved."
+    polarity: negative
+  unresponsive_support:
+    business_label: "Support that doesn't answer"
+    gloss: "No human reachable, no reply, or only templated answers that don't address the issue."
+    polarity: negative
+  repeat_complaint_unresolved:
+    business_label: "Repeat complaints on unresolved issues"
+    gloss: "The same issue raised before and still unresolved — the first response should have prevented this contact."
+    polarity: negative
+  fee_dispute:
+    business_label: "Disputed fees"
+    gloss: "Fees or charges customers say were incorrect, undisclosed, or wrongly applied."
+    polarity: negative
+  misapplied_payment:
+    business_label: "Payments not credited"
+    gloss: "Payments made but not applied — wrong account, wrong balance, or lost in processing."
+    polarity: negative
+  resolution_acknowledged:
+    business_label: "Issues the company did fix"
+    gloss: "The healthy counter-pattern — the narrative acknowledges the problem was ultimately corrected."
+    polarity: positive
+headline_metrics:
+  unremediated_loss_rate:
+    members:
+      - remediation_denied
+      - funds_frozen_or_held
+      - fraud_victim_redirected
+      - misapplied_payment
+    statement: "complaints described losing money or access without remedy"

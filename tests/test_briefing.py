@@ -2,7 +2,7 @@ import json
 import sqlite3
 from pathlib import Path
 import pytest
-from cix.briefing import load_presentation, avoidable_contact_rate, automatable_opportunity, build_briefing, render_briefing_html, render_briefing_pdf
+from cix.briefing import load_presentation, interaction_union_metric, automatable_opportunity, build_briefing, render_briefing_html, render_briefing_pdf
 from cix.cli import main
 
 PRESENTATION = Path("configs/briefing_presentation_v1.yaml")
@@ -23,7 +23,7 @@ def test_avoidable_contact_rate_is_a_distinct_union_not_a_sum():
     ]
     members = ["repeat_contact_unresolved", "billing_defect_driver",
                "status_chase_inbound", "unanticipated_failure"]
-    m = avoidable_contact_rate(_FakeStore(rows), "ha", members, eligible=100)
+    m = interaction_union_metric(_FakeStore(rows), "ha", members, eligible=100)
     assert m["value"] == 2                     # union, not 3
     assert m["denominator"] == 100
     assert m["share"] == 0.02
@@ -37,7 +37,7 @@ def test_avoidable_contact_rate_ignores_non_member_and_non_interaction_hits():
     ]
     members = ["repeat_contact_unresolved", "billing_defect_driver",
                "status_chase_inbound", "unanticipated_failure"]
-    m = avoidable_contact_rate(_FakeStore(rows), "ha", members, eligible=100)
+    m = interaction_union_metric(_FakeStore(rows), "ha", members, eligible=100)
     assert m["value"] == 1
     assert sorted(m["interaction_ids"]) == ["int-1"]
 
@@ -135,6 +135,9 @@ def _hits_rows():
         {"item_id": "status_chase_inbound", "interaction_id": "int-1", "unit": "interaction"},
         {"item_id": "unanticipated_failure", "interaction_id": "int-2", "unit": "interaction"},
     ]
+
+def _minimal_report_and_manifest():
+    return {"sections": _sections()}, _manifest()
 
 def test_build_briefing_blocks_route_correctly():
     cfg = load_presentation(PRESENTATION)
@@ -288,3 +291,61 @@ def test_cli_briefing_pdf_unavailable_fails_closed(tmp_path, monkeypatch):
     monkeypatch.setattr(briefing_mod, "render_briefing_pdf", _boom)
     assert main(["briefing", str(run)]) == 1
     assert (run / "briefing.html").exists()
+
+
+def test_build_briefing_supports_arbitrary_headline_metric_names():
+    cfg = {
+        "version": "1.0.0",
+        "requires": {"rubric_version": "1.0.0"},
+        "items": {"billing_defect_driver": {"business_label": "B", "gloss": "g",
+                                            "polarity": "negative"}},
+        "headline_metrics": {
+            "unremediated_loss_rate": {
+                "members": ["billing_defect_driver"],
+                "statement": "complaints described losing money or access without remedy"}},
+    }
+    rows = [{"item_id": "billing_defect_driver", "interaction_id": "i1", "unit": "interaction"}]
+    report, manifest = _minimal_report_and_manifest()
+    b = build_briefing(report, manifest, cfg, _FakeStore(rows))
+    m = b["headline"]["unremediated_loss_rate"]
+    assert m["value"] == 1
+    assert m["query"] == "cix query <run_dir> --metric unremediated_loss_rate"
+    assert m["statement"] == "complaints described losing money or access without remedy"
+    assert "automatable_opportunity" in b["headline"]
+
+
+def test_briefing_html_renders_named_metric_statement():
+    cfg = {
+        "version": "1.0.0", "requires": {"rubric_version": "1.0.0"},
+        "items": {"billing_defect_driver": {"business_label": "B", "gloss": "g", "polarity": "negative"}},
+        "headline_metrics": {"unremediated_loss_rate": {
+            "members": ["billing_defect_driver"],
+            "statement": "complaints described losing money or access without remedy"}},
+    }
+    rows = [{"item_id": "billing_defect_driver", "interaction_id": "i1", "unit": "interaction"}]
+    report, manifest = _minimal_report_and_manifest()
+    b = build_briefing(report, manifest, cfg, _FakeStore(rows))
+    html = render_briefing_html(b)
+    assert "complaints described losing money or access without remedy" in html
+    assert "1 / 100" in html
+    assert "avoidable pattern" not in html   # the default statement is NOT used for this metric
+
+
+def test_presentation_rubric_file_binding_fails_closed():
+    cfg = {
+        "version": "1.0.0",
+        "requires": {"rubric_version": "1.0.0", "rubric_file": "complaint_rubric_v1.yaml"},
+        "items": {}, "headline_metrics": {},
+    }
+    report, manifest = _minimal_report_and_manifest()
+    manifest["rubric_file"] = "service_rubric_v1.yaml"   # different rubric, same version
+    with pytest.raises(ValueError, match="rubric_file"):
+        build_briefing(report, manifest, cfg, _FakeStore([]))
+
+
+def test_presentation_without_rubric_file_still_loads_legacy_manifests():
+    # cfg has no requires.rubric_file; manifest has no rubric_file key -> builds fine.
+    cfg = load_presentation(PRESENTATION)   # the v1 config, no rubric_file
+    report, manifest = _minimal_report_and_manifest()   # _manifest() has no rubric_file
+    b = build_briefing(report, manifest, cfg, _FakeStore(_hits_rows()))
+    assert "avoidable_contact_rate" in b["headline"]

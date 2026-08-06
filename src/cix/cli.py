@@ -20,11 +20,11 @@ from cix.labels import prompts_hash as labels_ph
 from cix.manifest import build_manifest, write_manifest
 from cix.manifest import corpus_hash as manifest_corpus_hash
 from cix.model import AnthropicClient
-from cix.normalize import CorpusValidationError, load_corpus
+from cix.normalize import CorpusValidationError, load_corpus, load_corpus_properties
 from cix.catalogue import load_catalogue, join_swaps, leverage_grid
 from cix.priced import priced_view
 from cix.report import render_report
-from cix.rubric import DependencyError, load_paraphrase_set, load_rubric
+from cix.rubric import DependencyError, load_paraphrase_set, load_rubric, split_by_corpus_fit
 from cix.runconfig import load_run_config, load_thresholds
 from cix.scrub import load_privacy_protocol, scrub_corpus, audit_privacy_gate
 from cix.selftest import load_selftest_spec, self_test
@@ -65,6 +65,7 @@ def _cmd_run(args) -> int:
     except CorpusValidationError as e:
         print(f"corpus validation failed: {e}", file=sys.stderr)
         return 2
+    corpus_props = load_corpus_properties(Path(args.corpus))
     vocab = load_vocabulary(VOCAB_PATH)
     schema_version = yaml.safe_load(Path("configs/label_schema_v1.yaml").read_text())["version"]
     try:
@@ -72,6 +73,10 @@ def _cmd_run(args) -> int:
     except DependencyError as e:
         print(f"dependency refusal: {e}", file=sys.stderr)
         return 2
+    # R-SPK-3 / §2.3-S: gate the rubric on corpus properties BEFORE any model call, so
+    # speaker-dependent items on a speakerless corpus never reach detection (they are
+    # skipped-and-reported below, once the store exists, and excluded from denominators).
+    rubric, skipped_items = split_by_corpus_fit(rubric, corpus_props)
     config = load_run_config(Path("configs/run_config_v1.yaml"))
     thresholds = load_thresholds(Path("configs/thresholds_v1.yaml"))
     thresholds_version = yaml.safe_load(Path("configs/thresholds_v1.yaml").read_text())["version"]
@@ -92,6 +97,11 @@ def _cmd_run(args) -> int:
     db = out / "run.db"
     build_store(units, VOCAB_PATH, db)
     store = open_store(db)
+    for it in skipped_items:
+        store.write_validation("CORPUS-FIT", it.id, "skipped",
+                               f"requires_speaker=true but corpus speaker_attribution="
+                               f"{corpus_props.get('speaker_attribution')} — skipped per §2.3-S, "
+                               "excluded from coverage denominators")
     chash = manifest_corpus_hash(units)
 
     la, ha, hits, roll = _detect(store, units, rubric, client, chash, schema_version, config.model)
@@ -167,10 +177,15 @@ def _cmd_run(args) -> int:
     manifest = build_manifest(units, canonical_hash(db), vocab["version"],
                               privacy_gate=privacy["status"], corpus_clearance=args.clearance, salt=salt)
     manifest.update({"label_schema_version": schema_version, "rubric_version": rubric.version,
+                     "rubric_file": Path(args.rubric).name,
                      "model_versions": {"primary": config.model},
                      "prompt_hashes": {"labels": labels_ph(), "hits": hits_ph(), "synthesis": synth_ph(),
                                        "apply": apply_prompts_hash()},
                      "seeds": {"run": config.seed}, "thresholds_version": thresholds_version,
+                     "corpus_properties": corpus_props,
+                     # promoted mirror of corpus_properties.substrate_class for downstream gating
+                     "substrate_class": corpus_props["substrate_class"],
+                     "skipped_items": [i.id for i in skipped_items],
                      "artifacts": {"labels": la, "hits": ha}})
     manifest["privacy_scan"] = {"residual_scope": privacy["scan_scope"], "ner": privacy["ner"]}
     manifest["catalogue_version"] = catalogue_version
@@ -209,6 +224,30 @@ def _cmd_index(args) -> int:
                               corpus_clearance=args.clearance)
     write_manifest(manifest, out)
     print(json.dumps({"run": str(out), "interactions": len(units), "canonical_hash": chash}))
+    return 0
+
+def _cmd_cfpb_ingest(args) -> int:
+    """CFPB CSV -> corpus adapter (spec 2026-08-05 §3). Writes <out>/units + sealed
+    holdout_labels.json + corpus_properties.yaml. The outcome label never enters units."""
+    from cix.cfpb import read_filtered, dedup_rows, sample_stratified, write_corpus, parse_received
+    try:
+        since = parse_received(args.since)
+    except ValueError:
+        print(f"ingest aborted: --since must be YYYY-MM-DD, got {args.since!r}", file=sys.stderr)
+        return 2
+    rows, drops = read_filtered(Path(args.csv), company=args.company, since=since)
+    rows, n_dupes = dedup_rows(rows)
+    picked = sample_stratified(rows, n=args.n, seed=args.seed)
+    try:
+        res = write_corpus(picked, Path(args.out), company=args.company,
+                           since=since, seed=args.seed, source_csv=str(args.csv))
+    except FileExistsError:
+        print(f"ingest aborted: {args.out} already contains a corpus (use a fresh --out)",
+              file=sys.stderr)
+        return 3
+    print(json.dumps({"written": res["units"], "eligible": len(rows),
+                      "duplicates_collapsed": n_dupes, "drops": drops,
+                      "out": res["out"]}))
     return 0
 
 def _cmd_hash(args) -> int:
@@ -302,8 +341,63 @@ def _cmd_briefing(args) -> int:
             print(f"briefing failed closed: PDF render unavailable ({e}); "
                   "briefing.json + briefing.html written — re-run with --no-pdf to skip the PDF")
             return 1
-    print(json.dumps({"run": str(run), "avoidable_contact_rate": briefing["headline"]["avoidable_contact_rate"]["value"],
-                      "pdf": (not args.no_pdf)}))
+    metrics = {k: v["value"] for k, v in briefing["headline"].items()
+               if isinstance(v, dict) and "value" in v and k != "automatable_opportunity"}
+    print(json.dumps({"run": str(run), "headline": metrics, "pdf": (not args.no_pdf)}))
+    return 0
+
+def _cmd_compare(args) -> int:
+    """Comparative briefing over two persisted runs (model-free, read-only). Emits
+    compare.json + compare.html (+ compare.pdf unless --no-pdf) into --out."""
+    from cix.compare import build_compare, reveal_block, render_compare_html
+    from cix.briefing import render_briefing_pdf
+    sides = []
+    for run_arg, name in ((args.run_a, args.name_a), (args.run_b, args.name_b)):
+        run = Path(run_arg)
+        for req in ("run.db", "report.json", "manifest.json"):
+            if not (run / req).exists():
+                print(f"compare failed closed: missing persisted artifact {run / req}")
+                return 1
+        sides.append({"name": name, "run": run,
+                      "store": open_store(run / "run.db", read_only=True)})
+    cfg = load_presentation(Path(args.presentation))
+    labels = []
+    if not args.no_reveal:
+        for s in sides:
+            lp = s["run"] / "holdout_labels.json"
+            if not lp.exists():
+                print(f"compare failed closed: reveal expected but {lp} is absent — "
+                      "copy the corpus sidecar into the run dir, or pass --no-reveal")
+                return 1
+            labels.append(json.loads(lp.read_text(encoding="utf-8")))
+    try:
+        for s in sides:
+            s["report"] = json.loads((s["run"] / "report.json").read_text(encoding="utf-8"))
+            s["manifest"] = json.loads((s["run"] / "manifest.json").read_text(encoding="utf-8"))
+        comparison = build_compare(sides[0], sides[1], cfg)
+        if labels:
+            comparison["reveal"] = reveal_block(labels[0], labels[1])
+    except (ValueError, KeyError) as e:
+        print(f"compare failed closed: {e}")
+        return 1
+    out = Path(args.out)
+    out.mkdir(parents=True, exist_ok=True)
+    (out / "compare.json").write_text(json.dumps(comparison, indent=2, ensure_ascii=False),
+                                      encoding="utf-8")
+    html = render_compare_html(comparison)
+    (out / "compare.html").write_text(html, encoding="utf-8")
+    if not args.no_pdf:
+        try:
+            render_briefing_pdf(html, out / "compare.pdf")
+        except (OSError, ImportError) as e:
+            print(f"compare failed closed: PDF render unavailable ({e}); "
+                  "compare.json + compare.html written — re-run with --no-pdf")
+            return 1
+    print(json.dumps({"out": str(out),
+                      "reveal": bool(labels),
+                      "headline": {k: {"a": v["a"]["value"], "b": v["b"]["value"],
+                                       "ratio": v["ratio"]}
+                                   for k, v in comparison["headline"].items()}}))
     return 0
 
 def _cmd_generate_calibration(args) -> int:
@@ -400,10 +494,13 @@ def _cmd_selftest(args) -> int:
                              manifest["tag_vocab_version"])
         crosswalk = {i.id: i.swap_ref for i in rubric.items}
     res = self_test(all_ids, hits, spec, catalogue=catalogue, crosswalk=crosswalk)
+    outcome_level = {"S1": "O3-eligible",
+                     "S2": "O3-corpus-level-items-only"}.get(
+        manifest.get("substrate_class"), "O1-synthetic")
     store.write_validation("T-SST", None, res["state"],
                            f"material_fraction={res['material_fraction']} "
                            f"layers={','.join(res['layers_compared'])} spec={spec.version} "
-                           "outcome_level=O1-synthetic-until-real-corpus")
+                           f"outcome_level={outcome_level}")
     report = {"spec_version": spec.version, **res}
     (run_dir / "selftest_report.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
     print(json.dumps({"state": res["state"], "material_fraction": res["material_fraction"],
@@ -532,6 +629,15 @@ def main(argv: list[str] | None = None) -> int:
     p_index.add_argument("--out", required=True)
     p_index.add_argument("--clearance", default="n/a: synthetic fixtures")
     p_index.set_defaults(fn=_cmd_index)
+    p_cfpb = sub.add_parser("cfpb-ingest",
+                            help="CFPB filtered CSV -> corpus dir (units/ + sealed labels + S2 properties)")
+    p_cfpb.add_argument("csv")
+    p_cfpb.add_argument("--company", required=True, help='exact CSV value, e.g. "Block, Inc."')
+    p_cfpb.add_argument("--since", required=True, help="YYYY-MM-DD window start")
+    p_cfpb.add_argument("--n", type=int, required=True, help="sample size")
+    p_cfpb.add_argument("--seed", type=int, required=True)
+    p_cfpb.add_argument("--out", required=True)
+    p_cfpb.set_defaults(fn=_cmd_cfpb_ingest)
     p_hash = sub.add_parser("hash", help="print the canonical hash of a run")
     p_hash.add_argument("run")
     p_hash.set_defaults(fn=_cmd_hash)
@@ -553,6 +659,18 @@ def main(argv: list[str] | None = None) -> int:
     p_brief.add_argument("--presentation", default="configs/briefing_presentation_v1.yaml")
     p_brief.add_argument("--no-pdf", action="store_true", help="skip the PDF (no WeasyPrint needed)")
     p_brief.set_defaults(fn=_cmd_briefing)
+    p_cmp = sub.add_parser("compare",
+                           help="comparative briefing over two persisted runs (read-only)")
+    p_cmp.add_argument("run_a")
+    p_cmp.add_argument("run_b")
+    p_cmp.add_argument("--presentation", required=True)
+    p_cmp.add_argument("--name-a", required=True, help="display name for run A's operation")
+    p_cmp.add_argument("--name-b", required=True, help="display name for run B's operation")
+    p_cmp.add_argument("--out", required=True)
+    p_cmp.add_argument("--no-reveal", action="store_true",
+                       help="skip the withheld-label reveal (no sidecar needed)")
+    p_cmp.add_argument("--no-pdf", action="store_true")
+    p_cmp.set_defaults(fn=_cmd_compare)
     p_run = sub.add_parser("run", help="full corpus -> report run")
     p_run.add_argument("corpus")
     p_run.add_argument("--rubric", required=True)

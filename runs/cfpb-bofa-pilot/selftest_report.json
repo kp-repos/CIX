@@ -1,0 +1,67 @@
+{
+  "spec_version": "1.0.0",
+  "state": "material-advantage",
+  "material_fraction": 0.8,
+  "per_seed": [
+    {
+      "seed": 11,
+      "material": false,
+      "layers": {
+        "distribution": false,
+        "rank_topk": false,
+        "highlight_diff": false
+      }
+    },
+    {
+      "seed": 22,
+      "material": true,
+      "layers": {
+        "distribution": false,
+        "rank_topk": true,
+        "highlight_diff": false
+      }
+    },
+    {
+      "seed": 33,
+      "material": true,
+      "layers": {
+        "distribution": false,
+        "rank_topk": true,
+        "highlight_diff": true
+      }
+    },
+    {
+      "seed": 44,
+      "material": true,
+      "layers": {
+        "distribution": false,
+        "rank_topk": true,
+        "highlight_diff": true
+      }
+    },
+    {
+      "seed": 55,
+      "material": true,
+      "layers": {
+        "distribution": false,
+        "rank_topk": true,
+        "highlight_diff": true
+      }
+    }
+  ],
+  "per_layer_fraction": {
+    "distribution": 0.0,
+    "rank_topk": 0.8,
+    "highlight_diff": 0.6
+  },
+  "layers_compared": [
+    "distribution",
+    "rank_topk",
+    "highlight_diff"
+  ],
+  "full_topk": [
+    "remediation_denied",
+    "fraud_victim_redirected",
+    "repeat_complaint_unresolved"
+  ]
+}

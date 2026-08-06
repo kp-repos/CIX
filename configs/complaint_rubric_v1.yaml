@@ -1,0 +1,87 @@
+# Complaint rubric v1 — CFPB-class real complaint narratives (substrate S2, monologue).
+# Spec: docs/superpowers/specs/2026-08-05-cfpb-comparative-briefing-design.md §4.
+# BLINDNESS RULE (spec §4.1): items describe generic complaint pathology present in any
+# financial-services complaint stream. Nothing here encodes or derives from the withheld
+# outcome label (`Company response to consumer`); the reveal tests rates and rank order.
+# All items are speaker-agnostic (monologue) and interaction-unit (one narrative = one
+# interaction; occurrence counting inside a monologue would double-count rhetoric).
+# swap_ref: null throughout — no complaint swap catalogue in v1 (honest empty plays).
+# CALIBRATION: pending — the pilot run is the shakedown; a G3-style calibration pass is
+# the prerequisite for the full-pair run, not the pilot (spec §4.3).
+version: "1.0.0"
+requires:
+  label_schema_version: "1.0.0"
+  tag_vocab_version: "1.0.0"
+items:
+  - id: remediation_denied
+    description: "Refund, reversal, or compensation explicitly requested and refused"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "The narrative states that the complainant asked the company for a refund, reversal, or compensation for a concrete loss and the company refused, declined, or failed to provide it."
+    exemplars: ["They admitted the charge was wrong but refused to give my money back."]
+    swap_ref: null
+  - id: funds_frozen_or_held
+    description: "Money or account access frozen, held, or blocked by the provider"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "The narrative describes the provider freezing, holding, or blocking the complainant's funds or account so they could not access their own money for some period."
+    exemplars: ["My account was frozen with my paycheck inside and nobody could tell me why."]
+    swap_ref: null
+  - id: account_lockout
+    description: "Locked out of the account or service without a working recovery path"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "The narrative describes being locked out of an account or app and unable to regain access through the provider's recovery process."
+    exemplars: ["The app logged me out and every identity check fails, so I simply cannot get in."]
+    swap_ref: null
+  - id: fraud_victim_redirected
+    description: "A fraud or scam victim seeking help is turned away or redirected"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "The complainant reports being a victim of fraud, a scam, or an unauthorized transaction, and the provider declined responsibility, denied the claim, or redirected them elsewhere instead of resolving it."
+    exemplars: ["I reported the scam the same day and they said there was nothing they could do."]
+    swap_ref: null
+  - id: unresponsive_support
+    description: "Support unreachable, unresponsive, or replying only with form answers"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "The narrative describes being unable to reach a human, receiving no reply, or receiving only automated or templated responses that did not address the issue."
+    exemplars: ["Every email gets the same canned reply and there is no phone number that reaches a person."]
+    swap_ref: null
+  - id: repeat_complaint_unresolved
+    description: "The complainant has raised this same issue before without resolution"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "The narrative states that this issue was already raised with the company (or a prior complaint filed) and remains unresolved — a repeat contact the first response should have prevented."
+    exemplars: ["This is my third complaint about the same duplicate charge."]
+    swap_ref: null
+  - id: fee_dispute
+    description: "A fee or charge the complainant disputes as wrongly levied"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "The narrative disputes a specific fee or charge as incorrect, undisclosed, or wrongly applied — separate from fraud by a third party."
+    exemplars: ["They charged a maintenance fee on an account that was advertised as free."]
+    swap_ref: null
+  - id: misapplied_payment
+    description: "A payment made but not credited or applied correctly"
+    polarity: negative
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "The narrative describes a payment that was made but not credited, applied to the wrong account or balance, or lost in processing."
+    exemplars: ["I paid the balance in full and they applied it to someone else's loan."]
+    swap_ref: null
+  - id: resolution_acknowledged
+    description: "The narrative acknowledges the company fixed the issue"
+    polarity: positive
+    unit_of_count: interaction
+    prefilter: null
+    criterion: "The complainant acknowledges that the company ultimately corrected the problem — refunded, restored access, or fixed the error — even if they remain unhappy about the process."
+    exemplars: ["They did eventually refund the charge after I complained."]
+    swap_ref: null
