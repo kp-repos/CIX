@@ -30,6 +30,7 @@ Four independently versioned knowledge artifacts, all plain-language config: **i
 
 | Doc | Role |
 |---|---|
+| [`docs/pilot_results.md`](docs/pilot_results.md) | **Stakeholder brief** — results of the two end-to-end runs (synthetic O1 rehearsal + CFPB live G5, Block vs BofA), with the blind-vs-withheld reveal and links to every report |
 | [`docs/CIX_PRD_v1_2026-07-31.md`](docs/CIX_PRD_v1_2026-07-31.md) | **The build contract** (v1.2, ratified). Self-contained requirements, scope matrix, gate sequence, threshold protocol, acceptance matrix |
 | [`docs/CIX_BRAINSTORM_OUTPUT_2026-07-31.md`](docs/CIX_BRAINSTORM_OUTPUT_2026-07-31.md) | **Governing design record** (rev 2.3). Rationale and ratified rulings |
 | [`docs/superpowers/plans/2026-07-31-g1-deterministic-spine.md`](docs/superpowers/plans/2026-07-31-g1-deterministic-spine.md) | **G1 implementation plan** — 12 TDD tasks building the deterministic spine (no model calls) |
