@@ -42,22 +42,47 @@ ANALYST_SYSTEM_PROMPT = (
     "return only the structured output requested."
 )
 
+# Long unattended batch runs (thousands of calls over many hours) hit transient
+# 429/5xx/529 overload windows. The SDK retries these with exponential backoff and
+# honors retry-after; the default budget of 2 is too small to ride out a multi-minute
+# overload, so a single blip would abort the whole run. Raise it. This is transport
+# policy only — it changes no prompt, output, threshold, or calibration.
+_MAX_RETRIES = 8
+
 class AnthropicClient:
     def __init__(self, config: RunConfig):
         import anthropic
-        self._client = anthropic.Anthropic()
+        self._client = anthropic.Anthropic(max_retries=_MAX_RETRIES)
         self._config = config
 
     def complete(self, prompt: str) -> str:
         # temperature is deliberately not sent — some current Claude tiers deprecate
         # the parameter and reject the call if it is present; omitting it uses the
         # model default and is safe across tiers (as OpenAIClient does likewise).
-        msg = self._client.messages.create(
-            model=self._config.model,
-            max_tokens=self._config.max_tokens,
-            system=ANALYST_SYSTEM_PROMPT,
-            messages=[{"role": "user", "content": prompt}],
-        )
+        import anthropic
+        import time
+        # The SDK already retries transient overload/rate-limit/5xx with backoff
+        # (_MAX_RETRIES). This outer guard rides out a *sustained* window (minutes) that
+        # would otherwise abort a long unattended run — pure transport resilience, no
+        # effect on the response itself.
+        transient = (anthropic.OverloadedError, anthropic.RateLimitError,
+                     anthropic.InternalServerError, anthropic.APITimeoutError,
+                     anthropic.APIConnectionError)
+        last: Exception | None = None
+        for attempt in range(4):
+            try:
+                msg = self._client.messages.create(
+                    model=self._config.model,
+                    max_tokens=self._config.max_tokens,
+                    system=ANALYST_SYSTEM_PROMPT,
+                    messages=[{"role": "user", "content": prompt}],
+                )
+                break
+            except transient as e:
+                last = e
+                time.sleep(min(30 * (attempt + 1), 120))
+        else:
+            raise last  # exhausted the outer guard on a sustained outage
         # extended-thinking tiers may lead the response with thinking blocks that
         # carry no .text — concatenate the text blocks only.
         text = "".join(b.text for b in msg.content if getattr(b, "type", None) == "text")
