@@ -1,0 +1,602 @@
+{
+  "sections": {
+    "highlights": [
+      {
+        "item_id": "account_lockout",
+        "narrative": "Customers reported being locked out of their accounts and unable to complete actions such as making online payments or logging in. Some cases involved lost passwords with an inability to reset them, while others reflected being blocked from opening new accounts due to reporting on their file. The lockouts spanned both access-credential failures and account-eligibility restrictions.",
+        "count": 173,
+        "share": 0.0692,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "discharged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-10332235",
+            "start": 0,
+            "end": 155,
+            "text": "I could not make further payments when attempted on XX/XX/XXXX, as my account was locked to login and could not make an online payment."
+          },
+          {
+            "interaction_id": "cfpb-14663474",
+            "start": 0,
+            "end": 72,
+            "text": "My account password has been lost and I am unable to reset the password."
+          },
+          {
+            "interaction_id": "cfpb-15949386",
+            "start": 0,
+            "end": 116,
+            "text": "Since then, I have been unable to open any bank accounts due to the report on my XXXX XXXX XXXX file."
+          }
+        ]
+      },
+      {
+        "item_id": "fee_dispute",
+        "narrative": "Customers raised disputes over fees they contend were unwarranted, including a charged airline change fee escalated to their card issuer and a charge for extra service time that had been explicitly canceled with verbal staff agreement. In both cases the complainant is contesting a specific charged amount and seeking review or reversal.",
+        "count": 316,
+        "share": 0.1264,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "discharged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-11607988",
+            "start": 0,
+            "end": 0,
+            "text": "On XX/XX/XXXX, I contacted the BOA customer service team through both a phone call and an email regarding a {$270.00} airline change fee from XXXX XXXX XXXX, charged to my BOA XXXX XXXX XXXX credit card ending in XXXX."
+          },
+          {
+            "interaction_id": "cfpb-14836161",
+            "start": 1,
+            "end": 1,
+            "text": "The business charged us for an extra XXXX minutes of karaoke time that we explicitly canceled and which staff verbally agreed."
+          }
+        ]
+      },
+      {
+        "item_id": "fraud_victim_redirected",
+        "narrative": "Across the eligible interactions, a substantial share involved customers reporting fraud, unauthorized transactions, or identity theft who were then denied relief or redirected rather than having their claims resolved. Cases include disputed card charges deemed authorized, denied unauthorized ATM transaction claims, and unemployment fraud tied to stolen identity. The pattern reflects fraud victims being turned away or shifted elsewhere after raising legitimate fraud concerns.",
+        "count": 961,
+        "share": 0.3844,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-11946802:0003",
+            "start": 0,
+            "end": 116,
+            "text": "Bank of America denied my fraud dispute, stating my card was present and I authorized the purchase."
+          },
+          {
+            "interaction_id": "cfpb-17104718:0000",
+            "start": 0,
+            "end": 74,
+            "text": "Unauthorized atm transactions field complaint with my bank I was denied XXXX $"
+          },
+          {
+            "interaction_id": "cfpb-9295233:0000",
+            "start": 0,
+            "end": 337,
+            "text": "Covid-19 pandemic unemployment insurance with bank of America I was informed by the IRS a claim was filed in my name of {$19000.00} from California my identity was stolen .this matter has been disappointing all this time I could not file for unemployment because someone has use my information already."
+          }
+        ]
+      },
+      {
+        "item_id": "funds_frozen_or_held",
+        "narrative": "Customers report that funds were frozen, held, or otherwise made inaccessible by the institution, in several cases without prior notice or clear explanation. Instances include account access being blocked around an account closure, an unexplained hold placed on transferred funds, and money withheld amid delays in resolving an uncashable check. The finding was flagged in a subset of eligible interactions.",
+        "count": 541,
+        "share": 0.2164,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "discharged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-10377843",
+            "start": 3,
+            "end": 3,
+            "text": "I didnt even realize BOA had blocked my account access until about XXXX days since the deposit had passed, when I tried to login to my account after receiving an account closure letter."
+          },
+          {
+            "interaction_id": "cfpb-20772296",
+            "start": 8,
+            "end": 8,
+            "text": "When I went to the atm to do the withdrawal I had to go in my bank app to do a transfer from my business account to my personal account I noticed the XXXX hold on my account for {$4000.00}."
+          },
+          {
+            "interaction_id": "cfpb-21868834",
+            "start": 0,
+            "end": 0,
+            "text": "Return my money reissue an unable to deposit expired check with interests from their unnecessary uncooperative delays {$51.00} still has not been returned yet of many years now."
+          }
+        ]
+      },
+      {
+        "item_id": "misapplied_payment",
+        "narrative": "Across the flagged interactions, customers reported that payments were not applied as expected, including funds never reaching the beneficiary bank, a check reversed after being processed under the wrong currency, and payments posting late despite use of an automatic on-time payment system. The pattern reflects payments being misapplied, delayed, or reversed after submission. These accounts describe outcomes where the customer's payment did not credit correctly.",
+        "count": 217,
+        "share": 0.0868,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "discharged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-13293753:0003",
+            "start": 0,
+            "end": 168,
+            "text": "( Please see the attached document labeled XXXX XXXX XXXX. ) As of today, XX/XX/XXXX, XXXX than XXXX months laterthe funds have still not been received by the beneficiary bank."
+          },
+          {
+            "interaction_id": "cfpb-18694316:0002",
+            "start": 0,
+            "end": 122,
+            "text": "Bank of America later informed me that the check was incorrectly processed under the wrong currency and subsequently reversed."
+          },
+          {
+            "interaction_id": "cfpb-9089015:0001",
+            "start": 0,
+            "end": 205,
+            "text": "I explained to the representative that my payments are posting late dispite utilzing their automatic system that states if you make a payment on the due date at XXXXXXXX XXXX the payment will post that day."
+          }
+        ]
+      },
+      {
+        "item_id": "remediation_denied",
+        "narrative": "Across the eligible interactions, remediation was denied in a substantial share of cases, with customers reporting that requested fraud protection, reimbursement, refund tracing, or trace documentation was refused or claimed to be unavailable. Institutions denied fraud reimbursement, asserted an inability to locate or track funds sent to closed accounts, and refused to provide reference numbers or trace documentation for refund transactions.",
+        "count": 984,
+        "share": 0.3936,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "discharged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-11244634:0009",
+            "start": 0,
+            "end": 96,
+            "text": "I contacted BOA, seeking fraud protection or reimbursement, and that was denied by the bank."
+          },
+          {
+            "interaction_id": "cfpb-12164259:0003",
+            "start": 0,
+            "end": 168,
+            "text": "However, when I contacted Bank of America, they claimed they could not locate the funds and insisted that they had no way to track refunds sent to a closed account."
+          },
+          {
+            "interaction_id": "cfpb-19694874:0006",
+            "start": 0,
+            "end": 108,
+            "text": "XXXX refuses to provide the ARN ( Acquirer Reference Number ) or any trace documentation for the refund transaction."
+          }
+        ]
+      },
+      {
+        "item_id": "repeat_complaint_unresolved",
+        "narrative": "The rubric item repeat_complaint_unresolved was flagged across a substantial share of eligible interactions, indicating customers returning after a prior complaint or claim went unaddressed. Evidence shows consumers explicitly referencing earlier CFPB cases and denied claims, signaling that initial resolution attempts failed to satisfy the complaint. The pattern reflects escalation of unresolved issues rather than newly originated grievances.",
+        "count": 653,
+        "share": 0.2612,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "discharged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-15401218:0003",
+            "start": 0,
+            "end": 165,
+            "text": "They sent me a check for XXXX dollars and said if I didnt feel I was compensated correctly feel file a claim after I filed the claims and got denied already."
+          },
+          {
+            "interaction_id": "cfpb-17415165:0000",
+            "start": 0,
+            "end": 52,
+            "text": "This complaint is related to my earlier CFPB case # XXXX."
+          },
+          {
+            "interaction_id": "cfpb-21232593:0000",
+            "start": 0,
+            "end": 75,
+            "text": "Subject : Regarding my previous complain Consumer Financial Protection Bureau / Case No."
+          }
+        ]
+      },
+      {
+        "item_id": "resolution_acknowledged",
+        "narrative": "The resolution_acknowledged item captures interactions where the customer or record confirms that a dispute or complaint reached a concrete outcome, such as a reversed charge or refunded amount. In two of the cited snippets the institution reversed a finance charge and later refunded a disputed sum, indicating an acknowledged resolution. One snippet reflects a customer disputing the adequacy of the resolution rather than clearly acknowledging it, showing variation in how resolution is expressed.",
+        "count": 87,
+        "share": 0.0348,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "discharged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-10685340:0014",
+            "start": 0,
+            "end": 236,
+            "text": "XXXX XXXX XXXX XXXX XXXX XXXX XXXXXXXX XXXX for XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX Transferred to XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX XXXX via phone call to BofA reversed {$76.00} finance charge."
+          },
+          {
+            "interaction_id": "cfpb-9171620:0008",
+            "start": 0,
+            "end": 68,
+            "text": "Bank of America opened investigation, and later refunded the {$18000.00}."
+          }
+        ]
+      },
+      {
+        "item_id": "unresponsive_support",
+        "narrative": "Customers reported an inability to reach support or obtain any reply across multiple channels, including phone calls placed over several days and emails sent directly to the institution. In at least one case, a claim was closed without the customer receiving an explanation, and staff contacted afterward could not describe the basis for the decision. These interactions reflect a pattern where outreach went unanswered or unresolved.",
+        "count": 615,
+        "share": 0.246,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "discharged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-10432769",
+            "start": 0,
+            "end": 68,
+            "text": "I have been calling them for days and they do not answer the phone."
+          },
+          {
+            "interaction_id": "cfpb-15468014",
+            "start": 0,
+            "end": 76,
+            "text": "I have contacted Bank of America directly via email but received no response."
+          },
+          {
+            "interaction_id": "cfpb-21137750",
+            "start": 0,
+            "end": 372,
+            "text": "They said the merchant has 45 days to respond which means around XXXX XXXX i went ahead and sent more photos via fax on XX/XX/XXXX and this morning XX/XX/XXXX they decided to close my case due to \" proof from other merchant '' when i called the claims department they said they have no idea what the proof was."
+          }
+        ]
+      }
+    ],
+    "whats_working": [
+      {
+        "item_id": "resolution_acknowledged",
+        "narrative": "The resolution_acknowledged item captures interactions where the customer or record confirms that a dispute or complaint reached a concrete outcome, such as a reversed charge or refunded amount. In two of the cited snippets the institution reversed a finance charge and later refunded a disputed sum, indicating an acknowledged resolution. One snippet reflects a customer disputing the adequacy of the resolution rather than clearly acknowledging it, showing variation in how resolution is expressed."
+      }
+    ],
+    "leverage": {
+      "grid": [],
+      "shelf": [
+        {
+          "item_id": "account_lockout",
+          "count": 173,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "fee_dispute",
+          "count": 316,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "fraud_victim_redirected",
+          "count": 961,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "funds_frozen_or_held",
+          "count": 541,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "misapplied_payment",
+          "count": 217,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "remediation_denied",
+          "count": 984,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "repeat_complaint_unresolved",
+          "count": 653,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "resolution_acknowledged",
+          "count": 87,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "unresponsive_support",
+          "count": 615,
+          "unit": "interaction"
+        }
+      ],
+      "note": "No catalogue loaded: all findings on the 'no known remedy yet' shelf."
+    },
+    "priced_plays": {
+      "plays": [],
+      "note": "No catalogue loaded — no priced view in this run."
+    },
+    "distribution": {
+      "items": {
+        "account_lockout": {
+          "unit": "interaction",
+          "count": 173,
+          "share": 0.0692,
+          "denominator": "2500 eligible interactions"
+        },
+        "fee_dispute": {
+          "unit": "interaction",
+          "count": 316,
+          "share": 0.1264,
+          "denominator": "2500 eligible interactions"
+        },
+        "fraud_victim_redirected": {
+          "unit": "interaction",
+          "count": 961,
+          "share": 0.3844,
+          "denominator": "2500 eligible interactions"
+        },
+        "funds_frozen_or_held": {
+          "unit": "interaction",
+          "count": 541,
+          "share": 0.2164,
+          "denominator": "2500 eligible interactions"
+        },
+        "misapplied_payment": {
+          "unit": "interaction",
+          "count": 217,
+          "share": 0.0868,
+          "denominator": "2500 eligible interactions"
+        },
+        "remediation_denied": {
+          "unit": "interaction",
+          "count": 984,
+          "share": 0.3936,
+          "denominator": "2500 eligible interactions"
+        },
+        "repeat_complaint_unresolved": {
+          "unit": "interaction",
+          "count": 653,
+          "share": 0.2612,
+          "denominator": "2500 eligible interactions"
+        },
+        "resolution_acknowledged": {
+          "unit": "interaction",
+          "count": 87,
+          "share": 0.0348,
+          "denominator": "2500 eligible interactions"
+        },
+        "unresponsive_support": {
+          "unit": "interaction",
+          "count": 615,
+          "share": 0.246,
+          "denominator": "2500 eligible interactions"
+        }
+      },
+      "rank_by_unit": {
+        "interaction": [
+          [
+            "remediation_denied",
+            984
+          ],
+          [
+            "fraud_victim_redirected",
+            961
+          ],
+          [
+            "repeat_complaint_unresolved",
+            653
+          ],
+          [
+            "unresponsive_support",
+            615
+          ],
+          [
+            "funds_frozen_or_held",
+            541
+          ],
+          [
+            "fee_dispute",
+            316
+          ],
+          [
+            "misapplied_payment",
+            217
+          ],
+          [
+            "account_lockout",
+            173
+          ],
+          [
+            "resolution_acknowledged",
+            87
+          ]
+        ]
+      },
+      "interaction_coverage": 0.8188,
+      "residual_interactions": 453,
+      "eligible_interactions": 2500
+    },
+    "method": {
+      "validations": [
+        {
+          "n": 1,
+          "check": "T-AGR",
+          "item_id": "motion",
+          "status": "agree",
+          "detail": "agreement 1.00 on n=6"
+        },
+        {
+          "n": 2,
+          "check": "T-AGR",
+          "item_id": "driver_origin",
+          "status": "agree",
+          "detail": "agreement 1.00 on n=6"
+        },
+        {
+          "n": 3,
+          "check": "T-AGR",
+          "item_id": "automatability",
+          "status": "agree",
+          "detail": "agreement 1.00 on n=6"
+        },
+        {
+          "n": 4,
+          "check": "T-AGR",
+          "item_id": "outcome",
+          "status": "agree",
+          "detail": "agreement 1.00 on n=6"
+        },
+        {
+          "n": 5,
+          "check": "T-SPLIT",
+          "item_id": null,
+          "status": "stable",
+          "detail": "top-2 ranks agree across halves"
+        },
+        {
+          "n": 6,
+          "check": "T-PARA",
+          "item_id": null,
+          "status": "not_run",
+          "detail": "no paraphrase set for rubric 1.0.0"
+        },
+        {
+          "n": 7,
+          "check": "SECOND-LAB-SEAT",
+          "item_id": null,
+          "status": "disagree_flag",
+          "detail": "second-lab agreement 0.62 on n=8"
+        },
+        {
+          "n": 8,
+          "check": "T-DROP",
+          "item_id": null,
+          "status": "pass",
+          "detail": "drop rate 0.000 over 34 candidate claims"
+        }
+      ],
+      "drop_summary": {
+        "candidate_claims": 34,
+        "quote_drops": 0,
+        "stat_drops": 0
+      },
+      "drops": [],
+      "manifest": {
+        "manifest_version": "1.0.0",
+        "corpus_hash": "b859ff9877d89708276f4ed6b1a0c59caf141b24a9e5e4811cb0b1534c490b64",
+        "canonical_hash": "1ec738d3e814fafa283f74e9239701c0c1a46fad17b37bfc63857830600303ad",
+        "index_version": "1.0.0",
+        "tag_vocab_version": "1.0.0",
+        "label_schema_version": "1.0.0",
+        "rubric_version": "1.0.0",
+        "catalogue_version": null,
+        "model_versions": {
+          "primary": "claude-opus-4-8"
+        },
+        "prompt_hashes": {
+          "labels": "575affe0f8cd9afc",
+          "hits": "6d9279ef980092b9",
+          "synthesis": "ad345dbdc1954e75",
+          "apply": "df0fc4e57b2af9e2"
+        },
+        "seeds": {
+          "run": 20260731
+        },
+        "thresholds_version": "1.2.0",
+        "privacy_gate": "pass",
+        "scrub_salt": "cix-20260731",
+        "corpus_clearance": "CFPB public domain — internal O2 track; substrate S2; complaint rubric calibration PENDING (pilot = shakedown)",
+        "created_at": "2026-08-06T21:14:25.047267+00:00",
+        "rubric_file": "complaint_rubric_v1.yaml",
+        "corpus_properties": {
+          "substrate_class": "S2",
+          "licence_tier": "public-domain",
+          "speaker_attribution": "none",
+          "economic_signal": "present",
+          "ivr_structure": "absent",
+          "source": {
+            "dataset": "CFPB Consumer Complaint Database (filtered)",
+            "csv": "/Users/vajrapani/corpora/open/cfpb/cfpb_narratives_filtered.csv"
+          },
+          "sampling": {
+            "company": "BANK OF AMERICA, NATIONAL ASSOCIATION",
+            "since": "2024-01-01",
+            "seed": 20260805,
+            "n": 2500
+          }
+        },
+        "substrate_class": "S2",
+        "skipped_items": [],
+        "artifacts": {
+          "labels": "1a3990f3a35e431b",
+          "hits": "41da5179ac774dd0"
+        },
+        "privacy_scan": {
+          "residual_scope": "email+phone",
+          "ner": "rules-only"
+        }
+      }
+    }
+  },
+  "manifest": {
+    "manifest_version": "1.0.0",
+    "corpus_hash": "b859ff9877d89708276f4ed6b1a0c59caf141b24a9e5e4811cb0b1534c490b64",
+    "canonical_hash": "1ec738d3e814fafa283f74e9239701c0c1a46fad17b37bfc63857830600303ad",
+    "index_version": "1.0.0",
+    "tag_vocab_version": "1.0.0",
+    "label_schema_version": "1.0.0",
+    "rubric_version": "1.0.0",
+    "catalogue_version": null,
+    "model_versions": {
+      "primary": "claude-opus-4-8"
+    },
+    "prompt_hashes": {
+      "labels": "575affe0f8cd9afc",
+      "hits": "6d9279ef980092b9",
+      "synthesis": "ad345dbdc1954e75",
+      "apply": "df0fc4e57b2af9e2"
+    },
+    "seeds": {
+      "run": 20260731
+    },
+    "thresholds_version": "1.2.0",
+    "privacy_gate": "pass",
+    "scrub_salt": "cix-20260731",
+    "corpus_clearance": "CFPB public domain — internal O2 track; substrate S2; complaint rubric calibration PENDING (pilot = shakedown)",
+    "created_at": "2026-08-06T21:14:25.047267+00:00",
+    "rubric_file": "complaint_rubric_v1.yaml",
+    "corpus_properties": {
+      "substrate_class": "S2",
+      "licence_tier": "public-domain",
+      "speaker_attribution": "none",
+      "economic_signal": "present",
+      "ivr_structure": "absent",
+      "source": {
+        "dataset": "CFPB Consumer Complaint Database (filtered)",
+        "csv": "/Users/vajrapani/corpora/open/cfpb/cfpb_narratives_filtered.csv"
+      },
+      "sampling": {
+        "company": "BANK OF AMERICA, NATIONAL ASSOCIATION",
+        "since": "2024-01-01",
+        "seed": 20260805,
+        "n": 2500
+      }
+    },
+    "substrate_class": "S2",
+    "skipped_items": [],
+    "artifacts": {
+      "labels": "1a3990f3a35e431b",
+      "hits": "41da5179ac774dd0"
+    },
+    "privacy_scan": {
+      "residual_scope": "email+phone",
+      "ner": "rules-only"
+    }
+  }
+}

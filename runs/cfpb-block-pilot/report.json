@@ -1,0 +1,608 @@
+{
+  "sections": {
+    "highlights": [
+      {
+        "item_id": "account_lockout",
+        "narrative": "Customers reported being locked out of their Cash App accounts due to account closures or blocks, often without any stated explanation. In several cases, funds remained trapped in the closed accounts, preventing customers from transferring their money to new or active accounts.",
+        "count": 379,
+        "share": 0.1516,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "discharged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-11389080:0000",
+            "start": 0,
+            "end": 316,
+            "text": "I'm XXXX XXXX my income taxes came to my cash app they closed my account an I have over XXXX XXXX  on my card ..I can't get in my cash app that is closed to transfer my money to my new cash app but someone needs to transfer my money to my new open account for cash app"
+          },
+          {
+            "interaction_id": "cfpb-14380468:0000",
+            "start": 0,
+            "end": 96,
+            "text": "Im just trying to get some help in figuring out why my cashapp account was blocked without an explanation??"
+          },
+          {
+            "interaction_id": "cfpb-8647427:0003",
+            "start": 0,
+            "end": 71,
+            "text": "I will attach a screenshot of the email saying they have closed my account."
+          }
+        ]
+      },
+      {
+        "item_id": "fee_dispute",
+        "narrative": "Customers report being charged fees they believed should not apply, including ATM charges that were supposed to be free, a ride that did not reflect a promised discount, and an undisclosed shipping fee that contradicted a free-shipping claim. The disputes center on fees appearing that were either previously waived, discounted, or never disclosed before the transaction completed.",
+        "count": 68,
+        "share": 0.0272,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "discharged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-11685108",
+            "start": 0,
+            "end": 0,
+            "text": "Cash and cost me sure be on each way from the ATM and from them so I got double bubble when it's supposed to be free"
+          },
+          {
+            "interaction_id": "cfpb-12952591",
+            "start": 7,
+            "end": 7,
+            "text": "Which should be impossible cause the ride was for XXXX and I was supposed to get 20 % off."
+          },
+          {
+            "interaction_id": "cfpb-12956195",
+            "start": 2,
+            "end": 2,
+            "text": "After the transaction was completed, the merchant refused to release the items unless I paid a nearly {$100.00} shipping feea fee that was never disclosed beforehand and directly contradicts the free shipping claim."
+          }
+        ]
+      },
+      {
+        "item_id": "fraud_victim_redirected",
+        "narrative": "Across the eligible interactions, a recurring pattern emerges in which customers who reported being fraud victims describe the platform as failing to take timely and effective measures to prevent and address fraud, leaving their accounts vulnerable and unprotected. The near-identical phrasing across submissions suggests these complaints followed a shared template or were redirected through a common intake channel rather than receiving individualized fraud remediation.",
+        "count": 1723,
+        "share": 0.6892,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-11618645",
+            "start": 0,
+            "end": 176,
+            "text": "Especially, Cash App failed to take timely and effective measures to prevent and address fraud on their platform, leaving my accounts vulnerable and unprotected."
+          },
+          {
+            "interaction_id": "cfpb-11671207",
+            "start": 0,
+            "end": 173,
+            "text": "Specifically, Cash App failed to take timely and effective measures to prevent address fraud on their platform, leaving my account vulnerable and unprotected."
+          },
+          {
+            "interaction_id": "cfpb-11804674",
+            "start": 0,
+            "end": 178,
+            "text": "Specifically, cash at failed to take timely and effective measure to prevent and address fraud on their platform, leaving my account vulnerable and unprotected."
+          }
+        ]
+      },
+      {
+        "item_id": "funds_frozen_or_held",
+        "narrative": "Across the eligible interactions, customers reported that their funds were frozen, held, or otherwise inaccessible, including cases where money was taken from a linked account and cases where a provider kept an old account locked while opening a new one. Customers described being unable to access or transfer their funds, sometimes with pending statuses or unexplained reasons given by the provider.",
+        "count": 466,
+        "share": 0.1864,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "discharged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-10440428:0008",
+            "start": 0,
+            "end": 25,
+            "text": "The XXXX is still pending."
+          },
+          {
+            "interaction_id": "cfpb-16403526:0000",
+            "start": 0,
+            "end": 108,
+            "text": "i linked both my cash app account and XXXX  account in XX/XX/XXXX XXXX took XXXX fron me account."
+          },
+          {
+            "interaction_id": "cfpb-22652866:0004",
+            "start": 0,
+            "end": 293,
+            "text": "They've told me that both accounts are mine the same customer and are allowing me to keep the new account open and running, and are unable to transfer my funds to the new account and are unable to give me access to the old account because of a reason unknown."
+          }
+        ]
+      },
+      {
+        "item_id": "misapplied_payment",
+        "narrative": "The misapplied_payment rubric item captures interactions where customers report that funds they transferred were not applied to the intended account or destination. Complaints describe balances being framed to the wrong account, transfers not received, and funds that did not transfer into the customer's account. These snippets reflect disputes over where and whether payments landed rather than confirmation of the underlying cause.",
+        "count": 84,
+        "share": 0.0336,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "discharged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-13463385",
+            "start": 3,
+            "end": 3,
+            "text": "Instead you illegally framed the balance to my CashApp account which is illegal and prohibited."
+          },
+          {
+            "interaction_id": "cfpb-16027743",
+            "start": 0,
+            "end": 0,
+            "text": "- Unforced rental scam back in early 2024- XXXX XXXX XXXX  transfer not received probably due to a big corporate event"
+          },
+          {
+            "interaction_id": "cfpb-19704204",
+            "start": 0,
+            "end": 0,
+            "text": "On XX/XX/year> I transferred {$990.00} ... from my cash app account to my XXXX  XXXX XXXX account and the funds did not transfer into my account."
+          }
+        ]
+      },
+      {
+        "item_id": "remediation_denied",
+        "narrative": "Across the flagged interactions, customers report that requests for remediation—refunds, dispute resolution, or reversal of unauthorized transactions—were denied or closed without adequate review. Several describe submitting evidence or explanations that were not meaningfully considered before the denial was issued, and others cite an inability to reach a human agent for help. The pattern reflects denied remediation despite customer-provided documentation or repeated escalation attempts.",
+        "count": 596,
+        "share": 0.2384,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "discharged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-11826994",
+            "start": 0,
+            "end": 138,
+            "text": "Unauthorized use and selling if personal information, money lost and not refunded with no help from a real person, no answers or help to questions or concerns, etc."
+          },
+          {
+            "interaction_id": "cfpb-16902242",
+            "start": 1,
+            "end": 150,
+            "text": "Afterpay closed my dispute without ever reviewing the tracking evidence I submitted, which clearly proves the product was never shipped."
+          }
+        ]
+      },
+      {
+        "item_id": "repeat_complaint_unresolved",
+        "narrative": "Customers repeatedly contacted support about the same unresolved issue — deactivated accounts, unexplained suspensions, and fraud reports — without receiving resolution or follow-up. Multiple interactions show cases being opened or reported several times while the underlying problem persisted, and customers described difficulty reaching an agent or getting any status update.",
+        "count": 315,
+        "share": 0.126,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "discharged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-11634953:0001",
+            "start": 0,
+            "end": 620,
+            "text": "XXXX are XXXX games i used to play but when i won and never received the money i had my account deactivated. somehow both sites are still charging and getting money out of my bank, XXXX & XXXX XXXX when i contacted cash app about it over 2 hours on the phone claiming she was disputing & they said they will do an investigation the call got disconnected when i called back a guy said they do not do disputes over the phone i never heard back so i followed up and still nothing. ontop of not helping it is nearly impossible to get in touch with any agent."
+          },
+          {
+            "interaction_id": "cfpb-14682319:0008",
+            "start": 0,
+            "end": 268,
+            "text": "Fast forward 2 weeks later I still dont have access to my account and have not received any update regarding my account status theyve continued to open cases when I complain to them asking why the suspension and why its been several weeks and I havent heard anything."
+          },
+          {
+            "interaction_id": "cfpb-19077712:0004",
+            "start": 0,
+            "end": 116,
+            "text": "I reported this transaction as fraud six ( 6 ) times, including two ( 2 ) phone calls with Cash App support."
+          }
+        ]
+      },
+      {
+        "item_id": "resolution_acknowledged",
+        "narrative": "Interactions flagged under \"resolution_acknowledged\" reflect customers acknowledging that a partial resolution occurred, typically a subset of disputed charges being refunded, while the remainder were denied or unresolved. In each case the customer confirms receipt of some remediation but describes the outcome as incomplete, with additional charges left unaddressed, appeals denied, or accounts left negative or closed. The acknowledgment of partial refund is paired with a statement of dissatisfaction about the remaining unresolved amounts.",
+        "count": 41,
+        "share": 0.0164,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "discharged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-15189921:0000",
+            "start": 0,
+            "end": 199,
+            "text": "I verified my identity and a month later I started getting unauthorized uses on my card they gave my money back but now my account is negative and I dont want to dispute the rest of the unauthorized charges."
+          },
+          {
+            "interaction_id": "cfpb-17031741:0015",
+            "start": 0,
+            "end": 209,
+            "text": "While a few transactions were refunded, many were denied despite providing substantial evidence, including receipts, location proof, geofencing laws and regulations proving the transactions should not have even been made possible during this time, by law."
+          },
+          {
+            "interaction_id": "cfpb-22756331:0005",
+            "start": 0,
+            "end": 254,
+            "text": "I told them exactly the reasons why I was disputing the charges because I was scammed into believing they were legitimate casino, cash app refunded some of the charges to nine most of them, deny my appeals, and then closed out my account, saying, I violated their terms."
+          }
+        ]
+      },
+      {
+        "item_id": "unresponsive_support",
+        "narrative": "Across the flagged interactions, customers reported an inability to obtain meaningful engagement from support, citing absent supervisors, restricted email-only channels, and a lack of updates or substantive responses to their inquiries. Several described pending investigations or manual review requests that went unanswered, leaving them without explanations or promised credits.",
+        "count": 591,
+        "share": 0.2364,
+        "denominator": "2500 eligible interactions",
+        "unit": "interaction",
+        "remedy": "none yet",
+        "mechanism_status": "undischarged",
+        "evidence": [
+          {
+            "interaction_id": "cfpb-11316787",
+            "start": 2,
+            "end": 2,
+            "text": "They had no supervisors to speak with and said they ONLY handle these things via email."
+          },
+          {
+            "interaction_id": "cfpb-14220848",
+            "start": 7,
+            "end": 7,
+            "text": "I never received the temporary provisional credit nor have I received an update from Cash app in regard to the ongoing investigation."
+          },
+          {
+            "interaction_id": "cfpb-18375371",
+            "start": 7,
+            "end": 7,
+            "text": "I have requested a manual review through Cash App support but have not received a substantive response or explanation."
+          }
+        ]
+      }
+    ],
+    "whats_working": [
+      {
+        "item_id": "resolution_acknowledged",
+        "narrative": "Interactions flagged under \"resolution_acknowledged\" reflect customers acknowledging that a partial resolution occurred, typically a subset of disputed charges being refunded, while the remainder were denied or unresolved. In each case the customer confirms receipt of some remediation but describes the outcome as incomplete, with additional charges left unaddressed, appeals denied, or accounts left negative or closed. The acknowledgment of partial refund is paired with a statement of dissatisfaction about the remaining unresolved amounts."
+      }
+    ],
+    "leverage": {
+      "grid": [],
+      "shelf": [
+        {
+          "item_id": "account_lockout",
+          "count": 379,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "fee_dispute",
+          "count": 68,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "fraud_victim_redirected",
+          "count": 1723,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "funds_frozen_or_held",
+          "count": 466,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "misapplied_payment",
+          "count": 84,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "remediation_denied",
+          "count": 596,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "repeat_complaint_unresolved",
+          "count": 315,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "resolution_acknowledged",
+          "count": 41,
+          "unit": "interaction"
+        },
+        {
+          "item_id": "unresponsive_support",
+          "count": 591,
+          "unit": "interaction"
+        }
+      ],
+      "note": "No catalogue loaded: all findings on the 'no known remedy yet' shelf."
+    },
+    "priced_plays": {
+      "plays": [],
+      "note": "No catalogue loaded — no priced view in this run."
+    },
+    "distribution": {
+      "items": {
+        "account_lockout": {
+          "unit": "interaction",
+          "count": 379,
+          "share": 0.1516,
+          "denominator": "2500 eligible interactions"
+        },
+        "fee_dispute": {
+          "unit": "interaction",
+          "count": 68,
+          "share": 0.0272,
+          "denominator": "2500 eligible interactions"
+        },
+        "fraud_victim_redirected": {
+          "unit": "interaction",
+          "count": 1723,
+          "share": 0.6892,
+          "denominator": "2500 eligible interactions"
+        },
+        "funds_frozen_or_held": {
+          "unit": "interaction",
+          "count": 466,
+          "share": 0.1864,
+          "denominator": "2500 eligible interactions"
+        },
+        "misapplied_payment": {
+          "unit": "interaction",
+          "count": 84,
+          "share": 0.0336,
+          "denominator": "2500 eligible interactions"
+        },
+        "remediation_denied": {
+          "unit": "interaction",
+          "count": 596,
+          "share": 0.2384,
+          "denominator": "2500 eligible interactions"
+        },
+        "repeat_complaint_unresolved": {
+          "unit": "interaction",
+          "count": 315,
+          "share": 0.126,
+          "denominator": "2500 eligible interactions"
+        },
+        "resolution_acknowledged": {
+          "unit": "interaction",
+          "count": 41,
+          "share": 0.0164,
+          "denominator": "2500 eligible interactions"
+        },
+        "unresponsive_support": {
+          "unit": "interaction",
+          "count": 591,
+          "share": 0.2364,
+          "denominator": "2500 eligible interactions"
+        }
+      },
+      "rank_by_unit": {
+        "interaction": [
+          [
+            "fraud_victim_redirected",
+            1723
+          ],
+          [
+            "remediation_denied",
+            596
+          ],
+          [
+            "unresponsive_support",
+            591
+          ],
+          [
+            "funds_frozen_or_held",
+            466
+          ],
+          [
+            "account_lockout",
+            379
+          ],
+          [
+            "repeat_complaint_unresolved",
+            315
+          ],
+          [
+            "misapplied_payment",
+            84
+          ],
+          [
+            "fee_dispute",
+            68
+          ],
+          [
+            "resolution_acknowledged",
+            41
+          ]
+        ]
+      },
+      "interaction_coverage": 0.9484,
+      "residual_interactions": 129,
+      "eligible_interactions": 2500
+    },
+    "method": {
+      "validations": [
+        {
+          "n": 1,
+          "check": "T-AGR",
+          "item_id": "motion",
+          "status": "agree",
+          "detail": "agreement 1.00 on n=6"
+        },
+        {
+          "n": 2,
+          "check": "T-AGR",
+          "item_id": "driver_origin",
+          "status": "agree",
+          "detail": "agreement 1.00 on n=6"
+        },
+        {
+          "n": 3,
+          "check": "T-AGR",
+          "item_id": "automatability",
+          "status": "agree",
+          "detail": "agreement 1.00 on n=6"
+        },
+        {
+          "n": 4,
+          "check": "T-AGR",
+          "item_id": "outcome",
+          "status": "unstable",
+          "detail": "agreement 0.67 on n=6"
+        },
+        {
+          "n": 5,
+          "check": "T-SPLIT",
+          "item_id": null,
+          "status": "stable",
+          "detail": "top-2 ranks agree across halves"
+        },
+        {
+          "n": 6,
+          "check": "T-PARA",
+          "item_id": null,
+          "status": "not_run",
+          "detail": "no paraphrase set for rubric 1.0.0"
+        },
+        {
+          "n": 7,
+          "check": "SECOND-LAB-SEAT",
+          "item_id": null,
+          "status": "agree",
+          "detail": "second-lab agreement 0.88 on n=8"
+        },
+        {
+          "n": 8,
+          "check": "T-DROP",
+          "item_id": null,
+          "status": "pass",
+          "detail": "drop rate 0.000 over 35 candidate claims"
+        }
+      ],
+      "drop_summary": {
+        "candidate_claims": 35,
+        "quote_drops": 0,
+        "stat_drops": 0
+      },
+      "drops": [],
+      "manifest": {
+        "manifest_version": "1.0.0",
+        "corpus_hash": "696b9b00b32b9876954e9b76cf1105cf773ef261f1b3b7dbd6fd395b4c35a129",
+        "canonical_hash": "fadfaeb7906e668962f6df4b0d2a36f716304f394f229927c0312b7527c3c3b9",
+        "index_version": "1.0.0",
+        "tag_vocab_version": "1.0.0",
+        "label_schema_version": "1.0.0",
+        "rubric_version": "1.0.0",
+        "catalogue_version": null,
+        "model_versions": {
+          "primary": "claude-opus-4-8"
+        },
+        "prompt_hashes": {
+          "labels": "575affe0f8cd9afc",
+          "hits": "6d9279ef980092b9",
+          "synthesis": "ad345dbdc1954e75",
+          "apply": "df0fc4e57b2af9e2"
+        },
+        "seeds": {
+          "run": 20260731
+        },
+        "thresholds_version": "1.2.0",
+        "privacy_gate": "pass",
+        "scrub_salt": "cix-20260731",
+        "corpus_clearance": "CFPB public domain — internal O2 track; substrate S2; complaint rubric calibration PENDING (pilot = shakedown)",
+        "created_at": "2026-08-06T17:35:03.969302+00:00",
+        "rubric_file": "complaint_rubric_v1.yaml",
+        "corpus_properties": {
+          "substrate_class": "S2",
+          "licence_tier": "public-domain",
+          "speaker_attribution": "none",
+          "economic_signal": "present",
+          "ivr_structure": "absent",
+          "source": {
+            "dataset": "CFPB Consumer Complaint Database (filtered)",
+            "csv": "/Users/vajrapani/corpora/open/cfpb/cfpb_narratives_filtered.csv"
+          },
+          "sampling": {
+            "company": "Block, Inc.",
+            "since": "2024-01-01",
+            "seed": 20260805,
+            "n": 2500
+          }
+        },
+        "substrate_class": "S2",
+        "skipped_items": [],
+        "artifacts": {
+          "labels": "05fe7f0fdf8b4ae2",
+          "hits": "55ffe89a94330b4c"
+        },
+        "privacy_scan": {
+          "residual_scope": "email+phone",
+          "ner": "rules-only"
+        }
+      }
+    }
+  },
+  "manifest": {
+    "manifest_version": "1.0.0",
+    "corpus_hash": "696b9b00b32b9876954e9b76cf1105cf773ef261f1b3b7dbd6fd395b4c35a129",
+    "canonical_hash": "fadfaeb7906e668962f6df4b0d2a36f716304f394f229927c0312b7527c3c3b9",
+    "index_version": "1.0.0",
+    "tag_vocab_version": "1.0.0",
+    "label_schema_version": "1.0.0",
+    "rubric_version": "1.0.0",
+    "catalogue_version": null,
+    "model_versions": {
+      "primary": "claude-opus-4-8"
+    },
+    "prompt_hashes": {
+      "labels": "575affe0f8cd9afc",
+      "hits": "6d9279ef980092b9",
+      "synthesis": "ad345dbdc1954e75",
+      "apply": "df0fc4e57b2af9e2"
+    },
+    "seeds": {
+      "run": 20260731
+    },
+    "thresholds_version": "1.2.0",
+    "privacy_gate": "pass",
+    "scrub_salt": "cix-20260731",
+    "corpus_clearance": "CFPB public domain — internal O2 track; substrate S2; complaint rubric calibration PENDING (pilot = shakedown)",
+    "created_at": "2026-08-06T17:35:03.969302+00:00",
+    "rubric_file": "complaint_rubric_v1.yaml",
+    "corpus_properties": {
+      "substrate_class": "S2",
+      "licence_tier": "public-domain",
+      "speaker_attribution": "none",
+      "economic_signal": "present",
+      "ivr_structure": "absent",
+      "source": {
+        "dataset": "CFPB Consumer Complaint Database (filtered)",
+        "csv": "/Users/vajrapani/corpora/open/cfpb/cfpb_narratives_filtered.csv"
+      },
+      "sampling": {
+        "company": "Block, Inc.",
+        "since": "2024-01-01",
+        "seed": 20260805,
+        "n": 2500
+      }
+    },
+    "substrate_class": "S2",
+    "skipped_items": [],
+    "artifacts": {
+      "labels": "05fe7f0fdf8b4ae2",
+      "hits": "55ffe89a94330b4c"
+    },
+    "privacy_scan": {
+      "residual_scope": "email+phone",
+      "ner": "rules-only"
+    }
+  }
+}

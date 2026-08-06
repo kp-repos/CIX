@@ -1,0 +1,55 @@
+{
+  "manifest_version": "1.0.0",
+  "corpus_hash": "696b9b00b32b9876954e9b76cf1105cf773ef261f1b3b7dbd6fd395b4c35a129",
+  "canonical_hash": "fadfaeb7906e668962f6df4b0d2a36f716304f394f229927c0312b7527c3c3b9",
+  "index_version": "1.0.0",
+  "tag_vocab_version": "1.0.0",
+  "label_schema_version": "1.0.0",
+  "rubric_version": "1.0.0",
+  "catalogue_version": null,
+  "model_versions": {
+    "primary": "claude-opus-4-8"
+  },
+  "prompt_hashes": {
+    "labels": "575affe0f8cd9afc",
+    "hits": "6d9279ef980092b9",
+    "synthesis": "ad345dbdc1954e75",
+    "apply": "df0fc4e57b2af9e2"
+  },
+  "seeds": {
+    "run": 20260731
+  },
+  "thresholds_version": "1.2.0",
+  "privacy_gate": "pass",
+  "scrub_salt": "cix-20260731",
+  "corpus_clearance": "CFPB public domain — internal O2 track; substrate S2; complaint rubric calibration PENDING (pilot = shakedown)",
+  "created_at": "2026-08-06T17:35:03.969302+00:00",
+  "rubric_file": "complaint_rubric_v1.yaml",
+  "corpus_properties": {
+    "substrate_class": "S2",
+    "licence_tier": "public-domain",
+    "speaker_attribution": "none",
+    "economic_signal": "present",
+    "ivr_structure": "absent",
+    "source": {
+      "dataset": "CFPB Consumer Complaint Database (filtered)",
+      "csv": "/Users/vajrapani/corpora/open/cfpb/cfpb_narratives_filtered.csv"
+    },
+    "sampling": {
+      "company": "Block, Inc.",
+      "since": "2024-01-01",
+      "seed": 20260805,
+      "n": 2500
+    }
+  },
+  "substrate_class": "S2",
+  "skipped_items": [],
+  "artifacts": {
+    "labels": "05fe7f0fdf8b4ae2",
+    "hits": "55ffe89a94330b4c"
+  },
+  "privacy_scan": {
+    "residual_scope": "email+phone",
+    "ner": "rules-only"
+  }
+}

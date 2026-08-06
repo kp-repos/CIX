@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html><head><meta charset='utf-8'>
+<style>
+body{font-family:Helvetica,Arial,sans-serif;color:#1a1a1a;max-width:960px;margin:2rem auto;line-height:1.5}
+h1{font-size:1.6rem;margin-bottom:.2rem}
+.banner{background:#fef3c7;border:1px solid #f59e0b;padding:.5rem .8rem;border-radius:6px;font-size:.85rem;margin:.6rem 0}
+.reveal{background:#fee2e2;border:1px solid #ef4444;padding:.6rem .9rem;border-radius:6px;margin:.8rem 0}
+h2{font-size:1.15rem;border-bottom:2px solid #e5e7eb;padding-bottom:.2rem;margin-top:1.6rem}
+.headline{background:#f0f9ff;border:1px solid #bae6fd;padding:.8rem 1rem;border-radius:8px;margin:.8rem 0}
+.big{font-size:1.3rem;font-weight:700}
+table{border-collapse:collapse;width:100%;font-size:.9rem;margin:.6rem 0}
+th,td{text-align:left;padding:.4rem .5rem;border-bottom:1px solid #e5e7eb;vertical-align:top}
+.muted{color:#6b7280;font-size:.85rem}
+</style></head><body>
+<h1>Comparative Review — Block, Inc. vs Bank of America</h1>
+<div class='banner'>Substrate class S2 · rubric complaint_rubric_v1.yaml v1.0.0 · A: CFPB public domain — internal O2 track; substrate S2; complaint rubric calibration PENDING (pilot = shakedown) · B: CFPB public domain — internal O2 track; substrate S2; complaint rubric calibration PENDING (pilot = shakedown)</div>
+<h2>Headline</h2><div class='headline'>
+<div class='big'>Block, Inc.: 2211/2500 · Bank of America: 1745/2500 — 1.26× apart</div>
+<div class='muted'>complaints described losing money or access without remedy · distinct interactions matching &gt;=1 member pattern (union over hits), interaction-unit only · resolve per run with cix query &lt;run_dir&gt; --metric unremediated_loss_rate</div>
+</div>
+<h2>Pattern rank order</h2><table>
+<tr><th>Pattern</th><th>Block, Inc. rank · share</th><th>Bank of America rank · share</th><th>Ratio</th></tr>
+<tr><td><b>Fraud victims turned away</b></td><td>#1 · 68.9% (1723)</td><td>#2 · 38.4% (961)</td><td>1.79×</td></tr>
+<tr><td><b>Refunds refused</b></td><td>#2 · 23.8% (596)</td><td>#1 · 39.4% (984)</td><td>0.61×</td></tr>
+<tr><td><b>Support that doesn't answer</b></td><td>#3 · 23.6% (591)</td><td>#4 · 24.6% (615)</td><td>0.96×</td></tr>
+<tr><td><b>Frozen funds and blocked accounts</b></td><td>#4 · 18.6% (466)</td><td>#5 · 21.6% (541)</td><td>0.86×</td></tr>
+<tr><td><b>Lockouts with no recovery path</b></td><td>#5 · 15.2% (379)</td><td>#8 · 6.9% (173)</td><td>2.19×</td></tr>
+<tr><td><b>Repeat complaints on unresolved issues</b></td><td>#6 · 12.6% (315)</td><td>#3 · 26.1% (653)</td><td>0.48×</td></tr>
+<tr><td><b>Payments not credited</b></td><td>#7 · 3.4% (84)</td><td>#7 · 8.7% (217)</td><td>0.39×</td></tr>
+<tr><td><b>Disputed fees</b></td><td>#8 · 2.7% (68)</td><td>#6 · 12.6% (316)</td><td>0.22×</td></tr>
+</table>
+<h2>Where the operations diverge most</h2><ul>
+<li><b>Fraud victims turned away</b> — 68.9% vs 38.4% (gap 30.5% pts)</li>
+<li><b>Refunds refused</b> — 23.8% vs 39.4% (gap 15.5% pts)</li>
+<li><b>Repeat complaints on unresolved issues</b> — 12.6% vs 26.1% (gap 13.5% pts)</li>
+<li><b>Disputed fees</b> — 2.7% vs 12.6% (gap 9.9% pts)</li>
+<li><b>Lockouts with no recovery path</b> — 15.2% vs 6.9% (gap 8.2% pts)</li>
+</ul>
+<p class='muted'>Showing the top 5 of 8 compared patterns by share gap.</p>
+<h2>The reveal</h2>
+<div class='reveal'><b>WITHHELD GROUND TRUTH — never seen by the model. `Company response to consumer` was diverted to a sealed sidecar at ingest and is unsealed here, post-run, for validation only.</b>
+<p><b>Block, Inc.</b>: monetary-relief rate 0.2% over n=2500 withheld labels.
+</p>
+<p><b>Bank of America</b>: monetary-relief rate 30.2% over n=2500 withheld labels.
+</p>
+</div>
+<h2>Trust</h2>
+<p class='muted'><b>Block, Inc.</b>: 95% of 2500 eligible interactions read; honesty: CFPB public domain — internal O2 track; substrate S2; complaint rubric calibration PENDING (pilot = shakedown)</p>
+<p class='muted'><b>Bank of America</b>: 82% of 2500 eligible interactions read; honesty: CFPB public domain — internal O2 track; substrate S2; complaint rubric calibration PENDING (pilot = shakedown)</p>
+</body></html>
