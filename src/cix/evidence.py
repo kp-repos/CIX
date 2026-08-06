@@ -2,8 +2,18 @@ from cix.store import Store
 
 def _quote_ok(store: Store, q: dict) -> bool:
     """R-EVD-1 component: quoted text must appear verbatim as a full snippet text,
-    or exactly equal the newline-join of the cited contiguous span."""
-    span = store.span(q["interaction_id"], q["start"], q["end"])
+    or exactly equal the newline-join of the cited contiguous span.
+
+    Synthesis asks for an interaction_id, but the model sometimes returns the snippet id
+    it was shown in the evidence block (e.g. "cfpb-123:0004"). Resolve such a snippet id
+    back to its interaction so a verbatim quote isn't dropped on an id-field technicality.
+    This changes no verification semantics — the quote must still equal a whole snippet (or
+    the cited span-join); a fabricated quote still matches nothing and drops."""
+    interaction_id = q["interaction_id"]
+    snip = store.snippet(interaction_id)          # non-None iff the model gave a snippet id
+    if snip is not None:
+        interaction_id = snip["interaction_id"]
+    span = store.span(interaction_id, q["start"], q["end"])
     if not span:
         return False
     joined = "\n".join(s["text"] for s in span)
