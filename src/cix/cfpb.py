@@ -61,6 +61,9 @@ def read_filtered(csv_path: Path, company: str, since: str) -> tuple[list[dict],
                          "narrative": narrative, "product": r.get("Product", ""),
                          "issue": r.get("Issue", ""),
                          "outcome": r["Company response to consumer"]})
+    # Lexical (string) sort, not numeric — deterministic and reproducible, though
+    # surprising for numeric IDs. Dedup "first id wins" and stratified sampling both
+    # ride on this order; intentional (reproducibility over numeric intuition).
     rows.sort(key=lambda r: r["complaint_id"])
     return rows, dict(drops)
 

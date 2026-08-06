@@ -96,6 +96,21 @@ def test_reveal_block_computes_relief_rates_and_banner():
     assert "never seen by the model" in r["banner"]
     assert r["a"]["n"] == 4 and r["a"]["responses"]["Closed with explanation"] == 3
 
+def test_reveal_flags_missing_relief_key():
+    # A side whose labels never contain the exact RELIEF string but has n>0:
+    r = reveal_block({"i1": "Closed with explanation", "i2": "In progress"},
+                     {"j1": "Closed with monetary relief"})
+    assert r["a"]["relief_key_present"] is False and r["a"]["n"] == 2
+    assert r["a"]["monetary_relief_rate"] == 0.0
+    assert r["b"]["relief_key_present"] is True
+    # and the HTML surfaces the caveat for side A
+    a, b = _two_sides()
+    c = build_compare(a, b, _cfg())
+    c["reveal"] = reveal_block({"i1": "Closed with explanation", "i2": "In progress"},
+                               {"j1": "Closed with monetary relief"})
+    html = render_compare_html(c)
+    assert "may have changed" in html
+
 def test_render_compare_html_contains_banner_names_and_reveal():
     a, b = _two_sides()
     c = build_compare(a, b, _cfg())

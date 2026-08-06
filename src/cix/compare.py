@@ -97,8 +97,10 @@ def reveal_block(labels_a: dict, labels_b: dict) -> dict:
         for v in labels.values():
             responses[v] = responses.get(v, 0) + 1
         relief = responses.get(RELIEF, 0)
+        relief_key_present = RELIEF in responses
         return {"n": n, "responses": dict(sorted(responses.items())),
-                "monetary_relief_rate": round(relief / n, 4) if n else None}
+                "monetary_relief_rate": round(relief / n, 4) if n else None,
+                "relief_key_present": relief_key_present}
     return {"banner": ("WITHHELD GROUND TRUTH — never seen by the model. "
                        "`Company response to consumer` was diverted to a sealed sidecar "
                        "at ingest and is unsealed here, post-run, for validation only."),
@@ -154,7 +156,7 @@ def render_compare_html(c: dict) -> str:
     div_total = c["divergence"]["total"]
     for d in div_rows:
         out.append(f"<li><b>{_esc(d['label'])}</b> — {_pct(d['share_a'])} vs "
-                   f"{_pct(d['share_b'])} (gap {_pct(d['abs_gap'])})</li>")
+                   f"{_pct(d['share_b'])} (gap {_pct(d['abs_gap'])} pts)</li>")
     out.append("</ul>")
     if div_total > len(div_rows):
         out.append(f"<p class='muted'>Showing the top {len(div_rows)} of {div_total} "
@@ -166,7 +168,12 @@ def render_compare_html(c: dict) -> str:
         for key, side_meta in (("a", a), ("b", b)):
             s = rev[key]
             out.append(f"<p><b>{_esc(side_meta['name'])}</b>: monetary-relief rate "
-                       f"{_pct(s['monetary_relief_rate'])} over n={s['n']} withheld labels.</p>")
+                       f"{_pct(s['monetary_relief_rate'])} over n={s['n']} withheld labels.")
+            if s["n"] > 0 and not s.get("relief_key_present", False):
+                out.append(f"<span class='muted'>(no \"{_esc(RELIEF)}\" value seen in "
+                           f"{s['n']} labels — the CFPB response vocabulary may have "
+                           f"changed; 0% may be an artifact, not a finding)</span>")
+            out.append("</p>")
         out.append("</div>")
     else:
         out.append("<p class='muted'>Reveal not run — no sealed sidecar was supplied "
