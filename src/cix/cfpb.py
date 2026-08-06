@@ -99,6 +99,35 @@ def sample_stratified(rows: list[dict], n: int, seed: int) -> list[dict]:
         out.extend(rng.sample(pool, min(alloc[m], len(pool))))
     return sorted(out, key=lambda r: r["complaint_id"])
 
+# Sentence boundary: a `.`/`?`/`!` followed by whitespace and the start of the next
+# sentence. The lookahead requires an alphanumeric/quote/paren opener so mid-sentence dots
+# — `{$1,234.00}`, `XX/XX/XXXX`, abbreviations — do NOT split (their '.' is followed by a
+# digit or '}' , not whitespace+opener).
+_SENT_SPLIT = re.compile(r"(?<=[.!?])\s+(?=[A-Z0-9\"'(])")
+_MAX_SNIPPET_CHARS = 600
+
+def segment_narrative(text: str, max_chars: int = _MAX_SNIPPET_CHARS) -> list[str]:
+    """Split a monologue complaint into sentence-level segments (one per snippet at
+    chunking, R-IDX-1). The frozen evidence gate matches a quote against a WHOLE snippet;
+    a single-segment narrative is one giant snippet no excerpt can equal, so synthesis
+    quotes all drop (T-DROP release_block). Sentence granularity restores the short,
+    quotable-unit shape the gate was built for (a conversational turn). Content is
+    preserved in order; over-long run-ons are hard-capped so every snippet stays quotable."""
+    segs: list[str] = []
+    for part in _SENT_SPLIT.split(text.strip()):
+        part = part.strip()
+        if not part:
+            continue
+        while len(part) > max_chars:
+            cut = part.rfind(" ", 0, max_chars)
+            if cut <= 0:
+                cut = max_chars
+            segs.append(part[:cut].strip())
+            part = part[cut:].strip()
+        if part:
+            segs.append(part)
+    return segs or [text.strip()]
+
 def write_corpus(rows: list[dict], out_dir: Path, company: str, since: str,
                  seed: int, source_csv: str) -> dict:
     """Write the standard corpus layout:
@@ -114,9 +143,12 @@ def write_corpus(rows: list[dict], out_dir: Path, company: str, since: str,
         labels[uid] = r["outcome"]
         # WITHHOLDING BOUNDARY (§3.2): build the unit from a fixed key set — never spread
         # `r`, or `outcome`/`product`/`issue` would leak into what the pipeline & models read.
+        # Segment the monologue into sentences so each becomes one quotable snippet (see
+        # segment_narrative) — otherwise the evidence gate can't match excerpt quotes.
         unit = {"id": uid, "source_type": "note", "participants": [],
                 "date": r["date"], "account_id": None, "thread_id": None,
-                "segments": [{"speaker": None, "ts": None, "text": r["narrative"]}]}
+                "segments": [{"speaker": None, "ts": None, "text": s}
+                             for s in segment_narrative(r["narrative"])]}
         (units_dir / f"{uid}.json").write_text(
             json.dumps(unit, indent=2, ensure_ascii=False), encoding="utf-8")
     (Path(out_dir) / "holdout_labels.json").write_text(

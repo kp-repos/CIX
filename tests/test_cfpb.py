@@ -152,3 +152,44 @@ def test_outcome_label_never_reaches_the_store(tmp_path):
     blob = db.read_bytes()
     assert b"monetary relief" not in blob
     assert b"Closed with explanation" not in blob
+
+
+# --- sentence segmentation (evidence-gate fix): a monologue narrative must become
+# multiple short segments so the chunker yields quotable snippets. A single giant
+# snippet can never equal an excerpt, so synthesis quotes would all drop (release_block).
+from cix.cfpb import segment_narrative
+
+def test_segment_narrative_splits_on_sentence_boundaries():
+    text = "They closed my account without warning. I asked for evidence. Nobody replied to me."
+    segs = segment_narrative(text)
+    assert segs == ["They closed my account without warning.",
+                    "I asked for evidence.",
+                    "Nobody replied to me."]
+
+def test_segment_narrative_single_sentence_is_one_segment():
+    # Preserves the existing single-sentence fixtures' behavior.
+    assert segment_narrative("Charged twice, refund refused.") == ["Charged twice, refund refused."]
+
+def test_segment_narrative_caps_long_runons_into_quotable_chunks():
+    text = ("word " * 400).strip()   # ~2000 chars, no sentence punctuation
+    segs = segment_narrative(text, max_chars=600)
+    assert len(segs) >= 3
+    assert all(len(s) <= 600 for s in segs)
+
+def test_segment_narrative_currency_and_redaction_do_not_oversplit():
+    # {$1,234.00} has a '.' not followed by whitespace+capital -> must NOT split there.
+    text = "I was charged {$1,234.00} by XXXX. That fee was never disclosed."
+    segs = segment_narrative(text)
+    assert segs == ["I was charged {$1,234.00} by XXXX.", "That fee was never disclosed."]
+
+def test_write_corpus_segments_multi_sentence_narrative(tmp_path):
+    rows = [{"complaint_id": "301", "date": "2024-05-01",
+             "narrative": "Cash App froze my funds. I could not access my paycheck. Support never answered.",
+             "product": "Money transfer", "issue": "Fraud",
+             "outcome": "Closed with explanation"}]
+    out = tmp_path / "corpus"
+    write_corpus(rows, out, company="Block, Inc.", since="2024-01-01", seed=1, source_csv="x.csv")
+    units = load_corpus(out / "units")
+    assert len(units[0].segments) == 3                          # one quotable snippet per sentence
+    assert all(len(s.text) < 200 for s in units[0].segments)
+    assert "explanation" not in (out / "units" / "cfpb-301.json").read_text()  # outcome still withheld
